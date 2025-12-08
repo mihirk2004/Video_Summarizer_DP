@@ -1,0 +1,10 @@
+1. https://github.com/Dod-o/VT-SSum based on "VT-SSum: A Benchmark Dataset for Video Transcript Segmentation and Summarization" this paper.(1st Dataset)
+
+2. https://huggingface.co/datasets/retkowski/ytseg#audio-data based on this "From Text Segmentation to Smart Chaptering" paper.(2nd Dataset)
+
+3. More about ResNet50 "https://wisdomml.in/understanding-resnet-50-in-depth-architecture-skip-connections-and-advantages-over-other-networks/"
+GitHub Learning Source - "https://github.com/aladdinpersson/Machine-Learning-Collection?tab=readme-ov-file"s
+
+DeepSeek Chat Link - https://chat.deepseek.com/share/hrxrtqn94uy64wf4f9
+
+Research Paper not readed complety will be helpful - 2,6,7,10,11,12,13.
