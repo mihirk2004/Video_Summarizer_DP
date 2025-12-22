@@ -18,6 +18,8 @@ from ultralytics import YOLO
 import torch
 import clip
 from typing import Dict, List, Any
+from skimage.metrics import structural_similarity as ssim
+
 
 # Configuration
 class Config:
