@@ -1,0 +1,4860 @@
+[
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000001.jpg",
+      "timestamp": 1.0,
+      "video_id": "lecture_001",
+      "frame_index": 1
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000002.jpg",
+      "timestamp": 2.0,
+      "video_id": "lecture_001",
+      "frame_index": 2
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000003.jpg",
+      "timestamp": 3.0,
+      "video_id": "lecture_001",
+      "frame_index": 3
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000004.jpg",
+      "timestamp": 4.0,
+      "video_id": "lecture_001",
+      "frame_index": 4
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000005.jpg",
+      "timestamp": 5.0,
+      "video_id": "lecture_001",
+      "frame_index": 5
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000006.jpg",
+      "timestamp": 6.0,
+      "video_id": "lecture_001",
+      "frame_index": 6
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000007.jpg",
+      "timestamp": 7.0,
+      "video_id": "lecture_001",
+      "frame_index": 7
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000008.jpg",
+      "timestamp": 8.0,
+      "video_id": "lecture_001",
+      "frame_index": 8
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000009.jpg",
+      "timestamp": 9.0,
+      "video_id": "lecture_001",
+      "frame_index": 9
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000010.jpg",
+      "timestamp": 10.0,
+      "video_id": "lecture_001",
+      "frame_index": 10
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000011.jpg",
+      "timestamp": 11.0,
+      "video_id": "lecture_001",
+      "frame_index": 11
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000012.jpg",
+      "timestamp": 12.0,
+      "video_id": "lecture_001",
+      "frame_index": 12
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000013.jpg",
+      "timestamp": 13.0,
+      "video_id": "lecture_001",
+      "frame_index": 13
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000014.jpg",
+      "timestamp": 14.0,
+      "video_id": "lecture_001",
+      "frame_index": 14
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000015.jpg",
+      "timestamp": 15.0,
+      "video_id": "lecture_001",
+      "frame_index": 15
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000016.jpg",
+      "timestamp": 16.0,
+      "video_id": "lecture_001",
+      "frame_index": 16
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000017.jpg",
+      "timestamp": 17.0,
+      "video_id": "lecture_001",
+      "frame_index": 17
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000018.jpg",
+      "timestamp": 18.0,
+      "video_id": "lecture_001",
+      "frame_index": 18
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000019.jpg",
+      "timestamp": 19.0,
+      "video_id": "lecture_001",
+      "frame_index": 19
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000020.jpg",
+      "timestamp": 20.0,
+      "video_id": "lecture_001",
+      "frame_index": 20
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000021.jpg",
+      "timestamp": 21.0,
+      "video_id": "lecture_001",
+      "frame_index": 21
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000022.jpg",
+      "timestamp": 22.0,
+      "video_id": "lecture_001",
+      "frame_index": 22
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000023.jpg",
+      "timestamp": 23.0,
+      "video_id": "lecture_001",
+      "frame_index": 23
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000024.jpg",
+      "timestamp": 24.0,
+      "video_id": "lecture_001",
+      "frame_index": 24
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000025.jpg",
+      "timestamp": 25.0,
+      "video_id": "lecture_001",
+      "frame_index": 25
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000026.jpg",
+      "timestamp": 26.0,
+      "video_id": "lecture_001",
+      "frame_index": 26
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000027.jpg",
+      "timestamp": 27.0,
+      "video_id": "lecture_001",
+      "frame_index": 27
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000028.jpg",
+      "timestamp": 28.0,
+      "video_id": "lecture_001",
+      "frame_index": 28
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000029.jpg",
+      "timestamp": 29.0,
+      "video_id": "lecture_001",
+      "frame_index": 29
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000030.jpg",
+      "timestamp": 30.0,
+      "video_id": "lecture_001",
+      "frame_index": 30
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000031.jpg",
+      "timestamp": 31.0,
+      "video_id": "lecture_001",
+      "frame_index": 31
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000032.jpg",
+      "timestamp": 32.0,
+      "video_id": "lecture_001",
+      "frame_index": 32
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000033.jpg",
+      "timestamp": 33.0,
+      "video_id": "lecture_001",
+      "frame_index": 33
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000034.jpg",
+      "timestamp": 34.0,
+      "video_id": "lecture_001",
+      "frame_index": 34
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000035.jpg",
+      "timestamp": 35.0,
+      "video_id": "lecture_001",
+      "frame_index": 35
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000036.jpg",
+      "timestamp": 36.0,
+      "video_id": "lecture_001",
+      "frame_index": 36
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000038.jpg",
+      "timestamp": 38.0,
+      "video_id": "lecture_001",
+      "frame_index": 38
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000039.jpg",
+      "timestamp": 39.0,
+      "video_id": "lecture_001",
+      "frame_index": 39
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000040.jpg",
+      "timestamp": 40.0,
+      "video_id": "lecture_001",
+      "frame_index": 40
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000041.jpg",
+      "timestamp": 41.0,
+      "video_id": "lecture_001",
+      "frame_index": 41
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000049.jpg",
+      "timestamp": 49.0,
+      "video_id": "lecture_001",
+      "frame_index": 49
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000050.jpg",
+      "timestamp": 50.0,
+      "video_id": "lecture_001",
+      "frame_index": 50
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000051.jpg",
+      "timestamp": 51.0,
+      "video_id": "lecture_001",
+      "frame_index": 51
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000052.jpg",
+      "timestamp": 52.0,
+      "video_id": "lecture_001",
+      "frame_index": 52
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000053.jpg",
+      "timestamp": 53.0,
+      "video_id": "lecture_001",
+      "frame_index": 53
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000054.jpg",
+      "timestamp": 54.0,
+      "video_id": "lecture_001",
+      "frame_index": 54
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000055.jpg",
+      "timestamp": 55.0,
+      "video_id": "lecture_001",
+      "frame_index": 55
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000056.jpg",
+      "timestamp": 56.0,
+      "video_id": "lecture_001",
+      "frame_index": 56
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000061.jpg",
+      "timestamp": 61.0,
+      "video_id": "lecture_001",
+      "frame_index": 61
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000062.jpg",
+      "timestamp": 62.0,
+      "video_id": "lecture_001",
+      "frame_index": 62
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000068.jpg",
+      "timestamp": 68.0,
+      "video_id": "lecture_001",
+      "frame_index": 68
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000072.jpg",
+      "timestamp": 72.0,
+      "video_id": "lecture_001",
+      "frame_index": 72
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000073.jpg",
+      "timestamp": 73.0,
+      "video_id": "lecture_001",
+      "frame_index": 73
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000077.jpg",
+      "timestamp": 77.0,
+      "video_id": "lecture_001",
+      "frame_index": 77
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000078.jpg",
+      "timestamp": 78.0,
+      "video_id": "lecture_001",
+      "frame_index": 78
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000079.jpg",
+      "timestamp": 79.0,
+      "video_id": "lecture_001",
+      "frame_index": 79
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000080.jpg",
+      "timestamp": 80.0,
+      "video_id": "lecture_001",
+      "frame_index": 80
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000081.jpg",
+      "timestamp": 81.0,
+      "video_id": "lecture_001",
+      "frame_index": 81
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000082.jpg",
+      "timestamp": 82.0,
+      "video_id": "lecture_001",
+      "frame_index": 82
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000083.jpg",
+      "timestamp": 83.0,
+      "video_id": "lecture_001",
+      "frame_index": 83
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000084.jpg",
+      "timestamp": 84.0,
+      "video_id": "lecture_001",
+      "frame_index": 84
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000085.jpg",
+      "timestamp": 85.0,
+      "video_id": "lecture_001",
+      "frame_index": 85
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000086.jpg",
+      "timestamp": 86.0,
+      "video_id": "lecture_001",
+      "frame_index": 86
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000087.jpg",
+      "timestamp": 87.0,
+      "video_id": "lecture_001",
+      "frame_index": 87
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000088.jpg",
+      "timestamp": 88.0,
+      "video_id": "lecture_001",
+      "frame_index": 88
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000095.jpg",
+      "timestamp": 95.0,
+      "video_id": "lecture_001",
+      "frame_index": 95
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000096.jpg",
+      "timestamp": 96.0,
+      "video_id": "lecture_001",
+      "frame_index": 96
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000098.jpg",
+      "timestamp": 98.0,
+      "video_id": "lecture_001",
+      "frame_index": 98
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000099.jpg",
+      "timestamp": 99.0,
+      "video_id": "lecture_001",
+      "frame_index": 99
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000100.jpg",
+      "timestamp": 100.0,
+      "video_id": "lecture_001",
+      "frame_index": 100
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000102.jpg",
+      "timestamp": 102.0,
+      "video_id": "lecture_001",
+      "frame_index": 102
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000103.jpg",
+      "timestamp": 103.0,
+      "video_id": "lecture_001",
+      "frame_index": 103
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000104.jpg",
+      "timestamp": 104.0,
+      "video_id": "lecture_001",
+      "frame_index": 104
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000105.jpg",
+      "timestamp": 105.0,
+      "video_id": "lecture_001",
+      "frame_index": 105
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000106.jpg",
+      "timestamp": 106.0,
+      "video_id": "lecture_001",
+      "frame_index": 106
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000107.jpg",
+      "timestamp": 107.0,
+      "video_id": "lecture_001",
+      "frame_index": 107
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000108.jpg",
+      "timestamp": 108.0,
+      "video_id": "lecture_001",
+      "frame_index": 108
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000111.jpg",
+      "timestamp": 111.0,
+      "video_id": "lecture_001",
+      "frame_index": 111
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000112.jpg",
+      "timestamp": 112.0,
+      "video_id": "lecture_001",
+      "frame_index": 112
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000113.jpg",
+      "timestamp": 113.0,
+      "video_id": "lecture_001",
+      "frame_index": 113
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000116.jpg",
+      "timestamp": 116.0,
+      "video_id": "lecture_001",
+      "frame_index": 116
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000117.jpg",
+      "timestamp": 117.0,
+      "video_id": "lecture_001",
+      "frame_index": 117
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000118.jpg",
+      "timestamp": 118.0,
+      "video_id": "lecture_001",
+      "frame_index": 118
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000119.jpg",
+      "timestamp": 119.0,
+      "video_id": "lecture_001",
+      "frame_index": 119
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000120.jpg",
+      "timestamp": 120.0,
+      "video_id": "lecture_001",
+      "frame_index": 120
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000121.jpg",
+      "timestamp": 121.0,
+      "video_id": "lecture_001",
+      "frame_index": 121
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000122.jpg",
+      "timestamp": 122.0,
+      "video_id": "lecture_001",
+      "frame_index": 122
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000125.jpg",
+      "timestamp": 125.0,
+      "video_id": "lecture_001",
+      "frame_index": 125
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000127.jpg",
+      "timestamp": 127.0,
+      "video_id": "lecture_001",
+      "frame_index": 127
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000129.jpg",
+      "timestamp": 129.0,
+      "video_id": "lecture_001",
+      "frame_index": 129
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000134.jpg",
+      "timestamp": 134.0,
+      "video_id": "lecture_001",
+      "frame_index": 134
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000135.jpg",
+      "timestamp": 135.0,
+      "video_id": "lecture_001",
+      "frame_index": 135
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000136.jpg",
+      "timestamp": 136.0,
+      "video_id": "lecture_001",
+      "frame_index": 136
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000137.jpg",
+      "timestamp": 137.0,
+      "video_id": "lecture_001",
+      "frame_index": 137
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000138.jpg",
+      "timestamp": 138.0,
+      "video_id": "lecture_001",
+      "frame_index": 138
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000139.jpg",
+      "timestamp": 139.0,
+      "video_id": "lecture_001",
+      "frame_index": 139
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000140.jpg",
+      "timestamp": 140.0,
+      "video_id": "lecture_001",
+      "frame_index": 140
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000141.jpg",
+      "timestamp": 141.0,
+      "video_id": "lecture_001",
+      "frame_index": 141
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000158.jpg",
+      "timestamp": 158.0,
+      "video_id": "lecture_001",
+      "frame_index": 158
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000159.jpg",
+      "timestamp": 159.0,
+      "video_id": "lecture_001",
+      "frame_index": 159
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000160.jpg",
+      "timestamp": 160.0,
+      "video_id": "lecture_001",
+      "frame_index": 160
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000161.jpg",
+      "timestamp": 161.0,
+      "video_id": "lecture_001",
+      "frame_index": 161
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000162.jpg",
+      "timestamp": 162.0,
+      "video_id": "lecture_001",
+      "frame_index": 162
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000163.jpg",
+      "timestamp": 163.0,
+      "video_id": "lecture_001",
+      "frame_index": 163
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000164.jpg",
+      "timestamp": 164.0,
+      "video_id": "lecture_001",
+      "frame_index": 164
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000165.jpg",
+      "timestamp": 165.0,
+      "video_id": "lecture_001",
+      "frame_index": 165
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000166.jpg",
+      "timestamp": 166.0,
+      "video_id": "lecture_001",
+      "frame_index": 166
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000174.jpg",
+      "timestamp": 174.0,
+      "video_id": "lecture_001",
+      "frame_index": 174
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000175.jpg",
+      "timestamp": 175.0,
+      "video_id": "lecture_001",
+      "frame_index": 175
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000176.jpg",
+      "timestamp": 176.0,
+      "video_id": "lecture_001",
+      "frame_index": 176
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000177.jpg",
+      "timestamp": 177.0,
+      "video_id": "lecture_001",
+      "frame_index": 177
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000201.jpg",
+      "timestamp": 201.0,
+      "video_id": "lecture_001",
+      "frame_index": 201
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000212.jpg",
+      "timestamp": 212.0,
+      "video_id": "lecture_001",
+      "frame_index": 212
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000218.jpg",
+      "timestamp": 218.0,
+      "video_id": "lecture_001",
+      "frame_index": 218
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000219.jpg",
+      "timestamp": 219.0,
+      "video_id": "lecture_001",
+      "frame_index": 219
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000220.jpg",
+      "timestamp": 220.0,
+      "video_id": "lecture_001",
+      "frame_index": 220
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000221.jpg",
+      "timestamp": 221.0,
+      "video_id": "lecture_001",
+      "frame_index": 221
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000222.jpg",
+      "timestamp": 222.0,
+      "video_id": "lecture_001",
+      "frame_index": 222
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000224.jpg",
+      "timestamp": 224.0,
+      "video_id": "lecture_001",
+      "frame_index": 224
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000225.jpg",
+      "timestamp": 225.0,
+      "video_id": "lecture_001",
+      "frame_index": 225
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000226.jpg",
+      "timestamp": 226.0,
+      "video_id": "lecture_001",
+      "frame_index": 226
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000227.jpg",
+      "timestamp": 227.0,
+      "video_id": "lecture_001",
+      "frame_index": 227
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000228.jpg",
+      "timestamp": 228.0,
+      "video_id": "lecture_001",
+      "frame_index": 228
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000229.jpg",
+      "timestamp": 229.0,
+      "video_id": "lecture_001",
+      "frame_index": 229
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000230.jpg",
+      "timestamp": 230.0,
+      "video_id": "lecture_001",
+      "frame_index": 230
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000231.jpg",
+      "timestamp": 231.0,
+      "video_id": "lecture_001",
+      "frame_index": 231
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000232.jpg",
+      "timestamp": 232.0,
+      "video_id": "lecture_001",
+      "frame_index": 232
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000233.jpg",
+      "timestamp": 233.0,
+      "video_id": "lecture_001",
+      "frame_index": 233
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000234.jpg",
+      "timestamp": 234.0,
+      "video_id": "lecture_001",
+      "frame_index": 234
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000235.jpg",
+      "timestamp": 235.0,
+      "video_id": "lecture_001",
+      "frame_index": 235
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000236.jpg",
+      "timestamp": 236.0,
+      "video_id": "lecture_001",
+      "frame_index": 236
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000237.jpg",
+      "timestamp": 237.0,
+      "video_id": "lecture_001",
+      "frame_index": 237
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000238.jpg",
+      "timestamp": 238.0,
+      "video_id": "lecture_001",
+      "frame_index": 238
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000240.jpg",
+      "timestamp": 240.0,
+      "video_id": "lecture_001",
+      "frame_index": 240
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000241.jpg",
+      "timestamp": 241.0,
+      "video_id": "lecture_001",
+      "frame_index": 241
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000242.jpg",
+      "timestamp": 242.0,
+      "video_id": "lecture_001",
+      "frame_index": 242
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000244.jpg",
+      "timestamp": 244.0,
+      "video_id": "lecture_001",
+      "frame_index": 244
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000245.jpg",
+      "timestamp": 245.0,
+      "video_id": "lecture_001",
+      "frame_index": 245
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000246.jpg",
+      "timestamp": 246.0,
+      "video_id": "lecture_001",
+      "frame_index": 246
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000247.jpg",
+      "timestamp": 247.0,
+      "video_id": "lecture_001",
+      "frame_index": 247
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000248.jpg",
+      "timestamp": 248.0,
+      "video_id": "lecture_001",
+      "frame_index": 248
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000254.jpg",
+      "timestamp": 254.0,
+      "video_id": "lecture_001",
+      "frame_index": 254
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000255.jpg",
+      "timestamp": 255.0,
+      "video_id": "lecture_001",
+      "frame_index": 255
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000256.jpg",
+      "timestamp": 256.0,
+      "video_id": "lecture_001",
+      "frame_index": 256
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000257.jpg",
+      "timestamp": 257.0,
+      "video_id": "lecture_001",
+      "frame_index": 257
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000259.jpg",
+      "timestamp": 259.0,
+      "video_id": "lecture_001",
+      "frame_index": 259
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000260.jpg",
+      "timestamp": 260.0,
+      "video_id": "lecture_001",
+      "frame_index": 260
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000261.jpg",
+      "timestamp": 261.0,
+      "video_id": "lecture_001",
+      "frame_index": 261
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000262.jpg",
+      "timestamp": 262.0,
+      "video_id": "lecture_001",
+      "frame_index": 262
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000265.jpg",
+      "timestamp": 265.0,
+      "video_id": "lecture_001",
+      "frame_index": 265
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000277.jpg",
+      "timestamp": 277.0,
+      "video_id": "lecture_001",
+      "frame_index": 277
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000279.jpg",
+      "timestamp": 279.0,
+      "video_id": "lecture_001",
+      "frame_index": 279
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000282.jpg",
+      "timestamp": 282.0,
+      "video_id": "lecture_001",
+      "frame_index": 282
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000283.jpg",
+      "timestamp": 283.0,
+      "video_id": "lecture_001",
+      "frame_index": 283
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000284.jpg",
+      "timestamp": 284.0,
+      "video_id": "lecture_001",
+      "frame_index": 284
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000285.jpg",
+      "timestamp": 285.0,
+      "video_id": "lecture_001",
+      "frame_index": 285
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000291.jpg",
+      "timestamp": 291.0,
+      "video_id": "lecture_001",
+      "frame_index": 291
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000292.jpg",
+      "timestamp": 292.0,
+      "video_id": "lecture_001",
+      "frame_index": 292
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000294.jpg",
+      "timestamp": 294.0,
+      "video_id": "lecture_001",
+      "frame_index": 294
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000295.jpg",
+      "timestamp": 295.0,
+      "video_id": "lecture_001",
+      "frame_index": 295
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000303.jpg",
+      "timestamp": 303.0,
+      "video_id": "lecture_001",
+      "frame_index": 303
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000304.jpg",
+      "timestamp": 304.0,
+      "video_id": "lecture_001",
+      "frame_index": 304
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000305.jpg",
+      "timestamp": 305.0,
+      "video_id": "lecture_001",
+      "frame_index": 305
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000306.jpg",
+      "timestamp": 306.0,
+      "video_id": "lecture_001",
+      "frame_index": 306
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000310.jpg",
+      "timestamp": 310.0,
+      "video_id": "lecture_001",
+      "frame_index": 310
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000311.jpg",
+      "timestamp": 311.0,
+      "video_id": "lecture_001",
+      "frame_index": 311
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000315.jpg",
+      "timestamp": 315.0,
+      "video_id": "lecture_001",
+      "frame_index": 315
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000316.jpg",
+      "timestamp": 316.0,
+      "video_id": "lecture_001",
+      "frame_index": 316
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000317.jpg",
+      "timestamp": 317.0,
+      "video_id": "lecture_001",
+      "frame_index": 317
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000320.jpg",
+      "timestamp": 320.0,
+      "video_id": "lecture_001",
+      "frame_index": 320
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000324.jpg",
+      "timestamp": 324.0,
+      "video_id": "lecture_001",
+      "frame_index": 324
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000325.jpg",
+      "timestamp": 325.0,
+      "video_id": "lecture_001",
+      "frame_index": 325
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000326.jpg",
+      "timestamp": 326.0,
+      "video_id": "lecture_001",
+      "frame_index": 326
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000327.jpg",
+      "timestamp": 327.0,
+      "video_id": "lecture_001",
+      "frame_index": 327
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000328.jpg",
+      "timestamp": 328.0,
+      "video_id": "lecture_001",
+      "frame_index": 328
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000329.jpg",
+      "timestamp": 329.0,
+      "video_id": "lecture_001",
+      "frame_index": 329
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000330.jpg",
+      "timestamp": 330.0,
+      "video_id": "lecture_001",
+      "frame_index": 330
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000331.jpg",
+      "timestamp": 331.0,
+      "video_id": "lecture_001",
+      "frame_index": 331
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000332.jpg",
+      "timestamp": 332.0,
+      "video_id": "lecture_001",
+      "frame_index": 332
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000333.jpg",
+      "timestamp": 333.0,
+      "video_id": "lecture_001",
+      "frame_index": 333
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000334.jpg",
+      "timestamp": 334.0,
+      "video_id": "lecture_001",
+      "frame_index": 334
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000338.jpg",
+      "timestamp": 338.0,
+      "video_id": "lecture_001",
+      "frame_index": 338
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000339.jpg",
+      "timestamp": 339.0,
+      "video_id": "lecture_001",
+      "frame_index": 339
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000340.jpg",
+      "timestamp": 340.0,
+      "video_id": "lecture_001",
+      "frame_index": 340
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000345.jpg",
+      "timestamp": 345.0,
+      "video_id": "lecture_001",
+      "frame_index": 345
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000348.jpg",
+      "timestamp": 348.0,
+      "video_id": "lecture_001",
+      "frame_index": 348
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000350.jpg",
+      "timestamp": 350.0,
+      "video_id": "lecture_001",
+      "frame_index": 350
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000351.jpg",
+      "timestamp": 351.0,
+      "video_id": "lecture_001",
+      "frame_index": 351
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000352.jpg",
+      "timestamp": 352.0,
+      "video_id": "lecture_001",
+      "frame_index": 352
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000353.jpg",
+      "timestamp": 353.0,
+      "video_id": "lecture_001",
+      "frame_index": 353
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000354.jpg",
+      "timestamp": 354.0,
+      "video_id": "lecture_001",
+      "frame_index": 354
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000355.jpg",
+      "timestamp": 355.0,
+      "video_id": "lecture_001",
+      "frame_index": 355
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000361.jpg",
+      "timestamp": 361.0,
+      "video_id": "lecture_001",
+      "frame_index": 361
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000362.jpg",
+      "timestamp": 362.0,
+      "video_id": "lecture_001",
+      "frame_index": 362
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000371.jpg",
+      "timestamp": 371.0,
+      "video_id": "lecture_001",
+      "frame_index": 371
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000372.jpg",
+      "timestamp": 372.0,
+      "video_id": "lecture_001",
+      "frame_index": 372
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000373.jpg",
+      "timestamp": 373.0,
+      "video_id": "lecture_001",
+      "frame_index": 373
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000374.jpg",
+      "timestamp": 374.0,
+      "video_id": "lecture_001",
+      "frame_index": 374
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000375.jpg",
+      "timestamp": 375.0,
+      "video_id": "lecture_001",
+      "frame_index": 375
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000376.jpg",
+      "timestamp": 376.0,
+      "video_id": "lecture_001",
+      "frame_index": 376
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000377.jpg",
+      "timestamp": 377.0,
+      "video_id": "lecture_001",
+      "frame_index": 377
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000378.jpg",
+      "timestamp": 378.0,
+      "video_id": "lecture_001",
+      "frame_index": 378
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000379.jpg",
+      "timestamp": 379.0,
+      "video_id": "lecture_001",
+      "frame_index": 379
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000385.jpg",
+      "timestamp": 385.0,
+      "video_id": "lecture_001",
+      "frame_index": 385
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000387.jpg",
+      "timestamp": 387.0,
+      "video_id": "lecture_001",
+      "frame_index": 387
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000388.jpg",
+      "timestamp": 388.0,
+      "video_id": "lecture_001",
+      "frame_index": 388
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000389.jpg",
+      "timestamp": 389.0,
+      "video_id": "lecture_001",
+      "frame_index": 389
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000391.jpg",
+      "timestamp": 391.0,
+      "video_id": "lecture_001",
+      "frame_index": 391
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000396.jpg",
+      "timestamp": 396.0,
+      "video_id": "lecture_001",
+      "frame_index": 396
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000401.jpg",
+      "timestamp": 401.0,
+      "video_id": "lecture_001",
+      "frame_index": 401
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000402.jpg",
+      "timestamp": 402.0,
+      "video_id": "lecture_001",
+      "frame_index": 402
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000403.jpg",
+      "timestamp": 403.0,
+      "video_id": "lecture_001",
+      "frame_index": 403
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000404.jpg",
+      "timestamp": 404.0,
+      "video_id": "lecture_001",
+      "frame_index": 404
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000405.jpg",
+      "timestamp": 405.0,
+      "video_id": "lecture_001",
+      "frame_index": 405
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000406.jpg",
+      "timestamp": 406.0,
+      "video_id": "lecture_001",
+      "frame_index": 406
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000407.jpg",
+      "timestamp": 407.0,
+      "video_id": "lecture_001",
+      "frame_index": 407
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000408.jpg",
+      "timestamp": 408.0,
+      "video_id": "lecture_001",
+      "frame_index": 408
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000409.jpg",
+      "timestamp": 409.0,
+      "video_id": "lecture_001",
+      "frame_index": 409
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000410.jpg",
+      "timestamp": 410.0,
+      "video_id": "lecture_001",
+      "frame_index": 410
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000411.jpg",
+      "timestamp": 411.0,
+      "video_id": "lecture_001",
+      "frame_index": 411
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000412.jpg",
+      "timestamp": 412.0,
+      "video_id": "lecture_001",
+      "frame_index": 412
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000414.jpg",
+      "timestamp": 414.0,
+      "video_id": "lecture_001",
+      "frame_index": 414
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000448.jpg",
+      "timestamp": 448.0,
+      "video_id": "lecture_001",
+      "frame_index": 448
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000451.jpg",
+      "timestamp": 451.0,
+      "video_id": "lecture_001",
+      "frame_index": 451
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000452.jpg",
+      "timestamp": 452.0,
+      "video_id": "lecture_001",
+      "frame_index": 452
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000453.jpg",
+      "timestamp": 453.0,
+      "video_id": "lecture_001",
+      "frame_index": 453
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000454.jpg",
+      "timestamp": 454.0,
+      "video_id": "lecture_001",
+      "frame_index": 454
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000456.jpg",
+      "timestamp": 456.0,
+      "video_id": "lecture_001",
+      "frame_index": 456
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000457.jpg",
+      "timestamp": 457.0,
+      "video_id": "lecture_001",
+      "frame_index": 457
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000459.jpg",
+      "timestamp": 459.0,
+      "video_id": "lecture_001",
+      "frame_index": 459
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000460.jpg",
+      "timestamp": 460.0,
+      "video_id": "lecture_001",
+      "frame_index": 460
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000461.jpg",
+      "timestamp": 461.0,
+      "video_id": "lecture_001",
+      "frame_index": 461
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000462.jpg",
+      "timestamp": 462.0,
+      "video_id": "lecture_001",
+      "frame_index": 462
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000463.jpg",
+      "timestamp": 463.0,
+      "video_id": "lecture_001",
+      "frame_index": 463
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000464.jpg",
+      "timestamp": 464.0,
+      "video_id": "lecture_001",
+      "frame_index": 464
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000465.jpg",
+      "timestamp": 465.0,
+      "video_id": "lecture_001",
+      "frame_index": 465
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000466.jpg",
+      "timestamp": 466.0,
+      "video_id": "lecture_001",
+      "frame_index": 466
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000467.jpg",
+      "timestamp": 467.0,
+      "video_id": "lecture_001",
+      "frame_index": 467
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000468.jpg",
+      "timestamp": 468.0,
+      "video_id": "lecture_001",
+      "frame_index": 468
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000469.jpg",
+      "timestamp": 469.0,
+      "video_id": "lecture_001",
+      "frame_index": 469
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000471.jpg",
+      "timestamp": 471.0,
+      "video_id": "lecture_001",
+      "frame_index": 471
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000472.jpg",
+      "timestamp": 472.0,
+      "video_id": "lecture_001",
+      "frame_index": 472
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000474.jpg",
+      "timestamp": 474.0,
+      "video_id": "lecture_001",
+      "frame_index": 474
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000475.jpg",
+      "timestamp": 475.0,
+      "video_id": "lecture_001",
+      "frame_index": 475
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000476.jpg",
+      "timestamp": 476.0,
+      "video_id": "lecture_001",
+      "frame_index": 476
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000477.jpg",
+      "timestamp": 477.0,
+      "video_id": "lecture_001",
+      "frame_index": 477
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000478.jpg",
+      "timestamp": 478.0,
+      "video_id": "lecture_001",
+      "frame_index": 478
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000481.jpg",
+      "timestamp": 481.0,
+      "video_id": "lecture_001",
+      "frame_index": 481
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000482.jpg",
+      "timestamp": 482.0,
+      "video_id": "lecture_001",
+      "frame_index": 482
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000483.jpg",
+      "timestamp": 483.0,
+      "video_id": "lecture_001",
+      "frame_index": 483
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000484.jpg",
+      "timestamp": 484.0,
+      "video_id": "lecture_001",
+      "frame_index": 484
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000485.jpg",
+      "timestamp": 485.0,
+      "video_id": "lecture_001",
+      "frame_index": 485
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000486.jpg",
+      "timestamp": 486.0,
+      "video_id": "lecture_001",
+      "frame_index": 486
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000489.jpg",
+      "timestamp": 489.0,
+      "video_id": "lecture_001",
+      "frame_index": 489
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000492.jpg",
+      "timestamp": 492.0,
+      "video_id": "lecture_001",
+      "frame_index": 492
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000494.jpg",
+      "timestamp": 494.0,
+      "video_id": "lecture_001",
+      "frame_index": 494
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000496.jpg",
+      "timestamp": 496.0,
+      "video_id": "lecture_001",
+      "frame_index": 496
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000498.jpg",
+      "timestamp": 498.0,
+      "video_id": "lecture_001",
+      "frame_index": 498
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000501.jpg",
+      "timestamp": 501.0,
+      "video_id": "lecture_001",
+      "frame_index": 501
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000504.jpg",
+      "timestamp": 504.0,
+      "video_id": "lecture_001",
+      "frame_index": 504
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000506.jpg",
+      "timestamp": 506.0,
+      "video_id": "lecture_001",
+      "frame_index": 506
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000507.jpg",
+      "timestamp": 507.0,
+      "video_id": "lecture_001",
+      "frame_index": 507
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000508.jpg",
+      "timestamp": 508.0,
+      "video_id": "lecture_001",
+      "frame_index": 508
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000509.jpg",
+      "timestamp": 509.0,
+      "video_id": "lecture_001",
+      "frame_index": 509
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000511.jpg",
+      "timestamp": 511.0,
+      "video_id": "lecture_001",
+      "frame_index": 511
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000512.jpg",
+      "timestamp": 512.0,
+      "video_id": "lecture_001",
+      "frame_index": 512
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000513.jpg",
+      "timestamp": 513.0,
+      "video_id": "lecture_001",
+      "frame_index": 513
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000514.jpg",
+      "timestamp": 514.0,
+      "video_id": "lecture_001",
+      "frame_index": 514
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000515.jpg",
+      "timestamp": 515.0,
+      "video_id": "lecture_001",
+      "frame_index": 515
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000516.jpg",
+      "timestamp": 516.0,
+      "video_id": "lecture_001",
+      "frame_index": 516
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000517.jpg",
+      "timestamp": 517.0,
+      "video_id": "lecture_001",
+      "frame_index": 517
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000518.jpg",
+      "timestamp": 518.0,
+      "video_id": "lecture_001",
+      "frame_index": 518
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000519.jpg",
+      "timestamp": 519.0,
+      "video_id": "lecture_001",
+      "frame_index": 519
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000521.jpg",
+      "timestamp": 521.0,
+      "video_id": "lecture_001",
+      "frame_index": 521
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000524.jpg",
+      "timestamp": 524.0,
+      "video_id": "lecture_001",
+      "frame_index": 524
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000526.jpg",
+      "timestamp": 526.0,
+      "video_id": "lecture_001",
+      "frame_index": 526
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000527.jpg",
+      "timestamp": 527.0,
+      "video_id": "lecture_001",
+      "frame_index": 527
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000528.jpg",
+      "timestamp": 528.0,
+      "video_id": "lecture_001",
+      "frame_index": 528
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000530.jpg",
+      "timestamp": 530.0,
+      "video_id": "lecture_001",
+      "frame_index": 530
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000531.jpg",
+      "timestamp": 531.0,
+      "video_id": "lecture_001",
+      "frame_index": 531
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000533.jpg",
+      "timestamp": 533.0,
+      "video_id": "lecture_001",
+      "frame_index": 533
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000534.jpg",
+      "timestamp": 534.0,
+      "video_id": "lecture_001",
+      "frame_index": 534
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000535.jpg",
+      "timestamp": 535.0,
+      "video_id": "lecture_001",
+      "frame_index": 535
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000537.jpg",
+      "timestamp": 537.0,
+      "video_id": "lecture_001",
+      "frame_index": 537
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000538.jpg",
+      "timestamp": 538.0,
+      "video_id": "lecture_001",
+      "frame_index": 538
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000539.jpg",
+      "timestamp": 539.0,
+      "video_id": "lecture_001",
+      "frame_index": 539
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000540.jpg",
+      "timestamp": 540.0,
+      "video_id": "lecture_001",
+      "frame_index": 540
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000541.jpg",
+      "timestamp": 541.0,
+      "video_id": "lecture_001",
+      "frame_index": 541
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000542.jpg",
+      "timestamp": 542.0,
+      "video_id": "lecture_001",
+      "frame_index": 542
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000546.jpg",
+      "timestamp": 546.0,
+      "video_id": "lecture_001",
+      "frame_index": 546
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000547.jpg",
+      "timestamp": 547.0,
+      "video_id": "lecture_001",
+      "frame_index": 547
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000549.jpg",
+      "timestamp": 549.0,
+      "video_id": "lecture_001",
+      "frame_index": 549
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000550.jpg",
+      "timestamp": 550.0,
+      "video_id": "lecture_001",
+      "frame_index": 550
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000554.jpg",
+      "timestamp": 554.0,
+      "video_id": "lecture_001",
+      "frame_index": 554
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000555.jpg",
+      "timestamp": 555.0,
+      "video_id": "lecture_001",
+      "frame_index": 555
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000556.jpg",
+      "timestamp": 556.0,
+      "video_id": "lecture_001",
+      "frame_index": 556
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000558.jpg",
+      "timestamp": 558.0,
+      "video_id": "lecture_001",
+      "frame_index": 558
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000559.jpg",
+      "timestamp": 559.0,
+      "video_id": "lecture_001",
+      "frame_index": 559
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000560.jpg",
+      "timestamp": 560.0,
+      "video_id": "lecture_001",
+      "frame_index": 560
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000561.jpg",
+      "timestamp": 561.0,
+      "video_id": "lecture_001",
+      "frame_index": 561
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000563.jpg",
+      "timestamp": 563.0,
+      "video_id": "lecture_001",
+      "frame_index": 563
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000564.jpg",
+      "timestamp": 564.0,
+      "video_id": "lecture_001",
+      "frame_index": 564
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000565.jpg",
+      "timestamp": 565.0,
+      "video_id": "lecture_001",
+      "frame_index": 565
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000566.jpg",
+      "timestamp": 566.0,
+      "video_id": "lecture_001",
+      "frame_index": 566
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000567.jpg",
+      "timestamp": 567.0,
+      "video_id": "lecture_001",
+      "frame_index": 567
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000568.jpg",
+      "timestamp": 568.0,
+      "video_id": "lecture_001",
+      "frame_index": 568
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000569.jpg",
+      "timestamp": 569.0,
+      "video_id": "lecture_001",
+      "frame_index": 569
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000570.jpg",
+      "timestamp": 570.0,
+      "video_id": "lecture_001",
+      "frame_index": 570
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000571.jpg",
+      "timestamp": 571.0,
+      "video_id": "lecture_001",
+      "frame_index": 571
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000572.jpg",
+      "timestamp": 572.0,
+      "video_id": "lecture_001",
+      "frame_index": 572
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000573.jpg",
+      "timestamp": 573.0,
+      "video_id": "lecture_001",
+      "frame_index": 573
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000574.jpg",
+      "timestamp": 574.0,
+      "video_id": "lecture_001",
+      "frame_index": 574
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000576.jpg",
+      "timestamp": 576.0,
+      "video_id": "lecture_001",
+      "frame_index": 576
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000578.jpg",
+      "timestamp": 578.0,
+      "video_id": "lecture_001",
+      "frame_index": 578
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000579.jpg",
+      "timestamp": 579.0,
+      "video_id": "lecture_001",
+      "frame_index": 579
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000580.jpg",
+      "timestamp": 580.0,
+      "video_id": "lecture_001",
+      "frame_index": 580
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000581.jpg",
+      "timestamp": 581.0,
+      "video_id": "lecture_001",
+      "frame_index": 581
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000582.jpg",
+      "timestamp": 582.0,
+      "video_id": "lecture_001",
+      "frame_index": 582
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000583.jpg",
+      "timestamp": 583.0,
+      "video_id": "lecture_001",
+      "frame_index": 583
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000587.jpg",
+      "timestamp": 587.0,
+      "video_id": "lecture_001",
+      "frame_index": 587
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000592.jpg",
+      "timestamp": 592.0,
+      "video_id": "lecture_001",
+      "frame_index": 592
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000593.jpg",
+      "timestamp": 593.0,
+      "video_id": "lecture_001",
+      "frame_index": 593
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000594.jpg",
+      "timestamp": 594.0,
+      "video_id": "lecture_001",
+      "frame_index": 594
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000595.jpg",
+      "timestamp": 595.0,
+      "video_id": "lecture_001",
+      "frame_index": 595
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000601.jpg",
+      "timestamp": 601.0,
+      "video_id": "lecture_001",
+      "frame_index": 601
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000602.jpg",
+      "timestamp": 602.0,
+      "video_id": "lecture_001",
+      "frame_index": 602
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000603.jpg",
+      "timestamp": 603.0,
+      "video_id": "lecture_001",
+      "frame_index": 603
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000604.jpg",
+      "timestamp": 604.0,
+      "video_id": "lecture_001",
+      "frame_index": 604
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000605.jpg",
+      "timestamp": 605.0,
+      "video_id": "lecture_001",
+      "frame_index": 605
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000606.jpg",
+      "timestamp": 606.0,
+      "video_id": "lecture_001",
+      "frame_index": 606
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000607.jpg",
+      "timestamp": 607.0,
+      "video_id": "lecture_001",
+      "frame_index": 607
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000608.jpg",
+      "timestamp": 608.0,
+      "video_id": "lecture_001",
+      "frame_index": 608
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000611.jpg",
+      "timestamp": 611.0,
+      "video_id": "lecture_001",
+      "frame_index": 611
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000614.jpg",
+      "timestamp": 614.0,
+      "video_id": "lecture_001",
+      "frame_index": 614
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000615.jpg",
+      "timestamp": 615.0,
+      "video_id": "lecture_001",
+      "frame_index": 615
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000616.jpg",
+      "timestamp": 616.0,
+      "video_id": "lecture_001",
+      "frame_index": 616
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000620.jpg",
+      "timestamp": 620.0,
+      "video_id": "lecture_001",
+      "frame_index": 620
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000621.jpg",
+      "timestamp": 621.0,
+      "video_id": "lecture_001",
+      "frame_index": 621
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000622.jpg",
+      "timestamp": 622.0,
+      "video_id": "lecture_001",
+      "frame_index": 622
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000623.jpg",
+      "timestamp": 623.0,
+      "video_id": "lecture_001",
+      "frame_index": 623
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000624.jpg",
+      "timestamp": 624.0,
+      "video_id": "lecture_001",
+      "frame_index": 624
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000625.jpg",
+      "timestamp": 625.0,
+      "video_id": "lecture_001",
+      "frame_index": 625
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000626.jpg",
+      "timestamp": 626.0,
+      "video_id": "lecture_001",
+      "frame_index": 626
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000627.jpg",
+      "timestamp": 627.0,
+      "video_id": "lecture_001",
+      "frame_index": 627
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000628.jpg",
+      "timestamp": 628.0,
+      "video_id": "lecture_001",
+      "frame_index": 628
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000629.jpg",
+      "timestamp": 629.0,
+      "video_id": "lecture_001",
+      "frame_index": 629
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  },
+  {
+    "data": {
+      "image": "/data/local-files/?d=data/processed\\lecture_001\\frames\\frame_000630.jpg",
+      "timestamp": 630.0,
+      "video_id": "lecture_001",
+      "frame_index": 630
+    },
+    "predictions": [
+      {
+        "model_version": "auto_annotation_v1",
+        "result": []
+      }
+    ]
+  }
+]

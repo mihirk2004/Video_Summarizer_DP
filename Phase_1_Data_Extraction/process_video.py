@@ -18,6 +18,8 @@ from ultralytics import YOLO
 import torch
 import clip
 from typing import Dict, List, Any
+from skimage.metrics import structural_similarity as ssim
+
 
 # Configuration
 class Config:
@@ -101,52 +103,62 @@ def transcribe_audio(audio_path: str, model_name: str = "small") -> Dict:
         print(f"Transcription error: {e}")
         return None
 
-def extract_frames(video_path: str, output_dir: str, fps: int = 1) -> List[Dict]:
-    """Extract frames at specified FPS rate"""
+def extract_frames(video_path: str, output_dir: str, fps: int = 1, ssim_thresh: float = 0.88) -> List[Dict]:
+    """
+    Extract frames at 1 FPS and apply SSIM-based frame sampling
+    """
     os.makedirs(output_dir, exist_ok=True)
-    
+
     cap = cv2.VideoCapture(video_path)
-    original_fps = cap.get(cv2.CAP_PROP_FPS)
-    frame_interval = int(original_fps / fps)
-    
+    video_fps = cap.get(cv2.CAP_PROP_FPS)
+    frame_interval = int(video_fps / fps)
+
     frames_data = []
-    frame_count = 0
-    saved_count = 0
-    
+    prev_gray = None
+    frame_idx = 0
+    saved_idx = 0
+
     while True:
         ret, frame = cap.read()
         if not ret:
             break
-        
-        # Extract at specified interval
-        if frame_count % frame_interval == 0:
-            timestamp = frame_count / original_fps
-            
-            # Save frame
-            frame_filename = f"frame_{saved_count:06d}.jpg"
-            frame_path = os.path.join(output_dir, frame_filename)
-            
-            # Resize for efficiency (optional)
-            height, width = frame.shape[:2]
-            if height > 720:  # Resize if too large
-                scale = 720 / height
-                new_width = int(width * scale)
-                frame = cv2.resize(frame, (new_width, 720))
-            
-            cv2.imwrite(frame_path, frame, [cv2.IMWRITE_JPEG_QUALITY, 85])
-            
-            frames_data.append({
-                'index': saved_count,
-                'timestamp': round(timestamp, 2),
-                'path': frame_path,
-                'original_size': {'height': height, 'width': width}
-            })
-            saved_count += 1
-        
-        frame_count += 1
-    
+
+        if frame_idx % frame_interval == 0:
+            timestamp = frame_idx / video_fps
+
+            gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+            gray = cv2.resize(gray, (600, 300))
+
+            save_frame = False
+
+            if prev_gray is None:
+                save_frame = True
+            else:
+                score = ssim(prev_gray, gray)
+                if score < ssim_thresh:
+                    save_frame = True
+
+            if save_frame:
+                filename = f"frame_{saved_idx:06d}.jpg"
+                path = os.path.join(output_dir, filename)
+
+                cv2.imwrite(path, frame, [cv2.IMWRITE_JPEG_QUALITY, 85])
+
+                frames_data.append({
+                    "index": saved_idx,
+                    "timestamp": round(timestamp, 2),
+                    "path": path,
+                    "ssim_kept": True
+                })
+
+                prev_gray = gray
+                saved_idx += 1
+
+        frame_idx += 1
+
     cap.release()
     return frames_data
+
 
 def detect_objects(frame_path: str, model) -> Dict:
     """Detect instructor and other objects in frame"""

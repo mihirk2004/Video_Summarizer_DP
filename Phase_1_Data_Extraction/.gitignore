@@ -1,3 +1,17 @@
 venv/
 .env/
 .venv/
+__pycache__/
+*.pyc
+
+# Data
+data/raw_videos/
+data/processed/
+*.mp4
+*.wav
+
+# Models
+*.pt
+
+# OS
+.DS_Store

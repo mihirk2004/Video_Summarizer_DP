@@ -18,3 +18,5 @@ pydub
 regex 
 tqdm
 ftfy
+label-studio
+scikit-image
