@@ -348,7 +348,7 @@ def process_single_video(video_path: str, video_id: str) -> Dict:
     
     return output_json
 
-def batch_process_videos(video_dir: str, max_videos: int = None):
+def batch_process_videos(video_dir: str, max_videos: int = None, start_index: int = 1):
     """Process all videos in a directory"""
     video_extensions = ['.mp4', '.avi', '.mov', '.mkv']
     video_files = []
@@ -362,11 +362,13 @@ def batch_process_videos(video_dir: str, max_videos: int = None):
     print(f"Found {len(video_files)} videos to process")
     
     for i, video_path in enumerate(video_files):
-        video_id = f"lecture_{i+1:03d}"
-        print(f"\n📹 Processing video {i+1}/{len(video_files)}: {video_path.name}")
+        lecture_number = start_index + i
+        video_id = f"lecture_{lecture_number:03d}"
+        
+        print(f"\n📹 Processing video {lecture_number}: {video_path.name}")
         
         try:
-            process_single_video(str(video_path), video_id)
+            process_single_video(str(video_path.resolve()), video_id)
         except Exception as e:
             print(f"❌ Failed to process {video_path}: {e}")
             continue
@@ -380,4 +382,8 @@ if __name__ == "__main__":
         process_single_video(video_path, video_id)
     else:
         # Batch process all videos in raw directory
-        batch_process_videos(Config.RAW_VIDEO_DIR, max_videos=None)
+        batch_process_videos(
+    Config.RAW_VIDEO_DIR,
+    max_videos=None,
+    start_index=72
+)
