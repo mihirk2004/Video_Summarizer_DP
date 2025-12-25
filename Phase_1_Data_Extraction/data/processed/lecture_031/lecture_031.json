@@ -1,0 +1,7624 @@
+{
+  "video_id": "lecture_031",
+  "metadata": {
+    "original_path": "data\\raw_videos\\cs_lecture_31.mp4",
+    "duration": 0.0,
+    "fps": 30.0,
+    "resolution": "640x360",
+    "processing_date": "2025-12-24T17:46:16.140079",
+    "subject": "STEM",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_031\\audio.wav",
+    "transcript": {
+      "text": " In our previous presentations, we understood what is Big O notation and how it is useful. Through Big O notation, we describe the performance of an algorithm with respect to the input size. This is what we learned in our previous lectures. Now, in this lecture, I will propose the formal definition of Big O notation. This means in this lecture, we will understand the formal definition of Big O notation. This will help us to properly understand and utilize Big O notation. Let's get started with this lecture and let's see what are the topics. The first topic of this lecture is growth rate comparison of functions. First, we will compare the growth rates of two functions as this will set the base for us to understand the formal definition of Big O notation. After this, we will move to the definition of Big O notation. Let's get started with the growth rate comparison of functions. In this graph, we can observe the two functions fn and gn. Their growth rates are shown. Also, x-axis represents the input size. n represents input size. Both fn and gn are dependent on n. As we can observe, we have n here in both these functions. This means these two functions are dependent on the input size. As the size of the input increases, their growth rates changes. Now, I would like to ask this question. Is it the case that gn is bigger than fn or is it the case that fn is bigger than gn? I want you to pause this video and think about it. I hope you gave it a thought. Have you got the answer? Okay, if it is confusing, don't worry. If you ask me whether gn is greater than fn or fn is greater than gn, I would say that after some point, gn is greater than fn or gn is bigger than fn. And this is the point I am talking about. After this point, it is guaranteed that gn is bigger than fn. But before this point, we cannot guarantee that gn is bigger than fn. Sometimes gn is lesser than fn and sometimes it is greater than fn. But after this point, gn is always bigger than fn. In other words, gn is asymptotically bigger than fn. Now, what is the meaning of asymptotically bigger? This word is new to us. When we say gn is asymptotically bigger than fn, we mean that gn is not always bigger than fn. But after some point, gn is bigger than fn. Or in other words, as n approaches to infinity or the input size approaches to infinity, gn is bigger than fn. This is the meaning of asymptotically bigger. gn is asymptotically bigger than fn means after some point, gn is always bigger than fn. And we can represent this statement as fn equal to big O of gn. Now, what does this mean? This means gn is asymptotically bigger than fn. So, through big O notation, we are telling that gn is asymptotically bigger than fn. Or in other words, after some point, gn is always bigger than fn. So, through big O notation, we are giving this guarantee that after some point, fn cannot grow more than gn. And that's what we can observe through this graph also. After this point, fn cannot grow more than gn. gn is always bigger than fn. This is the meaning of big O notation. So, through this graph, we got to know what big O notation tells us. So, here we compared the growth rates of these two functions. Now, as we are done with growth rate comparison of these two functions, let's move to the next topic where we will discuss the formal definition of big O notation. So, what is the formal definition of big O notation? Here is the definition. Assuming fn and gn are non-negative functions, we are assuming fn and gn are non-negative functions. And the reason behind this is that these two functions either represent time or they may represent memory space. Both time and memory space cannot be negative. Hence, we are assuming fn and gn are non-negative functions. fn equal to big O of gn if and only if fn is less than or equal to c dot gn for all values of n, where n is greater than or equal to n naught. And c and n naught are constants. fn and gn are non-negative functions and fn is big O of gn or in other words gn is asymptotically bigger than fn if and only if fn is less than or equal to c times gn for all values of n, greater than or equal to n naught. C is some constant greater than zero. This means c cannot be negative or it cannot be zero. So this inequality must be true for all values of n greater than or equal to n naught if we want to say that fn is big O of gn. In our previous graph, we saw the plot of fn and gn. We saw that gn is asymptotically bigger than fn or the growth rate of gn is more than fn after some point. Here in this definition, we are multiplying gn by some constant. This is because it might be possible that gn is not greater than or equal to fn. After multiplying it by some constant c, it may become greater than or equal to fn for all values of n greater than or equal to n naught. So this is the reason why we multiply gn by some constant. Now in order to understand this definition better, let's consider the graph of c times gn and fn. Here is the graph. In this graph, we can observe that for all values of n greater than or equal to n naught, c times gn is always either equal to or greater than fn. We can observe that c times gn is either equal to or greater than fn for all values of n greater than or equal to n naught. So with this one thing is clear that gn is asymptotically bigger than fn or in other words, fn is big O of gn. And that's what we observed in the definition as well. Here we observed that if fn is less than or equal to c times gn, for all values of n greater than or equal to n naught, then fn is equal to big O of gn. So I hope with this graph, this definition is clear. In this graph, we can observe fn and gn are both non-negative functions. Also please note that gn is also called the tight upper bound of fn. Now what is the meaning of tight upper bound? In order to understand the meaning of tight upper bound, we need to know the meaning of upper bound first. What is an upper bound? If we are saying that gn is the upper bound of fn, then after some point n naught, the growth rate of gn must be greater than the growth rate of fn. Or in other words, fn cannot grow more than gn after some point n naught. So this is the meaning of upper bound. Now what is the meaning of tight upper bound? The meaning of tight upper bound will be clear once we discuss some problems based on big O notation. After this lecture, we will discuss some problems based on big O notation and in those problems, it will be clear what is the meaning of tight upper bound. So with this, we are done with this topic and this means we are done with this lecture. Okay friends, this is it for now. Thank you for watching this presentation. I will see you in the next one.",
+      "segments": [
+        {
+          "start": 5.540000000000001,
+          "end": 12.82,
+          "text": "In our previous presentations, we understood what is Big O notation and how it is useful.",
+          "words": [
+            {
+              "word": " In",
+              "start": 5.540000000000001,
+              "end": 6.26
+            },
+            {
+              "word": " our",
+              "start": 6.26,
+              "end": 6.46
+            },
+            {
+              "word": " previous",
+              "start": 6.46,
+              "end": 6.8
+            },
+            {
+              "word": " presentations,",
+              "start": 6.8,
+              "end": 7.52
+            },
+            {
+              "word": " we",
+              "start": 7.82,
+              "end": 8.06
+            },
+            {
+              "word": " understood",
+              "start": 8.06,
+              "end": 8.68
+            },
+            {
+              "word": " what",
+              "start": 8.68,
+              "end": 9.4
+            },
+            {
+              "word": " is",
+              "start": 9.4,
+              "end": 9.78
+            },
+            {
+              "word": " Big",
+              "start": 9.78,
+              "end": 10.06
+            },
+            {
+              "word": " O",
+              "start": 10.06,
+              "end": 10.18
+            },
+            {
+              "word": " notation",
+              "start": 10.18,
+              "end": 10.66
+            },
+            {
+              "word": " and",
+              "start": 10.66,
+              "end": 11.4
+            },
+            {
+              "word": " how",
+              "start": 11.4,
+              "end": 11.82
+            },
+            {
+              "word": " it",
+              "start": 11.82,
+              "end": 12.14
+            },
+            {
+              "word": " is",
+              "start": 12.14,
+              "end": 12.32
+            },
+            {
+              "word": " useful.",
+              "start": 12.32,
+              "end": 12.82
+            }
+          ]
+        },
+        {
+          "start": 13.58,
+          "end": 19.36,
+          "text": "Through Big O notation, we describe the performance of an algorithm with respect to the input",
+          "words": [
+            {
+              "word": " Through",
+              "start": 13.58,
+              "end": 13.84
+            },
+            {
+              "word": " Big",
+              "start": 13.84,
+              "end": 14.06
+            },
+            {
+              "word": " O",
+              "start": 14.06,
+              "end": 14.2
+            },
+            {
+              "word": " notation,",
+              "start": 14.2,
+              "end": 14.62
+            },
+            {
+              "word": " we",
+              "start": 14.88,
+              "end": 14.94
+            },
+            {
+              "word": " describe",
+              "start": 14.94,
+              "end": 15.52
+            },
+            {
+              "word": " the",
+              "start": 15.52,
+              "end": 16.06
+            },
+            {
+              "word": " performance",
+              "start": 16.06,
+              "end": 16.52
+            },
+            {
+              "word": " of",
+              "start": 16.52,
+              "end": 16.92
+            },
+            {
+              "word": " an",
+              "start": 16.92,
+              "end": 17.08
+            },
+            {
+              "word": " algorithm",
+              "start": 17.08,
+              "end": 17.56
+            },
+            {
+              "word": " with",
+              "start": 17.56,
+              "end": 18.06
+            },
+            {
+              "word": " respect",
+              "start": 18.06,
+              "end": 18.5
+            },
+            {
+              "word": " to",
+              "start": 18.5,
+              "end": 18.76
+            },
+            {
+              "word": " the",
+              "start": 18.76,
+              "end": 18.92
+            },
+            {
+              "word": " input",
+              "start": 18.92,
+              "end": 19.36
+            }
+          ]
+        },
+        {
+          "start": 19.36,
+          "end": 19.72,
+          "text": "size.",
+          "words": [
+            {
+              "word": " size.",
+              "start": 19.36,
+              "end": 19.72
+            }
+          ]
+        },
+        {
+          "start": 20.46,
+          "end": 22.8,
+          "text": "This is what we learned in our previous lectures.",
+          "words": [
+            {
+              "word": " This",
+              "start": 20.46,
+              "end": 20.9
+            },
+            {
+              "word": " is",
+              "start": 20.9,
+              "end": 21.02
+            },
+            {
+              "word": " what",
+              "start": 21.02,
+              "end": 21.22
+            },
+            {
+              "word": " we",
+              "start": 21.22,
+              "end": 21.4
+            },
+            {
+              "word": " learned",
+              "start": 21.4,
+              "end": 21.72
+            },
+            {
+              "word": " in",
+              "start": 21.72,
+              "end": 21.9
+            },
+            {
+              "word": " our",
+              "start": 21.9,
+              "end": 22.06
+            },
+            {
+              "word": " previous",
+              "start": 22.06,
+              "end": 22.34
+            },
+            {
+              "word": " lectures.",
+              "start": 22.34,
+              "end": 22.8
+            }
+          ]
+        },
+        {
+          "start": 23.8,
+          "end": 29.94,
+          "text": "Now, in this lecture, I will propose the formal definition of Big O notation.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 23.8,
+              "end": 24.3
+            },
+            {
+              "word": " in",
+              "start": 24.64,
+              "end": 24.88
+            },
+            {
+              "word": " this",
+              "start": 24.88,
+              "end": 25.1
+            },
+            {
+              "word": " lecture,",
+              "start": 25.1,
+              "end": 25.48
+            },
+            {
+              "word": " I",
+              "start": 25.98,
+              "end": 26.16
+            },
+            {
+              "word": " will",
+              "start": 26.16,
+              "end": 26.3
+            },
+            {
+              "word": " propose",
+              "start": 26.3,
+              "end": 26.74
+            },
+            {
+              "word": " the",
+              "start": 26.74,
+              "end": 27.04
+            },
+            {
+              "word": " formal",
+              "start": 27.04,
+              "end": 27.64
+            },
+            {
+              "word": " definition",
+              "start": 27.64,
+              "end": 28.24
+            },
+            {
+              "word": " of",
+              "start": 28.24,
+              "end": 28.96
+            },
+            {
+              "word": " Big",
+              "start": 28.96,
+              "end": 29.32
+            },
+            {
+              "word": " O",
+              "start": 29.32,
+              "end": 29.44
+            },
+            {
+              "word": " notation.",
+              "start": 29.44,
+              "end": 29.94
+            }
+          ]
+        },
+        {
+          "start": 30.5,
+          "end": 36.7,
+          "text": "This means in this lecture, we will understand the formal definition of Big O notation.",
+          "words": [
+            {
+              "word": " This",
+              "start": 30.5,
+              "end": 30.92
+            },
+            {
+              "word": " means",
+              "start": 30.92,
+              "end": 31.14
+            },
+            {
+              "word": " in",
+              "start": 31.14,
+              "end": 31.44
+            },
+            {
+              "word": " this",
+              "start": 31.44,
+              "end": 31.62
+            },
+            {
+              "word": " lecture,",
+              "start": 31.62,
+              "end": 32.02
+            },
+            {
+              "word": " we",
+              "start": 32.16,
+              "end": 32.3
+            },
+            {
+              "word": " will",
+              "start": 32.3,
+              "end": 32.44
+            },
+            {
+              "word": " understand",
+              "start": 32.44,
+              "end": 33.02
+            },
+            {
+              "word": " the",
+              "start": 33.02,
+              "end": 33.4
+            },
+            {
+              "word": " formal",
+              "start": 33.4,
+              "end": 34.02
+            },
+            {
+              "word": " definition",
+              "start": 34.02,
+              "end": 34.62
+            },
+            {
+              "word": " of",
+              "start": 34.62,
+              "end": 35.4
+            },
+            {
+              "word": " Big",
+              "start": 35.4,
+              "end": 35.78
+            },
+            {
+              "word": " O",
+              "start": 35.78,
+              "end": 36.16
+            },
+            {
+              "word": " notation.",
+              "start": 36.16,
+              "end": 36.7
+            }
+          ]
+        },
+        {
+          "start": 37.3,
+          "end": 42.54,
+          "text": "This will help us to properly understand and utilize Big O notation.",
+          "words": [
+            {
+              "word": " This",
+              "start": 37.3,
+              "end": 37.7
+            },
+            {
+              "word": " will",
+              "start": 37.7,
+              "end": 37.98
+            },
+            {
+              "word": " help",
+              "start": 37.98,
+              "end": 38.26
+            },
+            {
+              "word": " us",
+              "start": 38.26,
+              "end": 38.68
+            },
+            {
+              "word": " to",
+              "start": 38.68,
+              "end": 38.92
+            },
+            {
+              "word": " properly",
+              "start": 38.92,
+              "end": 39.38
+            },
+            {
+              "word": " understand",
+              "start": 39.38,
+              "end": 40.06
+            },
+            {
+              "word": " and",
+              "start": 40.06,
+              "end": 40.6
+            },
+            {
+              "word": " utilize",
+              "start": 40.6,
+              "end": 41.14
+            },
+            {
+              "word": " Big",
+              "start": 41.14,
+              "end": 41.84
+            },
+            {
+              "word": " O",
+              "start": 41.84,
+              "end": 42.04
+            },
+            {
+              "word": " notation.",
+              "start": 42.04,
+              "end": 42.54
+            }
+          ]
+        },
+        {
+          "start": 43.64,
+          "end": 46.96,
+          "text": "Let's get started with this lecture and let's see what are the topics.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 43.480000000000004,
+              "end": 43.86
+            },
+            {
+              "word": " get",
+              "start": 43.86,
+              "end": 43.98
+            },
+            {
+              "word": " started",
+              "start": 43.98,
+              "end": 44.3
+            },
+            {
+              "word": " with",
+              "start": 44.3,
+              "end": 44.56
+            },
+            {
+              "word": " this",
+              "start": 44.56,
+              "end": 44.72
+            },
+            {
+              "word": " lecture",
+              "start": 44.72,
+              "end": 45.06
+            },
+            {
+              "word": " and",
+              "start": 45.06,
+              "end": 45.62
+            },
+            {
+              "word": " let's",
+              "start": 45.62,
+              "end": 45.86
+            },
+            {
+              "word": " see",
+              "start": 45.86,
+              "end": 45.98
+            },
+            {
+              "word": " what",
+              "start": 45.98,
+              "end": 46.2
+            },
+            {
+              "word": " are",
+              "start": 46.2,
+              "end": 46.5
+            },
+            {
+              "word": " the",
+              "start": 46.5,
+              "end": 46.62
+            },
+            {
+              "word": " topics.",
+              "start": 46.62,
+              "end": 46.96
+            }
+          ]
+        },
+        {
+          "start": 47.980000000000004,
+          "end": 53.36,
+          "text": "The first topic of this lecture is growth rate comparison of functions.",
+          "words": [
+            {
+              "word": " The",
+              "start": 47.980000000000004,
+              "end": 48.7
+            },
+            {
+              "word": " first",
+              "start": 48.7,
+              "end": 49.02
+            },
+            {
+              "word": " topic",
+              "start": 49.02,
+              "end": 49.38
+            },
+            {
+              "word": " of",
+              "start": 49.38,
+              "end": 49.62
+            },
+            {
+              "word": " this",
+              "start": 49.62,
+              "end": 49.86
+            },
+            {
+              "word": " lecture",
+              "start": 49.86,
+              "end": 50.16
+            },
+            {
+              "word": " is",
+              "start": 50.16,
+              "end": 50.54
+            },
+            {
+              "word": " growth",
+              "start": 50.54,
+              "end": 51.26
+            },
+            {
+              "word": " rate",
+              "start": 51.26,
+              "end": 51.66
+            },
+            {
+              "word": " comparison",
+              "start": 51.66,
+              "end": 52.1
+            },
+            {
+              "word": " of",
+              "start": 52.1,
+              "end": 52.88
+            },
+            {
+              "word": " functions.",
+              "start": 52.88,
+              "end": 53.36
+            }
+          ]
+        },
+        {
+          "start": 54.06,
+          "end": 59.92,
+          "text": "First, we will compare the growth rates of two functions as this will set the base for",
+          "words": [
+            {
+              "word": " First,",
+              "start": 54.06,
+              "end": 54.44
+            },
+            {
+              "word": " we",
+              "start": 54.6,
+              "end": 54.64
+            },
+            {
+              "word": " will",
+              "start": 54.64,
+              "end": 54.74
+            },
+            {
+              "word": " compare",
+              "start": 54.74,
+              "end": 55.2
+            },
+            {
+              "word": " the",
+              "start": 55.2,
+              "end": 55.5
+            },
+            {
+              "word": " growth",
+              "start": 55.5,
+              "end": 55.88
+            },
+            {
+              "word": " rates",
+              "start": 55.88,
+              "end": 56.4
+            },
+            {
+              "word": " of",
+              "start": 56.4,
+              "end": 56.72
+            },
+            {
+              "word": " two",
+              "start": 56.72,
+              "end": 56.96
+            },
+            {
+              "word": " functions",
+              "start": 56.96,
+              "end": 57.48
+            },
+            {
+              "word": " as",
+              "start": 57.48,
+              "end": 58.32
+            },
+            {
+              "word": " this",
+              "start": 58.32,
+              "end": 58.56
+            },
+            {
+              "word": " will",
+              "start": 58.56,
+              "end": 58.78
+            },
+            {
+              "word": " set",
+              "start": 58.78,
+              "end": 59.04
+            },
+            {
+              "word": " the",
+              "start": 59.04,
+              "end": 59.22
+            },
+            {
+              "word": " base",
+              "start": 59.22,
+              "end": 59.58
+            },
+            {
+              "word": " for",
+              "start": 59.58,
+              "end": 59.92
+            }
+          ]
+        },
+        {
+          "start": 59.92,
+          "end": 63.7,
+          "text": "us to understand the formal definition of Big O notation.",
+          "words": [
+            {
+              "word": " us",
+              "start": 59.92,
+              "end": 60.22
+            },
+            {
+              "word": " to",
+              "start": 60.22,
+              "end": 60.46
+            },
+            {
+              "word": " understand",
+              "start": 60.46,
+              "end": 61.08
+            },
+            {
+              "word": " the",
+              "start": 61.08,
+              "end": 61.36
+            },
+            {
+              "word": " formal",
+              "start": 61.36,
+              "end": 61.76
+            },
+            {
+              "word": " definition",
+              "start": 61.76,
+              "end": 62.34
+            },
+            {
+              "word": " of",
+              "start": 62.34,
+              "end": 62.86
+            },
+            {
+              "word": " Big",
+              "start": 62.86,
+              "end": 63.14
+            },
+            {
+              "word": " O",
+              "start": 63.14,
+              "end": 63.26
+            },
+            {
+              "word": " notation.",
+              "start": 63.26,
+              "end": 63.7
+            }
+          ]
+        },
+        {
+          "start": 64.62,
+          "end": 68.44,
+          "text": "After this, we will move to the definition of Big O notation.",
+          "words": [
+            {
+              "word": " After",
+              "start": 64.62,
+              "end": 65.34
+            },
+            {
+              "word": " this,",
+              "start": 65.34,
+              "end": 65.62
+            },
+            {
+              "word": " we",
+              "start": 65.76,
+              "end": 65.88
+            },
+            {
+              "word": " will",
+              "start": 65.88,
+              "end": 66.0
+            },
+            {
+              "word": " move",
+              "start": 66.0,
+              "end": 66.24
+            },
+            {
+              "word": " to",
+              "start": 66.24,
+              "end": 66.46
+            },
+            {
+              "word": " the",
+              "start": 66.46,
+              "end": 66.64
+            },
+            {
+              "word": " definition",
+              "start": 66.64,
+              "end": 67.14
+            },
+            {
+              "word": " of",
+              "start": 67.14,
+              "end": 67.54
+            },
+            {
+              "word": " Big",
+              "start": 67.54,
+              "end": 67.82
+            },
+            {
+              "word": " O",
+              "start": 67.82,
+              "end": 67.94
+            },
+            {
+              "word": " notation.",
+              "start": 67.94,
+              "end": 68.44
+            }
+          ]
+        },
+        {
+          "start": 69.12,
+          "end": 73.42,
+          "text": "Let's get started with the growth rate comparison of functions.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 69.12,
+              "end": 69.74
+            },
+            {
+              "word": " get",
+              "start": 69.74,
+              "end": 69.86
+            },
+            {
+              "word": " started",
+              "start": 69.86,
+              "end": 70.24
+            },
+            {
+              "word": " with",
+              "start": 70.24,
+              "end": 70.8
+            },
+            {
+              "word": " the",
+              "start": 70.8,
+              "end": 70.98
+            },
+            {
+              "word": " growth",
+              "start": 70.98,
+              "end": 71.3
+            },
+            {
+              "word": " rate",
+              "start": 71.3,
+              "end": 71.68
+            },
+            {
+              "word": " comparison",
+              "start": 71.68,
+              "end": 72.14
+            },
+            {
+              "word": " of",
+              "start": 72.14,
+              "end": 72.88
+            },
+            {
+              "word": " functions.",
+              "start": 72.88,
+              "end": 73.42
+            }
+          ]
+        },
+        {
+          "start": 75.28,
+          "end": 80.64,
+          "text": "In this graph, we can observe the two functions fn and gn.",
+          "words": [
+            {
+              "word": " In",
+              "start": 75.28,
+              "end": 76.1
+            },
+            {
+              "word": " this",
+              "start": 76.1,
+              "end": 76.32
+            },
+            {
+              "word": " graph,",
+              "start": 76.32,
+              "end": 76.7
+            },
+            {
+              "word": " we",
+              "start": 77.12,
+              "end": 77.34
+            },
+            {
+              "word": " can",
+              "start": 77.34,
+              "end": 77.58
+            },
+            {
+              "word": " observe",
+              "start": 77.58,
+              "end": 78.1
+            },
+            {
+              "word": " the",
+              "start": 78.1,
+              "end": 78.4
+            },
+            {
+              "word": " two",
+              "start": 78.4,
+              "end": 78.62
+            },
+            {
+              "word": " functions",
+              "start": 78.62,
+              "end": 79.16
+            },
+            {
+              "word": " fn",
+              "start": 79.16,
+              "end": 79.9
+            },
+            {
+              "word": " and",
+              "start": 79.9,
+              "end": 80.3
+            },
+            {
+              "word": " gn.",
+              "start": 80.3,
+              "end": 80.64
+            }
+          ]
+        },
+        {
+          "start": 81.42,
+          "end": 83.68,
+          "text": "Their growth rates are shown.",
+          "words": [
+            {
+              "word": " Their",
+              "start": 81.42,
+              "end": 81.86
+            },
+            {
+              "word": " growth",
+              "start": 81.86,
+              "end": 82.32
+            },
+            {
+              "word": " rates",
+              "start": 82.32,
+              "end": 82.94
+            },
+            {
+              "word": " are",
+              "start": 82.94,
+              "end": 83.28
+            },
+            {
+              "word": " shown.",
+              "start": 83.28,
+              "end": 83.68
+            }
+          ]
+        },
+        {
+          "start": 85.08000000000001,
+          "end": 89.18,
+          "text": "Also, x-axis represents the input size.",
+          "words": [
+            {
+              "word": " Also,",
+              "start": 85.08000000000001,
+              "end": 85.9
+            },
+            {
+              "word": " x",
+              "start": 86.7,
+              "end": 87.04
+            },
+            {
+              "word": "-axis",
+              "start": 87.04,
+              "end": 87.34
+            },
+            {
+              "word": " represents",
+              "start": 87.34,
+              "end": 88.0
+            },
+            {
+              "word": " the",
+              "start": 88.0,
+              "end": 88.34
+            },
+            {
+              "word": " input",
+              "start": 88.34,
+              "end": 88.78
+            },
+            {
+              "word": " size.",
+              "start": 88.78,
+              "end": 89.18
+            }
+          ]
+        },
+        {
+          "start": 90.16,
+          "end": 92.44,
+          "text": "n represents input size.",
+          "words": [
+            {
+              "word": " n",
+              "start": 90.16,
+              "end": 90.56
+            },
+            {
+              "word": " represents",
+              "start": 90.56,
+              "end": 91.08
+            },
+            {
+              "word": " input",
+              "start": 91.08,
+              "end": 91.98
+            },
+            {
+              "word": " size.",
+              "start": 91.98,
+              "end": 92.44
+            }
+          ]
+        },
+        {
+          "start": 93.48,
+          "end": 97.36,
+          "text": "Both fn and gn are dependent on n.",
+          "words": [
+            {
+              "word": " Both",
+              "start": 93.48,
+              "end": 94.04
+            },
+            {
+              "word": " fn",
+              "start": 94.04,
+              "end": 94.64
+            },
+            {
+              "word": " and",
+              "start": 94.64,
+              "end": 94.98
+            },
+            {
+              "word": " gn",
+              "start": 94.98,
+              "end": 95.38
+            },
+            {
+              "word": " are",
+              "start": 95.38,
+              "end": 96.0
+            },
+            {
+              "word": " dependent",
+              "start": 96.0,
+              "end": 96.52
+            },
+            {
+              "word": " on",
+              "start": 96.52,
+              "end": 96.96
+            },
+            {
+              "word": " n.",
+              "start": 96.96,
+              "end": 97.36
+            }
+          ]
+        },
+        {
+          "start": 97.6,
+          "end": 101.32,
+          "text": "As we can observe, we have n here in both these functions.",
+          "words": [
+            {
+              "word": " As",
+              "start": 97.6,
+              "end": 97.88
+            },
+            {
+              "word": " we",
+              "start": 97.88,
+              "end": 98.02
+            },
+            {
+              "word": " can",
+              "start": 98.02,
+              "end": 98.16
+            },
+            {
+              "word": " observe,",
+              "start": 98.16,
+              "end": 98.54
+            },
+            {
+              "word": " we",
+              "start": 98.82,
+              "end": 98.82
+            },
+            {
+              "word": " have",
+              "start": 98.82,
+              "end": 99.0
+            },
+            {
+              "word": " n",
+              "start": 99.0,
+              "end": 99.38
+            },
+            {
+              "word": " here",
+              "start": 99.38,
+              "end": 99.8
+            },
+            {
+              "word": " in",
+              "start": 99.8,
+              "end": 100.26
+            },
+            {
+              "word": " both",
+              "start": 100.26,
+              "end": 100.54
+            },
+            {
+              "word": " these",
+              "start": 100.54,
+              "end": 100.86
+            },
+            {
+              "word": " functions.",
+              "start": 100.86,
+              "end": 101.32
+            }
+          ]
+        },
+        {
+          "start": 102.16,
+          "end": 105.84,
+          "text": "This means these two functions are dependent on the input size.",
+          "words": [
+            {
+              "word": " This",
+              "start": 101.94,
+              "end": 102.26
+            },
+            {
+              "word": " means",
+              "start": 102.26,
+              "end": 102.48
+            },
+            {
+              "word": " these",
+              "start": 102.48,
+              "end": 102.82
+            },
+            {
+              "word": " two",
+              "start": 102.82,
+              "end": 103.06
+            },
+            {
+              "word": " functions",
+              "start": 103.06,
+              "end": 103.48
+            },
+            {
+              "word": " are",
+              "start": 103.48,
+              "end": 103.92
+            },
+            {
+              "word": " dependent",
+              "start": 103.92,
+              "end": 104.34
+            },
+            {
+              "word": " on",
+              "start": 104.34,
+              "end": 104.84
+            },
+            {
+              "word": " the",
+              "start": 104.84,
+              "end": 105.06
+            },
+            {
+              "word": " input",
+              "start": 105.06,
+              "end": 105.46
+            },
+            {
+              "word": " size.",
+              "start": 105.46,
+              "end": 105.84
+            }
+          ]
+        },
+        {
+          "start": 106.52,
+          "end": 111.02,
+          "text": "As the size of the input increases, their growth rates changes.",
+          "words": [
+            {
+              "word": " As",
+              "start": 106.52,
+              "end": 106.86
+            },
+            {
+              "word": " the",
+              "start": 106.86,
+              "end": 107.02
+            },
+            {
+              "word": " size",
+              "start": 107.02,
+              "end": 107.38
+            },
+            {
+              "word": " of",
+              "start": 107.38,
+              "end": 107.58
+            },
+            {
+              "word": " the",
+              "start": 107.58,
+              "end": 107.74
+            },
+            {
+              "word": " input",
+              "start": 107.74,
+              "end": 108.14
+            },
+            {
+              "word": " increases,",
+              "start": 108.14,
+              "end": 108.84
+            },
+            {
+              "word": " their",
+              "start": 109.44,
+              "end": 109.68
+            },
+            {
+              "word": " growth",
+              "start": 109.68,
+              "end": 110.1
+            },
+            {
+              "word": " rates",
+              "start": 110.1,
+              "end": 110.52
+            },
+            {
+              "word": " changes.",
+              "start": 110.52,
+              "end": 111.02
+            }
+          ]
+        },
+        {
+          "start": 111.7,
+          "end": 114.04,
+          "text": "Now, I would like to ask this question.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 111.7,
+              "end": 112.22
+            },
+            {
+              "word": " I",
+              "start": 112.32,
+              "end": 112.44
+            },
+            {
+              "word": " would",
+              "start": 112.44,
+              "end": 112.6
+            },
+            {
+              "word": " like",
+              "start": 112.6,
+              "end": 112.76
+            },
+            {
+              "word": " to",
+              "start": 112.76,
+              "end": 112.98
+            },
+            {
+              "word": " ask",
+              "start": 112.98,
+              "end": 113.3
+            },
+            {
+              "word": " this",
+              "start": 113.3,
+              "end": 113.54
+            },
+            {
+              "word": " question.",
+              "start": 113.54,
+              "end": 114.04
+            }
+          ]
+        },
+        {
+          "start": 114.66,
+          "end": 121.36,
+          "text": "Is it the case that gn is bigger than fn or is it the case that fn is bigger than gn?",
+          "words": [
+            {
+              "word": " Is",
+              "start": 114.66,
+              "end": 114.84
+            },
+            {
+              "word": " it",
+              "start": 114.84,
+              "end": 114.96
+            },
+            {
+              "word": " the",
+              "start": 114.96,
+              "end": 115.08
+            },
+            {
+              "word": " case",
+              "start": 115.08,
+              "end": 115.36
+            },
+            {
+              "word": " that",
+              "start": 115.36,
+              "end": 115.7
+            },
+            {
+              "word": " gn",
+              "start": 115.7,
+              "end": 116.16
+            },
+            {
+              "word": " is",
+              "start": 116.16,
+              "end": 116.6
+            },
+            {
+              "word": " bigger",
+              "start": 116.6,
+              "end": 116.98
+            },
+            {
+              "word": " than",
+              "start": 116.98,
+              "end": 117.3
+            },
+            {
+              "word": " fn",
+              "start": 117.3,
+              "end": 117.78
+            },
+            {
+              "word": " or",
+              "start": 117.78,
+              "end": 118.78
+            },
+            {
+              "word": " is",
+              "start": 118.78,
+              "end": 119.08
+            },
+            {
+              "word": " it",
+              "start": 119.08,
+              "end": 119.22
+            },
+            {
+              "word": " the",
+              "start": 119.22,
+              "end": 119.32
+            },
+            {
+              "word": " case",
+              "start": 119.32,
+              "end": 119.58
+            },
+            {
+              "word": " that",
+              "start": 119.58,
+              "end": 119.82
+            },
+            {
+              "word": " fn",
+              "start": 119.82,
+              "end": 120.34
+            },
+            {
+              "word": " is",
+              "start": 120.34,
+              "end": 120.48
+            },
+            {
+              "word": " bigger",
+              "start": 120.48,
+              "end": 120.82
+            },
+            {
+              "word": " than",
+              "start": 120.82,
+              "end": 121.08
+            },
+            {
+              "word": " gn?",
+              "start": 121.08,
+              "end": 121.36
+            }
+          ]
+        },
+        {
+          "start": 122.22,
+          "end": 125.92,
+          "text": "I want you to pause this video and think about it.",
+          "words": [
+            {
+              "word": " I",
+              "start": 122.22,
+              "end": 122.82
+            },
+            {
+              "word": " want",
+              "start": 122.82,
+              "end": 123.08
+            },
+            {
+              "word": " you",
+              "start": 123.08,
+              "end": 123.32
+            },
+            {
+              "word": " to",
+              "start": 123.32,
+              "end": 123.46
+            },
+            {
+              "word": " pause",
+              "start": 123.46,
+              "end": 123.78
+            },
+            {
+              "word": " this",
+              "start": 123.78,
+              "end": 124.1
+            },
+            {
+              "word": " video",
+              "start": 124.1,
+              "end": 124.48
+            },
+            {
+              "word": " and",
+              "start": 124.48,
+              "end": 124.96
+            },
+            {
+              "word": " think",
+              "start": 124.96,
+              "end": 125.28
+            },
+            {
+              "word": " about",
+              "start": 125.28,
+              "end": 125.58
+            },
+            {
+              "word": " it.",
+              "start": 125.58,
+              "end": 125.92
+            }
+          ]
+        },
+        {
+          "start": 128.16,
+          "end": 129.36,
+          "text": "I hope you gave it a thought.",
+          "words": [
+            {
+              "word": " I",
+              "start": 127.92000000000002,
+              "end": 128.24
+            },
+            {
+              "word": " hope",
+              "start": 128.24,
+              "end": 128.42
+            },
+            {
+              "word": " you",
+              "start": 128.42,
+              "end": 128.6
+            },
+            {
+              "word": " gave",
+              "start": 128.6,
+              "end": 128.78
+            },
+            {
+              "word": " it",
+              "start": 128.78,
+              "end": 128.94
+            },
+            {
+              "word": " a",
+              "start": 128.94,
+              "end": 129.04
+            },
+            {
+              "word": " thought.",
+              "start": 129.04,
+              "end": 129.36
+            }
+          ]
+        },
+        {
+          "start": 130.20000000000002,
+          "end": 131.0,
+          "text": "Have you got the answer?",
+          "words": [
+            {
+              "word": " Have",
+              "start": 129.86,
+              "end": 130.22
+            },
+            {
+              "word": " you",
+              "start": 130.22,
+              "end": 130.34
+            },
+            {
+              "word": " got",
+              "start": 130.34,
+              "end": 130.52
+            },
+            {
+              "word": " the",
+              "start": 130.52,
+              "end": 130.7
+            },
+            {
+              "word": " answer?",
+              "start": 130.7,
+              "end": 131.0
+            }
+          ]
+        },
+        {
+          "start": 131.96,
+          "end": 134.26,
+          "text": "Okay, if it is confusing, don't worry.",
+          "words": [
+            {
+              "word": " Okay,",
+              "start": 131.96,
+              "end": 132.42
+            },
+            {
+              "word": " if",
+              "start": 132.6,
+              "end": 132.74
+            },
+            {
+              "word": " it",
+              "start": 132.74,
+              "end": 132.86
+            },
+            {
+              "word": " is",
+              "start": 132.86,
+              "end": 132.96
+            },
+            {
+              "word": " confusing,",
+              "start": 132.96,
+              "end": 133.48
+            },
+            {
+              "word": " don't",
+              "start": 133.82,
+              "end": 133.96
+            },
+            {
+              "word": " worry.",
+              "start": 133.96,
+              "end": 134.26
+            }
+          ]
+        },
+        {
+          "start": 135.18,
+          "end": 140.7,
+          "text": "If you ask me whether gn is greater than fn or fn is greater than gn,",
+          "words": [
+            {
+              "word": " If",
+              "start": 135.18,
+              "end": 135.5
+            },
+            {
+              "word": " you",
+              "start": 135.5,
+              "end": 135.62
+            },
+            {
+              "word": " ask",
+              "start": 135.62,
+              "end": 136.0
+            },
+            {
+              "word": " me",
+              "start": 136.0,
+              "end": 136.28
+            },
+            {
+              "word": " whether",
+              "start": 136.28,
+              "end": 136.82
+            },
+            {
+              "word": " gn",
+              "start": 136.82,
+              "end": 137.2
+            },
+            {
+              "word": " is",
+              "start": 137.2,
+              "end": 137.46
+            },
+            {
+              "word": " greater",
+              "start": 137.46,
+              "end": 137.92
+            },
+            {
+              "word": " than",
+              "start": 137.92,
+              "end": 138.24
+            },
+            {
+              "word": " fn",
+              "start": 138.24,
+              "end": 138.7
+            },
+            {
+              "word": " or",
+              "start": 138.7,
+              "end": 139.12
+            },
+            {
+              "word": " fn",
+              "start": 139.12,
+              "end": 139.58
+            },
+            {
+              "word": " is",
+              "start": 139.58,
+              "end": 139.74
+            },
+            {
+              "word": " greater",
+              "start": 139.74,
+              "end": 140.14
+            },
+            {
+              "word": " than",
+              "start": 140.14,
+              "end": 140.42
+            },
+            {
+              "word": " gn,",
+              "start": 140.42,
+              "end": 140.7
+            }
+          ]
+        },
+        {
+          "start": 141.14,
+          "end": 149.22,
+          "text": "I would say that after some point, gn is greater than fn or gn is bigger than fn.",
+          "words": [
+            {
+              "word": " I",
+              "start": 141.14,
+              "end": 141.38
+            },
+            {
+              "word": " would",
+              "start": 141.38,
+              "end": 141.54
+            },
+            {
+              "word": " say",
+              "start": 141.54,
+              "end": 141.86
+            },
+            {
+              "word": " that",
+              "start": 141.86,
+              "end": 142.38
+            },
+            {
+              "word": " after",
+              "start": 142.38,
+              "end": 143.02
+            },
+            {
+              "word": " some",
+              "start": 143.02,
+              "end": 143.48
+            },
+            {
+              "word": " point,",
+              "start": 143.48,
+              "end": 144.02
+            },
+            {
+              "word": " gn",
+              "start": 144.38,
+              "end": 144.8
+            },
+            {
+              "word": " is",
+              "start": 144.8,
+              "end": 145.38
+            },
+            {
+              "word": " greater",
+              "start": 145.38,
+              "end": 145.8
+            },
+            {
+              "word": " than",
+              "start": 145.8,
+              "end": 146.1
+            },
+            {
+              "word": " fn",
+              "start": 146.1,
+              "end": 146.66
+            },
+            {
+              "word": " or",
+              "start": 146.66,
+              "end": 147.44
+            },
+            {
+              "word": " gn",
+              "start": 147.44,
+              "end": 147.84
+            },
+            {
+              "word": " is",
+              "start": 147.84,
+              "end": 148.24
+            },
+            {
+              "word": " bigger",
+              "start": 148.24,
+              "end": 148.56
+            },
+            {
+              "word": " than",
+              "start": 148.56,
+              "end": 148.82
+            },
+            {
+              "word": " fn.",
+              "start": 148.82,
+              "end": 149.22
+            }
+          ]
+        },
+        {
+          "start": 149.64,
+          "end": 152.54,
+          "text": "And this is the point I am talking about.",
+          "words": [
+            {
+              "word": " And",
+              "start": 149.64,
+              "end": 150.08
+            },
+            {
+              "word": " this",
+              "start": 150.08,
+              "end": 150.38
+            },
+            {
+              "word": " is",
+              "start": 150.38,
+              "end": 150.64
+            },
+            {
+              "word": " the",
+              "start": 150.64,
+              "end": 150.84
+            },
+            {
+              "word": " point",
+              "start": 150.84,
+              "end": 151.2
+            },
+            {
+              "word": " I",
+              "start": 151.2,
+              "end": 151.64
+            },
+            {
+              "word": " am",
+              "start": 151.64,
+              "end": 151.8
+            },
+            {
+              "word": " talking",
+              "start": 151.8,
+              "end": 152.08
+            },
+            {
+              "word": " about.",
+              "start": 152.08,
+              "end": 152.54
+            }
+          ]
+        },
+        {
+          "start": 153.38,
+          "end": 158.64,
+          "text": "After this point, it is guaranteed that gn is bigger than fn.",
+          "words": [
+            {
+              "word": " After",
+              "start": 153.34,
+              "end": 153.78
+            },
+            {
+              "word": " this",
+              "start": 153.78,
+              "end": 154.0
+            },
+            {
+              "word": " point,",
+              "start": 154.0,
+              "end": 154.44
+            },
+            {
+              "word": " it",
+              "start": 154.64,
+              "end": 154.76
+            },
+            {
+              "word": " is",
+              "start": 154.76,
+              "end": 154.9
+            },
+            {
+              "word": " guaranteed",
+              "start": 154.9,
+              "end": 155.42
+            },
+            {
+              "word": " that",
+              "start": 155.42,
+              "end": 156.24
+            },
+            {
+              "word": " gn",
+              "start": 156.24,
+              "end": 156.62
+            },
+            {
+              "word": " is",
+              "start": 156.62,
+              "end": 157.18
+            },
+            {
+              "word": " bigger",
+              "start": 157.18,
+              "end": 157.86
+            },
+            {
+              "word": " than",
+              "start": 157.86,
+              "end": 158.18
+            },
+            {
+              "word": " fn.",
+              "start": 158.18,
+              "end": 158.64
+            }
+          ]
+        },
+        {
+          "start": 159.26,
+          "end": 164.78,
+          "text": "But before this point, we cannot guarantee that gn is bigger than fn.",
+          "words": [
+            {
+              "word": " But",
+              "start": 159.26,
+              "end": 160.1
+            },
+            {
+              "word": " before",
+              "start": 160.1,
+              "end": 160.5
+            },
+            {
+              "word": " this",
+              "start": 160.5,
+              "end": 160.78
+            },
+            {
+              "word": " point,",
+              "start": 160.78,
+              "end": 161.2
+            },
+            {
+              "word": " we",
+              "start": 161.26,
+              "end": 161.4
+            },
+            {
+              "word": " cannot",
+              "start": 161.4,
+              "end": 161.78
+            },
+            {
+              "word": " guarantee",
+              "start": 161.78,
+              "end": 162.36
+            },
+            {
+              "word": " that",
+              "start": 162.36,
+              "end": 162.92
+            },
+            {
+              "word": " gn",
+              "start": 162.92,
+              "end": 163.28
+            },
+            {
+              "word": " is",
+              "start": 163.28,
+              "end": 163.7
+            },
+            {
+              "word": " bigger",
+              "start": 163.7,
+              "end": 164.02
+            },
+            {
+              "word": " than",
+              "start": 164.02,
+              "end": 164.28
+            },
+            {
+              "word": " fn.",
+              "start": 164.28,
+              "end": 164.78
+            }
+          ]
+        },
+        {
+          "start": 165.14,
+          "end": 171.04,
+          "text": "Sometimes gn is lesser than fn and sometimes it is greater than fn.",
+          "words": [
+            {
+              "word": " Sometimes",
+              "start": 165.14,
+              "end": 165.72
+            },
+            {
+              "word": " gn",
+              "start": 165.72,
+              "end": 166.54
+            },
+            {
+              "word": " is",
+              "start": 166.54,
+              "end": 166.96
+            },
+            {
+              "word": " lesser",
+              "start": 166.96,
+              "end": 167.48
+            },
+            {
+              "word": " than",
+              "start": 167.48,
+              "end": 167.76
+            },
+            {
+              "word": " fn",
+              "start": 167.76,
+              "end": 168.24
+            },
+            {
+              "word": " and",
+              "start": 168.24,
+              "end": 168.8
+            },
+            {
+              "word": " sometimes",
+              "start": 168.8,
+              "end": 169.28
+            },
+            {
+              "word": " it",
+              "start": 169.28,
+              "end": 169.66
+            },
+            {
+              "word": " is",
+              "start": 169.66,
+              "end": 169.84
+            },
+            {
+              "word": " greater",
+              "start": 169.84,
+              "end": 170.36
+            },
+            {
+              "word": " than",
+              "start": 170.36,
+              "end": 170.62
+            },
+            {
+              "word": " fn.",
+              "start": 170.62,
+              "end": 171.04
+            }
+          ]
+        },
+        {
+          "start": 171.56,
+          "end": 176.52,
+          "text": "But after this point, gn is always bigger than fn.",
+          "words": [
+            {
+              "word": " But",
+              "start": 171.56,
+              "end": 172.14
+            },
+            {
+              "word": " after",
+              "start": 172.14,
+              "end": 172.6
+            },
+            {
+              "word": " this",
+              "start": 172.6,
+              "end": 172.88
+            },
+            {
+              "word": " point,",
+              "start": 172.88,
+              "end": 173.32
+            },
+            {
+              "word": " gn",
+              "start": 173.88,
+              "end": 174.06
+            },
+            {
+              "word": " is",
+              "start": 174.06,
+              "end": 174.48
+            },
+            {
+              "word": " always",
+              "start": 174.48,
+              "end": 174.96
+            },
+            {
+              "word": " bigger",
+              "start": 174.96,
+              "end": 175.46
+            },
+            {
+              "word": " than",
+              "start": 175.46,
+              "end": 175.82
+            },
+            {
+              "word": " fn.",
+              "start": 175.82,
+              "end": 176.52
+            }
+          ]
+        },
+        {
+          "start": 177.34,
+          "end": 182.46,
+          "text": "In other words, gn is asymptotically bigger than fn.",
+          "words": [
+            {
+              "word": " In",
+              "start": 177.34,
+              "end": 177.8
+            },
+            {
+              "word": " other",
+              "start": 177.8,
+              "end": 178.08
+            },
+            {
+              "word": " words,",
+              "start": 178.08,
+              "end": 178.58
+            },
+            {
+              "word": " gn",
+              "start": 179.2,
+              "end": 179.46
+            },
+            {
+              "word": " is",
+              "start": 179.46,
+              "end": 179.98
+            },
+            {
+              "word": " asymptotically",
+              "start": 179.98,
+              "end": 181.02
+            },
+            {
+              "word": " bigger",
+              "start": 181.02,
+              "end": 181.46
+            },
+            {
+              "word": " than",
+              "start": 181.46,
+              "end": 181.84
+            },
+            {
+              "word": " fn.",
+              "start": 181.84,
+              "end": 182.46
+            }
+          ]
+        },
+        {
+          "start": 183.38,
+          "end": 185.68,
+          "text": "Now, what is the meaning of asymptotically bigger?",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 183.04,
+              "end": 183.44
+            },
+            {
+              "word": " what",
+              "start": 183.52,
+              "end": 183.64
+            },
+            {
+              "word": " is",
+              "start": 183.64,
+              "end": 183.76
+            },
+            {
+              "word": " the",
+              "start": 183.76,
+              "end": 183.92
+            },
+            {
+              "word": " meaning",
+              "start": 183.92,
+              "end": 184.18
+            },
+            {
+              "word": " of",
+              "start": 184.18,
+              "end": 184.5
+            },
+            {
+              "word": " asymptotically",
+              "start": 184.5,
+              "end": 185.36
+            },
+            {
+              "word": " bigger?",
+              "start": 185.36,
+              "end": 185.68
+            }
+          ]
+        },
+        {
+          "start": 186.36,
+          "end": 187.88,
+          "text": "This word is new to us.",
+          "words": [
+            {
+              "word": " This",
+              "start": 186.36,
+              "end": 186.74
+            },
+            {
+              "word": " word",
+              "start": 186.74,
+              "end": 187.02
+            },
+            {
+              "word": " is",
+              "start": 187.02,
+              "end": 187.2
+            },
+            {
+              "word": " new",
+              "start": 187.2,
+              "end": 187.44
+            },
+            {
+              "word": " to",
+              "start": 187.44,
+              "end": 187.64
+            },
+            {
+              "word": " us.",
+              "start": 187.64,
+              "end": 187.88
+            }
+          ]
+        },
+        {
+          "start": 188.46,
+          "end": 192.02,
+          "text": "When we say gn is asymptotically bigger than fn,",
+          "words": [
+            {
+              "word": " When",
+              "start": 188.46,
+              "end": 188.68
+            },
+            {
+              "word": " we",
+              "start": 188.68,
+              "end": 188.88
+            },
+            {
+              "word": " say",
+              "start": 188.88,
+              "end": 189.16
+            },
+            {
+              "word": " gn",
+              "start": 189.16,
+              "end": 189.64
+            },
+            {
+              "word": " is",
+              "start": 189.64,
+              "end": 189.9
+            },
+            {
+              "word": " asymptotically",
+              "start": 189.9,
+              "end": 190.82
+            },
+            {
+              "word": " bigger",
+              "start": 190.82,
+              "end": 191.22
+            },
+            {
+              "word": " than",
+              "start": 191.22,
+              "end": 191.54
+            },
+            {
+              "word": " fn,",
+              "start": 191.54,
+              "end": 192.02
+            }
+          ]
+        },
+        {
+          "start": 192.44,
+          "end": 195.96,
+          "text": "we mean that gn is not always bigger than fn.",
+          "words": [
+            {
+              "word": " we",
+              "start": 192.44,
+              "end": 192.7
+            },
+            {
+              "word": " mean",
+              "start": 192.7,
+              "end": 193.02
+            },
+            {
+              "word": " that",
+              "start": 193.02,
+              "end": 193.28
+            },
+            {
+              "word": " gn",
+              "start": 193.28,
+              "end": 193.68
+            },
+            {
+              "word": " is",
+              "start": 193.68,
+              "end": 193.96
+            },
+            {
+              "word": " not",
+              "start": 193.96,
+              "end": 194.2
+            },
+            {
+              "word": " always",
+              "start": 194.2,
+              "end": 194.86
+            },
+            {
+              "word": " bigger",
+              "start": 194.86,
+              "end": 195.24
+            },
+            {
+              "word": " than",
+              "start": 195.24,
+              "end": 195.5
+            },
+            {
+              "word": " fn.",
+              "start": 195.5,
+              "end": 195.96
+            }
+          ]
+        },
+        {
+          "start": 196.28,
+          "end": 200.56,
+          "text": "But after some point, gn is bigger than fn.",
+          "words": [
+            {
+              "word": " But",
+              "start": 196.28,
+              "end": 196.74
+            },
+            {
+              "word": " after",
+              "start": 196.74,
+              "end": 197.3
+            },
+            {
+              "word": " some",
+              "start": 197.3,
+              "end": 197.72
+            },
+            {
+              "word": " point,",
+              "start": 197.72,
+              "end": 198.24
+            },
+            {
+              "word": " gn",
+              "start": 198.58,
+              "end": 198.86
+            },
+            {
+              "word": " is",
+              "start": 198.86,
+              "end": 199.36
+            },
+            {
+              "word": " bigger",
+              "start": 199.36,
+              "end": 199.76
+            },
+            {
+              "word": " than",
+              "start": 199.76,
+              "end": 200.0
+            },
+            {
+              "word": " fn.",
+              "start": 200.0,
+              "end": 200.56
+            }
+          ]
+        },
+        {
+          "start": 200.92,
+          "end": 207.78,
+          "text": "Or in other words, as n approaches to infinity or the input size approaches to infinity,",
+          "words": [
+            {
+              "word": " Or",
+              "start": 200.92,
+              "end": 201.4
+            },
+            {
+              "word": " in",
+              "start": 201.4,
+              "end": 201.56
+            },
+            {
+              "word": " other",
+              "start": 201.56,
+              "end": 201.74
+            },
+            {
+              "word": " words,",
+              "start": 201.74,
+              "end": 202.22
+            },
+            {
+              "word": " as",
+              "start": 202.62,
+              "end": 202.8
+            },
+            {
+              "word": " n",
+              "start": 202.8,
+              "end": 203.16
+            },
+            {
+              "word": " approaches",
+              "start": 203.16,
+              "end": 203.8
+            },
+            {
+              "word": " to",
+              "start": 203.8,
+              "end": 204.22
+            },
+            {
+              "word": " infinity",
+              "start": 204.22,
+              "end": 204.76
+            },
+            {
+              "word": " or",
+              "start": 204.76,
+              "end": 205.16
+            },
+            {
+              "word": " the",
+              "start": 205.16,
+              "end": 205.36
+            },
+            {
+              "word": " input",
+              "start": 205.36,
+              "end": 205.76
+            },
+            {
+              "word": " size",
+              "start": 205.76,
+              "end": 206.12
+            },
+            {
+              "word": " approaches",
+              "start": 206.12,
+              "end": 206.82
+            },
+            {
+              "word": " to",
+              "start": 206.82,
+              "end": 207.28
+            },
+            {
+              "word": " infinity,",
+              "start": 207.28,
+              "end": 207.78
+            }
+          ]
+        },
+        {
+          "start": 208.32,
+          "end": 211.22,
+          "text": "gn is bigger than fn.",
+          "words": [
+            {
+              "word": " gn",
+              "start": 208.32,
+              "end": 208.8
+            },
+            {
+              "word": " is",
+              "start": 208.8,
+              "end": 209.4
+            },
+            {
+              "word": " bigger",
+              "start": 209.4,
+              "end": 210.0
+            },
+            {
+              "word": " than",
+              "start": 210.0,
+              "end": 210.46
+            },
+            {
+              "word": " fn.",
+              "start": 210.46,
+              "end": 211.22
+            }
+          ]
+        },
+        {
+          "start": 211.22,
+          "end": 214.7,
+          "text": "This is the meaning of asymptotically bigger.",
+          "words": [
+            {
+              "word": " This",
+              "start": 211.22,
+              "end": 212.0
+            },
+            {
+              "word": " is",
+              "start": 212.0,
+              "end": 212.16
+            },
+            {
+              "word": " the",
+              "start": 212.16,
+              "end": 212.34
+            },
+            {
+              "word": " meaning",
+              "start": 212.34,
+              "end": 212.72
+            },
+            {
+              "word": " of",
+              "start": 212.72,
+              "end": 213.08
+            },
+            {
+              "word": " asymptotically",
+              "start": 213.08,
+              "end": 214.3
+            },
+            {
+              "word": " bigger.",
+              "start": 214.3,
+              "end": 214.7
+            }
+          ]
+        },
+        {
+          "start": 215.42,
+          "end": 220.92,
+          "text": "gn is asymptotically bigger than fn means after some point,",
+          "words": [
+            {
+              "word": " gn",
+              "start": 215.42,
+              "end": 215.86
+            },
+            {
+              "word": " is",
+              "start": 215.86,
+              "end": 216.26
+            },
+            {
+              "word": " asymptotically",
+              "start": 216.26,
+              "end": 217.28
+            },
+            {
+              "word": " bigger",
+              "start": 217.28,
+              "end": 217.7
+            },
+            {
+              "word": " than",
+              "start": 217.7,
+              "end": 218.0
+            },
+            {
+              "word": " fn",
+              "start": 218.0,
+              "end": 218.5
+            },
+            {
+              "word": " means",
+              "start": 218.5,
+              "end": 219.0
+            },
+            {
+              "word": " after",
+              "start": 219.0,
+              "end": 219.78
+            },
+            {
+              "word": " some",
+              "start": 219.78,
+              "end": 220.28
+            },
+            {
+              "word": " point,",
+              "start": 220.28,
+              "end": 220.92
+            }
+          ]
+        },
+        {
+          "start": 221.16,
+          "end": 223.98,
+          "text": "gn is always bigger than fn.",
+          "words": [
+            {
+              "word": " gn",
+              "start": 221.16,
+              "end": 221.5
+            },
+            {
+              "word": " is",
+              "start": 221.5,
+              "end": 221.92
+            },
+            {
+              "word": " always",
+              "start": 221.92,
+              "end": 222.5
+            },
+            {
+              "word": " bigger",
+              "start": 222.5,
+              "end": 223.1
+            },
+            {
+              "word": " than",
+              "start": 223.1,
+              "end": 223.4
+            },
+            {
+              "word": " fn.",
+              "start": 223.4,
+              "end": 223.98
+            }
+          ]
+        },
+        {
+          "start": 224.34,
+          "end": 230.68,
+          "text": "And we can represent this statement as fn equal to big O of gn.",
+          "words": [
+            {
+              "word": " And",
+              "start": 224.34,
+              "end": 224.8
+            },
+            {
+              "word": " we",
+              "start": 224.8,
+              "end": 225.02
+            },
+            {
+              "word": " can",
+              "start": 225.02,
+              "end": 225.36
+            },
+            {
+              "word": " represent",
+              "start": 225.36,
+              "end": 225.88
+            },
+            {
+              "word": " this",
+              "start": 225.88,
+              "end": 226.32
+            },
+            {
+              "word": " statement",
+              "start": 226.32,
+              "end": 226.8
+            },
+            {
+              "word": " as",
+              "start": 226.8,
+              "end": 227.36
+            },
+            {
+              "word": " fn",
+              "start": 227.36,
+              "end": 228.38
+            },
+            {
+              "word": " equal",
+              "start": 228.38,
+              "end": 228.76
+            },
+            {
+              "word": " to",
+              "start": 228.76,
+              "end": 229.08
+            },
+            {
+              "word": " big",
+              "start": 229.08,
+              "end": 229.44
+            },
+            {
+              "word": " O",
+              "start": 229.44,
+              "end": 229.8
+            },
+            {
+              "word": " of",
+              "start": 229.8,
+              "end": 230.1
+            },
+            {
+              "word": " gn.",
+              "start": 230.1,
+              "end": 230.68
+            }
+          ]
+        },
+        {
+          "start": 231.84,
+          "end": 233.58,
+          "text": "Now, what does this mean?",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 231.84,
+              "end": 232.72
+            },
+            {
+              "word": " what",
+              "start": 232.74,
+              "end": 232.88
+            },
+            {
+              "word": " does",
+              "start": 232.88,
+              "end": 233.04
+            },
+            {
+              "word": " this",
+              "start": 233.04,
+              "end": 233.28
+            },
+            {
+              "word": " mean?",
+              "start": 233.28,
+              "end": 233.58
+            }
+          ]
+        },
+        {
+          "start": 234.06,
+          "end": 238.78,
+          "text": "This means gn is asymptotically bigger than fn.",
+          "words": [
+            {
+              "word": " This",
+              "start": 234.06,
+              "end": 234.22
+            },
+            {
+              "word": " means",
+              "start": 234.22,
+              "end": 234.58
+            },
+            {
+              "word": " gn",
+              "start": 234.58,
+              "end": 235.6
+            },
+            {
+              "word": " is",
+              "start": 235.6,
+              "end": 236.22
+            },
+            {
+              "word": " asymptotically",
+              "start": 236.22,
+              "end": 237.24
+            },
+            {
+              "word": " bigger",
+              "start": 237.24,
+              "end": 237.7
+            },
+            {
+              "word": " than",
+              "start": 237.7,
+              "end": 238.02
+            },
+            {
+              "word": " fn.",
+              "start": 238.02,
+              "end": 238.78
+            }
+          ]
+        },
+        {
+          "start": 239.62,
+          "end": 245.86,
+          "text": "So, through big O notation, we are telling that gn is asymptotically bigger than fn.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 239.57999999999998,
+              "end": 239.94
+            },
+            {
+              "word": " through",
+              "start": 240.0,
+              "end": 240.18
+            },
+            {
+              "word": " big",
+              "start": 240.18,
+              "end": 240.44
+            },
+            {
+              "word": " O",
+              "start": 240.44,
+              "end": 240.58
+            },
+            {
+              "word": " notation,",
+              "start": 240.58,
+              "end": 241.1
+            },
+            {
+              "word": " we",
+              "start": 241.44,
+              "end": 241.44
+            },
+            {
+              "word": " are",
+              "start": 241.44,
+              "end": 241.58
+            },
+            {
+              "word": " telling",
+              "start": 241.58,
+              "end": 241.92
+            },
+            {
+              "word": " that",
+              "start": 241.92,
+              "end": 242.66
+            },
+            {
+              "word": " gn",
+              "start": 242.66,
+              "end": 243.1
+            },
+            {
+              "word": " is",
+              "start": 243.1,
+              "end": 243.68
+            },
+            {
+              "word": " asymptotically",
+              "start": 243.68,
+              "end": 244.66
+            },
+            {
+              "word": " bigger",
+              "start": 244.66,
+              "end": 245.02
+            },
+            {
+              "word": " than",
+              "start": 245.02,
+              "end": 245.36
+            },
+            {
+              "word": " fn.",
+              "start": 245.36,
+              "end": 245.86
+            }
+          ]
+        },
+        {
+          "start": 246.22,
+          "end": 252.24,
+          "text": "Or in other words, after some point, gn is always bigger than fn.",
+          "words": [
+            {
+              "word": " Or",
+              "start": 246.22,
+              "end": 246.6
+            },
+            {
+              "word": " in",
+              "start": 246.6,
+              "end": 246.72
+            },
+            {
+              "word": " other",
+              "start": 246.72,
+              "end": 246.86
+            },
+            {
+              "word": " words,",
+              "start": 246.86,
+              "end": 247.28
+            },
+            {
+              "word": " after",
+              "start": 247.7,
+              "end": 248.02
+            },
+            {
+              "word": " some",
+              "start": 248.02,
+              "end": 248.4
+            },
+            {
+              "word": " point,",
+              "start": 248.4,
+              "end": 248.88
+            },
+            {
+              "word": " gn",
+              "start": 249.54,
+              "end": 249.8
+            },
+            {
+              "word": " is",
+              "start": 249.8,
+              "end": 250.18
+            },
+            {
+              "word": " always",
+              "start": 250.18,
+              "end": 250.76
+            },
+            {
+              "word": " bigger",
+              "start": 250.76,
+              "end": 251.32
+            },
+            {
+              "word": " than",
+              "start": 251.32,
+              "end": 251.62
+            },
+            {
+              "word": " fn.",
+              "start": 251.62,
+              "end": 252.24
+            }
+          ]
+        },
+        {
+          "start": 252.9,
+          "end": 257.92,
+          "text": "So, through big O notation, we are giving this guarantee that after some point,",
+          "words": [
+            {
+              "word": " So,",
+              "start": 252.9,
+              "end": 253.3
+            },
+            {
+              "word": " through",
+              "start": 253.32,
+              "end": 253.46
+            },
+            {
+              "word": " big",
+              "start": 253.46,
+              "end": 253.68
+            },
+            {
+              "word": " O",
+              "start": 253.68,
+              "end": 253.82
+            },
+            {
+              "word": " notation,",
+              "start": 253.82,
+              "end": 254.36
+            },
+            {
+              "word": " we",
+              "start": 254.48,
+              "end": 254.66
+            },
+            {
+              "word": " are",
+              "start": 254.66,
+              "end": 254.78
+            },
+            {
+              "word": " giving",
+              "start": 254.78,
+              "end": 254.98
+            },
+            {
+              "word": " this",
+              "start": 254.98,
+              "end": 255.32
+            },
+            {
+              "word": " guarantee",
+              "start": 255.32,
+              "end": 255.86
+            },
+            {
+              "word": " that",
+              "start": 255.86,
+              "end": 256.5
+            },
+            {
+              "word": " after",
+              "start": 256.5,
+              "end": 257.0
+            },
+            {
+              "word": " some",
+              "start": 257.0,
+              "end": 257.36
+            },
+            {
+              "word": " point,",
+              "start": 257.36,
+              "end": 257.92
+            }
+          ]
+        },
+        {
+          "start": 258.42,
+          "end": 261.06,
+          "text": "fn cannot grow more than gn.",
+          "words": [
+            {
+              "word": " fn",
+              "start": 258.42,
+              "end": 258.78
+            },
+            {
+              "word": " cannot",
+              "start": 258.78,
+              "end": 259.22
+            },
+            {
+              "word": " grow",
+              "start": 259.22,
+              "end": 259.74
+            },
+            {
+              "word": " more",
+              "start": 259.74,
+              "end": 260.26
+            },
+            {
+              "word": " than",
+              "start": 260.26,
+              "end": 260.56
+            },
+            {
+              "word": " gn.",
+              "start": 260.56,
+              "end": 261.06
+            }
+          ]
+        },
+        {
+          "start": 261.82,
+          "end": 264.56,
+          "text": "And that's what we can observe through this graph also.",
+          "words": [
+            {
+              "word": " And",
+              "start": 261.82,
+              "end": 262.24
+            },
+            {
+              "word": " that's",
+              "start": 262.24,
+              "end": 262.48
+            },
+            {
+              "word": " what",
+              "start": 262.48,
+              "end": 262.64
+            },
+            {
+              "word": " we",
+              "start": 262.64,
+              "end": 262.8
+            },
+            {
+              "word": " can",
+              "start": 262.8,
+              "end": 263.0
+            },
+            {
+              "word": " observe",
+              "start": 263.0,
+              "end": 263.36
+            },
+            {
+              "word": " through",
+              "start": 263.36,
+              "end": 263.6
+            },
+            {
+              "word": " this",
+              "start": 263.6,
+              "end": 263.8
+            },
+            {
+              "word": " graph",
+              "start": 263.8,
+              "end": 264.08
+            },
+            {
+              "word": " also.",
+              "start": 264.08,
+              "end": 264.56
+            }
+          ]
+        },
+        {
+          "start": 265.4,
+          "end": 269.76,
+          "text": "After this point, fn cannot grow more than gn.",
+          "words": [
+            {
+              "word": " After",
+              "start": 265.4,
+              "end": 265.94
+            },
+            {
+              "word": " this",
+              "start": 265.94,
+              "end": 266.36
+            },
+            {
+              "word": " point,",
+              "start": 266.36,
+              "end": 266.86
+            },
+            {
+              "word": " fn",
+              "start": 267.36,
+              "end": 267.8
+            },
+            {
+              "word": " cannot",
+              "start": 267.8,
+              "end": 268.26
+            },
+            {
+              "word": " grow",
+              "start": 268.26,
+              "end": 268.7
+            },
+            {
+              "word": " more",
+              "start": 268.7,
+              "end": 269.16
+            },
+            {
+              "word": " than",
+              "start": 269.16,
+              "end": 269.36
+            },
+            {
+              "word": " gn.",
+              "start": 269.36,
+              "end": 269.76
+            }
+          ]
+        },
+        {
+          "start": 270.08,
+          "end": 272.34,
+          "text": "gn is always bigger than fn.",
+          "words": [
+            {
+              "word": " gn",
+              "start": 270.08,
+              "end": 270.42
+            },
+            {
+              "word": " is",
+              "start": 270.42,
+              "end": 270.64
+            },
+            {
+              "word": " always",
+              "start": 270.64,
+              "end": 271.02
+            },
+            {
+              "word": " bigger",
+              "start": 271.02,
+              "end": 271.48
+            },
+            {
+              "word": " than",
+              "start": 271.48,
+              "end": 271.74
+            },
+            {
+              "word": " fn.",
+              "start": 271.74,
+              "end": 272.34
+            }
+          ]
+        },
+        {
+          "start": 273.1,
+          "end": 276.08,
+          "text": "This is the meaning of big O notation.",
+          "words": [
+            {
+              "word": " This",
+              "start": 273.1,
+              "end": 273.52
+            },
+            {
+              "word": " is",
+              "start": 273.52,
+              "end": 273.82
+            },
+            {
+              "word": " the",
+              "start": 273.82,
+              "end": 274.0
+            },
+            {
+              "word": " meaning",
+              "start": 274.0,
+              "end": 274.34
+            },
+            {
+              "word": " of",
+              "start": 274.34,
+              "end": 274.74
+            },
+            {
+              "word": " big",
+              "start": 274.74,
+              "end": 275.16
+            },
+            {
+              "word": " O",
+              "start": 275.16,
+              "end": 275.52
+            },
+            {
+              "word": " notation.",
+              "start": 275.52,
+              "end": 276.08
+            }
+          ]
+        },
+        {
+          "start": 277.04,
+          "end": 281.82,
+          "text": "So, through this graph, we got to know what big O notation tells us.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 277.04,
+              "end": 277.78
+            },
+            {
+              "word": " through",
+              "start": 277.8,
+              "end": 278.0
+            },
+            {
+              "word": " this",
+              "start": 278.0,
+              "end": 278.34
+            },
+            {
+              "word": " graph,",
+              "start": 278.34,
+              "end": 278.74
+            },
+            {
+              "word": " we",
+              "start": 279.02,
+              "end": 279.18
+            },
+            {
+              "word": " got",
+              "start": 279.18,
+              "end": 279.4
+            },
+            {
+              "word": " to",
+              "start": 279.4,
+              "end": 279.64
+            },
+            {
+              "word": " know",
+              "start": 279.64,
+              "end": 279.82
+            },
+            {
+              "word": " what",
+              "start": 279.82,
+              "end": 280.08
+            },
+            {
+              "word": " big",
+              "start": 280.08,
+              "end": 280.38
+            },
+            {
+              "word": " O",
+              "start": 280.38,
+              "end": 280.54
+            },
+            {
+              "word": " notation",
+              "start": 280.54,
+              "end": 281.08
+            },
+            {
+              "word": " tells",
+              "start": 281.08,
+              "end": 281.46
+            },
+            {
+              "word": " us.",
+              "start": 281.46,
+              "end": 281.82
+            }
+          ]
+        },
+        {
+          "start": 282.36,
+          "end": 288.42,
+          "text": "So, here we compared the growth rates of these two functions.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 282.36,
+              "end": 282.84
+            },
+            {
+              "word": " here",
+              "start": 282.86,
+              "end": 283.22
+            },
+            {
+              "word": " we",
+              "start": 283.22,
+              "end": 283.46
+            },
+            {
+              "word": " compared",
+              "start": 283.46,
+              "end": 284.18
+            },
+            {
+              "word": " the",
+              "start": 284.18,
+              "end": 284.76
+            },
+            {
+              "word": " growth",
+              "start": 284.76,
+              "end": 285.58
+            },
+            {
+              "word": " rates",
+              "start": 285.58,
+              "end": 286.28
+            },
+            {
+              "word": " of",
+              "start": 286.28,
+              "end": 286.82
+            },
+            {
+              "word": " these",
+              "start": 286.82,
+              "end": 287.42
+            },
+            {
+              "word": " two",
+              "start": 287.42,
+              "end": 287.82
+            },
+            {
+              "word": " functions.",
+              "start": 287.82,
+              "end": 288.42
+            }
+          ]
+        },
+        {
+          "start": 289.26,
+          "end": 295.08,
+          "text": "Now, as we are done with growth rate comparison of these two functions,",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 289.26,
+              "end": 290.06
+            },
+            {
+              "word": " as",
+              "start": 290.34,
+              "end": 290.64
+            },
+            {
+              "word": " we",
+              "start": 290.64,
+              "end": 290.8
+            },
+            {
+              "word": " are",
+              "start": 290.8,
+              "end": 290.9
+            },
+            {
+              "word": " done",
+              "start": 290.9,
+              "end": 291.12
+            },
+            {
+              "word": " with",
+              "start": 291.12,
+              "end": 291.44
+            },
+            {
+              "word": " growth",
+              "start": 291.44,
+              "end": 292.02
+            },
+            {
+              "word": " rate",
+              "start": 292.02,
+              "end": 292.46
+            },
+            {
+              "word": " comparison",
+              "start": 292.46,
+              "end": 293.04
+            },
+            {
+              "word": " of",
+              "start": 293.04,
+              "end": 293.88
+            },
+            {
+              "word": " these",
+              "start": 293.88,
+              "end": 294.32
+            },
+            {
+              "word": " two",
+              "start": 294.32,
+              "end": 294.58
+            },
+            {
+              "word": " functions,",
+              "start": 294.58,
+              "end": 295.08
+            }
+          ]
+        },
+        {
+          "start": 295.74,
+          "end": 301.74,
+          "text": "let's move to the next topic where we will discuss the formal definition of big O notation.",
+          "words": [
+            {
+              "word": " let's",
+              "start": 295.74,
+              "end": 296.12
+            },
+            {
+              "word": " move",
+              "start": 296.12,
+              "end": 296.34
+            },
+            {
+              "word": " to",
+              "start": 296.34,
+              "end": 296.54
+            },
+            {
+              "word": " the",
+              "start": 296.54,
+              "end": 296.64
+            },
+            {
+              "word": " next",
+              "start": 296.64,
+              "end": 296.9
+            },
+            {
+              "word": " topic",
+              "start": 296.9,
+              "end": 297.36
+            },
+            {
+              "word": " where",
+              "start": 297.36,
+              "end": 297.9
+            },
+            {
+              "word": " we",
+              "start": 297.9,
+              "end": 298.04
+            },
+            {
+              "word": " will",
+              "start": 298.04,
+              "end": 298.2
+            },
+            {
+              "word": " discuss",
+              "start": 298.2,
+              "end": 298.62
+            },
+            {
+              "word": " the",
+              "start": 298.62,
+              "end": 299.06
+            },
+            {
+              "word": " formal",
+              "start": 299.06,
+              "end": 299.64
+            },
+            {
+              "word": " definition",
+              "start": 299.64,
+              "end": 300.22
+            },
+            {
+              "word": " of",
+              "start": 300.22,
+              "end": 300.8
+            },
+            {
+              "word": " big",
+              "start": 300.8,
+              "end": 301.1
+            },
+            {
+              "word": " O",
+              "start": 301.1,
+              "end": 301.24
+            },
+            {
+              "word": " notation.",
+              "start": 301.24,
+              "end": 301.74
+            }
+          ]
+        },
+        {
+          "start": 302.78,
+          "end": 306.56,
+          "text": "So, what is the formal definition of big O notation?",
+          "words": [
+            {
+              "word": " So,",
+              "start": 302.78,
+              "end": 303.48
+            },
+            {
+              "word": " what",
+              "start": 303.5,
+              "end": 303.68
+            },
+            {
+              "word": " is",
+              "start": 303.68,
+              "end": 303.86
+            },
+            {
+              "word": " the",
+              "start": 303.86,
+              "end": 304.02
+            },
+            {
+              "word": " formal",
+              "start": 304.02,
+              "end": 304.44
+            },
+            {
+              "word": " definition",
+              "start": 304.44,
+              "end": 305.16
+            },
+            {
+              "word": " of",
+              "start": 305.16,
+              "end": 305.6
+            },
+            {
+              "word": " big",
+              "start": 305.6,
+              "end": 305.94
+            },
+            {
+              "word": " O",
+              "start": 305.94,
+              "end": 306.08
+            },
+            {
+              "word": " notation?",
+              "start": 306.08,
+              "end": 306.56
+            }
+          ]
+        },
+        {
+          "start": 307.3,
+          "end": 308.5,
+          "text": "Here is the definition.",
+          "words": [
+            {
+              "word": " Here",
+              "start": 307.3,
+              "end": 307.66
+            },
+            {
+              "word": " is",
+              "start": 307.66,
+              "end": 307.82
+            },
+            {
+              "word": " the",
+              "start": 307.82,
+              "end": 307.96
+            },
+            {
+              "word": " definition.",
+              "start": 307.96,
+              "end": 308.5
+            }
+          ]
+        },
+        {
+          "start": 309.86,
+          "end": 313.98,
+          "text": "Assuming fn and gn are non-negative functions,",
+          "words": [
+            {
+              "word": " Assuming",
+              "start": 309.86,
+              "end": 310.7
+            },
+            {
+              "word": " fn",
+              "start": 310.7,
+              "end": 311.48
+            },
+            {
+              "word": " and",
+              "start": 311.48,
+              "end": 311.74
+            },
+            {
+              "word": " gn",
+              "start": 311.74,
+              "end": 312.04
+            },
+            {
+              "word": " are",
+              "start": 312.04,
+              "end": 312.5
+            },
+            {
+              "word": " non",
+              "start": 312.5,
+              "end": 312.86
+            },
+            {
+              "word": "-negative",
+              "start": 312.86,
+              "end": 313.36
+            },
+            {
+              "word": " functions,",
+              "start": 313.36,
+              "end": 313.98
+            }
+          ]
+        },
+        {
+          "start": 314.82,
+          "end": 319.44,
+          "text": "we are assuming fn and gn are non-negative functions.",
+          "words": [
+            {
+              "word": " we",
+              "start": 314.46,
+              "end": 314.9
+            },
+            {
+              "word": " are",
+              "start": 314.9,
+              "end": 315.16
+            },
+            {
+              "word": " assuming",
+              "start": 315.16,
+              "end": 315.6
+            },
+            {
+              "word": " fn",
+              "start": 315.6,
+              "end": 316.44
+            },
+            {
+              "word": " and",
+              "start": 316.44,
+              "end": 316.84
+            },
+            {
+              "word": " gn",
+              "start": 316.84,
+              "end": 317.1
+            },
+            {
+              "word": " are",
+              "start": 317.1,
+              "end": 317.68
+            },
+            {
+              "word": " non",
+              "start": 317.68,
+              "end": 318.34
+            },
+            {
+              "word": "-negative",
+              "start": 318.34,
+              "end": 318.94
+            },
+            {
+              "word": " functions.",
+              "start": 318.94,
+              "end": 319.44
+            }
+          ]
+        },
+        {
+          "start": 319.94,
+          "end": 325.0,
+          "text": "And the reason behind this is that these two functions either represent time",
+          "words": [
+            {
+              "word": " And",
+              "start": 319.94,
+              "end": 320.26
+            },
+            {
+              "word": " the",
+              "start": 320.26,
+              "end": 320.42
+            },
+            {
+              "word": " reason",
+              "start": 320.42,
+              "end": 320.72
+            },
+            {
+              "word": " behind",
+              "start": 320.72,
+              "end": 321.1
+            },
+            {
+              "word": " this",
+              "start": 321.1,
+              "end": 321.62
+            },
+            {
+              "word": " is",
+              "start": 321.62,
+              "end": 321.92
+            },
+            {
+              "word": " that",
+              "start": 321.92,
+              "end": 322.18
+            },
+            {
+              "word": " these",
+              "start": 322.18,
+              "end": 322.62
+            },
+            {
+              "word": " two",
+              "start": 322.62,
+              "end": 322.84
+            },
+            {
+              "word": " functions",
+              "start": 322.84,
+              "end": 323.34
+            },
+            {
+              "word": " either",
+              "start": 323.34,
+              "end": 323.84
+            },
+            {
+              "word": " represent",
+              "start": 323.84,
+              "end": 324.44
+            },
+            {
+              "word": " time",
+              "start": 324.44,
+              "end": 325.0
+            }
+          ]
+        },
+        {
+          "start": 325.0,
+          "end": 327.82,
+          "text": "or they may represent memory space.",
+          "words": [
+            {
+              "word": " or",
+              "start": 325.0,
+              "end": 325.44
+            },
+            {
+              "word": " they",
+              "start": 325.44,
+              "end": 325.68
+            },
+            {
+              "word": " may",
+              "start": 325.68,
+              "end": 325.92
+            },
+            {
+              "word": " represent",
+              "start": 325.92,
+              "end": 326.6
+            },
+            {
+              "word": " memory",
+              "start": 326.6,
+              "end": 327.32
+            },
+            {
+              "word": " space.",
+              "start": 327.32,
+              "end": 327.82
+            }
+          ]
+        },
+        {
+          "start": 328.68,
+          "end": 331.94,
+          "text": "Both time and memory space cannot be negative.",
+          "words": [
+            {
+              "word": " Both",
+              "start": 328.68,
+              "end": 329.1
+            },
+            {
+              "word": " time",
+              "start": 329.1,
+              "end": 329.5
+            },
+            {
+              "word": " and",
+              "start": 329.5,
+              "end": 329.86
+            },
+            {
+              "word": " memory",
+              "start": 329.86,
+              "end": 330.2
+            },
+            {
+              "word": " space",
+              "start": 330.2,
+              "end": 330.66
+            },
+            {
+              "word": " cannot",
+              "start": 330.66,
+              "end": 331.12
+            },
+            {
+              "word": " be",
+              "start": 331.12,
+              "end": 331.52
+            },
+            {
+              "word": " negative.",
+              "start": 331.52,
+              "end": 331.94
+            }
+          ]
+        },
+        {
+          "start": 332.62,
+          "end": 337.5,
+          "text": "Hence, we are assuming fn and gn are non-negative functions.",
+          "words": [
+            {
+              "word": " Hence,",
+              "start": 332.62,
+              "end": 333.1
+            },
+            {
+              "word": " we",
+              "start": 333.3,
+              "end": 333.4
+            },
+            {
+              "word": " are",
+              "start": 333.4,
+              "end": 333.52
+            },
+            {
+              "word": " assuming",
+              "start": 333.52,
+              "end": 333.94
+            },
+            {
+              "word": " fn",
+              "start": 333.94,
+              "end": 334.96
+            },
+            {
+              "word": " and",
+              "start": 334.96,
+              "end": 335.2
+            },
+            {
+              "word": " gn",
+              "start": 335.2,
+              "end": 335.56
+            },
+            {
+              "word": " are",
+              "start": 335.56,
+              "end": 335.96
+            },
+            {
+              "word": " non",
+              "start": 335.96,
+              "end": 336.36
+            },
+            {
+              "word": "-negative",
+              "start": 336.36,
+              "end": 336.9
+            },
+            {
+              "word": " functions.",
+              "start": 336.9,
+              "end": 337.5
+            }
+          ]
+        },
+        {
+          "start": 338.48,
+          "end": 350.8,
+          "text": "fn equal to big O of gn if and only if fn is less than or equal to c dot gn for all values of n,",
+          "words": [
+            {
+              "word": " fn",
+              "start": 338.48,
+              "end": 339.32
+            },
+            {
+              "word": " equal",
+              "start": 339.32,
+              "end": 339.8
+            },
+            {
+              "word": " to",
+              "start": 339.8,
+              "end": 340.1
+            },
+            {
+              "word": " big",
+              "start": 340.1,
+              "end": 340.46
+            },
+            {
+              "word": " O",
+              "start": 340.46,
+              "end": 340.66
+            },
+            {
+              "word": " of",
+              "start": 340.66,
+              "end": 340.9
+            },
+            {
+              "word": " gn",
+              "start": 340.9,
+              "end": 341.34
+            },
+            {
+              "word": " if",
+              "start": 341.34,
+              "end": 342.44
+            },
+            {
+              "word": " and",
+              "start": 342.44,
+              "end": 342.64
+            },
+            {
+              "word": " only",
+              "start": 342.64,
+              "end": 343.0
+            },
+            {
+              "word": " if",
+              "start": 343.0,
+              "end": 343.46
+            },
+            {
+              "word": " fn",
+              "start": 343.46,
+              "end": 344.44
+            },
+            {
+              "word": " is",
+              "start": 344.44,
+              "end": 344.92
+            },
+            {
+              "word": " less",
+              "start": 344.92,
+              "end": 345.28
+            },
+            {
+              "word": " than",
+              "start": 345.28,
+              "end": 345.56
+            },
+            {
+              "word": " or",
+              "start": 345.56,
+              "end": 345.82
+            },
+            {
+              "word": " equal",
+              "start": 345.82,
+              "end": 346.22
+            },
+            {
+              "word": " to",
+              "start": 346.22,
+              "end": 346.58
+            },
+            {
+              "word": " c",
+              "start": 346.58,
+              "end": 347.26
+            },
+            {
+              "word": " dot",
+              "start": 347.26,
+              "end": 347.66
+            },
+            {
+              "word": " gn",
+              "start": 347.66,
+              "end": 348.18
+            },
+            {
+              "word": " for",
+              "start": 348.18,
+              "end": 349.0
+            },
+            {
+              "word": " all",
+              "start": 349.0,
+              "end": 349.46
+            },
+            {
+              "word": " values",
+              "start": 349.46,
+              "end": 350.02
+            },
+            {
+              "word": " of",
+              "start": 350.02,
+              "end": 350.38
+            },
+            {
+              "word": " n,",
+              "start": 350.38,
+              "end": 350.8
+            }
+          ]
+        },
+        {
+          "start": 351.22,
+          "end": 355.3,
+          "text": "where n is greater than or equal to n naught.",
+          "words": [
+            {
+              "word": " where",
+              "start": 351.22,
+              "end": 351.68
+            },
+            {
+              "word": " n",
+              "start": 351.68,
+              "end": 352.24
+            },
+            {
+              "word": " is",
+              "start": 352.24,
+              "end": 352.62
+            },
+            {
+              "word": " greater",
+              "start": 352.62,
+              "end": 353.16
+            },
+            {
+              "word": " than",
+              "start": 353.16,
+              "end": 353.5
+            },
+            {
+              "word": " or",
+              "start": 353.5,
+              "end": 353.78
+            },
+            {
+              "word": " equal",
+              "start": 353.78,
+              "end": 354.22
+            },
+            {
+              "word": " to",
+              "start": 354.22,
+              "end": 354.54
+            },
+            {
+              "word": " n",
+              "start": 354.54,
+              "end": 354.94
+            },
+            {
+              "word": " naught.",
+              "start": 354.94,
+              "end": 355.3
+            }
+          ]
+        },
+        {
+          "start": 356.58000000000004,
+          "end": 360.12,
+          "text": "And c and n naught are constants.",
+          "words": [
+            {
+              "word": " And",
+              "start": 356.58000000000004,
+              "end": 357.42
+            },
+            {
+              "word": " c",
+              "start": 357.42,
+              "end": 358.26
+            },
+            {
+              "word": " and",
+              "start": 358.26,
+              "end": 358.56
+            },
+            {
+              "word": " n",
+              "start": 358.56,
+              "end": 358.9
+            },
+            {
+              "word": " naught",
+              "start": 358.9,
+              "end": 359.18
+            },
+            {
+              "word": " are",
+              "start": 359.18,
+              "end": 359.44
+            },
+            {
+              "word": " constants.",
+              "start": 359.44,
+              "end": 360.12
+            }
+          ]
+        },
+        {
+          "start": 361.08,
+          "end": 364.38,
+          "text": "fn and gn are non-negative functions",
+          "words": [
+            {
+              "word": " fn",
+              "start": 361.08,
+              "end": 361.86
+            },
+            {
+              "word": " and",
+              "start": 361.86,
+              "end": 362.14
+            },
+            {
+              "word": " gn",
+              "start": 362.14,
+              "end": 362.48
+            },
+            {
+              "word": " are",
+              "start": 362.48,
+              "end": 363.06
+            },
+            {
+              "word": " non",
+              "start": 363.06,
+              "end": 363.36
+            },
+            {
+              "word": "-negative",
+              "start": 363.36,
+              "end": 363.8
+            },
+            {
+              "word": " functions",
+              "start": 363.8,
+              "end": 364.38
+            }
+          ]
+        },
+        {
+          "start": 365.21999999999997,
+          "end": 372.14,
+          "text": "and fn is big O of gn or in other words gn is asymptotically bigger than fn",
+          "words": [
+            {
+              "word": " and",
+              "start": 365.2,
+              "end": 365.56
+            },
+            {
+              "word": " fn",
+              "start": 365.56,
+              "end": 366.08
+            },
+            {
+              "word": " is",
+              "start": 366.08,
+              "end": 366.3
+            },
+            {
+              "word": " big",
+              "start": 366.3,
+              "end": 366.6
+            },
+            {
+              "word": " O",
+              "start": 366.6,
+              "end": 366.8
+            },
+            {
+              "word": " of",
+              "start": 366.8,
+              "end": 367.04
+            },
+            {
+              "word": " gn",
+              "start": 367.04,
+              "end": 367.48
+            },
+            {
+              "word": " or",
+              "start": 367.48,
+              "end": 368.28
+            },
+            {
+              "word": " in",
+              "start": 368.28,
+              "end": 368.42
+            },
+            {
+              "word": " other",
+              "start": 368.42,
+              "end": 368.58
+            },
+            {
+              "word": " words",
+              "start": 368.58,
+              "end": 368.98
+            },
+            {
+              "word": " gn",
+              "start": 368.98,
+              "end": 369.44
+            },
+            {
+              "word": " is",
+              "start": 369.44,
+              "end": 369.92
+            },
+            {
+              "word": " asymptotically",
+              "start": 369.92,
+              "end": 370.82
+            },
+            {
+              "word": " bigger",
+              "start": 370.82,
+              "end": 371.16
+            },
+            {
+              "word": " than",
+              "start": 371.16,
+              "end": 371.48
+            },
+            {
+              "word": " fn",
+              "start": 371.48,
+              "end": 372.14
+            }
+          ]
+        },
+        {
+          "start": 372.14,
+          "end": 380.76,
+          "text": "if and only if fn is less than or equal to c times gn for all values of n,",
+          "words": [
+            {
+              "word": " if",
+              "start": 372.14,
+              "end": 373.04
+            },
+            {
+              "word": " and",
+              "start": 373.04,
+              "end": 373.2
+            },
+            {
+              "word": " only",
+              "start": 373.2,
+              "end": 373.48
+            },
+            {
+              "word": " if",
+              "start": 373.48,
+              "end": 373.94
+            },
+            {
+              "word": " fn",
+              "start": 373.94,
+              "end": 374.9
+            },
+            {
+              "word": " is",
+              "start": 374.9,
+              "end": 375.36
+            },
+            {
+              "word": " less",
+              "start": 375.36,
+              "end": 375.72
+            },
+            {
+              "word": " than",
+              "start": 375.72,
+              "end": 375.98
+            },
+            {
+              "word": " or",
+              "start": 375.98,
+              "end": 376.36
+            },
+            {
+              "word": " equal",
+              "start": 376.36,
+              "end": 376.72
+            },
+            {
+              "word": " to",
+              "start": 376.72,
+              "end": 377.06
+            },
+            {
+              "word": " c",
+              "start": 377.06,
+              "end": 377.44
+            },
+            {
+              "word": " times",
+              "start": 377.44,
+              "end": 377.82
+            },
+            {
+              "word": " gn",
+              "start": 377.82,
+              "end": 378.34
+            },
+            {
+              "word": " for",
+              "start": 378.34,
+              "end": 379.24
+            },
+            {
+              "word": " all",
+              "start": 379.24,
+              "end": 379.62
+            },
+            {
+              "word": " values",
+              "start": 379.62,
+              "end": 380.06
+            },
+            {
+              "word": " of",
+              "start": 380.06,
+              "end": 380.4
+            },
+            {
+              "word": " n,",
+              "start": 380.4,
+              "end": 380.76
+            }
+          ]
+        },
+        {
+          "start": 381.0,
+          "end": 383.58,
+          "text": "greater than or equal to n naught.",
+          "words": [
+            {
+              "word": " greater",
+              "start": 381.0,
+              "end": 381.54
+            },
+            {
+              "word": " than",
+              "start": 381.54,
+              "end": 381.86
+            },
+            {
+              "word": " or",
+              "start": 381.86,
+              "end": 382.14
+            },
+            {
+              "word": " equal",
+              "start": 382.14,
+              "end": 382.52
+            },
+            {
+              "word": " to",
+              "start": 382.52,
+              "end": 382.84
+            },
+            {
+              "word": " n",
+              "start": 382.84,
+              "end": 383.22
+            },
+            {
+              "word": " naught.",
+              "start": 383.22,
+              "end": 383.58
+            }
+          ]
+        },
+        {
+          "start": 385.21999999999997,
+          "end": 387.84,
+          "text": "C is some constant greater than zero.",
+          "words": [
+            {
+              "word": " C",
+              "start": 384.94,
+              "end": 385.3
+            },
+            {
+              "word": " is",
+              "start": 385.3,
+              "end": 385.6
+            },
+            {
+              "word": " some",
+              "start": 385.6,
+              "end": 385.96
+            },
+            {
+              "word": " constant",
+              "start": 385.96,
+              "end": 386.58
+            },
+            {
+              "word": " greater",
+              "start": 386.58,
+              "end": 387.16
+            },
+            {
+              "word": " than",
+              "start": 387.16,
+              "end": 387.5
+            },
+            {
+              "word": " zero.",
+              "start": 387.5,
+              "end": 387.84
+            }
+          ]
+        },
+        {
+          "start": 388.18,
+          "end": 391.94,
+          "text": "This means c cannot be negative or it cannot be zero.",
+          "words": [
+            {
+              "word": " This",
+              "start": 388.18,
+              "end": 388.4
+            },
+            {
+              "word": " means",
+              "start": 388.4,
+              "end": 388.66
+            },
+            {
+              "word": " c",
+              "start": 388.66,
+              "end": 388.96
+            },
+            {
+              "word": " cannot",
+              "start": 388.96,
+              "end": 389.24
+            },
+            {
+              "word": " be",
+              "start": 389.24,
+              "end": 389.74
+            },
+            {
+              "word": " negative",
+              "start": 389.74,
+              "end": 390.22
+            },
+            {
+              "word": " or",
+              "start": 390.22,
+              "end": 390.76
+            },
+            {
+              "word": " it",
+              "start": 390.76,
+              "end": 390.88
+            },
+            {
+              "word": " cannot",
+              "start": 390.88,
+              "end": 391.18
+            },
+            {
+              "word": " be",
+              "start": 391.18,
+              "end": 391.6
+            },
+            {
+              "word": " zero.",
+              "start": 391.6,
+              "end": 391.94
+            }
+          ]
+        },
+        {
+          "start": 392.78,
+          "end": 399.38,
+          "text": "So this inequality must be true for all values of n greater than or equal to n naught",
+          "words": [
+            {
+              "word": " So",
+              "start": 392.65999999999997,
+              "end": 393.02
+            },
+            {
+              "word": " this",
+              "start": 393.02,
+              "end": 393.36
+            },
+            {
+              "word": " inequality",
+              "start": 393.36,
+              "end": 394.0
+            },
+            {
+              "word": " must",
+              "start": 394.0,
+              "end": 394.76
+            },
+            {
+              "word": " be",
+              "start": 394.76,
+              "end": 395.08
+            },
+            {
+              "word": " true",
+              "start": 395.08,
+              "end": 395.38
+            },
+            {
+              "word": " for",
+              "start": 395.38,
+              "end": 395.72
+            },
+            {
+              "word": " all",
+              "start": 395.72,
+              "end": 396.14
+            },
+            {
+              "word": " values",
+              "start": 396.14,
+              "end": 396.62
+            },
+            {
+              "word": " of",
+              "start": 396.62,
+              "end": 396.96
+            },
+            {
+              "word": " n",
+              "start": 396.96,
+              "end": 397.32
+            },
+            {
+              "word": " greater",
+              "start": 397.32,
+              "end": 397.68
+            },
+            {
+              "word": " than",
+              "start": 397.68,
+              "end": 397.98
+            },
+            {
+              "word": " or",
+              "start": 397.98,
+              "end": 398.14
+            },
+            {
+              "word": " equal",
+              "start": 398.14,
+              "end": 398.44
+            },
+            {
+              "word": " to",
+              "start": 398.44,
+              "end": 398.7
+            },
+            {
+              "word": " n",
+              "start": 398.7,
+              "end": 399.08
+            },
+            {
+              "word": " naught",
+              "start": 399.08,
+              "end": 399.38
+            }
+          ]
+        },
+        {
+          "start": 399.38,
+          "end": 403.58,
+          "text": "if we want to say that fn is big O of gn.",
+          "words": [
+            {
+              "word": " if",
+              "start": 399.38,
+              "end": 400.02
+            },
+            {
+              "word": " we",
+              "start": 400.02,
+              "end": 400.18
+            },
+            {
+              "word": " want",
+              "start": 400.18,
+              "end": 400.52
+            },
+            {
+              "word": " to",
+              "start": 400.52,
+              "end": 400.7
+            },
+            {
+              "word": " say",
+              "start": 400.7,
+              "end": 401.0
+            },
+            {
+              "word": " that",
+              "start": 401.0,
+              "end": 401.3
+            },
+            {
+              "word": " fn",
+              "start": 401.3,
+              "end": 401.9
+            },
+            {
+              "word": " is",
+              "start": 401.9,
+              "end": 402.38
+            },
+            {
+              "word": " big",
+              "start": 402.38,
+              "end": 402.68
+            },
+            {
+              "word": " O",
+              "start": 402.68,
+              "end": 402.9
+            },
+            {
+              "word": " of",
+              "start": 402.9,
+              "end": 403.18
+            },
+            {
+              "word": " gn.",
+              "start": 403.18,
+              "end": 403.58
+            }
+          ]
+        },
+        {
+          "start": 404.42,
+          "end": 409.08,
+          "text": "In our previous graph, we saw the plot of fn and gn.",
+          "words": [
+            {
+              "word": " In",
+              "start": 404.42,
+              "end": 404.78
+            },
+            {
+              "word": " our",
+              "start": 404.78,
+              "end": 404.92
+            },
+            {
+              "word": " previous",
+              "start": 404.92,
+              "end": 405.24
+            },
+            {
+              "word": " graph,",
+              "start": 405.24,
+              "end": 405.64
+            },
+            {
+              "word": " we",
+              "start": 405.88,
+              "end": 406.02
+            },
+            {
+              "word": " saw",
+              "start": 406.02,
+              "end": 406.48
+            },
+            {
+              "word": " the",
+              "start": 406.48,
+              "end": 407.0
+            },
+            {
+              "word": " plot",
+              "start": 407.0,
+              "end": 407.46
+            },
+            {
+              "word": " of",
+              "start": 407.46,
+              "end": 407.82
+            },
+            {
+              "word": " fn",
+              "start": 407.82,
+              "end": 408.4
+            },
+            {
+              "word": " and",
+              "start": 408.4,
+              "end": 408.66
+            },
+            {
+              "word": " gn.",
+              "start": 408.66,
+              "end": 409.08
+            }
+          ]
+        },
+        {
+          "start": 409.7,
+          "end": 418.84,
+          "text": "We saw that gn is asymptotically bigger than fn or the growth rate of gn is more than fn after some point.",
+          "words": [
+            {
+              "word": " We",
+              "start": 409.7,
+              "end": 409.96
+            },
+            {
+              "word": " saw",
+              "start": 409.96,
+              "end": 410.26
+            },
+            {
+              "word": " that",
+              "start": 410.26,
+              "end": 410.6
+            },
+            {
+              "word": " gn",
+              "start": 410.6,
+              "end": 411.2
+            },
+            {
+              "word": " is",
+              "start": 411.2,
+              "end": 411.68
+            },
+            {
+              "word": " asymptotically",
+              "start": 411.68,
+              "end": 412.66
+            },
+            {
+              "word": " bigger",
+              "start": 412.66,
+              "end": 413.0
+            },
+            {
+              "word": " than",
+              "start": 413.0,
+              "end": 413.3
+            },
+            {
+              "word": " fn",
+              "start": 413.3,
+              "end": 413.84
+            },
+            {
+              "word": " or",
+              "start": 413.84,
+              "end": 414.32
+            },
+            {
+              "word": " the",
+              "start": 414.32,
+              "end": 414.48
+            },
+            {
+              "word": " growth",
+              "start": 414.48,
+              "end": 414.84
+            },
+            {
+              "word": " rate",
+              "start": 414.84,
+              "end": 415.14
+            },
+            {
+              "word": " of",
+              "start": 415.14,
+              "end": 415.38
+            },
+            {
+              "word": " gn",
+              "start": 415.38,
+              "end": 415.76
+            },
+            {
+              "word": " is",
+              "start": 415.76,
+              "end": 416.26
+            },
+            {
+              "word": " more",
+              "start": 416.26,
+              "end": 416.66
+            },
+            {
+              "word": " than",
+              "start": 416.66,
+              "end": 416.9
+            },
+            {
+              "word": " fn",
+              "start": 416.9,
+              "end": 417.54
+            },
+            {
+              "word": " after",
+              "start": 417.54,
+              "end": 418.04
+            },
+            {
+              "word": " some",
+              "start": 418.04,
+              "end": 418.34
+            },
+            {
+              "word": " point.",
+              "start": 418.34,
+              "end": 418.84
+            }
+          ]
+        },
+        {
+          "start": 419.67999999999995,
+          "end": 424.28,
+          "text": "Here in this definition, we are multiplying gn by some constant.",
+          "words": [
+            {
+              "word": " Here",
+              "start": 419.67999999999995,
+              "end": 420.26
+            },
+            {
+              "word": " in",
+              "start": 420.26,
+              "end": 420.42
+            },
+            {
+              "word": " this",
+              "start": 420.42,
+              "end": 420.58
+            },
+            {
+              "word": " definition,",
+              "start": 420.58,
+              "end": 421.2
+            },
+            {
+              "word": " we",
+              "start": 421.62,
+              "end": 421.86
+            },
+            {
+              "word": " are",
+              "start": 421.86,
+              "end": 422.0
+            },
+            {
+              "word": " multiplying",
+              "start": 422.0,
+              "end": 422.6
+            },
+            {
+              "word": " gn",
+              "start": 422.6,
+              "end": 423.04
+            },
+            {
+              "word": " by",
+              "start": 423.04,
+              "end": 423.4
+            },
+            {
+              "word": " some",
+              "start": 423.4,
+              "end": 423.72
+            },
+            {
+              "word": " constant.",
+              "start": 423.72,
+              "end": 424.28
+            }
+          ]
+        },
+        {
+          "start": 424.92,
+          "end": 431.32,
+          "text": "This is because it might be possible that gn is not greater than or equal to fn.",
+          "words": [
+            {
+              "word": " This",
+              "start": 424.92,
+              "end": 425.36
+            },
+            {
+              "word": " is",
+              "start": 425.36,
+              "end": 425.48
+            },
+            {
+              "word": " because",
+              "start": 425.48,
+              "end": 425.8
+            },
+            {
+              "word": " it",
+              "start": 425.8,
+              "end": 426.1
+            },
+            {
+              "word": " might",
+              "start": 426.1,
+              "end": 426.32
+            },
+            {
+              "word": " be",
+              "start": 426.32,
+              "end": 426.5
+            },
+            {
+              "word": " possible",
+              "start": 426.5,
+              "end": 427.04
+            },
+            {
+              "word": " that",
+              "start": 427.04,
+              "end": 427.6
+            },
+            {
+              "word": " gn",
+              "start": 427.6,
+              "end": 427.98
+            },
+            {
+              "word": " is",
+              "start": 427.98,
+              "end": 428.52
+            },
+            {
+              "word": " not",
+              "start": 428.52,
+              "end": 428.88
+            },
+            {
+              "word": " greater",
+              "start": 428.88,
+              "end": 429.36
+            },
+            {
+              "word": " than",
+              "start": 429.36,
+              "end": 429.76
+            },
+            {
+              "word": " or",
+              "start": 429.76,
+              "end": 430.16
+            },
+            {
+              "word": " equal",
+              "start": 430.16,
+              "end": 430.56
+            },
+            {
+              "word": " to",
+              "start": 430.56,
+              "end": 430.84
+            },
+            {
+              "word": " fn.",
+              "start": 430.84,
+              "end": 431.32
+            }
+          ]
+        },
+        {
+          "start": 432.2,
+          "end": 438.82,
+          "text": "After multiplying it by some constant c, it may become greater than or equal to fn",
+          "words": [
+            {
+              "word": " After",
+              "start": 432.2,
+              "end": 432.74
+            },
+            {
+              "word": " multiplying",
+              "start": 432.74,
+              "end": 433.32
+            },
+            {
+              "word": " it",
+              "start": 433.32,
+              "end": 433.6
+            },
+            {
+              "word": " by",
+              "start": 433.6,
+              "end": 433.84
+            },
+            {
+              "word": " some",
+              "start": 433.84,
+              "end": 434.1
+            },
+            {
+              "word": " constant",
+              "start": 434.1,
+              "end": 434.64
+            },
+            {
+              "word": " c,",
+              "start": 434.64,
+              "end": 435.14
+            },
+            {
+              "word": " it",
+              "start": 435.58,
+              "end": 435.74
+            },
+            {
+              "word": " may",
+              "start": 435.74,
+              "end": 436.0
+            },
+            {
+              "word": " become",
+              "start": 436.0,
+              "end": 436.46
+            },
+            {
+              "word": " greater",
+              "start": 436.46,
+              "end": 436.86
+            },
+            {
+              "word": " than",
+              "start": 436.86,
+              "end": 437.22
+            },
+            {
+              "word": " or",
+              "start": 437.22,
+              "end": 437.52
+            },
+            {
+              "word": " equal",
+              "start": 437.52,
+              "end": 437.94
+            },
+            {
+              "word": " to",
+              "start": 437.94,
+              "end": 438.22
+            },
+            {
+              "word": " fn",
+              "start": 438.22,
+              "end": 438.82
+            }
+          ]
+        },
+        {
+          "start": 438.82,
+          "end": 442.86,
+          "text": "for all values of n greater than or equal to n naught.",
+          "words": [
+            {
+              "word": " for",
+              "start": 438.82,
+              "end": 439.32
+            },
+            {
+              "word": " all",
+              "start": 439.32,
+              "end": 439.68
+            },
+            {
+              "word": " values",
+              "start": 439.68,
+              "end": 440.14
+            },
+            {
+              "word": " of",
+              "start": 440.14,
+              "end": 440.46
+            },
+            {
+              "word": " n",
+              "start": 440.46,
+              "end": 440.76
+            },
+            {
+              "word": " greater",
+              "start": 440.76,
+              "end": 441.14
+            },
+            {
+              "word": " than",
+              "start": 441.14,
+              "end": 441.44
+            },
+            {
+              "word": " or",
+              "start": 441.44,
+              "end": 441.64
+            },
+            {
+              "word": " equal",
+              "start": 441.64,
+              "end": 442.06
+            },
+            {
+              "word": " to",
+              "start": 442.06,
+              "end": 442.32
+            },
+            {
+              "word": " n",
+              "start": 442.32,
+              "end": 442.62
+            },
+            {
+              "word": " naught.",
+              "start": 442.62,
+              "end": 442.86
+            }
+          ]
+        },
+        {
+          "start": 443.76,
+          "end": 448.14,
+          "text": "So this is the reason why we multiply gn by some constant.",
+          "words": [
+            {
+              "word": " So",
+              "start": 443.76,
+              "end": 444.32
+            },
+            {
+              "word": " this",
+              "start": 444.32,
+              "end": 444.54
+            },
+            {
+              "word": " is",
+              "start": 444.54,
+              "end": 444.68
+            },
+            {
+              "word": " the",
+              "start": 444.68,
+              "end": 444.84
+            },
+            {
+              "word": " reason",
+              "start": 444.84,
+              "end": 445.2
+            },
+            {
+              "word": " why",
+              "start": 445.2,
+              "end": 445.54
+            },
+            {
+              "word": " we",
+              "start": 445.54,
+              "end": 445.78
+            },
+            {
+              "word": " multiply",
+              "start": 445.78,
+              "end": 446.32
+            },
+            {
+              "word": " gn",
+              "start": 446.32,
+              "end": 446.9
+            },
+            {
+              "word": " by",
+              "start": 446.9,
+              "end": 447.26
+            },
+            {
+              "word": " some",
+              "start": 447.26,
+              "end": 447.54
+            },
+            {
+              "word": " constant.",
+              "start": 447.54,
+              "end": 448.14
+            }
+          ]
+        },
+        {
+          "start": 448.97999999999996,
+          "end": 458.34,
+          "text": "Now in order to understand this definition better, let's consider the graph of c times gn and fn.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 448.97999999999996,
+              "end": 449.92
+            },
+            {
+              "word": " in",
+              "start": 449.92,
+              "end": 450.48
+            },
+            {
+              "word": " order",
+              "start": 450.48,
+              "end": 450.66
+            },
+            {
+              "word": " to",
+              "start": 450.66,
+              "end": 450.86
+            },
+            {
+              "word": " understand",
+              "start": 450.86,
+              "end": 451.44
+            },
+            {
+              "word": " this",
+              "start": 451.44,
+              "end": 451.74
+            },
+            {
+              "word": " definition",
+              "start": 451.74,
+              "end": 452.28
+            },
+            {
+              "word": " better,",
+              "start": 452.28,
+              "end": 452.76
+            },
+            {
+              "word": " let's",
+              "start": 453.14,
+              "end": 453.62
+            },
+            {
+              "word": " consider",
+              "start": 453.62,
+              "end": 454.06
+            },
+            {
+              "word": " the",
+              "start": 454.06,
+              "end": 454.28
+            },
+            {
+              "word": " graph",
+              "start": 454.28,
+              "end": 454.68
+            },
+            {
+              "word": " of",
+              "start": 454.68,
+              "end": 455.34
+            },
+            {
+              "word": " c",
+              "start": 455.34,
+              "end": 455.98
+            },
+            {
+              "word": " times",
+              "start": 455.98,
+              "end": 456.36
+            },
+            {
+              "word": " gn",
+              "start": 456.36,
+              "end": 456.84
+            },
+            {
+              "word": " and",
+              "start": 456.84,
+              "end": 457.8
+            },
+            {
+              "word": " fn.",
+              "start": 457.8,
+              "end": 458.34
+            }
+          ]
+        },
+        {
+          "start": 459.22,
+          "end": 460.38,
+          "text": "Here is the graph.",
+          "words": [
+            {
+              "word": " Here",
+              "start": 459.22,
+              "end": 459.76
+            },
+            {
+              "word": " is",
+              "start": 459.76,
+              "end": 459.9
+            },
+            {
+              "word": " the",
+              "start": 459.9,
+              "end": 460.02
+            },
+            {
+              "word": " graph.",
+              "start": 460.02,
+              "end": 460.38
+            }
+          ]
+        },
+        {
+          "start": 461.06,
+          "end": 469.86,
+          "text": "In this graph, we can observe that for all values of n greater than or equal to n naught,",
+          "words": [
+            {
+              "word": " In",
+              "start": 461.06,
+              "end": 461.58
+            },
+            {
+              "word": " this",
+              "start": 461.58,
+              "end": 461.8
+            },
+            {
+              "word": " graph,",
+              "start": 461.8,
+              "end": 462.22
+            },
+            {
+              "word": " we",
+              "start": 462.4,
+              "end": 462.52
+            },
+            {
+              "word": " can",
+              "start": 462.52,
+              "end": 462.8
+            },
+            {
+              "word": " observe",
+              "start": 462.8,
+              "end": 463.4
+            },
+            {
+              "word": " that",
+              "start": 463.4,
+              "end": 464.12
+            },
+            {
+              "word": " for",
+              "start": 464.12,
+              "end": 464.4
+            },
+            {
+              "word": " all",
+              "start": 464.4,
+              "end": 464.82
+            },
+            {
+              "word": " values",
+              "start": 464.82,
+              "end": 465.38
+            },
+            {
+              "word": " of",
+              "start": 465.38,
+              "end": 465.72
+            },
+            {
+              "word": " n",
+              "start": 465.72,
+              "end": 466.14
+            },
+            {
+              "word": " greater",
+              "start": 466.14,
+              "end": 467.24
+            },
+            {
+              "word": " than",
+              "start": 467.24,
+              "end": 467.64
+            },
+            {
+              "word": " or",
+              "start": 467.64,
+              "end": 467.92
+            },
+            {
+              "word": " equal",
+              "start": 467.92,
+              "end": 468.44
+            },
+            {
+              "word": " to",
+              "start": 468.44,
+              "end": 468.8
+            },
+            {
+              "word": " n",
+              "start": 468.8,
+              "end": 469.34
+            },
+            {
+              "word": " naught,",
+              "start": 469.34,
+              "end": 469.86
+            }
+          ]
+        },
+        {
+          "start": 470.86,
+          "end": 479.06,
+          "text": "c times gn is always either equal to or greater than fn.",
+          "words": [
+            {
+              "word": " c",
+              "start": 470.86,
+              "end": 471.82
+            },
+            {
+              "word": " times",
+              "start": 471.82,
+              "end": 472.36
+            },
+            {
+              "word": " gn",
+              "start": 472.36,
+              "end": 472.84
+            },
+            {
+              "word": " is",
+              "start": 472.84,
+              "end": 473.94
+            },
+            {
+              "word": " always",
+              "start": 473.94,
+              "end": 474.62
+            },
+            {
+              "word": " either",
+              "start": 474.62,
+              "end": 475.42
+            },
+            {
+              "word": " equal",
+              "start": 475.42,
+              "end": 475.98
+            },
+            {
+              "word": " to",
+              "start": 475.98,
+              "end": 476.32
+            },
+            {
+              "word": " or",
+              "start": 476.32,
+              "end": 477.2
+            },
+            {
+              "word": " greater",
+              "start": 477.2,
+              "end": 477.74
+            },
+            {
+              "word": " than",
+              "start": 477.74,
+              "end": 478.14
+            },
+            {
+              "word": " fn.",
+              "start": 478.14,
+              "end": 479.06
+            }
+          ]
+        },
+        {
+          "start": 479.58,
+          "end": 492.82,
+          "text": "We can observe that c times gn is either equal to or greater than fn for all values of n greater than or equal to n naught.",
+          "words": [
+            {
+              "word": " We",
+              "start": 479.58,
+              "end": 480.22
+            },
+            {
+              "word": " can",
+              "start": 480.22,
+              "end": 480.5
+            },
+            {
+              "word": " observe",
+              "start": 480.5,
+              "end": 481.1
+            },
+            {
+              "word": " that",
+              "start": 481.1,
+              "end": 481.72
+            },
+            {
+              "word": " c",
+              "start": 481.72,
+              "end": 482.06
+            },
+            {
+              "word": " times",
+              "start": 482.06,
+              "end": 482.44
+            },
+            {
+              "word": " gn",
+              "start": 482.44,
+              "end": 482.84
+            },
+            {
+              "word": " is",
+              "start": 482.84,
+              "end": 483.76
+            },
+            {
+              "word": " either",
+              "start": 483.76,
+              "end": 484.2
+            },
+            {
+              "word": " equal",
+              "start": 484.2,
+              "end": 484.66
+            },
+            {
+              "word": " to",
+              "start": 484.66,
+              "end": 485.0
+            },
+            {
+              "word": " or",
+              "start": 485.0,
+              "end": 485.98
+            },
+            {
+              "word": " greater",
+              "start": 485.98,
+              "end": 486.6
+            },
+            {
+              "word": " than",
+              "start": 486.6,
+              "end": 487.0
+            },
+            {
+              "word": " fn",
+              "start": 487.0,
+              "end": 487.98
+            },
+            {
+              "word": " for",
+              "start": 487.98,
+              "end": 488.44
+            },
+            {
+              "word": " all",
+              "start": 488.44,
+              "end": 488.74
+            },
+            {
+              "word": " values",
+              "start": 488.74,
+              "end": 489.14
+            },
+            {
+              "word": " of",
+              "start": 489.14,
+              "end": 489.46
+            },
+            {
+              "word": " n",
+              "start": 489.46,
+              "end": 489.86
+            },
+            {
+              "word": " greater",
+              "start": 489.86,
+              "end": 490.64
+            },
+            {
+              "word": " than",
+              "start": 490.64,
+              "end": 490.98
+            },
+            {
+              "word": " or",
+              "start": 490.98,
+              "end": 491.2
+            },
+            {
+              "word": " equal",
+              "start": 491.2,
+              "end": 491.58
+            },
+            {
+              "word": " to",
+              "start": 491.58,
+              "end": 491.94
+            },
+            {
+              "word": " n",
+              "start": 491.94,
+              "end": 492.58
+            },
+            {
+              "word": " naught.",
+              "start": 492.58,
+              "end": 492.82
+            }
+          ]
+        },
+        {
+          "start": 493.65999999999997,
+          "end": 503.1,
+          "text": "So with this one thing is clear that gn is asymptotically bigger than fn or in other words, fn is big O of gn.",
+          "words": [
+            {
+              "word": " So",
+              "start": 493.63,
+              "end": 493.96
+            },
+            {
+              "word": " with",
+              "start": 493.96,
+              "end": 494.2
+            },
+            {
+              "word": " this",
+              "start": 494.2,
+              "end": 494.42
+            },
+            {
+              "word": " one",
+              "start": 494.42,
+              "end": 494.7
+            },
+            {
+              "word": " thing",
+              "start": 494.7,
+              "end": 494.92
+            },
+            {
+              "word": " is",
+              "start": 494.92,
+              "end": 495.14
+            },
+            {
+              "word": " clear",
+              "start": 495.14,
+              "end": 495.52
+            },
+            {
+              "word": " that",
+              "start": 495.52,
+              "end": 496.42
+            },
+            {
+              "word": " gn",
+              "start": 496.42,
+              "end": 496.82
+            },
+            {
+              "word": " is",
+              "start": 496.82,
+              "end": 497.54
+            },
+            {
+              "word": " asymptotically",
+              "start": 497.54,
+              "end": 498.46
+            },
+            {
+              "word": " bigger",
+              "start": 498.46,
+              "end": 498.84
+            },
+            {
+              "word": " than",
+              "start": 498.84,
+              "end": 499.14
+            },
+            {
+              "word": " fn",
+              "start": 499.14,
+              "end": 499.72
+            },
+            {
+              "word": " or",
+              "start": 499.72,
+              "end": 500.2
+            },
+            {
+              "word": " in",
+              "start": 500.2,
+              "end": 500.32
+            },
+            {
+              "word": " other",
+              "start": 500.32,
+              "end": 500.48
+            },
+            {
+              "word": " words,",
+              "start": 500.48,
+              "end": 500.88
+            },
+            {
+              "word": " fn",
+              "start": 501.26,
+              "end": 501.78
+            },
+            {
+              "word": " is",
+              "start": 501.78,
+              "end": 502.06
+            },
+            {
+              "word": " big",
+              "start": 502.06,
+              "end": 502.36
+            },
+            {
+              "word": " O",
+              "start": 502.36,
+              "end": 502.56
+            },
+            {
+              "word": " of",
+              "start": 502.56,
+              "end": 502.76
+            },
+            {
+              "word": " gn.",
+              "start": 502.76,
+              "end": 503.1
+            }
+          ]
+        },
+        {
+          "start": 503.62,
+          "end": 506.46,
+          "text": "And that's what we observed in the definition as well.",
+          "words": [
+            {
+              "word": " And",
+              "start": 503.62,
+              "end": 503.84
+            },
+            {
+              "word": " that's",
+              "start": 503.84,
+              "end": 504.08
+            },
+            {
+              "word": " what",
+              "start": 504.08,
+              "end": 504.24
+            },
+            {
+              "word": " we",
+              "start": 504.24,
+              "end": 504.42
+            },
+            {
+              "word": " observed",
+              "start": 504.42,
+              "end": 504.88
+            },
+            {
+              "word": " in",
+              "start": 504.88,
+              "end": 505.12
+            },
+            {
+              "word": " the",
+              "start": 505.12,
+              "end": 505.24
+            },
+            {
+              "word": " definition",
+              "start": 505.24,
+              "end": 505.82
+            },
+            {
+              "word": " as",
+              "start": 505.82,
+              "end": 506.22
+            },
+            {
+              "word": " well.",
+              "start": 506.22,
+              "end": 506.46
+            }
+          ]
+        },
+        {
+          "start": 507.08,
+          "end": 512.6,
+          "text": "Here we observed that if fn is less than or equal to c times gn,",
+          "words": [
+            {
+              "word": " Here",
+              "start": 507.08,
+              "end": 507.36
+            },
+            {
+              "word": " we",
+              "start": 507.36,
+              "end": 507.5
+            },
+            {
+              "word": " observed",
+              "start": 507.5,
+              "end": 507.98
+            },
+            {
+              "word": " that",
+              "start": 507.98,
+              "end": 508.68
+            },
+            {
+              "word": " if",
+              "start": 508.68,
+              "end": 508.92
+            },
+            {
+              "word": " fn",
+              "start": 508.92,
+              "end": 509.62
+            },
+            {
+              "word": " is",
+              "start": 509.62,
+              "end": 509.88
+            },
+            {
+              "word": " less",
+              "start": 509.88,
+              "end": 510.26
+            },
+            {
+              "word": " than",
+              "start": 510.26,
+              "end": 510.52
+            },
+            {
+              "word": " or",
+              "start": 510.52,
+              "end": 510.76
+            },
+            {
+              "word": " equal",
+              "start": 510.76,
+              "end": 511.06
+            },
+            {
+              "word": " to",
+              "start": 511.06,
+              "end": 511.38
+            },
+            {
+              "word": " c",
+              "start": 511.38,
+              "end": 511.74
+            },
+            {
+              "word": " times",
+              "start": 511.74,
+              "end": 512.04
+            },
+            {
+              "word": " gn,",
+              "start": 512.04,
+              "end": 512.6
+            }
+          ]
+        },
+        {
+          "start": 513.94,
+          "end": 518.54,
+          "text": "for all values of n greater than or equal to n naught,",
+          "words": [
+            {
+              "word": " for",
+              "start": 513.94,
+              "end": 514.6
+            },
+            {
+              "word": " all",
+              "start": 514.6,
+              "end": 515.0
+            },
+            {
+              "word": " values",
+              "start": 515.0,
+              "end": 515.5
+            },
+            {
+              "word": " of",
+              "start": 515.5,
+              "end": 515.84
+            },
+            {
+              "word": " n",
+              "start": 515.84,
+              "end": 516.16
+            },
+            {
+              "word": " greater",
+              "start": 516.16,
+              "end": 516.52
+            },
+            {
+              "word": " than",
+              "start": 516.52,
+              "end": 516.84
+            },
+            {
+              "word": " or",
+              "start": 516.84,
+              "end": 517.1
+            },
+            {
+              "word": " equal",
+              "start": 517.1,
+              "end": 517.44
+            },
+            {
+              "word": " to",
+              "start": 517.44,
+              "end": 517.7
+            },
+            {
+              "word": " n",
+              "start": 517.7,
+              "end": 518.02
+            },
+            {
+              "word": " naught,",
+              "start": 518.02,
+              "end": 518.54
+            }
+          ]
+        },
+        {
+          "start": 519.38,
+          "end": 523.74,
+          "text": "then fn is equal to big O of gn.",
+          "words": [
+            {
+              "word": " then",
+              "start": 519.38,
+              "end": 520.18
+            },
+            {
+              "word": " fn",
+              "start": 520.18,
+              "end": 521.02
+            },
+            {
+              "word": " is",
+              "start": 521.02,
+              "end": 521.58
+            },
+            {
+              "word": " equal",
+              "start": 521.58,
+              "end": 522.04
+            },
+            {
+              "word": " to",
+              "start": 522.04,
+              "end": 522.34
+            },
+            {
+              "word": " big",
+              "start": 522.34,
+              "end": 522.84
+            },
+            {
+              "word": " O",
+              "start": 522.84,
+              "end": 523.08
+            },
+            {
+              "word": " of",
+              "start": 523.08,
+              "end": 523.34
+            },
+            {
+              "word": " gn.",
+              "start": 523.34,
+              "end": 523.74
+            }
+          ]
+        },
+        {
+          "start": 524.4,
+          "end": 528.56,
+          "text": "So I hope with this graph, this definition is clear.",
+          "words": [
+            {
+              "word": " So",
+              "start": 524.4,
+              "end": 524.96
+            },
+            {
+              "word": " I",
+              "start": 524.96,
+              "end": 525.14
+            },
+            {
+              "word": " hope",
+              "start": 525.14,
+              "end": 525.46
+            },
+            {
+              "word": " with",
+              "start": 525.46,
+              "end": 525.82
+            },
+            {
+              "word": " this",
+              "start": 525.82,
+              "end": 526.12
+            },
+            {
+              "word": " graph,",
+              "start": 526.12,
+              "end": 526.56
+            },
+            {
+              "word": " this",
+              "start": 527.04,
+              "end": 527.42
+            },
+            {
+              "word": " definition",
+              "start": 527.42,
+              "end": 527.88
+            },
+            {
+              "word": " is",
+              "start": 527.88,
+              "end": 528.24
+            },
+            {
+              "word": " clear.",
+              "start": 528.24,
+              "end": 528.56
+            }
+          ]
+        },
+        {
+          "start": 529.24,
+          "end": 535.82,
+          "text": "In this graph, we can observe fn and gn are both non-negative functions.",
+          "words": [
+            {
+              "word": " In",
+              "start": 529.24,
+              "end": 529.46
+            },
+            {
+              "word": " this",
+              "start": 529.46,
+              "end": 529.64
+            },
+            {
+              "word": " graph,",
+              "start": 529.64,
+              "end": 529.98
+            },
+            {
+              "word": " we",
+              "start": 530.08,
+              "end": 530.2
+            },
+            {
+              "word": " can",
+              "start": 530.2,
+              "end": 530.4
+            },
+            {
+              "word": " observe",
+              "start": 530.4,
+              "end": 530.78
+            },
+            {
+              "word": " fn",
+              "start": 530.78,
+              "end": 531.9
+            },
+            {
+              "word": " and",
+              "start": 531.9,
+              "end": 532.6
+            },
+            {
+              "word": " gn",
+              "start": 532.6,
+              "end": 533.12
+            },
+            {
+              "word": " are",
+              "start": 533.12,
+              "end": 533.8
+            },
+            {
+              "word": " both",
+              "start": 533.8,
+              "end": 534.2
+            },
+            {
+              "word": " non",
+              "start": 534.2,
+              "end": 534.68
+            },
+            {
+              "word": "-negative",
+              "start": 534.68,
+              "end": 535.24
+            },
+            {
+              "word": " functions.",
+              "start": 535.24,
+              "end": 535.82
+            }
+          ]
+        },
+        {
+          "start": 536.8,
+          "end": 543.58,
+          "text": "Also please note that gn is also called the tight upper bound of fn.",
+          "words": [
+            {
+              "word": " Also",
+              "start": 536.8,
+              "end": 537.52
+            },
+            {
+              "word": " please",
+              "start": 537.52,
+              "end": 537.94
+            },
+            {
+              "word": " note",
+              "start": 537.94,
+              "end": 538.38
+            },
+            {
+              "word": " that",
+              "start": 538.38,
+              "end": 538.98
+            },
+            {
+              "word": " gn",
+              "start": 538.98,
+              "end": 539.44
+            },
+            {
+              "word": " is",
+              "start": 539.44,
+              "end": 540.28
+            },
+            {
+              "word": " also",
+              "start": 540.28,
+              "end": 540.8
+            },
+            {
+              "word": " called",
+              "start": 540.8,
+              "end": 541.24
+            },
+            {
+              "word": " the",
+              "start": 541.24,
+              "end": 541.52
+            },
+            {
+              "word": " tight",
+              "start": 541.52,
+              "end": 541.94
+            },
+            {
+              "word": " upper",
+              "start": 541.94,
+              "end": 542.34
+            },
+            {
+              "word": " bound",
+              "start": 542.34,
+              "end": 542.78
+            },
+            {
+              "word": " of",
+              "start": 542.78,
+              "end": 543.02
+            },
+            {
+              "word": " fn.",
+              "start": 543.02,
+              "end": 543.58
+            }
+          ]
+        },
+        {
+          "start": 544.22,
+          "end": 546.62,
+          "text": "Now what is the meaning of tight upper bound?",
+          "words": [
+            {
+              "word": " Now",
+              "start": 544.22,
+              "end": 544.64
+            },
+            {
+              "word": " what",
+              "start": 544.64,
+              "end": 544.84
+            },
+            {
+              "word": " is",
+              "start": 544.84,
+              "end": 544.96
+            },
+            {
+              "word": " the",
+              "start": 544.96,
+              "end": 545.08
+            },
+            {
+              "word": " meaning",
+              "start": 545.08,
+              "end": 545.32
+            },
+            {
+              "word": " of",
+              "start": 545.32,
+              "end": 545.62
+            },
+            {
+              "word": " tight",
+              "start": 545.62,
+              "end": 545.9
+            },
+            {
+              "word": " upper",
+              "start": 545.9,
+              "end": 546.26
+            },
+            {
+              "word": " bound?",
+              "start": 546.26,
+              "end": 546.62
+            }
+          ]
+        },
+        {
+          "start": 547.46,
+          "end": 550.56,
+          "text": "In order to understand the meaning of tight upper bound,",
+          "words": [
+            {
+              "word": " In",
+              "start": 547.3499999999999,
+              "end": 547.68
+            },
+            {
+              "word": " order",
+              "start": 547.68,
+              "end": 547.88
+            },
+            {
+              "word": " to",
+              "start": 547.88,
+              "end": 548.06
+            },
+            {
+              "word": " understand",
+              "start": 548.06,
+              "end": 548.58
+            },
+            {
+              "word": " the",
+              "start": 548.58,
+              "end": 548.82
+            },
+            {
+              "word": " meaning",
+              "start": 548.82,
+              "end": 549.1
+            },
+            {
+              "word": " of",
+              "start": 549.1,
+              "end": 549.42
+            },
+            {
+              "word": " tight",
+              "start": 549.42,
+              "end": 549.76
+            },
+            {
+              "word": " upper",
+              "start": 549.76,
+              "end": 550.12
+            },
+            {
+              "word": " bound,",
+              "start": 550.12,
+              "end": 550.56
+            }
+          ]
+        },
+        {
+          "start": 550.82,
+          "end": 553.4,
+          "text": "we need to know the meaning of upper bound first.",
+          "words": [
+            {
+              "word": " we",
+              "start": 550.82,
+              "end": 551.1
+            },
+            {
+              "word": " need",
+              "start": 551.1,
+              "end": 551.26
+            },
+            {
+              "word": " to",
+              "start": 551.26,
+              "end": 551.44
+            },
+            {
+              "word": " know",
+              "start": 551.44,
+              "end": 551.66
+            },
+            {
+              "word": " the",
+              "start": 551.66,
+              "end": 551.82
+            },
+            {
+              "word": " meaning",
+              "start": 551.82,
+              "end": 552.1
+            },
+            {
+              "word": " of",
+              "start": 552.1,
+              "end": 552.4
+            },
+            {
+              "word": " upper",
+              "start": 552.4,
+              "end": 552.72
+            },
+            {
+              "word": " bound",
+              "start": 552.72,
+              "end": 553.12
+            },
+            {
+              "word": " first.",
+              "start": 553.12,
+              "end": 553.4
+            }
+          ]
+        },
+        {
+          "start": 554.24,
+          "end": 555.58,
+          "text": "What is an upper bound?",
+          "words": [
+            {
+              "word": " What",
+              "start": 554.24,
+              "end": 554.78
+            },
+            {
+              "word": " is",
+              "start": 554.78,
+              "end": 554.98
+            },
+            {
+              "word": " an",
+              "start": 554.98,
+              "end": 555.12
+            },
+            {
+              "word": " upper",
+              "start": 555.12,
+              "end": 555.28
+            },
+            {
+              "word": " bound?",
+              "start": 555.28,
+              "end": 555.58
+            }
+          ]
+        },
+        {
+          "start": 556.34,
+          "end": 559.88,
+          "text": "If we are saying that gn is the upper bound of fn,",
+          "words": [
+            {
+              "word": " If",
+              "start": 556.34,
+              "end": 556.8
+            },
+            {
+              "word": " we",
+              "start": 556.8,
+              "end": 556.94
+            },
+            {
+              "word": " are",
+              "start": 556.94,
+              "end": 557.06
+            },
+            {
+              "word": " saying",
+              "start": 557.06,
+              "end": 557.38
+            },
+            {
+              "word": " that",
+              "start": 557.38,
+              "end": 557.66
+            },
+            {
+              "word": " gn",
+              "start": 557.66,
+              "end": 557.96
+            },
+            {
+              "word": " is",
+              "start": 557.96,
+              "end": 558.2
+            },
+            {
+              "word": " the",
+              "start": 558.2,
+              "end": 558.38
+            },
+            {
+              "word": " upper",
+              "start": 558.38,
+              "end": 558.66
+            },
+            {
+              "word": " bound",
+              "start": 558.66,
+              "end": 559.06
+            },
+            {
+              "word": " of",
+              "start": 559.06,
+              "end": 559.36
+            },
+            {
+              "word": " fn,",
+              "start": 559.36,
+              "end": 559.88
+            }
+          ]
+        },
+        {
+          "start": 560.3,
+          "end": 569.32,
+          "text": "then after some point n naught, the growth rate of gn must be greater than the growth rate of fn.",
+          "words": [
+            {
+              "word": " then",
+              "start": 560.3,
+              "end": 560.56
+            },
+            {
+              "word": " after",
+              "start": 560.56,
+              "end": 561.06
+            },
+            {
+              "word": " some",
+              "start": 561.06,
+              "end": 561.52
+            },
+            {
+              "word": " point",
+              "start": 561.52,
+              "end": 562.0
+            },
+            {
+              "word": " n",
+              "start": 562.0,
+              "end": 562.54
+            },
+            {
+              "word": " naught,",
+              "start": 562.54,
+              "end": 562.88
+            },
+            {
+              "word": " the",
+              "start": 563.52,
+              "end": 563.56
+            },
+            {
+              "word": " growth",
+              "start": 563.56,
+              "end": 564.08
+            },
+            {
+              "word": " rate",
+              "start": 564.08,
+              "end": 564.54
+            },
+            {
+              "word": " of",
+              "start": 564.54,
+              "end": 565.02
+            },
+            {
+              "word": " gn",
+              "start": 565.02,
+              "end": 565.52
+            },
+            {
+              "word": " must",
+              "start": 565.52,
+              "end": 566.64
+            },
+            {
+              "word": " be",
+              "start": 566.64,
+              "end": 566.96
+            },
+            {
+              "word": " greater",
+              "start": 566.96,
+              "end": 567.32
+            },
+            {
+              "word": " than",
+              "start": 567.32,
+              "end": 567.66
+            },
+            {
+              "word": " the",
+              "start": 567.66,
+              "end": 567.92
+            },
+            {
+              "word": " growth",
+              "start": 567.92,
+              "end": 568.28
+            },
+            {
+              "word": " rate",
+              "start": 568.28,
+              "end": 568.58
+            },
+            {
+              "word": " of",
+              "start": 568.58,
+              "end": 568.82
+            },
+            {
+              "word": " fn.",
+              "start": 568.82,
+              "end": 569.32
+            }
+          ]
+        },
+        {
+          "start": 569.7,
+          "end": 576.36,
+          "text": "Or in other words, fn cannot grow more than gn after some point n naught.",
+          "words": [
+            {
+              "word": " Or",
+              "start": 569.7,
+              "end": 570.02
+            },
+            {
+              "word": " in",
+              "start": 570.02,
+              "end": 570.12
+            },
+            {
+              "word": " other",
+              "start": 570.12,
+              "end": 570.28
+            },
+            {
+              "word": " words,",
+              "start": 570.28,
+              "end": 570.68
+            },
+            {
+              "word": " fn",
+              "start": 571.08,
+              "end": 571.48
+            },
+            {
+              "word": " cannot",
+              "start": 571.48,
+              "end": 571.86
+            },
+            {
+              "word": " grow",
+              "start": 571.86,
+              "end": 572.48
+            },
+            {
+              "word": " more",
+              "start": 572.48,
+              "end": 572.92
+            },
+            {
+              "word": " than",
+              "start": 572.92,
+              "end": 573.2
+            },
+            {
+              "word": " gn",
+              "start": 573.2,
+              "end": 573.72
+            },
+            {
+              "word": " after",
+              "start": 573.72,
+              "end": 574.78
+            },
+            {
+              "word": " some",
+              "start": 574.78,
+              "end": 575.18
+            },
+            {
+              "word": " point",
+              "start": 575.18,
+              "end": 575.64
+            },
+            {
+              "word": " n",
+              "start": 575.64,
+              "end": 576.1
+            },
+            {
+              "word": " naught.",
+              "start": 576.1,
+              "end": 576.36
+            }
+          ]
+        },
+        {
+          "start": 577.46,
+          "end": 579.36,
+          "text": "So this is the meaning of upper bound.",
+          "words": [
+            {
+              "word": " So",
+              "start": 577.26,
+              "end": 577.56
+            },
+            {
+              "word": " this",
+              "start": 577.56,
+              "end": 577.78
+            },
+            {
+              "word": " is",
+              "start": 577.78,
+              "end": 577.92
+            },
+            {
+              "word": " the",
+              "start": 577.92,
+              "end": 578.08
+            },
+            {
+              "word": " meaning",
+              "start": 578.08,
+              "end": 578.34
+            },
+            {
+              "word": " of",
+              "start": 578.34,
+              "end": 578.68
+            },
+            {
+              "word": " upper",
+              "start": 578.68,
+              "end": 578.98
+            },
+            {
+              "word": " bound.",
+              "start": 578.98,
+              "end": 579.36
+            }
+          ]
+        },
+        {
+          "start": 579.72,
+          "end": 582.0,
+          "text": "Now what is the meaning of tight upper bound?",
+          "words": [
+            {
+              "word": " Now",
+              "start": 579.72,
+              "end": 580.04
+            },
+            {
+              "word": " what",
+              "start": 580.04,
+              "end": 580.2
+            },
+            {
+              "word": " is",
+              "start": 580.2,
+              "end": 580.3
+            },
+            {
+              "word": " the",
+              "start": 580.3,
+              "end": 580.42
+            },
+            {
+              "word": " meaning",
+              "start": 580.42,
+              "end": 580.64
+            },
+            {
+              "word": " of",
+              "start": 580.64,
+              "end": 580.96
+            },
+            {
+              "word": " tight",
+              "start": 580.96,
+              "end": 581.26
+            },
+            {
+              "word": " upper",
+              "start": 581.26,
+              "end": 581.64
+            },
+            {
+              "word": " bound?",
+              "start": 581.64,
+              "end": 582.0
+            }
+          ]
+        },
+        {
+          "start": 582.56,
+          "end": 587.22,
+          "text": "The meaning of tight upper bound will be clear once we discuss some problems",
+          "words": [
+            {
+              "word": " The",
+              "start": 582.56,
+              "end": 582.84
+            },
+            {
+              "word": " meaning",
+              "start": 582.84,
+              "end": 583.14
+            },
+            {
+              "word": " of",
+              "start": 583.14,
+              "end": 583.44
+            },
+            {
+              "word": " tight",
+              "start": 583.44,
+              "end": 583.72
+            },
+            {
+              "word": " upper",
+              "start": 583.72,
+              "end": 584.08
+            },
+            {
+              "word": " bound",
+              "start": 584.08,
+              "end": 584.56
+            },
+            {
+              "word": " will",
+              "start": 584.56,
+              "end": 584.74
+            },
+            {
+              "word": " be",
+              "start": 584.74,
+              "end": 584.9
+            },
+            {
+              "word": " clear",
+              "start": 584.9,
+              "end": 585.28
+            },
+            {
+              "word": " once",
+              "start": 585.28,
+              "end": 585.8
+            },
+            {
+              "word": " we",
+              "start": 585.8,
+              "end": 586.02
+            },
+            {
+              "word": " discuss",
+              "start": 586.02,
+              "end": 586.34
+            },
+            {
+              "word": " some",
+              "start": 586.34,
+              "end": 586.72
+            },
+            {
+              "word": " problems",
+              "start": 586.72,
+              "end": 587.22
+            }
+          ]
+        },
+        {
+          "start": 587.22,
+          "end": 589.04,
+          "text": "based on big O notation.",
+          "words": [
+            {
+              "word": " based",
+              "start": 587.22,
+              "end": 587.64
+            },
+            {
+              "word": " on",
+              "start": 587.64,
+              "end": 588.0
+            },
+            {
+              "word": " big",
+              "start": 588.0,
+              "end": 588.44
+            },
+            {
+              "word": " O",
+              "start": 588.44,
+              "end": 588.6
+            },
+            {
+              "word": " notation.",
+              "start": 588.6,
+              "end": 589.04
+            }
+          ]
+        },
+        {
+          "start": 589.72,
+          "end": 594.06,
+          "text": "After this lecture, we will discuss some problems based on big O notation",
+          "words": [
+            {
+              "word": " After",
+              "start": 589.72,
+              "end": 590.32
+            },
+            {
+              "word": " this",
+              "start": 590.32,
+              "end": 590.64
+            },
+            {
+              "word": " lecture,",
+              "start": 590.64,
+              "end": 591.0
+            },
+            {
+              "word": " we",
+              "start": 591.28,
+              "end": 591.42
+            },
+            {
+              "word": " will",
+              "start": 591.42,
+              "end": 591.56
+            },
+            {
+              "word": " discuss",
+              "start": 591.56,
+              "end": 591.86
+            },
+            {
+              "word": " some",
+              "start": 591.86,
+              "end": 592.2
+            },
+            {
+              "word": " problems",
+              "start": 592.2,
+              "end": 592.66
+            },
+            {
+              "word": " based",
+              "start": 592.66,
+              "end": 593.04
+            },
+            {
+              "word": " on",
+              "start": 593.04,
+              "end": 593.3
+            },
+            {
+              "word": " big",
+              "start": 593.3,
+              "end": 593.5
+            },
+            {
+              "word": " O",
+              "start": 593.5,
+              "end": 593.62
+            },
+            {
+              "word": " notation",
+              "start": 593.62,
+              "end": 594.06
+            }
+          ]
+        },
+        {
+          "start": 594.06,
+          "end": 599.18,
+          "text": "and in those problems, it will be clear what is the meaning of tight upper bound.",
+          "words": [
+            {
+              "word": " and",
+              "start": 594.06,
+              "end": 594.58
+            },
+            {
+              "word": " in",
+              "start": 594.58,
+              "end": 594.7
+            },
+            {
+              "word": " those",
+              "start": 594.7,
+              "end": 594.9
+            },
+            {
+              "word": " problems,",
+              "start": 594.9,
+              "end": 595.56
+            },
+            {
+              "word": " it",
+              "start": 595.78,
+              "end": 595.98
+            },
+            {
+              "word": " will",
+              "start": 595.98,
+              "end": 596.12
+            },
+            {
+              "word": " be",
+              "start": 596.12,
+              "end": 596.28
+            },
+            {
+              "word": " clear",
+              "start": 596.28,
+              "end": 596.68
+            },
+            {
+              "word": " what",
+              "start": 596.68,
+              "end": 597.18
+            },
+            {
+              "word": " is",
+              "start": 597.18,
+              "end": 597.32
+            },
+            {
+              "word": " the",
+              "start": 597.32,
+              "end": 597.46
+            },
+            {
+              "word": " meaning",
+              "start": 597.46,
+              "end": 597.72
+            },
+            {
+              "word": " of",
+              "start": 597.72,
+              "end": 598.08
+            },
+            {
+              "word": " tight",
+              "start": 598.08,
+              "end": 598.38
+            },
+            {
+              "word": " upper",
+              "start": 598.38,
+              "end": 598.78
+            },
+            {
+              "word": " bound.",
+              "start": 598.78,
+              "end": 599.18
+            }
+          ]
+        },
+        {
+          "start": 600.06,
+          "end": 605.12,
+          "text": "So with this, we are done with this topic and this means we are done with this lecture.",
+          "words": [
+            {
+              "word": " So",
+              "start": 600.06,
+              "end": 600.66
+            },
+            {
+              "word": " with",
+              "start": 600.66,
+              "end": 600.86
+            },
+            {
+              "word": " this,",
+              "start": 600.86,
+              "end": 601.16
+            },
+            {
+              "word": " we",
+              "start": 601.34,
+              "end": 601.5
+            },
+            {
+              "word": " are",
+              "start": 601.5,
+              "end": 601.62
+            },
+            {
+              "word": " done",
+              "start": 601.62,
+              "end": 601.82
+            },
+            {
+              "word": " with",
+              "start": 601.82,
+              "end": 602.04
+            },
+            {
+              "word": " this",
+              "start": 602.04,
+              "end": 602.26
+            },
+            {
+              "word": " topic",
+              "start": 602.26,
+              "end": 602.64
+            },
+            {
+              "word": " and",
+              "start": 602.64,
+              "end": 603.24
+            },
+            {
+              "word": " this",
+              "start": 603.24,
+              "end": 603.44
+            },
+            {
+              "word": " means",
+              "start": 603.44,
+              "end": 603.7
+            },
+            {
+              "word": " we",
+              "start": 603.7,
+              "end": 604.0
+            },
+            {
+              "word": " are",
+              "start": 604.0,
+              "end": 604.1
+            },
+            {
+              "word": " done",
+              "start": 604.1,
+              "end": 604.32
+            },
+            {
+              "word": " with",
+              "start": 604.32,
+              "end": 604.52
+            },
+            {
+              "word": " this",
+              "start": 604.52,
+              "end": 604.74
+            },
+            {
+              "word": " lecture.",
+              "start": 604.74,
+              "end": 605.12
+            }
+          ]
+        },
+        {
+          "start": 605.7399999999999,
+          "end": 608.0,
+          "text": "Okay friends, this is it for now.",
+          "words": [
+            {
+              "word": " Okay",
+              "start": 605.7399999999999,
+              "end": 606.18
+            },
+            {
+              "word": " friends,",
+              "start": 606.18,
+              "end": 606.48
+            },
+            {
+              "word": " this",
+              "start": 607.14,
+              "end": 607.32
+            },
+            {
+              "word": " is",
+              "start": 607.32,
+              "end": 607.42
+            },
+            {
+              "word": " it",
+              "start": 607.42,
+              "end": 607.56
+            },
+            {
+              "word": " for",
+              "start": 607.56,
+              "end": 607.74
+            },
+            {
+              "word": " now.",
+              "start": 607.74,
+              "end": 608.0
+            }
+          ]
+        },
+        {
+          "start": 608.42,
+          "end": 610.0,
+          "text": "Thank you for watching this presentation.",
+          "words": [
+            {
+              "word": " Thank",
+              "start": 608.42,
+              "end": 608.54
+            },
+            {
+              "word": " you",
+              "start": 608.54,
+              "end": 608.7
+            },
+            {
+              "word": " for",
+              "start": 608.7,
+              "end": 608.84
+            },
+            {
+              "word": " watching",
+              "start": 608.84,
+              "end": 609.16
+            },
+            {
+              "word": " this",
+              "start": 609.16,
+              "end": 609.36
+            },
+            {
+              "word": " presentation.",
+              "start": 609.36,
+              "end": 610.0
+            }
+          ]
+        },
+        {
+          "start": 610.44,
+          "end": 612.26,
+          "text": "I will see you in the next one.",
+          "words": [
+            {
+              "word": " I",
+              "start": 610.44,
+              "end": 610.7
+            },
+            {
+              "word": " will",
+              "start": 610.7,
+              "end": 610.84
+            },
+            {
+              "word": " see",
+              "start": 610.84,
+              "end": 611.04
+            },
+            {
+              "word": " you",
+              "start": 611.04,
+              "end": 611.26
+            },
+            {
+              "word": " in",
+              "start": 611.26,
+              "end": 611.64
+            },
+            {
+              "word": " the",
+              "start": 611.64,
+              "end": 611.74
+            },
+            {
+              "word": " next",
+              "start": 611.74,
+              "end": 611.96
+            },
+            {
+              "word": " one.",
+              "start": 611.96,
+              "end": 612.26
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 5.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 6.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 48.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 75.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 297.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 303.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 540.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 600.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 9,
+        "timestamp": 605.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 607.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 613.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 12,
+        "timestamp": 614.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 13,
+        "timestamp": 615.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000013.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 14,
+        "timestamp": 617.0,
+        "path": "data/processed\\lecture_031\\frames\\frame_000014.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 15,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    }
+  }
+}

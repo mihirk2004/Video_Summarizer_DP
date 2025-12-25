@@ -1,0 +1,6861 @@
+{
+  "video_id": "lecture_025",
+  "metadata": {
+    "original_path": "data\\raw_videos\\cs_lecture_25.mp4",
+    "duration": 0.0,
+    "fps": 30.0,
+    "resolution": "640x360",
+    "processing_date": "2025-12-24T16:49:52.278853",
+    "subject": "STEM",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_025\\audio.wav",
+    "transcript": {
+      "text": " In our previous presentation, we understood the significance of algorithms. We know what is the importance of good algorithms over bad algorithms. We understood the difference between a good algorithm and a bad algorithm in the last lecture. Now in this lecture, we will understand the difference between decidable and undecidable problems. Let's get started with this lecture and let's see what are the topics. The first topic of this lecture is decidable problems. The second topic is undecidable problems. And the third topic is polynomial versus exponential time. Let's understand decidable problems first. So what is a decidable problem? A decidable problem is a problem for which efficient algorithm exists. So the problem for which efficient algorithm exists is called the decidable problem. What is the meaning of efficient algorithm? An efficient algorithm is an algorithm which takes polynomial time or less than the polynomial time to execute. So it will not take more than the polynomial time. Either it will take polynomial time or less than the polynomial time to execute. Now what is the meaning of polynomial time? Polynomial time means time is a function of a polynomial. Now what is the meaning of a polynomial? A polynomial is a mathematical expression consisting of variables and coefficients combined through addition, subtraction and multiplication where variables are raised to non-negative integer exponents. For example, n square plus 2n plus 1 is a polynomial. An algorithm which takes polynomial time has this property that as the size of the input increases, the time taken by that algorithm will not increase drastically or dramatically. This means the change in time is not that drastic as compared to the change in size of the input. So if an algorithm takes polynomial time or less than the polynomial time, then that algorithm is called an efficient algorithm. The problem which it solves is known as the decidable problem. This means we can decide what's going to be the output within a limited amount of time frame which we can bear. In the last lecture, we discussed what are good and bad algorithms. Now do you think that the good algorithm is efficient algorithm and bad algorithm is inefficient algorithm? If you remember, the good algorithm was taking 70 nanoseconds and the bad algorithm was taking nearly 8 hours. Now if you ask me was the bad algorithm that bad? I would say no. 8 hours is still a bearable time and this time is actually a polynomial time which as per the definition makes it an efficient algorithm. So both the algorithms good and bad in the previous lecture are efficient algorithms. So in conclusion, we can say that not all bad algorithms are inefficient and all good algorithms are efficient. But generally you will find bad algorithms are inefficient. We will learn what are the different time functions and how to determine whether a specific algorithm takes polynomial time or any other time. This will be discussed in the later lectures. For now just understand this that if an algorithm executes in polynomial time or less than the polynomial time, then that algorithm is considered efficient and the problem for which efficient algorithm exists is called the decidable problem. To summarize, this is how we can visualize an efficient algorithm. This algorithm is an efficient algorithm and the problem it solves is a decidable problem. To this algorithm we can pass a finite input and it terminates in polynomial time or less than the polynomial time. So now we know what is a decidable problem. Let's move to the next topic where we will discuss what are undecidable problems. An undecidable problem is a problem for which no efficient algorithm exists. This means there are only inefficient algorithms to solve these type of problems. What is an inefficient algorithm? An inefficient algorithm is an algorithm which takes exponential time to execute. Now what is the meaning of exponential time? Exponential time is a function that grows exponentially with the size of the input and we all know exponential refers to a mathematical function in which a constant base has a variable power. For example, 2 to the power n, 3 to the power n, etc. are all exponential functions. If an algorithm takes exponential time to execute, then it has this property that as the size of the input increases, the time taken by that algorithm increases drastically. The change is so drastic that we humans cannot bear even for smaller size inputs. It might be possible that for just input size of 10, it may take years to execute. So clearly these type of algorithms are unbearable and hence the problems they solve are undecidable because we cannot decide the outcome within a specific time frame which we humans can bear. Hence these type of problems are called undecidable problems. This is how you can visualize an inefficient algorithm. The problem for which no efficient algorithm exists is called undecidable. To this algorithm, we can pass a finite input, maybe 10, 20 or 100 and it terminates in exponential time, the time which we humans cannot bear. So clearly we understood what is the difference between a decidable problem and an undecidable problem. A decidable problem is a problem for which an efficient algorithm exists, at least one efficient algorithm. An undecidable problem on the other hand is a problem for which no efficient algorithm exists. We also understood what is the difference between an efficient algorithm and an inefficient algorithm. An efficient algorithm takes polynomial time or less than the polynomial time to execute. On the other hand, an inefficient algorithm takes exponential time to execute. Now we know these two topics very clearly. Let's move to the next topic where we will discuss the example plots of polynomial and exponential times. This is how we can visualize polynomial time and exponential time. In this graph, the size of the input is represented here. It is represented by n and the time is the function of n. This means it is dependent on the size of the input. So as the size of the input increases, this graph represents the change in time. Let's observe this green line. This represents polynomial time. As the size of the input increases, the change in time is not that drastic or dramatic. This is bearable. But on the other hand, if you observe the exponential time graph, as the size of the input increases, the change in time is drastic. And this is unbearable because even for smaller size inputs, the time taken is so large. So with this graph, I hope it is clear what is the difference between polynomial and exponential time. And this means we are done with this topic also and we are done with all the topics of this lecture. In the next lecture, we will discuss the nature of undecidable problems. We will consider an example through which we will visualize why undecidable problems are called undecidable. So thank you for watching this lecture. I will see you in the next one.",
+      "segments": [
+        {
+          "start": 5.58,
+          "end": 10.68,
+          "text": "In our previous presentation, we understood the significance of algorithms.",
+          "words": [
+            {
+              "word": " In",
+              "start": 5.58,
+              "end": 6.34
+            },
+            {
+              "word": " our",
+              "start": 6.34,
+              "end": 6.5
+            },
+            {
+              "word": " previous",
+              "start": 6.5,
+              "end": 6.82
+            },
+            {
+              "word": " presentation,",
+              "start": 6.82,
+              "end": 7.44
+            },
+            {
+              "word": " we",
+              "start": 7.7,
+              "end": 7.86
+            },
+            {
+              "word": " understood",
+              "start": 7.86,
+              "end": 8.44
+            },
+            {
+              "word": " the",
+              "start": 8.44,
+              "end": 8.98
+            },
+            {
+              "word": " significance",
+              "start": 8.98,
+              "end": 9.48
+            },
+            {
+              "word": " of",
+              "start": 9.48,
+              "end": 10.16
+            },
+            {
+              "word": " algorithms.",
+              "start": 10.16,
+              "end": 10.68
+            }
+          ]
+        },
+        {
+          "start": 11.36,
+          "end": 15.8,
+          "text": "We know what is the importance of good algorithms over bad algorithms.",
+          "words": [
+            {
+              "word": " We",
+              "start": 11.36,
+              "end": 11.68
+            },
+            {
+              "word": " know",
+              "start": 11.68,
+              "end": 11.88
+            },
+            {
+              "word": " what",
+              "start": 11.88,
+              "end": 12.12
+            },
+            {
+              "word": " is",
+              "start": 12.12,
+              "end": 12.24
+            },
+            {
+              "word": " the",
+              "start": 12.24,
+              "end": 12.42
+            },
+            {
+              "word": " importance",
+              "start": 12.42,
+              "end": 13.02
+            },
+            {
+              "word": " of",
+              "start": 13.02,
+              "end": 13.4
+            },
+            {
+              "word": " good",
+              "start": 13.4,
+              "end": 13.62
+            },
+            {
+              "word": " algorithms",
+              "start": 13.62,
+              "end": 14.3
+            },
+            {
+              "word": " over",
+              "start": 14.3,
+              "end": 14.78
+            },
+            {
+              "word": " bad",
+              "start": 14.78,
+              "end": 15.16
+            },
+            {
+              "word": " algorithms.",
+              "start": 15.16,
+              "end": 15.8
+            }
+          ]
+        },
+        {
+          "start": 16.36,
+          "end": 21.58,
+          "text": "We understood the difference between a good algorithm and a bad algorithm in the last lecture.",
+          "words": [
+            {
+              "word": " We",
+              "start": 16.36,
+              "end": 16.66
+            },
+            {
+              "word": " understood",
+              "start": 16.66,
+              "end": 17.06
+            },
+            {
+              "word": " the",
+              "start": 17.06,
+              "end": 17.42
+            },
+            {
+              "word": " difference",
+              "start": 17.42,
+              "end": 17.74
+            },
+            {
+              "word": " between",
+              "start": 17.74,
+              "end": 18.18
+            },
+            {
+              "word": " a",
+              "start": 18.18,
+              "end": 18.52
+            },
+            {
+              "word": " good",
+              "start": 18.52,
+              "end": 18.72
+            },
+            {
+              "word": " algorithm",
+              "start": 18.72,
+              "end": 19.22
+            },
+            {
+              "word": " and",
+              "start": 19.22,
+              "end": 19.62
+            },
+            {
+              "word": " a",
+              "start": 19.62,
+              "end": 19.74
+            },
+            {
+              "word": " bad",
+              "start": 19.74,
+              "end": 19.96
+            },
+            {
+              "word": " algorithm",
+              "start": 19.96,
+              "end": 20.46
+            },
+            {
+              "word": " in",
+              "start": 20.46,
+              "end": 20.8
+            },
+            {
+              "word": " the",
+              "start": 20.8,
+              "end": 20.92
+            },
+            {
+              "word": " last",
+              "start": 20.92,
+              "end": 21.2
+            },
+            {
+              "word": " lecture.",
+              "start": 21.2,
+              "end": 21.58
+            }
+          ]
+        },
+        {
+          "start": 22.12,
+          "end": 28.24,
+          "text": "Now in this lecture, we will understand the difference between decidable and undecidable problems.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 22.12,
+              "end": 22.44
+            },
+            {
+              "word": " in",
+              "start": 22.44,
+              "end": 22.64
+            },
+            {
+              "word": " this",
+              "start": 22.64,
+              "end": 22.8
+            },
+            {
+              "word": " lecture,",
+              "start": 22.8,
+              "end": 23.16
+            },
+            {
+              "word": " we",
+              "start": 23.32,
+              "end": 23.4
+            },
+            {
+              "word": " will",
+              "start": 23.4,
+              "end": 23.56
+            },
+            {
+              "word": " understand",
+              "start": 23.56,
+              "end": 24.12
+            },
+            {
+              "word": " the",
+              "start": 24.12,
+              "end": 24.58
+            },
+            {
+              "word": " difference",
+              "start": 24.58,
+              "end": 24.92
+            },
+            {
+              "word": " between",
+              "start": 24.92,
+              "end": 25.36
+            },
+            {
+              "word": " decidable",
+              "start": 25.36,
+              "end": 26.26
+            },
+            {
+              "word": " and",
+              "start": 26.26,
+              "end": 26.74
+            },
+            {
+              "word": " undecidable",
+              "start": 26.74,
+              "end": 27.64
+            },
+            {
+              "word": " problems.",
+              "start": 27.64,
+              "end": 28.24
+            }
+          ]
+        },
+        {
+          "start": 28.24,
+          "end": 32.04,
+          "text": "Let's get started with this lecture and let's see what are the topics.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 28.24,
+              "end": 29.46
+            },
+            {
+              "word": " get",
+              "start": 29.46,
+              "end": 29.58
+            },
+            {
+              "word": " started",
+              "start": 29.58,
+              "end": 29.9
+            },
+            {
+              "word": " with",
+              "start": 29.9,
+              "end": 30.14
+            },
+            {
+              "word": " this",
+              "start": 30.14,
+              "end": 30.28
+            },
+            {
+              "word": " lecture",
+              "start": 30.28,
+              "end": 30.6
+            },
+            {
+              "word": " and",
+              "start": 30.6,
+              "end": 30.94
+            },
+            {
+              "word": " let's",
+              "start": 30.94,
+              "end": 31.16
+            },
+            {
+              "word": " see",
+              "start": 31.16,
+              "end": 31.3
+            },
+            {
+              "word": " what",
+              "start": 31.3,
+              "end": 31.5
+            },
+            {
+              "word": " are",
+              "start": 31.5,
+              "end": 31.64
+            },
+            {
+              "word": " the",
+              "start": 31.64,
+              "end": 31.7
+            },
+            {
+              "word": " topics.",
+              "start": 31.7,
+              "end": 32.04
+            }
+          ]
+        },
+        {
+          "start": 33.06,
+          "end": 36.36,
+          "text": "The first topic of this lecture is decidable problems.",
+          "words": [
+            {
+              "word": " The",
+              "start": 33.06,
+              "end": 33.6
+            },
+            {
+              "word": " first",
+              "start": 33.6,
+              "end": 33.84
+            },
+            {
+              "word": " topic",
+              "start": 33.84,
+              "end": 34.2
+            },
+            {
+              "word": " of",
+              "start": 34.2,
+              "end": 34.42
+            },
+            {
+              "word": " this",
+              "start": 34.42,
+              "end": 34.62
+            },
+            {
+              "word": " lecture",
+              "start": 34.62,
+              "end": 34.9
+            },
+            {
+              "word": " is",
+              "start": 34.9,
+              "end": 35.2
+            },
+            {
+              "word": " decidable",
+              "start": 35.2,
+              "end": 35.88
+            },
+            {
+              "word": " problems.",
+              "start": 35.88,
+              "end": 36.36
+            }
+          ]
+        },
+        {
+          "start": 37.2,
+          "end": 39.9,
+          "text": "The second topic is undecidable problems.",
+          "words": [
+            {
+              "word": " The",
+              "start": 37.2,
+              "end": 37.48
+            },
+            {
+              "word": " second",
+              "start": 37.48,
+              "end": 37.76
+            },
+            {
+              "word": " topic",
+              "start": 37.76,
+              "end": 38.1
+            },
+            {
+              "word": " is",
+              "start": 38.1,
+              "end": 38.48
+            },
+            {
+              "word": " undecidable",
+              "start": 38.48,
+              "end": 39.32
+            },
+            {
+              "word": " problems.",
+              "start": 39.32,
+              "end": 39.9
+            }
+          ]
+        },
+        {
+          "start": 40.6,
+          "end": 44.7,
+          "text": "And the third topic is polynomial versus exponential time.",
+          "words": [
+            {
+              "word": " And",
+              "start": 40.6,
+              "end": 40.88
+            },
+            {
+              "word": " the",
+              "start": 40.88,
+              "end": 41.02
+            },
+            {
+              "word": " third",
+              "start": 41.02,
+              "end": 41.22
+            },
+            {
+              "word": " topic",
+              "start": 41.22,
+              "end": 41.56
+            },
+            {
+              "word": " is",
+              "start": 41.56,
+              "end": 41.96
+            },
+            {
+              "word": " polynomial",
+              "start": 41.96,
+              "end": 42.52
+            },
+            {
+              "word": " versus",
+              "start": 42.52,
+              "end": 43.26
+            },
+            {
+              "word": " exponential",
+              "start": 43.26,
+              "end": 44.06
+            },
+            {
+              "word": " time.",
+              "start": 44.06,
+              "end": 44.7
+            }
+          ]
+        },
+        {
+          "start": 45.74,
+          "end": 48.14,
+          "text": "Let's understand decidable problems first.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 45.74,
+              "end": 46.12
+            },
+            {
+              "word": " understand",
+              "start": 46.12,
+              "end": 46.66
+            },
+            {
+              "word": " decidable",
+              "start": 46.66,
+              "end": 47.34
+            },
+            {
+              "word": " problems",
+              "start": 47.34,
+              "end": 47.82
+            },
+            {
+              "word": " first.",
+              "start": 47.82,
+              "end": 48.14
+            }
+          ]
+        },
+        {
+          "start": 49.02,
+          "end": 51.36,
+          "text": "So what is a decidable problem?",
+          "words": [
+            {
+              "word": " So",
+              "start": 49.02,
+              "end": 49.62
+            },
+            {
+              "word": " what",
+              "start": 49.62,
+              "end": 49.84
+            },
+            {
+              "word": " is",
+              "start": 49.84,
+              "end": 50.18
+            },
+            {
+              "word": " a",
+              "start": 50.18,
+              "end": 50.42
+            },
+            {
+              "word": " decidable",
+              "start": 50.42,
+              "end": 50.96
+            },
+            {
+              "word": " problem?",
+              "start": 50.96,
+              "end": 51.36
+            }
+          ]
+        },
+        {
+          "start": 52.4,
+          "end": 57.48,
+          "text": "A decidable problem is a problem for which efficient algorithm exists.",
+          "words": [
+            {
+              "word": " A",
+              "start": 52.4,
+              "end": 52.58
+            },
+            {
+              "word": " decidable",
+              "start": 52.58,
+              "end": 53.14
+            },
+            {
+              "word": " problem",
+              "start": 53.14,
+              "end": 53.58
+            },
+            {
+              "word": " is",
+              "start": 53.58,
+              "end": 53.96
+            },
+            {
+              "word": " a",
+              "start": 53.96,
+              "end": 54.06
+            },
+            {
+              "word": " problem",
+              "start": 54.06,
+              "end": 54.54
+            },
+            {
+              "word": " for",
+              "start": 54.54,
+              "end": 55.02
+            },
+            {
+              "word": " which",
+              "start": 55.02,
+              "end": 55.3
+            },
+            {
+              "word": " efficient",
+              "start": 55.3,
+              "end": 55.98
+            },
+            {
+              "word": " algorithm",
+              "start": 55.98,
+              "end": 56.78
+            },
+            {
+              "word": " exists.",
+              "start": 56.78,
+              "end": 57.48
+            }
+          ]
+        },
+        {
+          "start": 57.48,
+          "end": 65.44,
+          "text": "So the problem for which efficient algorithm exists is called the decidable problem.",
+          "words": [
+            {
+              "word": " So",
+              "start": 57.48,
+              "end": 59.0
+            },
+            {
+              "word": " the",
+              "start": 59.0,
+              "end": 59.3
+            },
+            {
+              "word": " problem",
+              "start": 59.3,
+              "end": 59.78
+            },
+            {
+              "word": " for",
+              "start": 59.78,
+              "end": 60.18
+            },
+            {
+              "word": " which",
+              "start": 60.18,
+              "end": 60.46
+            },
+            {
+              "word": " efficient",
+              "start": 60.46,
+              "end": 60.98
+            },
+            {
+              "word": " algorithm",
+              "start": 60.98,
+              "end": 61.62
+            },
+            {
+              "word": " exists",
+              "start": 61.62,
+              "end": 62.44
+            },
+            {
+              "word": " is",
+              "start": 62.44,
+              "end": 63.24
+            },
+            {
+              "word": " called",
+              "start": 63.24,
+              "end": 63.64
+            },
+            {
+              "word": " the",
+              "start": 63.64,
+              "end": 63.94
+            },
+            {
+              "word": " decidable",
+              "start": 63.94,
+              "end": 64.88
+            },
+            {
+              "word": " problem.",
+              "start": 64.88,
+              "end": 65.44
+            }
+          ]
+        },
+        {
+          "start": 66.06,
+          "end": 68.74,
+          "text": "What is the meaning of efficient algorithm?",
+          "words": [
+            {
+              "word": " What",
+              "start": 66.06,
+              "end": 66.8
+            },
+            {
+              "word": " is",
+              "start": 66.8,
+              "end": 66.92
+            },
+            {
+              "word": " the",
+              "start": 66.92,
+              "end": 67.06
+            },
+            {
+              "word": " meaning",
+              "start": 67.06,
+              "end": 67.34
+            },
+            {
+              "word": " of",
+              "start": 67.34,
+              "end": 67.68
+            },
+            {
+              "word": " efficient",
+              "start": 67.68,
+              "end": 68.16
+            },
+            {
+              "word": " algorithm?",
+              "start": 68.16,
+              "end": 68.74
+            }
+          ]
+        },
+        {
+          "start": 69.78,
+          "end": 78.68,
+          "text": "An efficient algorithm is an algorithm which takes polynomial time or less than the polynomial time to execute.",
+          "words": [
+            {
+              "word": " An",
+              "start": 69.78,
+              "end": 70.06
+            },
+            {
+              "word": " efficient",
+              "start": 70.06,
+              "end": 70.36
+            },
+            {
+              "word": " algorithm",
+              "start": 70.36,
+              "end": 71.02
+            },
+            {
+              "word": " is",
+              "start": 71.02,
+              "end": 71.44
+            },
+            {
+              "word": " an",
+              "start": 71.44,
+              "end": 71.64
+            },
+            {
+              "word": " algorithm",
+              "start": 71.64,
+              "end": 72.02
+            },
+            {
+              "word": " which",
+              "start": 72.02,
+              "end": 72.98
+            },
+            {
+              "word": " takes",
+              "start": 72.98,
+              "end": 73.36
+            },
+            {
+              "word": " polynomial",
+              "start": 73.36,
+              "end": 74.08
+            },
+            {
+              "word": " time",
+              "start": 74.08,
+              "end": 74.76
+            },
+            {
+              "word": " or",
+              "start": 74.76,
+              "end": 75.24
+            },
+            {
+              "word": " less",
+              "start": 75.24,
+              "end": 75.72
+            },
+            {
+              "word": " than",
+              "start": 75.72,
+              "end": 76.04
+            },
+            {
+              "word": " the",
+              "start": 76.04,
+              "end": 76.24
+            },
+            {
+              "word": " polynomial",
+              "start": 76.24,
+              "end": 76.64
+            },
+            {
+              "word": " time",
+              "start": 76.64,
+              "end": 77.32
+            },
+            {
+              "word": " to",
+              "start": 77.32,
+              "end": 77.94
+            },
+            {
+              "word": " execute.",
+              "start": 77.94,
+              "end": 78.68
+            }
+          ]
+        },
+        {
+          "start": 79.38,
+          "end": 83.22,
+          "text": "So it will not take more than the polynomial time.",
+          "words": [
+            {
+              "word": " So",
+              "start": 79.38,
+              "end": 80.12
+            },
+            {
+              "word": " it",
+              "start": 80.12,
+              "end": 80.32
+            },
+            {
+              "word": " will",
+              "start": 80.32,
+              "end": 80.52
+            },
+            {
+              "word": " not",
+              "start": 80.52,
+              "end": 80.84
+            },
+            {
+              "word": " take",
+              "start": 80.84,
+              "end": 81.26
+            },
+            {
+              "word": " more",
+              "start": 81.26,
+              "end": 81.74
+            },
+            {
+              "word": " than",
+              "start": 81.74,
+              "end": 82.04
+            },
+            {
+              "word": " the",
+              "start": 82.04,
+              "end": 82.24
+            },
+            {
+              "word": " polynomial",
+              "start": 82.24,
+              "end": 82.7
+            },
+            {
+              "word": " time.",
+              "start": 82.7,
+              "end": 83.22
+            }
+          ]
+        },
+        {
+          "start": 83.22,
+          "end": 88.5,
+          "text": "Either it will take polynomial time or less than the polynomial time to execute.",
+          "words": [
+            {
+              "word": " Either",
+              "start": 83.22,
+              "end": 83.88
+            },
+            {
+              "word": " it",
+              "start": 83.88,
+              "end": 84.04
+            },
+            {
+              "word": " will",
+              "start": 84.04,
+              "end": 84.2
+            },
+            {
+              "word": " take",
+              "start": 84.2,
+              "end": 84.46
+            },
+            {
+              "word": " polynomial",
+              "start": 84.46,
+              "end": 84.9
+            },
+            {
+              "word": " time",
+              "start": 84.9,
+              "end": 85.4
+            },
+            {
+              "word": " or",
+              "start": 85.4,
+              "end": 86.1
+            },
+            {
+              "word": " less",
+              "start": 86.1,
+              "end": 86.4
+            },
+            {
+              "word": " than",
+              "start": 86.4,
+              "end": 86.62
+            },
+            {
+              "word": " the",
+              "start": 86.62,
+              "end": 86.78
+            },
+            {
+              "word": " polynomial",
+              "start": 86.78,
+              "end": 87.16
+            },
+            {
+              "word": " time",
+              "start": 87.16,
+              "end": 87.68
+            },
+            {
+              "word": " to",
+              "start": 87.68,
+              "end": 87.9
+            },
+            {
+              "word": " execute.",
+              "start": 87.9,
+              "end": 88.5
+            }
+          ]
+        },
+        {
+          "start": 89.52,
+          "end": 92.36,
+          "text": "Now what is the meaning of polynomial time?",
+          "words": [
+            {
+              "word": " Now",
+              "start": 89.52,
+              "end": 90.24
+            },
+            {
+              "word": " what",
+              "start": 90.24,
+              "end": 90.5
+            },
+            {
+              "word": " is",
+              "start": 90.5,
+              "end": 90.64
+            },
+            {
+              "word": " the",
+              "start": 90.64,
+              "end": 90.8
+            },
+            {
+              "word": " meaning",
+              "start": 90.8,
+              "end": 91.06
+            },
+            {
+              "word": " of",
+              "start": 91.06,
+              "end": 91.38
+            },
+            {
+              "word": " polynomial",
+              "start": 91.38,
+              "end": 91.78
+            },
+            {
+              "word": " time?",
+              "start": 91.78,
+              "end": 92.36
+            }
+          ]
+        },
+        {
+          "start": 93.54,
+          "end": 97.78,
+          "text": "Polynomial time means time is a function of a polynomial.",
+          "words": [
+            {
+              "word": " Polynomial",
+              "start": 93.54,
+              "end": 94.26
+            },
+            {
+              "word": " time",
+              "start": 94.26,
+              "end": 94.62
+            },
+            {
+              "word": " means",
+              "start": 94.62,
+              "end": 95.16
+            },
+            {
+              "word": " time",
+              "start": 95.16,
+              "end": 95.8
+            },
+            {
+              "word": " is",
+              "start": 95.8,
+              "end": 96.16
+            },
+            {
+              "word": " a",
+              "start": 96.16,
+              "end": 96.32
+            },
+            {
+              "word": " function",
+              "start": 96.32,
+              "end": 96.66
+            },
+            {
+              "word": " of",
+              "start": 96.66,
+              "end": 97.24
+            },
+            {
+              "word": " a",
+              "start": 97.24,
+              "end": 97.38
+            },
+            {
+              "word": " polynomial.",
+              "start": 97.38,
+              "end": 97.78
+            }
+          ]
+        },
+        {
+          "start": 98.72,
+          "end": 100.84,
+          "text": "Now what is the meaning of a polynomial?",
+          "words": [
+            {
+              "word": " Now",
+              "start": 98.72,
+              "end": 99.24
+            },
+            {
+              "word": " what",
+              "start": 99.24,
+              "end": 99.5
+            },
+            {
+              "word": " is",
+              "start": 99.5,
+              "end": 99.66
+            },
+            {
+              "word": " the",
+              "start": 99.66,
+              "end": 99.8
+            },
+            {
+              "word": " meaning",
+              "start": 99.8,
+              "end": 100.1
+            },
+            {
+              "word": " of",
+              "start": 100.1,
+              "end": 100.4
+            },
+            {
+              "word": " a",
+              "start": 100.4,
+              "end": 100.54
+            },
+            {
+              "word": " polynomial?",
+              "start": 100.54,
+              "end": 100.84
+            }
+          ]
+        },
+        {
+          "start": 102.1,
+          "end": 107.4,
+          "text": "A polynomial is a mathematical expression consisting of variables and coefficients",
+          "words": [
+            {
+              "word": " A",
+              "start": 102.1,
+              "end": 102.3
+            },
+            {
+              "word": " polynomial",
+              "start": 102.3,
+              "end": 102.56
+            },
+            {
+              "word": " is",
+              "start": 102.56,
+              "end": 103.1
+            },
+            {
+              "word": " a",
+              "start": 103.1,
+              "end": 103.24
+            },
+            {
+              "word": " mathematical",
+              "start": 103.24,
+              "end": 103.56
+            },
+            {
+              "word": " expression",
+              "start": 103.56,
+              "end": 104.46
+            },
+            {
+              "word": " consisting",
+              "start": 104.46,
+              "end": 105.06
+            },
+            {
+              "word": " of",
+              "start": 105.06,
+              "end": 105.58
+            },
+            {
+              "word": " variables",
+              "start": 105.58,
+              "end": 105.98
+            },
+            {
+              "word": " and",
+              "start": 105.98,
+              "end": 106.82
+            },
+            {
+              "word": " coefficients",
+              "start": 106.82,
+              "end": 107.4
+            }
+          ]
+        },
+        {
+          "start": 107.4,
+          "end": 111.38,
+          "text": "combined through addition, subtraction and multiplication",
+          "words": [
+            {
+              "word": " combined",
+              "start": 107.4,
+              "end": 108.2
+            },
+            {
+              "word": " through",
+              "start": 108.2,
+              "end": 108.76
+            },
+            {
+              "word": " addition,",
+              "start": 108.76,
+              "end": 109.38
+            },
+            {
+              "word": " subtraction",
+              "start": 109.68,
+              "end": 110.4
+            },
+            {
+              "word": " and",
+              "start": 110.4,
+              "end": 110.74
+            },
+            {
+              "word": " multiplication",
+              "start": 110.74,
+              "end": 111.38
+            }
+          ]
+        },
+        {
+          "start": 111.38,
+          "end": 116.42,
+          "text": "where variables are raised to non-negative integer exponents.",
+          "words": [
+            {
+              "word": " where",
+              "start": 111.38,
+              "end": 112.34
+            },
+            {
+              "word": " variables",
+              "start": 112.34,
+              "end": 112.8
+            },
+            {
+              "word": " are",
+              "start": 112.8,
+              "end": 113.14
+            },
+            {
+              "word": " raised",
+              "start": 113.14,
+              "end": 113.58
+            },
+            {
+              "word": " to",
+              "start": 113.58,
+              "end": 113.9
+            },
+            {
+              "word": " non",
+              "start": 113.9,
+              "end": 114.28
+            },
+            {
+              "word": "-negative",
+              "start": 114.28,
+              "end": 114.84
+            },
+            {
+              "word": " integer",
+              "start": 114.84,
+              "end": 115.46
+            },
+            {
+              "word": " exponents.",
+              "start": 115.46,
+              "end": 116.42
+            }
+          ]
+        },
+        {
+          "start": 116.7,
+          "end": 120.98,
+          "text": "For example, n square plus 2n plus 1 is a polynomial.",
+          "words": [
+            {
+              "word": " For",
+              "start": 116.7,
+              "end": 117.0
+            },
+            {
+              "word": " example,",
+              "start": 117.0,
+              "end": 117.48
+            },
+            {
+              "word": " n",
+              "start": 118.06,
+              "end": 118.26
+            },
+            {
+              "word": " square",
+              "start": 118.26,
+              "end": 118.6
+            },
+            {
+              "word": " plus",
+              "start": 118.6,
+              "end": 118.98
+            },
+            {
+              "word": " 2n",
+              "start": 118.98,
+              "end": 119.44
+            },
+            {
+              "word": " plus",
+              "start": 119.44,
+              "end": 119.62
+            },
+            {
+              "word": " 1",
+              "start": 119.62,
+              "end": 120.04
+            },
+            {
+              "word": " is",
+              "start": 120.04,
+              "end": 120.44
+            },
+            {
+              "word": " a",
+              "start": 120.44,
+              "end": 120.6
+            },
+            {
+              "word": " polynomial.",
+              "start": 120.6,
+              "end": 120.98
+            }
+          ]
+        },
+        {
+          "start": 122.44,
+          "end": 128.54,
+          "text": "An algorithm which takes polynomial time has this property that as the size of the input increases,",
+          "words": [
+            {
+              "word": " An",
+              "start": 122.44,
+              "end": 122.72
+            },
+            {
+              "word": " algorithm",
+              "start": 122.72,
+              "end": 123.04
+            },
+            {
+              "word": " which",
+              "start": 123.04,
+              "end": 123.46
+            },
+            {
+              "word": " takes",
+              "start": 123.46,
+              "end": 123.76
+            },
+            {
+              "word": " polynomial",
+              "start": 123.76,
+              "end": 124.24
+            },
+            {
+              "word": " time",
+              "start": 124.24,
+              "end": 124.7
+            },
+            {
+              "word": " has",
+              "start": 124.7,
+              "end": 125.06
+            },
+            {
+              "word": " this",
+              "start": 125.06,
+              "end": 125.28
+            },
+            {
+              "word": " property",
+              "start": 125.28,
+              "end": 125.8
+            },
+            {
+              "word": " that",
+              "start": 125.8,
+              "end": 126.32
+            },
+            {
+              "word": " as",
+              "start": 126.32,
+              "end": 126.56
+            },
+            {
+              "word": " the",
+              "start": 126.56,
+              "end": 126.72
+            },
+            {
+              "word": " size",
+              "start": 126.72,
+              "end": 127.1
+            },
+            {
+              "word": " of",
+              "start": 127.1,
+              "end": 127.34
+            },
+            {
+              "word": " the",
+              "start": 127.34,
+              "end": 127.5
+            },
+            {
+              "word": " input",
+              "start": 127.5,
+              "end": 127.9
+            },
+            {
+              "word": " increases,",
+              "start": 127.9,
+              "end": 128.54
+            }
+          ]
+        },
+        {
+          "start": 129.06,
+          "end": 134.92,
+          "text": "the time taken by that algorithm will not increase drastically or dramatically.",
+          "words": [
+            {
+              "word": " the",
+              "start": 129.06,
+              "end": 129.24
+            },
+            {
+              "word": " time",
+              "start": 129.24,
+              "end": 129.58
+            },
+            {
+              "word": " taken",
+              "start": 129.58,
+              "end": 129.94
+            },
+            {
+              "word": " by",
+              "start": 129.94,
+              "end": 130.26
+            },
+            {
+              "word": " that",
+              "start": 130.26,
+              "end": 130.6
+            },
+            {
+              "word": " algorithm",
+              "start": 130.6,
+              "end": 131.28
+            },
+            {
+              "word": " will",
+              "start": 131.28,
+              "end": 131.8
+            },
+            {
+              "word": " not",
+              "start": 131.8,
+              "end": 132.08
+            },
+            {
+              "word": " increase",
+              "start": 132.08,
+              "end": 132.74
+            },
+            {
+              "word": " drastically",
+              "start": 132.74,
+              "end": 133.68
+            },
+            {
+              "word": " or",
+              "start": 133.68,
+              "end": 134.32
+            },
+            {
+              "word": " dramatically.",
+              "start": 134.32,
+              "end": 134.92
+            }
+          ]
+        },
+        {
+          "start": 134.92,
+          "end": 142.84,
+          "text": "This means the change in time is not that drastic as compared to the change in size of the input.",
+          "words": [
+            {
+              "word": " This",
+              "start": 134.92,
+              "end": 136.04
+            },
+            {
+              "word": " means",
+              "start": 136.04,
+              "end": 136.28
+            },
+            {
+              "word": " the",
+              "start": 136.28,
+              "end": 136.54
+            },
+            {
+              "word": " change",
+              "start": 136.54,
+              "end": 137.0
+            },
+            {
+              "word": " in",
+              "start": 137.0,
+              "end": 137.32
+            },
+            {
+              "word": " time",
+              "start": 137.32,
+              "end": 137.64
+            },
+            {
+              "word": " is",
+              "start": 137.64,
+              "end": 137.96
+            },
+            {
+              "word": " not",
+              "start": 137.96,
+              "end": 138.28
+            },
+            {
+              "word": " that",
+              "start": 138.28,
+              "end": 138.6
+            },
+            {
+              "word": " drastic",
+              "start": 138.6,
+              "end": 139.18
+            },
+            {
+              "word": " as",
+              "start": 139.18,
+              "end": 139.68
+            },
+            {
+              "word": " compared",
+              "start": 139.68,
+              "end": 140.1
+            },
+            {
+              "word": " to",
+              "start": 140.1,
+              "end": 140.38
+            },
+            {
+              "word": " the",
+              "start": 140.38,
+              "end": 140.5
+            },
+            {
+              "word": " change",
+              "start": 140.5,
+              "end": 140.92
+            },
+            {
+              "word": " in",
+              "start": 140.92,
+              "end": 141.24
+            },
+            {
+              "word": " size",
+              "start": 141.24,
+              "end": 141.74
+            },
+            {
+              "word": " of",
+              "start": 141.74,
+              "end": 142.12
+            },
+            {
+              "word": " the",
+              "start": 142.12,
+              "end": 142.3
+            },
+            {
+              "word": " input.",
+              "start": 142.3,
+              "end": 142.84
+            }
+          ]
+        },
+        {
+          "start": 143.38,
+          "end": 148.44,
+          "text": "So if an algorithm takes polynomial time or less than the polynomial time,",
+          "words": [
+            {
+              "word": " So",
+              "start": 143.38,
+              "end": 144.0
+            },
+            {
+              "word": " if",
+              "start": 144.0,
+              "end": 144.16
+            },
+            {
+              "word": " an",
+              "start": 144.16,
+              "end": 144.32
+            },
+            {
+              "word": " algorithm",
+              "start": 144.32,
+              "end": 144.7
+            },
+            {
+              "word": " takes",
+              "start": 144.7,
+              "end": 145.32
+            },
+            {
+              "word": " polynomial",
+              "start": 145.32,
+              "end": 145.9
+            },
+            {
+              "word": " time",
+              "start": 145.9,
+              "end": 146.38
+            },
+            {
+              "word": " or",
+              "start": 146.38,
+              "end": 146.78
+            },
+            {
+              "word": " less",
+              "start": 146.78,
+              "end": 147.12
+            },
+            {
+              "word": " than",
+              "start": 147.12,
+              "end": 147.32
+            },
+            {
+              "word": " the",
+              "start": 147.32,
+              "end": 147.5
+            },
+            {
+              "word": " polynomial",
+              "start": 147.5,
+              "end": 147.92
+            },
+            {
+              "word": " time,",
+              "start": 147.92,
+              "end": 148.44
+            }
+          ]
+        },
+        {
+          "start": 148.74,
+          "end": 152.36,
+          "text": "then that algorithm is called an efficient algorithm.",
+          "words": [
+            {
+              "word": " then",
+              "start": 148.74,
+              "end": 149.02
+            },
+            {
+              "word": " that",
+              "start": 149.02,
+              "end": 149.42
+            },
+            {
+              "word": " algorithm",
+              "start": 149.42,
+              "end": 149.94
+            },
+            {
+              "word": " is",
+              "start": 149.94,
+              "end": 150.44
+            },
+            {
+              "word": " called",
+              "start": 150.44,
+              "end": 150.84
+            },
+            {
+              "word": " an",
+              "start": 150.84,
+              "end": 151.2
+            },
+            {
+              "word": " efficient",
+              "start": 151.2,
+              "end": 151.66
+            },
+            {
+              "word": " algorithm.",
+              "start": 151.66,
+              "end": 152.36
+            }
+          ]
+        },
+        {
+          "start": 153.18,
+          "end": 157.62,
+          "text": "The problem which it solves is known as the decidable problem.",
+          "words": [
+            {
+              "word": " The",
+              "start": 153.18,
+              "end": 153.64
+            },
+            {
+              "word": " problem",
+              "start": 153.64,
+              "end": 154.12
+            },
+            {
+              "word": " which",
+              "start": 154.12,
+              "end": 154.64
+            },
+            {
+              "word": " it",
+              "start": 154.64,
+              "end": 154.76
+            },
+            {
+              "word": " solves",
+              "start": 154.76,
+              "end": 155.16
+            },
+            {
+              "word": " is",
+              "start": 155.16,
+              "end": 155.5
+            },
+            {
+              "word": " known",
+              "start": 155.5,
+              "end": 155.8
+            },
+            {
+              "word": " as",
+              "start": 155.8,
+              "end": 156.14
+            },
+            {
+              "word": " the",
+              "start": 156.14,
+              "end": 156.5
+            },
+            {
+              "word": " decidable",
+              "start": 156.5,
+              "end": 157.18
+            },
+            {
+              "word": " problem.",
+              "start": 157.18,
+              "end": 157.62
+            }
+          ]
+        },
+        {
+          "start": 158.62,
+          "end": 166.68,
+          "text": "This means we can decide what's going to be the output within a limited amount of time frame which we can bear.",
+          "words": [
+            {
+              "word": " This",
+              "start": 158.54000000000002,
+              "end": 158.86
+            },
+            {
+              "word": " means",
+              "start": 158.86,
+              "end": 159.1
+            },
+            {
+              "word": " we",
+              "start": 159.1,
+              "end": 159.36
+            },
+            {
+              "word": " can",
+              "start": 159.36,
+              "end": 159.54
+            },
+            {
+              "word": " decide",
+              "start": 159.54,
+              "end": 160.22
+            },
+            {
+              "word": " what's",
+              "start": 160.22,
+              "end": 160.98
+            },
+            {
+              "word": " going",
+              "start": 160.98,
+              "end": 161.14
+            },
+            {
+              "word": " to",
+              "start": 161.14,
+              "end": 161.36
+            },
+            {
+              "word": " be",
+              "start": 161.36,
+              "end": 161.48
+            },
+            {
+              "word": " the",
+              "start": 161.48,
+              "end": 161.62
+            },
+            {
+              "word": " output",
+              "start": 161.62,
+              "end": 162.26
+            },
+            {
+              "word": " within",
+              "start": 162.26,
+              "end": 162.82
+            },
+            {
+              "word": " a",
+              "start": 162.82,
+              "end": 163.04
+            },
+            {
+              "word": " limited",
+              "start": 163.04,
+              "end": 163.34
+            },
+            {
+              "word": " amount",
+              "start": 163.34,
+              "end": 163.84
+            },
+            {
+              "word": " of",
+              "start": 163.84,
+              "end": 164.14
+            },
+            {
+              "word": " time",
+              "start": 164.14,
+              "end": 164.42
+            },
+            {
+              "word": " frame",
+              "start": 164.42,
+              "end": 164.82
+            },
+            {
+              "word": " which",
+              "start": 164.82,
+              "end": 165.42
+            },
+            {
+              "word": " we",
+              "start": 165.42,
+              "end": 165.74
+            },
+            {
+              "word": " can",
+              "start": 165.74,
+              "end": 166.16
+            },
+            {
+              "word": " bear.",
+              "start": 166.16,
+              "end": 166.68
+            }
+          ]
+        },
+        {
+          "start": 167.34,
+          "end": 171.38,
+          "text": "In the last lecture, we discussed what are good and bad algorithms.",
+          "words": [
+            {
+              "word": " In",
+              "start": 167.34,
+              "end": 167.84
+            },
+            {
+              "word": " the",
+              "start": 167.84,
+              "end": 167.98
+            },
+            {
+              "word": " last",
+              "start": 167.98,
+              "end": 168.22
+            },
+            {
+              "word": " lecture,",
+              "start": 168.22,
+              "end": 168.56
+            },
+            {
+              "word": " we",
+              "start": 168.7,
+              "end": 168.82
+            },
+            {
+              "word": " discussed",
+              "start": 168.82,
+              "end": 169.26
+            },
+            {
+              "word": " what",
+              "start": 169.26,
+              "end": 169.74
+            },
+            {
+              "word": " are",
+              "start": 169.74,
+              "end": 169.9
+            },
+            {
+              "word": " good",
+              "start": 169.9,
+              "end": 170.16
+            },
+            {
+              "word": " and",
+              "start": 170.16,
+              "end": 170.38
+            },
+            {
+              "word": " bad",
+              "start": 170.38,
+              "end": 170.78
+            },
+            {
+              "word": " algorithms.",
+              "start": 170.78,
+              "end": 171.38
+            }
+          ]
+        },
+        {
+          "start": 172.26,
+          "end": 178.42,
+          "text": "Now do you think that the good algorithm is efficient algorithm and bad algorithm is inefficient algorithm?",
+          "words": [
+            {
+              "word": " Now",
+              "start": 172.26,
+              "end": 172.52
+            },
+            {
+              "word": " do",
+              "start": 172.52,
+              "end": 172.7
+            },
+            {
+              "word": " you",
+              "start": 172.7,
+              "end": 172.84
+            },
+            {
+              "word": " think",
+              "start": 172.84,
+              "end": 173.06
+            },
+            {
+              "word": " that",
+              "start": 173.06,
+              "end": 173.28
+            },
+            {
+              "word": " the",
+              "start": 173.28,
+              "end": 173.44
+            },
+            {
+              "word": " good",
+              "start": 173.44,
+              "end": 173.66
+            },
+            {
+              "word": " algorithm",
+              "start": 173.66,
+              "end": 174.1
+            },
+            {
+              "word": " is",
+              "start": 174.1,
+              "end": 174.42
+            },
+            {
+              "word": " efficient",
+              "start": 174.42,
+              "end": 174.98
+            },
+            {
+              "word": " algorithm",
+              "start": 174.98,
+              "end": 175.44
+            },
+            {
+              "word": " and",
+              "start": 175.44,
+              "end": 176.1
+            },
+            {
+              "word": " bad",
+              "start": 176.1,
+              "end": 176.44
+            },
+            {
+              "word": " algorithm",
+              "start": 176.44,
+              "end": 176.96
+            },
+            {
+              "word": " is",
+              "start": 176.96,
+              "end": 177.24
+            },
+            {
+              "word": " inefficient",
+              "start": 177.24,
+              "end": 177.76
+            },
+            {
+              "word": " algorithm?",
+              "start": 177.76,
+              "end": 178.42
+            }
+          ]
+        },
+        {
+          "start": 179.42,
+          "end": 184.34,
+          "text": "If you remember, the good algorithm was taking 70 nanoseconds",
+          "words": [
+            {
+              "word": " If",
+              "start": 179.42,
+              "end": 179.88
+            },
+            {
+              "word": " you",
+              "start": 179.88,
+              "end": 180.14
+            },
+            {
+              "word": " remember,",
+              "start": 180.14,
+              "end": 180.56
+            },
+            {
+              "word": " the",
+              "start": 181.02,
+              "end": 181.2
+            },
+            {
+              "word": " good",
+              "start": 181.2,
+              "end": 181.44
+            },
+            {
+              "word": " algorithm",
+              "start": 181.44,
+              "end": 181.88
+            },
+            {
+              "word": " was",
+              "start": 181.88,
+              "end": 182.34
+            },
+            {
+              "word": " taking",
+              "start": 182.34,
+              "end": 182.8
+            },
+            {
+              "word": " 70",
+              "start": 182.8,
+              "end": 183.46
+            },
+            {
+              "word": " nanoseconds",
+              "start": 183.46,
+              "end": 184.34
+            }
+          ]
+        },
+        {
+          "start": 184.34,
+          "end": 188.08,
+          "text": "and the bad algorithm was taking nearly 8 hours.",
+          "words": [
+            {
+              "word": " and",
+              "start": 184.34,
+              "end": 185.02
+            },
+            {
+              "word": " the",
+              "start": 185.02,
+              "end": 185.2
+            },
+            {
+              "word": " bad",
+              "start": 185.2,
+              "end": 185.4
+            },
+            {
+              "word": " algorithm",
+              "start": 185.4,
+              "end": 185.82
+            },
+            {
+              "word": " was",
+              "start": 185.82,
+              "end": 186.14
+            },
+            {
+              "word": " taking",
+              "start": 186.14,
+              "end": 186.56
+            },
+            {
+              "word": " nearly",
+              "start": 186.56,
+              "end": 187.06
+            },
+            {
+              "word": " 8",
+              "start": 187.06,
+              "end": 187.56
+            },
+            {
+              "word": " hours.",
+              "start": 187.56,
+              "end": 188.08
+            }
+          ]
+        },
+        {
+          "start": 188.8,
+          "end": 192.54,
+          "text": "Now if you ask me was the bad algorithm that bad?",
+          "words": [
+            {
+              "word": " Now",
+              "start": 188.8,
+              "end": 189.42
+            },
+            {
+              "word": " if",
+              "start": 189.42,
+              "end": 189.6
+            },
+            {
+              "word": " you",
+              "start": 189.6,
+              "end": 189.74
+            },
+            {
+              "word": " ask",
+              "start": 189.74,
+              "end": 190.08
+            },
+            {
+              "word": " me",
+              "start": 190.08,
+              "end": 190.32
+            },
+            {
+              "word": " was",
+              "start": 190.32,
+              "end": 190.58
+            },
+            {
+              "word": " the",
+              "start": 190.58,
+              "end": 190.78
+            },
+            {
+              "word": " bad",
+              "start": 190.78,
+              "end": 191.08
+            },
+            {
+              "word": " algorithm",
+              "start": 191.08,
+              "end": 191.68
+            },
+            {
+              "word": " that",
+              "start": 191.68,
+              "end": 192.16
+            },
+            {
+              "word": " bad?",
+              "start": 192.16,
+              "end": 192.54
+            }
+          ]
+        },
+        {
+          "start": 193.08,
+          "end": 194.54,
+          "text": "I would say no.",
+          "words": [
+            {
+              "word": " I",
+              "start": 193.08,
+              "end": 193.66
+            },
+            {
+              "word": " would",
+              "start": 193.66,
+              "end": 193.8
+            },
+            {
+              "word": " say",
+              "start": 193.8,
+              "end": 194.08
+            },
+            {
+              "word": " no.",
+              "start": 194.08,
+              "end": 194.54
+            }
+          ]
+        },
+        {
+          "start": 195.3,
+          "end": 200.42,
+          "text": "8 hours is still a bearable time and this time is actually a polynomial time",
+          "words": [
+            {
+              "word": " 8",
+              "start": 195.3,
+              "end": 195.82
+            },
+            {
+              "word": " hours",
+              "start": 195.82,
+              "end": 196.08
+            },
+            {
+              "word": " is",
+              "start": 196.08,
+              "end": 196.3
+            },
+            {
+              "word": " still",
+              "start": 196.3,
+              "end": 196.6
+            },
+            {
+              "word": " a",
+              "start": 196.6,
+              "end": 196.86
+            },
+            {
+              "word": " bearable",
+              "start": 196.86,
+              "end": 197.44
+            },
+            {
+              "word": " time",
+              "start": 197.44,
+              "end": 197.86
+            },
+            {
+              "word": " and",
+              "start": 197.86,
+              "end": 198.6
+            },
+            {
+              "word": " this",
+              "start": 198.6,
+              "end": 198.82
+            },
+            {
+              "word": " time",
+              "start": 198.82,
+              "end": 199.08
+            },
+            {
+              "word": " is",
+              "start": 199.08,
+              "end": 199.3
+            },
+            {
+              "word": " actually",
+              "start": 199.3,
+              "end": 199.68
+            },
+            {
+              "word": " a",
+              "start": 199.68,
+              "end": 199.86
+            },
+            {
+              "word": " polynomial",
+              "start": 199.86,
+              "end": 200.34
+            },
+            {
+              "word": " time",
+              "start": 200.34,
+              "end": 200.76
+            }
+          ]
+        },
+        {
+          "start": 200.96,
+          "end": 205.36,
+          "text": "which as per the definition makes it an efficient algorithm.",
+          "words": [
+            {
+              "word": " which",
+              "start": 200.96,
+              "end": 201.5
+            },
+            {
+              "word": " as",
+              "start": 201.5,
+              "end": 201.94
+            },
+            {
+              "word": " per",
+              "start": 201.94,
+              "end": 202.24
+            },
+            {
+              "word": " the",
+              "start": 202.24,
+              "end": 202.44
+            },
+            {
+              "word": " definition",
+              "start": 202.44,
+              "end": 203.06
+            },
+            {
+              "word": " makes",
+              "start": 203.06,
+              "end": 203.78
+            },
+            {
+              "word": " it",
+              "start": 203.78,
+              "end": 204.06
+            },
+            {
+              "word": " an",
+              "start": 204.06,
+              "end": 204.24
+            },
+            {
+              "word": " efficient",
+              "start": 204.24,
+              "end": 204.6
+            },
+            {
+              "word": " algorithm.",
+              "start": 204.6,
+              "end": 205.36
+            }
+          ]
+        },
+        {
+          "start": 206.36,
+          "end": 212.26,
+          "text": "So both the algorithms good and bad in the previous lecture are efficient algorithms.",
+          "words": [
+            {
+              "word": " So",
+              "start": 206.28,
+              "end": 206.68
+            },
+            {
+              "word": " both",
+              "start": 206.68,
+              "end": 207.04
+            },
+            {
+              "word": " the",
+              "start": 207.04,
+              "end": 207.24
+            },
+            {
+              "word": " algorithms",
+              "start": 207.24,
+              "end": 207.74
+            },
+            {
+              "word": " good",
+              "start": 207.74,
+              "end": 208.26
+            },
+            {
+              "word": " and",
+              "start": 208.26,
+              "end": 208.56
+            },
+            {
+              "word": " bad",
+              "start": 208.56,
+              "end": 208.96
+            },
+            {
+              "word": " in",
+              "start": 208.96,
+              "end": 209.44
+            },
+            {
+              "word": " the",
+              "start": 209.44,
+              "end": 209.56
+            },
+            {
+              "word": " previous",
+              "start": 209.56,
+              "end": 209.88
+            },
+            {
+              "word": " lecture",
+              "start": 209.88,
+              "end": 210.3
+            },
+            {
+              "word": " are",
+              "start": 210.3,
+              "end": 210.92
+            },
+            {
+              "word": " efficient",
+              "start": 210.92,
+              "end": 211.56
+            },
+            {
+              "word": " algorithms.",
+              "start": 211.56,
+              "end": 212.26
+            }
+          ]
+        },
+        {
+          "start": 212.98,
+          "end": 218.98,
+          "text": "So in conclusion, we can say that not all bad algorithms are inefficient",
+          "words": [
+            {
+              "word": " So",
+              "start": 212.98,
+              "end": 213.78
+            },
+            {
+              "word": " in",
+              "start": 213.78,
+              "end": 214.14
+            },
+            {
+              "word": " conclusion,",
+              "start": 214.14,
+              "end": 214.62
+            },
+            {
+              "word": " we",
+              "start": 215.18,
+              "end": 215.38
+            },
+            {
+              "word": " can",
+              "start": 215.38,
+              "end": 215.66
+            },
+            {
+              "word": " say",
+              "start": 215.66,
+              "end": 215.98
+            },
+            {
+              "word": " that",
+              "start": 215.98,
+              "end": 216.28
+            },
+            {
+              "word": " not",
+              "start": 216.28,
+              "end": 216.52
+            },
+            {
+              "word": " all",
+              "start": 216.52,
+              "end": 217.0
+            },
+            {
+              "word": " bad",
+              "start": 217.0,
+              "end": 217.34
+            },
+            {
+              "word": " algorithms",
+              "start": 217.34,
+              "end": 218.02
+            },
+            {
+              "word": " are",
+              "start": 218.02,
+              "end": 218.48
+            },
+            {
+              "word": " inefficient",
+              "start": 218.48,
+              "end": 218.98
+            }
+          ]
+        },
+        {
+          "start": 218.98,
+          "end": 222.08,
+          "text": "and all good algorithms are efficient.",
+          "words": [
+            {
+              "word": " and",
+              "start": 218.98,
+              "end": 220.08
+            },
+            {
+              "word": " all",
+              "start": 220.08,
+              "end": 220.4
+            },
+            {
+              "word": " good",
+              "start": 220.4,
+              "end": 220.66
+            },
+            {
+              "word": " algorithms",
+              "start": 220.66,
+              "end": 221.24
+            },
+            {
+              "word": " are",
+              "start": 221.24,
+              "end": 221.56
+            },
+            {
+              "word": " efficient.",
+              "start": 221.56,
+              "end": 222.08
+            }
+          ]
+        },
+        {
+          "start": 222.62,
+          "end": 226.48,
+          "text": "But generally you will find bad algorithms are inefficient.",
+          "words": [
+            {
+              "word": " But",
+              "start": 222.62,
+              "end": 223.08
+            },
+            {
+              "word": " generally",
+              "start": 223.08,
+              "end": 223.38
+            },
+            {
+              "word": " you",
+              "start": 223.38,
+              "end": 223.74
+            },
+            {
+              "word": " will",
+              "start": 223.74,
+              "end": 223.88
+            },
+            {
+              "word": " find",
+              "start": 223.88,
+              "end": 224.24
+            },
+            {
+              "word": " bad",
+              "start": 224.24,
+              "end": 224.66
+            },
+            {
+              "word": " algorithms",
+              "start": 224.66,
+              "end": 225.26
+            },
+            {
+              "word": " are",
+              "start": 225.26,
+              "end": 225.66
+            },
+            {
+              "word": " inefficient.",
+              "start": 225.66,
+              "end": 226.48
+            }
+          ]
+        },
+        {
+          "start": 227.9,
+          "end": 230.58,
+          "text": "We will learn what are the different time functions",
+          "words": [
+            {
+              "word": " We",
+              "start": 227.9,
+              "end": 228.38
+            },
+            {
+              "word": " will",
+              "start": 228.38,
+              "end": 228.54
+            },
+            {
+              "word": " learn",
+              "start": 228.54,
+              "end": 228.84
+            },
+            {
+              "word": " what",
+              "start": 228.84,
+              "end": 229.24
+            },
+            {
+              "word": " are",
+              "start": 229.24,
+              "end": 229.4
+            },
+            {
+              "word": " the",
+              "start": 229.4,
+              "end": 229.5
+            },
+            {
+              "word": " different",
+              "start": 229.5,
+              "end": 229.82
+            },
+            {
+              "word": " time",
+              "start": 229.82,
+              "end": 230.1
+            },
+            {
+              "word": " functions",
+              "start": 230.1,
+              "end": 230.58
+            }
+          ]
+        },
+        {
+          "start": 230.58,
+          "end": 236.56,
+          "text": "and how to determine whether a specific algorithm takes polynomial time or any other time.",
+          "words": [
+            {
+              "word": " and",
+              "start": 230.58,
+              "end": 231.1
+            },
+            {
+              "word": " how",
+              "start": 231.1,
+              "end": 231.4
+            },
+            {
+              "word": " to",
+              "start": 231.4,
+              "end": 231.56
+            },
+            {
+              "word": " determine",
+              "start": 231.56,
+              "end": 231.9
+            },
+            {
+              "word": " whether",
+              "start": 231.9,
+              "end": 232.3
+            },
+            {
+              "word": " a",
+              "start": 232.3,
+              "end": 232.56
+            },
+            {
+              "word": " specific",
+              "start": 232.56,
+              "end": 232.94
+            },
+            {
+              "word": " algorithm",
+              "start": 232.94,
+              "end": 233.58
+            },
+            {
+              "word": " takes",
+              "start": 233.58,
+              "end": 234.08
+            },
+            {
+              "word": " polynomial",
+              "start": 234.08,
+              "end": 234.58
+            },
+            {
+              "word": " time",
+              "start": 234.58,
+              "end": 235.14
+            },
+            {
+              "word": " or",
+              "start": 235.14,
+              "end": 235.6
+            },
+            {
+              "word": " any",
+              "start": 235.6,
+              "end": 236.02
+            },
+            {
+              "word": " other",
+              "start": 236.02,
+              "end": 236.2
+            },
+            {
+              "word": " time.",
+              "start": 236.2,
+              "end": 236.56
+            }
+          ]
+        },
+        {
+          "start": 236.9,
+          "end": 239.1,
+          "text": "This will be discussed in the later lectures.",
+          "words": [
+            {
+              "word": " This",
+              "start": 236.9,
+              "end": 237.14
+            },
+            {
+              "word": " will",
+              "start": 237.14,
+              "end": 237.32
+            },
+            {
+              "word": " be",
+              "start": 237.32,
+              "end": 237.46
+            },
+            {
+              "word": " discussed",
+              "start": 237.46,
+              "end": 237.8
+            },
+            {
+              "word": " in",
+              "start": 237.8,
+              "end": 238.06
+            },
+            {
+              "word": " the",
+              "start": 238.06,
+              "end": 238.18
+            },
+            {
+              "word": " later",
+              "start": 238.18,
+              "end": 238.7
+            },
+            {
+              "word": " lectures.",
+              "start": 238.7,
+              "end": 239.1
+            }
+          ]
+        },
+        {
+          "start": 239.8,
+          "end": 245.48,
+          "text": "For now just understand this that if an algorithm executes in polynomial time",
+          "words": [
+            {
+              "word": " For",
+              "start": 239.8,
+              "end": 240.06
+            },
+            {
+              "word": " now",
+              "start": 240.06,
+              "end": 240.24
+            },
+            {
+              "word": " just",
+              "start": 240.24,
+              "end": 240.48
+            },
+            {
+              "word": " understand",
+              "start": 240.48,
+              "end": 241.02
+            },
+            {
+              "word": " this",
+              "start": 241.02,
+              "end": 241.36
+            },
+            {
+              "word": " that",
+              "start": 241.36,
+              "end": 241.84
+            },
+            {
+              "word": " if",
+              "start": 241.84,
+              "end": 242.26
+            },
+            {
+              "word": " an",
+              "start": 242.26,
+              "end": 242.48
+            },
+            {
+              "word": " algorithm",
+              "start": 242.48,
+              "end": 242.94
+            },
+            {
+              "word": " executes",
+              "start": 242.94,
+              "end": 244.12
+            },
+            {
+              "word": " in",
+              "start": 244.12,
+              "end": 244.32
+            },
+            {
+              "word": " polynomial",
+              "start": 244.32,
+              "end": 244.82
+            },
+            {
+              "word": " time",
+              "start": 244.82,
+              "end": 245.48
+            }
+          ]
+        },
+        {
+          "start": 245.48,
+          "end": 250.34,
+          "text": "or less than the polynomial time, then that algorithm is considered efficient",
+          "words": [
+            {
+              "word": " or",
+              "start": 245.48,
+              "end": 245.96
+            },
+            {
+              "word": " less",
+              "start": 245.96,
+              "end": 246.22
+            },
+            {
+              "word": " than",
+              "start": 246.22,
+              "end": 246.44
+            },
+            {
+              "word": " the",
+              "start": 246.44,
+              "end": 246.6
+            },
+            {
+              "word": " polynomial",
+              "start": 246.6,
+              "end": 247.08
+            },
+            {
+              "word": " time,",
+              "start": 247.08,
+              "end": 247.58
+            },
+            {
+              "word": " then",
+              "start": 247.84,
+              "end": 248.16
+            },
+            {
+              "word": " that",
+              "start": 248.16,
+              "end": 248.46
+            },
+            {
+              "word": " algorithm",
+              "start": 248.46,
+              "end": 248.92
+            },
+            {
+              "word": " is",
+              "start": 248.92,
+              "end": 249.26
+            },
+            {
+              "word": " considered",
+              "start": 249.26,
+              "end": 249.72
+            },
+            {
+              "word": " efficient",
+              "start": 249.72,
+              "end": 250.34
+            }
+          ]
+        },
+        {
+          "start": 250.34,
+          "end": 256.8,
+          "text": "and the problem for which efficient algorithm exists is called the decidable problem.",
+          "words": [
+            {
+              "word": " and",
+              "start": 250.34,
+              "end": 251.3
+            },
+            {
+              "word": " the",
+              "start": 251.3,
+              "end": 251.48
+            },
+            {
+              "word": " problem",
+              "start": 251.48,
+              "end": 251.86
+            },
+            {
+              "word": " for",
+              "start": 251.86,
+              "end": 252.16
+            },
+            {
+              "word": " which",
+              "start": 252.16,
+              "end": 252.42
+            },
+            {
+              "word": " efficient",
+              "start": 252.42,
+              "end": 252.96
+            },
+            {
+              "word": " algorithm",
+              "start": 252.96,
+              "end": 253.44
+            },
+            {
+              "word": " exists",
+              "start": 253.44,
+              "end": 254.1
+            },
+            {
+              "word": " is",
+              "start": 254.1,
+              "end": 254.78
+            },
+            {
+              "word": " called",
+              "start": 254.78,
+              "end": 255.2
+            },
+            {
+              "word": " the",
+              "start": 255.2,
+              "end": 255.66
+            },
+            {
+              "word": " decidable",
+              "start": 255.66,
+              "end": 256.36
+            },
+            {
+              "word": " problem.",
+              "start": 256.36,
+              "end": 256.8
+            }
+          ]
+        },
+        {
+          "start": 257.7,
+          "end": 262.42,
+          "text": "To summarize, this is how we can visualize an efficient algorithm.",
+          "words": [
+            {
+              "word": " To",
+              "start": 257.7,
+              "end": 258.5
+            },
+            {
+              "word": " summarize,",
+              "start": 258.5,
+              "end": 258.96
+            },
+            {
+              "word": " this",
+              "start": 259.62,
+              "end": 259.78
+            },
+            {
+              "word": " is",
+              "start": 259.78,
+              "end": 259.92
+            },
+            {
+              "word": " how",
+              "start": 259.92,
+              "end": 260.1
+            },
+            {
+              "word": " we",
+              "start": 260.1,
+              "end": 260.28
+            },
+            {
+              "word": " can",
+              "start": 260.28,
+              "end": 260.44
+            },
+            {
+              "word": " visualize",
+              "start": 260.44,
+              "end": 260.88
+            },
+            {
+              "word": " an",
+              "start": 260.88,
+              "end": 261.32
+            },
+            {
+              "word": " efficient",
+              "start": 261.32,
+              "end": 261.72
+            },
+            {
+              "word": " algorithm.",
+              "start": 261.72,
+              "end": 262.42
+            }
+          ]
+        },
+        {
+          "start": 263.0,
+          "end": 269.62,
+          "text": "This algorithm is an efficient algorithm and the problem it solves is a decidable problem.",
+          "words": [
+            {
+              "word": " This",
+              "start": 263.0,
+              "end": 263.72
+            },
+            {
+              "word": " algorithm",
+              "start": 263.72,
+              "end": 264.22
+            },
+            {
+              "word": " is",
+              "start": 264.22,
+              "end": 264.64
+            },
+            {
+              "word": " an",
+              "start": 264.64,
+              "end": 264.8
+            },
+            {
+              "word": " efficient",
+              "start": 264.8,
+              "end": 265.14
+            },
+            {
+              "word": " algorithm",
+              "start": 265.14,
+              "end": 265.74
+            },
+            {
+              "word": " and",
+              "start": 265.74,
+              "end": 266.44
+            },
+            {
+              "word": " the",
+              "start": 266.44,
+              "end": 266.74
+            },
+            {
+              "word": " problem",
+              "start": 266.74,
+              "end": 267.14
+            },
+            {
+              "word": " it",
+              "start": 267.14,
+              "end": 267.46
+            },
+            {
+              "word": " solves",
+              "start": 267.46,
+              "end": 267.88
+            },
+            {
+              "word": " is",
+              "start": 267.88,
+              "end": 268.28
+            },
+            {
+              "word": " a",
+              "start": 268.28,
+              "end": 268.44
+            },
+            {
+              "word": " decidable",
+              "start": 268.44,
+              "end": 269.18
+            },
+            {
+              "word": " problem.",
+              "start": 269.18,
+              "end": 269.62
+            }
+          ]
+        },
+        {
+          "start": 270.42,
+          "end": 273.76,
+          "text": "To this algorithm we can pass a finite input",
+          "words": [
+            {
+              "word": " To",
+              "start": 270.42,
+              "end": 270.94
+            },
+            {
+              "word": " this",
+              "start": 270.94,
+              "end": 271.14
+            },
+            {
+              "word": " algorithm",
+              "start": 271.14,
+              "end": 271.7
+            },
+            {
+              "word": " we",
+              "start": 271.7,
+              "end": 271.98
+            },
+            {
+              "word": " can",
+              "start": 271.98,
+              "end": 272.16
+            },
+            {
+              "word": " pass",
+              "start": 272.16,
+              "end": 272.52
+            },
+            {
+              "word": " a",
+              "start": 272.52,
+              "end": 272.8
+            },
+            {
+              "word": " finite",
+              "start": 272.8,
+              "end": 273.2
+            },
+            {
+              "word": " input",
+              "start": 273.2,
+              "end": 273.76
+            }
+          ]
+        },
+        {
+          "start": 273.76,
+          "end": 279.3,
+          "text": "and it terminates in polynomial time or less than the polynomial time.",
+          "words": [
+            {
+              "word": " and",
+              "start": 273.76,
+              "end": 274.92
+            },
+            {
+              "word": " it",
+              "start": 274.92,
+              "end": 275.22
+            },
+            {
+              "word": " terminates",
+              "start": 275.22,
+              "end": 276.0
+            },
+            {
+              "word": " in",
+              "start": 276.0,
+              "end": 276.26
+            },
+            {
+              "word": " polynomial",
+              "start": 276.26,
+              "end": 276.82
+            },
+            {
+              "word": " time",
+              "start": 276.82,
+              "end": 277.34
+            },
+            {
+              "word": " or",
+              "start": 277.34,
+              "end": 277.64
+            },
+            {
+              "word": " less",
+              "start": 277.64,
+              "end": 277.98
+            },
+            {
+              "word": " than",
+              "start": 277.98,
+              "end": 278.24
+            },
+            {
+              "word": " the",
+              "start": 278.24,
+              "end": 278.4
+            },
+            {
+              "word": " polynomial",
+              "start": 278.4,
+              "end": 278.82
+            },
+            {
+              "word": " time.",
+              "start": 278.82,
+              "end": 279.3
+            }
+          ]
+        },
+        {
+          "start": 280.3,
+          "end": 284.02,
+          "text": "So now we know what is a decidable problem.",
+          "words": [
+            {
+              "word": " So",
+              "start": 280.3,
+              "end": 281.1
+            },
+            {
+              "word": " now",
+              "start": 281.1,
+              "end": 281.44
+            },
+            {
+              "word": " we",
+              "start": 281.44,
+              "end": 281.66
+            },
+            {
+              "word": " know",
+              "start": 281.66,
+              "end": 281.88
+            },
+            {
+              "word": " what",
+              "start": 281.88,
+              "end": 282.14
+            },
+            {
+              "word": " is",
+              "start": 282.14,
+              "end": 282.52
+            },
+            {
+              "word": " a",
+              "start": 282.52,
+              "end": 282.78
+            },
+            {
+              "word": " decidable",
+              "start": 282.78,
+              "end": 283.5
+            },
+            {
+              "word": " problem.",
+              "start": 283.5,
+              "end": 284.02
+            }
+          ]
+        },
+        {
+          "start": 284.02,
+          "end": 289.22,
+          "text": "Let's move to the next topic where we will discuss what are undecidable problems.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 284.02,
+              "end": 284.84
+            },
+            {
+              "word": " move",
+              "start": 284.84,
+              "end": 284.98
+            },
+            {
+              "word": " to",
+              "start": 284.98,
+              "end": 285.16
+            },
+            {
+              "word": " the",
+              "start": 285.16,
+              "end": 285.28
+            },
+            {
+              "word": " next",
+              "start": 285.28,
+              "end": 285.54
+            },
+            {
+              "word": " topic",
+              "start": 285.54,
+              "end": 285.96
+            },
+            {
+              "word": " where",
+              "start": 285.96,
+              "end": 286.3
+            },
+            {
+              "word": " we",
+              "start": 286.3,
+              "end": 286.44
+            },
+            {
+              "word": " will",
+              "start": 286.44,
+              "end": 286.58
+            },
+            {
+              "word": " discuss",
+              "start": 286.58,
+              "end": 286.96
+            },
+            {
+              "word": " what",
+              "start": 286.96,
+              "end": 287.54
+            },
+            {
+              "word": " are",
+              "start": 287.54,
+              "end": 287.7
+            },
+            {
+              "word": " undecidable",
+              "start": 287.7,
+              "end": 288.56
+            },
+            {
+              "word": " problems.",
+              "start": 288.56,
+              "end": 289.22
+            }
+          ]
+        },
+        {
+          "start": 290.84,
+          "end": 297.2,
+          "text": "An undecidable problem is a problem for which no efficient algorithm exists.",
+          "words": [
+            {
+              "word": " An",
+              "start": 290.84,
+              "end": 291.44
+            },
+            {
+              "word": " undecidable",
+              "start": 291.44,
+              "end": 292.16
+            },
+            {
+              "word": " problem",
+              "start": 292.16,
+              "end": 292.7
+            },
+            {
+              "word": " is",
+              "start": 292.7,
+              "end": 293.04
+            },
+            {
+              "word": " a",
+              "start": 293.04,
+              "end": 293.2
+            },
+            {
+              "word": " problem",
+              "start": 293.2,
+              "end": 293.56
+            },
+            {
+              "word": " for",
+              "start": 293.56,
+              "end": 294.32
+            },
+            {
+              "word": " which",
+              "start": 294.32,
+              "end": 294.64
+            },
+            {
+              "word": " no",
+              "start": 294.64,
+              "end": 295.02
+            },
+            {
+              "word": " efficient",
+              "start": 295.02,
+              "end": 295.7
+            },
+            {
+              "word": " algorithm",
+              "start": 295.7,
+              "end": 296.4
+            },
+            {
+              "word": " exists.",
+              "start": 296.4,
+              "end": 297.2
+            }
+          ]
+        },
+        {
+          "start": 298.04,
+          "end": 303.44,
+          "text": "This means there are only inefficient algorithms to solve these type of problems.",
+          "words": [
+            {
+              "word": " This",
+              "start": 298.04,
+              "end": 298.4
+            },
+            {
+              "word": " means",
+              "start": 298.4,
+              "end": 298.76
+            },
+            {
+              "word": " there",
+              "start": 298.76,
+              "end": 299.32
+            },
+            {
+              "word": " are",
+              "start": 299.32,
+              "end": 299.48
+            },
+            {
+              "word": " only",
+              "start": 299.48,
+              "end": 299.9
+            },
+            {
+              "word": " inefficient",
+              "start": 299.9,
+              "end": 300.44
+            },
+            {
+              "word": " algorithms",
+              "start": 300.44,
+              "end": 301.3
+            },
+            {
+              "word": " to",
+              "start": 301.3,
+              "end": 301.68
+            },
+            {
+              "word": " solve",
+              "start": 301.68,
+              "end": 302.16
+            },
+            {
+              "word": " these",
+              "start": 302.16,
+              "end": 302.44
+            },
+            {
+              "word": " type",
+              "start": 302.44,
+              "end": 302.8
+            },
+            {
+              "word": " of",
+              "start": 302.8,
+              "end": 302.96
+            },
+            {
+              "word": " problems.",
+              "start": 302.96,
+              "end": 303.44
+            }
+          ]
+        },
+        {
+          "start": 304.3,
+          "end": 306.24,
+          "text": "What is an inefficient algorithm?",
+          "words": [
+            {
+              "word": " What",
+              "start": 304.3,
+              "end": 304.76
+            },
+            {
+              "word": " is",
+              "start": 304.76,
+              "end": 304.94
+            },
+            {
+              "word": " an",
+              "start": 304.94,
+              "end": 305.12
+            },
+            {
+              "word": " inefficient",
+              "start": 305.12,
+              "end": 305.42
+            },
+            {
+              "word": " algorithm?",
+              "start": 305.42,
+              "end": 306.24
+            }
+          ]
+        },
+        {
+          "start": 306.88,
+          "end": 312.9,
+          "text": "An inefficient algorithm is an algorithm which takes exponential time to execute.",
+          "words": [
+            {
+              "word": " An",
+              "start": 306.88,
+              "end": 307.12
+            },
+            {
+              "word": " inefficient",
+              "start": 307.12,
+              "end": 307.58
+            },
+            {
+              "word": " algorithm",
+              "start": 307.58,
+              "end": 308.4
+            },
+            {
+              "word": " is",
+              "start": 308.4,
+              "end": 308.8
+            },
+            {
+              "word": " an",
+              "start": 308.8,
+              "end": 308.96
+            },
+            {
+              "word": " algorithm",
+              "start": 308.96,
+              "end": 309.36
+            },
+            {
+              "word": " which",
+              "start": 309.36,
+              "end": 309.82
+            },
+            {
+              "word": " takes",
+              "start": 309.82,
+              "end": 310.24
+            },
+            {
+              "word": " exponential",
+              "start": 310.24,
+              "end": 311.14
+            },
+            {
+              "word": " time",
+              "start": 311.14,
+              "end": 311.88
+            },
+            {
+              "word": " to",
+              "start": 311.88,
+              "end": 312.14
+            },
+            {
+              "word": " execute.",
+              "start": 312.14,
+              "end": 312.9
+            }
+          ]
+        },
+        {
+          "start": 312.9,
+          "end": 316.28,
+          "text": "Now what is the meaning of exponential time?",
+          "words": [
+            {
+              "word": " Now",
+              "start": 312.9,
+              "end": 314.08
+            },
+            {
+              "word": " what",
+              "start": 314.08,
+              "end": 314.28
+            },
+            {
+              "word": " is",
+              "start": 314.28,
+              "end": 314.38
+            },
+            {
+              "word": " the",
+              "start": 314.38,
+              "end": 314.52
+            },
+            {
+              "word": " meaning",
+              "start": 314.52,
+              "end": 314.8
+            },
+            {
+              "word": " of",
+              "start": 314.8,
+              "end": 315.1
+            },
+            {
+              "word": " exponential",
+              "start": 315.1,
+              "end": 315.56
+            },
+            {
+              "word": " time?",
+              "start": 315.56,
+              "end": 316.28
+            }
+          ]
+        },
+        {
+          "start": 317.48,
+          "end": 323.92,
+          "text": "Exponential time is a function that grows exponentially with the size of the input",
+          "words": [
+            {
+              "word": " Exponential",
+              "start": 317.48,
+              "end": 318.2
+            },
+            {
+              "word": " time",
+              "start": 318.2,
+              "end": 318.6
+            },
+            {
+              "word": " is",
+              "start": 318.6,
+              "end": 319.04
+            },
+            {
+              "word": " a",
+              "start": 319.04,
+              "end": 319.2
+            },
+            {
+              "word": " function",
+              "start": 319.2,
+              "end": 319.58
+            },
+            {
+              "word": " that",
+              "start": 319.58,
+              "end": 320.08
+            },
+            {
+              "word": " grows",
+              "start": 320.08,
+              "end": 320.62
+            },
+            {
+              "word": " exponentially",
+              "start": 320.62,
+              "end": 321.68
+            },
+            {
+              "word": " with",
+              "start": 321.68,
+              "end": 322.4
+            },
+            {
+              "word": " the",
+              "start": 322.4,
+              "end": 322.58
+            },
+            {
+              "word": " size",
+              "start": 322.58,
+              "end": 323.0
+            },
+            {
+              "word": " of",
+              "start": 323.0,
+              "end": 323.28
+            },
+            {
+              "word": " the",
+              "start": 323.28,
+              "end": 323.46
+            },
+            {
+              "word": " input",
+              "start": 323.46,
+              "end": 323.92
+            }
+          ]
+        },
+        {
+          "start": 323.92,
+          "end": 328.58,
+          "text": "and we all know exponential refers to a mathematical function",
+          "words": [
+            {
+              "word": " and",
+              "start": 323.92,
+              "end": 324.5
+            },
+            {
+              "word": " we",
+              "start": 324.5,
+              "end": 324.72
+            },
+            {
+              "word": " all",
+              "start": 324.72,
+              "end": 324.96
+            },
+            {
+              "word": " know",
+              "start": 324.96,
+              "end": 325.2
+            },
+            {
+              "word": " exponential",
+              "start": 325.2,
+              "end": 326.0
+            },
+            {
+              "word": " refers",
+              "start": 326.0,
+              "end": 326.82
+            },
+            {
+              "word": " to",
+              "start": 326.82,
+              "end": 327.18
+            },
+            {
+              "word": " a",
+              "start": 327.18,
+              "end": 327.32
+            },
+            {
+              "word": " mathematical",
+              "start": 327.32,
+              "end": 327.74
+            },
+            {
+              "word": " function",
+              "start": 327.74,
+              "end": 328.58
+            }
+          ]
+        },
+        {
+          "start": 328.58,
+          "end": 331.96,
+          "text": "in which a constant base has a variable power.",
+          "words": [
+            {
+              "word": " in",
+              "start": 328.58,
+              "end": 329.12
+            },
+            {
+              "word": " which",
+              "start": 329.12,
+              "end": 329.3
+            },
+            {
+              "word": " a",
+              "start": 329.3,
+              "end": 329.44
+            },
+            {
+              "word": " constant",
+              "start": 329.44,
+              "end": 329.86
+            },
+            {
+              "word": " base",
+              "start": 329.86,
+              "end": 330.32
+            },
+            {
+              "word": " has",
+              "start": 330.32,
+              "end": 330.74
+            },
+            {
+              "word": " a",
+              "start": 330.74,
+              "end": 330.94
+            },
+            {
+              "word": " variable",
+              "start": 330.94,
+              "end": 331.28
+            },
+            {
+              "word": " power.",
+              "start": 331.28,
+              "end": 331.96
+            }
+          ]
+        },
+        {
+          "start": 332.58,
+          "end": 339.7,
+          "text": "For example, 2 to the power n, 3 to the power n, etc. are all exponential functions.",
+          "words": [
+            {
+              "word": " For",
+              "start": 332.58,
+              "end": 332.92
+            },
+            {
+              "word": " example,",
+              "start": 332.92,
+              "end": 333.38
+            },
+            {
+              "word": " 2",
+              "start": 333.58,
+              "end": 333.88
+            },
+            {
+              "word": " to",
+              "start": 333.88,
+              "end": 333.98
+            },
+            {
+              "word": " the",
+              "start": 333.98,
+              "end": 334.12
+            },
+            {
+              "word": " power",
+              "start": 334.12,
+              "end": 334.36
+            },
+            {
+              "word": " n,",
+              "start": 334.36,
+              "end": 334.8
+            },
+            {
+              "word": " 3",
+              "start": 335.16,
+              "end": 335.32
+            },
+            {
+              "word": " to",
+              "start": 335.32,
+              "end": 335.5
+            },
+            {
+              "word": " the",
+              "start": 335.5,
+              "end": 335.62
+            },
+            {
+              "word": " power",
+              "start": 335.62,
+              "end": 335.84
+            },
+            {
+              "word": " n,",
+              "start": 335.84,
+              "end": 336.32
+            },
+            {
+              "word": " etc.",
+              "start": 336.5,
+              "end": 336.82
+            },
+            {
+              "word": " are",
+              "start": 337.58,
+              "end": 337.74
+            },
+            {
+              "word": " all",
+              "start": 337.74,
+              "end": 338.1
+            },
+            {
+              "word": " exponential",
+              "start": 338.1,
+              "end": 338.82
+            },
+            {
+              "word": " functions.",
+              "start": 338.82,
+              "end": 339.7
+            }
+          ]
+        },
+        {
+          "start": 340.7,
+          "end": 345.78,
+          "text": "If an algorithm takes exponential time to execute, then it has this property",
+          "words": [
+            {
+              "word": " If",
+              "start": 340.7,
+              "end": 341.1
+            },
+            {
+              "word": " an",
+              "start": 341.1,
+              "end": 341.26
+            },
+            {
+              "word": " algorithm",
+              "start": 341.26,
+              "end": 341.56
+            },
+            {
+              "word": " takes",
+              "start": 341.56,
+              "end": 342.08
+            },
+            {
+              "word": " exponential",
+              "start": 342.08,
+              "end": 342.76
+            },
+            {
+              "word": " time",
+              "start": 342.76,
+              "end": 343.36
+            },
+            {
+              "word": " to",
+              "start": 343.36,
+              "end": 343.54
+            },
+            {
+              "word": " execute,",
+              "start": 343.54,
+              "end": 344.08
+            },
+            {
+              "word": " then",
+              "start": 344.5,
+              "end": 344.68
+            },
+            {
+              "word": " it",
+              "start": 344.68,
+              "end": 344.8
+            },
+            {
+              "word": " has",
+              "start": 344.8,
+              "end": 345.06
+            },
+            {
+              "word": " this",
+              "start": 345.06,
+              "end": 345.26
+            },
+            {
+              "word": " property",
+              "start": 345.26,
+              "end": 345.78
+            }
+          ]
+        },
+        {
+          "start": 345.78,
+          "end": 353.92,
+          "text": "that as the size of the input increases, the time taken by that algorithm increases drastically.",
+          "words": [
+            {
+              "word": " that",
+              "start": 345.78,
+              "end": 346.24
+            },
+            {
+              "word": " as",
+              "start": 346.24,
+              "end": 346.52
+            },
+            {
+              "word": " the",
+              "start": 346.52,
+              "end": 346.7
+            },
+            {
+              "word": " size",
+              "start": 346.7,
+              "end": 347.16
+            },
+            {
+              "word": " of",
+              "start": 347.16,
+              "end": 347.52
+            },
+            {
+              "word": " the",
+              "start": 347.52,
+              "end": 347.74
+            },
+            {
+              "word": " input",
+              "start": 347.74,
+              "end": 348.26
+            },
+            {
+              "word": " increases,",
+              "start": 348.26,
+              "end": 349.08
+            },
+            {
+              "word": " the",
+              "start": 349.68,
+              "end": 349.78
+            },
+            {
+              "word": " time",
+              "start": 349.78,
+              "end": 350.12
+            },
+            {
+              "word": " taken",
+              "start": 350.12,
+              "end": 350.48
+            },
+            {
+              "word": " by",
+              "start": 350.48,
+              "end": 350.82
+            },
+            {
+              "word": " that",
+              "start": 350.82,
+              "end": 351.16
+            },
+            {
+              "word": " algorithm",
+              "start": 351.16,
+              "end": 351.9
+            },
+            {
+              "word": " increases",
+              "start": 351.9,
+              "end": 352.88
+            },
+            {
+              "word": " drastically.",
+              "start": 352.88,
+              "end": 353.92
+            }
+          ]
+        },
+        {
+          "start": 355.08,
+          "end": 361.38,
+          "text": "The change is so drastic that we humans cannot bear even for smaller size inputs.",
+          "words": [
+            {
+              "word": " The",
+              "start": 355.08,
+              "end": 355.3
+            },
+            {
+              "word": " change",
+              "start": 355.3,
+              "end": 355.62
+            },
+            {
+              "word": " is",
+              "start": 355.62,
+              "end": 355.82
+            },
+            {
+              "word": " so",
+              "start": 355.82,
+              "end": 356.1
+            },
+            {
+              "word": " drastic",
+              "start": 356.1,
+              "end": 356.6
+            },
+            {
+              "word": " that",
+              "start": 356.6,
+              "end": 357.1
+            },
+            {
+              "word": " we",
+              "start": 357.1,
+              "end": 357.32
+            },
+            {
+              "word": " humans",
+              "start": 357.32,
+              "end": 357.7
+            },
+            {
+              "word": " cannot",
+              "start": 357.7,
+              "end": 358.06
+            },
+            {
+              "word": " bear",
+              "start": 358.06,
+              "end": 358.5
+            },
+            {
+              "word": " even",
+              "start": 358.5,
+              "end": 359.3
+            },
+            {
+              "word": " for",
+              "start": 359.3,
+              "end": 359.7
+            },
+            {
+              "word": " smaller",
+              "start": 359.7,
+              "end": 360.34
+            },
+            {
+              "word": " size",
+              "start": 360.34,
+              "end": 360.76
+            },
+            {
+              "word": " inputs.",
+              "start": 360.76,
+              "end": 361.38
+            }
+          ]
+        },
+        {
+          "start": 362.24,
+          "end": 368.52,
+          "text": "It might be possible that for just input size of 10, it may take years to execute.",
+          "words": [
+            {
+              "word": " It",
+              "start": 362.24,
+              "end": 362.62
+            },
+            {
+              "word": " might",
+              "start": 362.62,
+              "end": 362.86
+            },
+            {
+              "word": " be",
+              "start": 362.86,
+              "end": 363.06
+            },
+            {
+              "word": " possible",
+              "start": 363.06,
+              "end": 363.6
+            },
+            {
+              "word": " that",
+              "start": 363.6,
+              "end": 364.14
+            },
+            {
+              "word": " for",
+              "start": 364.14,
+              "end": 364.4
+            },
+            {
+              "word": " just",
+              "start": 364.4,
+              "end": 364.7
+            },
+            {
+              "word": " input",
+              "start": 364.7,
+              "end": 365.18
+            },
+            {
+              "word": " size",
+              "start": 365.18,
+              "end": 365.52
+            },
+            {
+              "word": " of",
+              "start": 365.52,
+              "end": 365.84
+            },
+            {
+              "word": " 10,",
+              "start": 365.84,
+              "end": 366.16
+            },
+            {
+              "word": " it",
+              "start": 366.62,
+              "end": 366.8
+            },
+            {
+              "word": " may",
+              "start": 366.8,
+              "end": 367.02
+            },
+            {
+              "word": " take",
+              "start": 367.02,
+              "end": 367.28
+            },
+            {
+              "word": " years",
+              "start": 367.28,
+              "end": 367.72
+            },
+            {
+              "word": " to",
+              "start": 367.72,
+              "end": 367.98
+            },
+            {
+              "word": " execute.",
+              "start": 367.98,
+              "end": 368.52
+            }
+          ]
+        },
+        {
+          "start": 369.7,
+          "end": 376.58,
+          "text": "So clearly these type of algorithms are unbearable and hence the problems they solve are undecidable",
+          "words": [
+            {
+              "word": " So",
+              "start": 369.7,
+              "end": 369.92
+            },
+            {
+              "word": " clearly",
+              "start": 369.92,
+              "end": 370.24
+            },
+            {
+              "word": " these",
+              "start": 370.24,
+              "end": 370.62
+            },
+            {
+              "word": " type",
+              "start": 370.62,
+              "end": 370.92
+            },
+            {
+              "word": " of",
+              "start": 370.92,
+              "end": 371.14
+            },
+            {
+              "word": " algorithms",
+              "start": 371.14,
+              "end": 371.62
+            },
+            {
+              "word": " are",
+              "start": 371.62,
+              "end": 372.0
+            },
+            {
+              "word": " unbearable",
+              "start": 372.0,
+              "end": 372.74
+            },
+            {
+              "word": " and",
+              "start": 372.74,
+              "end": 373.38
+            },
+            {
+              "word": " hence",
+              "start": 373.38,
+              "end": 373.7
+            },
+            {
+              "word": " the",
+              "start": 373.7,
+              "end": 374.12
+            },
+            {
+              "word": " problems",
+              "start": 374.12,
+              "end": 374.56
+            },
+            {
+              "word": " they",
+              "start": 374.56,
+              "end": 374.8
+            },
+            {
+              "word": " solve",
+              "start": 374.8,
+              "end": 375.16
+            },
+            {
+              "word": " are",
+              "start": 375.16,
+              "end": 375.44
+            },
+            {
+              "word": " undecidable",
+              "start": 375.44,
+              "end": 376.58
+            }
+          ]
+        },
+        {
+          "start": 376.58,
+          "end": 383.88,
+          "text": "because we cannot decide the outcome within a specific time frame which we humans can bear.",
+          "words": [
+            {
+              "word": " because",
+              "start": 376.58,
+              "end": 377.38
+            },
+            {
+              "word": " we",
+              "start": 377.38,
+              "end": 377.68
+            },
+            {
+              "word": " cannot",
+              "start": 377.68,
+              "end": 378.0
+            },
+            {
+              "word": " decide",
+              "start": 378.0,
+              "end": 378.62
+            },
+            {
+              "word": " the",
+              "start": 378.62,
+              "end": 378.88
+            },
+            {
+              "word": " outcome",
+              "start": 378.88,
+              "end": 379.62
+            },
+            {
+              "word": " within",
+              "start": 379.62,
+              "end": 380.4
+            },
+            {
+              "word": " a",
+              "start": 380.4,
+              "end": 380.62
+            },
+            {
+              "word": " specific",
+              "start": 380.62,
+              "end": 381.08
+            },
+            {
+              "word": " time",
+              "start": 381.08,
+              "end": 381.58
+            },
+            {
+              "word": " frame",
+              "start": 381.58,
+              "end": 382.0
+            },
+            {
+              "word": " which",
+              "start": 382.0,
+              "end": 382.66
+            },
+            {
+              "word": " we",
+              "start": 382.66,
+              "end": 382.88
+            },
+            {
+              "word": " humans",
+              "start": 382.88,
+              "end": 383.28
+            },
+            {
+              "word": " can",
+              "start": 383.28,
+              "end": 383.54
+            },
+            {
+              "word": " bear.",
+              "start": 383.54,
+              "end": 383.88
+            }
+          ]
+        },
+        {
+          "start": 384.44,
+          "end": 387.88,
+          "text": "Hence these type of problems are called undecidable problems.",
+          "words": [
+            {
+              "word": " Hence",
+              "start": 384.44,
+              "end": 384.72
+            },
+            {
+              "word": " these",
+              "start": 384.72,
+              "end": 384.96
+            },
+            {
+              "word": " type",
+              "start": 384.96,
+              "end": 385.24
+            },
+            {
+              "word": " of",
+              "start": 385.24,
+              "end": 385.42
+            },
+            {
+              "word": " problems",
+              "start": 385.42,
+              "end": 385.76
+            },
+            {
+              "word": " are",
+              "start": 385.76,
+              "end": 386.04
+            },
+            {
+              "word": " called",
+              "start": 386.04,
+              "end": 386.38
+            },
+            {
+              "word": " undecidable",
+              "start": 386.38,
+              "end": 387.42
+            },
+            {
+              "word": " problems.",
+              "start": 387.42,
+              "end": 387.88
+            }
+          ]
+        },
+        {
+          "start": 388.64,
+          "end": 391.72,
+          "text": "This is how you can visualize an inefficient algorithm.",
+          "words": [
+            {
+              "word": " This",
+              "start": 388.64,
+              "end": 388.94
+            },
+            {
+              "word": " is",
+              "start": 388.94,
+              "end": 389.06
+            },
+            {
+              "word": " how",
+              "start": 389.06,
+              "end": 389.26
+            },
+            {
+              "word": " you",
+              "start": 389.26,
+              "end": 389.44
+            },
+            {
+              "word": " can",
+              "start": 389.44,
+              "end": 389.62
+            },
+            {
+              "word": " visualize",
+              "start": 389.62,
+              "end": 390.02
+            },
+            {
+              "word": " an",
+              "start": 390.02,
+              "end": 390.5
+            },
+            {
+              "word": " inefficient",
+              "start": 390.5,
+              "end": 391.06
+            },
+            {
+              "word": " algorithm.",
+              "start": 391.06,
+              "end": 391.72
+            }
+          ]
+        },
+        {
+          "start": 392.46,
+          "end": 397.16,
+          "text": "The problem for which no efficient algorithm exists is called undecidable.",
+          "words": [
+            {
+              "word": " The",
+              "start": 392.46,
+              "end": 392.66
+            },
+            {
+              "word": " problem",
+              "start": 392.66,
+              "end": 393.04
+            },
+            {
+              "word": " for",
+              "start": 393.04,
+              "end": 393.36
+            },
+            {
+              "word": " which",
+              "start": 393.36,
+              "end": 393.74
+            },
+            {
+              "word": " no",
+              "start": 393.74,
+              "end": 393.98
+            },
+            {
+              "word": " efficient",
+              "start": 393.98,
+              "end": 394.36
+            },
+            {
+              "word": " algorithm",
+              "start": 394.36,
+              "end": 394.94
+            },
+            {
+              "word": " exists",
+              "start": 394.94,
+              "end": 395.4
+            },
+            {
+              "word": " is",
+              "start": 395.4,
+              "end": 395.82
+            },
+            {
+              "word": " called",
+              "start": 395.82,
+              "end": 396.14
+            },
+            {
+              "word": " undecidable.",
+              "start": 396.14,
+              "end": 397.16
+            }
+          ]
+        },
+        {
+          "start": 397.16,
+          "end": 407.84,
+          "text": "To this algorithm, we can pass a finite input, maybe 10, 20 or 100 and it terminates in exponential time,",
+          "words": [
+            {
+              "word": " To",
+              "start": 397.16,
+              "end": 397.98
+            },
+            {
+              "word": " this",
+              "start": 397.98,
+              "end": 398.2
+            },
+            {
+              "word": " algorithm,",
+              "start": 398.2,
+              "end": 398.7
+            },
+            {
+              "word": " we",
+              "start": 398.92,
+              "end": 399.02
+            },
+            {
+              "word": " can",
+              "start": 399.02,
+              "end": 399.2
+            },
+            {
+              "word": " pass",
+              "start": 399.2,
+              "end": 399.64
+            },
+            {
+              "word": " a",
+              "start": 399.64,
+              "end": 400.04
+            },
+            {
+              "word": " finite",
+              "start": 400.04,
+              "end": 400.4
+            },
+            {
+              "word": " input,",
+              "start": 400.4,
+              "end": 401.0
+            },
+            {
+              "word": " maybe",
+              "start": 401.48,
+              "end": 401.82
+            },
+            {
+              "word": " 10,",
+              "start": 401.82,
+              "end": 402.2
+            },
+            {
+              "word": " 20",
+              "start": 402.34,
+              "end": 402.68
+            },
+            {
+              "word": " or",
+              "start": 402.68,
+              "end": 403.3
+            },
+            {
+              "word": " 100",
+              "start": 403.3,
+              "end": 403.68
+            },
+            {
+              "word": " and",
+              "start": 403.68,
+              "end": 404.74
+            },
+            {
+              "word": " it",
+              "start": 404.74,
+              "end": 405.0
+            },
+            {
+              "word": " terminates",
+              "start": 405.0,
+              "end": 405.74
+            },
+            {
+              "word": " in",
+              "start": 405.74,
+              "end": 406.34
+            },
+            {
+              "word": " exponential",
+              "start": 406.34,
+              "end": 407.0
+            },
+            {
+              "word": " time,",
+              "start": 407.0,
+              "end": 407.84
+            }
+          ]
+        },
+        {
+          "start": 408.34,
+          "end": 410.54,
+          "text": "the time which we humans cannot bear.",
+          "words": [
+            {
+              "word": " the",
+              "start": 408.34,
+              "end": 408.5
+            },
+            {
+              "word": " time",
+              "start": 408.5,
+              "end": 408.82
+            },
+            {
+              "word": " which",
+              "start": 408.82,
+              "end": 409.04
+            },
+            {
+              "word": " we",
+              "start": 409.04,
+              "end": 409.28
+            },
+            {
+              "word": " humans",
+              "start": 409.28,
+              "end": 409.66
+            },
+            {
+              "word": " cannot",
+              "start": 409.66,
+              "end": 410.1
+            },
+            {
+              "word": " bear.",
+              "start": 410.1,
+              "end": 410.54
+            }
+          ]
+        },
+        {
+          "start": 411.4,
+          "end": 418.18,
+          "text": "So clearly we understood what is the difference between a decidable problem and an undecidable problem.",
+          "words": [
+            {
+              "word": " So",
+              "start": 411.4,
+              "end": 411.76
+            },
+            {
+              "word": " clearly",
+              "start": 411.76,
+              "end": 412.08
+            },
+            {
+              "word": " we",
+              "start": 412.08,
+              "end": 412.88
+            },
+            {
+              "word": " understood",
+              "start": 412.88,
+              "end": 413.4
+            },
+            {
+              "word": " what",
+              "start": 413.4,
+              "end": 413.88
+            },
+            {
+              "word": " is",
+              "start": 413.88,
+              "end": 414.04
+            },
+            {
+              "word": " the",
+              "start": 414.04,
+              "end": 414.18
+            },
+            {
+              "word": " difference",
+              "start": 414.18,
+              "end": 414.52
+            },
+            {
+              "word": " between",
+              "start": 414.52,
+              "end": 415.0
+            },
+            {
+              "word": " a",
+              "start": 415.0,
+              "end": 415.36
+            },
+            {
+              "word": " decidable",
+              "start": 415.36,
+              "end": 416.04
+            },
+            {
+              "word": " problem",
+              "start": 416.04,
+              "end": 416.44
+            },
+            {
+              "word": " and",
+              "start": 416.44,
+              "end": 416.92
+            },
+            {
+              "word": " an",
+              "start": 416.92,
+              "end": 417.08
+            },
+            {
+              "word": " undecidable",
+              "start": 417.08,
+              "end": 417.66
+            },
+            {
+              "word": " problem.",
+              "start": 417.66,
+              "end": 418.18
+            }
+          ]
+        },
+        {
+          "start": 418.88,
+          "end": 423.22,
+          "text": "A decidable problem is a problem for which an efficient algorithm exists,",
+          "words": [
+            {
+              "word": " A",
+              "start": 418.88,
+              "end": 419.1
+            },
+            {
+              "word": " decidable",
+              "start": 419.1,
+              "end": 419.6
+            },
+            {
+              "word": " problem",
+              "start": 419.6,
+              "end": 420.04
+            },
+            {
+              "word": " is",
+              "start": 420.04,
+              "end": 420.3
+            },
+            {
+              "word": " a",
+              "start": 420.3,
+              "end": 420.44
+            },
+            {
+              "word": " problem",
+              "start": 420.44,
+              "end": 420.78
+            },
+            {
+              "word": " for",
+              "start": 420.78,
+              "end": 421.14
+            },
+            {
+              "word": " which",
+              "start": 421.14,
+              "end": 421.42
+            },
+            {
+              "word": " an",
+              "start": 421.42,
+              "end": 421.66
+            },
+            {
+              "word": " efficient",
+              "start": 421.66,
+              "end": 422.08
+            },
+            {
+              "word": " algorithm",
+              "start": 422.08,
+              "end": 422.7
+            },
+            {
+              "word": " exists,",
+              "start": 422.7,
+              "end": 423.22
+            }
+          ]
+        },
+        {
+          "start": 423.22,
+          "end": 426.04,
+          "text": "at least one efficient algorithm.",
+          "words": [
+            {
+              "word": " at",
+              "start": 423.22,
+              "end": 423.84
+            },
+            {
+              "word": " least",
+              "start": 423.84,
+              "end": 424.22
+            },
+            {
+              "word": " one",
+              "start": 424.22,
+              "end": 424.76
+            },
+            {
+              "word": " efficient",
+              "start": 424.76,
+              "end": 425.36
+            },
+            {
+              "word": " algorithm.",
+              "start": 425.36,
+              "end": 426.04
+            }
+          ]
+        },
+        {
+          "start": 426.62,
+          "end": 432.58,
+          "text": "An undecidable problem on the other hand is a problem for which no efficient algorithm exists.",
+          "words": [
+            {
+              "word": " An",
+              "start": 426.62,
+              "end": 426.9
+            },
+            {
+              "word": " undecidable",
+              "start": 426.9,
+              "end": 427.46
+            },
+            {
+              "word": " problem",
+              "start": 427.46,
+              "end": 428.0
+            },
+            {
+              "word": " on",
+              "start": 428.0,
+              "end": 428.22
+            },
+            {
+              "word": " the",
+              "start": 428.22,
+              "end": 428.38
+            },
+            {
+              "word": " other",
+              "start": 428.38,
+              "end": 428.52
+            },
+            {
+              "word": " hand",
+              "start": 428.52,
+              "end": 428.88
+            },
+            {
+              "word": " is",
+              "start": 428.88,
+              "end": 429.14
+            },
+            {
+              "word": " a",
+              "start": 429.14,
+              "end": 429.28
+            },
+            {
+              "word": " problem",
+              "start": 429.28,
+              "end": 429.62
+            },
+            {
+              "word": " for",
+              "start": 429.62,
+              "end": 430.12
+            },
+            {
+              "word": " which",
+              "start": 430.12,
+              "end": 430.42
+            },
+            {
+              "word": " no",
+              "start": 430.42,
+              "end": 430.78
+            },
+            {
+              "word": " efficient",
+              "start": 430.78,
+              "end": 431.4
+            },
+            {
+              "word": " algorithm",
+              "start": 431.4,
+              "end": 432.08
+            },
+            {
+              "word": " exists.",
+              "start": 432.08,
+              "end": 432.58
+            }
+          ]
+        },
+        {
+          "start": 433.56,
+          "end": 439.92,
+          "text": "We also understood what is the difference between an efficient algorithm and an inefficient algorithm.",
+          "words": [
+            {
+              "word": " We",
+              "start": 433.56,
+              "end": 433.9
+            },
+            {
+              "word": " also",
+              "start": 433.9,
+              "end": 434.28
+            },
+            {
+              "word": " understood",
+              "start": 434.28,
+              "end": 434.92
+            },
+            {
+              "word": " what",
+              "start": 434.92,
+              "end": 435.26
+            },
+            {
+              "word": " is",
+              "start": 435.26,
+              "end": 435.4
+            },
+            {
+              "word": " the",
+              "start": 435.4,
+              "end": 435.54
+            },
+            {
+              "word": " difference",
+              "start": 435.54,
+              "end": 435.86
+            },
+            {
+              "word": " between",
+              "start": 435.86,
+              "end": 436.32
+            },
+            {
+              "word": " an",
+              "start": 436.32,
+              "end": 436.68
+            },
+            {
+              "word": " efficient",
+              "start": 436.68,
+              "end": 437.12
+            },
+            {
+              "word": " algorithm",
+              "start": 437.12,
+              "end": 437.74
+            },
+            {
+              "word": " and",
+              "start": 437.74,
+              "end": 438.3
+            },
+            {
+              "word": " an",
+              "start": 438.3,
+              "end": 438.54
+            },
+            {
+              "word": " inefficient",
+              "start": 438.54,
+              "end": 438.92
+            },
+            {
+              "word": " algorithm.",
+              "start": 438.92,
+              "end": 439.92
+            }
+          ]
+        },
+        {
+          "start": 440.8,
+          "end": 446.54,
+          "text": "An efficient algorithm takes polynomial time or less than the polynomial time to execute.",
+          "words": [
+            {
+              "word": " An",
+              "start": 440.8,
+              "end": 441.0
+            },
+            {
+              "word": " efficient",
+              "start": 441.0,
+              "end": 441.32
+            },
+            {
+              "word": " algorithm",
+              "start": 441.32,
+              "end": 442.0
+            },
+            {
+              "word": " takes",
+              "start": 442.0,
+              "end": 442.58
+            },
+            {
+              "word": " polynomial",
+              "start": 442.58,
+              "end": 443.1
+            },
+            {
+              "word": " time",
+              "start": 443.1,
+              "end": 443.64
+            },
+            {
+              "word": " or",
+              "start": 443.64,
+              "end": 444.06
+            },
+            {
+              "word": " less",
+              "start": 444.06,
+              "end": 444.42
+            },
+            {
+              "word": " than",
+              "start": 444.42,
+              "end": 444.68
+            },
+            {
+              "word": " the",
+              "start": 444.68,
+              "end": 444.86
+            },
+            {
+              "word": " polynomial",
+              "start": 444.86,
+              "end": 445.28
+            },
+            {
+              "word": " time",
+              "start": 445.28,
+              "end": 445.78
+            },
+            {
+              "word": " to",
+              "start": 445.78,
+              "end": 445.98
+            },
+            {
+              "word": " execute.",
+              "start": 445.98,
+              "end": 446.54
+            }
+          ]
+        },
+        {
+          "start": 447.54,
+          "end": 452.5,
+          "text": "On the other hand, an inefficient algorithm takes exponential time to execute.",
+          "words": [
+            {
+              "word": " On",
+              "start": 447.13,
+              "end": 447.6
+            },
+            {
+              "word": " the",
+              "start": 447.6,
+              "end": 447.78
+            },
+            {
+              "word": " other",
+              "start": 447.78,
+              "end": 447.94
+            },
+            {
+              "word": " hand,",
+              "start": 447.94,
+              "end": 448.36
+            },
+            {
+              "word": " an",
+              "start": 448.7,
+              "end": 448.94
+            },
+            {
+              "word": " inefficient",
+              "start": 448.94,
+              "end": 449.48
+            },
+            {
+              "word": " algorithm",
+              "start": 449.48,
+              "end": 450.14
+            },
+            {
+              "word": " takes",
+              "start": 450.14,
+              "end": 450.64
+            },
+            {
+              "word": " exponential",
+              "start": 450.64,
+              "end": 451.28
+            },
+            {
+              "word": " time",
+              "start": 451.28,
+              "end": 451.86
+            },
+            {
+              "word": " to",
+              "start": 451.86,
+              "end": 452.04
+            },
+            {
+              "word": " execute.",
+              "start": 452.04,
+              "end": 452.5
+            }
+          ]
+        },
+        {
+          "start": 453.12,
+          "end": 456.28,
+          "text": "Now we know these two topics very clearly.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 453.12,
+              "end": 453.88
+            },
+            {
+              "word": " we",
+              "start": 453.88,
+              "end": 454.12
+            },
+            {
+              "word": " know",
+              "start": 454.12,
+              "end": 454.34
+            },
+            {
+              "word": " these",
+              "start": 454.34,
+              "end": 454.6
+            },
+            {
+              "word": " two",
+              "start": 454.6,
+              "end": 454.9
+            },
+            {
+              "word": " topics",
+              "start": 454.9,
+              "end": 455.32
+            },
+            {
+              "word": " very",
+              "start": 455.32,
+              "end": 455.8
+            },
+            {
+              "word": " clearly.",
+              "start": 455.8,
+              "end": 456.28
+            }
+          ]
+        },
+        {
+          "start": 456.76,
+          "end": 464.6,
+          "text": "Let's move to the next topic where we will discuss the example plots of polynomial and exponential times.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 456.76,
+              "end": 457.32
+            },
+            {
+              "word": " move",
+              "start": 457.32,
+              "end": 457.5
+            },
+            {
+              "word": " to",
+              "start": 457.5,
+              "end": 457.68
+            },
+            {
+              "word": " the",
+              "start": 457.68,
+              "end": 457.8
+            },
+            {
+              "word": " next",
+              "start": 457.8,
+              "end": 458.04
+            },
+            {
+              "word": " topic",
+              "start": 458.04,
+              "end": 458.5
+            },
+            {
+              "word": " where",
+              "start": 458.5,
+              "end": 458.98
+            },
+            {
+              "word": " we",
+              "start": 458.98,
+              "end": 459.12
+            },
+            {
+              "word": " will",
+              "start": 459.12,
+              "end": 459.26
+            },
+            {
+              "word": " discuss",
+              "start": 459.26,
+              "end": 459.68
+            },
+            {
+              "word": " the",
+              "start": 459.68,
+              "end": 460.18
+            },
+            {
+              "word": " example",
+              "start": 460.18,
+              "end": 460.8
+            },
+            {
+              "word": " plots",
+              "start": 460.8,
+              "end": 461.28
+            },
+            {
+              "word": " of",
+              "start": 461.28,
+              "end": 461.66
+            },
+            {
+              "word": " polynomial",
+              "start": 461.66,
+              "end": 462.12
+            },
+            {
+              "word": " and",
+              "start": 462.12,
+              "end": 463.16
+            },
+            {
+              "word": " exponential",
+              "start": 463.16,
+              "end": 463.78
+            },
+            {
+              "word": " times.",
+              "start": 463.78,
+              "end": 464.6
+            }
+          ]
+        },
+        {
+          "start": 466.54,
+          "end": 471.58,
+          "text": "This is how we can visualize polynomial time and exponential time.",
+          "words": [
+            {
+              "word": " This",
+              "start": 466.33,
+              "end": 466.8
+            },
+            {
+              "word": " is",
+              "start": 466.8,
+              "end": 466.96
+            },
+            {
+              "word": " how",
+              "start": 466.96,
+              "end": 467.18
+            },
+            {
+              "word": " we",
+              "start": 467.18,
+              "end": 467.38
+            },
+            {
+              "word": " can",
+              "start": 467.38,
+              "end": 467.58
+            },
+            {
+              "word": " visualize",
+              "start": 467.58,
+              "end": 468.02
+            },
+            {
+              "word": " polynomial",
+              "start": 468.02,
+              "end": 468.8
+            },
+            {
+              "word": " time",
+              "start": 468.8,
+              "end": 469.42
+            },
+            {
+              "word": " and",
+              "start": 469.42,
+              "end": 470.22
+            },
+            {
+              "word": " exponential",
+              "start": 470.22,
+              "end": 470.9
+            },
+            {
+              "word": " time.",
+              "start": 470.9,
+              "end": 471.58
+            }
+          ]
+        },
+        {
+          "start": 472.58,
+          "end": 476.36,
+          "text": "In this graph, the size of the input is represented here.",
+          "words": [
+            {
+              "word": " In",
+              "start": 472.5,
+              "end": 472.88
+            },
+            {
+              "word": " this",
+              "start": 472.88,
+              "end": 473.06
+            },
+            {
+              "word": " graph,",
+              "start": 473.06,
+              "end": 473.4
+            },
+            {
+              "word": " the",
+              "start": 473.64,
+              "end": 473.72
+            },
+            {
+              "word": " size",
+              "start": 473.72,
+              "end": 474.08
+            },
+            {
+              "word": " of",
+              "start": 474.08,
+              "end": 474.36
+            },
+            {
+              "word": " the",
+              "start": 474.36,
+              "end": 474.52
+            },
+            {
+              "word": " input",
+              "start": 474.52,
+              "end": 474.9
+            },
+            {
+              "word": " is",
+              "start": 474.9,
+              "end": 475.26
+            },
+            {
+              "word": " represented",
+              "start": 475.26,
+              "end": 475.84
+            },
+            {
+              "word": " here.",
+              "start": 475.84,
+              "end": 476.36
+            }
+          ]
+        },
+        {
+          "start": 476.88,
+          "end": 481.54,
+          "text": "It is represented by n and the time is the function of n.",
+          "words": [
+            {
+              "word": " It",
+              "start": 476.88,
+              "end": 477.06
+            },
+            {
+              "word": " is",
+              "start": 477.06,
+              "end": 477.22
+            },
+            {
+              "word": " represented",
+              "start": 477.22,
+              "end": 477.8
+            },
+            {
+              "word": " by",
+              "start": 477.8,
+              "end": 478.12
+            },
+            {
+              "word": " n",
+              "start": 478.12,
+              "end": 478.48
+            },
+            {
+              "word": " and",
+              "start": 478.48,
+              "end": 479.28
+            },
+            {
+              "word": " the",
+              "start": 479.28,
+              "end": 479.44
+            },
+            {
+              "word": " time",
+              "start": 479.44,
+              "end": 479.86
+            },
+            {
+              "word": " is",
+              "start": 479.86,
+              "end": 480.18
+            },
+            {
+              "word": " the",
+              "start": 480.18,
+              "end": 480.34
+            },
+            {
+              "word": " function",
+              "start": 480.34,
+              "end": 480.82
+            },
+            {
+              "word": " of",
+              "start": 480.82,
+              "end": 481.16
+            },
+            {
+              "word": " n.",
+              "start": 481.16,
+              "end": 481.54
+            }
+          ]
+        },
+        {
+          "start": 481.86,
+          "end": 485.46,
+          "text": "This means it is dependent on the size of the input.",
+          "words": [
+            {
+              "word": " This",
+              "start": 481.86,
+              "end": 482.3
+            },
+            {
+              "word": " means",
+              "start": 482.3,
+              "end": 482.52
+            },
+            {
+              "word": " it",
+              "start": 482.52,
+              "end": 482.8
+            },
+            {
+              "word": " is",
+              "start": 482.8,
+              "end": 482.94
+            },
+            {
+              "word": " dependent",
+              "start": 482.94,
+              "end": 483.48
+            },
+            {
+              "word": " on",
+              "start": 483.48,
+              "end": 484.0
+            },
+            {
+              "word": " the",
+              "start": 484.0,
+              "end": 484.2
+            },
+            {
+              "word": " size",
+              "start": 484.2,
+              "end": 484.62
+            },
+            {
+              "word": " of",
+              "start": 484.62,
+              "end": 484.84
+            },
+            {
+              "word": " the",
+              "start": 484.84,
+              "end": 485.02
+            },
+            {
+              "word": " input.",
+              "start": 485.02,
+              "end": 485.46
+            }
+          ]
+        },
+        {
+          "start": 486.12,
+          "end": 493.12,
+          "text": "So as the size of the input increases, this graph represents the change in time.",
+          "words": [
+            {
+              "word": " So",
+              "start": 486.12,
+              "end": 486.8
+            },
+            {
+              "word": " as",
+              "start": 486.8,
+              "end": 487.12
+            },
+            {
+              "word": " the",
+              "start": 487.12,
+              "end": 487.32
+            },
+            {
+              "word": " size",
+              "start": 487.32,
+              "end": 487.74
+            },
+            {
+              "word": " of",
+              "start": 487.74,
+              "end": 487.98
+            },
+            {
+              "word": " the",
+              "start": 487.98,
+              "end": 488.14
+            },
+            {
+              "word": " input",
+              "start": 488.14,
+              "end": 488.52
+            },
+            {
+              "word": " increases,",
+              "start": 488.52,
+              "end": 489.16
+            },
+            {
+              "word": " this",
+              "start": 489.84,
+              "end": 490.46
+            },
+            {
+              "word": " graph",
+              "start": 490.46,
+              "end": 490.88
+            },
+            {
+              "word": " represents",
+              "start": 490.88,
+              "end": 491.78
+            },
+            {
+              "word": " the",
+              "start": 491.78,
+              "end": 492.08
+            },
+            {
+              "word": " change",
+              "start": 492.08,
+              "end": 492.48
+            },
+            {
+              "word": " in",
+              "start": 492.48,
+              "end": 492.76
+            },
+            {
+              "word": " time.",
+              "start": 492.76,
+              "end": 493.12
+            }
+          ]
+        },
+        {
+          "start": 494.02,
+          "end": 495.8,
+          "text": "Let's observe this green line.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 494.02,
+              "end": 494.44
+            },
+            {
+              "word": " observe",
+              "start": 494.44,
+              "end": 494.9
+            },
+            {
+              "word": " this",
+              "start": 494.9,
+              "end": 495.2
+            },
+            {
+              "word": " green",
+              "start": 495.2,
+              "end": 495.46
+            },
+            {
+              "word": " line.",
+              "start": 495.46,
+              "end": 495.8
+            }
+          ]
+        },
+        {
+          "start": 496.56,
+          "end": 499.04,
+          "text": "This represents polynomial time.",
+          "words": [
+            {
+              "word": " This",
+              "start": 496.56,
+              "end": 497.32
+            },
+            {
+              "word": " represents",
+              "start": 497.32,
+              "end": 497.86
+            },
+            {
+              "word": " polynomial",
+              "start": 497.86,
+              "end": 498.46
+            },
+            {
+              "word": " time.",
+              "start": 498.46,
+              "end": 499.04
+            }
+          ]
+        },
+        {
+          "start": 500.04,
+          "end": 506.72,
+          "text": "As the size of the input increases, the change in time is not that drastic or dramatic.",
+          "words": [
+            {
+              "word": " As",
+              "start": 499.83,
+              "end": 500.2
+            },
+            {
+              "word": " the",
+              "start": 500.2,
+              "end": 500.4
+            },
+            {
+              "word": " size",
+              "start": 500.4,
+              "end": 500.76
+            },
+            {
+              "word": " of",
+              "start": 500.76,
+              "end": 500.98
+            },
+            {
+              "word": " the",
+              "start": 500.98,
+              "end": 501.16
+            },
+            {
+              "word": " input",
+              "start": 501.16,
+              "end": 501.52
+            },
+            {
+              "word": " increases,",
+              "start": 501.52,
+              "end": 502.2
+            },
+            {
+              "word": " the",
+              "start": 502.84,
+              "end": 503.06
+            },
+            {
+              "word": " change",
+              "start": 503.06,
+              "end": 503.5
+            },
+            {
+              "word": " in",
+              "start": 503.5,
+              "end": 503.8
+            },
+            {
+              "word": " time",
+              "start": 503.8,
+              "end": 504.16
+            },
+            {
+              "word": " is",
+              "start": 504.16,
+              "end": 504.56
+            },
+            {
+              "word": " not",
+              "start": 504.56,
+              "end": 504.98
+            },
+            {
+              "word": " that",
+              "start": 504.98,
+              "end": 505.34
+            },
+            {
+              "word": " drastic",
+              "start": 505.34,
+              "end": 505.9
+            },
+            {
+              "word": " or",
+              "start": 505.9,
+              "end": 506.3
+            },
+            {
+              "word": " dramatic.",
+              "start": 506.3,
+              "end": 506.72
+            }
+          ]
+        },
+        {
+          "start": 507.54,
+          "end": 508.68,
+          "text": "This is bearable.",
+          "words": [
+            {
+              "word": " This",
+              "start": 507.54,
+              "end": 508.0
+            },
+            {
+              "word": " is",
+              "start": 508.0,
+              "end": 508.14
+            },
+            {
+              "word": " bearable.",
+              "start": 508.14,
+              "end": 508.68
+            }
+          ]
+        },
+        {
+          "start": 509.26,
+          "end": 513.0,
+          "text": "But on the other hand, if you observe the exponential time graph,",
+          "words": [
+            {
+              "word": " But",
+              "start": 509.26,
+              "end": 509.64
+            },
+            {
+              "word": " on",
+              "start": 509.64,
+              "end": 509.78
+            },
+            {
+              "word": " the",
+              "start": 509.78,
+              "end": 509.92
+            },
+            {
+              "word": " other",
+              "start": 509.92,
+              "end": 510.08
+            },
+            {
+              "word": " hand,",
+              "start": 510.08,
+              "end": 510.42
+            },
+            {
+              "word": " if",
+              "start": 510.46,
+              "end": 510.62
+            },
+            {
+              "word": " you",
+              "start": 510.62,
+              "end": 510.72
+            },
+            {
+              "word": " observe",
+              "start": 510.72,
+              "end": 511.08
+            },
+            {
+              "word": " the",
+              "start": 511.08,
+              "end": 511.32
+            },
+            {
+              "word": " exponential",
+              "start": 511.32,
+              "end": 512.0
+            },
+            {
+              "word": " time",
+              "start": 512.0,
+              "end": 512.66
+            },
+            {
+              "word": " graph,",
+              "start": 512.66,
+              "end": 513.0
+            }
+          ]
+        },
+        {
+          "start": 513.78,
+          "end": 519.76,
+          "text": "as the size of the input increases, the change in time is drastic.",
+          "words": [
+            {
+              "word": " as",
+              "start": 513.78,
+              "end": 514.18
+            },
+            {
+              "word": " the",
+              "start": 514.18,
+              "end": 514.4
+            },
+            {
+              "word": " size",
+              "start": 514.4,
+              "end": 514.82
+            },
+            {
+              "word": " of",
+              "start": 514.82,
+              "end": 515.1
+            },
+            {
+              "word": " the",
+              "start": 515.1,
+              "end": 515.26
+            },
+            {
+              "word": " input",
+              "start": 515.26,
+              "end": 515.68
+            },
+            {
+              "word": " increases,",
+              "start": 515.68,
+              "end": 516.42
+            },
+            {
+              "word": " the",
+              "start": 517.06,
+              "end": 517.28
+            },
+            {
+              "word": " change",
+              "start": 517.28,
+              "end": 517.76
+            },
+            {
+              "word": " in",
+              "start": 517.76,
+              "end": 518.06
+            },
+            {
+              "word": " time",
+              "start": 518.06,
+              "end": 518.38
+            },
+            {
+              "word": " is",
+              "start": 518.38,
+              "end": 518.86
+            },
+            {
+              "word": " drastic.",
+              "start": 518.86,
+              "end": 519.76
+            }
+          ]
+        },
+        {
+          "start": 520.68,
+          "end": 527.66,
+          "text": "And this is unbearable because even for smaller size inputs, the time taken is so large.",
+          "words": [
+            {
+              "word": " And",
+              "start": 520.68,
+              "end": 521.36
+            },
+            {
+              "word": " this",
+              "start": 521.36,
+              "end": 521.7
+            },
+            {
+              "word": " is",
+              "start": 521.7,
+              "end": 521.98
+            },
+            {
+              "word": " unbearable",
+              "start": 521.98,
+              "end": 522.8
+            },
+            {
+              "word": " because",
+              "start": 522.8,
+              "end": 523.38
+            },
+            {
+              "word": " even",
+              "start": 523.38,
+              "end": 523.78
+            },
+            {
+              "word": " for",
+              "start": 523.78,
+              "end": 524.02
+            },
+            {
+              "word": " smaller",
+              "start": 524.02,
+              "end": 524.48
+            },
+            {
+              "word": " size",
+              "start": 524.48,
+              "end": 524.82
+            },
+            {
+              "word": " inputs,",
+              "start": 524.82,
+              "end": 525.36
+            },
+            {
+              "word": " the",
+              "start": 525.86,
+              "end": 526.04
+            },
+            {
+              "word": " time",
+              "start": 526.04,
+              "end": 526.38
+            },
+            {
+              "word": " taken",
+              "start": 526.38,
+              "end": 526.7
+            },
+            {
+              "word": " is",
+              "start": 526.7,
+              "end": 526.94
+            },
+            {
+              "word": " so",
+              "start": 526.94,
+              "end": 527.24
+            },
+            {
+              "word": " large.",
+              "start": 527.24,
+              "end": 527.66
+            }
+          ]
+        },
+        {
+          "start": 528.66,
+          "end": 534.88,
+          "text": "So with this graph, I hope it is clear what is the difference between polynomial and exponential time.",
+          "words": [
+            {
+              "word": " So",
+              "start": 528.5999999999999,
+              "end": 528.92
+            },
+            {
+              "word": " with",
+              "start": 528.92,
+              "end": 529.14
+            },
+            {
+              "word": " this",
+              "start": 529.14,
+              "end": 529.34
+            },
+            {
+              "word": " graph,",
+              "start": 529.34,
+              "end": 529.7
+            },
+            {
+              "word": " I",
+              "start": 529.92,
+              "end": 530.06
+            },
+            {
+              "word": " hope",
+              "start": 530.06,
+              "end": 530.3
+            },
+            {
+              "word": " it",
+              "start": 530.3,
+              "end": 530.42
+            },
+            {
+              "word": " is",
+              "start": 530.42,
+              "end": 530.56
+            },
+            {
+              "word": " clear",
+              "start": 530.56,
+              "end": 530.88
+            },
+            {
+              "word": " what",
+              "start": 530.88,
+              "end": 531.4
+            },
+            {
+              "word": " is",
+              "start": 531.4,
+              "end": 531.54
+            },
+            {
+              "word": " the",
+              "start": 531.54,
+              "end": 531.7
+            },
+            {
+              "word": " difference",
+              "start": 531.7,
+              "end": 532.08
+            },
+            {
+              "word": " between",
+              "start": 532.08,
+              "end": 532.52
+            },
+            {
+              "word": " polynomial",
+              "start": 532.52,
+              "end": 533.08
+            },
+            {
+              "word": " and",
+              "start": 533.08,
+              "end": 533.88
+            },
+            {
+              "word": " exponential",
+              "start": 533.88,
+              "end": 534.32
+            },
+            {
+              "word": " time.",
+              "start": 534.32,
+              "end": 534.88
+            }
+          ]
+        },
+        {
+          "start": 535.52,
+          "end": 541.74,
+          "text": "And this means we are done with this topic also and we are done with all the topics of this lecture.",
+          "words": [
+            {
+              "word": " And",
+              "start": 535.52,
+              "end": 536.16
+            },
+            {
+              "word": " this",
+              "start": 536.16,
+              "end": 536.32
+            },
+            {
+              "word": " means",
+              "start": 536.32,
+              "end": 536.52
+            },
+            {
+              "word": " we",
+              "start": 536.52,
+              "end": 536.76
+            },
+            {
+              "word": " are",
+              "start": 536.76,
+              "end": 536.86
+            },
+            {
+              "word": " done",
+              "start": 536.86,
+              "end": 537.06
+            },
+            {
+              "word": " with",
+              "start": 537.06,
+              "end": 537.26
+            },
+            {
+              "word": " this",
+              "start": 537.26,
+              "end": 537.46
+            },
+            {
+              "word": " topic",
+              "start": 537.46,
+              "end": 537.82
+            },
+            {
+              "word": " also",
+              "start": 537.82,
+              "end": 538.24
+            },
+            {
+              "word": " and",
+              "start": 538.24,
+              "end": 538.98
+            },
+            {
+              "word": " we",
+              "start": 538.98,
+              "end": 539.36
+            },
+            {
+              "word": " are",
+              "start": 539.36,
+              "end": 539.48
+            },
+            {
+              "word": " done",
+              "start": 539.48,
+              "end": 539.7
+            },
+            {
+              "word": " with",
+              "start": 539.7,
+              "end": 539.92
+            },
+            {
+              "word": " all",
+              "start": 539.92,
+              "end": 540.24
+            },
+            {
+              "word": " the",
+              "start": 540.24,
+              "end": 540.42
+            },
+            {
+              "word": " topics",
+              "start": 540.42,
+              "end": 540.74
+            },
+            {
+              "word": " of",
+              "start": 540.74,
+              "end": 541.14
+            },
+            {
+              "word": " this",
+              "start": 541.14,
+              "end": 541.38
+            },
+            {
+              "word": " lecture.",
+              "start": 541.38,
+              "end": 541.74
+            }
+          ]
+        },
+        {
+          "start": 542.5,
+          "end": 546.44,
+          "text": "In the next lecture, we will discuss the nature of undecidable problems.",
+          "words": [
+            {
+              "word": " In",
+              "start": 542.5,
+              "end": 542.76
+            },
+            {
+              "word": " the",
+              "start": 542.76,
+              "end": 542.86
+            },
+            {
+              "word": " next",
+              "start": 542.86,
+              "end": 543.06
+            },
+            {
+              "word": " lecture,",
+              "start": 543.06,
+              "end": 543.4
+            },
+            {
+              "word": " we",
+              "start": 543.5,
+              "end": 543.64
+            },
+            {
+              "word": " will",
+              "start": 543.64,
+              "end": 543.78
+            },
+            {
+              "word": " discuss",
+              "start": 543.78,
+              "end": 544.1
+            },
+            {
+              "word": " the",
+              "start": 544.1,
+              "end": 544.42
+            },
+            {
+              "word": " nature",
+              "start": 544.42,
+              "end": 544.8
+            },
+            {
+              "word": " of",
+              "start": 544.8,
+              "end": 545.12
+            },
+            {
+              "word": " undecidable",
+              "start": 545.12,
+              "end": 545.88
+            },
+            {
+              "word": " problems.",
+              "start": 545.88,
+              "end": 546.44
+            }
+          ]
+        },
+        {
+          "start": 547.1,
+          "end": 554.94,
+          "text": "We will consider an example through which we will visualize why undecidable problems are called undecidable.",
+          "words": [
+            {
+              "word": " We",
+              "start": 547.1,
+              "end": 547.48
+            },
+            {
+              "word": " will",
+              "start": 547.48,
+              "end": 547.62
+            },
+            {
+              "word": " consider",
+              "start": 547.62,
+              "end": 548.02
+            },
+            {
+              "word": " an",
+              "start": 548.02,
+              "end": 548.28
+            },
+            {
+              "word": " example",
+              "start": 548.28,
+              "end": 548.84
+            },
+            {
+              "word": " through",
+              "start": 548.84,
+              "end": 549.36
+            },
+            {
+              "word": " which",
+              "start": 549.36,
+              "end": 549.56
+            },
+            {
+              "word": " we",
+              "start": 549.56,
+              "end": 549.76
+            },
+            {
+              "word": " will",
+              "start": 549.76,
+              "end": 549.92
+            },
+            {
+              "word": " visualize",
+              "start": 549.92,
+              "end": 550.52
+            },
+            {
+              "word": " why",
+              "start": 550.52,
+              "end": 551.44
+            },
+            {
+              "word": " undecidable",
+              "start": 551.44,
+              "end": 552.54
+            },
+            {
+              "word": " problems",
+              "start": 552.54,
+              "end": 553.12
+            },
+            {
+              "word": " are",
+              "start": 553.12,
+              "end": 553.6
+            },
+            {
+              "word": " called",
+              "start": 553.6,
+              "end": 553.98
+            },
+            {
+              "word": " undecidable.",
+              "start": 553.98,
+              "end": 554.94
+            }
+          ]
+        },
+        {
+          "start": 555.54,
+          "end": 557.52,
+          "text": "So thank you for watching this lecture.",
+          "words": [
+            {
+              "word": " So",
+              "start": 555.54,
+              "end": 556.06
+            },
+            {
+              "word": " thank",
+              "start": 556.06,
+              "end": 556.4
+            },
+            {
+              "word": " you",
+              "start": 556.4,
+              "end": 556.5
+            },
+            {
+              "word": " for",
+              "start": 556.5,
+              "end": 556.66
+            },
+            {
+              "word": " watching",
+              "start": 556.66,
+              "end": 556.94
+            },
+            {
+              "word": " this",
+              "start": 556.94,
+              "end": 557.18
+            },
+            {
+              "word": " lecture.",
+              "start": 557.18,
+              "end": 557.52
+            }
+          ]
+        },
+        {
+          "start": 558.08,
+          "end": 559.7,
+          "text": "I will see you in the next one.",
+          "words": [
+            {
+              "word": " I",
+              "start": 558.08,
+              "end": 558.1
+            },
+            {
+              "word": " will",
+              "start": 558.1,
+              "end": 558.26
+            },
+            {
+              "word": " see",
+              "start": 558.26,
+              "end": 558.48
+            },
+            {
+              "word": " you",
+              "start": 558.48,
+              "end": 558.66
+            },
+            {
+              "word": " in",
+              "start": 558.66,
+              "end": 558.98
+            },
+            {
+              "word": " the",
+              "start": 558.98,
+              "end": 559.08
+            },
+            {
+              "word": " next",
+              "start": 559.08,
+              "end": 559.34
+            },
+            {
+              "word": " one.",
+              "start": 559.34,
+              "end": 559.7
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 5.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 6.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 33.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 49.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 285.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 286.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 291.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 454.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 9,
+        "timestamp": 466.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 537.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 557.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 12,
+        "timestamp": 558.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 13,
+        "timestamp": 561.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000013.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 14,
+        "timestamp": 562.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000014.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 15,
+        "timestamp": 564.0,
+        "path": "data/processed\\lecture_025\\frames\\frame_000015.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 16,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    }
+  }
+}

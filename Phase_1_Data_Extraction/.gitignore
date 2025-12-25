@@ -6,7 +6,6 @@ __pycache__/
 
 # Data
 data/raw_videos/
-data/processed/
 *.mp4
 *.wav
 

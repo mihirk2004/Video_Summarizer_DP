@@ -1,0 +1,7314 @@
+{
+  "video_id": "lecture_011",
+  "metadata": {
+    "original_path": "data\\raw_videos\\cs_lecture_11.mp4",
+    "duration": 0.0,
+    "fps": 30.0,
+    "resolution": "640x360",
+    "processing_date": "2025-12-24T15:04:24.318444",
+    "subject": "STEM",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_011\\audio.wav",
+    "transcript": {
+      "text": " In the last presentations, we solved four problems on bigot notation. Now, in this lecture, we will solve two more problems on bigot notation. This is set number three on bigot notation solved problems. So, let's get started and let's see what are the topics. In this lecture, we will solve two problems on bigot notation. So, let's proceed. The problem number one is, find the upper bound for fn equal to 2n cube minus 2n square. I want you to pause this video for a while and try to solve this problem on your own. I hope you're done. Let's solve this problem together. In the last presentation, I proposed the three step method to solve these type of problems. The step number one is to find the dominant term first. The step number two is to assume some gn according to the dominant term. And step number three is to apply the bigot definition. So, now let's follow the same three step method to solve this problem. So, here is the solution. First, we need to find the dominant term. The dominant term in this expression is clearly 2n cube because 2n cube is greater than 2n square. Therefore, the dominant term is 2n cube. Now, what about the gn? Step number two is to assume some gn according to the dominant term. Now, let's assume that gn is equal to n cube as it can be the least upper bound for 2n cube. We can assume some constant c may be equal to 2 or greater than 2 and this might become the least upper bound for 2n cube and this entire expression. So, we are assuming that gn is equal to n cube. Now, let's apply step number three. According to step number three, we need to apply the bigot definition. So, now let's apply the definition of bigot notation. According to the definition of bigot notation, fn is equal to bigot of gn if and only if fn is less than or equal to c dot gn for all values of n where n is greater than or equal to n naught and c and n naught are constants. Let us assume some value of c. Let's say c is equal to 2. We are assuming c to be 2 because it is my intuition that 2n cube will surpass at some point 2n cube minus 2n square as we are subtracting 2n square from 2n cube in fn. So, is it true that fn is less than or equal to c dot gn or 2n cube minus 2n square is less than or equal to 2n cube? Let's find out. Let's draw the table for fn which is 2n cube minus 2n square and c dot gn which is 2n cube. Now, let's plug in the values of n one by one. Let us assume that n is equal to one. If n is equal to one, then 2n cube minus 2n square will be equal to zero because as n is one, this becomes 2 minus 2 and 2 minus 2 is equal to zero. What about this expression? If we plug in the value of n which is equal to one here, we will get 2 into 1 which is equal to 2. We can observe that for n equal to one, c dot gn is greater than fn. Now, let's take n equal to 2. If n is 2, this expression becomes 8 and this expression becomes 16. At this point also, we can observe that c dot gn is greater than fn. What if we take n equal to 3? This expression becomes 36 and this expression becomes 54. If we take n as 4, we will get 96 here and we will get 128 here. We can observe that if n is greater than or equal to one, c dot gn becomes greater than fn. So, clearly n naught is equal to one and this means that this expression is true. 2n cube minus 2n square is indeed less than or equal to 2n cube when n naught is equal to one. So, we can say that 2n cube minus 2n square is equal to big O of n cube for c equal to 2 and n naught equal to one. We are getting big O of n cube here because gn is n cube. So, n cube is the upper bound of fn. So, with this I hope it is clear how to solve these type of problems. Now, let's proceed and solve problem number 2. Problem number 2 says, find the upper bound for fn equal to n to the power of 4 plus 100n square plus 35. Again, I want you to solve this problem on your own. For this, please pause the video and try solving this problem. I hope you are done. Let's solve this problem using the same three step method. Step number 1 is to find the dominant term in this expression. What do you think? What is the dominant term in this expression? Clearly, it is n to the power of 4. Because n to the power of 4 is greater than 100n square and it is also greater than 35. Therefore, the dominant term in this expression is n to the power of 4. What about gn? We know step number 2 is to assume some gn according to the dominant term. Let's say gn is equal to n to the power of 4. It is always a good idea to assume gn closer to the dominant term because we want to know the least upper bound of fn. Not only upper bound but least upper bound. Although in the question it is written, find the upper bound. So, let us assume gn is equal to n to the power of 4. Now, let's apply the big O definition. According to step number 3, we now need to apply the big O definition. According to the definition of big O notation, fn is equal to big O of gn if and only if fn is less than or equal to c dot gn. For all values of n where n is greater than or equal to n naught and c and n naught are constants. Now, what is fn? fn is n to the power of 4 plus 100 n square plus 35. And we are assuming gn to be equal to n to the power of 4. If this is true, then fn less than or equal to c dot gn must be true. Let us assume c is equal to 2. We are assuming c to be 2. And this means that we want to find out whether n to the power of 4 plus 100 n square plus 35 is less than or equal to 2n to the power of 4 or naught. Is it true? What do you think? I want you to draw the table for fn and c dot gn. I want you to plug in the values of n and identify the value n naught. And this means I want you to prove that 2n to the power of 4 is indeed greater than or equal to n to the power of 4 plus 100 n square plus 35. Or in other words, prove that n power 4 is the upper bound of fn. So, this will be your homework. I hope with these the problems are clear. And this means we are done with this presentation. Okay friends, this is it for now. Thank you for watching this presentation. I will see you in the next one.",
+      "segments": [
+        {
+          "start": 5.580000000000001,
+          "end": 10.82,
+          "text": "In the last presentations, we solved four problems on bigot notation.",
+          "words": [
+            {
+              "word": " In",
+              "start": 5.580000000000001,
+              "end": 6.3
+            },
+            {
+              "word": " the",
+              "start": 6.3,
+              "end": 6.44
+            },
+            {
+              "word": " last",
+              "start": 6.44,
+              "end": 6.68
+            },
+            {
+              "word": " presentations,",
+              "start": 6.68,
+              "end": 7.28
+            },
+            {
+              "word": " we",
+              "start": 7.56,
+              "end": 7.82
+            },
+            {
+              "word": " solved",
+              "start": 7.82,
+              "end": 8.34
+            },
+            {
+              "word": " four",
+              "start": 8.34,
+              "end": 8.94
+            },
+            {
+              "word": " problems",
+              "start": 8.94,
+              "end": 9.5
+            },
+            {
+              "word": " on",
+              "start": 9.5,
+              "end": 9.96
+            },
+            {
+              "word": " bigot",
+              "start": 9.96,
+              "end": 10.36
+            },
+            {
+              "word": " notation.",
+              "start": 10.36,
+              "end": 10.82
+            }
+          ]
+        },
+        {
+          "start": 11.36,
+          "end": 16.48,
+          "text": "Now, in this lecture, we will solve two more problems on bigot notation.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 11.36,
+              "end": 11.84
+            },
+            {
+              "word": " in",
+              "start": 12.02,
+              "end": 12.26
+            },
+            {
+              "word": " this",
+              "start": 12.26,
+              "end": 12.42
+            },
+            {
+              "word": " lecture,",
+              "start": 12.42,
+              "end": 12.8
+            },
+            {
+              "word": " we",
+              "start": 13.14,
+              "end": 13.3
+            },
+            {
+              "word": " will",
+              "start": 13.3,
+              "end": 13.46
+            },
+            {
+              "word": " solve",
+              "start": 13.46,
+              "end": 13.92
+            },
+            {
+              "word": " two",
+              "start": 13.92,
+              "end": 14.28
+            },
+            {
+              "word": " more",
+              "start": 14.28,
+              "end": 14.58
+            },
+            {
+              "word": " problems",
+              "start": 14.58,
+              "end": 15.06
+            },
+            {
+              "word": " on",
+              "start": 15.06,
+              "end": 15.52
+            },
+            {
+              "word": " bigot",
+              "start": 15.52,
+              "end": 15.98
+            },
+            {
+              "word": " notation.",
+              "start": 15.98,
+              "end": 16.48
+            }
+          ]
+        },
+        {
+          "start": 16.84,
+          "end": 20.66,
+          "text": "This is set number three on bigot notation solved problems.",
+          "words": [
+            {
+              "word": " This",
+              "start": 16.84,
+              "end": 17.12
+            },
+            {
+              "word": " is",
+              "start": 17.12,
+              "end": 17.26
+            },
+            {
+              "word": " set",
+              "start": 17.26,
+              "end": 17.44
+            },
+            {
+              "word": " number",
+              "start": 17.44,
+              "end": 17.76
+            },
+            {
+              "word": " three",
+              "start": 17.76,
+              "end": 18.2
+            },
+            {
+              "word": " on",
+              "start": 18.2,
+              "end": 18.74
+            },
+            {
+              "word": " bigot",
+              "start": 18.74,
+              "end": 19.2
+            },
+            {
+              "word": " notation",
+              "start": 19.2,
+              "end": 19.68
+            },
+            {
+              "word": " solved",
+              "start": 19.68,
+              "end": 20.14
+            },
+            {
+              "word": " problems.",
+              "start": 20.14,
+              "end": 20.66
+            }
+          ]
+        },
+        {
+          "start": 21.26,
+          "end": 23.98,
+          "text": "So, let's get started and let's see what are the topics.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 21.26,
+              "end": 21.58
+            },
+            {
+              "word": " let's",
+              "start": 21.62,
+              "end": 21.84
+            },
+            {
+              "word": " get",
+              "start": 21.84,
+              "end": 21.96
+            },
+            {
+              "word": " started",
+              "start": 21.96,
+              "end": 22.34
+            },
+            {
+              "word": " and",
+              "start": 22.34,
+              "end": 22.82
+            },
+            {
+              "word": " let's",
+              "start": 22.82,
+              "end": 23.04
+            },
+            {
+              "word": " see",
+              "start": 23.04,
+              "end": 23.18
+            },
+            {
+              "word": " what",
+              "start": 23.18,
+              "end": 23.42
+            },
+            {
+              "word": " are",
+              "start": 23.42,
+              "end": 23.56
+            },
+            {
+              "word": " the",
+              "start": 23.56,
+              "end": 23.64
+            },
+            {
+              "word": " topics.",
+              "start": 23.64,
+              "end": 23.98
+            }
+          ]
+        },
+        {
+          "start": 25.02,
+          "end": 29.36,
+          "text": "In this lecture, we will solve two problems on bigot notation.",
+          "words": [
+            {
+              "word": " In",
+              "start": 25.02,
+              "end": 25.66
+            },
+            {
+              "word": " this",
+              "start": 25.66,
+              "end": 25.86
+            },
+            {
+              "word": " lecture,",
+              "start": 25.86,
+              "end": 26.32
+            },
+            {
+              "word": " we",
+              "start": 26.54,
+              "end": 26.7
+            },
+            {
+              "word": " will",
+              "start": 26.7,
+              "end": 26.84
+            },
+            {
+              "word": " solve",
+              "start": 26.84,
+              "end": 27.1
+            },
+            {
+              "word": " two",
+              "start": 27.1,
+              "end": 27.46
+            },
+            {
+              "word": " problems",
+              "start": 27.46,
+              "end": 27.98
+            },
+            {
+              "word": " on",
+              "start": 27.98,
+              "end": 28.48
+            },
+            {
+              "word": " bigot",
+              "start": 28.48,
+              "end": 28.9
+            },
+            {
+              "word": " notation.",
+              "start": 28.9,
+              "end": 29.36
+            }
+          ]
+        },
+        {
+          "start": 29.68,
+          "end": 30.58,
+          "text": "So, let's proceed.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 29.68,
+              "end": 29.98
+            },
+            {
+              "word": " let's",
+              "start": 30.0,
+              "end": 30.2
+            },
+            {
+              "word": " proceed.",
+              "start": 30.2,
+              "end": 30.58
+            }
+          ]
+        },
+        {
+          "start": 31.880000000000003,
+          "end": 40.12,
+          "text": "The problem number one is, find the upper bound for fn equal to 2n cube minus 2n square.",
+          "words": [
+            {
+              "word": " The",
+              "start": 31.880000000000003,
+              "end": 32.52
+            },
+            {
+              "word": " problem",
+              "start": 32.52,
+              "end": 32.82
+            },
+            {
+              "word": " number",
+              "start": 32.82,
+              "end": 33.08
+            },
+            {
+              "word": " one",
+              "start": 33.08,
+              "end": 33.36
+            },
+            {
+              "word": " is,",
+              "start": 33.36,
+              "end": 33.84
+            },
+            {
+              "word": " find",
+              "start": 34.5,
+              "end": 34.84
+            },
+            {
+              "word": " the",
+              "start": 34.84,
+              "end": 35.08
+            },
+            {
+              "word": " upper",
+              "start": 35.08,
+              "end": 35.38
+            },
+            {
+              "word": " bound",
+              "start": 35.38,
+              "end": 35.88
+            },
+            {
+              "word": " for",
+              "start": 35.88,
+              "end": 36.24
+            },
+            {
+              "word": " fn",
+              "start": 36.24,
+              "end": 36.78
+            },
+            {
+              "word": " equal",
+              "start": 36.78,
+              "end": 37.18
+            },
+            {
+              "word": " to",
+              "start": 37.18,
+              "end": 37.58
+            },
+            {
+              "word": " 2n",
+              "start": 37.58,
+              "end": 38.36
+            },
+            {
+              "word": " cube",
+              "start": 38.36,
+              "end": 38.6
+            },
+            {
+              "word": " minus",
+              "start": 38.6,
+              "end": 39.22
+            },
+            {
+              "word": " 2n",
+              "start": 39.22,
+              "end": 39.86
+            },
+            {
+              "word": " square.",
+              "start": 39.86,
+              "end": 40.12
+            }
+          ]
+        },
+        {
+          "start": 40.86,
+          "end": 46.12,
+          "text": "I want you to pause this video for a while and try to solve this problem on your own.",
+          "words": [
+            {
+              "word": " I",
+              "start": 40.86,
+              "end": 41.32
+            },
+            {
+              "word": " want",
+              "start": 41.32,
+              "end": 41.56
+            },
+            {
+              "word": " you",
+              "start": 41.56,
+              "end": 41.8
+            },
+            {
+              "word": " to",
+              "start": 41.8,
+              "end": 41.92
+            },
+            {
+              "word": " pause",
+              "start": 41.92,
+              "end": 42.2
+            },
+            {
+              "word": " this",
+              "start": 42.2,
+              "end": 42.5
+            },
+            {
+              "word": " video",
+              "start": 42.5,
+              "end": 42.88
+            },
+            {
+              "word": " for",
+              "start": 42.88,
+              "end": 43.1
+            },
+            {
+              "word": " a",
+              "start": 43.1,
+              "end": 43.24
+            },
+            {
+              "word": " while",
+              "start": 43.24,
+              "end": 43.46
+            },
+            {
+              "word": " and",
+              "start": 43.46,
+              "end": 43.9
+            },
+            {
+              "word": " try",
+              "start": 43.9,
+              "end": 44.12
+            },
+            {
+              "word": " to",
+              "start": 44.12,
+              "end": 44.3
+            },
+            {
+              "word": " solve",
+              "start": 44.3,
+              "end": 44.62
+            },
+            {
+              "word": " this",
+              "start": 44.62,
+              "end": 44.84
+            },
+            {
+              "word": " problem",
+              "start": 44.84,
+              "end": 45.3
+            },
+            {
+              "word": " on",
+              "start": 45.3,
+              "end": 45.74
+            },
+            {
+              "word": " your",
+              "start": 45.74,
+              "end": 45.88
+            },
+            {
+              "word": " own.",
+              "start": 45.88,
+              "end": 46.12
+            }
+          ]
+        },
+        {
+          "start": 48.24,
+          "end": 51.24,
+          "text": "I hope you're done. Let's solve this problem together.",
+          "words": [
+            {
+              "word": " I",
+              "start": 48.24,
+              "end": 48.88
+            },
+            {
+              "word": " hope",
+              "start": 48.88,
+              "end": 49.06
+            },
+            {
+              "word": " you're",
+              "start": 49.06,
+              "end": 49.3
+            },
+            {
+              "word": " done.",
+              "start": 49.3,
+              "end": 49.44
+            },
+            {
+              "word": " Let's",
+              "start": 49.9,
+              "end": 50.1
+            },
+            {
+              "word": " solve",
+              "start": 50.1,
+              "end": 50.32
+            },
+            {
+              "word": " this",
+              "start": 50.32,
+              "end": 50.52
+            },
+            {
+              "word": " problem",
+              "start": 50.52,
+              "end": 50.88
+            },
+            {
+              "word": " together.",
+              "start": 50.88,
+              "end": 51.24
+            }
+          ]
+        },
+        {
+          "start": 51.24,
+          "end": 57.84,
+          "text": "In the last presentation, I proposed the three step method to solve these type of problems.",
+          "words": [
+            {
+              "word": " In",
+              "start": 51.24,
+              "end": 52.18
+            },
+            {
+              "word": " the",
+              "start": 52.18,
+              "end": 52.3
+            },
+            {
+              "word": " last",
+              "start": 52.3,
+              "end": 52.56
+            },
+            {
+              "word": " presentation,",
+              "start": 52.56,
+              "end": 53.08
+            },
+            {
+              "word": " I",
+              "start": 53.4,
+              "end": 53.66
+            },
+            {
+              "word": " proposed",
+              "start": 53.66,
+              "end": 54.12
+            },
+            {
+              "word": " the",
+              "start": 54.12,
+              "end": 54.56
+            },
+            {
+              "word": " three",
+              "start": 54.56,
+              "end": 54.84
+            },
+            {
+              "word": " step",
+              "start": 54.84,
+              "end": 55.16
+            },
+            {
+              "word": " method",
+              "start": 55.16,
+              "end": 55.66
+            },
+            {
+              "word": " to",
+              "start": 55.66,
+              "end": 56.16
+            },
+            {
+              "word": " solve",
+              "start": 56.16,
+              "end": 56.54
+            },
+            {
+              "word": " these",
+              "start": 56.54,
+              "end": 56.84
+            },
+            {
+              "word": " type",
+              "start": 56.84,
+              "end": 57.18
+            },
+            {
+              "word": " of",
+              "start": 57.18,
+              "end": 57.4
+            },
+            {
+              "word": " problems.",
+              "start": 57.4,
+              "end": 57.84
+            }
+          ]
+        },
+        {
+          "start": 58.94,
+          "end": 62.96,
+          "text": "The step number one is to find the dominant term first.",
+          "words": [
+            {
+              "word": " The",
+              "start": 58.94,
+              "end": 59.6
+            },
+            {
+              "word": " step",
+              "start": 59.6,
+              "end": 59.82
+            },
+            {
+              "word": " number",
+              "start": 59.82,
+              "end": 60.08
+            },
+            {
+              "word": " one",
+              "start": 60.08,
+              "end": 60.46
+            },
+            {
+              "word": " is",
+              "start": 60.46,
+              "end": 60.82
+            },
+            {
+              "word": " to",
+              "start": 60.82,
+              "end": 60.98
+            },
+            {
+              "word": " find",
+              "start": 60.98,
+              "end": 61.38
+            },
+            {
+              "word": " the",
+              "start": 61.38,
+              "end": 61.66
+            },
+            {
+              "word": " dominant",
+              "start": 61.66,
+              "end": 62.16
+            },
+            {
+              "word": " term",
+              "start": 62.16,
+              "end": 62.54
+            },
+            {
+              "word": " first.",
+              "start": 62.54,
+              "end": 62.96
+            }
+          ]
+        },
+        {
+          "start": 63.8,
+          "end": 68.58,
+          "text": "The step number two is to assume some gn according to the dominant term.",
+          "words": [
+            {
+              "word": " The",
+              "start": 63.8,
+              "end": 63.98
+            },
+            {
+              "word": " step",
+              "start": 63.98,
+              "end": 64.26
+            },
+            {
+              "word": " number",
+              "start": 64.26,
+              "end": 64.54
+            },
+            {
+              "word": " two",
+              "start": 64.54,
+              "end": 64.84
+            },
+            {
+              "word": " is",
+              "start": 64.84,
+              "end": 65.18
+            },
+            {
+              "word": " to",
+              "start": 65.18,
+              "end": 65.34
+            },
+            {
+              "word": " assume",
+              "start": 65.34,
+              "end": 65.8
+            },
+            {
+              "word": " some",
+              "start": 65.8,
+              "end": 66.1
+            },
+            {
+              "word": " gn",
+              "start": 66.1,
+              "end": 66.64
+            },
+            {
+              "word": " according",
+              "start": 66.64,
+              "end": 67.2
+            },
+            {
+              "word": " to",
+              "start": 67.2,
+              "end": 67.54
+            },
+            {
+              "word": " the",
+              "start": 67.54,
+              "end": 67.68
+            },
+            {
+              "word": " dominant",
+              "start": 67.68,
+              "end": 68.12
+            },
+            {
+              "word": " term.",
+              "start": 68.12,
+              "end": 68.58
+            }
+          ]
+        },
+        {
+          "start": 69.44,
+          "end": 72.86,
+          "text": "And step number three is to apply the bigot definition.",
+          "words": [
+            {
+              "word": " And",
+              "start": 69.44,
+              "end": 69.56
+            },
+            {
+              "word": " step",
+              "start": 69.56,
+              "end": 69.82
+            },
+            {
+              "word": " number",
+              "start": 69.82,
+              "end": 70.08
+            },
+            {
+              "word": " three",
+              "start": 70.08,
+              "end": 70.44
+            },
+            {
+              "word": " is",
+              "start": 70.44,
+              "end": 70.9
+            },
+            {
+              "word": " to",
+              "start": 70.9,
+              "end": 71.08
+            },
+            {
+              "word": " apply",
+              "start": 71.08,
+              "end": 71.52
+            },
+            {
+              "word": " the",
+              "start": 71.52,
+              "end": 71.9
+            },
+            {
+              "word": " bigot",
+              "start": 71.9,
+              "end": 72.36
+            },
+            {
+              "word": " definition.",
+              "start": 72.36,
+              "end": 72.86
+            }
+          ]
+        },
+        {
+          "start": 73.9,
+          "end": 78.8,
+          "text": "So, now let's follow the same three step method to solve this problem.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 73.9,
+              "end": 74.5
+            },
+            {
+              "word": " now",
+              "start": 74.52,
+              "end": 74.78
+            },
+            {
+              "word": " let's",
+              "start": 74.78,
+              "end": 75.12
+            },
+            {
+              "word": " follow",
+              "start": 75.12,
+              "end": 75.38
+            },
+            {
+              "word": " the",
+              "start": 75.38,
+              "end": 75.6
+            },
+            {
+              "word": " same",
+              "start": 75.6,
+              "end": 75.98
+            },
+            {
+              "word": " three",
+              "start": 75.98,
+              "end": 76.34
+            },
+            {
+              "word": " step",
+              "start": 76.34,
+              "end": 76.6
+            },
+            {
+              "word": " method",
+              "start": 76.6,
+              "end": 77.16
+            },
+            {
+              "word": " to",
+              "start": 77.16,
+              "end": 77.78
+            },
+            {
+              "word": " solve",
+              "start": 77.78,
+              "end": 78.14
+            },
+            {
+              "word": " this",
+              "start": 78.14,
+              "end": 78.38
+            },
+            {
+              "word": " problem.",
+              "start": 78.38,
+              "end": 78.8
+            }
+          ]
+        },
+        {
+          "start": 78.8,
+          "end": 80.74,
+          "text": "So, here is the solution.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 78.8,
+              "end": 79.82
+            },
+            {
+              "word": " here",
+              "start": 79.88,
+              "end": 80.08
+            },
+            {
+              "word": " is",
+              "start": 80.08,
+              "end": 80.18
+            },
+            {
+              "word": " the",
+              "start": 80.18,
+              "end": 80.3
+            },
+            {
+              "word": " solution.",
+              "start": 80.3,
+              "end": 80.74
+            }
+          ]
+        },
+        {
+          "start": 81.48,
+          "end": 84.3,
+          "text": "First, we need to find the dominant term.",
+          "words": [
+            {
+              "word": " First,",
+              "start": 81.48,
+              "end": 81.98
+            },
+            {
+              "word": " we",
+              "start": 82.3,
+              "end": 82.6
+            },
+            {
+              "word": " need",
+              "start": 82.6,
+              "end": 82.8
+            },
+            {
+              "word": " to",
+              "start": 82.8,
+              "end": 82.98
+            },
+            {
+              "word": " find",
+              "start": 82.98,
+              "end": 83.34
+            },
+            {
+              "word": " the",
+              "start": 83.34,
+              "end": 83.56
+            },
+            {
+              "word": " dominant",
+              "start": 83.56,
+              "end": 83.94
+            },
+            {
+              "word": " term.",
+              "start": 83.94,
+              "end": 84.3
+            }
+          ]
+        },
+        {
+          "start": 85.02,
+          "end": 92.94,
+          "text": "The dominant term in this expression is clearly 2n cube because 2n cube is greater than 2n square.",
+          "words": [
+            {
+              "word": " The",
+              "start": 85.02,
+              "end": 85.52
+            },
+            {
+              "word": " dominant",
+              "start": 85.52,
+              "end": 85.86
+            },
+            {
+              "word": " term",
+              "start": 85.86,
+              "end": 86.24
+            },
+            {
+              "word": " in",
+              "start": 86.24,
+              "end": 86.56
+            },
+            {
+              "word": " this",
+              "start": 86.56,
+              "end": 86.78
+            },
+            {
+              "word": " expression",
+              "start": 86.78,
+              "end": 87.4
+            },
+            {
+              "word": " is",
+              "start": 87.4,
+              "end": 88.06
+            },
+            {
+              "word": " clearly",
+              "start": 88.06,
+              "end": 88.54
+            },
+            {
+              "word": " 2n",
+              "start": 88.54,
+              "end": 89.1
+            },
+            {
+              "word": " cube",
+              "start": 89.1,
+              "end": 89.44
+            },
+            {
+              "word": " because",
+              "start": 89.44,
+              "end": 90.14
+            },
+            {
+              "word": " 2n",
+              "start": 90.14,
+              "end": 90.72
+            },
+            {
+              "word": " cube",
+              "start": 90.72,
+              "end": 91.0
+            },
+            {
+              "word": " is",
+              "start": 91.0,
+              "end": 91.58
+            },
+            {
+              "word": " greater",
+              "start": 91.58,
+              "end": 91.92
+            },
+            {
+              "word": " than",
+              "start": 91.92,
+              "end": 92.18
+            },
+            {
+              "word": " 2n",
+              "start": 92.18,
+              "end": 92.62
+            },
+            {
+              "word": " square.",
+              "start": 92.62,
+              "end": 92.94
+            }
+          ]
+        },
+        {
+          "start": 93.68,
+          "end": 97.1,
+          "text": "Therefore, the dominant term is 2n cube.",
+          "words": [
+            {
+              "word": " Therefore,",
+              "start": 93.68,
+              "end": 94.32
+            },
+            {
+              "word": " the",
+              "start": 94.68,
+              "end": 94.92
+            },
+            {
+              "word": " dominant",
+              "start": 94.92,
+              "end": 95.3
+            },
+            {
+              "word": " term",
+              "start": 95.3,
+              "end": 95.76
+            },
+            {
+              "word": " is",
+              "start": 95.76,
+              "end": 96.16
+            },
+            {
+              "word": " 2n",
+              "start": 96.16,
+              "end": 96.78
+            },
+            {
+              "word": " cube.",
+              "start": 96.78,
+              "end": 97.1
+            }
+          ]
+        },
+        {
+          "start": 98.06,
+          "end": 99.94,
+          "text": "Now, what about the gn?",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 98.06,
+              "end": 98.46
+            },
+            {
+              "word": " what",
+              "start": 98.5,
+              "end": 98.68
+            },
+            {
+              "word": " about",
+              "start": 98.68,
+              "end": 99.12
+            },
+            {
+              "word": " the",
+              "start": 99.12,
+              "end": 99.44
+            },
+            {
+              "word": " gn?",
+              "start": 99.44,
+              "end": 99.94
+            }
+          ]
+        },
+        {
+          "start": 100.42,
+          "end": 105.08,
+          "text": "Step number two is to assume some gn according to the dominant term.",
+          "words": [
+            {
+              "word": " Step",
+              "start": 100.42,
+              "end": 100.76
+            },
+            {
+              "word": " number",
+              "start": 100.76,
+              "end": 101.06
+            },
+            {
+              "word": " two",
+              "start": 101.06,
+              "end": 101.4
+            },
+            {
+              "word": " is",
+              "start": 101.4,
+              "end": 101.68
+            },
+            {
+              "word": " to",
+              "start": 101.68,
+              "end": 101.86
+            },
+            {
+              "word": " assume",
+              "start": 101.86,
+              "end": 102.3
+            },
+            {
+              "word": " some",
+              "start": 102.3,
+              "end": 102.56
+            },
+            {
+              "word": " gn",
+              "start": 102.56,
+              "end": 103.22
+            },
+            {
+              "word": " according",
+              "start": 103.22,
+              "end": 103.74
+            },
+            {
+              "word": " to",
+              "start": 103.74,
+              "end": 104.04
+            },
+            {
+              "word": " the",
+              "start": 104.04,
+              "end": 104.2
+            },
+            {
+              "word": " dominant",
+              "start": 104.2,
+              "end": 104.64
+            },
+            {
+              "word": " term.",
+              "start": 104.64,
+              "end": 105.08
+            }
+          ]
+        },
+        {
+          "start": 105.08,
+          "end": 113.86,
+          "text": "Now, let's assume that gn is equal to n cube as it can be the least upper bound for 2n cube.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 105.08,
+              "end": 105.8
+            },
+            {
+              "word": " let's",
+              "start": 105.86,
+              "end": 106.06
+            },
+            {
+              "word": " assume",
+              "start": 106.06,
+              "end": 106.52
+            },
+            {
+              "word": " that",
+              "start": 106.52,
+              "end": 107.1
+            },
+            {
+              "word": " gn",
+              "start": 107.1,
+              "end": 107.68
+            },
+            {
+              "word": " is",
+              "start": 107.68,
+              "end": 107.98
+            },
+            {
+              "word": " equal",
+              "start": 107.98,
+              "end": 108.42
+            },
+            {
+              "word": " to",
+              "start": 108.42,
+              "end": 108.66
+            },
+            {
+              "word": " n",
+              "start": 108.66,
+              "end": 109.0
+            },
+            {
+              "word": " cube",
+              "start": 109.0,
+              "end": 109.34
+            },
+            {
+              "word": " as",
+              "start": 109.34,
+              "end": 109.92
+            },
+            {
+              "word": " it",
+              "start": 109.92,
+              "end": 110.24
+            },
+            {
+              "word": " can",
+              "start": 110.24,
+              "end": 110.52
+            },
+            {
+              "word": " be",
+              "start": 110.52,
+              "end": 110.74
+            },
+            {
+              "word": " the",
+              "start": 110.74,
+              "end": 110.9
+            },
+            {
+              "word": " least",
+              "start": 110.9,
+              "end": 111.4
+            },
+            {
+              "word": " upper",
+              "start": 111.4,
+              "end": 111.78
+            },
+            {
+              "word": " bound",
+              "start": 111.78,
+              "end": 112.24
+            },
+            {
+              "word": " for",
+              "start": 112.24,
+              "end": 112.94
+            },
+            {
+              "word": " 2n",
+              "start": 112.94,
+              "end": 113.58
+            },
+            {
+              "word": " cube.",
+              "start": 113.58,
+              "end": 113.86
+            }
+          ]
+        },
+        {
+          "start": 114.56,
+          "end": 122.18,
+          "text": "We can assume some constant c may be equal to 2 or greater than 2 and this might become",
+          "words": [
+            {
+              "word": " We",
+              "start": 114.56,
+              "end": 114.9
+            },
+            {
+              "word": " can",
+              "start": 114.9,
+              "end": 115.08
+            },
+            {
+              "word": " assume",
+              "start": 115.08,
+              "end": 115.46
+            },
+            {
+              "word": " some",
+              "start": 115.46,
+              "end": 115.82
+            },
+            {
+              "word": " constant",
+              "start": 115.82,
+              "end": 116.44
+            },
+            {
+              "word": " c",
+              "start": 116.44,
+              "end": 116.94
+            },
+            {
+              "word": " may",
+              "start": 116.94,
+              "end": 117.42
+            },
+            {
+              "word": " be",
+              "start": 117.42,
+              "end": 117.54
+            },
+            {
+              "word": " equal",
+              "start": 117.54,
+              "end": 117.94
+            },
+            {
+              "word": " to",
+              "start": 117.94,
+              "end": 118.2
+            },
+            {
+              "word": " 2",
+              "start": 118.2,
+              "end": 118.54
+            },
+            {
+              "word": " or",
+              "start": 118.54,
+              "end": 118.98
+            },
+            {
+              "word": " greater",
+              "start": 118.98,
+              "end": 119.38
+            },
+            {
+              "word": " than",
+              "start": 119.38,
+              "end": 119.62
+            },
+            {
+              "word": " 2",
+              "start": 119.62,
+              "end": 120.04
+            },
+            {
+              "word": " and",
+              "start": 120.04,
+              "end": 120.68
+            },
+            {
+              "word": " this",
+              "start": 120.68,
+              "end": 121.18
+            },
+            {
+              "word": " might",
+              "start": 121.18,
+              "end": 121.62
+            },
+            {
+              "word": " become",
+              "start": 121.62,
+              "end": 122.18
+            }
+          ]
+        },
+        {
+          "start": 122.18,
+          "end": 127.26,
+          "text": "the least upper bound for 2n cube and this entire expression.",
+          "words": [
+            {
+              "word": " the",
+              "start": 122.18,
+              "end": 122.6
+            },
+            {
+              "word": " least",
+              "start": 122.6,
+              "end": 123.02
+            },
+            {
+              "word": " upper",
+              "start": 123.02,
+              "end": 123.34
+            },
+            {
+              "word": " bound",
+              "start": 123.34,
+              "end": 123.74
+            },
+            {
+              "word": " for",
+              "start": 123.74,
+              "end": 124.2
+            },
+            {
+              "word": " 2n",
+              "start": 124.2,
+              "end": 124.74
+            },
+            {
+              "word": " cube",
+              "start": 124.74,
+              "end": 125.1
+            },
+            {
+              "word": " and",
+              "start": 125.1,
+              "end": 125.84
+            },
+            {
+              "word": " this",
+              "start": 125.84,
+              "end": 126.12
+            },
+            {
+              "word": " entire",
+              "start": 126.12,
+              "end": 126.66
+            },
+            {
+              "word": " expression.",
+              "start": 126.66,
+              "end": 127.26
+            }
+          ]
+        },
+        {
+          "start": 128.06,
+          "end": 131.62,
+          "text": "So, we are assuming that gn is equal to n cube.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 128.06,
+              "end": 128.38
+            },
+            {
+              "word": " we",
+              "start": 128.42,
+              "end": 128.58
+            },
+            {
+              "word": " are",
+              "start": 128.58,
+              "end": 128.66
+            },
+            {
+              "word": " assuming",
+              "start": 128.66,
+              "end": 129.06
+            },
+            {
+              "word": " that",
+              "start": 129.06,
+              "end": 129.48
+            },
+            {
+              "word": " gn",
+              "start": 129.48,
+              "end": 130.06
+            },
+            {
+              "word": " is",
+              "start": 130.06,
+              "end": 130.32
+            },
+            {
+              "word": " equal",
+              "start": 130.32,
+              "end": 130.7
+            },
+            {
+              "word": " to",
+              "start": 130.7,
+              "end": 130.94
+            },
+            {
+              "word": " n",
+              "start": 130.94,
+              "end": 131.32
+            },
+            {
+              "word": " cube.",
+              "start": 131.32,
+              "end": 131.62
+            }
+          ]
+        },
+        {
+          "start": 132.62,
+          "end": 134.3,
+          "text": "Now, let's apply step number three.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 132.35999999999999,
+              "end": 132.7
+            },
+            {
+              "word": " let's",
+              "start": 132.8,
+              "end": 133.04
+            },
+            {
+              "word": " apply",
+              "start": 133.04,
+              "end": 133.36
+            },
+            {
+              "word": " step",
+              "start": 133.36,
+              "end": 133.66
+            },
+            {
+              "word": " number",
+              "start": 133.66,
+              "end": 133.98
+            },
+            {
+              "word": " three.",
+              "start": 133.98,
+              "end": 134.3
+            }
+          ]
+        },
+        {
+          "start": 134.64,
+          "end": 138.58,
+          "text": "According to step number three, we need to apply the bigot definition.",
+          "words": [
+            {
+              "word": " According",
+              "start": 134.64,
+              "end": 134.94
+            },
+            {
+              "word": " to",
+              "start": 134.94,
+              "end": 135.2
+            },
+            {
+              "word": " step",
+              "start": 135.2,
+              "end": 135.42
+            },
+            {
+              "word": " number",
+              "start": 135.42,
+              "end": 135.72
+            },
+            {
+              "word": " three,",
+              "start": 135.72,
+              "end": 136.14
+            },
+            {
+              "word": " we",
+              "start": 136.34,
+              "end": 136.54
+            },
+            {
+              "word": " need",
+              "start": 136.54,
+              "end": 136.7
+            },
+            {
+              "word": " to",
+              "start": 136.7,
+              "end": 136.82
+            },
+            {
+              "word": " apply",
+              "start": 136.82,
+              "end": 137.28
+            },
+            {
+              "word": " the",
+              "start": 137.28,
+              "end": 137.76
+            },
+            {
+              "word": " bigot",
+              "start": 137.76,
+              "end": 138.08
+            },
+            {
+              "word": " definition.",
+              "start": 138.08,
+              "end": 138.58
+            }
+          ]
+        },
+        {
+          "start": 139.24,
+          "end": 142.52,
+          "text": "So, now let's apply the definition of bigot notation.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 139.24,
+              "end": 139.8
+            },
+            {
+              "word": " now",
+              "start": 139.82,
+              "end": 140.0
+            },
+            {
+              "word": " let's",
+              "start": 140.0,
+              "end": 140.26
+            },
+            {
+              "word": " apply",
+              "start": 140.26,
+              "end": 140.58
+            },
+            {
+              "word": " the",
+              "start": 140.58,
+              "end": 140.78
+            },
+            {
+              "word": " definition",
+              "start": 140.78,
+              "end": 141.3
+            },
+            {
+              "word": " of",
+              "start": 141.3,
+              "end": 141.62
+            },
+            {
+              "word": " bigot",
+              "start": 141.62,
+              "end": 142.04
+            },
+            {
+              "word": " notation.",
+              "start": 142.04,
+              "end": 142.52
+            }
+          ]
+        },
+        {
+          "start": 143.2,
+          "end": 145.66,
+          "text": "According to the definition of bigot notation,",
+          "words": [
+            {
+              "word": " According",
+              "start": 143.2,
+              "end": 143.58
+            },
+            {
+              "word": " to",
+              "start": 143.58,
+              "end": 143.84
+            },
+            {
+              "word": " the",
+              "start": 143.84,
+              "end": 143.94
+            },
+            {
+              "word": " definition",
+              "start": 143.94,
+              "end": 144.42
+            },
+            {
+              "word": " of",
+              "start": 144.42,
+              "end": 144.7
+            },
+            {
+              "word": " bigot",
+              "start": 144.7,
+              "end": 145.14
+            },
+            {
+              "word": " notation,",
+              "start": 145.14,
+              "end": 145.66
+            }
+          ]
+        },
+        {
+          "start": 146.54,
+          "end": 158.04,
+          "text": "fn is equal to bigot of gn if and only if fn is less than or equal to c dot gn for all values of n",
+          "words": [
+            {
+              "word": " fn",
+              "start": 146.54,
+              "end": 147.22
+            },
+            {
+              "word": " is",
+              "start": 147.22,
+              "end": 147.56
+            },
+            {
+              "word": " equal",
+              "start": 147.56,
+              "end": 147.98
+            },
+            {
+              "word": " to",
+              "start": 147.98,
+              "end": 148.24
+            },
+            {
+              "word": " bigot",
+              "start": 148.24,
+              "end": 148.82
+            },
+            {
+              "word": " of",
+              "start": 148.82,
+              "end": 149.02
+            },
+            {
+              "word": " gn",
+              "start": 149.02,
+              "end": 149.62
+            },
+            {
+              "word": " if",
+              "start": 149.62,
+              "end": 150.22
+            },
+            {
+              "word": " and",
+              "start": 150.22,
+              "end": 150.4
+            },
+            {
+              "word": " only",
+              "start": 150.4,
+              "end": 150.74
+            },
+            {
+              "word": " if",
+              "start": 150.74,
+              "end": 151.14
+            },
+            {
+              "word": " fn",
+              "start": 151.14,
+              "end": 152.1
+            },
+            {
+              "word": " is",
+              "start": 152.1,
+              "end": 152.38
+            },
+            {
+              "word": " less",
+              "start": 152.38,
+              "end": 152.68
+            },
+            {
+              "word": " than",
+              "start": 152.68,
+              "end": 152.98
+            },
+            {
+              "word": " or",
+              "start": 152.98,
+              "end": 153.32
+            },
+            {
+              "word": " equal",
+              "start": 153.32,
+              "end": 153.7
+            },
+            {
+              "word": " to",
+              "start": 153.7,
+              "end": 154.02
+            },
+            {
+              "word": " c",
+              "start": 154.02,
+              "end": 154.38
+            },
+            {
+              "word": " dot",
+              "start": 154.38,
+              "end": 154.68
+            },
+            {
+              "word": " gn",
+              "start": 154.68,
+              "end": 155.3
+            },
+            {
+              "word": " for",
+              "start": 155.3,
+              "end": 156.16
+            },
+            {
+              "word": " all",
+              "start": 156.16,
+              "end": 156.64
+            },
+            {
+              "word": " values",
+              "start": 156.64,
+              "end": 157.24
+            },
+            {
+              "word": " of",
+              "start": 157.24,
+              "end": 157.66
+            },
+            {
+              "word": " n",
+              "start": 157.66,
+              "end": 158.04
+            }
+          ]
+        },
+        {
+          "start": 158.04,
+          "end": 165.26,
+          "text": "where n is greater than or equal to n naught and c and n naught are constants.",
+          "words": [
+            {
+              "word": " where",
+              "start": 158.04,
+              "end": 158.88
+            },
+            {
+              "word": " n",
+              "start": 158.88,
+              "end": 159.26
+            },
+            {
+              "word": " is",
+              "start": 159.26,
+              "end": 159.54
+            },
+            {
+              "word": " greater",
+              "start": 159.54,
+              "end": 159.96
+            },
+            {
+              "word": " than",
+              "start": 159.96,
+              "end": 160.26
+            },
+            {
+              "word": " or",
+              "start": 160.26,
+              "end": 160.5
+            },
+            {
+              "word": " equal",
+              "start": 160.5,
+              "end": 160.88
+            },
+            {
+              "word": " to",
+              "start": 160.88,
+              "end": 161.1
+            },
+            {
+              "word": " n",
+              "start": 161.1,
+              "end": 161.48
+            },
+            {
+              "word": " naught",
+              "start": 161.48,
+              "end": 161.74
+            },
+            {
+              "word": " and",
+              "start": 161.74,
+              "end": 162.76
+            },
+            {
+              "word": " c",
+              "start": 162.76,
+              "end": 163.16
+            },
+            {
+              "word": " and",
+              "start": 163.16,
+              "end": 163.5
+            },
+            {
+              "word": " n",
+              "start": 163.5,
+              "end": 163.76
+            },
+            {
+              "word": " naught",
+              "start": 163.76,
+              "end": 164.1
+            },
+            {
+              "word": " are",
+              "start": 164.1,
+              "end": 164.4
+            },
+            {
+              "word": " constants.",
+              "start": 164.4,
+              "end": 165.26
+            }
+          ]
+        },
+        {
+          "start": 166.12,
+          "end": 168.6,
+          "text": "Let us assume some value of c.",
+          "words": [
+            {
+              "word": " Let",
+              "start": 166.12,
+              "end": 166.72
+            },
+            {
+              "word": " us",
+              "start": 166.72,
+              "end": 166.86
+            },
+            {
+              "word": " assume",
+              "start": 166.86,
+              "end": 167.22
+            },
+            {
+              "word": " some",
+              "start": 167.22,
+              "end": 167.48
+            },
+            {
+              "word": " value",
+              "start": 167.48,
+              "end": 167.94
+            },
+            {
+              "word": " of",
+              "start": 167.94,
+              "end": 168.22
+            },
+            {
+              "word": " c.",
+              "start": 168.22,
+              "end": 168.6
+            }
+          ]
+        },
+        {
+          "start": 169.46,
+          "end": 171.78,
+          "text": "Let's say c is equal to 2.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 169.46,
+              "end": 169.82
+            },
+            {
+              "word": " say",
+              "start": 169.82,
+              "end": 170.0
+            },
+            {
+              "word": " c",
+              "start": 170.0,
+              "end": 170.44
+            },
+            {
+              "word": " is",
+              "start": 170.44,
+              "end": 170.76
+            },
+            {
+              "word": " equal",
+              "start": 170.76,
+              "end": 171.18
+            },
+            {
+              "word": " to",
+              "start": 171.18,
+              "end": 171.44
+            },
+            {
+              "word": " 2.",
+              "start": 171.44,
+              "end": 171.78
+            }
+          ]
+        },
+        {
+          "start": 172.28,
+          "end": 181.08,
+          "text": "We are assuming c to be 2 because it is my intuition that 2n cube will surpass at some point",
+          "words": [
+            {
+              "word": " We",
+              "start": 172.28,
+              "end": 172.56
+            },
+            {
+              "word": " are",
+              "start": 172.56,
+              "end": 172.64
+            },
+            {
+              "word": " assuming",
+              "start": 172.64,
+              "end": 172.94
+            },
+            {
+              "word": " c",
+              "start": 172.94,
+              "end": 173.36
+            },
+            {
+              "word": " to",
+              "start": 173.36,
+              "end": 173.58
+            },
+            {
+              "word": " be",
+              "start": 173.58,
+              "end": 173.74
+            },
+            {
+              "word": " 2",
+              "start": 173.74,
+              "end": 174.14
+            },
+            {
+              "word": " because",
+              "start": 174.14,
+              "end": 174.7
+            },
+            {
+              "word": " it",
+              "start": 174.7,
+              "end": 175.26
+            },
+            {
+              "word": " is",
+              "start": 175.26,
+              "end": 175.4
+            },
+            {
+              "word": " my",
+              "start": 175.4,
+              "end": 175.68
+            },
+            {
+              "word": " intuition",
+              "start": 175.68,
+              "end": 176.34
+            },
+            {
+              "word": " that",
+              "start": 176.34,
+              "end": 177.02
+            },
+            {
+              "word": " 2n",
+              "start": 177.02,
+              "end": 177.96
+            },
+            {
+              "word": " cube",
+              "start": 177.96,
+              "end": 178.34
+            },
+            {
+              "word": " will",
+              "start": 178.34,
+              "end": 179.08
+            },
+            {
+              "word": " surpass",
+              "start": 179.08,
+              "end": 179.6
+            },
+            {
+              "word": " at",
+              "start": 179.6,
+              "end": 180.16
+            },
+            {
+              "word": " some",
+              "start": 180.16,
+              "end": 180.5
+            },
+            {
+              "word": " point",
+              "start": 180.5,
+              "end": 181.08
+            }
+          ]
+        },
+        {
+          "start": 181.08,
+          "end": 189.42,
+          "text": "2n cube minus 2n square as we are subtracting 2n square from 2n cube in fn.",
+          "words": [
+            {
+              "word": " 2n",
+              "start": 181.08,
+              "end": 182.08
+            },
+            {
+              "word": " cube",
+              "start": 182.08,
+              "end": 182.34
+            },
+            {
+              "word": " minus",
+              "start": 182.34,
+              "end": 182.86
+            },
+            {
+              "word": " 2n",
+              "start": 182.86,
+              "end": 183.4
+            },
+            {
+              "word": " square",
+              "start": 183.4,
+              "end": 183.68
+            },
+            {
+              "word": " as",
+              "start": 183.68,
+              "end": 184.62
+            },
+            {
+              "word": " we",
+              "start": 184.62,
+              "end": 184.8
+            },
+            {
+              "word": " are",
+              "start": 184.8,
+              "end": 184.9
+            },
+            {
+              "word": " subtracting",
+              "start": 184.9,
+              "end": 185.76
+            },
+            {
+              "word": " 2n",
+              "start": 185.76,
+              "end": 186.22
+            },
+            {
+              "word": " square",
+              "start": 186.22,
+              "end": 186.58
+            },
+            {
+              "word": " from",
+              "start": 186.58,
+              "end": 187.28
+            },
+            {
+              "word": " 2n",
+              "start": 187.28,
+              "end": 187.78
+            },
+            {
+              "word": " cube",
+              "start": 187.78,
+              "end": 188.2
+            },
+            {
+              "word": " in",
+              "start": 188.2,
+              "end": 188.86
+            },
+            {
+              "word": " fn.",
+              "start": 188.86,
+              "end": 189.42
+            }
+          ]
+        },
+        {
+          "start": 190.04,
+          "end": 201.84,
+          "text": "So, is it true that fn is less than or equal to c dot gn or 2n cube minus 2n square is less than or equal to 2n cube?",
+          "words": [
+            {
+              "word": " So,",
+              "start": 190.04,
+              "end": 190.52
+            },
+            {
+              "word": " is",
+              "start": 190.86,
+              "end": 191.1
+            },
+            {
+              "word": " it",
+              "start": 191.1,
+              "end": 191.24
+            },
+            {
+              "word": " true",
+              "start": 191.24,
+              "end": 191.5
+            },
+            {
+              "word": " that",
+              "start": 191.5,
+              "end": 191.78
+            },
+            {
+              "word": " fn",
+              "start": 191.78,
+              "end": 192.66
+            },
+            {
+              "word": " is",
+              "start": 192.66,
+              "end": 192.98
+            },
+            {
+              "word": " less",
+              "start": 192.98,
+              "end": 193.34
+            },
+            {
+              "word": " than",
+              "start": 193.34,
+              "end": 193.6
+            },
+            {
+              "word": " or",
+              "start": 193.6,
+              "end": 193.88
+            },
+            {
+              "word": " equal",
+              "start": 193.88,
+              "end": 194.22
+            },
+            {
+              "word": " to",
+              "start": 194.22,
+              "end": 194.48
+            },
+            {
+              "word": " c",
+              "start": 194.48,
+              "end": 194.82
+            },
+            {
+              "word": " dot",
+              "start": 194.82,
+              "end": 195.1
+            },
+            {
+              "word": " gn",
+              "start": 195.1,
+              "end": 195.56
+            },
+            {
+              "word": " or",
+              "start": 195.56,
+              "end": 196.3
+            },
+            {
+              "word": " 2n",
+              "start": 196.3,
+              "end": 197.08
+            },
+            {
+              "word": " cube",
+              "start": 197.08,
+              "end": 197.32
+            },
+            {
+              "word": " minus",
+              "start": 197.32,
+              "end": 197.8
+            },
+            {
+              "word": " 2n",
+              "start": 197.8,
+              "end": 198.42
+            },
+            {
+              "word": " square",
+              "start": 198.42,
+              "end": 198.7
+            },
+            {
+              "word": " is",
+              "start": 198.7,
+              "end": 199.26
+            },
+            {
+              "word": " less",
+              "start": 199.26,
+              "end": 199.58
+            },
+            {
+              "word": " than",
+              "start": 199.58,
+              "end": 199.88
+            },
+            {
+              "word": " or",
+              "start": 199.88,
+              "end": 200.16
+            },
+            {
+              "word": " equal",
+              "start": 200.16,
+              "end": 200.54
+            },
+            {
+              "word": " to",
+              "start": 200.54,
+              "end": 200.9
+            },
+            {
+              "word": " 2n",
+              "start": 200.9,
+              "end": 201.56
+            },
+            {
+              "word": " cube?",
+              "start": 201.56,
+              "end": 201.84
+            }
+          ]
+        },
+        {
+          "start": 202.4,
+          "end": 203.6,
+          "text": "Let's find out.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 202.4,
+              "end": 203.12
+            },
+            {
+              "word": " find",
+              "start": 203.12,
+              "end": 203.34
+            },
+            {
+              "word": " out.",
+              "start": 203.34,
+              "end": 203.6
+            }
+          ]
+        },
+        {
+          "start": 203.6,
+          "end": 211.68,
+          "text": "Let's draw the table for fn which is 2n cube minus 2n square and c dot gn which is 2n cube.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 203.6,
+              "end": 204.54
+            },
+            {
+              "word": " draw",
+              "start": 204.54,
+              "end": 204.74
+            },
+            {
+              "word": " the",
+              "start": 204.74,
+              "end": 204.92
+            },
+            {
+              "word": " table",
+              "start": 204.92,
+              "end": 205.24
+            },
+            {
+              "word": " for",
+              "start": 205.24,
+              "end": 205.62
+            },
+            {
+              "word": " fn",
+              "start": 205.62,
+              "end": 206.22
+            },
+            {
+              "word": " which",
+              "start": 206.22,
+              "end": 206.52
+            },
+            {
+              "word": " is",
+              "start": 206.52,
+              "end": 206.68
+            },
+            {
+              "word": " 2n",
+              "start": 206.68,
+              "end": 207.06
+            },
+            {
+              "word": " cube",
+              "start": 207.06,
+              "end": 207.32
+            },
+            {
+              "word": " minus",
+              "start": 207.32,
+              "end": 207.7
+            },
+            {
+              "word": " 2n",
+              "start": 207.7,
+              "end": 208.16
+            },
+            {
+              "word": " square",
+              "start": 208.16,
+              "end": 208.46
+            },
+            {
+              "word": " and",
+              "start": 208.46,
+              "end": 209.46
+            },
+            {
+              "word": " c",
+              "start": 209.46,
+              "end": 209.82
+            },
+            {
+              "word": " dot",
+              "start": 209.82,
+              "end": 210.1
+            },
+            {
+              "word": " gn",
+              "start": 210.1,
+              "end": 210.64
+            },
+            {
+              "word": " which",
+              "start": 210.64,
+              "end": 210.88
+            },
+            {
+              "word": " is",
+              "start": 210.88,
+              "end": 211.02
+            },
+            {
+              "word": " 2n",
+              "start": 211.02,
+              "end": 211.46
+            },
+            {
+              "word": " cube.",
+              "start": 211.46,
+              "end": 211.68
+            }
+          ]
+        },
+        {
+          "start": 212.42,
+          "end": 215.56,
+          "text": "Now, let's plug in the values of n one by one.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 212.42,
+              "end": 212.72
+            },
+            {
+              "word": " let's",
+              "start": 212.78,
+              "end": 213.0
+            },
+            {
+              "word": " plug",
+              "start": 213.0,
+              "end": 213.32
+            },
+            {
+              "word": " in",
+              "start": 213.32,
+              "end": 213.56
+            },
+            {
+              "word": " the",
+              "start": 213.56,
+              "end": 213.72
+            },
+            {
+              "word": " values",
+              "start": 213.72,
+              "end": 214.12
+            },
+            {
+              "word": " of",
+              "start": 214.12,
+              "end": 214.42
+            },
+            {
+              "word": " n",
+              "start": 214.42,
+              "end": 214.74
+            },
+            {
+              "word": " one",
+              "start": 214.74,
+              "end": 215.0
+            },
+            {
+              "word": " by",
+              "start": 215.0,
+              "end": 215.22
+            },
+            {
+              "word": " one.",
+              "start": 215.22,
+              "end": 215.56
+            }
+          ]
+        },
+        {
+          "start": 216.16,
+          "end": 219.38,
+          "text": "Let us assume that n is equal to one.",
+          "words": [
+            {
+              "word": " Let",
+              "start": 216.16,
+              "end": 216.5
+            },
+            {
+              "word": " us",
+              "start": 216.5,
+              "end": 216.64
+            },
+            {
+              "word": " assume",
+              "start": 216.64,
+              "end": 217.06
+            },
+            {
+              "word": " that",
+              "start": 217.06,
+              "end": 217.42
+            },
+            {
+              "word": " n",
+              "start": 217.42,
+              "end": 217.98
+            },
+            {
+              "word": " is",
+              "start": 217.98,
+              "end": 218.38
+            },
+            {
+              "word": " equal",
+              "start": 218.38,
+              "end": 218.78
+            },
+            {
+              "word": " to",
+              "start": 218.78,
+              "end": 219.02
+            },
+            {
+              "word": " one.",
+              "start": 219.02,
+              "end": 219.38
+            }
+          ]
+        },
+        {
+          "start": 219.86,
+          "end": 228.38,
+          "text": "If n is equal to one, then 2n cube minus 2n square will be equal to zero because as n is one,",
+          "words": [
+            {
+              "word": " If",
+              "start": 219.86,
+              "end": 220.08
+            },
+            {
+              "word": " n",
+              "start": 220.08,
+              "end": 220.44
+            },
+            {
+              "word": " is",
+              "start": 220.44,
+              "end": 220.7
+            },
+            {
+              "word": " equal",
+              "start": 220.7,
+              "end": 221.06
+            },
+            {
+              "word": " to",
+              "start": 221.06,
+              "end": 221.26
+            },
+            {
+              "word": " one,",
+              "start": 221.26,
+              "end": 221.6
+            },
+            {
+              "word": " then",
+              "start": 221.96,
+              "end": 222.2
+            },
+            {
+              "word": " 2n",
+              "start": 222.2,
+              "end": 222.68
+            },
+            {
+              "word": " cube",
+              "start": 222.68,
+              "end": 223.0
+            },
+            {
+              "word": " minus",
+              "start": 223.0,
+              "end": 223.46
+            },
+            {
+              "word": " 2n",
+              "start": 223.46,
+              "end": 223.92
+            },
+            {
+              "word": " square",
+              "start": 223.92,
+              "end": 224.24
+            },
+            {
+              "word": " will",
+              "start": 224.24,
+              "end": 224.82
+            },
+            {
+              "word": " be",
+              "start": 224.82,
+              "end": 224.96
+            },
+            {
+              "word": " equal",
+              "start": 224.96,
+              "end": 225.34
+            },
+            {
+              "word": " to",
+              "start": 225.34,
+              "end": 225.58
+            },
+            {
+              "word": " zero",
+              "start": 225.58,
+              "end": 225.92
+            },
+            {
+              "word": " because",
+              "start": 225.92,
+              "end": 226.8
+            },
+            {
+              "word": " as",
+              "start": 226.8,
+              "end": 227.42
+            },
+            {
+              "word": " n",
+              "start": 227.42,
+              "end": 227.74
+            },
+            {
+              "word": " is",
+              "start": 227.74,
+              "end": 227.92
+            },
+            {
+              "word": " one,",
+              "start": 227.92,
+              "end": 228.38
+            }
+          ]
+        },
+        {
+          "start": 228.38,
+          "end": 233.64,
+          "text": "this becomes 2 minus 2 and 2 minus 2 is equal to zero.",
+          "words": [
+            {
+              "word": " this",
+              "start": 228.38,
+              "end": 229.22
+            },
+            {
+              "word": " becomes",
+              "start": 229.22,
+              "end": 229.68
+            },
+            {
+              "word": " 2",
+              "start": 229.68,
+              "end": 230.06
+            },
+            {
+              "word": " minus",
+              "start": 230.06,
+              "end": 230.36
+            },
+            {
+              "word": " 2",
+              "start": 230.36,
+              "end": 230.84
+            },
+            {
+              "word": " and",
+              "start": 230.84,
+              "end": 231.44
+            },
+            {
+              "word": " 2",
+              "start": 231.44,
+              "end": 231.68
+            },
+            {
+              "word": " minus",
+              "start": 231.68,
+              "end": 231.96
+            },
+            {
+              "word": " 2",
+              "start": 231.96,
+              "end": 232.4
+            },
+            {
+              "word": " is",
+              "start": 232.4,
+              "end": 232.76
+            },
+            {
+              "word": " equal",
+              "start": 232.76,
+              "end": 233.14
+            },
+            {
+              "word": " to",
+              "start": 233.14,
+              "end": 233.32
+            },
+            {
+              "word": " zero.",
+              "start": 233.32,
+              "end": 233.64
+            }
+          ]
+        },
+        {
+          "start": 234.18,
+          "end": 235.64,
+          "text": "What about this expression?",
+          "words": [
+            {
+              "word": " What",
+              "start": 234.18,
+              "end": 234.5
+            },
+            {
+              "word": " about",
+              "start": 234.5,
+              "end": 234.78
+            },
+            {
+              "word": " this",
+              "start": 234.78,
+              "end": 235.16
+            },
+            {
+              "word": " expression?",
+              "start": 235.16,
+              "end": 235.64
+            }
+          ]
+        },
+        {
+          "start": 236.36,
+          "end": 243.56,
+          "text": "If we plug in the value of n which is equal to one here, we will get 2 into 1 which is equal to 2.",
+          "words": [
+            {
+              "word": " If",
+              "start": 236.36,
+              "end": 236.6
+            },
+            {
+              "word": " we",
+              "start": 236.6,
+              "end": 236.72
+            },
+            {
+              "word": " plug",
+              "start": 236.72,
+              "end": 236.98
+            },
+            {
+              "word": " in",
+              "start": 236.98,
+              "end": 237.2
+            },
+            {
+              "word": " the",
+              "start": 237.2,
+              "end": 237.36
+            },
+            {
+              "word": " value",
+              "start": 237.36,
+              "end": 237.72
+            },
+            {
+              "word": " of",
+              "start": 237.72,
+              "end": 237.94
+            },
+            {
+              "word": " n",
+              "start": 237.94,
+              "end": 238.28
+            },
+            {
+              "word": " which",
+              "start": 238.28,
+              "end": 238.54
+            },
+            {
+              "word": " is",
+              "start": 238.54,
+              "end": 238.7
+            },
+            {
+              "word": " equal",
+              "start": 238.7,
+              "end": 239.12
+            },
+            {
+              "word": " to",
+              "start": 239.12,
+              "end": 239.34
+            },
+            {
+              "word": " one",
+              "start": 239.34,
+              "end": 239.64
+            },
+            {
+              "word": " here,",
+              "start": 239.64,
+              "end": 240.06
+            },
+            {
+              "word": " we",
+              "start": 240.36,
+              "end": 240.68
+            },
+            {
+              "word": " will",
+              "start": 240.68,
+              "end": 240.82
+            },
+            {
+              "word": " get",
+              "start": 240.82,
+              "end": 241.02
+            },
+            {
+              "word": " 2",
+              "start": 241.02,
+              "end": 241.46
+            },
+            {
+              "word": " into",
+              "start": 241.46,
+              "end": 241.8
+            },
+            {
+              "word": " 1",
+              "start": 241.8,
+              "end": 242.24
+            },
+            {
+              "word": " which",
+              "start": 242.24,
+              "end": 242.56
+            },
+            {
+              "word": " is",
+              "start": 242.56,
+              "end": 242.7
+            },
+            {
+              "word": " equal",
+              "start": 242.7,
+              "end": 243.06
+            },
+            {
+              "word": " to",
+              "start": 243.06,
+              "end": 243.28
+            },
+            {
+              "word": " 2.",
+              "start": 243.28,
+              "end": 243.56
+            }
+          ]
+        },
+        {
+          "start": 244.08,
+          "end": 250.84,
+          "text": "We can observe that for n equal to one, c dot gn is greater than fn.",
+          "words": [
+            {
+              "word": " We",
+              "start": 244.08,
+              "end": 244.32
+            },
+            {
+              "word": " can",
+              "start": 244.32,
+              "end": 244.5
+            },
+            {
+              "word": " observe",
+              "start": 244.5,
+              "end": 244.9
+            },
+            {
+              "word": " that",
+              "start": 244.9,
+              "end": 245.28
+            },
+            {
+              "word": " for",
+              "start": 245.28,
+              "end": 245.58
+            },
+            {
+              "word": " n",
+              "start": 245.58,
+              "end": 245.96
+            },
+            {
+              "word": " equal",
+              "start": 245.96,
+              "end": 246.32
+            },
+            {
+              "word": " to",
+              "start": 246.32,
+              "end": 246.58
+            },
+            {
+              "word": " one,",
+              "start": 246.58,
+              "end": 247.0
+            },
+            {
+              "word": " c",
+              "start": 247.66,
+              "end": 248.02
+            },
+            {
+              "word": " dot",
+              "start": 248.02,
+              "end": 248.3
+            },
+            {
+              "word": " gn",
+              "start": 248.3,
+              "end": 248.86
+            },
+            {
+              "word": " is",
+              "start": 248.86,
+              "end": 249.34
+            },
+            {
+              "word": " greater",
+              "start": 249.34,
+              "end": 249.76
+            },
+            {
+              "word": " than",
+              "start": 249.76,
+              "end": 250.12
+            },
+            {
+              "word": " fn.",
+              "start": 250.12,
+              "end": 250.84
+            }
+          ]
+        },
+        {
+          "start": 251.46,
+          "end": 253.82,
+          "text": "Now, let's take n equal to 2.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 251.46,
+              "end": 251.96
+            },
+            {
+              "word": " let's",
+              "start": 252.02,
+              "end": 252.32
+            },
+            {
+              "word": " take",
+              "start": 252.32,
+              "end": 252.52
+            },
+            {
+              "word": " n",
+              "start": 252.52,
+              "end": 252.88
+            },
+            {
+              "word": " equal",
+              "start": 252.88,
+              "end": 253.26
+            },
+            {
+              "word": " to",
+              "start": 253.26,
+              "end": 253.54
+            },
+            {
+              "word": " 2.",
+              "start": 253.54,
+              "end": 253.82
+            }
+          ]
+        },
+        {
+          "start": 253.82,
+          "end": 261.74,
+          "text": "If n is 2, this expression becomes 8 and this expression becomes 16.",
+          "words": [
+            {
+              "word": " If",
+              "start": 253.82,
+              "end": 254.78
+            },
+            {
+              "word": " n",
+              "start": 254.78,
+              "end": 255.12
+            },
+            {
+              "word": " is",
+              "start": 255.12,
+              "end": 255.32
+            },
+            {
+              "word": " 2,",
+              "start": 255.32,
+              "end": 255.64
+            },
+            {
+              "word": " this",
+              "start": 256.32,
+              "end": 256.62
+            },
+            {
+              "word": " expression",
+              "start": 256.62,
+              "end": 257.1
+            },
+            {
+              "word": " becomes",
+              "start": 257.1,
+              "end": 257.74
+            },
+            {
+              "word": " 8",
+              "start": 257.74,
+              "end": 258.22
+            },
+            {
+              "word": " and",
+              "start": 258.22,
+              "end": 259.46
+            },
+            {
+              "word": " this",
+              "start": 259.46,
+              "end": 259.68
+            },
+            {
+              "word": " expression",
+              "start": 259.68,
+              "end": 260.12
+            },
+            {
+              "word": " becomes",
+              "start": 260.12,
+              "end": 260.64
+            },
+            {
+              "word": " 16.",
+              "start": 260.64,
+              "end": 261.74
+            }
+          ]
+        },
+        {
+          "start": 262.34,
+          "end": 268.2,
+          "text": "At this point also, we can observe that c dot gn is greater than fn.",
+          "words": [
+            {
+              "word": " At",
+              "start": 262.34,
+              "end": 262.92
+            },
+            {
+              "word": " this",
+              "start": 262.92,
+              "end": 263.12
+            },
+            {
+              "word": " point",
+              "start": 263.12,
+              "end": 263.42
+            },
+            {
+              "word": " also,",
+              "start": 263.42,
+              "end": 263.94
+            },
+            {
+              "word": " we",
+              "start": 264.1,
+              "end": 264.22
+            },
+            {
+              "word": " can",
+              "start": 264.22,
+              "end": 264.4
+            },
+            {
+              "word": " observe",
+              "start": 264.4,
+              "end": 264.8
+            },
+            {
+              "word": " that",
+              "start": 264.8,
+              "end": 265.3
+            },
+            {
+              "word": " c",
+              "start": 265.3,
+              "end": 265.6
+            },
+            {
+              "word": " dot",
+              "start": 265.6,
+              "end": 265.86
+            },
+            {
+              "word": " gn",
+              "start": 265.86,
+              "end": 266.38
+            },
+            {
+              "word": " is",
+              "start": 266.38,
+              "end": 266.86
+            },
+            {
+              "word": " greater",
+              "start": 266.86,
+              "end": 267.38
+            },
+            {
+              "word": " than",
+              "start": 267.38,
+              "end": 267.66
+            },
+            {
+              "word": " fn.",
+              "start": 267.66,
+              "end": 268.2
+            }
+          ]
+        },
+        {
+          "start": 268.86,
+          "end": 271.22,
+          "text": "What if we take n equal to 3?",
+          "words": [
+            {
+              "word": " What",
+              "start": 268.86,
+              "end": 269.48
+            },
+            {
+              "word": " if",
+              "start": 269.48,
+              "end": 269.62
+            },
+            {
+              "word": " we",
+              "start": 269.62,
+              "end": 269.78
+            },
+            {
+              "word": " take",
+              "start": 269.78,
+              "end": 269.96
+            },
+            {
+              "word": " n",
+              "start": 269.96,
+              "end": 270.34
+            },
+            {
+              "word": " equal",
+              "start": 270.34,
+              "end": 270.68
+            },
+            {
+              "word": " to",
+              "start": 270.68,
+              "end": 270.9
+            },
+            {
+              "word": " 3?",
+              "start": 270.9,
+              "end": 271.22
+            }
+          ]
+        },
+        {
+          "start": 272.58,
+          "end": 278.46,
+          "text": "This expression becomes 36 and this expression becomes 54.",
+          "words": [
+            {
+              "word": " This",
+              "start": 272.58,
+              "end": 272.88
+            },
+            {
+              "word": " expression",
+              "start": 272.88,
+              "end": 273.36
+            },
+            {
+              "word": " becomes",
+              "start": 273.36,
+              "end": 274.0
+            },
+            {
+              "word": " 36",
+              "start": 274.0,
+              "end": 274.88
+            },
+            {
+              "word": " and",
+              "start": 274.88,
+              "end": 276.02
+            },
+            {
+              "word": " this",
+              "start": 276.02,
+              "end": 276.22
+            },
+            {
+              "word": " expression",
+              "start": 276.22,
+              "end": 276.7
+            },
+            {
+              "word": " becomes",
+              "start": 276.7,
+              "end": 277.34
+            },
+            {
+              "word": " 54.",
+              "start": 277.34,
+              "end": 278.46
+            }
+          ]
+        },
+        {
+          "start": 279.46,
+          "end": 287.86,
+          "text": "If we take n as 4, we will get 96 here and we will get 128 here.",
+          "words": [
+            {
+              "word": " If",
+              "start": 279.46,
+              "end": 279.94
+            },
+            {
+              "word": " we",
+              "start": 279.94,
+              "end": 280.1
+            },
+            {
+              "word": " take",
+              "start": 280.1,
+              "end": 280.3
+            },
+            {
+              "word": " n",
+              "start": 280.3,
+              "end": 280.7
+            },
+            {
+              "word": " as",
+              "start": 280.7,
+              "end": 281.02
+            },
+            {
+              "word": " 4,",
+              "start": 281.02,
+              "end": 281.42
+            },
+            {
+              "word": " we",
+              "start": 282.12,
+              "end": 282.36
+            },
+            {
+              "word": " will",
+              "start": 282.36,
+              "end": 282.5
+            },
+            {
+              "word": " get",
+              "start": 282.5,
+              "end": 282.82
+            },
+            {
+              "word": " 96",
+              "start": 282.82,
+              "end": 284.02
+            },
+            {
+              "word": " here",
+              "start": 284.02,
+              "end": 284.54
+            },
+            {
+              "word": " and",
+              "start": 284.54,
+              "end": 285.52
+            },
+            {
+              "word": " we",
+              "start": 285.52,
+              "end": 285.68
+            },
+            {
+              "word": " will",
+              "start": 285.68,
+              "end": 285.82
+            },
+            {
+              "word": " get",
+              "start": 285.82,
+              "end": 286.16
+            },
+            {
+              "word": " 128",
+              "start": 286.16,
+              "end": 287.04
+            },
+            {
+              "word": " here.",
+              "start": 287.04,
+              "end": 287.86
+            }
+          ]
+        },
+        {
+          "start": 288.3,
+          "end": 297.48,
+          "text": "We can observe that if n is greater than or equal to one, c dot gn becomes greater than fn.",
+          "words": [
+            {
+              "word": " We",
+              "start": 288.3,
+              "end": 288.78
+            },
+            {
+              "word": " can",
+              "start": 288.78,
+              "end": 289.02
+            },
+            {
+              "word": " observe",
+              "start": 289.02,
+              "end": 289.52
+            },
+            {
+              "word": " that",
+              "start": 289.52,
+              "end": 290.02
+            },
+            {
+              "word": " if",
+              "start": 290.02,
+              "end": 290.46
+            },
+            {
+              "word": " n",
+              "start": 290.46,
+              "end": 290.92
+            },
+            {
+              "word": " is",
+              "start": 290.92,
+              "end": 291.22
+            },
+            {
+              "word": " greater",
+              "start": 291.22,
+              "end": 291.76
+            },
+            {
+              "word": " than",
+              "start": 291.76,
+              "end": 292.1
+            },
+            {
+              "word": " or",
+              "start": 292.1,
+              "end": 292.42
+            },
+            {
+              "word": " equal",
+              "start": 292.42,
+              "end": 292.84
+            },
+            {
+              "word": " to",
+              "start": 292.84,
+              "end": 293.08
+            },
+            {
+              "word": " one,",
+              "start": 293.08,
+              "end": 293.48
+            },
+            {
+              "word": " c",
+              "start": 294.02,
+              "end": 294.3
+            },
+            {
+              "word": " dot",
+              "start": 294.3,
+              "end": 294.6
+            },
+            {
+              "word": " gn",
+              "start": 294.6,
+              "end": 295.26
+            },
+            {
+              "word": " becomes",
+              "start": 295.26,
+              "end": 295.94
+            },
+            {
+              "word": " greater",
+              "start": 295.94,
+              "end": 296.62
+            },
+            {
+              "word": " than",
+              "start": 296.62,
+              "end": 296.92
+            },
+            {
+              "word": " fn.",
+              "start": 296.92,
+              "end": 297.48
+            }
+          ]
+        },
+        {
+          "start": 297.86,
+          "end": 305.16,
+          "text": "So, clearly n naught is equal to one and this means that this expression is true.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 297.86,
+              "end": 298.26
+            },
+            {
+              "word": " clearly",
+              "start": 298.34,
+              "end": 298.78
+            },
+            {
+              "word": " n",
+              "start": 298.78,
+              "end": 299.44
+            },
+            {
+              "word": " naught",
+              "start": 299.44,
+              "end": 299.72
+            },
+            {
+              "word": " is",
+              "start": 299.72,
+              "end": 300.14
+            },
+            {
+              "word": " equal",
+              "start": 300.14,
+              "end": 300.56
+            },
+            {
+              "word": " to",
+              "start": 300.56,
+              "end": 300.78
+            },
+            {
+              "word": " one",
+              "start": 300.78,
+              "end": 301.18
+            },
+            {
+              "word": " and",
+              "start": 301.18,
+              "end": 302.22
+            },
+            {
+              "word": " this",
+              "start": 302.22,
+              "end": 302.5
+            },
+            {
+              "word": " means",
+              "start": 302.5,
+              "end": 302.88
+            },
+            {
+              "word": " that",
+              "start": 302.88,
+              "end": 303.4
+            },
+            {
+              "word": " this",
+              "start": 303.4,
+              "end": 303.7
+            },
+            {
+              "word": " expression",
+              "start": 303.7,
+              "end": 304.36
+            },
+            {
+              "word": " is",
+              "start": 304.36,
+              "end": 304.84
+            },
+            {
+              "word": " true.",
+              "start": 304.84,
+              "end": 305.16
+            }
+          ]
+        },
+        {
+          "start": 305.96000000000004,
+          "end": 314.68,
+          "text": "2n cube minus 2n square is indeed less than or equal to 2n cube when n naught is equal to one.",
+          "words": [
+            {
+              "word": " 2n",
+              "start": 305.96000000000004,
+              "end": 306.72
+            },
+            {
+              "word": " cube",
+              "start": 306.72,
+              "end": 307.0
+            },
+            {
+              "word": " minus",
+              "start": 307.0,
+              "end": 307.44
+            },
+            {
+              "word": " 2n",
+              "start": 307.44,
+              "end": 307.94
+            },
+            {
+              "word": " square",
+              "start": 307.94,
+              "end": 308.26
+            },
+            {
+              "word": " is",
+              "start": 308.26,
+              "end": 308.86
+            },
+            {
+              "word": " indeed",
+              "start": 308.86,
+              "end": 309.36
+            },
+            {
+              "word": " less",
+              "start": 309.36,
+              "end": 309.74
+            },
+            {
+              "word": " than",
+              "start": 309.74,
+              "end": 310.06
+            },
+            {
+              "word": " or",
+              "start": 310.06,
+              "end": 310.38
+            },
+            {
+              "word": " equal",
+              "start": 310.38,
+              "end": 310.78
+            },
+            {
+              "word": " to",
+              "start": 310.78,
+              "end": 311.08
+            },
+            {
+              "word": " 2n",
+              "start": 311.08,
+              "end": 311.54
+            },
+            {
+              "word": " cube",
+              "start": 311.54,
+              "end": 311.96
+            },
+            {
+              "word": " when",
+              "start": 311.96,
+              "end": 312.66
+            },
+            {
+              "word": " n",
+              "start": 312.66,
+              "end": 313.06
+            },
+            {
+              "word": " naught",
+              "start": 313.06,
+              "end": 313.28
+            },
+            {
+              "word": " is",
+              "start": 313.28,
+              "end": 313.66
+            },
+            {
+              "word": " equal",
+              "start": 313.66,
+              "end": 314.08
+            },
+            {
+              "word": " to",
+              "start": 314.08,
+              "end": 314.3
+            },
+            {
+              "word": " one.",
+              "start": 314.3,
+              "end": 314.68
+            }
+          ]
+        },
+        {
+          "start": 315.36,
+          "end": 326.62,
+          "text": "So, we can say that 2n cube minus 2n square is equal to big O of n cube for c equal to 2 and n naught equal to one.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 315.36,
+              "end": 316.12
+            },
+            {
+              "word": " we",
+              "start": 316.24,
+              "end": 316.36
+            },
+            {
+              "word": " can",
+              "start": 316.36,
+              "end": 316.6
+            },
+            {
+              "word": " say",
+              "start": 316.6,
+              "end": 316.98
+            },
+            {
+              "word": " that",
+              "start": 316.98,
+              "end": 317.6
+            },
+            {
+              "word": " 2n",
+              "start": 317.6,
+              "end": 318.04
+            },
+            {
+              "word": " cube",
+              "start": 318.04,
+              "end": 318.28
+            },
+            {
+              "word": " minus",
+              "start": 318.28,
+              "end": 318.72
+            },
+            {
+              "word": " 2n",
+              "start": 318.72,
+              "end": 319.26
+            },
+            {
+              "word": " square",
+              "start": 319.26,
+              "end": 319.56
+            },
+            {
+              "word": " is",
+              "start": 319.56,
+              "end": 320.1
+            },
+            {
+              "word": " equal",
+              "start": 320.1,
+              "end": 320.54
+            },
+            {
+              "word": " to",
+              "start": 320.54,
+              "end": 320.8
+            },
+            {
+              "word": " big",
+              "start": 320.8,
+              "end": 321.14
+            },
+            {
+              "word": " O",
+              "start": 321.14,
+              "end": 321.34
+            },
+            {
+              "word": " of",
+              "start": 321.34,
+              "end": 321.58
+            },
+            {
+              "word": " n",
+              "start": 321.58,
+              "end": 321.84
+            },
+            {
+              "word": " cube",
+              "start": 321.84,
+              "end": 322.26
+            },
+            {
+              "word": " for",
+              "start": 322.26,
+              "end": 322.96
+            },
+            {
+              "word": " c",
+              "start": 322.96,
+              "end": 323.32
+            },
+            {
+              "word": " equal",
+              "start": 323.32,
+              "end": 323.74
+            },
+            {
+              "word": " to",
+              "start": 323.74,
+              "end": 324.02
+            },
+            {
+              "word": " 2",
+              "start": 324.02,
+              "end": 324.3
+            },
+            {
+              "word": " and",
+              "start": 324.3,
+              "end": 325.1
+            },
+            {
+              "word": " n",
+              "start": 325.1,
+              "end": 325.44
+            },
+            {
+              "word": " naught",
+              "start": 325.44,
+              "end": 325.66
+            },
+            {
+              "word": " equal",
+              "start": 325.66,
+              "end": 326.06
+            },
+            {
+              "word": " to",
+              "start": 326.06,
+              "end": 326.3
+            },
+            {
+              "word": " one.",
+              "start": 326.3,
+              "end": 326.62
+            }
+          ]
+        },
+        {
+          "start": 327.32,
+          "end": 332.54,
+          "text": "We are getting big O of n cube here because gn is n cube.",
+          "words": [
+            {
+              "word": " We",
+              "start": 327.32,
+              "end": 327.9
+            },
+            {
+              "word": " are",
+              "start": 327.9,
+              "end": 328.06
+            },
+            {
+              "word": " getting",
+              "start": 328.06,
+              "end": 328.34
+            },
+            {
+              "word": " big",
+              "start": 328.34,
+              "end": 328.7
+            },
+            {
+              "word": " O",
+              "start": 328.7,
+              "end": 328.9
+            },
+            {
+              "word": " of",
+              "start": 328.9,
+              "end": 329.08
+            },
+            {
+              "word": " n",
+              "start": 329.08,
+              "end": 329.38
+            },
+            {
+              "word": " cube",
+              "start": 329.38,
+              "end": 329.66
+            },
+            {
+              "word": " here",
+              "start": 329.66,
+              "end": 330.04
+            },
+            {
+              "word": " because",
+              "start": 330.04,
+              "end": 330.66
+            },
+            {
+              "word": " gn",
+              "start": 330.66,
+              "end": 331.38
+            },
+            {
+              "word": " is",
+              "start": 331.38,
+              "end": 331.72
+            },
+            {
+              "word": " n",
+              "start": 331.72,
+              "end": 332.14
+            },
+            {
+              "word": " cube.",
+              "start": 332.14,
+              "end": 332.54
+            }
+          ]
+        },
+        {
+          "start": 332.54,
+          "end": 336.56,
+          "text": "So, n cube is the upper bound of fn.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 332.54,
+              "end": 333.56
+            },
+            {
+              "word": " n",
+              "start": 333.84,
+              "end": 333.9
+            },
+            {
+              "word": " cube",
+              "start": 333.9,
+              "end": 334.18
+            },
+            {
+              "word": " is",
+              "start": 334.18,
+              "end": 334.68
+            },
+            {
+              "word": " the",
+              "start": 334.68,
+              "end": 334.86
+            },
+            {
+              "word": " upper",
+              "start": 334.86,
+              "end": 335.2
+            },
+            {
+              "word": " bound",
+              "start": 335.2,
+              "end": 335.6
+            },
+            {
+              "word": " of",
+              "start": 335.6,
+              "end": 336.04
+            },
+            {
+              "word": " fn.",
+              "start": 336.04,
+              "end": 336.56
+            }
+          ]
+        },
+        {
+          "start": 337.22,
+          "end": 341.96,
+          "text": "So, with this I hope it is clear how to solve these type of problems.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 337.22,
+              "end": 337.54
+            },
+            {
+              "word": " with",
+              "start": 337.58,
+              "end": 337.74
+            },
+            {
+              "word": " this",
+              "start": 337.74,
+              "end": 338.0
+            },
+            {
+              "word": " I",
+              "start": 338.0,
+              "end": 338.26
+            },
+            {
+              "word": " hope",
+              "start": 338.26,
+              "end": 338.64
+            },
+            {
+              "word": " it",
+              "start": 338.64,
+              "end": 339.04
+            },
+            {
+              "word": " is",
+              "start": 339.04,
+              "end": 339.2
+            },
+            {
+              "word": " clear",
+              "start": 339.2,
+              "end": 339.46
+            },
+            {
+              "word": " how",
+              "start": 339.46,
+              "end": 339.84
+            },
+            {
+              "word": " to",
+              "start": 339.84,
+              "end": 340.06
+            },
+            {
+              "word": " solve",
+              "start": 340.06,
+              "end": 340.42
+            },
+            {
+              "word": " these",
+              "start": 340.42,
+              "end": 340.88
+            },
+            {
+              "word": " type",
+              "start": 340.88,
+              "end": 341.24
+            },
+            {
+              "word": " of",
+              "start": 341.24,
+              "end": 341.5
+            },
+            {
+              "word": " problems.",
+              "start": 341.5,
+              "end": 341.96
+            }
+          ]
+        },
+        {
+          "start": 342.48,
+          "end": 345.5,
+          "text": "Now, let's proceed and solve problem number 2.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 342.48,
+              "end": 342.78
+            },
+            {
+              "word": " let's",
+              "start": 342.86,
+              "end": 343.08
+            },
+            {
+              "word": " proceed",
+              "start": 343.08,
+              "end": 343.5
+            },
+            {
+              "word": " and",
+              "start": 343.5,
+              "end": 343.86
+            },
+            {
+              "word": " solve",
+              "start": 343.86,
+              "end": 344.34
+            },
+            {
+              "word": " problem",
+              "start": 344.34,
+              "end": 344.8
+            },
+            {
+              "word": " number",
+              "start": 344.8,
+              "end": 345.14
+            },
+            {
+              "word": " 2.",
+              "start": 345.14,
+              "end": 345.5
+            }
+          ]
+        },
+        {
+          "start": 346.66,
+          "end": 357.5,
+          "text": "Problem number 2 says, find the upper bound for fn equal to n to the power of 4 plus 100n square plus 35.",
+          "words": [
+            {
+              "word": " Problem",
+              "start": 346.66,
+              "end": 347.16
+            },
+            {
+              "word": " number",
+              "start": 347.16,
+              "end": 347.42
+            },
+            {
+              "word": " 2",
+              "start": 347.42,
+              "end": 347.7
+            },
+            {
+              "word": " says,",
+              "start": 347.7,
+              "end": 348.06
+            },
+            {
+              "word": " find",
+              "start": 348.78,
+              "end": 349.1
+            },
+            {
+              "word": " the",
+              "start": 349.1,
+              "end": 349.4
+            },
+            {
+              "word": " upper",
+              "start": 349.4,
+              "end": 349.72
+            },
+            {
+              "word": " bound",
+              "start": 349.72,
+              "end": 350.12
+            },
+            {
+              "word": " for",
+              "start": 350.12,
+              "end": 350.5
+            },
+            {
+              "word": " fn",
+              "start": 350.5,
+              "end": 351.1
+            },
+            {
+              "word": " equal",
+              "start": 351.1,
+              "end": 351.5
+            },
+            {
+              "word": " to",
+              "start": 351.5,
+              "end": 351.86
+            },
+            {
+              "word": " n",
+              "start": 351.86,
+              "end": 352.46
+            },
+            {
+              "word": " to",
+              "start": 352.46,
+              "end": 352.66
+            },
+            {
+              "word": " the",
+              "start": 352.66,
+              "end": 352.82
+            },
+            {
+              "word": " power",
+              "start": 352.82,
+              "end": 353.08
+            },
+            {
+              "word": " of",
+              "start": 353.08,
+              "end": 353.3
+            },
+            {
+              "word": " 4",
+              "start": 353.3,
+              "end": 353.62
+            },
+            {
+              "word": " plus",
+              "start": 353.62,
+              "end": 354.24
+            },
+            {
+              "word": " 100n",
+              "start": 354.24,
+              "end": 355.58
+            },
+            {
+              "word": " square",
+              "start": 355.58,
+              "end": 356.02
+            },
+            {
+              "word": " plus",
+              "start": 356.02,
+              "end": 356.86
+            },
+            {
+              "word": " 35.",
+              "start": 356.86,
+              "end": 357.5
+            }
+          ]
+        },
+        {
+          "start": 357.5,
+          "end": 361.34,
+          "text": "Again, I want you to solve this problem on your own.",
+          "words": [
+            {
+              "word": " Again,",
+              "start": 357.5,
+              "end": 358.56
+            },
+            {
+              "word": " I",
+              "start": 358.98,
+              "end": 359.24
+            },
+            {
+              "word": " want",
+              "start": 359.24,
+              "end": 359.48
+            },
+            {
+              "word": " you",
+              "start": 359.48,
+              "end": 359.66
+            },
+            {
+              "word": " to",
+              "start": 359.66,
+              "end": 359.76
+            },
+            {
+              "word": " solve",
+              "start": 359.76,
+              "end": 360.06
+            },
+            {
+              "word": " this",
+              "start": 360.06,
+              "end": 360.34
+            },
+            {
+              "word": " problem",
+              "start": 360.34,
+              "end": 360.76
+            },
+            {
+              "word": " on",
+              "start": 360.76,
+              "end": 361.04
+            },
+            {
+              "word": " your",
+              "start": 361.04,
+              "end": 361.16
+            },
+            {
+              "word": " own.",
+              "start": 361.16,
+              "end": 361.34
+            }
+          ]
+        },
+        {
+          "start": 361.78,
+          "end": 365.62,
+          "text": "For this, please pause the video and try solving this problem.",
+          "words": [
+            {
+              "word": " For",
+              "start": 361.78,
+              "end": 361.98
+            },
+            {
+              "word": " this,",
+              "start": 361.98,
+              "end": 362.3
+            },
+            {
+              "word": " please",
+              "start": 362.54,
+              "end": 362.78
+            },
+            {
+              "word": " pause",
+              "start": 362.78,
+              "end": 363.16
+            },
+            {
+              "word": " the",
+              "start": 363.16,
+              "end": 363.4
+            },
+            {
+              "word": " video",
+              "start": 363.4,
+              "end": 363.76
+            },
+            {
+              "word": " and",
+              "start": 363.76,
+              "end": 364.1
+            },
+            {
+              "word": " try",
+              "start": 364.1,
+              "end": 364.4
+            },
+            {
+              "word": " solving",
+              "start": 364.4,
+              "end": 364.9
+            },
+            {
+              "word": " this",
+              "start": 364.9,
+              "end": 365.18
+            },
+            {
+              "word": " problem.",
+              "start": 365.18,
+              "end": 365.62
+            }
+          ]
+        },
+        {
+          "start": 369.0,
+          "end": 370.2,
+          "text": "I hope you are done.",
+          "words": [
+            {
+              "word": " I",
+              "start": 369.0,
+              "end": 369.56
+            },
+            {
+              "word": " hope",
+              "start": 369.56,
+              "end": 369.74
+            },
+            {
+              "word": " you",
+              "start": 369.74,
+              "end": 369.94
+            },
+            {
+              "word": " are",
+              "start": 369.94,
+              "end": 370.0
+            },
+            {
+              "word": " done.",
+              "start": 370.0,
+              "end": 370.2
+            }
+          ]
+        },
+        {
+          "start": 370.76,
+          "end": 374.24,
+          "text": "Let's solve this problem using the same three step method.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 370.76,
+              "end": 371.04
+            },
+            {
+              "word": " solve",
+              "start": 371.04,
+              "end": 371.3
+            },
+            {
+              "word": " this",
+              "start": 371.3,
+              "end": 371.56
+            },
+            {
+              "word": " problem",
+              "start": 371.56,
+              "end": 372.02
+            },
+            {
+              "word": " using",
+              "start": 372.02,
+              "end": 372.4
+            },
+            {
+              "word": " the",
+              "start": 372.4,
+              "end": 372.66
+            },
+            {
+              "word": " same",
+              "start": 372.66,
+              "end": 373.06
+            },
+            {
+              "word": " three",
+              "start": 373.06,
+              "end": 373.42
+            },
+            {
+              "word": " step",
+              "start": 373.42,
+              "end": 373.72
+            },
+            {
+              "word": " method.",
+              "start": 373.72,
+              "end": 374.24
+            }
+          ]
+        },
+        {
+          "start": 375.0,
+          "end": 379.52,
+          "text": "Step number 1 is to find the dominant term in this expression.",
+          "words": [
+            {
+              "word": " Step",
+              "start": 375.0,
+              "end": 375.4
+            },
+            {
+              "word": " number",
+              "start": 375.4,
+              "end": 375.68
+            },
+            {
+              "word": " 1",
+              "start": 375.68,
+              "end": 376.1
+            },
+            {
+              "word": " is",
+              "start": 376.1,
+              "end": 376.48
+            },
+            {
+              "word": " to",
+              "start": 376.48,
+              "end": 376.64
+            },
+            {
+              "word": " find",
+              "start": 376.64,
+              "end": 376.96
+            },
+            {
+              "word": " the",
+              "start": 376.96,
+              "end": 377.26
+            },
+            {
+              "word": " dominant",
+              "start": 377.26,
+              "end": 377.84
+            },
+            {
+              "word": " term",
+              "start": 377.84,
+              "end": 378.36
+            },
+            {
+              "word": " in",
+              "start": 378.36,
+              "end": 378.78
+            },
+            {
+              "word": " this",
+              "start": 378.78,
+              "end": 378.98
+            },
+            {
+              "word": " expression.",
+              "start": 378.98,
+              "end": 379.52
+            }
+          ]
+        },
+        {
+          "start": 380.42,
+          "end": 381.32,
+          "text": "What do you think?",
+          "words": [
+            {
+              "word": " What",
+              "start": 380.42,
+              "end": 380.8
+            },
+            {
+              "word": " do",
+              "start": 380.8,
+              "end": 380.94
+            },
+            {
+              "word": " you",
+              "start": 380.94,
+              "end": 381.04
+            },
+            {
+              "word": " think?",
+              "start": 381.04,
+              "end": 381.32
+            }
+          ]
+        },
+        {
+          "start": 381.52,
+          "end": 383.46,
+          "text": "What is the dominant term in this expression?",
+          "words": [
+            {
+              "word": " What",
+              "start": 381.52,
+              "end": 381.62
+            },
+            {
+              "word": " is",
+              "start": 381.62,
+              "end": 381.76
+            },
+            {
+              "word": " the",
+              "start": 381.76,
+              "end": 381.9
+            },
+            {
+              "word": " dominant",
+              "start": 381.9,
+              "end": 382.26
+            },
+            {
+              "word": " term",
+              "start": 382.26,
+              "end": 382.62
+            },
+            {
+              "word": " in",
+              "start": 382.62,
+              "end": 382.82
+            },
+            {
+              "word": " this",
+              "start": 382.82,
+              "end": 383.0
+            },
+            {
+              "word": " expression?",
+              "start": 383.0,
+              "end": 383.46
+            }
+          ]
+        },
+        {
+          "start": 384.62,
+          "end": 387.04,
+          "text": "Clearly, it is n to the power of 4.",
+          "words": [
+            {
+              "word": " Clearly,",
+              "start": 384.62,
+              "end": 385.18
+            },
+            {
+              "word": " it",
+              "start": 385.44,
+              "end": 385.58
+            },
+            {
+              "word": " is",
+              "start": 385.58,
+              "end": 385.78
+            },
+            {
+              "word": " n",
+              "start": 385.78,
+              "end": 386.04
+            },
+            {
+              "word": " to",
+              "start": 386.04,
+              "end": 386.22
+            },
+            {
+              "word": " the",
+              "start": 386.22,
+              "end": 386.32
+            },
+            {
+              "word": " power",
+              "start": 386.32,
+              "end": 386.58
+            },
+            {
+              "word": " of",
+              "start": 386.58,
+              "end": 386.78
+            },
+            {
+              "word": " 4.",
+              "start": 386.78,
+              "end": 387.04
+            }
+          ]
+        },
+        {
+          "start": 387.04,
+          "end": 395.36,
+          "text": "Because n to the power of 4 is greater than 100n square and it is also greater than 35.",
+          "words": [
+            {
+              "word": " Because",
+              "start": 387.04,
+              "end": 388.02
+            },
+            {
+              "word": " n",
+              "start": 388.02,
+              "end": 388.46
+            },
+            {
+              "word": " to",
+              "start": 388.46,
+              "end": 388.62
+            },
+            {
+              "word": " the",
+              "start": 388.62,
+              "end": 388.74
+            },
+            {
+              "word": " power",
+              "start": 388.74,
+              "end": 389.02
+            },
+            {
+              "word": " of",
+              "start": 389.02,
+              "end": 389.24
+            },
+            {
+              "word": " 4",
+              "start": 389.24,
+              "end": 389.5
+            },
+            {
+              "word": " is",
+              "start": 389.5,
+              "end": 389.88
+            },
+            {
+              "word": " greater",
+              "start": 389.88,
+              "end": 390.38
+            },
+            {
+              "word": " than",
+              "start": 390.38,
+              "end": 390.74
+            },
+            {
+              "word": " 100n",
+              "start": 390.74,
+              "end": 391.74
+            },
+            {
+              "word": " square",
+              "start": 391.74,
+              "end": 392.06
+            },
+            {
+              "word": " and",
+              "start": 392.06,
+              "end": 393.08
+            },
+            {
+              "word": " it",
+              "start": 393.08,
+              "end": 393.34
+            },
+            {
+              "word": " is",
+              "start": 393.34,
+              "end": 393.52
+            },
+            {
+              "word": " also",
+              "start": 393.52,
+              "end": 393.98
+            },
+            {
+              "word": " greater",
+              "start": 393.98,
+              "end": 394.36
+            },
+            {
+              "word": " than",
+              "start": 394.36,
+              "end": 394.7
+            },
+            {
+              "word": " 35.",
+              "start": 394.7,
+              "end": 395.36
+            }
+          ]
+        },
+        {
+          "start": 396.14,
+          "end": 401.2,
+          "text": "Therefore, the dominant term in this expression is n to the power of 4.",
+          "words": [
+            {
+              "word": " Therefore,",
+              "start": 396.14,
+              "end": 396.8
+            },
+            {
+              "word": " the",
+              "start": 396.96,
+              "end": 397.1
+            },
+            {
+              "word": " dominant",
+              "start": 397.1,
+              "end": 397.54
+            },
+            {
+              "word": " term",
+              "start": 397.54,
+              "end": 397.94
+            },
+            {
+              "word": " in",
+              "start": 397.94,
+              "end": 398.26
+            },
+            {
+              "word": " this",
+              "start": 398.26,
+              "end": 398.46
+            },
+            {
+              "word": " expression",
+              "start": 398.46,
+              "end": 399.12
+            },
+            {
+              "word": " is",
+              "start": 399.12,
+              "end": 399.72
+            },
+            {
+              "word": " n",
+              "start": 399.72,
+              "end": 400.08
+            },
+            {
+              "word": " to",
+              "start": 400.08,
+              "end": 400.2
+            },
+            {
+              "word": " the",
+              "start": 400.2,
+              "end": 400.34
+            },
+            {
+              "word": " power",
+              "start": 400.34,
+              "end": 400.66
+            },
+            {
+              "word": " of",
+              "start": 400.66,
+              "end": 400.86
+            },
+            {
+              "word": " 4.",
+              "start": 400.86,
+              "end": 401.2
+            }
+          ]
+        },
+        {
+          "start": 401.7,
+          "end": 402.98,
+          "text": "What about gn?",
+          "words": [
+            {
+              "word": " What",
+              "start": 401.7,
+              "end": 402.2
+            },
+            {
+              "word": " about",
+              "start": 402.2,
+              "end": 402.54
+            },
+            {
+              "word": " gn?",
+              "start": 402.54,
+              "end": 402.98
+            }
+          ]
+        },
+        {
+          "start": 403.78,
+          "end": 409.6,
+          "text": "We know step number 2 is to assume some gn according to the dominant term.",
+          "words": [
+            {
+              "word": " We",
+              "start": 403.78,
+              "end": 404.16
+            },
+            {
+              "word": " know",
+              "start": 404.16,
+              "end": 404.42
+            },
+            {
+              "word": " step",
+              "start": 404.42,
+              "end": 404.7
+            },
+            {
+              "word": " number",
+              "start": 404.7,
+              "end": 405.04
+            },
+            {
+              "word": " 2",
+              "start": 405.04,
+              "end": 405.44
+            },
+            {
+              "word": " is",
+              "start": 405.44,
+              "end": 405.84
+            },
+            {
+              "word": " to",
+              "start": 405.84,
+              "end": 406.0
+            },
+            {
+              "word": " assume",
+              "start": 406.0,
+              "end": 406.54
+            },
+            {
+              "word": " some",
+              "start": 406.54,
+              "end": 406.8
+            },
+            {
+              "word": " gn",
+              "start": 406.8,
+              "end": 407.38
+            },
+            {
+              "word": " according",
+              "start": 407.38,
+              "end": 407.84
+            },
+            {
+              "word": " to",
+              "start": 407.84,
+              "end": 408.36
+            },
+            {
+              "word": " the",
+              "start": 408.36,
+              "end": 408.56
+            },
+            {
+              "word": " dominant",
+              "start": 408.56,
+              "end": 409.14
+            },
+            {
+              "word": " term.",
+              "start": 409.14,
+              "end": 409.6
+            }
+          ]
+        },
+        {
+          "start": 410.22,
+          "end": 413.48,
+          "text": "Let's say gn is equal to n to the power of 4.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 410.22,
+              "end": 410.56
+            },
+            {
+              "word": " say",
+              "start": 410.56,
+              "end": 410.7
+            },
+            {
+              "word": " gn",
+              "start": 410.7,
+              "end": 411.24
+            },
+            {
+              "word": " is",
+              "start": 411.24,
+              "end": 411.52
+            },
+            {
+              "word": " equal",
+              "start": 411.52,
+              "end": 411.94
+            },
+            {
+              "word": " to",
+              "start": 411.94,
+              "end": 412.2
+            },
+            {
+              "word": " n",
+              "start": 412.2,
+              "end": 412.52
+            },
+            {
+              "word": " to",
+              "start": 412.52,
+              "end": 412.66
+            },
+            {
+              "word": " the",
+              "start": 412.66,
+              "end": 412.78
+            },
+            {
+              "word": " power",
+              "start": 412.78,
+              "end": 413.02
+            },
+            {
+              "word": " of",
+              "start": 413.02,
+              "end": 413.22
+            },
+            {
+              "word": " 4.",
+              "start": 413.22,
+              "end": 413.48
+            }
+          ]
+        },
+        {
+          "start": 413.48,
+          "end": 424.4,
+          "text": "It is always a good idea to assume gn closer to the dominant term because we want to know the least upper bound of fn.",
+          "words": [
+            {
+              "word": " It",
+              "start": 413.48,
+              "end": 414.18
+            },
+            {
+              "word": " is",
+              "start": 414.18,
+              "end": 414.34
+            },
+            {
+              "word": " always",
+              "start": 414.34,
+              "end": 414.72
+            },
+            {
+              "word": " a",
+              "start": 414.72,
+              "end": 415.08
+            },
+            {
+              "word": " good",
+              "start": 415.08,
+              "end": 415.32
+            },
+            {
+              "word": " idea",
+              "start": 415.32,
+              "end": 415.94
+            },
+            {
+              "word": " to",
+              "start": 415.94,
+              "end": 416.36
+            },
+            {
+              "word": " assume",
+              "start": 416.36,
+              "end": 416.84
+            },
+            {
+              "word": " gn",
+              "start": 416.84,
+              "end": 417.42
+            },
+            {
+              "word": " closer",
+              "start": 417.42,
+              "end": 418.18
+            },
+            {
+              "word": " to",
+              "start": 418.18,
+              "end": 418.64
+            },
+            {
+              "word": " the",
+              "start": 418.64,
+              "end": 418.78
+            },
+            {
+              "word": " dominant",
+              "start": 418.78,
+              "end": 419.16
+            },
+            {
+              "word": " term",
+              "start": 419.16,
+              "end": 419.6
+            },
+            {
+              "word": " because",
+              "start": 419.6,
+              "end": 420.46
+            },
+            {
+              "word": " we",
+              "start": 420.46,
+              "end": 420.82
+            },
+            {
+              "word": " want",
+              "start": 420.82,
+              "end": 421.14
+            },
+            {
+              "word": " to",
+              "start": 421.14,
+              "end": 421.32
+            },
+            {
+              "word": " know",
+              "start": 421.32,
+              "end": 421.62
+            },
+            {
+              "word": " the",
+              "start": 421.62,
+              "end": 422.02
+            },
+            {
+              "word": " least",
+              "start": 422.02,
+              "end": 422.64
+            },
+            {
+              "word": " upper",
+              "start": 422.64,
+              "end": 423.02
+            },
+            {
+              "word": " bound",
+              "start": 423.02,
+              "end": 423.46
+            },
+            {
+              "word": " of",
+              "start": 423.46,
+              "end": 423.82
+            },
+            {
+              "word": " fn.",
+              "start": 423.82,
+              "end": 424.4
+            }
+          ]
+        },
+        {
+          "start": 424.84,
+          "end": 428.22,
+          "text": "Not only upper bound but least upper bound.",
+          "words": [
+            {
+              "word": " Not",
+              "start": 424.84,
+              "end": 425.3
+            },
+            {
+              "word": " only",
+              "start": 425.3,
+              "end": 425.72
+            },
+            {
+              "word": " upper",
+              "start": 425.72,
+              "end": 426.1
+            },
+            {
+              "word": " bound",
+              "start": 426.1,
+              "end": 426.52
+            },
+            {
+              "word": " but",
+              "start": 426.52,
+              "end": 426.9
+            },
+            {
+              "word": " least",
+              "start": 426.9,
+              "end": 427.4
+            },
+            {
+              "word": " upper",
+              "start": 427.4,
+              "end": 427.74
+            },
+            {
+              "word": " bound.",
+              "start": 427.74,
+              "end": 428.22
+            }
+          ]
+        },
+        {
+          "start": 428.36,
+          "end": 432.12,
+          "text": "Although in the question it is written, find the upper bound.",
+          "words": [
+            {
+              "word": " Although",
+              "start": 428.36,
+              "end": 428.78
+            },
+            {
+              "word": " in",
+              "start": 428.78,
+              "end": 428.98
+            },
+            {
+              "word": " the",
+              "start": 428.98,
+              "end": 429.1
+            },
+            {
+              "word": " question",
+              "start": 429.1,
+              "end": 429.52
+            },
+            {
+              "word": " it",
+              "start": 429.52,
+              "end": 429.9
+            },
+            {
+              "word": " is",
+              "start": 429.9,
+              "end": 430.06
+            },
+            {
+              "word": " written,",
+              "start": 430.06,
+              "end": 430.42
+            },
+            {
+              "word": " find",
+              "start": 430.66,
+              "end": 431.0
+            },
+            {
+              "word": " the",
+              "start": 431.0,
+              "end": 431.28
+            },
+            {
+              "word": " upper",
+              "start": 431.28,
+              "end": 431.64
+            },
+            {
+              "word": " bound.",
+              "start": 431.64,
+              "end": 432.12
+            }
+          ]
+        },
+        {
+          "start": 432.74,
+          "end": 437.18,
+          "text": "So, let us assume gn is equal to n to the power of 4.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 432.74,
+              "end": 433.24
+            },
+            {
+              "word": " let",
+              "start": 433.28,
+              "end": 433.44
+            },
+            {
+              "word": " us",
+              "start": 433.44,
+              "end": 433.6
+            },
+            {
+              "word": " assume",
+              "start": 433.6,
+              "end": 434.02
+            },
+            {
+              "word": " gn",
+              "start": 434.02,
+              "end": 434.96
+            },
+            {
+              "word": " is",
+              "start": 434.96,
+              "end": 435.26
+            },
+            {
+              "word": " equal",
+              "start": 435.26,
+              "end": 435.68
+            },
+            {
+              "word": " to",
+              "start": 435.68,
+              "end": 435.92
+            },
+            {
+              "word": " n",
+              "start": 435.92,
+              "end": 436.28
+            },
+            {
+              "word": " to",
+              "start": 436.28,
+              "end": 436.4
+            },
+            {
+              "word": " the",
+              "start": 436.4,
+              "end": 436.5
+            },
+            {
+              "word": " power",
+              "start": 436.5,
+              "end": 436.76
+            },
+            {
+              "word": " of",
+              "start": 436.76,
+              "end": 436.94
+            },
+            {
+              "word": " 4.",
+              "start": 436.94,
+              "end": 437.18
+            }
+          ]
+        },
+        {
+          "start": 437.5,
+          "end": 439.58,
+          "text": "Now, let's apply the big O definition.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 437.5,
+              "end": 437.86
+            },
+            {
+              "word": " let's",
+              "start": 437.88,
+              "end": 438.14
+            },
+            {
+              "word": " apply",
+              "start": 438.14,
+              "end": 438.48
+            },
+            {
+              "word": " the",
+              "start": 438.48,
+              "end": 438.72
+            },
+            {
+              "word": " big",
+              "start": 438.72,
+              "end": 439.0
+            },
+            {
+              "word": " O",
+              "start": 439.0,
+              "end": 439.14
+            },
+            {
+              "word": " definition.",
+              "start": 439.14,
+              "end": 439.58
+            }
+          ]
+        },
+        {
+          "start": 440.32,
+          "end": 444.96,
+          "text": "According to step number 3, we now need to apply the big O definition.",
+          "words": [
+            {
+              "word": " According",
+              "start": 440.32,
+              "end": 440.92
+            },
+            {
+              "word": " to",
+              "start": 440.92,
+              "end": 441.2
+            },
+            {
+              "word": " step",
+              "start": 441.2,
+              "end": 441.4
+            },
+            {
+              "word": " number",
+              "start": 441.4,
+              "end": 441.76
+            },
+            {
+              "word": " 3,",
+              "start": 441.76,
+              "end": 442.14
+            },
+            {
+              "word": " we",
+              "start": 442.34,
+              "end": 442.56
+            },
+            {
+              "word": " now",
+              "start": 442.56,
+              "end": 442.86
+            },
+            {
+              "word": " need",
+              "start": 442.86,
+              "end": 443.12
+            },
+            {
+              "word": " to",
+              "start": 443.12,
+              "end": 443.34
+            },
+            {
+              "word": " apply",
+              "start": 443.34,
+              "end": 443.8
+            },
+            {
+              "word": " the",
+              "start": 443.8,
+              "end": 444.14
+            },
+            {
+              "word": " big",
+              "start": 444.14,
+              "end": 444.4
+            },
+            {
+              "word": " O",
+              "start": 444.4,
+              "end": 444.54
+            },
+            {
+              "word": " definition.",
+              "start": 444.54,
+              "end": 444.96
+            }
+          ]
+        },
+        {
+          "start": 445.88,
+          "end": 456.36,
+          "text": "According to the definition of big O notation, fn is equal to big O of gn if and only if fn is less than or equal to c dot gn.",
+          "words": [
+            {
+              "word": " According",
+              "start": 445.88,
+              "end": 446.48
+            },
+            {
+              "word": " to",
+              "start": 446.48,
+              "end": 446.72
+            },
+            {
+              "word": " the",
+              "start": 446.72,
+              "end": 446.86
+            },
+            {
+              "word": " definition",
+              "start": 446.86,
+              "end": 447.44
+            },
+            {
+              "word": " of",
+              "start": 447.44,
+              "end": 447.9
+            },
+            {
+              "word": " big",
+              "start": 447.9,
+              "end": 448.2
+            },
+            {
+              "word": " O",
+              "start": 448.2,
+              "end": 448.34
+            },
+            {
+              "word": " notation,",
+              "start": 448.34,
+              "end": 448.84
+            },
+            {
+              "word": " fn",
+              "start": 449.42,
+              "end": 449.94
+            },
+            {
+              "word": " is",
+              "start": 449.94,
+              "end": 450.22
+            },
+            {
+              "word": " equal",
+              "start": 450.22,
+              "end": 450.6
+            },
+            {
+              "word": " to",
+              "start": 450.6,
+              "end": 450.82
+            },
+            {
+              "word": " big",
+              "start": 450.82,
+              "end": 451.12
+            },
+            {
+              "word": " O",
+              "start": 451.12,
+              "end": 451.3
+            },
+            {
+              "word": " of",
+              "start": 451.3,
+              "end": 451.5
+            },
+            {
+              "word": " gn",
+              "start": 451.5,
+              "end": 452.02
+            },
+            {
+              "word": " if",
+              "start": 452.02,
+              "end": 452.52
+            },
+            {
+              "word": " and",
+              "start": 452.52,
+              "end": 452.68
+            },
+            {
+              "word": " only",
+              "start": 452.68,
+              "end": 452.98
+            },
+            {
+              "word": " if",
+              "start": 452.98,
+              "end": 453.32
+            },
+            {
+              "word": " fn",
+              "start": 453.32,
+              "end": 453.78
+            },
+            {
+              "word": " is",
+              "start": 453.78,
+              "end": 453.96
+            },
+            {
+              "word": " less",
+              "start": 453.96,
+              "end": 454.2
+            },
+            {
+              "word": " than",
+              "start": 454.2,
+              "end": 454.44
+            },
+            {
+              "word": " or",
+              "start": 454.44,
+              "end": 454.64
+            },
+            {
+              "word": " equal",
+              "start": 454.64,
+              "end": 454.92
+            },
+            {
+              "word": " to",
+              "start": 454.92,
+              "end": 455.2
+            },
+            {
+              "word": " c",
+              "start": 455.2,
+              "end": 455.5
+            },
+            {
+              "word": " dot",
+              "start": 455.5,
+              "end": 455.76
+            },
+            {
+              "word": " gn.",
+              "start": 455.76,
+              "end": 456.36
+            }
+          ]
+        },
+        {
+          "start": 456.46,
+          "end": 464.58,
+          "text": "For all values of n where n is greater than or equal to n naught and c and n naught are constants.",
+          "words": [
+            {
+              "word": " For",
+              "start": 456.46,
+              "end": 456.84
+            },
+            {
+              "word": " all",
+              "start": 456.84,
+              "end": 457.2
+            },
+            {
+              "word": " values",
+              "start": 457.2,
+              "end": 457.74
+            },
+            {
+              "word": " of",
+              "start": 457.74,
+              "end": 458.1
+            },
+            {
+              "word": " n",
+              "start": 458.1,
+              "end": 458.44
+            },
+            {
+              "word": " where",
+              "start": 458.44,
+              "end": 458.72
+            },
+            {
+              "word": " n",
+              "start": 458.72,
+              "end": 459.08
+            },
+            {
+              "word": " is",
+              "start": 459.08,
+              "end": 459.28
+            },
+            {
+              "word": " greater",
+              "start": 459.28,
+              "end": 459.82
+            },
+            {
+              "word": " than",
+              "start": 459.82,
+              "end": 460.06
+            },
+            {
+              "word": " or",
+              "start": 460.06,
+              "end": 460.3
+            },
+            {
+              "word": " equal",
+              "start": 460.3,
+              "end": 460.62
+            },
+            {
+              "word": " to",
+              "start": 460.62,
+              "end": 460.9
+            },
+            {
+              "word": " n",
+              "start": 460.9,
+              "end": 461.22
+            },
+            {
+              "word": " naught",
+              "start": 461.22,
+              "end": 461.54
+            },
+            {
+              "word": " and",
+              "start": 461.54,
+              "end": 462.38
+            },
+            {
+              "word": " c",
+              "start": 462.38,
+              "end": 462.72
+            },
+            {
+              "word": " and",
+              "start": 462.72,
+              "end": 463.02
+            },
+            {
+              "word": " n",
+              "start": 463.02,
+              "end": 463.34
+            },
+            {
+              "word": " naught",
+              "start": 463.34,
+              "end": 463.66
+            },
+            {
+              "word": " are",
+              "start": 463.66,
+              "end": 463.94
+            },
+            {
+              "word": " constants.",
+              "start": 463.94,
+              "end": 464.58
+            }
+          ]
+        },
+        {
+          "start": 465.48,
+          "end": 466.88,
+          "text": "Now, what is fn?",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 465.48,
+              "end": 466.12
+            },
+            {
+              "word": " what",
+              "start": 466.32,
+              "end": 466.32
+            },
+            {
+              "word": " is",
+              "start": 466.32,
+              "end": 466.46
+            },
+            {
+              "word": " fn?",
+              "start": 466.46,
+              "end": 466.88
+            }
+          ]
+        },
+        {
+          "start": 467.24,
+          "end": 472.12,
+          "text": "fn is n to the power of 4 plus 100 n square plus 35.",
+          "words": [
+            {
+              "word": " fn",
+              "start": 467.24,
+              "end": 467.7
+            },
+            {
+              "word": " is",
+              "start": 467.7,
+              "end": 468.0
+            },
+            {
+              "word": " n",
+              "start": 468.0,
+              "end": 468.36
+            },
+            {
+              "word": " to",
+              "start": 468.36,
+              "end": 468.5
+            },
+            {
+              "word": " the",
+              "start": 468.5,
+              "end": 468.62
+            },
+            {
+              "word": " power",
+              "start": 468.62,
+              "end": 468.92
+            },
+            {
+              "word": " of",
+              "start": 468.92,
+              "end": 469.1
+            },
+            {
+              "word": " 4",
+              "start": 469.1,
+              "end": 469.4
+            },
+            {
+              "word": " plus",
+              "start": 469.4,
+              "end": 469.66
+            },
+            {
+              "word": " 100",
+              "start": 469.66,
+              "end": 470.18
+            },
+            {
+              "word": " n",
+              "start": 470.18,
+              "end": 470.54
+            },
+            {
+              "word": " square",
+              "start": 470.54,
+              "end": 470.86
+            },
+            {
+              "word": " plus",
+              "start": 470.86,
+              "end": 471.38
+            },
+            {
+              "word": " 35.",
+              "start": 471.38,
+              "end": 472.12
+            }
+          ]
+        },
+        {
+          "start": 472.78,
+          "end": 476.6,
+          "text": "And we are assuming gn to be equal to n to the power of 4.",
+          "words": [
+            {
+              "word": " And",
+              "start": 472.78,
+              "end": 473.2
+            },
+            {
+              "word": " we",
+              "start": 473.2,
+              "end": 473.34
+            },
+            {
+              "word": " are",
+              "start": 473.34,
+              "end": 473.42
+            },
+            {
+              "word": " assuming",
+              "start": 473.42,
+              "end": 473.78
+            },
+            {
+              "word": " gn",
+              "start": 473.78,
+              "end": 474.34
+            },
+            {
+              "word": " to",
+              "start": 474.34,
+              "end": 474.52
+            },
+            {
+              "word": " be",
+              "start": 474.52,
+              "end": 474.68
+            },
+            {
+              "word": " equal",
+              "start": 474.68,
+              "end": 475.08
+            },
+            {
+              "word": " to",
+              "start": 475.08,
+              "end": 475.3
+            },
+            {
+              "word": " n",
+              "start": 475.3,
+              "end": 475.62
+            },
+            {
+              "word": " to",
+              "start": 475.62,
+              "end": 475.74
+            },
+            {
+              "word": " the",
+              "start": 475.74,
+              "end": 475.86
+            },
+            {
+              "word": " power",
+              "start": 475.86,
+              "end": 476.14
+            },
+            {
+              "word": " of",
+              "start": 476.14,
+              "end": 476.32
+            },
+            {
+              "word": " 4.",
+              "start": 476.32,
+              "end": 476.6
+            }
+          ]
+        },
+        {
+          "start": 477.04,
+          "end": 483.32,
+          "text": "If this is true, then fn less than or equal to c dot gn must be true.",
+          "words": [
+            {
+              "word": " If",
+              "start": 477.04,
+              "end": 477.28
+            },
+            {
+              "word": " this",
+              "start": 477.28,
+              "end": 477.52
+            },
+            {
+              "word": " is",
+              "start": 477.52,
+              "end": 477.7
+            },
+            {
+              "word": " true,",
+              "start": 477.7,
+              "end": 478.06
+            },
+            {
+              "word": " then",
+              "start": 478.5,
+              "end": 478.74
+            },
+            {
+              "word": " fn",
+              "start": 478.74,
+              "end": 479.64
+            },
+            {
+              "word": " less",
+              "start": 479.64,
+              "end": 480.14
+            },
+            {
+              "word": " than",
+              "start": 480.14,
+              "end": 480.38
+            },
+            {
+              "word": " or",
+              "start": 480.38,
+              "end": 480.54
+            },
+            {
+              "word": " equal",
+              "start": 480.54,
+              "end": 480.82
+            },
+            {
+              "word": " to",
+              "start": 480.82,
+              "end": 481.14
+            },
+            {
+              "word": " c",
+              "start": 481.14,
+              "end": 481.5
+            },
+            {
+              "word": " dot",
+              "start": 481.5,
+              "end": 481.78
+            },
+            {
+              "word": " gn",
+              "start": 481.78,
+              "end": 482.28
+            },
+            {
+              "word": " must",
+              "start": 482.28,
+              "end": 482.68
+            },
+            {
+              "word": " be",
+              "start": 482.68,
+              "end": 483.02
+            },
+            {
+              "word": " true.",
+              "start": 483.02,
+              "end": 483.32
+            }
+          ]
+        },
+        {
+          "start": 483.8,
+          "end": 486.6,
+          "text": "Let us assume c is equal to 2.",
+          "words": [
+            {
+              "word": " Let",
+              "start": 483.8,
+              "end": 484.08
+            },
+            {
+              "word": " us",
+              "start": 484.08,
+              "end": 484.2
+            },
+            {
+              "word": " assume",
+              "start": 484.2,
+              "end": 484.58
+            },
+            {
+              "word": " c",
+              "start": 484.58,
+              "end": 485.0
+            },
+            {
+              "word": " is",
+              "start": 485.0,
+              "end": 485.38
+            },
+            {
+              "word": " equal",
+              "start": 485.38,
+              "end": 485.86
+            },
+            {
+              "word": " to",
+              "start": 485.86,
+              "end": 486.2
+            },
+            {
+              "word": " 2.",
+              "start": 486.2,
+              "end": 486.6
+            }
+          ]
+        },
+        {
+          "start": 487.0,
+          "end": 488.88,
+          "text": "We are assuming c to be 2.",
+          "words": [
+            {
+              "word": " We",
+              "start": 487.0,
+              "end": 487.28
+            },
+            {
+              "word": " are",
+              "start": 487.28,
+              "end": 487.34
+            },
+            {
+              "word": " assuming",
+              "start": 487.34,
+              "end": 487.66
+            },
+            {
+              "word": " c",
+              "start": 487.66,
+              "end": 488.12
+            },
+            {
+              "word": " to",
+              "start": 488.12,
+              "end": 488.36
+            },
+            {
+              "word": " be",
+              "start": 488.36,
+              "end": 488.52
+            },
+            {
+              "word": " 2.",
+              "start": 488.52,
+              "end": 488.88
+            }
+          ]
+        },
+        {
+          "start": 488.88,
+          "end": 503.08,
+          "text": "And this means that we want to find out whether n to the power of 4 plus 100 n square plus 35 is less than or equal to 2n to the power of 4 or naught.",
+          "words": [
+            {
+              "word": " And",
+              "start": 488.88,
+              "end": 489.76
+            },
+            {
+              "word": " this",
+              "start": 489.76,
+              "end": 490.06
+            },
+            {
+              "word": " means",
+              "start": 490.06,
+              "end": 490.44
+            },
+            {
+              "word": " that",
+              "start": 490.44,
+              "end": 490.92
+            },
+            {
+              "word": " we",
+              "start": 490.92,
+              "end": 491.42
+            },
+            {
+              "word": " want",
+              "start": 491.42,
+              "end": 491.74
+            },
+            {
+              "word": " to",
+              "start": 491.74,
+              "end": 491.88
+            },
+            {
+              "word": " find",
+              "start": 491.88,
+              "end": 492.24
+            },
+            {
+              "word": " out",
+              "start": 492.24,
+              "end": 492.64
+            },
+            {
+              "word": " whether",
+              "start": 492.64,
+              "end": 493.12
+            },
+            {
+              "word": " n",
+              "start": 493.12,
+              "end": 493.6
+            },
+            {
+              "word": " to",
+              "start": 493.6,
+              "end": 493.76
+            },
+            {
+              "word": " the",
+              "start": 493.76,
+              "end": 493.9
+            },
+            {
+              "word": " power",
+              "start": 493.9,
+              "end": 494.2
+            },
+            {
+              "word": " of",
+              "start": 494.2,
+              "end": 494.42
+            },
+            {
+              "word": " 4",
+              "start": 494.42,
+              "end": 494.68
+            },
+            {
+              "word": " plus",
+              "start": 494.68,
+              "end": 495.02
+            },
+            {
+              "word": " 100",
+              "start": 495.02,
+              "end": 495.6
+            },
+            {
+              "word": " n",
+              "start": 495.6,
+              "end": 496.0
+            },
+            {
+              "word": " square",
+              "start": 496.0,
+              "end": 496.44
+            },
+            {
+              "word": " plus",
+              "start": 496.44,
+              "end": 497.18
+            },
+            {
+              "word": " 35",
+              "start": 497.18,
+              "end": 498.1
+            },
+            {
+              "word": " is",
+              "start": 498.1,
+              "end": 498.7
+            },
+            {
+              "word": " less",
+              "start": 498.7,
+              "end": 499.02
+            },
+            {
+              "word": " than",
+              "start": 499.02,
+              "end": 499.3
+            },
+            {
+              "word": " or",
+              "start": 499.3,
+              "end": 499.64
+            },
+            {
+              "word": " equal",
+              "start": 499.64,
+              "end": 500.02
+            },
+            {
+              "word": " to",
+              "start": 500.02,
+              "end": 500.36
+            },
+            {
+              "word": " 2n",
+              "start": 500.36,
+              "end": 501.18
+            },
+            {
+              "word": " to",
+              "start": 501.18,
+              "end": 501.34
+            },
+            {
+              "word": " the",
+              "start": 501.34,
+              "end": 501.48
+            },
+            {
+              "word": " power",
+              "start": 501.48,
+              "end": 501.76
+            },
+            {
+              "word": " of",
+              "start": 501.76,
+              "end": 501.98
+            },
+            {
+              "word": " 4",
+              "start": 501.98,
+              "end": 502.34
+            },
+            {
+              "word": " or",
+              "start": 502.34,
+              "end": 502.74
+            },
+            {
+              "word": " naught.",
+              "start": 502.74,
+              "end": 503.08
+            }
+          ]
+        },
+        {
+          "start": 503.76,
+          "end": 504.82,
+          "text": "Is it true?",
+          "words": [
+            {
+              "word": " Is",
+              "start": 503.76,
+              "end": 504.42
+            },
+            {
+              "word": " it",
+              "start": 504.42,
+              "end": 504.56
+            },
+            {
+              "word": " true?",
+              "start": 504.56,
+              "end": 504.82
+            }
+          ]
+        },
+        {
+          "start": 505.42,
+          "end": 506.28,
+          "text": "What do you think?",
+          "words": [
+            {
+              "word": " What",
+              "start": 505.42,
+              "end": 505.76
+            },
+            {
+              "word": " do",
+              "start": 505.76,
+              "end": 505.9
+            },
+            {
+              "word": " you",
+              "start": 505.9,
+              "end": 506.02
+            },
+            {
+              "word": " think?",
+              "start": 506.02,
+              "end": 506.28
+            }
+          ]
+        },
+        {
+          "start": 507.14,
+          "end": 512.06,
+          "text": "I want you to draw the table for fn and c dot gn.",
+          "words": [
+            {
+              "word": " I",
+              "start": 507.14,
+              "end": 507.72
+            },
+            {
+              "word": " want",
+              "start": 507.72,
+              "end": 507.98
+            },
+            {
+              "word": " you",
+              "start": 507.98,
+              "end": 508.22
+            },
+            {
+              "word": " to",
+              "start": 508.22,
+              "end": 508.38
+            },
+            {
+              "word": " draw",
+              "start": 508.38,
+              "end": 508.76
+            },
+            {
+              "word": " the",
+              "start": 508.76,
+              "end": 508.96
+            },
+            {
+              "word": " table",
+              "start": 508.96,
+              "end": 509.46
+            },
+            {
+              "word": " for",
+              "start": 509.46,
+              "end": 509.94
+            },
+            {
+              "word": " fn",
+              "start": 509.94,
+              "end": 510.62
+            },
+            {
+              "word": " and",
+              "start": 510.62,
+              "end": 510.94
+            },
+            {
+              "word": " c",
+              "start": 510.94,
+              "end": 511.28
+            },
+            {
+              "word": " dot",
+              "start": 511.28,
+              "end": 511.54
+            },
+            {
+              "word": " gn.",
+              "start": 511.54,
+              "end": 512.06
+            }
+          ]
+        },
+        {
+          "start": 512.38,
+          "end": 518.02,
+          "text": "I want you to plug in the values of n and identify the value n naught.",
+          "words": [
+            {
+              "word": " I",
+              "start": 512.38,
+              "end": 512.58
+            },
+            {
+              "word": " want",
+              "start": 512.58,
+              "end": 512.82
+            },
+            {
+              "word": " you",
+              "start": 512.82,
+              "end": 513.02
+            },
+            {
+              "word": " to",
+              "start": 513.02,
+              "end": 513.12
+            },
+            {
+              "word": " plug",
+              "start": 513.12,
+              "end": 513.46
+            },
+            {
+              "word": " in",
+              "start": 513.46,
+              "end": 513.68
+            },
+            {
+              "word": " the",
+              "start": 513.68,
+              "end": 513.86
+            },
+            {
+              "word": " values",
+              "start": 513.86,
+              "end": 514.32
+            },
+            {
+              "word": " of",
+              "start": 514.32,
+              "end": 514.7
+            },
+            {
+              "word": " n",
+              "start": 514.7,
+              "end": 515.08
+            },
+            {
+              "word": " and",
+              "start": 515.08,
+              "end": 515.64
+            },
+            {
+              "word": " identify",
+              "start": 515.64,
+              "end": 516.46
+            },
+            {
+              "word": " the",
+              "start": 516.46,
+              "end": 516.86
+            },
+            {
+              "word": " value",
+              "start": 516.86,
+              "end": 517.24
+            },
+            {
+              "word": " n",
+              "start": 517.24,
+              "end": 517.74
+            },
+            {
+              "word": " naught.",
+              "start": 517.74,
+              "end": 518.02
+            }
+          ]
+        },
+        {
+          "start": 518.02,
+          "end": 530.76,
+          "text": "And this means I want you to prove that 2n to the power of 4 is indeed greater than or equal to n to the power of 4 plus 100 n square plus 35.",
+          "words": [
+            {
+              "word": " And",
+              "start": 518.02,
+              "end": 518.94
+            },
+            {
+              "word": " this",
+              "start": 518.94,
+              "end": 519.16
+            },
+            {
+              "word": " means",
+              "start": 519.16,
+              "end": 519.48
+            },
+            {
+              "word": " I",
+              "start": 519.48,
+              "end": 519.82
+            },
+            {
+              "word": " want",
+              "start": 519.82,
+              "end": 520.1
+            },
+            {
+              "word": " you",
+              "start": 520.1,
+              "end": 520.32
+            },
+            {
+              "word": " to",
+              "start": 520.32,
+              "end": 520.46
+            },
+            {
+              "word": " prove",
+              "start": 520.46,
+              "end": 520.88
+            },
+            {
+              "word": " that",
+              "start": 520.88,
+              "end": 521.36
+            },
+            {
+              "word": " 2n",
+              "start": 521.36,
+              "end": 522.3
+            },
+            {
+              "word": " to",
+              "start": 522.3,
+              "end": 522.44
+            },
+            {
+              "word": " the",
+              "start": 522.44,
+              "end": 522.58
+            },
+            {
+              "word": " power",
+              "start": 522.58,
+              "end": 522.88
+            },
+            {
+              "word": " of",
+              "start": 522.88,
+              "end": 523.04
+            },
+            {
+              "word": " 4",
+              "start": 523.04,
+              "end": 523.4
+            },
+            {
+              "word": " is",
+              "start": 523.4,
+              "end": 523.78
+            },
+            {
+              "word": " indeed",
+              "start": 523.78,
+              "end": 524.34
+            },
+            {
+              "word": " greater",
+              "start": 524.34,
+              "end": 525.12
+            },
+            {
+              "word": " than",
+              "start": 525.12,
+              "end": 525.46
+            },
+            {
+              "word": " or",
+              "start": 525.46,
+              "end": 525.78
+            },
+            {
+              "word": " equal",
+              "start": 525.78,
+              "end": 526.18
+            },
+            {
+              "word": " to",
+              "start": 526.18,
+              "end": 526.52
+            },
+            {
+              "word": " n",
+              "start": 526.52,
+              "end": 527.24
+            },
+            {
+              "word": " to",
+              "start": 527.24,
+              "end": 527.42
+            },
+            {
+              "word": " the",
+              "start": 527.42,
+              "end": 527.54
+            },
+            {
+              "word": " power",
+              "start": 527.54,
+              "end": 527.82
+            },
+            {
+              "word": " of",
+              "start": 527.82,
+              "end": 528.0
+            },
+            {
+              "word": " 4",
+              "start": 528.0,
+              "end": 528.28
+            },
+            {
+              "word": " plus",
+              "start": 528.28,
+              "end": 528.56
+            },
+            {
+              "word": " 100",
+              "start": 528.56,
+              "end": 529.02
+            },
+            {
+              "word": " n",
+              "start": 529.02,
+              "end": 529.38
+            },
+            {
+              "word": " square",
+              "start": 529.38,
+              "end": 529.68
+            },
+            {
+              "word": " plus",
+              "start": 529.68,
+              "end": 530.12
+            },
+            {
+              "word": " 35.",
+              "start": 530.12,
+              "end": 530.76
+            }
+          ]
+        },
+        {
+          "start": 531.24,
+          "end": 536.96,
+          "text": "Or in other words, prove that n power 4 is the upper bound of fn.",
+          "words": [
+            {
+              "word": " Or",
+              "start": 531.24,
+              "end": 531.66
+            },
+            {
+              "word": " in",
+              "start": 531.66,
+              "end": 531.78
+            },
+            {
+              "word": " other",
+              "start": 531.78,
+              "end": 531.92
+            },
+            {
+              "word": " words,",
+              "start": 531.92,
+              "end": 532.38
+            },
+            {
+              "word": " prove",
+              "start": 532.62,
+              "end": 532.92
+            },
+            {
+              "word": " that",
+              "start": 532.92,
+              "end": 533.2
+            },
+            {
+              "word": " n",
+              "start": 533.2,
+              "end": 533.68
+            },
+            {
+              "word": " power",
+              "start": 533.68,
+              "end": 534.0
+            },
+            {
+              "word": " 4",
+              "start": 534.0,
+              "end": 534.56
+            },
+            {
+              "word": " is",
+              "start": 534.56,
+              "end": 535.02
+            },
+            {
+              "word": " the",
+              "start": 535.02,
+              "end": 535.2
+            },
+            {
+              "word": " upper",
+              "start": 535.2,
+              "end": 535.52
+            },
+            {
+              "word": " bound",
+              "start": 535.52,
+              "end": 535.94
+            },
+            {
+              "word": " of",
+              "start": 535.94,
+              "end": 536.34
+            },
+            {
+              "word": " fn.",
+              "start": 536.34,
+              "end": 536.96
+            }
+          ]
+        },
+        {
+          "start": 537.54,
+          "end": 539.76,
+          "text": "So, this will be your homework.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 537.54,
+              "end": 538.14
+            },
+            {
+              "word": " this",
+              "start": 538.2,
+              "end": 538.44
+            },
+            {
+              "word": " will",
+              "start": 538.44,
+              "end": 538.62
+            },
+            {
+              "word": " be",
+              "start": 538.62,
+              "end": 538.86
+            },
+            {
+              "word": " your",
+              "start": 538.86,
+              "end": 539.16
+            },
+            {
+              "word": " homework.",
+              "start": 539.16,
+              "end": 539.76
+            }
+          ]
+        },
+        {
+          "start": 541.2,
+          "end": 543.94,
+          "text": "I hope with these the problems are clear.",
+          "words": [
+            {
+              "word": " I",
+              "start": 541.2,
+              "end": 541.84
+            },
+            {
+              "word": " hope",
+              "start": 541.84,
+              "end": 542.08
+            },
+            {
+              "word": " with",
+              "start": 542.08,
+              "end": 542.3
+            },
+            {
+              "word": " these",
+              "start": 542.3,
+              "end": 542.54
+            },
+            {
+              "word": " the",
+              "start": 542.54,
+              "end": 542.76
+            },
+            {
+              "word": " problems",
+              "start": 542.76,
+              "end": 543.16
+            },
+            {
+              "word": " are",
+              "start": 543.16,
+              "end": 543.56
+            },
+            {
+              "word": " clear.",
+              "start": 543.56,
+              "end": 543.94
+            }
+          ]
+        },
+        {
+          "start": 544.24,
+          "end": 547.12,
+          "text": "And this means we are done with this presentation.",
+          "words": [
+            {
+              "word": " And",
+              "start": 544.24,
+              "end": 544.52
+            },
+            {
+              "word": " this",
+              "start": 544.52,
+              "end": 544.72
+            },
+            {
+              "word": " means",
+              "start": 544.72,
+              "end": 545.0
+            },
+            {
+              "word": " we",
+              "start": 545.0,
+              "end": 545.4
+            },
+            {
+              "word": " are",
+              "start": 545.4,
+              "end": 545.56
+            },
+            {
+              "word": " done",
+              "start": 545.56,
+              "end": 545.92
+            },
+            {
+              "word": " with",
+              "start": 545.92,
+              "end": 546.24
+            },
+            {
+              "word": " this",
+              "start": 546.24,
+              "end": 546.44
+            },
+            {
+              "word": " presentation.",
+              "start": 546.44,
+              "end": 547.12
+            }
+          ]
+        },
+        {
+          "start": 547.72,
+          "end": 549.84,
+          "text": "Okay friends, this is it for now.",
+          "words": [
+            {
+              "word": " Okay",
+              "start": 547.72,
+              "end": 548.2
+            },
+            {
+              "word": " friends,",
+              "start": 548.2,
+              "end": 548.52
+            },
+            {
+              "word": " this",
+              "start": 549.0,
+              "end": 549.18
+            },
+            {
+              "word": " is",
+              "start": 549.18,
+              "end": 549.28
+            },
+            {
+              "word": " it",
+              "start": 549.28,
+              "end": 549.42
+            },
+            {
+              "word": " for",
+              "start": 549.42,
+              "end": 549.6
+            },
+            {
+              "word": " now.",
+              "start": 549.6,
+              "end": 549.84
+            }
+          ]
+        },
+        {
+          "start": 550.18,
+          "end": 551.76,
+          "text": "Thank you for watching this presentation.",
+          "words": [
+            {
+              "word": " Thank",
+              "start": 550.18,
+              "end": 550.4
+            },
+            {
+              "word": " you",
+              "start": 550.4,
+              "end": 550.6
+            },
+            {
+              "word": " for",
+              "start": 550.6,
+              "end": 550.76
+            },
+            {
+              "word": " watching",
+              "start": 550.76,
+              "end": 551.0
+            },
+            {
+              "word": " this",
+              "start": 551.0,
+              "end": 551.24
+            },
+            {
+              "word": " presentation.",
+              "start": 551.24,
+              "end": 551.76
+            }
+          ]
+        },
+        {
+          "start": 552.32,
+          "end": 554.14,
+          "text": "I will see you in the next one.",
+          "words": [
+            {
+              "word": " I",
+              "start": 552.32,
+              "end": 552.4
+            },
+            {
+              "word": " will",
+              "start": 552.4,
+              "end": 552.58
+            },
+            {
+              "word": " see",
+              "start": 552.58,
+              "end": 552.82
+            },
+            {
+              "word": " you",
+              "start": 552.82,
+              "end": 553.08
+            },
+            {
+              "word": " in",
+              "start": 553.08,
+              "end": 553.44
+            },
+            {
+              "word": " the",
+              "start": 553.44,
+              "end": 553.54
+            },
+            {
+              "word": " next",
+              "start": 553.54,
+              "end": 553.82
+            },
+            {
+              "word": " one.",
+              "start": 553.82,
+              "end": 554.14
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 5.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 6.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 25.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 32.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 141.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 347.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 491.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 546.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 9,
+        "timestamp": 550.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 555.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 556.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 12,
+        "timestamp": 557.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 13,
+        "timestamp": 559.0,
+        "path": "data/processed\\lecture_011\\frames\\frame_000013.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 14,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    }
+  }
+}

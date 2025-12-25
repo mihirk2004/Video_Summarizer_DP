@@ -380,4 +380,4 @@ if __name__ == "__main__":
         process_single_video(video_path, video_id)
     else:
         # Batch process all videos in raw directory
-        batch_process_videos(Config.RAW_VIDEO_DIR, max_videos=5)
+        batch_process_videos(Config.RAW_VIDEO_DIR, max_videos=None)
