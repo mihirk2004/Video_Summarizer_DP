@@ -385,5 +385,5 @@ if __name__ == "__main__":
         batch_process_videos(
     Config.RAW_VIDEO_DIR,
     max_videos=None,
-    start_index=72
+    start_index=217
 )
