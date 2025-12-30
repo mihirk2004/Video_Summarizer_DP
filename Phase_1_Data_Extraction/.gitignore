@@ -5,7 +5,9 @@ __pycache__/
 *.pyc
 
 # Data
-data/raw_videos/
+data/raw_videos
+data/processed
+data/annotations
 *.mp4
 *.wav
 
