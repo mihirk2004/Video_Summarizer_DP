@@ -1,0 +1,4098 @@
+{
+  "video_id": "lecture_198",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\cb_lecture_07.mp4",
+    "duration": 0.0,
+    "fps": 25.0,
+    "resolution": "640x360",
+    "processing_date": "2026-01-10T19:49:54.055139",
+    "subject": "Biology",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_198\\audio.wav",
+    "transcript": {
+      "text": " Carbohydrates are essential energy sources for almost every cell on the face of the earth, so it's essential to understand then the biochemistry-slash-metabolism of these important compounds. This lecture will focus on probably the most important carbohydrate, and that's glucose. Glucose is broken down in a pathway called glycolysis, which will be the subject of the first part of this talk, and then I'll finish it with the end product of glycolysis, which is pyruvate, and how it's metabolized further, and how that impacts fermentation. Now in glycolysis we have the breakdown of glucose, and glycolysis literally means the breakdown of glucose. Glyco referring to the glucose part, and lysus referring to the breakdown. Glycolysis is a primary energy source for cells, but it's not within the pathway itself overly energetic. As we will see, what glycolysis is important for is providing its end products for further oxidation. Glycolysis is what we call a central metabolic pathway. Now central metabolic pathway means that it feeds into so many other pathways, and pulling this pathway out of a cell would mean the cell would really have to rearrange everything that it does. The reactions of glycolysis occur in the cytoplasm of eukaryotic cells. In, glycolysis occurs in what we call two phases. A first phase in which ATP energy must actually be put into molecules to start the process. The ATP will be recovered later in the second part of glycolysis, where additional ATPs are made, reduced electron carriers are made, and two pyruvates are also made. Pyruvates are a connecting point for other pathways, and pyruvates, the oxidation of pyruvates, generates a tremendous amount of energy. Now, glucose is, structure is seen on the right here. In the body it's stored, at least in animals, it's stored in the form of glycogen. So the breakdown of glycogen releases essentially glucose for cells to use. In plants, amylose and amylopectin are used as the storage form, but the end product in each case of breakdown is the same. We get glucose that can be used for energy. The advantage of having glucose as a primary energy source for cells, particularly for cells, particularly for a multicellular organism, is that it is very readily released from storage, and it's also very easily to travel in the blood. Traveling in the blood is important because fat actually stores more energy per carbon than glucose does. But in a liquid or an aqueous organism, such as we are, that fat has to be packaged up in order to travel, and that takes time. Now, another advantage of glucose is that it can be made from very simple precursors, as we will see in another one of these lectures, in a pathway known as gluconeogenesis.",
+      "segments": [
+        {
+          "start": 5.280000000000006,
+          "end": 9.48,
+          "text": "Carbohydrates are essential energy sources for almost every cell on the face of the earth,",
+          "words": [
+            {
+              "word": " Carbohydrates",
+              "start": 5.280000000000006,
+              "end": 5.88
+            },
+            {
+              "word": " are",
+              "start": 5.88,
+              "end": 6.06
+            },
+            {
+              "word": " essential",
+              "start": 6.06,
+              "end": 6.5
+            },
+            {
+              "word": " energy",
+              "start": 6.5,
+              "end": 6.9
+            },
+            {
+              "word": " sources",
+              "start": 6.9,
+              "end": 7.28
+            },
+            {
+              "word": " for",
+              "start": 7.28,
+              "end": 7.56
+            },
+            {
+              "word": " almost",
+              "start": 7.56,
+              "end": 7.8
+            },
+            {
+              "word": " every",
+              "start": 7.8,
+              "end": 8.12
+            },
+            {
+              "word": " cell",
+              "start": 8.12,
+              "end": 8.52
+            },
+            {
+              "word": " on",
+              "start": 8.52,
+              "end": 8.7
+            },
+            {
+              "word": " the",
+              "start": 8.7,
+              "end": 8.78
+            },
+            {
+              "word": " face",
+              "start": 8.78,
+              "end": 9.02
+            },
+            {
+              "word": " of",
+              "start": 9.02,
+              "end": 9.2
+            },
+            {
+              "word": " the",
+              "start": 9.2,
+              "end": 9.3
+            },
+            {
+              "word": " earth,",
+              "start": 9.3,
+              "end": 9.48
+            }
+          ]
+        },
+        {
+          "start": 9.56,
+          "end": 14.78,
+          "text": "so it's essential to understand then the biochemistry-slash-metabolism of these important compounds.",
+          "words": [
+            {
+              "word": " so",
+              "start": 9.56,
+              "end": 9.66
+            },
+            {
+              "word": " it's",
+              "start": 9.66,
+              "end": 9.8
+            },
+            {
+              "word": " essential",
+              "start": 9.8,
+              "end": 10.26
+            },
+            {
+              "word": " to",
+              "start": 10.26,
+              "end": 10.42
+            },
+            {
+              "word": " understand",
+              "start": 10.42,
+              "end": 10.96
+            },
+            {
+              "word": " then",
+              "start": 10.96,
+              "end": 11.26
+            },
+            {
+              "word": " the",
+              "start": 11.26,
+              "end": 11.64
+            },
+            {
+              "word": " biochemistry",
+              "start": 11.64,
+              "end": 12.3
+            },
+            {
+              "word": "-slash",
+              "start": 12.3,
+              "end": 12.88
+            },
+            {
+              "word": "-metabolism",
+              "start": 12.88,
+              "end": 13.62
+            },
+            {
+              "word": " of",
+              "start": 13.62,
+              "end": 13.78
+            },
+            {
+              "word": " these",
+              "start": 13.78,
+              "end": 13.88
+            },
+            {
+              "word": " important",
+              "start": 13.88,
+              "end": 14.3
+            },
+            {
+              "word": " compounds.",
+              "start": 14.3,
+              "end": 14.78
+            }
+          ]
+        },
+        {
+          "start": 15.4,
+          "end": 20.46,
+          "text": "This lecture will focus on probably the most important carbohydrate, and that's glucose.",
+          "words": [
+            {
+              "word": " This",
+              "start": 15.4,
+              "end": 15.62
+            },
+            {
+              "word": " lecture",
+              "start": 15.62,
+              "end": 15.92
+            },
+            {
+              "word": " will",
+              "start": 15.92,
+              "end": 16.16
+            },
+            {
+              "word": " focus",
+              "start": 16.16,
+              "end": 16.58
+            },
+            {
+              "word": " on",
+              "start": 16.58,
+              "end": 17.1
+            },
+            {
+              "word": " probably",
+              "start": 17.1,
+              "end": 17.66
+            },
+            {
+              "word": " the",
+              "start": 17.66,
+              "end": 17.84
+            },
+            {
+              "word": " most",
+              "start": 17.84,
+              "end": 18.1
+            },
+            {
+              "word": " important",
+              "start": 18.1,
+              "end": 18.7
+            },
+            {
+              "word": " carbohydrate,",
+              "start": 18.7,
+              "end": 19.2
+            },
+            {
+              "word": " and",
+              "start": 19.88,
+              "end": 19.9
+            },
+            {
+              "word": " that's",
+              "start": 19.9,
+              "end": 20.16
+            },
+            {
+              "word": " glucose.",
+              "start": 20.16,
+              "end": 20.46
+            }
+          ]
+        },
+        {
+          "start": 20.98,
+          "end": 25.8,
+          "text": "Glucose is broken down in a pathway called glycolysis, which will be the subject of the",
+          "words": [
+            {
+              "word": " Glucose",
+              "start": 20.98,
+              "end": 21.42
+            },
+            {
+              "word": " is",
+              "start": 21.42,
+              "end": 21.72
+            },
+            {
+              "word": " broken",
+              "start": 21.72,
+              "end": 22.04
+            },
+            {
+              "word": " down",
+              "start": 22.04,
+              "end": 22.46
+            },
+            {
+              "word": " in",
+              "start": 22.46,
+              "end": 23.0
+            },
+            {
+              "word": " a",
+              "start": 23.0,
+              "end": 23.24
+            },
+            {
+              "word": " pathway",
+              "start": 23.24,
+              "end": 23.78
+            },
+            {
+              "word": " called",
+              "start": 23.78,
+              "end": 24.08
+            },
+            {
+              "word": " glycolysis,",
+              "start": 24.08,
+              "end": 24.78
+            },
+            {
+              "word": " which",
+              "start": 24.84,
+              "end": 24.98
+            },
+            {
+              "word": " will",
+              "start": 24.98,
+              "end": 25.06
+            },
+            {
+              "word": " be",
+              "start": 25.06,
+              "end": 25.14
+            },
+            {
+              "word": " the",
+              "start": 25.14,
+              "end": 25.26
+            },
+            {
+              "word": " subject",
+              "start": 25.26,
+              "end": 25.52
+            },
+            {
+              "word": " of",
+              "start": 25.52,
+              "end": 25.7
+            },
+            {
+              "word": " the",
+              "start": 25.7,
+              "end": 25.8
+            }
+          ]
+        },
+        {
+          "start": 25.8,
+          "end": 30.2,
+          "text": "first part of this talk, and then I'll finish it with the end product of glycolysis, which",
+          "words": [
+            {
+              "word": " first",
+              "start": 25.8,
+              "end": 25.96
+            },
+            {
+              "word": " part",
+              "start": 25.96,
+              "end": 26.22
+            },
+            {
+              "word": " of",
+              "start": 26.22,
+              "end": 26.3
+            },
+            {
+              "word": " this",
+              "start": 26.3,
+              "end": 26.42
+            },
+            {
+              "word": " talk,",
+              "start": 26.42,
+              "end": 26.68
+            },
+            {
+              "word": " and",
+              "start": 26.88,
+              "end": 27.2
+            },
+            {
+              "word": " then",
+              "start": 27.2,
+              "end": 27.36
+            },
+            {
+              "word": " I'll",
+              "start": 27.36,
+              "end": 27.54
+            },
+            {
+              "word": " finish",
+              "start": 27.54,
+              "end": 27.76
+            },
+            {
+              "word": " it",
+              "start": 27.76,
+              "end": 27.94
+            },
+            {
+              "word": " with",
+              "start": 27.94,
+              "end": 28.06
+            },
+            {
+              "word": " the",
+              "start": 28.06,
+              "end": 28.2
+            },
+            {
+              "word": " end",
+              "start": 28.2,
+              "end": 28.52
+            },
+            {
+              "word": " product",
+              "start": 28.52,
+              "end": 28.86
+            },
+            {
+              "word": " of",
+              "start": 28.86,
+              "end": 29.06
+            },
+            {
+              "word": " glycolysis,",
+              "start": 29.06,
+              "end": 29.72
+            },
+            {
+              "word": " which",
+              "start": 29.96,
+              "end": 30.2
+            }
+          ]
+        },
+        {
+          "start": 30.2,
+          "end": 34.2,
+          "text": "is pyruvate, and how it's metabolized further, and how that impacts fermentation.",
+          "words": [
+            {
+              "word": " is",
+              "start": 30.2,
+              "end": 30.34
+            },
+            {
+              "word": " pyruvate,",
+              "start": 30.34,
+              "end": 30.84
+            },
+            {
+              "word": " and",
+              "start": 30.96,
+              "end": 31.0
+            },
+            {
+              "word": " how",
+              "start": 31.0,
+              "end": 31.16
+            },
+            {
+              "word": " it's",
+              "start": 31.16,
+              "end": 31.42
+            },
+            {
+              "word": " metabolized",
+              "start": 31.42,
+              "end": 32.08
+            },
+            {
+              "word": " further,",
+              "start": 32.08,
+              "end": 32.38
+            },
+            {
+              "word": " and",
+              "start": 32.66,
+              "end": 33.0
+            },
+            {
+              "word": " how",
+              "start": 33.0,
+              "end": 33.16
+            },
+            {
+              "word": " that",
+              "start": 33.16,
+              "end": 33.34
+            },
+            {
+              "word": " impacts",
+              "start": 33.34,
+              "end": 33.8
+            },
+            {
+              "word": " fermentation.",
+              "start": 33.8,
+              "end": 34.2
+            }
+          ]
+        },
+        {
+          "start": 36.04,
+          "end": 41.14,
+          "text": "Now in glycolysis we have the breakdown of glucose, and glycolysis literally means the",
+          "words": [
+            {
+              "word": " Now",
+              "start": 36.04,
+              "end": 36.26
+            },
+            {
+              "word": " in",
+              "start": 36.26,
+              "end": 36.38
+            },
+            {
+              "word": " glycolysis",
+              "start": 36.38,
+              "end": 37.06
+            },
+            {
+              "word": " we",
+              "start": 37.06,
+              "end": 37.34
+            },
+            {
+              "word": " have",
+              "start": 37.34,
+              "end": 37.62
+            },
+            {
+              "word": " the",
+              "start": 37.62,
+              "end": 37.82
+            },
+            {
+              "word": " breakdown",
+              "start": 37.82,
+              "end": 38.22
+            },
+            {
+              "word": " of",
+              "start": 38.22,
+              "end": 38.6
+            },
+            {
+              "word": " glucose,",
+              "start": 38.6,
+              "end": 38.92
+            },
+            {
+              "word": " and",
+              "start": 39.18,
+              "end": 39.3
+            },
+            {
+              "word": " glycolysis",
+              "start": 39.3,
+              "end": 39.94
+            },
+            {
+              "word": " literally",
+              "start": 39.94,
+              "end": 40.42
+            },
+            {
+              "word": " means",
+              "start": 40.42,
+              "end": 40.96
+            },
+            {
+              "word": " the",
+              "start": 40.96,
+              "end": 41.14
+            }
+          ]
+        },
+        {
+          "start": 41.14,
+          "end": 41.9,
+          "text": "breakdown of glucose.",
+          "words": [
+            {
+              "word": " breakdown",
+              "start": 41.14,
+              "end": 41.44
+            },
+            {
+              "word": " of",
+              "start": 41.44,
+              "end": 41.64
+            },
+            {
+              "word": " glucose.",
+              "start": 41.64,
+              "end": 41.9
+            }
+          ]
+        },
+        {
+          "start": 42.5,
+          "end": 45.62,
+          "text": "Glyco referring to the glucose part, and lysus referring to the breakdown.",
+          "words": [
+            {
+              "word": " Glyco",
+              "start": 42.5,
+              "end": 42.88
+            },
+            {
+              "word": " referring",
+              "start": 42.88,
+              "end": 43.22
+            },
+            {
+              "word": " to",
+              "start": 43.22,
+              "end": 43.38
+            },
+            {
+              "word": " the",
+              "start": 43.38,
+              "end": 43.46
+            },
+            {
+              "word": " glucose",
+              "start": 43.46,
+              "end": 43.7
+            },
+            {
+              "word": " part,",
+              "start": 43.7,
+              "end": 44.1
+            },
+            {
+              "word": " and",
+              "start": 44.24,
+              "end": 44.28
+            },
+            {
+              "word": " lysus",
+              "start": 44.28,
+              "end": 44.66
+            },
+            {
+              "word": " referring",
+              "start": 44.66,
+              "end": 44.96
+            },
+            {
+              "word": " to",
+              "start": 44.96,
+              "end": 45.22
+            },
+            {
+              "word": " the",
+              "start": 45.22,
+              "end": 45.32
+            },
+            {
+              "word": " breakdown.",
+              "start": 45.32,
+              "end": 45.62
+            }
+          ]
+        },
+        {
+          "start": 46.6,
+          "end": 52.34,
+          "text": "Glycolysis is a primary energy source for cells, but it's not within the pathway itself",
+          "words": [
+            {
+              "word": " Glycolysis",
+              "start": 46.6,
+              "end": 47.14
+            },
+            {
+              "word": " is",
+              "start": 47.14,
+              "end": 47.38
+            },
+            {
+              "word": " a",
+              "start": 47.38,
+              "end": 47.52
+            },
+            {
+              "word": " primary",
+              "start": 47.52,
+              "end": 48.04
+            },
+            {
+              "word": " energy",
+              "start": 48.04,
+              "end": 48.54
+            },
+            {
+              "word": " source",
+              "start": 48.54,
+              "end": 48.94
+            },
+            {
+              "word": " for",
+              "start": 48.94,
+              "end": 49.34
+            },
+            {
+              "word": " cells,",
+              "start": 49.34,
+              "end": 49.74
+            },
+            {
+              "word": " but",
+              "start": 49.98,
+              "end": 50.24
+            },
+            {
+              "word": " it's",
+              "start": 50.24,
+              "end": 50.42
+            },
+            {
+              "word": " not",
+              "start": 50.42,
+              "end": 50.76
+            },
+            {
+              "word": " within",
+              "start": 50.76,
+              "end": 51.1
+            },
+            {
+              "word": " the",
+              "start": 51.1,
+              "end": 51.34
+            },
+            {
+              "word": " pathway",
+              "start": 51.34,
+              "end": 51.76
+            },
+            {
+              "word": " itself",
+              "start": 51.76,
+              "end": 52.34
+            }
+          ]
+        },
+        {
+          "start": 52.34,
+          "end": 53.66,
+          "text": "overly energetic.",
+          "words": [
+            {
+              "word": " overly",
+              "start": 52.34,
+              "end": 53.14
+            },
+            {
+              "word": " energetic.",
+              "start": 53.14,
+              "end": 53.66
+            }
+          ]
+        },
+        {
+          "start": 53.66,
+          "end": 59.02,
+          "text": "As we will see, what glycolysis is important for is providing its end products for further",
+          "words": [
+            {
+              "word": " As",
+              "start": 53.66,
+              "end": 54.16
+            },
+            {
+              "word": " we",
+              "start": 54.16,
+              "end": 54.52
+            },
+            {
+              "word": " will",
+              "start": 54.52,
+              "end": 54.64
+            },
+            {
+              "word": " see,",
+              "start": 54.64,
+              "end": 54.94
+            },
+            {
+              "word": " what",
+              "start": 55.36,
+              "end": 55.46
+            },
+            {
+              "word": " glycolysis",
+              "start": 55.46,
+              "end": 56.12
+            },
+            {
+              "word": " is",
+              "start": 56.12,
+              "end": 56.28
+            },
+            {
+              "word": " important",
+              "start": 56.28,
+              "end": 56.66
+            },
+            {
+              "word": " for",
+              "start": 56.66,
+              "end": 56.98
+            },
+            {
+              "word": " is",
+              "start": 56.98,
+              "end": 57.14
+            },
+            {
+              "word": " providing",
+              "start": 57.14,
+              "end": 57.52
+            },
+            {
+              "word": " its",
+              "start": 57.52,
+              "end": 57.74
+            },
+            {
+              "word": " end",
+              "start": 57.74,
+              "end": 58.06
+            },
+            {
+              "word": " products",
+              "start": 58.06,
+              "end": 58.42
+            },
+            {
+              "word": " for",
+              "start": 58.42,
+              "end": 58.7
+            },
+            {
+              "word": " further",
+              "start": 58.7,
+              "end": 59.02
+            }
+          ]
+        },
+        {
+          "start": 59.02,
+          "end": 59.64,
+          "text": "oxidation.",
+          "words": [
+            {
+              "word": " oxidation.",
+              "start": 59.02,
+              "end": 59.64
+            }
+          ]
+        },
+        {
+          "start": 60.62,
+          "end": 63.74,
+          "text": "Glycolysis is what we call a central metabolic pathway.",
+          "words": [
+            {
+              "word": " Glycolysis",
+              "start": 60.62,
+              "end": 61.26
+            },
+            {
+              "word": " is",
+              "start": 61.26,
+              "end": 61.42
+            },
+            {
+              "word": " what",
+              "start": 61.42,
+              "end": 61.54
+            },
+            {
+              "word": " we",
+              "start": 61.54,
+              "end": 61.66
+            },
+            {
+              "word": " call",
+              "start": 61.66,
+              "end": 61.92
+            },
+            {
+              "word": " a",
+              "start": 61.92,
+              "end": 62.16
+            },
+            {
+              "word": " central",
+              "start": 62.16,
+              "end": 62.5
+            },
+            {
+              "word": " metabolic",
+              "start": 62.5,
+              "end": 63.06
+            },
+            {
+              "word": " pathway.",
+              "start": 63.06,
+              "end": 63.74
+            }
+          ]
+        },
+        {
+          "start": 64.22,
+          "end": 69.78,
+          "text": "Now central metabolic pathway means that it feeds into so many other pathways, and pulling",
+          "words": [
+            {
+              "word": " Now",
+              "start": 64.22,
+              "end": 64.28
+            },
+            {
+              "word": " central",
+              "start": 64.28,
+              "end": 64.6
+            },
+            {
+              "word": " metabolic",
+              "start": 64.6,
+              "end": 64.9
+            },
+            {
+              "word": " pathway",
+              "start": 64.9,
+              "end": 65.58
+            },
+            {
+              "word": " means",
+              "start": 65.58,
+              "end": 66.12
+            },
+            {
+              "word": " that",
+              "start": 66.12,
+              "end": 66.38
+            },
+            {
+              "word": " it",
+              "start": 66.38,
+              "end": 66.68
+            },
+            {
+              "word": " feeds",
+              "start": 66.68,
+              "end": 67.1
+            },
+            {
+              "word": " into",
+              "start": 67.1,
+              "end": 67.36
+            },
+            {
+              "word": " so",
+              "start": 67.36,
+              "end": 67.68
+            },
+            {
+              "word": " many",
+              "start": 67.68,
+              "end": 67.96
+            },
+            {
+              "word": " other",
+              "start": 67.96,
+              "end": 68.3
+            },
+            {
+              "word": " pathways,",
+              "start": 68.3,
+              "end": 68.8
+            },
+            {
+              "word": " and",
+              "start": 69.16,
+              "end": 69.26
+            },
+            {
+              "word": " pulling",
+              "start": 69.26,
+              "end": 69.78
+            }
+          ]
+        },
+        {
+          "start": 69.78,
+          "end": 73.74,
+          "text": "this pathway out of a cell would mean the cell would really have to rearrange everything",
+          "words": [
+            {
+              "word": " this",
+              "start": 69.78,
+              "end": 70.0
+            },
+            {
+              "word": " pathway",
+              "start": 70.0,
+              "end": 70.38
+            },
+            {
+              "word": " out",
+              "start": 70.38,
+              "end": 70.56
+            },
+            {
+              "word": " of",
+              "start": 70.56,
+              "end": 70.64
+            },
+            {
+              "word": " a",
+              "start": 70.64,
+              "end": 70.72
+            },
+            {
+              "word": " cell",
+              "start": 70.72,
+              "end": 70.96
+            },
+            {
+              "word": " would",
+              "start": 70.96,
+              "end": 71.1
+            },
+            {
+              "word": " mean",
+              "start": 71.1,
+              "end": 71.22
+            },
+            {
+              "word": " the",
+              "start": 71.22,
+              "end": 71.34
+            },
+            {
+              "word": " cell",
+              "start": 71.34,
+              "end": 71.58
+            },
+            {
+              "word": " would",
+              "start": 71.58,
+              "end": 71.72
+            },
+            {
+              "word": " really",
+              "start": 71.72,
+              "end": 71.96
+            },
+            {
+              "word": " have",
+              "start": 71.96,
+              "end": 72.2
+            },
+            {
+              "word": " to",
+              "start": 72.2,
+              "end": 72.64
+            },
+            {
+              "word": " rearrange",
+              "start": 72.64,
+              "end": 72.9
+            },
+            {
+              "word": " everything",
+              "start": 72.9,
+              "end": 73.74
+            }
+          ]
+        },
+        {
+          "start": 73.74,
+          "end": 74.58,
+          "text": "that it does.",
+          "words": [
+            {
+              "word": " that",
+              "start": 73.74,
+              "end": 74.22
+            },
+            {
+              "word": " it",
+              "start": 74.22,
+              "end": 74.32
+            },
+            {
+              "word": " does.",
+              "start": 74.32,
+              "end": 74.58
+            }
+          ]
+        },
+        {
+          "start": 75.4,
+          "end": 79.8,
+          "text": "The reactions of glycolysis occur in the cytoplasm of eukaryotic cells.",
+          "words": [
+            {
+              "word": " The",
+              "start": 75.4,
+              "end": 75.54
+            },
+            {
+              "word": " reactions",
+              "start": 75.54,
+              "end": 75.9
+            },
+            {
+              "word": " of",
+              "start": 75.9,
+              "end": 76.12
+            },
+            {
+              "word": " glycolysis",
+              "start": 76.12,
+              "end": 76.76
+            },
+            {
+              "word": " occur",
+              "start": 76.76,
+              "end": 77.18
+            },
+            {
+              "word": " in",
+              "start": 77.18,
+              "end": 77.44
+            },
+            {
+              "word": " the",
+              "start": 77.44,
+              "end": 77.56
+            },
+            {
+              "word": " cytoplasm",
+              "start": 77.56,
+              "end": 78.5
+            },
+            {
+              "word": " of",
+              "start": 78.5,
+              "end": 78.86
+            },
+            {
+              "word": " eukaryotic",
+              "start": 78.86,
+              "end": 79.4
+            },
+            {
+              "word": " cells.",
+              "start": 79.4,
+              "end": 79.8
+            }
+          ]
+        },
+        {
+          "start": 80.94,
+          "end": 84.16,
+          "text": "In, glycolysis occurs in what we call two phases.",
+          "words": [
+            {
+              "word": " In,",
+              "start": 80.94,
+              "end": 81.6
+            },
+            {
+              "word": " glycolysis",
+              "start": 81.84,
+              "end": 82.42
+            },
+            {
+              "word": " occurs",
+              "start": 82.42,
+              "end": 82.74
+            },
+            {
+              "word": " in",
+              "start": 82.74,
+              "end": 83.08
+            },
+            {
+              "word": " what",
+              "start": 83.08,
+              "end": 83.18
+            },
+            {
+              "word": " we",
+              "start": 83.18,
+              "end": 83.28
+            },
+            {
+              "word": " call",
+              "start": 83.28,
+              "end": 83.5
+            },
+            {
+              "word": " two",
+              "start": 83.5,
+              "end": 83.78
+            },
+            {
+              "word": " phases.",
+              "start": 83.78,
+              "end": 84.16
+            }
+          ]
+        },
+        {
+          "start": 84.58,
+          "end": 90.54,
+          "text": "A first phase in which ATP energy must actually be put into molecules to start the process.",
+          "words": [
+            {
+              "word": " A",
+              "start": 84.58,
+              "end": 84.72
+            },
+            {
+              "word": " first",
+              "start": 84.72,
+              "end": 85.0
+            },
+            {
+              "word": " phase",
+              "start": 85.0,
+              "end": 85.3
+            },
+            {
+              "word": " in",
+              "start": 85.3,
+              "end": 85.76
+            },
+            {
+              "word": " which",
+              "start": 85.76,
+              "end": 85.9
+            },
+            {
+              "word": " ATP",
+              "start": 85.9,
+              "end": 86.38
+            },
+            {
+              "word": " energy",
+              "start": 86.38,
+              "end": 86.84
+            },
+            {
+              "word": " must",
+              "start": 86.84,
+              "end": 87.14
+            },
+            {
+              "word": " actually",
+              "start": 87.14,
+              "end": 87.6
+            },
+            {
+              "word": " be",
+              "start": 87.6,
+              "end": 87.84
+            },
+            {
+              "word": " put",
+              "start": 87.84,
+              "end": 88.1
+            },
+            {
+              "word": " into",
+              "start": 88.1,
+              "end": 88.56
+            },
+            {
+              "word": " molecules",
+              "start": 88.56,
+              "end": 89.2
+            },
+            {
+              "word": " to",
+              "start": 89.2,
+              "end": 89.76
+            },
+            {
+              "word": " start",
+              "start": 89.76,
+              "end": 89.98
+            },
+            {
+              "word": " the",
+              "start": 89.98,
+              "end": 90.16
+            },
+            {
+              "word": " process.",
+              "start": 90.16,
+              "end": 90.54
+            }
+          ]
+        },
+        {
+          "start": 91.04,
+          "end": 96.68,
+          "text": "The ATP will be recovered later in the second part of glycolysis, where additional ATPs",
+          "words": [
+            {
+              "word": " The",
+              "start": 91.04,
+              "end": 91.14
+            },
+            {
+              "word": " ATP",
+              "start": 91.14,
+              "end": 91.44
+            },
+            {
+              "word": " will",
+              "start": 91.44,
+              "end": 91.7
+            },
+            {
+              "word": " be",
+              "start": 91.7,
+              "end": 92.04
+            },
+            {
+              "word": " recovered",
+              "start": 92.04,
+              "end": 92.42
+            },
+            {
+              "word": " later",
+              "start": 92.42,
+              "end": 92.84
+            },
+            {
+              "word": " in",
+              "start": 92.84,
+              "end": 93.34
+            },
+            {
+              "word": " the",
+              "start": 93.34,
+              "end": 93.46
+            },
+            {
+              "word": " second",
+              "start": 93.46,
+              "end": 93.82
+            },
+            {
+              "word": " part",
+              "start": 93.82,
+              "end": 94.1
+            },
+            {
+              "word": " of",
+              "start": 94.1,
+              "end": 94.22
+            },
+            {
+              "word": " glycolysis,",
+              "start": 94.22,
+              "end": 94.98
+            },
+            {
+              "word": " where",
+              "start": 95.16,
+              "end": 95.48
+            },
+            {
+              "word": " additional",
+              "start": 95.48,
+              "end": 96.02
+            },
+            {
+              "word": " ATPs",
+              "start": 96.02,
+              "end": 96.68
+            }
+          ]
+        },
+        {
+          "start": 96.68,
+          "end": 101.9,
+          "text": "are made, reduced electron carriers are made, and two pyruvates are also made.",
+          "words": [
+            {
+              "word": " are",
+              "start": 96.68,
+              "end": 96.9
+            },
+            {
+              "word": " made,",
+              "start": 96.9,
+              "end": 97.22
+            },
+            {
+              "word": " reduced",
+              "start": 97.58,
+              "end": 98.0
+            },
+            {
+              "word": " electron",
+              "start": 98.0,
+              "end": 98.6
+            },
+            {
+              "word": " carriers",
+              "start": 98.6,
+              "end": 98.98
+            },
+            {
+              "word": " are",
+              "start": 98.98,
+              "end": 99.36
+            },
+            {
+              "word": " made,",
+              "start": 99.36,
+              "end": 99.64
+            },
+            {
+              "word": " and",
+              "start": 99.94,
+              "end": 100.2
+            },
+            {
+              "word": " two",
+              "start": 100.2,
+              "end": 100.4
+            },
+            {
+              "word": " pyruvates",
+              "start": 100.4,
+              "end": 101.08
+            },
+            {
+              "word": " are",
+              "start": 101.08,
+              "end": 101.22
+            },
+            {
+              "word": " also",
+              "start": 101.22,
+              "end": 101.58
+            },
+            {
+              "word": " made.",
+              "start": 101.58,
+              "end": 101.9
+            }
+          ]
+        },
+        {
+          "start": 102.5,
+          "end": 108.02,
+          "text": "Pyruvates are a connecting point for other pathways, and pyruvates, the oxidation of",
+          "words": [
+            {
+              "word": " Pyruvates",
+              "start": 102.5,
+              "end": 103.16
+            },
+            {
+              "word": " are",
+              "start": 103.16,
+              "end": 103.44
+            },
+            {
+              "word": " a",
+              "start": 103.44,
+              "end": 103.74
+            },
+            {
+              "word": " connecting",
+              "start": 103.74,
+              "end": 104.14
+            },
+            {
+              "word": " point",
+              "start": 104.14,
+              "end": 104.56
+            },
+            {
+              "word": " for",
+              "start": 104.56,
+              "end": 105.02
+            },
+            {
+              "word": " other",
+              "start": 105.02,
+              "end": 105.26
+            },
+            {
+              "word": " pathways,",
+              "start": 105.26,
+              "end": 105.82
+            },
+            {
+              "word": " and",
+              "start": 106.22,
+              "end": 106.34
+            },
+            {
+              "word": " pyruvates,",
+              "start": 106.34,
+              "end": 107.0
+            },
+            {
+              "word": " the",
+              "start": 107.26,
+              "end": 107.38
+            },
+            {
+              "word": " oxidation",
+              "start": 107.38,
+              "end": 107.84
+            },
+            {
+              "word": " of",
+              "start": 107.84,
+              "end": 108.02
+            }
+          ]
+        },
+        {
+          "start": 108.02,
+          "end": 110.78,
+          "text": "pyruvates, generates a tremendous amount of energy.",
+          "words": [
+            {
+              "word": " pyruvates,",
+              "start": 108.02,
+              "end": 108.52
+            },
+            {
+              "word": " generates",
+              "start": 108.6,
+              "end": 108.88
+            },
+            {
+              "word": " a",
+              "start": 108.88,
+              "end": 109.18
+            },
+            {
+              "word": " tremendous",
+              "start": 109.18,
+              "end": 109.6
+            },
+            {
+              "word": " amount",
+              "start": 109.6,
+              "end": 110.22
+            },
+            {
+              "word": " of",
+              "start": 110.22,
+              "end": 110.4
+            },
+            {
+              "word": " energy.",
+              "start": 110.4,
+              "end": 110.78
+            }
+          ]
+        },
+        {
+          "start": 112.26,
+          "end": 115.46,
+          "text": "Now, glucose is, structure is seen on the right here.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 112.26,
+              "end": 112.36
+            },
+            {
+              "word": " glucose",
+              "start": 112.86,
+              "end": 113.02
+            },
+            {
+              "word": " is,",
+              "start": 113.02,
+              "end": 113.72
+            },
+            {
+              "word": " structure",
+              "start": 113.84,
+              "end": 114.18
+            },
+            {
+              "word": " is",
+              "start": 114.18,
+              "end": 114.5
+            },
+            {
+              "word": " seen",
+              "start": 114.5,
+              "end": 114.76
+            },
+            {
+              "word": " on",
+              "start": 114.76,
+              "end": 114.92
+            },
+            {
+              "word": " the",
+              "start": 114.92,
+              "end": 115.02
+            },
+            {
+              "word": " right",
+              "start": 115.02,
+              "end": 115.22
+            },
+            {
+              "word": " here.",
+              "start": 115.22,
+              "end": 115.46
+            }
+          ]
+        },
+        {
+          "start": 116.0,
+          "end": 121.2,
+          "text": "In the body it's stored, at least in animals, it's stored in the form of glycogen.",
+          "words": [
+            {
+              "word": " In",
+              "start": 116.0,
+              "end": 116.18
+            },
+            {
+              "word": " the",
+              "start": 116.18,
+              "end": 116.8
+            },
+            {
+              "word": " body",
+              "start": 116.8,
+              "end": 117.14
+            },
+            {
+              "word": " it's",
+              "start": 117.14,
+              "end": 117.48
+            },
+            {
+              "word": " stored,",
+              "start": 117.48,
+              "end": 117.8
+            },
+            {
+              "word": " at",
+              "start": 117.96,
+              "end": 118.02
+            },
+            {
+              "word": " least",
+              "start": 118.02,
+              "end": 118.18
+            },
+            {
+              "word": " in",
+              "start": 118.18,
+              "end": 118.34
+            },
+            {
+              "word": " animals,",
+              "start": 118.34,
+              "end": 118.7
+            },
+            {
+              "word": " it's",
+              "start": 119.08,
+              "end": 119.28
+            },
+            {
+              "word": " stored",
+              "start": 119.28,
+              "end": 119.6
+            },
+            {
+              "word": " in",
+              "start": 119.6,
+              "end": 120.12
+            },
+            {
+              "word": " the",
+              "start": 120.12,
+              "end": 120.24
+            },
+            {
+              "word": " form",
+              "start": 120.24,
+              "end": 120.52
+            },
+            {
+              "word": " of",
+              "start": 120.52,
+              "end": 120.68
+            },
+            {
+              "word": " glycogen.",
+              "start": 120.68,
+              "end": 121.2
+            }
+          ]
+        },
+        {
+          "start": 121.46,
+          "end": 126.14,
+          "text": "So the breakdown of glycogen releases essentially glucose for cells to use.",
+          "words": [
+            {
+              "word": " So",
+              "start": 121.46,
+              "end": 121.56
+            },
+            {
+              "word": " the",
+              "start": 121.56,
+              "end": 121.68
+            },
+            {
+              "word": " breakdown",
+              "start": 121.68,
+              "end": 122.02
+            },
+            {
+              "word": " of",
+              "start": 122.02,
+              "end": 122.38
+            },
+            {
+              "word": " glycogen",
+              "start": 122.38,
+              "end": 122.96
+            },
+            {
+              "word": " releases",
+              "start": 122.96,
+              "end": 123.54
+            },
+            {
+              "word": " essentially",
+              "start": 123.54,
+              "end": 124.56
+            },
+            {
+              "word": " glucose",
+              "start": 124.56,
+              "end": 125.06
+            },
+            {
+              "word": " for",
+              "start": 125.06,
+              "end": 125.4
+            },
+            {
+              "word": " cells",
+              "start": 125.4,
+              "end": 125.66
+            },
+            {
+              "word": " to",
+              "start": 125.66,
+              "end": 125.9
+            },
+            {
+              "word": " use.",
+              "start": 125.9,
+              "end": 126.14
+            }
+          ]
+        },
+        {
+          "start": 126.72,
+          "end": 132.42,
+          "text": "In plants, amylose and amylopectin are used as the storage form, but the end product in",
+          "words": [
+            {
+              "word": " In",
+              "start": 126.72,
+              "end": 126.98
+            },
+            {
+              "word": " plants,",
+              "start": 126.98,
+              "end": 127.38
+            },
+            {
+              "word": " amylose",
+              "start": 127.9,
+              "end": 128.34
+            },
+            {
+              "word": " and",
+              "start": 128.34,
+              "end": 128.5
+            },
+            {
+              "word": " amylopectin",
+              "start": 128.5,
+              "end": 129.4
+            },
+            {
+              "word": " are",
+              "start": 129.4,
+              "end": 129.74
+            },
+            {
+              "word": " used",
+              "start": 129.74,
+              "end": 130.04
+            },
+            {
+              "word": " as",
+              "start": 130.04,
+              "end": 130.34
+            },
+            {
+              "word": " the",
+              "start": 130.34,
+              "end": 130.46
+            },
+            {
+              "word": " storage",
+              "start": 130.46,
+              "end": 130.78
+            },
+            {
+              "word": " form,",
+              "start": 130.78,
+              "end": 131.18
+            },
+            {
+              "word": " but",
+              "start": 131.32,
+              "end": 131.56
+            },
+            {
+              "word": " the",
+              "start": 131.56,
+              "end": 131.68
+            },
+            {
+              "word": " end",
+              "start": 131.68,
+              "end": 131.8
+            },
+            {
+              "word": " product",
+              "start": 131.8,
+              "end": 132.12
+            },
+            {
+              "word": " in",
+              "start": 132.12,
+              "end": 132.42
+            }
+          ]
+        },
+        {
+          "start": 132.42,
+          "end": 134.0,
+          "text": "each case of breakdown is the same.",
+          "words": [
+            {
+              "word": " each",
+              "start": 132.42,
+              "end": 132.6
+            },
+            {
+              "word": " case",
+              "start": 132.6,
+              "end": 132.92
+            },
+            {
+              "word": " of",
+              "start": 132.92,
+              "end": 133.08
+            },
+            {
+              "word": " breakdown",
+              "start": 133.08,
+              "end": 133.34
+            },
+            {
+              "word": " is",
+              "start": 133.34,
+              "end": 133.6
+            },
+            {
+              "word": " the",
+              "start": 133.6,
+              "end": 133.72
+            },
+            {
+              "word": " same.",
+              "start": 133.72,
+              "end": 134.0
+            }
+          ]
+        },
+        {
+          "start": 134.08,
+          "end": 136.46,
+          "text": "We get glucose that can be used for energy.",
+          "words": [
+            {
+              "word": " We",
+              "start": 134.08,
+              "end": 134.18
+            },
+            {
+              "word": " get",
+              "start": 134.18,
+              "end": 134.36
+            },
+            {
+              "word": " glucose",
+              "start": 134.36,
+              "end": 134.66
+            },
+            {
+              "word": " that",
+              "start": 134.66,
+              "end": 135.28
+            },
+            {
+              "word": " can",
+              "start": 135.28,
+              "end": 135.42
+            },
+            {
+              "word": " be",
+              "start": 135.42,
+              "end": 135.54
+            },
+            {
+              "word": " used",
+              "start": 135.54,
+              "end": 135.82
+            },
+            {
+              "word": " for",
+              "start": 135.82,
+              "end": 136.06
+            },
+            {
+              "word": " energy.",
+              "start": 136.06,
+              "end": 136.46
+            }
+          ]
+        },
+        {
+          "start": 137.42000000000002,
+          "end": 143.32,
+          "text": "The advantage of having glucose as a primary energy source for cells, particularly for cells,",
+          "words": [
+            {
+              "word": " The",
+              "start": 137.06,
+              "end": 137.44
+            },
+            {
+              "word": " advantage",
+              "start": 137.44,
+              "end": 137.8
+            },
+            {
+              "word": " of",
+              "start": 137.8,
+              "end": 138.3
+            },
+            {
+              "word": " having",
+              "start": 138.3,
+              "end": 138.68
+            },
+            {
+              "word": " glucose",
+              "start": 138.68,
+              "end": 139.16
+            },
+            {
+              "word": " as",
+              "start": 139.16,
+              "end": 139.62
+            },
+            {
+              "word": " a",
+              "start": 139.62,
+              "end": 139.84
+            },
+            {
+              "word": " primary",
+              "start": 139.84,
+              "end": 140.28
+            },
+            {
+              "word": " energy",
+              "start": 140.28,
+              "end": 140.76
+            },
+            {
+              "word": " source",
+              "start": 140.76,
+              "end": 141.16
+            },
+            {
+              "word": " for",
+              "start": 141.16,
+              "end": 141.34
+            },
+            {
+              "word": " cells,",
+              "start": 141.34,
+              "end": 141.72
+            },
+            {
+              "word": " particularly",
+              "start": 141.8,
+              "end": 142.12
+            },
+            {
+              "word": " for",
+              "start": 142.12,
+              "end": 143.02
+            },
+            {
+              "word": " cells,",
+              "start": 143.02,
+              "end": 143.32
+            }
+          ]
+        },
+        {
+          "start": 143.66,
+          "end": 149.32,
+          "text": "particularly for a multicellular organism, is that it is very readily released from storage,",
+          "words": [
+            {
+              "word": " particularly",
+              "start": 143.66,
+              "end": 144.1
+            },
+            {
+              "word": " for",
+              "start": 144.1,
+              "end": 144.38
+            },
+            {
+              "word": " a",
+              "start": 144.38,
+              "end": 144.52
+            },
+            {
+              "word": " multicellular",
+              "start": 144.52,
+              "end": 145.34
+            },
+            {
+              "word": " organism,",
+              "start": 145.34,
+              "end": 145.96
+            },
+            {
+              "word": " is",
+              "start": 146.0,
+              "end": 146.18
+            },
+            {
+              "word": " that",
+              "start": 146.18,
+              "end": 146.34
+            },
+            {
+              "word": " it",
+              "start": 146.34,
+              "end": 146.44
+            },
+            {
+              "word": " is",
+              "start": 146.44,
+              "end": 146.88
+            },
+            {
+              "word": " very",
+              "start": 146.88,
+              "end": 147.28
+            },
+            {
+              "word": " readily",
+              "start": 147.28,
+              "end": 147.66
+            },
+            {
+              "word": " released",
+              "start": 147.66,
+              "end": 148.22
+            },
+            {
+              "word": " from",
+              "start": 148.22,
+              "end": 148.9
+            },
+            {
+              "word": " storage,",
+              "start": 148.9,
+              "end": 149.32
+            }
+          ]
+        },
+        {
+          "start": 149.54,
+          "end": 152.54,
+          "text": "and it's also very easily to travel in the blood.",
+          "words": [
+            {
+              "word": " and",
+              "start": 149.54,
+              "end": 149.78
+            },
+            {
+              "word": " it's",
+              "start": 149.78,
+              "end": 149.92
+            },
+            {
+              "word": " also",
+              "start": 149.92,
+              "end": 150.32
+            },
+            {
+              "word": " very",
+              "start": 150.32,
+              "end": 150.76
+            },
+            {
+              "word": " easily",
+              "start": 150.76,
+              "end": 151.28
+            },
+            {
+              "word": " to",
+              "start": 151.28,
+              "end": 151.5
+            },
+            {
+              "word": " travel",
+              "start": 151.5,
+              "end": 151.98
+            },
+            {
+              "word": " in",
+              "start": 151.98,
+              "end": 152.2
+            },
+            {
+              "word": " the",
+              "start": 152.2,
+              "end": 152.3
+            },
+            {
+              "word": " blood.",
+              "start": 152.3,
+              "end": 152.54
+            }
+          ]
+        },
+        {
+          "start": 153.38,
+          "end": 158.8,
+          "text": "Traveling in the blood is important because fat actually stores more energy per carbon",
+          "words": [
+            {
+              "word": " Traveling",
+              "start": 153.38,
+              "end": 153.76
+            },
+            {
+              "word": " in",
+              "start": 153.76,
+              "end": 153.86
+            },
+            {
+              "word": " the",
+              "start": 153.86,
+              "end": 153.92
+            },
+            {
+              "word": " blood",
+              "start": 153.92,
+              "end": 154.18
+            },
+            {
+              "word": " is",
+              "start": 154.18,
+              "end": 154.38
+            },
+            {
+              "word": " important",
+              "start": 154.38,
+              "end": 154.82
+            },
+            {
+              "word": " because",
+              "start": 154.82,
+              "end": 155.18
+            },
+            {
+              "word": " fat",
+              "start": 155.18,
+              "end": 155.98
+            },
+            {
+              "word": " actually",
+              "start": 155.98,
+              "end": 156.54
+            },
+            {
+              "word": " stores",
+              "start": 156.54,
+              "end": 157.06
+            },
+            {
+              "word": " more",
+              "start": 157.06,
+              "end": 157.5
+            },
+            {
+              "word": " energy",
+              "start": 157.5,
+              "end": 158.04
+            },
+            {
+              "word": " per",
+              "start": 158.04,
+              "end": 158.34
+            },
+            {
+              "word": " carbon",
+              "start": 158.34,
+              "end": 158.8
+            }
+          ]
+        },
+        {
+          "start": 158.8,
+          "end": 159.8,
+          "text": "than glucose does.",
+          "words": [
+            {
+              "word": " than",
+              "start": 158.8,
+              "end": 159.02
+            },
+            {
+              "word": " glucose",
+              "start": 159.02,
+              "end": 159.36
+            },
+            {
+              "word": " does.",
+              "start": 159.36,
+              "end": 159.8
+            }
+          ]
+        },
+        {
+          "start": 159.8,
+          "end": 167.14,
+          "text": "But in a liquid or an aqueous organism, such as we are, that fat has to be packaged up",
+          "words": [
+            {
+              "word": " But",
+              "start": 159.8,
+              "end": 160.54
+            },
+            {
+              "word": " in",
+              "start": 160.54,
+              "end": 160.78
+            },
+            {
+              "word": " a",
+              "start": 160.78,
+              "end": 160.92
+            },
+            {
+              "word": " liquid",
+              "start": 160.92,
+              "end": 161.5
+            },
+            {
+              "word": " or",
+              "start": 161.5,
+              "end": 161.9
+            },
+            {
+              "word": " an",
+              "start": 161.9,
+              "end": 162.1
+            },
+            {
+              "word": " aqueous",
+              "start": 162.1,
+              "end": 163.16
+            },
+            {
+              "word": " organism,",
+              "start": 163.16,
+              "end": 163.74
+            },
+            {
+              "word": " such",
+              "start": 163.84,
+              "end": 164.06
+            },
+            {
+              "word": " as",
+              "start": 164.06,
+              "end": 164.22
+            },
+            {
+              "word": " we",
+              "start": 164.22,
+              "end": 164.44
+            },
+            {
+              "word": " are,",
+              "start": 164.44,
+              "end": 164.72
+            },
+            {
+              "word": " that",
+              "start": 165.08,
+              "end": 165.26
+            },
+            {
+              "word": " fat",
+              "start": 165.26,
+              "end": 165.68
+            },
+            {
+              "word": " has",
+              "start": 165.68,
+              "end": 166.12
+            },
+            {
+              "word": " to",
+              "start": 166.12,
+              "end": 166.26
+            },
+            {
+              "word": " be",
+              "start": 166.26,
+              "end": 166.38
+            },
+            {
+              "word": " packaged",
+              "start": 166.38,
+              "end": 166.76
+            },
+            {
+              "word": " up",
+              "start": 166.76,
+              "end": 167.14
+            }
+          ]
+        },
+        {
+          "start": 167.14,
+          "end": 169.02,
+          "text": "in order to travel, and that takes time.",
+          "words": [
+            {
+              "word": " in",
+              "start": 167.14,
+              "end": 167.34
+            },
+            {
+              "word": " order",
+              "start": 167.34,
+              "end": 167.5
+            },
+            {
+              "word": " to",
+              "start": 167.5,
+              "end": 167.62
+            },
+            {
+              "word": " travel,",
+              "start": 167.62,
+              "end": 167.98
+            },
+            {
+              "word": " and",
+              "start": 168.1,
+              "end": 168.22
+            },
+            {
+              "word": " that",
+              "start": 168.22,
+              "end": 168.4
+            },
+            {
+              "word": " takes",
+              "start": 168.4,
+              "end": 168.66
+            },
+            {
+              "word": " time.",
+              "start": 168.66,
+              "end": 169.02
+            }
+          ]
+        },
+        {
+          "start": 170.12,
+          "end": 174.18,
+          "text": "Now, another advantage of glucose is that it can be made from very simple precursors,",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 170.12,
+              "end": 170.26
+            },
+            {
+              "word": " another",
+              "start": 170.28,
+              "end": 170.48
+            },
+            {
+              "word": " advantage",
+              "start": 170.48,
+              "end": 170.88
+            },
+            {
+              "word": " of",
+              "start": 170.88,
+              "end": 171.06
+            },
+            {
+              "word": " glucose",
+              "start": 171.06,
+              "end": 171.32
+            },
+            {
+              "word": " is",
+              "start": 171.32,
+              "end": 171.84
+            },
+            {
+              "word": " that",
+              "start": 171.84,
+              "end": 172.0
+            },
+            {
+              "word": " it",
+              "start": 172.0,
+              "end": 172.08
+            },
+            {
+              "word": " can",
+              "start": 172.08,
+              "end": 172.22
+            },
+            {
+              "word": " be",
+              "start": 172.22,
+              "end": 172.34
+            },
+            {
+              "word": " made",
+              "start": 172.34,
+              "end": 172.6
+            },
+            {
+              "word": " from",
+              "start": 172.6,
+              "end": 172.82
+            },
+            {
+              "word": " very",
+              "start": 172.82,
+              "end": 173.06
+            },
+            {
+              "word": " simple",
+              "start": 173.06,
+              "end": 173.44
+            },
+            {
+              "word": " precursors,",
+              "start": 173.44,
+              "end": 174.18
+            }
+          ]
+        },
+        {
+          "start": 174.32,
+          "end": 179.36,
+          "text": "as we will see in another one of these lectures, in a pathway known as gluconeogenesis.",
+          "words": [
+            {
+              "word": " as",
+              "start": 174.32,
+              "end": 174.7
+            },
+            {
+              "word": " we",
+              "start": 174.7,
+              "end": 174.82
+            },
+            {
+              "word": " will",
+              "start": 174.82,
+              "end": 174.94
+            },
+            {
+              "word": " see",
+              "start": 174.94,
+              "end": 175.26
+            },
+            {
+              "word": " in",
+              "start": 175.26,
+              "end": 175.48
+            },
+            {
+              "word": " another",
+              "start": 175.48,
+              "end": 175.74
+            },
+            {
+              "word": " one",
+              "start": 175.74,
+              "end": 176.0
+            },
+            {
+              "word": " of",
+              "start": 176.0,
+              "end": 176.1
+            },
+            {
+              "word": " these",
+              "start": 176.1,
+              "end": 176.24
+            },
+            {
+              "word": " lectures,",
+              "start": 176.24,
+              "end": 176.64
+            },
+            {
+              "word": " in",
+              "start": 177.02,
+              "end": 177.22
+            },
+            {
+              "word": " a",
+              "start": 177.22,
+              "end": 177.32
+            },
+            {
+              "word": " pathway",
+              "start": 177.32,
+              "end": 177.74
+            },
+            {
+              "word": " known",
+              "start": 177.74,
+              "end": 178.1
+            },
+            {
+              "word": " as",
+              "start": 178.1,
+              "end": 178.32
+            },
+            {
+              "word": " gluconeogenesis.",
+              "start": 178.32,
+              "end": 179.36
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 1.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 2.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 3.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 4.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 5.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              505.41998291015625,
+              92.30950164794922,
+              556.3108520507812,
+              155.50921630859375
+            ],
+            "confidence": 0.8270255923271179,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 6.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              498.157470703125,
+              92.63031005859375,
+              549.0963134765625,
+              154.4100341796875
+            ],
+            "confidence": 0.8207972645759583,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 7,
+        "timestamp": 7.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              501.123779296875,
+              95.75873565673828,
+              551.961669921875,
+              158.291015625
+            ],
+            "confidence": 0.828905463218689,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 8,
+        "timestamp": 8.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              506.2875061035156,
+              99.34225463867188,
+              555.9105224609375,
+              161.81210327148438
+            ],
+            "confidence": 0.8142422437667847,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 9,
+        "timestamp": 9.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              502.28851318359375,
+              96.39334106445312,
+              552.8590698242188,
+              158.88037109375
+            ],
+            "confidence": 0.8308443427085876,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 10,
+        "timestamp": 10.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              504.2354736328125,
+              98.63629150390625,
+              554.582763671875,
+              162.94683837890625
+            ],
+            "confidence": 0.8047690987586975,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 11.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              503.2850341796875,
+              96.83563232421875,
+              554.8197021484375,
+              162.44979858398438
+            ],
+            "confidence": 0.8157083988189697,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 12,
+        "timestamp": 12.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              502.5981140136719,
+              98.52447509765625,
+              554.59521484375,
+              164.76144409179688
+            ],
+            "confidence": 0.8173550963401794,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 13,
+        "timestamp": 13.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000013.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              507.0980224609375,
+              98.89278411865234,
+              557.652587890625,
+              162.33267211914062
+            ],
+            "confidence": 0.8029941320419312,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 14,
+        "timestamp": 14.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000014.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              500.26885986328125,
+              99.35179901123047,
+              549.9990844726562,
+              162.4833984375
+            ],
+            "confidence": 0.818169116973877,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 15,
+        "timestamp": 15.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000015.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              506.01861572265625,
+              96.65911865234375,
+              556.4280395507812,
+              163.28717041015625
+            ],
+            "confidence": 0.8033459186553955,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 16,
+        "timestamp": 16.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000016.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              503.14306640625,
+              95.44387817382812,
+              553.9739990234375,
+              159.5120849609375
+            ],
+            "confidence": 0.8213116526603699,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 17,
+        "timestamp": 17.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000017.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              500.490234375,
+              99.43225860595703,
+              548.0833740234375,
+              166.47613525390625
+            ],
+            "confidence": 0.8126044869422913,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 18,
+        "timestamp": 18.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000018.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              499.9798278808594,
+              99.40802001953125,
+              548.2554931640625,
+              164.21978759765625
+            ],
+            "confidence": 0.8130830526351929,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 19,
+        "timestamp": 19.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000019.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              502.50897216796875,
+              94.79534912109375,
+              553.6972045898438,
+              162.70321655273438
+            ],
+            "confidence": 0.8220611810684204,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 20,
+        "timestamp": 20.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000020.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              503.62957763671875,
+              96.2598876953125,
+              555.1430053710938,
+              162.38034057617188
+            ],
+            "confidence": 0.8149433732032776,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 21,
+        "timestamp": 21.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000021.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              500.6688232421875,
+              96.77748107910156,
+              551.360595703125,
+              160.3974151611328
+            ],
+            "confidence": 0.8185552954673767,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 22,
+        "timestamp": 22.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000022.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              499.8248291015625,
+              98.80897521972656,
+              548.4847412109375,
+              163.28919982910156
+            ],
+            "confidence": 0.8206931352615356,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 23,
+        "timestamp": 23.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000023.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              500.63494873046875,
+              98.0965805053711,
+              549.0703735351562,
+              162.91970825195312
+            ],
+            "confidence": 0.822464644908905,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 24,
+        "timestamp": 24.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000024.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              500.8285217285156,
+              98.30260467529297,
+              549.5389404296875,
+              163.2598876953125
+            ],
+            "confidence": 0.8198472857475281,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 25,
+        "timestamp": 26.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000025.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              501.93701171875,
+              98.48522186279297,
+              552.5067138671875,
+              163.21551513671875
+            ],
+            "confidence": 0.8158858418464661,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 26,
+        "timestamp": 27.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000026.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              498.2028503417969,
+              95.69512176513672,
+              549.324951171875,
+              164.30755615234375
+            ],
+            "confidence": 0.8259561657905579,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 27,
+        "timestamp": 28.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000027.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              499.42132568359375,
+              97.0894775390625,
+              549.3678588867188,
+              162.43569946289062
+            ],
+            "confidence": 0.8168032765388489,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 28,
+        "timestamp": 29.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000028.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              502.515380859375,
+              95.67059326171875,
+              553.392333984375,
+              158.49810791015625
+            ],
+            "confidence": 0.8401573896408081,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 29,
+        "timestamp": 30.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000029.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              501.2938232421875,
+              97.35887145996094,
+              551.298095703125,
+              160.4674835205078
+            ],
+            "confidence": 0.824881374835968,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 30,
+        "timestamp": 31.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000030.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              499.50537109375,
+              95.71392822265625,
+              551.0556640625,
+              160.62600708007812
+            ],
+            "confidence": 0.8382254838943481,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 31,
+        "timestamp": 32.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000031.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              501.3324279785156,
+              96.49202728271484,
+              552.1126708984375,
+              160.89688110351562
+            ],
+            "confidence": 0.8335276246070862,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 32,
+        "timestamp": 33.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000032.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              502.1304016113281,
+              98.35645294189453,
+              552.686279296875,
+              165.9549560546875
+            ],
+            "confidence": 0.8219133615493774,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 33,
+        "timestamp": 34.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000033.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              502.08502197265625,
+              94.8469467163086,
+              554.1965942382812,
+              161.00137329101562
+            ],
+            "confidence": 0.8270891904830933,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 34,
+        "timestamp": 35.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000034.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 35,
+        "timestamp": 81.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000035.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 36,
+        "timestamp": 93.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000036.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 37,
+        "timestamp": 111.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000037.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 38,
+        "timestamp": 112.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000038.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 39,
+        "timestamp": 170.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000039.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              502.196044921875,
+              94.4969482421875,
+              554.080322265625,
+              160.43862915039062
+            ],
+            "confidence": 0.8505897521972656,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 40,
+        "timestamp": 171.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000040.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              505.18743896484375,
+              95.56021118164062,
+              555.4972534179688,
+              160.6085205078125
+            ],
+            "confidence": 0.8262629508972168,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 41,
+        "timestamp": 172.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000041.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              501.925537109375,
+              94.69278717041016,
+              553.3909912109375,
+              159.22817993164062
+            ],
+            "confidence": 0.8487508893013,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 42,
+        "timestamp": 173.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000042.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              501.60302734375,
+              96.07225799560547,
+              553.857177734375,
+              163.5916748046875
+            ],
+            "confidence": 0.8294656872749329,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 43,
+        "timestamp": 174.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000043.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              498.14288330078125,
+              93.07369995117188,
+              550.4357299804688,
+              159.9984130859375
+            ],
+            "confidence": 0.8275433778762817,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 44,
+        "timestamp": 175.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000044.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              498.8009033203125,
+              95.13176727294922,
+              551.54052734375,
+              161.30712890625
+            ],
+            "confidence": 0.8338226675987244,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 45,
+        "timestamp": 176.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000045.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              509.42938232421875,
+              95.72540283203125,
+              560.8096313476562,
+              163.08010864257812
+            ],
+            "confidence": 0.8103994131088257,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 46,
+        "timestamp": 177.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000046.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              503.82489013671875,
+              94.8366470336914,
+              556.5352172851562,
+              165.38742065429688
+            ],
+            "confidence": 0.8338717222213745,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 47,
+        "timestamp": 178.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000047.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              500.7109375,
+              95.86001586914062,
+              552.608642578125,
+              163.16500854492188
+            ],
+            "confidence": 0.8281298875808716,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 48,
+        "timestamp": 179.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000048.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              502.0122985839844,
+              93.5455093383789,
+              553.8956298828125,
+              161.53024291992188
+            ],
+            "confidence": 0.8365753889083862,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 49,
+        "timestamp": 180.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000049.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 50,
+        "timestamp": 181.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000050.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              444.85418701171875,
+              20.60922622680664,
+              525.5724487304688,
+              121.51229858398438
+            ],
+            "confidence": 0.8271113634109497,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 51,
+        "timestamp": 182.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000051.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              444.9459228515625,
+              22.779312133789062,
+              523.3837890625,
+              121.92282104492188
+            ],
+            "confidence": 0.8274160027503967,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 52,
+        "timestamp": 201.0,
+        "path": "data/processed\\lecture_198\\frames\\frame_000052.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              445.41668701171875,
+              19.0919189453125,
+              525.9677124023438,
+              120.84454345703125
+            ],
+            "confidence": 0.8261854648590088,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 53,
+      "frames_with_instructor": 42,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 1,
+        "timestamp": 1.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 2,
+        "timestamp": 2.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 3,
+        "timestamp": 3.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 4,
+        "timestamp": 4.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 5,
+        "timestamp": 5.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 6,
+        "timestamp": 6.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 7,
+        "timestamp": 7.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 8,
+        "timestamp": 8.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 9,
+        "timestamp": 9.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 10,
+        "timestamp": 10.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 11,
+        "timestamp": 11.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 12,
+        "timestamp": 12.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 13,
+        "timestamp": 13.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 14,
+        "timestamp": 14.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 15,
+        "timestamp": 15.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 16,
+        "timestamp": 16.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 17,
+        "timestamp": 17.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 18,
+        "timestamp": 18.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 19,
+        "timestamp": 19.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 20,
+        "timestamp": 20.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 21,
+        "timestamp": 21.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 22,
+        "timestamp": 22.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 23,
+        "timestamp": 23.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 24,
+        "timestamp": 24.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 25,
+        "timestamp": 26.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 26,
+        "timestamp": 27.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 27,
+        "timestamp": 28.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 28,
+        "timestamp": 29.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 29,
+        "timestamp": 30.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 30,
+        "timestamp": 31.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 31,
+        "timestamp": 32.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 32,
+        "timestamp": 33.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 33,
+        "timestamp": 34.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 34,
+        "timestamp": 35.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 35,
+        "timestamp": 81.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 36,
+        "timestamp": 93.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 32,
+        "timestamp": 33.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 33,
+        "timestamp": 34.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 34,
+        "timestamp": 35.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 35,
+        "timestamp": 81.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 36,
+        "timestamp": 93.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 37,
+        "timestamp": 111.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 38,
+        "timestamp": 112.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 39,
+        "timestamp": 170.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 40,
+        "timestamp": 171.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 41,
+        "timestamp": 172.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 42,
+        "timestamp": 173.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 43,
+        "timestamp": 174.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 44,
+        "timestamp": 175.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 45,
+        "timestamp": 176.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 46,
+        "timestamp": 177.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 47,
+        "timestamp": 178.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 48,
+        "timestamp": 179.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 49,
+        "timestamp": 180.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 50,
+        "timestamp": 181.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 51,
+        "timestamp": 182.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 52,
+        "timestamp": 201.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

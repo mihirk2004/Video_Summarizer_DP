@@ -1,0 +1,4381 @@
+{
+  "video_id": "lecture_204",
+  "metadata": {
+    "original_path": "C:\\Users\\Shubham Sunil Shinde\\Desktop\\TY\\s2\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\C_Blecture03.mp4",
+    "duration": 0.0,
+    "fps": 25.0,
+    "resolution": "640x360",
+    "processing_date": "2026-01-06T17:40:56.949303",
+    "subject": "Biology",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_204\\audio.wav",
+    "transcript": {
+      "text": " As great as the heart is, it wouldn't be much good to us without some great vessels connecting it to the rest of the circulatory system, so let's take a look at these great vessels that attach to the heart. We'll start with the superior vena cava, which drains deoxygenated blood from the upper half of the body. We see we have a right internal jugular vein draining the head and neck, and we have a right subclavian vein draining the right upper limb, and together they'll form the right brachiosephalic vein. Brachiosephalic refers to upper limb and head, and finally that will enter into the SVC. It's variable, but usually the right inferior thyroid veins are also going to drain into the brachiosephalic right before it goes into the SVC. Similarly, on the left side we have a left internal jugular vein, we have a left subclavian vein, and they'll form the left brachiosephalic vein, which is quite a bit longer than the right because it has to cross over the midline to reach the SVC over on the right side of the heart. It also tends to receive the inferior thyroid veins on that side before joining the SVC, and although it wasn't pictured on the right side, the brachiosephalics also tend to receive the internal thoracic or mammary veins. If we remove the veins, we can see our aortic arch a lot better. So here we have our aortic arch, and this first very large branch we see is something called the brachiosephalic trunk. And as the name implies, it's going to supply the upper limb and head and neck. And so it will branch into a right common carotid artery supplying the head and neck, and a right subclavian artery supplying the upper limb. And here's where we have a bit of a symmetry, because the left common carotid and left subclavian arteries arise directly from the arch. Therefore, there is no left brachiosephalic trunk. There's just the one. And the subclavian has some notable branches that are descriptive in their names, including fyroservical, costoservical, and vertebral. They basically tell you what they're going to supply. And we've already seen that the internal thoracic or mammary arteries arise from the subclavian. Now let's take a look from the left side, where we can see our ascending aorta becoming an arch, the aortic arch, and then finally posteriorly becoming the descending aorta as it heads towards the abdomen. And it's going to go through that hiatus, the aortic hiatus, in the diaphragm in order to reach the abdominal cavity. We'll go back to an anterior view, and we're going to remove the aorta to see the pulmonary trunk and its branches better. We see the pulmonary trunk is pretty short before it branches into the right and left main pulmonary arteries. And if we swing around to the left, we can see it again with, again, a very short trunk forming almost a T-shaped intersection where it bifurcates into the left and right pulmonary arteries. Here we see the left pulmonary artery coming right at us and towards the hyalum of the lung. We also see a tiny bit of connective tissue between the pulmonary trunk and the aorta called the ligamentum arteriosum, which if we recall from fetal circulation is the leftover remnants of that fetal bypass called the ductus arteriosus. And it's connecting, again, to the aortic arch, which in this case we see that it's going over the right pulmonary artery before moving leftward to cross over the left main bronchus. And this is what we mean when we say an arch is a left-sided arch or a leftward arch. When you learn about congenital heart diseases, you'll hear that term, and a left-sided arch is the more common arrangement. But you might hear the term right-sided arch, and in that case, it will cross over the right main bronchus.",
+      "segments": [
+        {
+          "start": 0.7200000000000031,
+          "end": 4.68,
+          "text": "As great as the heart is, it wouldn't be much good to us without some great vessels",
+          "words": [
+            {
+              "word": " As",
+              "start": 0.7200000000000031,
+              "end": 1.2
+            },
+            {
+              "word": " great",
+              "start": 1.2,
+              "end": 1.4
+            },
+            {
+              "word": " as",
+              "start": 1.4,
+              "end": 1.54
+            },
+            {
+              "word": " the",
+              "start": 1.54,
+              "end": 1.64
+            },
+            {
+              "word": " heart",
+              "start": 1.64,
+              "end": 1.86
+            },
+            {
+              "word": " is,",
+              "start": 1.86,
+              "end": 2.12
+            },
+            {
+              "word": " it",
+              "start": 2.3,
+              "end": 2.4
+            },
+            {
+              "word": " wouldn't",
+              "start": 2.4,
+              "end": 2.54
+            },
+            {
+              "word": " be",
+              "start": 2.54,
+              "end": 2.66
+            },
+            {
+              "word": " much",
+              "start": 2.66,
+              "end": 2.84
+            },
+            {
+              "word": " good",
+              "start": 2.84,
+              "end": 3.08
+            },
+            {
+              "word": " to",
+              "start": 3.08,
+              "end": 3.22
+            },
+            {
+              "word": " us",
+              "start": 3.22,
+              "end": 3.48
+            },
+            {
+              "word": " without",
+              "start": 3.48,
+              "end": 3.78
+            },
+            {
+              "word": " some",
+              "start": 3.78,
+              "end": 3.98
+            },
+            {
+              "word": " great",
+              "start": 3.98,
+              "end": 4.3
+            },
+            {
+              "word": " vessels",
+              "start": 4.3,
+              "end": 4.68
+            }
+          ]
+        },
+        {
+          "start": 4.68,
+          "end": 9.12,
+          "text": "connecting it to the rest of the circulatory system, so let's take a look at these great",
+          "words": [
+            {
+              "word": " connecting",
+              "start": 4.68,
+              "end": 5.06
+            },
+            {
+              "word": " it",
+              "start": 5.06,
+              "end": 5.34
+            },
+            {
+              "word": " to",
+              "start": 5.34,
+              "end": 5.46
+            },
+            {
+              "word": " the",
+              "start": 5.46,
+              "end": 5.56
+            },
+            {
+              "word": " rest",
+              "start": 5.56,
+              "end": 5.72
+            },
+            {
+              "word": " of",
+              "start": 5.72,
+              "end": 5.84
+            },
+            {
+              "word": " the",
+              "start": 5.84,
+              "end": 5.96
+            },
+            {
+              "word": " circulatory",
+              "start": 5.96,
+              "end": 6.46
+            },
+            {
+              "word": " system,",
+              "start": 6.46,
+              "end": 6.92
+            },
+            {
+              "word": " so",
+              "start": 7.16,
+              "end": 7.6
+            },
+            {
+              "word": " let's",
+              "start": 7.6,
+              "end": 7.82
+            },
+            {
+              "word": " take",
+              "start": 7.82,
+              "end": 8.06
+            },
+            {
+              "word": " a",
+              "start": 8.06,
+              "end": 8.22
+            },
+            {
+              "word": " look",
+              "start": 8.22,
+              "end": 8.42
+            },
+            {
+              "word": " at",
+              "start": 8.42,
+              "end": 8.74
+            },
+            {
+              "word": " these",
+              "start": 8.74,
+              "end": 8.86
+            },
+            {
+              "word": " great",
+              "start": 8.86,
+              "end": 9.12
+            }
+          ]
+        },
+        {
+          "start": 9.12,
+          "end": 10.54,
+          "text": "vessels that attach to the heart.",
+          "words": [
+            {
+              "word": " vessels",
+              "start": 9.12,
+              "end": 9.46
+            },
+            {
+              "word": " that",
+              "start": 9.46,
+              "end": 9.64
+            },
+            {
+              "word": " attach",
+              "start": 9.64,
+              "end": 9.96
+            },
+            {
+              "word": " to",
+              "start": 9.96,
+              "end": 10.2
+            },
+            {
+              "word": " the",
+              "start": 10.2,
+              "end": 10.3
+            },
+            {
+              "word": " heart.",
+              "start": 10.3,
+              "end": 10.54
+            }
+          ]
+        },
+        {
+          "start": 11.4,
+          "end": 16.5,
+          "text": "We'll start with the superior vena cava, which drains deoxygenated blood from the upper half",
+          "words": [
+            {
+              "word": " We'll",
+              "start": 11.4,
+              "end": 11.76
+            },
+            {
+              "word": " start",
+              "start": 11.76,
+              "end": 11.94
+            },
+            {
+              "word": " with",
+              "start": 11.94,
+              "end": 12.08
+            },
+            {
+              "word": " the",
+              "start": 12.08,
+              "end": 12.2
+            },
+            {
+              "word": " superior",
+              "start": 12.2,
+              "end": 12.7
+            },
+            {
+              "word": " vena",
+              "start": 12.7,
+              "end": 13.08
+            },
+            {
+              "word": " cava,",
+              "start": 13.08,
+              "end": 13.42
+            },
+            {
+              "word": " which",
+              "start": 13.9,
+              "end": 14.3
+            },
+            {
+              "word": " drains",
+              "start": 14.3,
+              "end": 14.68
+            },
+            {
+              "word": " deoxygenated",
+              "start": 14.68,
+              "end": 15.48
+            },
+            {
+              "word": " blood",
+              "start": 15.48,
+              "end": 15.74
+            },
+            {
+              "word": " from",
+              "start": 15.74,
+              "end": 15.94
+            },
+            {
+              "word": " the",
+              "start": 15.94,
+              "end": 16.06
+            },
+            {
+              "word": " upper",
+              "start": 16.06,
+              "end": 16.22
+            },
+            {
+              "word": " half",
+              "start": 16.22,
+              "end": 16.5
+            }
+          ]
+        },
+        {
+          "start": 16.5,
+          "end": 16.98,
+          "text": "of the body.",
+          "words": [
+            {
+              "word": " of",
+              "start": 16.5,
+              "end": 16.6
+            },
+            {
+              "word": " the",
+              "start": 16.6,
+              "end": 16.66
+            },
+            {
+              "word": " body.",
+              "start": 16.66,
+              "end": 16.98
+            }
+          ]
+        },
+        {
+          "start": 17.94,
+          "end": 22.52,
+          "text": "We see we have a right internal jugular vein draining the head and neck, and we have a",
+          "words": [
+            {
+              "word": " We",
+              "start": 17.94,
+              "end": 18.12
+            },
+            {
+              "word": " see",
+              "start": 18.12,
+              "end": 18.2
+            },
+            {
+              "word": " we",
+              "start": 18.2,
+              "end": 18.32
+            },
+            {
+              "word": " have",
+              "start": 18.32,
+              "end": 18.46
+            },
+            {
+              "word": " a",
+              "start": 18.46,
+              "end": 18.54
+            },
+            {
+              "word": " right",
+              "start": 18.54,
+              "end": 18.82
+            },
+            {
+              "word": " internal",
+              "start": 18.82,
+              "end": 19.38
+            },
+            {
+              "word": " jugular",
+              "start": 19.38,
+              "end": 19.82
+            },
+            {
+              "word": " vein",
+              "start": 19.82,
+              "end": 20.14
+            },
+            {
+              "word": " draining",
+              "start": 20.14,
+              "end": 20.7
+            },
+            {
+              "word": " the",
+              "start": 20.7,
+              "end": 20.9
+            },
+            {
+              "word": " head",
+              "start": 20.9,
+              "end": 21.06
+            },
+            {
+              "word": " and",
+              "start": 21.06,
+              "end": 21.16
+            },
+            {
+              "word": " neck,",
+              "start": 21.16,
+              "end": 21.46
+            },
+            {
+              "word": " and",
+              "start": 22.14,
+              "end": 22.28
+            },
+            {
+              "word": " we",
+              "start": 22.28,
+              "end": 22.36
+            },
+            {
+              "word": " have",
+              "start": 22.36,
+              "end": 22.44
+            },
+            {
+              "word": " a",
+              "start": 22.44,
+              "end": 22.52
+            }
+          ]
+        },
+        {
+          "start": 22.52,
+          "end": 27.92,
+          "text": "right subclavian vein draining the right upper limb, and together they'll form the right",
+          "words": [
+            {
+              "word": " right",
+              "start": 22.52,
+              "end": 22.72
+            },
+            {
+              "word": " subclavian",
+              "start": 22.72,
+              "end": 23.32
+            },
+            {
+              "word": " vein",
+              "start": 23.32,
+              "end": 23.74
+            },
+            {
+              "word": " draining",
+              "start": 23.74,
+              "end": 24.54
+            },
+            {
+              "word": " the",
+              "start": 24.54,
+              "end": 24.82
+            },
+            {
+              "word": " right",
+              "start": 24.82,
+              "end": 24.98
+            },
+            {
+              "word": " upper",
+              "start": 24.98,
+              "end": 25.12
+            },
+            {
+              "word": " limb,",
+              "start": 25.12,
+              "end": 25.46
+            },
+            {
+              "word": " and",
+              "start": 26.04,
+              "end": 26.18
+            },
+            {
+              "word": " together",
+              "start": 26.18,
+              "end": 26.4
+            },
+            {
+              "word": " they'll",
+              "start": 26.4,
+              "end": 26.7
+            },
+            {
+              "word": " form",
+              "start": 26.7,
+              "end": 27.04
+            },
+            {
+              "word": " the",
+              "start": 27.04,
+              "end": 27.66
+            },
+            {
+              "word": " right",
+              "start": 27.66,
+              "end": 27.92
+            }
+          ]
+        },
+        {
+          "start": 28.640000000000004,
+          "end": 29.54,
+          "text": "brachiosephalic vein.",
+          "words": [
+            {
+              "word": " brachiosephalic",
+              "start": 28.640000000000004,
+              "end": 29.28
+            },
+            {
+              "word": " vein.",
+              "start": 29.28,
+              "end": 29.54
+            }
+          ]
+        },
+        {
+          "start": 30.78000000000001,
+          "end": 36.54,
+          "text": "Brachiosephalic refers to upper limb and head, and finally that will enter into the SVC.",
+          "words": [
+            {
+              "word": " Brachiosephalic",
+              "start": 30.78000000000001,
+              "end": 31.420000000000005
+            },
+            {
+              "word": " refers",
+              "start": 31.420000000000005,
+              "end": 32.06
+            },
+            {
+              "word": " to",
+              "start": 32.06,
+              "end": 32.38
+            },
+            {
+              "word": " upper",
+              "start": 32.38,
+              "end": 32.62
+            },
+            {
+              "word": " limb",
+              "start": 32.62,
+              "end": 32.9
+            },
+            {
+              "word": " and",
+              "start": 32.9,
+              "end": 33.12
+            },
+            {
+              "word": " head,",
+              "start": 33.12,
+              "end": 33.4
+            },
+            {
+              "word": " and",
+              "start": 33.74,
+              "end": 34.56
+            },
+            {
+              "word": " finally",
+              "start": 34.56,
+              "end": 34.78
+            },
+            {
+              "word": " that",
+              "start": 34.78,
+              "end": 34.96
+            },
+            {
+              "word": " will",
+              "start": 34.96,
+              "end": 35.1
+            },
+            {
+              "word": " enter",
+              "start": 35.1,
+              "end": 35.42
+            },
+            {
+              "word": " into",
+              "start": 35.42,
+              "end": 35.72
+            },
+            {
+              "word": " the",
+              "start": 35.72,
+              "end": 35.86
+            },
+            {
+              "word": " SVC.",
+              "start": 35.86,
+              "end": 36.54
+            }
+          ]
+        },
+        {
+          "start": 38.120000000000005,
+          "end": 43.62,
+          "text": "It's variable, but usually the right inferior thyroid veins are also going to drain into",
+          "words": [
+            {
+              "word": " It's",
+              "start": 37.82,
+              "end": 38.14
+            },
+            {
+              "word": " variable,",
+              "start": 38.14,
+              "end": 38.56
+            },
+            {
+              "word": " but",
+              "start": 38.76,
+              "end": 38.92
+            },
+            {
+              "word": " usually",
+              "start": 38.92,
+              "end": 39.38
+            },
+            {
+              "word": " the",
+              "start": 39.38,
+              "end": 40.26
+            },
+            {
+              "word": " right",
+              "start": 40.26,
+              "end": 40.64
+            },
+            {
+              "word": " inferior",
+              "start": 40.64,
+              "end": 40.96
+            },
+            {
+              "word": " thyroid",
+              "start": 40.96,
+              "end": 41.4
+            },
+            {
+              "word": " veins",
+              "start": 41.4,
+              "end": 41.88
+            },
+            {
+              "word": " are",
+              "start": 41.88,
+              "end": 42.18
+            },
+            {
+              "word": " also",
+              "start": 42.18,
+              "end": 42.56
+            },
+            {
+              "word": " going",
+              "start": 42.56,
+              "end": 42.76
+            },
+            {
+              "word": " to",
+              "start": 42.76,
+              "end": 42.96
+            },
+            {
+              "word": " drain",
+              "start": 42.96,
+              "end": 43.26
+            },
+            {
+              "word": " into",
+              "start": 43.26,
+              "end": 43.62
+            }
+          ]
+        },
+        {
+          "start": 43.62,
+          "end": 46.76,
+          "text": "the brachiosephalic right before it goes into the SVC.",
+          "words": [
+            {
+              "word": " the",
+              "start": 43.62,
+              "end": 43.76
+            },
+            {
+              "word": " brachiosephalic",
+              "start": 43.76,
+              "end": 44.66
+            },
+            {
+              "word": " right",
+              "start": 44.66,
+              "end": 44.92
+            },
+            {
+              "word": " before",
+              "start": 44.92,
+              "end": 45.28
+            },
+            {
+              "word": " it",
+              "start": 45.28,
+              "end": 45.62
+            },
+            {
+              "word": " goes",
+              "start": 45.62,
+              "end": 45.8
+            },
+            {
+              "word": " into",
+              "start": 45.8,
+              "end": 46.02
+            },
+            {
+              "word": " the",
+              "start": 46.02,
+              "end": 46.16
+            },
+            {
+              "word": " SVC.",
+              "start": 46.16,
+              "end": 46.76
+            }
+          ]
+        },
+        {
+          "start": 47.7,
+          "end": 54.02,
+          "text": "Similarly, on the left side we have a left internal jugular vein, we have a left subclavian",
+          "words": [
+            {
+              "word": " Similarly,",
+              "start": 47.7,
+              "end": 48.34
+            },
+            {
+              "word": " on",
+              "start": 48.84,
+              "end": 49.2
+            },
+            {
+              "word": " the",
+              "start": 49.2,
+              "end": 49.3
+            },
+            {
+              "word": " left",
+              "start": 49.3,
+              "end": 49.46
+            },
+            {
+              "word": " side",
+              "start": 49.46,
+              "end": 49.74
+            },
+            {
+              "word": " we",
+              "start": 49.74,
+              "end": 49.88
+            },
+            {
+              "word": " have",
+              "start": 49.88,
+              "end": 49.98
+            },
+            {
+              "word": " a",
+              "start": 49.98,
+              "end": 50.1
+            },
+            {
+              "word": " left",
+              "start": 50.1,
+              "end": 50.38
+            },
+            {
+              "word": " internal",
+              "start": 50.38,
+              "end": 50.92
+            },
+            {
+              "word": " jugular",
+              "start": 50.92,
+              "end": 51.4
+            },
+            {
+              "word": " vein,",
+              "start": 51.4,
+              "end": 51.66
+            },
+            {
+              "word": " we",
+              "start": 52.34,
+              "end": 52.74
+            },
+            {
+              "word": " have",
+              "start": 52.74,
+              "end": 53.04
+            },
+            {
+              "word": " a",
+              "start": 53.04,
+              "end": 53.32
+            },
+            {
+              "word": " left",
+              "start": 53.32,
+              "end": 53.52
+            },
+            {
+              "word": " subclavian",
+              "start": 53.52,
+              "end": 54.02
+            }
+          ]
+        },
+        {
+          "start": 54.02,
+          "end": 59.5,
+          "text": "vein, and they'll form the left brachiosephalic vein, which is quite a bit longer than the",
+          "words": [
+            {
+              "word": " vein,",
+              "start": 54.02,
+              "end": 54.32
+            },
+            {
+              "word": " and",
+              "start": 54.82,
+              "end": 55.0
+            },
+            {
+              "word": " they'll",
+              "start": 55.0,
+              "end": 55.16
+            },
+            {
+              "word": " form",
+              "start": 55.16,
+              "end": 55.5
+            },
+            {
+              "word": " the",
+              "start": 55.5,
+              "end": 55.94
+            },
+            {
+              "word": " left",
+              "start": 55.94,
+              "end": 56.14
+            },
+            {
+              "word": " brachiosephalic",
+              "start": 56.14,
+              "end": 57.06
+            },
+            {
+              "word": " vein,",
+              "start": 57.06,
+              "end": 57.3
+            },
+            {
+              "word": " which",
+              "start": 57.8,
+              "end": 58.1
+            },
+            {
+              "word": " is",
+              "start": 58.1,
+              "end": 58.36
+            },
+            {
+              "word": " quite",
+              "start": 58.36,
+              "end": 58.64
+            },
+            {
+              "word": " a",
+              "start": 58.64,
+              "end": 58.76
+            },
+            {
+              "word": " bit",
+              "start": 58.76,
+              "end": 58.86
+            },
+            {
+              "word": " longer",
+              "start": 58.86,
+              "end": 59.14
+            },
+            {
+              "word": " than",
+              "start": 59.14,
+              "end": 59.38
+            },
+            {
+              "word": " the",
+              "start": 59.38,
+              "end": 59.5
+            }
+          ]
+        },
+        {
+          "start": 59.5,
+          "end": 64.34,
+          "text": "right because it has to cross over the midline to reach the SVC over on the right side of",
+          "words": [
+            {
+              "word": " right",
+              "start": 59.5,
+              "end": 59.76
+            },
+            {
+              "word": " because",
+              "start": 59.76,
+              "end": 60.1
+            },
+            {
+              "word": " it",
+              "start": 60.1,
+              "end": 60.34
+            },
+            {
+              "word": " has",
+              "start": 60.34,
+              "end": 60.5
+            },
+            {
+              "word": " to",
+              "start": 60.5,
+              "end": 60.64
+            },
+            {
+              "word": " cross",
+              "start": 60.64,
+              "end": 60.94
+            },
+            {
+              "word": " over",
+              "start": 60.94,
+              "end": 61.24
+            },
+            {
+              "word": " the",
+              "start": 61.24,
+              "end": 61.38
+            },
+            {
+              "word": " midline",
+              "start": 61.38,
+              "end": 61.8
+            },
+            {
+              "word": " to",
+              "start": 61.8,
+              "end": 62.06
+            },
+            {
+              "word": " reach",
+              "start": 62.06,
+              "end": 62.3
+            },
+            {
+              "word": " the",
+              "start": 62.3,
+              "end": 62.46
+            },
+            {
+              "word": " SVC",
+              "start": 62.46,
+              "end": 63.1
+            },
+            {
+              "word": " over",
+              "start": 63.1,
+              "end": 63.4
+            },
+            {
+              "word": " on",
+              "start": 63.4,
+              "end": 63.58
+            },
+            {
+              "word": " the",
+              "start": 63.58,
+              "end": 63.7
+            },
+            {
+              "word": " right",
+              "start": 63.7,
+              "end": 63.9
+            },
+            {
+              "word": " side",
+              "start": 63.9,
+              "end": 64.22
+            },
+            {
+              "word": " of",
+              "start": 64.22,
+              "end": 64.34
+            }
+          ]
+        },
+        {
+          "start": 64.34,
+          "end": 64.7,
+          "text": "the heart.",
+          "words": [
+            {
+              "word": " the",
+              "start": 64.34,
+              "end": 64.46
+            },
+            {
+              "word": " heart.",
+              "start": 64.46,
+              "end": 64.7
+            }
+          ]
+        },
+        {
+          "start": 65.82,
+          "end": 71.64,
+          "text": "It also tends to receive the inferior thyroid veins on that side before joining the SVC,",
+          "words": [
+            {
+              "word": " It",
+              "start": 65.82,
+              "end": 66.3
+            },
+            {
+              "word": " also",
+              "start": 66.3,
+              "end": 66.54
+            },
+            {
+              "word": " tends",
+              "start": 66.54,
+              "end": 66.8
+            },
+            {
+              "word": " to",
+              "start": 66.8,
+              "end": 67.0
+            },
+            {
+              "word": " receive",
+              "start": 67.0,
+              "end": 67.38
+            },
+            {
+              "word": " the",
+              "start": 67.38,
+              "end": 67.7
+            },
+            {
+              "word": " inferior",
+              "start": 67.7,
+              "end": 68.52
+            },
+            {
+              "word": " thyroid",
+              "start": 68.52,
+              "end": 68.84
+            },
+            {
+              "word": " veins",
+              "start": 68.84,
+              "end": 69.3
+            },
+            {
+              "word": " on",
+              "start": 69.3,
+              "end": 69.48
+            },
+            {
+              "word": " that",
+              "start": 69.48,
+              "end": 69.64
+            },
+            {
+              "word": " side",
+              "start": 69.64,
+              "end": 69.96
+            },
+            {
+              "word": " before",
+              "start": 69.96,
+              "end": 70.26
+            },
+            {
+              "word": " joining",
+              "start": 70.26,
+              "end": 70.7
+            },
+            {
+              "word": " the",
+              "start": 70.7,
+              "end": 70.86
+            },
+            {
+              "word": " SVC,",
+              "start": 70.86,
+              "end": 71.64
+            }
+          ]
+        },
+        {
+          "start": 71.94,
+          "end": 76.46,
+          "text": "and although it wasn't pictured on the right side, the brachiosephalics also tend to receive",
+          "words": [
+            {
+              "word": " and",
+              "start": 71.94,
+              "end": 72.08
+            },
+            {
+              "word": " although",
+              "start": 72.08,
+              "end": 72.22
+            },
+            {
+              "word": " it",
+              "start": 72.22,
+              "end": 72.36
+            },
+            {
+              "word": " wasn't",
+              "start": 72.36,
+              "end": 72.5
+            },
+            {
+              "word": " pictured",
+              "start": 72.5,
+              "end": 72.7
+            },
+            {
+              "word": " on",
+              "start": 72.7,
+              "end": 72.88
+            },
+            {
+              "word": " the",
+              "start": 72.88,
+              "end": 72.98
+            },
+            {
+              "word": " right",
+              "start": 72.98,
+              "end": 73.2
+            },
+            {
+              "word": " side,",
+              "start": 73.2,
+              "end": 73.56
+            },
+            {
+              "word": " the",
+              "start": 74.4,
+              "end": 74.58
+            },
+            {
+              "word": " brachiosephalics",
+              "start": 74.58,
+              "end": 75.38
+            },
+            {
+              "word": " also",
+              "start": 75.38,
+              "end": 75.7
+            },
+            {
+              "word": " tend",
+              "start": 75.7,
+              "end": 75.96
+            },
+            {
+              "word": " to",
+              "start": 75.96,
+              "end": 76.06
+            },
+            {
+              "word": " receive",
+              "start": 76.06,
+              "end": 76.46
+            }
+          ]
+        },
+        {
+          "start": 76.46,
+          "end": 78.78,
+          "text": "the internal thoracic or mammary veins.",
+          "words": [
+            {
+              "word": " the",
+              "start": 76.46,
+              "end": 76.78
+            },
+            {
+              "word": " internal",
+              "start": 76.78,
+              "end": 77.3
+            },
+            {
+              "word": " thoracic",
+              "start": 77.3,
+              "end": 77.94
+            },
+            {
+              "word": " or",
+              "start": 77.94,
+              "end": 78.08
+            },
+            {
+              "word": " mammary",
+              "start": 78.08,
+              "end": 78.48
+            },
+            {
+              "word": " veins.",
+              "start": 78.48,
+              "end": 78.78
+            }
+          ]
+        },
+        {
+          "start": 79.78,
+          "end": 84.18,
+          "text": "If we remove the veins, we can see our aortic arch a lot better.",
+          "words": [
+            {
+              "word": " If",
+              "start": 79.78,
+              "end": 80.3
+            },
+            {
+              "word": " we",
+              "start": 80.3,
+              "end": 80.4
+            },
+            {
+              "word": " remove",
+              "start": 80.4,
+              "end": 80.78
+            },
+            {
+              "word": " the",
+              "start": 80.78,
+              "end": 81.04
+            },
+            {
+              "word": " veins,",
+              "start": 81.04,
+              "end": 81.3
+            },
+            {
+              "word": " we",
+              "start": 81.7,
+              "end": 81.9
+            },
+            {
+              "word": " can",
+              "start": 81.9,
+              "end": 82.06
+            },
+            {
+              "word": " see",
+              "start": 82.06,
+              "end": 82.4
+            },
+            {
+              "word": " our",
+              "start": 82.4,
+              "end": 82.7
+            },
+            {
+              "word": " aortic",
+              "start": 82.7,
+              "end": 83.02
+            },
+            {
+              "word": " arch",
+              "start": 83.02,
+              "end": 83.52
+            },
+            {
+              "word": " a",
+              "start": 83.52,
+              "end": 83.8
+            },
+            {
+              "word": " lot",
+              "start": 83.8,
+              "end": 83.94
+            },
+            {
+              "word": " better.",
+              "start": 83.94,
+              "end": 84.18
+            }
+          ]
+        },
+        {
+          "start": 84.9,
+          "end": 89.6,
+          "text": "So here we have our aortic arch, and this first very large branch we see is something",
+          "words": [
+            {
+              "word": " So",
+              "start": 84.9,
+              "end": 85.2
+            },
+            {
+              "word": " here",
+              "start": 85.2,
+              "end": 85.34
+            },
+            {
+              "word": " we",
+              "start": 85.34,
+              "end": 85.44
+            },
+            {
+              "word": " have",
+              "start": 85.44,
+              "end": 85.58
+            },
+            {
+              "word": " our",
+              "start": 85.58,
+              "end": 85.74
+            },
+            {
+              "word": " aortic",
+              "start": 85.74,
+              "end": 86.06
+            },
+            {
+              "word": " arch,",
+              "start": 86.06,
+              "end": 86.5
+            },
+            {
+              "word": " and",
+              "start": 86.7,
+              "end": 87.02
+            },
+            {
+              "word": " this",
+              "start": 87.02,
+              "end": 87.18
+            },
+            {
+              "word": " first",
+              "start": 87.18,
+              "end": 87.48
+            },
+            {
+              "word": " very",
+              "start": 87.48,
+              "end": 87.9
+            },
+            {
+              "word": " large",
+              "start": 87.9,
+              "end": 88.38
+            },
+            {
+              "word": " branch",
+              "start": 88.38,
+              "end": 88.64
+            },
+            {
+              "word": " we",
+              "start": 88.64,
+              "end": 88.88
+            },
+            {
+              "word": " see",
+              "start": 88.88,
+              "end": 89.16
+            },
+            {
+              "word": " is",
+              "start": 89.16,
+              "end": 89.44
+            },
+            {
+              "word": " something",
+              "start": 89.44,
+              "end": 89.6
+            }
+          ]
+        },
+        {
+          "start": 89.6,
+          "end": 91.78,
+          "text": "called the brachiosephalic trunk.",
+          "words": [
+            {
+              "word": " called",
+              "start": 89.6,
+              "end": 89.84
+            },
+            {
+              "word": " the",
+              "start": 89.84,
+              "end": 90.0
+            },
+            {
+              "word": " brachiosephalic",
+              "start": 90.0,
+              "end": 91.24
+            },
+            {
+              "word": " trunk.",
+              "start": 91.24,
+              "end": 91.78
+            }
+          ]
+        },
+        {
+          "start": 92.44,
+          "end": 96.9,
+          "text": "And as the name implies, it's going to supply the upper limb and head and neck.",
+          "words": [
+            {
+              "word": " And",
+              "start": 92.44,
+              "end": 92.96
+            },
+            {
+              "word": " as",
+              "start": 92.96,
+              "end": 93.08
+            },
+            {
+              "word": " the",
+              "start": 93.08,
+              "end": 93.16
+            },
+            {
+              "word": " name",
+              "start": 93.16,
+              "end": 93.28
+            },
+            {
+              "word": " implies,",
+              "start": 93.28,
+              "end": 93.6
+            },
+            {
+              "word": " it's",
+              "start": 93.7,
+              "end": 93.82
+            },
+            {
+              "word": " going",
+              "start": 93.82,
+              "end": 93.98
+            },
+            {
+              "word": " to",
+              "start": 93.98,
+              "end": 94.18
+            },
+            {
+              "word": " supply",
+              "start": 94.18,
+              "end": 94.5
+            },
+            {
+              "word": " the",
+              "start": 94.5,
+              "end": 95.44
+            },
+            {
+              "word": " upper",
+              "start": 95.44,
+              "end": 95.86
+            },
+            {
+              "word": " limb",
+              "start": 95.86,
+              "end": 96.14
+            },
+            {
+              "word": " and",
+              "start": 96.14,
+              "end": 96.4
+            },
+            {
+              "word": " head",
+              "start": 96.4,
+              "end": 96.56
+            },
+            {
+              "word": " and",
+              "start": 96.56,
+              "end": 96.7
+            },
+            {
+              "word": " neck.",
+              "start": 96.7,
+              "end": 96.9
+            }
+          ]
+        },
+        {
+          "start": 97.5,
+          "end": 101.62,
+          "text": "And so it will branch into a right common carotid artery supplying the head and neck,",
+          "words": [
+            {
+              "word": " And",
+              "start": 97.5,
+              "end": 97.72
+            },
+            {
+              "word": " so",
+              "start": 97.72,
+              "end": 97.92
+            },
+            {
+              "word": " it",
+              "start": 97.92,
+              "end": 98.12
+            },
+            {
+              "word": " will",
+              "start": 98.12,
+              "end": 98.28
+            },
+            {
+              "word": " branch",
+              "start": 98.28,
+              "end": 98.5
+            },
+            {
+              "word": " into",
+              "start": 98.5,
+              "end": 98.74
+            },
+            {
+              "word": " a",
+              "start": 98.74,
+              "end": 98.94
+            },
+            {
+              "word": " right",
+              "start": 98.94,
+              "end": 99.16
+            },
+            {
+              "word": " common",
+              "start": 99.16,
+              "end": 99.6
+            },
+            {
+              "word": " carotid",
+              "start": 99.6,
+              "end": 100.08
+            },
+            {
+              "word": " artery",
+              "start": 100.08,
+              "end": 100.42
+            },
+            {
+              "word": " supplying",
+              "start": 100.42,
+              "end": 100.86
+            },
+            {
+              "word": " the",
+              "start": 100.86,
+              "end": 101.14
+            },
+            {
+              "word": " head",
+              "start": 101.14,
+              "end": 101.26
+            },
+            {
+              "word": " and",
+              "start": 101.26,
+              "end": 101.38
+            },
+            {
+              "word": " neck,",
+              "start": 101.38,
+              "end": 101.62
+            }
+          ]
+        },
+        {
+          "start": 101.78,
+          "end": 105.02,
+          "text": "and a right subclavian artery supplying the upper limb.",
+          "words": [
+            {
+              "word": " and",
+              "start": 101.78,
+              "end": 102.08
+            },
+            {
+              "word": " a",
+              "start": 102.08,
+              "end": 102.18
+            },
+            {
+              "word": " right",
+              "start": 102.18,
+              "end": 102.3
+            },
+            {
+              "word": " subclavian",
+              "start": 102.3,
+              "end": 102.84
+            },
+            {
+              "word": " artery",
+              "start": 102.84,
+              "end": 103.32
+            },
+            {
+              "word": " supplying",
+              "start": 103.32,
+              "end": 104.06
+            },
+            {
+              "word": " the",
+              "start": 104.06,
+              "end": 104.54
+            },
+            {
+              "word": " upper",
+              "start": 104.54,
+              "end": 104.72
+            },
+            {
+              "word": " limb.",
+              "start": 104.72,
+              "end": 105.02
+            }
+          ]
+        },
+        {
+          "start": 105.9,
+          "end": 111.8,
+          "text": "And here's where we have a bit of a symmetry, because the left common carotid and left subclavian",
+          "words": [
+            {
+              "word": " And",
+              "start": 105.9,
+              "end": 106.5
+            },
+            {
+              "word": " here's",
+              "start": 106.5,
+              "end": 106.76
+            },
+            {
+              "word": " where",
+              "start": 106.76,
+              "end": 106.82
+            },
+            {
+              "word": " we",
+              "start": 106.82,
+              "end": 106.9
+            },
+            {
+              "word": " have",
+              "start": 106.9,
+              "end": 107.0
+            },
+            {
+              "word": " a",
+              "start": 107.0,
+              "end": 107.12
+            },
+            {
+              "word": " bit",
+              "start": 107.12,
+              "end": 107.22
+            },
+            {
+              "word": " of",
+              "start": 107.22,
+              "end": 107.32
+            },
+            {
+              "word": " a",
+              "start": 107.32,
+              "end": 107.42
+            },
+            {
+              "word": " symmetry,",
+              "start": 107.42,
+              "end": 107.82
+            },
+            {
+              "word": " because",
+              "start": 108.12,
+              "end": 108.56
+            },
+            {
+              "word": " the",
+              "start": 108.56,
+              "end": 109.02
+            },
+            {
+              "word": " left",
+              "start": 109.02,
+              "end": 109.32
+            },
+            {
+              "word": " common",
+              "start": 109.32,
+              "end": 109.62
+            },
+            {
+              "word": " carotid",
+              "start": 109.62,
+              "end": 110.3
+            },
+            {
+              "word": " and",
+              "start": 110.3,
+              "end": 110.78
+            },
+            {
+              "word": " left",
+              "start": 110.78,
+              "end": 111.26
+            },
+            {
+              "word": " subclavian",
+              "start": 111.26,
+              "end": 111.8
+            }
+          ]
+        },
+        {
+          "start": 111.8,
+          "end": 114.8,
+          "text": "arteries arise directly from the arch.",
+          "words": [
+            {
+              "word": " arteries",
+              "start": 111.8,
+              "end": 112.3
+            },
+            {
+              "word": " arise",
+              "start": 112.3,
+              "end": 113.22
+            },
+            {
+              "word": " directly",
+              "start": 113.22,
+              "end": 113.88
+            },
+            {
+              "word": " from",
+              "start": 113.88,
+              "end": 114.36
+            },
+            {
+              "word": " the",
+              "start": 114.36,
+              "end": 114.56
+            },
+            {
+              "word": " arch.",
+              "start": 114.56,
+              "end": 114.8
+            }
+          ]
+        },
+        {
+          "start": 115.26,
+          "end": 118.72,
+          "text": "Therefore, there is no left brachiosephalic trunk.",
+          "words": [
+            {
+              "word": " Therefore,",
+              "start": 115.26,
+              "end": 115.64
+            },
+            {
+              "word": " there",
+              "start": 115.78,
+              "end": 115.9
+            },
+            {
+              "word": " is",
+              "start": 115.9,
+              "end": 116.1
+            },
+            {
+              "word": " no",
+              "start": 116.1,
+              "end": 116.36
+            },
+            {
+              "word": " left",
+              "start": 116.36,
+              "end": 117.16
+            },
+            {
+              "word": " brachiosephalic",
+              "start": 117.16,
+              "end": 118.42
+            },
+            {
+              "word": " trunk.",
+              "start": 118.42,
+              "end": 118.72
+            }
+          ]
+        },
+        {
+          "start": 118.96,
+          "end": 119.92,
+          "text": "There's just the one.",
+          "words": [
+            {
+              "word": " There's",
+              "start": 118.96,
+              "end": 119.24
+            },
+            {
+              "word": " just",
+              "start": 119.24,
+              "end": 119.48
+            },
+            {
+              "word": " the",
+              "start": 119.48,
+              "end": 119.68
+            },
+            {
+              "word": " one.",
+              "start": 119.68,
+              "end": 119.92
+            }
+          ]
+        },
+        {
+          "start": 120.76,
+          "end": 126.96,
+          "text": "And the subclavian has some notable branches that are descriptive in their names, including",
+          "words": [
+            {
+              "word": " And",
+              "start": 120.76,
+              "end": 120.88
+            },
+            {
+              "word": " the",
+              "start": 120.88,
+              "end": 121.02
+            },
+            {
+              "word": " subclavian",
+              "start": 121.02,
+              "end": 121.48
+            },
+            {
+              "word": " has",
+              "start": 121.48,
+              "end": 122.24
+            },
+            {
+              "word": " some",
+              "start": 122.24,
+              "end": 122.66
+            },
+            {
+              "word": " notable",
+              "start": 122.66,
+              "end": 123.1
+            },
+            {
+              "word": " branches",
+              "start": 123.1,
+              "end": 123.58
+            },
+            {
+              "word": " that",
+              "start": 123.58,
+              "end": 124.52
+            },
+            {
+              "word": " are",
+              "start": 124.52,
+              "end": 124.78
+            },
+            {
+              "word": " descriptive",
+              "start": 124.78,
+              "end": 125.18
+            },
+            {
+              "word": " in",
+              "start": 125.18,
+              "end": 125.42
+            },
+            {
+              "word": " their",
+              "start": 125.42,
+              "end": 125.54
+            },
+            {
+              "word": " names,",
+              "start": 125.54,
+              "end": 125.88
+            },
+            {
+              "word": " including",
+              "start": 126.08,
+              "end": 126.96
+            }
+          ]
+        },
+        {
+          "start": 128.9,
+          "end": 131.44,
+          "text": "fyroservical, costoservical, and vertebral.",
+          "words": [
+            {
+              "word": " fyroservical,",
+              "start": 128.9,
+              "end": 129.5
+            },
+            {
+              "word": " costoservical,",
+              "start": 129.5,
+              "end": 130.1
+            },
+            {
+              "word": " and",
+              "start": 130.8,
+              "end": 130.92
+            },
+            {
+              "word": " vertebral.",
+              "start": 130.92,
+              "end": 131.44
+            }
+          ]
+        },
+        {
+          "start": 131.98,
+          "end": 133.7,
+          "text": "They basically tell you what they're going to supply.",
+          "words": [
+            {
+              "word": " They",
+              "start": 131.98,
+              "end": 132.1
+            },
+            {
+              "word": " basically",
+              "start": 132.1,
+              "end": 132.36
+            },
+            {
+              "word": " tell",
+              "start": 132.36,
+              "end": 132.68
+            },
+            {
+              "word": " you",
+              "start": 132.68,
+              "end": 132.78
+            },
+            {
+              "word": " what",
+              "start": 132.78,
+              "end": 132.9
+            },
+            {
+              "word": " they're",
+              "start": 132.9,
+              "end": 133.02
+            },
+            {
+              "word": " going",
+              "start": 133.02,
+              "end": 133.22
+            },
+            {
+              "word": " to",
+              "start": 133.22,
+              "end": 133.36
+            },
+            {
+              "word": " supply.",
+              "start": 133.36,
+              "end": 133.7
+            }
+          ]
+        },
+        {
+          "start": 134.54,
+          "end": 139.2,
+          "text": "And we've already seen that the internal thoracic or mammary arteries arise from the subclavian.",
+          "words": [
+            {
+              "word": " And",
+              "start": 134.34,
+              "end": 134.6
+            },
+            {
+              "word": " we've",
+              "start": 134.6,
+              "end": 135.02
+            },
+            {
+              "word": " already",
+              "start": 135.02,
+              "end": 135.3
+            },
+            {
+              "word": " seen",
+              "start": 135.3,
+              "end": 135.52
+            },
+            {
+              "word": " that",
+              "start": 135.52,
+              "end": 135.66
+            },
+            {
+              "word": " the",
+              "start": 135.66,
+              "end": 135.78
+            },
+            {
+              "word": " internal",
+              "start": 135.78,
+              "end": 136.16
+            },
+            {
+              "word": " thoracic",
+              "start": 136.16,
+              "end": 136.82
+            },
+            {
+              "word": " or",
+              "start": 136.82,
+              "end": 137.0
+            },
+            {
+              "word": " mammary",
+              "start": 137.0,
+              "end": 137.36
+            },
+            {
+              "word": " arteries",
+              "start": 137.36,
+              "end": 137.78
+            },
+            {
+              "word": " arise",
+              "start": 137.78,
+              "end": 138.44
+            },
+            {
+              "word": " from",
+              "start": 138.44,
+              "end": 138.66
+            },
+            {
+              "word": " the",
+              "start": 138.66,
+              "end": 138.78
+            },
+            {
+              "word": " subclavian.",
+              "start": 138.78,
+              "end": 139.2
+            }
+          ]
+        },
+        {
+          "start": 139.98,
+          "end": 145.8,
+          "text": "Now let's take a look from the left side, where we can see our ascending aorta becoming",
+          "words": [
+            {
+              "word": " Now",
+              "start": 139.98,
+              "end": 140.5
+            },
+            {
+              "word": " let's",
+              "start": 140.5,
+              "end": 140.68
+            },
+            {
+              "word": " take",
+              "start": 140.68,
+              "end": 140.82
+            },
+            {
+              "word": " a",
+              "start": 140.82,
+              "end": 140.96
+            },
+            {
+              "word": " look",
+              "start": 140.96,
+              "end": 141.04
+            },
+            {
+              "word": " from",
+              "start": 141.04,
+              "end": 141.3
+            },
+            {
+              "word": " the",
+              "start": 141.3,
+              "end": 141.64
+            },
+            {
+              "word": " left",
+              "start": 141.64,
+              "end": 141.88
+            },
+            {
+              "word": " side,",
+              "start": 141.88,
+              "end": 142.34
+            },
+            {
+              "word": " where",
+              "start": 142.6,
+              "end": 143.28
+            },
+            {
+              "word": " we",
+              "start": 143.28,
+              "end": 143.4
+            },
+            {
+              "word": " can",
+              "start": 143.4,
+              "end": 143.56
+            },
+            {
+              "word": " see",
+              "start": 143.56,
+              "end": 143.78
+            },
+            {
+              "word": " our",
+              "start": 143.78,
+              "end": 143.94
+            },
+            {
+              "word": " ascending",
+              "start": 143.94,
+              "end": 144.58
+            },
+            {
+              "word": " aorta",
+              "start": 144.58,
+              "end": 145.02
+            },
+            {
+              "word": " becoming",
+              "start": 145.02,
+              "end": 145.8
+            }
+          ]
+        },
+        {
+          "start": 145.8,
+          "end": 150.86,
+          "text": "an arch, the aortic arch, and then finally posteriorly becoming the descending aorta",
+          "words": [
+            {
+              "word": " an",
+              "start": 145.8,
+              "end": 146.06
+            },
+            {
+              "word": " arch,",
+              "start": 146.06,
+              "end": 146.4
+            },
+            {
+              "word": " the",
+              "start": 146.62,
+              "end": 146.68
+            },
+            {
+              "word": " aortic",
+              "start": 146.68,
+              "end": 146.94
+            },
+            {
+              "word": " arch,",
+              "start": 146.94,
+              "end": 147.3
+            },
+            {
+              "word": " and",
+              "start": 147.68,
+              "end": 147.88
+            },
+            {
+              "word": " then",
+              "start": 147.88,
+              "end": 147.98
+            },
+            {
+              "word": " finally",
+              "start": 147.98,
+              "end": 148.34
+            },
+            {
+              "word": " posteriorly",
+              "start": 148.34,
+              "end": 149.38
+            },
+            {
+              "word": " becoming",
+              "start": 149.38,
+              "end": 149.68
+            },
+            {
+              "word": " the",
+              "start": 149.68,
+              "end": 149.92
+            },
+            {
+              "word": " descending",
+              "start": 149.92,
+              "end": 150.28
+            },
+            {
+              "word": " aorta",
+              "start": 150.28,
+              "end": 150.86
+            }
+          ]
+        },
+        {
+          "start": 150.86,
+          "end": 152.26,
+          "text": "as it heads towards the abdomen.",
+          "words": [
+            {
+              "word": " as",
+              "start": 150.86,
+              "end": 151.18
+            },
+            {
+              "word": " it",
+              "start": 151.18,
+              "end": 151.28
+            },
+            {
+              "word": " heads",
+              "start": 151.28,
+              "end": 151.48
+            },
+            {
+              "word": " towards",
+              "start": 151.48,
+              "end": 151.74
+            },
+            {
+              "word": " the",
+              "start": 151.74,
+              "end": 151.96
+            },
+            {
+              "word": " abdomen.",
+              "start": 151.96,
+              "end": 152.26
+            }
+          ]
+        },
+        {
+          "start": 152.96,
+          "end": 158.52,
+          "text": "And it's going to go through that hiatus, the aortic hiatus, in the diaphragm in order",
+          "words": [
+            {
+              "word": " And",
+              "start": 152.96,
+              "end": 153.34
+            },
+            {
+              "word": " it's",
+              "start": 153.34,
+              "end": 153.48
+            },
+            {
+              "word": " going",
+              "start": 153.48,
+              "end": 153.58
+            },
+            {
+              "word": " to",
+              "start": 153.58,
+              "end": 153.66
+            },
+            {
+              "word": " go",
+              "start": 153.66,
+              "end": 153.86
+            },
+            {
+              "word": " through",
+              "start": 153.86,
+              "end": 154.3
+            },
+            {
+              "word": " that",
+              "start": 154.3,
+              "end": 154.88
+            },
+            {
+              "word": " hiatus,",
+              "start": 154.88,
+              "end": 155.84
+            },
+            {
+              "word": " the",
+              "start": 156.28,
+              "end": 156.38
+            },
+            {
+              "word": " aortic",
+              "start": 156.38,
+              "end": 156.72
+            },
+            {
+              "word": " hiatus,",
+              "start": 156.72,
+              "end": 157.2
+            },
+            {
+              "word": " in",
+              "start": 157.32,
+              "end": 157.46
+            },
+            {
+              "word": " the",
+              "start": 157.46,
+              "end": 157.58
+            },
+            {
+              "word": " diaphragm",
+              "start": 157.58,
+              "end": 158.24
+            },
+            {
+              "word": " in",
+              "start": 158.24,
+              "end": 158.38
+            },
+            {
+              "word": " order",
+              "start": 158.38,
+              "end": 158.52
+            }
+          ]
+        },
+        {
+          "start": 158.52,
+          "end": 159.84,
+          "text": "to reach the abdominal cavity.",
+          "words": [
+            {
+              "word": " to",
+              "start": 158.52,
+              "end": 158.68
+            },
+            {
+              "word": " reach",
+              "start": 158.68,
+              "end": 158.9
+            },
+            {
+              "word": " the",
+              "start": 158.9,
+              "end": 159.06
+            },
+            {
+              "word": " abdominal",
+              "start": 159.06,
+              "end": 159.36
+            },
+            {
+              "word": " cavity.",
+              "start": 159.36,
+              "end": 159.84
+            }
+          ]
+        },
+        {
+          "start": 160.84,
+          "end": 166.74,
+          "text": "We'll go back to an anterior view, and we're going to remove the aorta to see the pulmonary",
+          "words": [
+            {
+              "word": " We'll",
+              "start": 160.63,
+              "end": 160.92
+            },
+            {
+              "word": " go",
+              "start": 160.92,
+              "end": 161.02
+            },
+            {
+              "word": " back",
+              "start": 161.02,
+              "end": 161.22
+            },
+            {
+              "word": " to",
+              "start": 161.22,
+              "end": 161.36
+            },
+            {
+              "word": " an",
+              "start": 161.36,
+              "end": 161.5
+            },
+            {
+              "word": " anterior",
+              "start": 161.5,
+              "end": 162.1
+            },
+            {
+              "word": " view,",
+              "start": 162.1,
+              "end": 162.54
+            },
+            {
+              "word": " and",
+              "start": 163.28,
+              "end": 163.74
+            },
+            {
+              "word": " we're",
+              "start": 163.74,
+              "end": 164.04
+            },
+            {
+              "word": " going",
+              "start": 164.04,
+              "end": 164.22
+            },
+            {
+              "word": " to",
+              "start": 164.22,
+              "end": 164.52
+            },
+            {
+              "word": " remove",
+              "start": 164.52,
+              "end": 165.26
+            },
+            {
+              "word": " the",
+              "start": 165.26,
+              "end": 165.52
+            },
+            {
+              "word": " aorta",
+              "start": 165.52,
+              "end": 165.8
+            },
+            {
+              "word": " to",
+              "start": 165.8,
+              "end": 166.1
+            },
+            {
+              "word": " see",
+              "start": 166.1,
+              "end": 166.32
+            },
+            {
+              "word": " the",
+              "start": 166.32,
+              "end": 166.44
+            },
+            {
+              "word": " pulmonary",
+              "start": 166.44,
+              "end": 166.74
+            }
+          ]
+        },
+        {
+          "start": 166.74,
+          "end": 168.2,
+          "text": "trunk and its branches better.",
+          "words": [
+            {
+              "word": " trunk",
+              "start": 166.74,
+              "end": 167.14
+            },
+            {
+              "word": " and",
+              "start": 167.14,
+              "end": 167.36
+            },
+            {
+              "word": " its",
+              "start": 167.36,
+              "end": 167.5
+            },
+            {
+              "word": " branches",
+              "start": 167.5,
+              "end": 167.86
+            },
+            {
+              "word": " better.",
+              "start": 167.86,
+              "end": 168.2
+            }
+          ]
+        },
+        {
+          "start": 169.14,
+          "end": 173.34,
+          "text": "We see the pulmonary trunk is pretty short before it branches into the right and left",
+          "words": [
+            {
+              "word": " We",
+              "start": 169.14,
+              "end": 169.4
+            },
+            {
+              "word": " see",
+              "start": 169.4,
+              "end": 169.48
+            },
+            {
+              "word": " the",
+              "start": 169.48,
+              "end": 169.6
+            },
+            {
+              "word": " pulmonary",
+              "start": 169.6,
+              "end": 169.92
+            },
+            {
+              "word": " trunk",
+              "start": 169.92,
+              "end": 170.3
+            },
+            {
+              "word": " is",
+              "start": 170.3,
+              "end": 170.42
+            },
+            {
+              "word": " pretty",
+              "start": 170.42,
+              "end": 170.6
+            },
+            {
+              "word": " short",
+              "start": 170.6,
+              "end": 171.0
+            },
+            {
+              "word": " before",
+              "start": 171.0,
+              "end": 171.24
+            },
+            {
+              "word": " it",
+              "start": 171.24,
+              "end": 171.48
+            },
+            {
+              "word": " branches",
+              "start": 171.48,
+              "end": 171.82
+            },
+            {
+              "word": " into",
+              "start": 171.82,
+              "end": 172.14
+            },
+            {
+              "word": " the",
+              "start": 172.14,
+              "end": 172.34
+            },
+            {
+              "word": " right",
+              "start": 172.34,
+              "end": 172.62
+            },
+            {
+              "word": " and",
+              "start": 172.62,
+              "end": 173.04
+            },
+            {
+              "word": " left",
+              "start": 173.04,
+              "end": 173.34
+            }
+          ]
+        },
+        {
+          "start": 173.34,
+          "end": 174.66,
+          "text": "main pulmonary arteries.",
+          "words": [
+            {
+              "word": " main",
+              "start": 173.34,
+              "end": 173.66
+            },
+            {
+              "word": " pulmonary",
+              "start": 173.66,
+              "end": 174.22
+            },
+            {
+              "word": " arteries.",
+              "start": 174.22,
+              "end": 174.66
+            }
+          ]
+        },
+        {
+          "start": 175.6,
+          "end": 180.88,
+          "text": "And if we swing around to the left, we can see it again with, again, a very short trunk",
+          "words": [
+            {
+              "word": " And",
+              "start": 175.6,
+              "end": 176.08
+            },
+            {
+              "word": " if",
+              "start": 176.08,
+              "end": 176.18
+            },
+            {
+              "word": " we",
+              "start": 176.18,
+              "end": 176.26
+            },
+            {
+              "word": " swing",
+              "start": 176.26,
+              "end": 176.52
+            },
+            {
+              "word": " around",
+              "start": 176.52,
+              "end": 176.78
+            },
+            {
+              "word": " to",
+              "start": 176.78,
+              "end": 177.0
+            },
+            {
+              "word": " the",
+              "start": 177.0,
+              "end": 177.14
+            },
+            {
+              "word": " left,",
+              "start": 177.14,
+              "end": 177.46
+            },
+            {
+              "word": " we",
+              "start": 177.62,
+              "end": 177.72
+            },
+            {
+              "word": " can",
+              "start": 177.72,
+              "end": 177.88
+            },
+            {
+              "word": " see",
+              "start": 177.88,
+              "end": 178.16
+            },
+            {
+              "word": " it",
+              "start": 178.16,
+              "end": 178.28
+            },
+            {
+              "word": " again",
+              "start": 178.28,
+              "end": 178.64
+            },
+            {
+              "word": " with,",
+              "start": 178.64,
+              "end": 179.48
+            },
+            {
+              "word": " again,",
+              "start": 179.56,
+              "end": 179.72
+            },
+            {
+              "word": " a",
+              "start": 179.84,
+              "end": 179.92
+            },
+            {
+              "word": " very",
+              "start": 179.92,
+              "end": 180.04
+            },
+            {
+              "word": " short",
+              "start": 180.04,
+              "end": 180.44
+            },
+            {
+              "word": " trunk",
+              "start": 180.44,
+              "end": 180.88
+            }
+          ]
+        },
+        {
+          "start": 180.88,
+          "end": 186.12,
+          "text": "forming almost a T-shaped intersection where it bifurcates into the left and right pulmonary",
+          "words": [
+            {
+              "word": " forming",
+              "start": 180.88,
+              "end": 181.22
+            },
+            {
+              "word": " almost",
+              "start": 181.22,
+              "end": 181.56
+            },
+            {
+              "word": " a",
+              "start": 181.56,
+              "end": 181.88
+            },
+            {
+              "word": " T",
+              "start": 181.88,
+              "end": 182.2
+            },
+            {
+              "word": "-shaped",
+              "start": 182.2,
+              "end": 182.5
+            },
+            {
+              "word": " intersection",
+              "start": 182.5,
+              "end": 183.18
+            },
+            {
+              "word": " where",
+              "start": 183.18,
+              "end": 184.14
+            },
+            {
+              "word": " it",
+              "start": 184.14,
+              "end": 184.28
+            },
+            {
+              "word": " bifurcates",
+              "start": 184.28,
+              "end": 184.76
+            },
+            {
+              "word": " into",
+              "start": 184.76,
+              "end": 184.92
+            },
+            {
+              "word": " the",
+              "start": 184.92,
+              "end": 185.12
+            },
+            {
+              "word": " left",
+              "start": 185.12,
+              "end": 185.36
+            },
+            {
+              "word": " and",
+              "start": 185.36,
+              "end": 185.58
+            },
+            {
+              "word": " right",
+              "start": 185.58,
+              "end": 185.72
+            },
+            {
+              "word": " pulmonary",
+              "start": 185.72,
+              "end": 186.12
+            }
+          ]
+        },
+        {
+          "start": 186.12,
+          "end": 186.58,
+          "text": "arteries.",
+          "words": [
+            {
+              "word": " arteries.",
+              "start": 186.12,
+              "end": 186.58
+            }
+          ]
+        },
+        {
+          "start": 186.58,
+          "end": 191.58,
+          "text": "Here we see the left pulmonary artery coming right at us and towards the hyalum of the",
+          "words": [
+            {
+              "word": " Here",
+              "start": 186.58,
+              "end": 187.52
+            },
+            {
+              "word": " we",
+              "start": 187.52,
+              "end": 187.66
+            },
+            {
+              "word": " see",
+              "start": 187.66,
+              "end": 187.86
+            },
+            {
+              "word": " the",
+              "start": 187.86,
+              "end": 188.0
+            },
+            {
+              "word": " left",
+              "start": 188.0,
+              "end": 188.2
+            },
+            {
+              "word": " pulmonary",
+              "start": 188.2,
+              "end": 188.62
+            },
+            {
+              "word": " artery",
+              "start": 188.62,
+              "end": 188.96
+            },
+            {
+              "word": " coming",
+              "start": 188.96,
+              "end": 189.22
+            },
+            {
+              "word": " right",
+              "start": 189.22,
+              "end": 189.58
+            },
+            {
+              "word": " at",
+              "start": 189.58,
+              "end": 189.94
+            },
+            {
+              "word": " us",
+              "start": 189.94,
+              "end": 190.16
+            },
+            {
+              "word": " and",
+              "start": 190.16,
+              "end": 190.38
+            },
+            {
+              "word": " towards",
+              "start": 190.38,
+              "end": 190.62
+            },
+            {
+              "word": " the",
+              "start": 190.62,
+              "end": 190.84
+            },
+            {
+              "word": " hyalum",
+              "start": 190.84,
+              "end": 191.26
+            },
+            {
+              "word": " of",
+              "start": 191.26,
+              "end": 191.44
+            },
+            {
+              "word": " the",
+              "start": 191.44,
+              "end": 191.58
+            }
+          ]
+        },
+        {
+          "start": 191.58,
+          "end": 191.8,
+          "text": "lung.",
+          "words": [
+            {
+              "word": " lung.",
+              "start": 191.58,
+              "end": 191.8
+            }
+          ]
+        },
+        {
+          "start": 192.46,
+          "end": 197.2,
+          "text": "We also see a tiny bit of connective tissue between the pulmonary trunk and the aorta",
+          "words": [
+            {
+              "word": " We",
+              "start": 192.46,
+              "end": 192.98
+            },
+            {
+              "word": " also",
+              "start": 192.98,
+              "end": 193.14
+            },
+            {
+              "word": " see",
+              "start": 193.14,
+              "end": 193.34
+            },
+            {
+              "word": " a",
+              "start": 193.34,
+              "end": 193.46
+            },
+            {
+              "word": " tiny",
+              "start": 193.46,
+              "end": 193.78
+            },
+            {
+              "word": " bit",
+              "start": 193.78,
+              "end": 193.96
+            },
+            {
+              "word": " of",
+              "start": 193.96,
+              "end": 194.1
+            },
+            {
+              "word": " connective",
+              "start": 194.1,
+              "end": 194.64
+            },
+            {
+              "word": " tissue",
+              "start": 194.64,
+              "end": 195.06
+            },
+            {
+              "word": " between",
+              "start": 195.06,
+              "end": 195.78
+            },
+            {
+              "word": " the",
+              "start": 195.78,
+              "end": 196.0
+            },
+            {
+              "word": " pulmonary",
+              "start": 196.0,
+              "end": 196.32
+            },
+            {
+              "word": " trunk",
+              "start": 196.32,
+              "end": 196.7
+            },
+            {
+              "word": " and",
+              "start": 196.7,
+              "end": 196.84
+            },
+            {
+              "word": " the",
+              "start": 196.84,
+              "end": 196.94
+            },
+            {
+              "word": " aorta",
+              "start": 196.94,
+              "end": 197.2
+            }
+          ]
+        },
+        {
+          "start": 197.74,
+          "end": 203.0,
+          "text": "called the ligamentum arteriosum, which if we recall from fetal circulation is the leftover",
+          "words": [
+            {
+              "word": " called",
+              "start": 197.57999999999998,
+              "end": 197.88
+            },
+            {
+              "word": " the",
+              "start": 197.88,
+              "end": 198.02
+            },
+            {
+              "word": " ligamentum",
+              "start": 198.02,
+              "end": 198.62
+            },
+            {
+              "word": " arteriosum,",
+              "start": 198.62,
+              "end": 199.5
+            },
+            {
+              "word": " which",
+              "start": 199.66,
+              "end": 200.1
+            },
+            {
+              "word": " if",
+              "start": 200.1,
+              "end": 200.2
+            },
+            {
+              "word": " we",
+              "start": 200.2,
+              "end": 200.32
+            },
+            {
+              "word": " recall",
+              "start": 200.32,
+              "end": 200.66
+            },
+            {
+              "word": " from",
+              "start": 200.66,
+              "end": 200.94
+            },
+            {
+              "word": " fetal",
+              "start": 200.94,
+              "end": 201.26
+            },
+            {
+              "word": " circulation",
+              "start": 201.26,
+              "end": 201.8
+            },
+            {
+              "word": " is",
+              "start": 201.8,
+              "end": 202.5
+            },
+            {
+              "word": " the",
+              "start": 202.5,
+              "end": 202.68
+            },
+            {
+              "word": " leftover",
+              "start": 202.68,
+              "end": 203.0
+            }
+          ]
+        },
+        {
+          "start": 203.0,
+          "end": 207.24,
+          "text": "remnants of that fetal bypass called the ductus arteriosus.",
+          "words": [
+            {
+              "word": " remnants",
+              "start": 203.0,
+              "end": 203.5
+            },
+            {
+              "word": " of",
+              "start": 203.5,
+              "end": 203.94
+            },
+            {
+              "word": " that",
+              "start": 203.94,
+              "end": 204.16
+            },
+            {
+              "word": " fetal",
+              "start": 204.16,
+              "end": 204.58
+            },
+            {
+              "word": " bypass",
+              "start": 204.58,
+              "end": 204.96
+            },
+            {
+              "word": " called",
+              "start": 204.96,
+              "end": 205.3
+            },
+            {
+              "word": " the",
+              "start": 205.3,
+              "end": 205.46
+            },
+            {
+              "word": " ductus",
+              "start": 205.46,
+              "end": 206.04
+            },
+            {
+              "word": " arteriosus.",
+              "start": 206.04,
+              "end": 207.24
+            }
+          ]
+        },
+        {
+          "start": 209.18,
+          "end": 214.6,
+          "text": "And it's connecting, again, to the aortic arch, which in this case we see that it's",
+          "words": [
+            {
+              "word": " And",
+              "start": 209.18,
+              "end": 209.78
+            },
+            {
+              "word": " it's",
+              "start": 209.78,
+              "end": 210.1
+            },
+            {
+              "word": " connecting,",
+              "start": 210.1,
+              "end": 210.48
+            },
+            {
+              "word": " again,",
+              "start": 210.56,
+              "end": 210.86
+            },
+            {
+              "word": " to",
+              "start": 211.0,
+              "end": 211.12
+            },
+            {
+              "word": " the",
+              "start": 211.12,
+              "end": 211.28
+            },
+            {
+              "word": " aortic",
+              "start": 211.28,
+              "end": 211.62
+            },
+            {
+              "word": " arch,",
+              "start": 211.62,
+              "end": 212.08
+            },
+            {
+              "word": " which",
+              "start": 212.36,
+              "end": 212.98
+            },
+            {
+              "word": " in",
+              "start": 212.98,
+              "end": 213.3
+            },
+            {
+              "word": " this",
+              "start": 213.3,
+              "end": 213.5
+            },
+            {
+              "word": " case",
+              "start": 213.5,
+              "end": 213.8
+            },
+            {
+              "word": " we",
+              "start": 213.8,
+              "end": 214.02
+            },
+            {
+              "word": " see",
+              "start": 214.02,
+              "end": 214.28
+            },
+            {
+              "word": " that",
+              "start": 214.28,
+              "end": 214.44
+            },
+            {
+              "word": " it's",
+              "start": 214.44,
+              "end": 214.6
+            }
+          ]
+        },
+        {
+          "start": 214.6,
+          "end": 221.66,
+          "text": "going over the right pulmonary artery before moving leftward to cross over the left main",
+          "words": [
+            {
+              "word": " going",
+              "start": 214.6,
+              "end": 214.88
+            },
+            {
+              "word": " over",
+              "start": 214.88,
+              "end": 215.32
+            },
+            {
+              "word": " the",
+              "start": 215.32,
+              "end": 215.84
+            },
+            {
+              "word": " right",
+              "start": 215.84,
+              "end": 216.38
+            },
+            {
+              "word": " pulmonary",
+              "start": 216.38,
+              "end": 217.06
+            },
+            {
+              "word": " artery",
+              "start": 217.06,
+              "end": 217.66
+            },
+            {
+              "word": " before",
+              "start": 217.66,
+              "end": 218.7
+            },
+            {
+              "word": " moving",
+              "start": 218.7,
+              "end": 219.2
+            },
+            {
+              "word": " leftward",
+              "start": 219.2,
+              "end": 219.82
+            },
+            {
+              "word": " to",
+              "start": 219.82,
+              "end": 220.04
+            },
+            {
+              "word": " cross",
+              "start": 220.04,
+              "end": 220.28
+            },
+            {
+              "word": " over",
+              "start": 220.28,
+              "end": 220.62
+            },
+            {
+              "word": " the",
+              "start": 220.62,
+              "end": 220.96
+            },
+            {
+              "word": " left",
+              "start": 220.96,
+              "end": 221.34
+            },
+            {
+              "word": " main",
+              "start": 221.34,
+              "end": 221.66
+            }
+          ]
+        },
+        {
+          "start": 221.66,
+          "end": 222.42,
+          "text": "bronchus.",
+          "words": [
+            {
+              "word": " bronchus.",
+              "start": 221.66,
+              "end": 222.42
+            }
+          ]
+        },
+        {
+          "start": 223.18,
+          "end": 228.68,
+          "text": "And this is what we mean when we say an arch is a left-sided arch or a leftward arch.",
+          "words": [
+            {
+              "word": " And",
+              "start": 223.18,
+              "end": 223.6
+            },
+            {
+              "word": " this",
+              "start": 223.6,
+              "end": 223.98
+            },
+            {
+              "word": " is",
+              "start": 223.98,
+              "end": 224.1
+            },
+            {
+              "word": " what",
+              "start": 224.1,
+              "end": 224.26
+            },
+            {
+              "word": " we",
+              "start": 224.26,
+              "end": 224.4
+            },
+            {
+              "word": " mean",
+              "start": 224.4,
+              "end": 224.58
+            },
+            {
+              "word": " when",
+              "start": 224.58,
+              "end": 224.72
+            },
+            {
+              "word": " we",
+              "start": 224.72,
+              "end": 224.82
+            },
+            {
+              "word": " say",
+              "start": 224.82,
+              "end": 225.02
+            },
+            {
+              "word": " an",
+              "start": 225.02,
+              "end": 225.12
+            },
+            {
+              "word": " arch",
+              "start": 225.12,
+              "end": 225.48
+            },
+            {
+              "word": " is",
+              "start": 225.48,
+              "end": 225.88
+            },
+            {
+              "word": " a",
+              "start": 225.88,
+              "end": 226.1
+            },
+            {
+              "word": " left",
+              "start": 226.1,
+              "end": 226.52
+            },
+            {
+              "word": "-sided",
+              "start": 226.52,
+              "end": 226.9
+            },
+            {
+              "word": " arch",
+              "start": 226.9,
+              "end": 227.38
+            },
+            {
+              "word": " or",
+              "start": 227.38,
+              "end": 227.64
+            },
+            {
+              "word": " a",
+              "start": 227.64,
+              "end": 227.76
+            },
+            {
+              "word": " leftward",
+              "start": 227.76,
+              "end": 228.32
+            },
+            {
+              "word": " arch.",
+              "start": 228.32,
+              "end": 228.68
+            }
+          ]
+        },
+        {
+          "start": 229.36,
+          "end": 234.62,
+          "text": "When you learn about congenital heart diseases, you'll hear that term, and a left-sided arch",
+          "words": [
+            {
+              "word": " When",
+              "start": 229.36,
+              "end": 229.74
+            },
+            {
+              "word": " you",
+              "start": 229.74,
+              "end": 229.92
+            },
+            {
+              "word": " learn",
+              "start": 229.92,
+              "end": 230.08
+            },
+            {
+              "word": " about",
+              "start": 230.08,
+              "end": 230.28
+            },
+            {
+              "word": " congenital",
+              "start": 230.28,
+              "end": 230.68
+            },
+            {
+              "word": " heart",
+              "start": 230.68,
+              "end": 230.94
+            },
+            {
+              "word": " diseases,",
+              "start": 230.94,
+              "end": 231.28
+            },
+            {
+              "word": " you'll",
+              "start": 231.84,
+              "end": 232.08
+            },
+            {
+              "word": " hear",
+              "start": 232.08,
+              "end": 232.28
+            },
+            {
+              "word": " that",
+              "start": 232.28,
+              "end": 232.48
+            },
+            {
+              "word": " term,",
+              "start": 232.48,
+              "end": 232.8
+            },
+            {
+              "word": " and",
+              "start": 233.02,
+              "end": 233.1
+            },
+            {
+              "word": " a",
+              "start": 233.1,
+              "end": 233.3
+            },
+            {
+              "word": " left",
+              "start": 233.3,
+              "end": 233.64
+            },
+            {
+              "word": "-sided",
+              "start": 233.64,
+              "end": 234.1
+            },
+            {
+              "word": " arch",
+              "start": 234.1,
+              "end": 234.62
+            }
+          ]
+        },
+        {
+          "start": 235.24,
+          "end": 237.0,
+          "text": "is the more common arrangement.",
+          "words": [
+            {
+              "word": " is",
+              "start": 235.24,
+              "end": 235.6
+            },
+            {
+              "word": " the",
+              "start": 235.6,
+              "end": 236.0
+            },
+            {
+              "word": " more",
+              "start": 236.0,
+              "end": 236.12
+            },
+            {
+              "word": " common",
+              "start": 236.12,
+              "end": 236.52
+            },
+            {
+              "word": " arrangement.",
+              "start": 236.52,
+              "end": 237.0
+            }
+          ]
+        },
+        {
+          "start": 237.24,
+          "end": 241.56,
+          "text": "But you might hear the term right-sided arch, and in that case, it will cross over the right",
+          "words": [
+            {
+              "word": " But",
+              "start": 237.24,
+              "end": 237.36
+            },
+            {
+              "word": " you",
+              "start": 237.36,
+              "end": 237.46
+            },
+            {
+              "word": " might",
+              "start": 237.46,
+              "end": 237.62
+            },
+            {
+              "word": " hear",
+              "start": 237.62,
+              "end": 237.76
+            },
+            {
+              "word": " the",
+              "start": 237.76,
+              "end": 237.88
+            },
+            {
+              "word": " term",
+              "start": 237.88,
+              "end": 238.12
+            },
+            {
+              "word": " right",
+              "start": 238.12,
+              "end": 238.54
+            },
+            {
+              "word": "-sided",
+              "start": 238.54,
+              "end": 238.94
+            },
+            {
+              "word": " arch,",
+              "start": 238.94,
+              "end": 239.34
+            },
+            {
+              "word": " and",
+              "start": 239.54,
+              "end": 239.64
+            },
+            {
+              "word": " in",
+              "start": 239.64,
+              "end": 239.72
+            },
+            {
+              "word": " that",
+              "start": 239.72,
+              "end": 239.94
+            },
+            {
+              "word": " case,",
+              "start": 239.94,
+              "end": 240.22
+            },
+            {
+              "word": " it",
+              "start": 240.32,
+              "end": 240.4
+            },
+            {
+              "word": " will",
+              "start": 240.4,
+              "end": 240.5
+            },
+            {
+              "word": " cross",
+              "start": 240.5,
+              "end": 240.72
+            },
+            {
+              "word": " over",
+              "start": 240.72,
+              "end": 240.98
+            },
+            {
+              "word": " the",
+              "start": 240.98,
+              "end": 241.14
+            },
+            {
+              "word": " right",
+              "start": 241.14,
+              "end": 241.56
+            }
+          ]
+        },
+        {
+          "start": 241.56,
+          "end": 242.62,
+          "text": "main bronchus.",
+          "words": [
+            {
+              "word": " main",
+              "start": 241.56,
+              "end": 241.96
+            },
+            {
+              "word": " bronchus.",
+              "start": 241.96,
+              "end": 242.62
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 1.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              505.28741455078125,
+              57.28678894042969,
+              552.9877319335938,
+              121.25782775878906
+            ],
+            "confidence": 0.8382032513618469,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 2,
+        "timestamp": 4.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              506.7486572265625,
+              58.996002197265625,
+              555.095703125,
+              124.04327392578125
+            ],
+            "confidence": 0.8386436700820923,
+            "class": "face"
+          },
+          {
+            "bbox": [
+              225.69610595703125,
+              66.06385040283203,
+              246.76531982421875,
+              95.21382904052734
+            ],
+            "confidence": 0.27606111764907837,
+            "class": "face"
+          }
+        ],
+        "face_count": 2
+      },
+      {
+        "index": 3,
+        "timestamp": 12.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              504.42999267578125,
+              57.121734619140625,
+              552.2208862304688,
+              121.99563598632812
+            ],
+            "confidence": 0.8429510593414307,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 4,
+        "timestamp": 13.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              501.3108825683594,
+              57.45335388183594,
+              548.6800537109375,
+              122.97703552246094
+            ],
+            "confidence": 0.8417462110519409,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 5,
+        "timestamp": 18.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 79.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 80.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              505.534423828125,
+              59.26606750488281,
+              552.955078125,
+              124.14872741699219
+            ],
+            "confidence": 0.8420634269714355,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 8,
+        "timestamp": 81.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              505.16204833984375,
+              58.11695861816406,
+              552.0242309570312,
+              121.85140991210938
+            ],
+            "confidence": 0.8385749459266663,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 9,
+        "timestamp": 85.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 106.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              507.6656494140625,
+              59.50848388671875,
+              554.0167236328125,
+              124.22413635253906
+            ],
+            "confidence": 0.8465172052383423,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 121.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 12,
+        "timestamp": 136.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 13,
+        "timestamp": 140.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000013.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              503.2456970214844,
+              58.75822448730469,
+              550.0804443359375,
+              123.01441955566406
+            ],
+            "confidence": 0.8373727798461914,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 14,
+        "timestamp": 141.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000014.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              508.1531677246094,
+              56.69160461425781,
+              555.3426513671875,
+              120.83439636230469
+            ],
+            "confidence": 0.8306432366371155,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 15,
+        "timestamp": 143.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000015.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 16,
+        "timestamp": 153.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000016.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 17,
+        "timestamp": 154.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000017.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 18,
+        "timestamp": 161.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000018.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              504.6054992675781,
+              55.260955810546875,
+              552.071044921875,
+              121.25830078125
+            ],
+            "confidence": 0.8398898243904114,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 19,
+        "timestamp": 165.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000019.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              509.73046875,
+              56.476226806640625,
+              557.3446044921875,
+              121.42588806152344
+            ],
+            "confidence": 0.8274158239364624,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 20,
+        "timestamp": 176.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000020.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              503.42633056640625,
+              57.50337219238281,
+              551.4922485351562,
+              123.11770629882812
+            ],
+            "confidence": 0.8500620722770691,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 21,
+        "timestamp": 177.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000021.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              504.28729248046875,
+              56.436553955078125,
+              551.7702026367188,
+              120.32937622070312
+            ],
+            "confidence": 0.8408581614494324,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 22,
+        "timestamp": 187.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000022.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              507.5270080566406,
+              57.96427917480469,
+              556.3572998046875,
+              120.75041198730469
+            ],
+            "confidence": 0.8280202150344849,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 23,
+        "timestamp": 188.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000023.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 24,
+        "timestamp": 223.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000024.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              502.690673828125,
+              59.311920166015625,
+              549.608154296875,
+              122.7708740234375
+            ],
+            "confidence": 0.8408148288726807,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 25,
+        "timestamp": 224.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000025.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              499.1053466796875,
+              59.214141845703125,
+              545.9969482421875,
+              122.21263122558594
+            ],
+            "confidence": 0.8208646774291992,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 26,
+        "timestamp": 243.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000026.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              473.55462646484375,
+              78.2286376953125,
+              480.6534423828125,
+              86.81997680664062
+            ],
+            "confidence": 0.5704766511917114,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 27,
+        "timestamp": 244.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000027.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              474.65179443359375,
+              77.85015106201172,
+              482.0230712890625,
+              86.83916473388672
+            ],
+            "confidence": 0.37253934144973755,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 28,
+        "timestamp": 245.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000028.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              478.5633544921875,
+              76.47544860839844,
+              486.37396240234375,
+              85.91200256347656
+            ],
+            "confidence": 0.5917269587516785,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 29,
+        "timestamp": 247.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000029.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 30,
+        "timestamp": 249.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000030.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 31,
+        "timestamp": 251.0,
+        "path": "data/processed\\lecture_204\\frames\\frame_000031.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 32,
+      "frames_with_instructor": 19,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 5,
+        "timestamp": 18.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 7,
+        "timestamp": 80.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 11,
+        "timestamp": 121.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 12,
+        "timestamp": 136.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 17,
+        "timestamp": 154.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 19,
+        "timestamp": 165.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 25,
+        "timestamp": 224.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      }
+    ]
+  }
+}

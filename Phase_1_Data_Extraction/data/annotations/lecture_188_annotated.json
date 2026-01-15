@@ -1,0 +1,4754 @@
+{
+  "video_id": "lecture_188",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_17.mp4",
+    "duration": 0.0,
+    "fps": 30.0,
+    "resolution": "640x360",
+    "processing_date": "2026-01-06T18:09:25.573734",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_188\\audio.wav",
+    "transcript": {
+      "text": " In the previous lecture, we saw what are periodic and non-periodic signals. I said periodic signals are those signals which repeats itself after a regular interval of time and the non-periodic signals or aperiodic signals do not repeat itself after a regular interval of time. And using this definition, we obtained condition for periodicity. In case of continuous time signals, the condition for periodicity says if a signal xt is periodic, then it is equal to xt plus minus n t0, where t0, t0 is the fundamental time period, n is any integer and from this we can clearly see if you perform the time shifting either left shifting or right shifting by nt0, then you will get the same signal. The fundamental time period is the smallest and positive value of time for which the signal is periodic. The fundamental time period is the smallest period for which signal xt is periodic. This is the definition of fundamental time period and this should not be equal to 0 and also should not be equal to infinity and it is positive. So, this is all about the fundamental time period. We have already discussed it in the last presentation. Now, for discrete time signals, the condition for periodicity says if a discrete signal xn is periodic, then it should be equal to xn plus minus m into capital N, where capital N is the fundamental time period. This is all we discussed in the previous presentation, but there is one very important point you need to add in the definition of periodic and non-periodic signals. And we will try to understand this point by the help of one example. We will use the condition of periodicity to prove whether the signal xt is periodic or not. This is the waveform of signal xt and we need to find whether xt is periodic or a periodic. And we can do this by the help of definition we have. According to definition, if the signal repeats itself after a regular interval of time, it is periodic with a fundamental period t0. Here you can see the signal is repeating itself after 0.5. We have 0 at 0 and again 0 at 0.5. In the same way, after 0.5, we again have 0 at 1. So, the fundamental period t0 is equal to 0.5 and according to condition of periodicity, xt should be 0.5. It should be same as xt plus minus 0.5 or you can say n times 0.5. Let's say n is equal to 1. So, xt should be same as xt plus minus 0.5 plus minus 0.5. And to check its periodicity, I will consider the condition in which the signal is shifting towards the left by 0.5. So, we will take xt plus 0.5. We will obtain the waveform of this signal. So, let's see how the waveform will look after performing the left shift. This is the waveform of xt plus 0.5. And if you compare the two waveforms, you will find in this waveform from minus 1.5 to 0, we have 3 triangular pulses. And from 0 to 1.5, we have 3 triangular pulses. But in this case, from minus 2 to 0, we have 4 triangular pulses. And from 0 to 1, we have 2 triangular pulses. This means x of t is not same as xt plus 0.5. And this means signal xt is a periodic. So, we need to add something to our definition to make it correct. The signal is said to be periodic if it repeats itself after a regular interval of time. And the repetition of particular structure, triangle in this case, or value should be from minus infinity to infinity. So, this point is very important. The repetition of a structure or value should be from minus infinity to infinity. So, this point you need to add to your definition. Here in this case, the repetition was from minus 1.5 to 1.5. It was not from minus infinity to infinity because of which when we perform the shifting, the signal changed. But if the signal is repeating from minus infinity to infinity and if you perform the shift by any period, the signal is going to be same. So, this point is very important. The repetition of the structure or value should be from minus infinity to infinity. So, this is all for this lecture. This lecture was to explain the importance of repetition from minus infinity to infinity. And to understand this, by the help of an example, you can consider this waveform and you may add triangular pulses like this from minus infinity to infinity. And now if you perform the shifting towards the left or towards the right by any period, not only by fundamental time period, you will get the same waveform. And in that way, the condition for periodicity will be satisfied. So, this is all. I will end this lecture here. See you in the next one.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.16,
+          "text": "In the previous lecture, we saw what are periodic and non-periodic signals.",
+          "words": [
+            {
+              "word": " In",
+              "start": 0.0,
+              "end": 0.36
+            },
+            {
+              "word": " the",
+              "start": 0.36,
+              "end": 0.5
+            },
+            {
+              "word": " previous",
+              "start": 0.5,
+              "end": 0.78
+            },
+            {
+              "word": " lecture,",
+              "start": 0.78,
+              "end": 1.22
+            },
+            {
+              "word": " we",
+              "start": 1.46,
+              "end": 1.52
+            },
+            {
+              "word": " saw",
+              "start": 1.52,
+              "end": 1.8
+            },
+            {
+              "word": " what",
+              "start": 1.8,
+              "end": 2.08
+            },
+            {
+              "word": " are",
+              "start": 2.08,
+              "end": 2.34
+            },
+            {
+              "word": " periodic",
+              "start": 2.34,
+              "end": 2.84
+            },
+            {
+              "word": " and",
+              "start": 2.84,
+              "end": 3.1
+            },
+            {
+              "word": " non",
+              "start": 3.1,
+              "end": 3.34
+            },
+            {
+              "word": "-periodic",
+              "start": 3.34,
+              "end": 3.84
+            },
+            {
+              "word": " signals.",
+              "start": 3.84,
+              "end": 4.16
+            }
+          ]
+        },
+        {
+          "start": 4.68,
+          "end": 11.16,
+          "text": "I said periodic signals are those signals which repeats itself after a regular interval of time",
+          "words": [
+            {
+              "word": " I",
+              "start": 4.68,
+              "end": 4.88
+            },
+            {
+              "word": " said",
+              "start": 4.88,
+              "end": 5.14
+            },
+            {
+              "word": " periodic",
+              "start": 5.14,
+              "end": 5.48
+            },
+            {
+              "word": " signals",
+              "start": 5.48,
+              "end": 6.0
+            },
+            {
+              "word": " are",
+              "start": 6.0,
+              "end": 6.44
+            },
+            {
+              "word": " those",
+              "start": 6.44,
+              "end": 6.74
+            },
+            {
+              "word": " signals",
+              "start": 6.74,
+              "end": 7.16
+            },
+            {
+              "word": " which",
+              "start": 7.16,
+              "end": 7.64
+            },
+            {
+              "word": " repeats",
+              "start": 7.64,
+              "end": 8.1
+            },
+            {
+              "word": " itself",
+              "start": 8.1,
+              "end": 8.66
+            },
+            {
+              "word": " after",
+              "start": 8.66,
+              "end": 9.36
+            },
+            {
+              "word": " a",
+              "start": 9.36,
+              "end": 9.68
+            },
+            {
+              "word": " regular",
+              "start": 9.68,
+              "end": 10.08
+            },
+            {
+              "word": " interval",
+              "start": 10.08,
+              "end": 10.62
+            },
+            {
+              "word": " of",
+              "start": 10.62,
+              "end": 10.84
+            },
+            {
+              "word": " time",
+              "start": 10.84,
+              "end": 11.16
+            }
+          ]
+        },
+        {
+          "start": 11.16,
+          "end": 18.84,
+          "text": "and the non-periodic signals or aperiodic signals do not repeat itself after a regular interval of time.",
+          "words": [
+            {
+              "word": " and",
+              "start": 11.16,
+              "end": 11.84
+            },
+            {
+              "word": " the",
+              "start": 11.84,
+              "end": 11.98
+            },
+            {
+              "word": " non",
+              "start": 11.98,
+              "end": 12.22
+            },
+            {
+              "word": "-periodic",
+              "start": 12.22,
+              "end": 12.72
+            },
+            {
+              "word": " signals",
+              "start": 12.72,
+              "end": 13.1
+            },
+            {
+              "word": " or",
+              "start": 13.1,
+              "end": 13.58
+            },
+            {
+              "word": " aperiodic",
+              "start": 13.58,
+              "end": 14.36
+            },
+            {
+              "word": " signals",
+              "start": 14.36,
+              "end": 14.74
+            },
+            {
+              "word": " do",
+              "start": 14.74,
+              "end": 15.14
+            },
+            {
+              "word": " not",
+              "start": 15.14,
+              "end": 15.36
+            },
+            {
+              "word": " repeat",
+              "start": 15.36,
+              "end": 15.72
+            },
+            {
+              "word": " itself",
+              "start": 15.72,
+              "end": 16.28
+            },
+            {
+              "word": " after",
+              "start": 16.28,
+              "end": 16.94
+            },
+            {
+              "word": " a",
+              "start": 16.94,
+              "end": 17.24
+            },
+            {
+              "word": " regular",
+              "start": 17.24,
+              "end": 17.6
+            },
+            {
+              "word": " interval",
+              "start": 17.6,
+              "end": 18.16
+            },
+            {
+              "word": " of",
+              "start": 18.16,
+              "end": 18.46
+            },
+            {
+              "word": " time.",
+              "start": 18.46,
+              "end": 18.84
+            }
+          ]
+        },
+        {
+          "start": 19.28,
+          "end": 23.1,
+          "text": "And using this definition, we obtained condition for periodicity.",
+          "words": [
+            {
+              "word": " And",
+              "start": 19.28,
+              "end": 19.5
+            },
+            {
+              "word": " using",
+              "start": 19.5,
+              "end": 19.74
+            },
+            {
+              "word": " this",
+              "start": 19.74,
+              "end": 20.0
+            },
+            {
+              "word": " definition,",
+              "start": 20.0,
+              "end": 20.54
+            },
+            {
+              "word": " we",
+              "start": 20.8,
+              "end": 20.9
+            },
+            {
+              "word": " obtained",
+              "start": 20.9,
+              "end": 21.36
+            },
+            {
+              "word": " condition",
+              "start": 21.36,
+              "end": 21.86
+            },
+            {
+              "word": " for",
+              "start": 21.86,
+              "end": 22.28
+            },
+            {
+              "word": " periodicity.",
+              "start": 22.28,
+              "end": 23.1
+            }
+          ]
+        },
+        {
+          "start": 23.52,
+          "end": 28.6,
+          "text": "In case of continuous time signals, the condition for periodicity says",
+          "words": [
+            {
+              "word": " In",
+              "start": 23.52,
+              "end": 23.8
+            },
+            {
+              "word": " case",
+              "start": 23.8,
+              "end": 24.06
+            },
+            {
+              "word": " of",
+              "start": 24.06,
+              "end": 24.42
+            },
+            {
+              "word": " continuous",
+              "start": 24.42,
+              "end": 25.38
+            },
+            {
+              "word": " time",
+              "start": 25.38,
+              "end": 25.74
+            },
+            {
+              "word": " signals,",
+              "start": 25.74,
+              "end": 26.24
+            },
+            {
+              "word": " the",
+              "start": 26.72,
+              "end": 26.86
+            },
+            {
+              "word": " condition",
+              "start": 26.86,
+              "end": 27.3
+            },
+            {
+              "word": " for",
+              "start": 27.3,
+              "end": 27.64
+            },
+            {
+              "word": " periodicity",
+              "start": 27.64,
+              "end": 28.28
+            },
+            {
+              "word": " says",
+              "start": 28.28,
+              "end": 28.6
+            }
+          ]
+        },
+        {
+          "start": 29.3,
+          "end": 39.1,
+          "text": "if a signal xt is periodic, then it is equal to xt plus minus n t0, where t0,",
+          "words": [
+            {
+              "word": " if",
+              "start": 29.3,
+              "end": 29.98
+            },
+            {
+              "word": " a",
+              "start": 29.98,
+              "end": 30.12
+            },
+            {
+              "word": " signal",
+              "start": 30.12,
+              "end": 30.38
+            },
+            {
+              "word": " xt",
+              "start": 30.38,
+              "end": 30.74
+            },
+            {
+              "word": " is",
+              "start": 30.74,
+              "end": 31.0
+            },
+            {
+              "word": " periodic,",
+              "start": 31.0,
+              "end": 31.52
+            },
+            {
+              "word": " then",
+              "start": 31.94,
+              "end": 32.2
+            },
+            {
+              "word": " it",
+              "start": 32.2,
+              "end": 32.68
+            },
+            {
+              "word": " is",
+              "start": 32.68,
+              "end": 32.84
+            },
+            {
+              "word": " equal",
+              "start": 32.84,
+              "end": 33.18
+            },
+            {
+              "word": " to",
+              "start": 33.18,
+              "end": 33.46
+            },
+            {
+              "word": " xt",
+              "start": 33.46,
+              "end": 34.28
+            },
+            {
+              "word": " plus",
+              "start": 34.28,
+              "end": 35.28
+            },
+            {
+              "word": " minus",
+              "start": 35.28,
+              "end": 35.88
+            },
+            {
+              "word": " n",
+              "start": 35.88,
+              "end": 36.54
+            },
+            {
+              "word": " t0,",
+              "start": 36.54,
+              "end": 37.8
+            },
+            {
+              "word": " where",
+              "start": 38.32,
+              "end": 38.6
+            },
+            {
+              "word": " t0,",
+              "start": 38.6,
+              "end": 39.1
+            }
+          ]
+        },
+        {
+          "start": 39.42,
+          "end": 47.94,
+          "text": "t0 is the fundamental time period, n is any integer and from this we can clearly see if you perform",
+          "words": [
+            {
+              "word": " t0",
+              "start": 39.42,
+              "end": 40.2
+            },
+            {
+              "word": " is",
+              "start": 40.2,
+              "end": 40.54
+            },
+            {
+              "word": " the",
+              "start": 40.54,
+              "end": 40.7
+            },
+            {
+              "word": " fundamental",
+              "start": 40.7,
+              "end": 41.24
+            },
+            {
+              "word": " time",
+              "start": 41.24,
+              "end": 42.08
+            },
+            {
+              "word": " period,",
+              "start": 42.08,
+              "end": 42.44
+            },
+            {
+              "word": " n",
+              "start": 42.9,
+              "end": 43.2
+            },
+            {
+              "word": " is",
+              "start": 43.2,
+              "end": 43.52
+            },
+            {
+              "word": " any",
+              "start": 43.52,
+              "end": 43.84
+            },
+            {
+              "word": " integer",
+              "start": 43.84,
+              "end": 44.38
+            },
+            {
+              "word": " and",
+              "start": 44.38,
+              "end": 45.14
+            },
+            {
+              "word": " from",
+              "start": 45.14,
+              "end": 45.44
+            },
+            {
+              "word": " this",
+              "start": 45.44,
+              "end": 45.7
+            },
+            {
+              "word": " we",
+              "start": 45.7,
+              "end": 45.9
+            },
+            {
+              "word": " can",
+              "start": 45.9,
+              "end": 46.08
+            },
+            {
+              "word": " clearly",
+              "start": 46.08,
+              "end": 46.42
+            },
+            {
+              "word": " see",
+              "start": 46.42,
+              "end": 46.78
+            },
+            {
+              "word": " if",
+              "start": 46.78,
+              "end": 47.4
+            },
+            {
+              "word": " you",
+              "start": 47.4,
+              "end": 47.52
+            },
+            {
+              "word": " perform",
+              "start": 47.52,
+              "end": 47.94
+            }
+          ]
+        },
+        {
+          "start": 47.94,
+          "end": 54.94,
+          "text": "the time shifting either left shifting or right shifting by nt0, then you will get the same signal.",
+          "words": [
+            {
+              "word": " the",
+              "start": 47.94,
+              "end": 48.18
+            },
+            {
+              "word": " time",
+              "start": 48.18,
+              "end": 48.44
+            },
+            {
+              "word": " shifting",
+              "start": 48.44,
+              "end": 48.82
+            },
+            {
+              "word": " either",
+              "start": 48.82,
+              "end": 49.46
+            },
+            {
+              "word": " left",
+              "start": 49.46,
+              "end": 49.8
+            },
+            {
+              "word": " shifting",
+              "start": 49.8,
+              "end": 50.18
+            },
+            {
+              "word": " or",
+              "start": 50.18,
+              "end": 50.48
+            },
+            {
+              "word": " right",
+              "start": 50.48,
+              "end": 50.74
+            },
+            {
+              "word": " shifting",
+              "start": 50.74,
+              "end": 51.24
+            },
+            {
+              "word": " by",
+              "start": 51.24,
+              "end": 52.0
+            },
+            {
+              "word": " nt0,",
+              "start": 52.0,
+              "end": 52.82
+            },
+            {
+              "word": " then",
+              "start": 53.14,
+              "end": 53.38
+            },
+            {
+              "word": " you",
+              "start": 53.38,
+              "end": 53.54
+            },
+            {
+              "word": " will",
+              "start": 53.54,
+              "end": 53.64
+            },
+            {
+              "word": " get",
+              "start": 53.64,
+              "end": 53.9
+            },
+            {
+              "word": " the",
+              "start": 53.9,
+              "end": 54.24
+            },
+            {
+              "word": " same",
+              "start": 54.24,
+              "end": 54.5
+            },
+            {
+              "word": " signal.",
+              "start": 54.5,
+              "end": 54.94
+            }
+          ]
+        },
+        {
+          "start": 54.94,
+          "end": 61.68,
+          "text": "The fundamental time period is the smallest and positive value of time for which the signal is periodic.",
+          "words": [
+            {
+              "word": " The",
+              "start": 54.94,
+              "end": 55.48
+            },
+            {
+              "word": " fundamental",
+              "start": 55.48,
+              "end": 55.94
+            },
+            {
+              "word": " time",
+              "start": 55.94,
+              "end": 56.36
+            },
+            {
+              "word": " period",
+              "start": 56.36,
+              "end": 56.7
+            },
+            {
+              "word": " is",
+              "start": 56.7,
+              "end": 57.36
+            },
+            {
+              "word": " the",
+              "start": 57.36,
+              "end": 57.56
+            },
+            {
+              "word": " smallest",
+              "start": 57.56,
+              "end": 57.98
+            },
+            {
+              "word": " and",
+              "start": 57.98,
+              "end": 58.3
+            },
+            {
+              "word": " positive",
+              "start": 58.3,
+              "end": 58.72
+            },
+            {
+              "word": " value",
+              "start": 58.72,
+              "end": 59.22
+            },
+            {
+              "word": " of",
+              "start": 59.22,
+              "end": 59.5
+            },
+            {
+              "word": " time",
+              "start": 59.5,
+              "end": 59.9
+            },
+            {
+              "word": " for",
+              "start": 59.9,
+              "end": 60.22
+            },
+            {
+              "word": " which",
+              "start": 60.22,
+              "end": 60.5
+            },
+            {
+              "word": " the",
+              "start": 60.5,
+              "end": 60.7
+            },
+            {
+              "word": " signal",
+              "start": 60.7,
+              "end": 61.04
+            },
+            {
+              "word": " is",
+              "start": 61.04,
+              "end": 61.24
+            },
+            {
+              "word": " periodic.",
+              "start": 61.24,
+              "end": 61.68
+            }
+          ]
+        },
+        {
+          "start": 62.18,
+          "end": 78.88,
+          "text": "The fundamental time period is the smallest period for which signal xt is periodic.",
+          "words": [
+            {
+              "word": " The",
+              "start": 62.18,
+              "end": 62.74
+            },
+            {
+              "word": " fundamental",
+              "start": 62.74,
+              "end": 63.18
+            },
+            {
+              "word": " time",
+              "start": 63.18,
+              "end": 63.64
+            },
+            {
+              "word": " period",
+              "start": 63.64,
+              "end": 63.96
+            },
+            {
+              "word": " is",
+              "start": 63.96,
+              "end": 64.58
+            },
+            {
+              "word": " the",
+              "start": 64.58,
+              "end": 65.16
+            },
+            {
+              "word": " smallest",
+              "start": 65.16,
+              "end": 65.66
+            },
+            {
+              "word": " period",
+              "start": 65.66,
+              "end": 68.28
+            },
+            {
+              "word": " for",
+              "start": 68.28,
+              "end": 70.7
+            },
+            {
+              "word": " which",
+              "start": 70.7,
+              "end": 71.2
+            },
+            {
+              "word": " signal",
+              "start": 71.2,
+              "end": 74.42
+            },
+            {
+              "word": " xt",
+              "start": 74.42,
+              "end": 75.74
+            },
+            {
+              "word": " is",
+              "start": 75.74,
+              "end": 77.22
+            },
+            {
+              "word": " periodic.",
+              "start": 77.22,
+              "end": 78.88
+            }
+          ]
+        },
+        {
+          "start": 78.88,
+          "end": 91.22,
+          "text": "This is the definition of fundamental time period and this should not be equal to 0 and also should not be equal to infinity and it is positive.",
+          "words": [
+            {
+              "word": " This",
+              "start": 78.88,
+              "end": 79.72
+            },
+            {
+              "word": " is",
+              "start": 79.72,
+              "end": 79.86
+            },
+            {
+              "word": " the",
+              "start": 79.86,
+              "end": 80.0
+            },
+            {
+              "word": " definition",
+              "start": 80.0,
+              "end": 80.42
+            },
+            {
+              "word": " of",
+              "start": 80.42,
+              "end": 80.8
+            },
+            {
+              "word": " fundamental",
+              "start": 80.8,
+              "end": 81.2
+            },
+            {
+              "word": " time",
+              "start": 81.2,
+              "end": 81.6
+            },
+            {
+              "word": " period",
+              "start": 81.6,
+              "end": 81.92
+            },
+            {
+              "word": " and",
+              "start": 81.92,
+              "end": 82.94
+            },
+            {
+              "word": " this",
+              "start": 82.94,
+              "end": 83.56
+            },
+            {
+              "word": " should",
+              "start": 83.56,
+              "end": 83.78
+            },
+            {
+              "word": " not",
+              "start": 83.78,
+              "end": 83.98
+            },
+            {
+              "word": " be",
+              "start": 83.98,
+              "end": 84.22
+            },
+            {
+              "word": " equal",
+              "start": 84.22,
+              "end": 84.52
+            },
+            {
+              "word": " to",
+              "start": 84.52,
+              "end": 84.68
+            },
+            {
+              "word": " 0",
+              "start": 84.68,
+              "end": 84.96
+            },
+            {
+              "word": " and",
+              "start": 84.96,
+              "end": 85.64
+            },
+            {
+              "word": " also",
+              "start": 85.64,
+              "end": 86.08
+            },
+            {
+              "word": " should",
+              "start": 86.08,
+              "end": 86.56
+            },
+            {
+              "word": " not",
+              "start": 86.56,
+              "end": 86.74
+            },
+            {
+              "word": " be",
+              "start": 86.74,
+              "end": 87.0
+            },
+            {
+              "word": " equal",
+              "start": 87.0,
+              "end": 87.32
+            },
+            {
+              "word": " to",
+              "start": 87.32,
+              "end": 87.52
+            },
+            {
+              "word": " infinity",
+              "start": 87.52,
+              "end": 87.82
+            },
+            {
+              "word": " and",
+              "start": 87.82,
+              "end": 89.32
+            },
+            {
+              "word": " it",
+              "start": 89.32,
+              "end": 89.44
+            },
+            {
+              "word": " is",
+              "start": 89.44,
+              "end": 89.82
+            },
+            {
+              "word": " positive.",
+              "start": 89.82,
+              "end": 91.22
+            }
+          ]
+        },
+        {
+          "start": 91.96,
+          "end": 97.52,
+          "text": "So, this is all about the fundamental time period. We have already discussed it in the last presentation.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 91.96,
+              "end": 92.58
+            },
+            {
+              "word": " this",
+              "start": 92.6,
+              "end": 92.76
+            },
+            {
+              "word": " is",
+              "start": 92.76,
+              "end": 92.9
+            },
+            {
+              "word": " all",
+              "start": 92.9,
+              "end": 93.08
+            },
+            {
+              "word": " about",
+              "start": 93.08,
+              "end": 93.4
+            },
+            {
+              "word": " the",
+              "start": 93.4,
+              "end": 93.7
+            },
+            {
+              "word": " fundamental",
+              "start": 93.7,
+              "end": 94.1
+            },
+            {
+              "word": " time",
+              "start": 94.1,
+              "end": 94.52
+            },
+            {
+              "word": " period.",
+              "start": 94.52,
+              "end": 94.86
+            },
+            {
+              "word": " We",
+              "start": 95.06,
+              "end": 95.12
+            },
+            {
+              "word": " have",
+              "start": 95.12,
+              "end": 95.3
+            },
+            {
+              "word": " already",
+              "start": 95.3,
+              "end": 95.66
+            },
+            {
+              "word": " discussed",
+              "start": 95.66,
+              "end": 96.06
+            },
+            {
+              "word": " it",
+              "start": 96.06,
+              "end": 96.36
+            },
+            {
+              "word": " in",
+              "start": 96.36,
+              "end": 96.58
+            },
+            {
+              "word": " the",
+              "start": 96.58,
+              "end": 96.68
+            },
+            {
+              "word": " last",
+              "start": 96.68,
+              "end": 96.94
+            },
+            {
+              "word": " presentation.",
+              "start": 96.94,
+              "end": 97.52
+            }
+          ]
+        },
+        {
+          "start": 98.32,
+          "end": 108.68,
+          "text": "Now, for discrete time signals, the condition for periodicity says if a discrete signal xn is periodic,",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 98.32,
+              "end": 98.48
+            },
+            {
+              "word": " for",
+              "start": 98.88,
+              "end": 99.32
+            },
+            {
+              "word": " discrete",
+              "start": 99.32,
+              "end": 99.96
+            },
+            {
+              "word": " time",
+              "start": 99.96,
+              "end": 101.6
+            },
+            {
+              "word": " signals,",
+              "start": 101.6,
+              "end": 102.5
+            },
+            {
+              "word": " the",
+              "start": 102.82,
+              "end": 103.0
+            },
+            {
+              "word": " condition",
+              "start": 103.0,
+              "end": 103.42
+            },
+            {
+              "word": " for",
+              "start": 103.42,
+              "end": 103.72
+            },
+            {
+              "word": " periodicity",
+              "start": 103.72,
+              "end": 104.3
+            },
+            {
+              "word": " says",
+              "start": 104.3,
+              "end": 104.62
+            },
+            {
+              "word": " if",
+              "start": 104.62,
+              "end": 105.22
+            },
+            {
+              "word": " a",
+              "start": 105.22,
+              "end": 105.36
+            },
+            {
+              "word": " discrete",
+              "start": 105.36,
+              "end": 105.7
+            },
+            {
+              "word": " signal",
+              "start": 105.7,
+              "end": 106.26
+            },
+            {
+              "word": " xn",
+              "start": 106.26,
+              "end": 108.06
+            },
+            {
+              "word": " is",
+              "start": 108.06,
+              "end": 108.22
+            },
+            {
+              "word": " periodic,",
+              "start": 108.22,
+              "end": 108.68
+            }
+          ]
+        },
+        {
+          "start": 108.68,
+          "end": 122.64,
+          "text": "then it should be equal to xn plus minus m into capital N, where capital N is the fundamental time period.",
+          "words": [
+            {
+              "word": " then",
+              "start": 108.68,
+              "end": 109.26
+            },
+            {
+              "word": " it",
+              "start": 109.26,
+              "end": 110.02
+            },
+            {
+              "word": " should",
+              "start": 110.02,
+              "end": 110.28
+            },
+            {
+              "word": " be",
+              "start": 110.28,
+              "end": 110.54
+            },
+            {
+              "word": " equal",
+              "start": 110.54,
+              "end": 110.9
+            },
+            {
+              "word": " to",
+              "start": 110.9,
+              "end": 111.12
+            },
+            {
+              "word": " xn",
+              "start": 111.12,
+              "end": 112.7
+            },
+            {
+              "word": " plus",
+              "start": 112.7,
+              "end": 113.88
+            },
+            {
+              "word": " minus",
+              "start": 113.88,
+              "end": 114.62
+            },
+            {
+              "word": " m",
+              "start": 114.62,
+              "end": 116.52
+            },
+            {
+              "word": " into",
+              "start": 116.52,
+              "end": 117.0
+            },
+            {
+              "word": " capital",
+              "start": 117.0,
+              "end": 117.36
+            },
+            {
+              "word": " N,",
+              "start": 117.36,
+              "end": 118.1
+            },
+            {
+              "word": " where",
+              "start": 118.34,
+              "end": 118.6
+            },
+            {
+              "word": " capital",
+              "start": 118.6,
+              "end": 118.96
+            },
+            {
+              "word": " N",
+              "start": 118.96,
+              "end": 119.3
+            },
+            {
+              "word": " is",
+              "start": 119.3,
+              "end": 120.6
+            },
+            {
+              "word": " the",
+              "start": 120.6,
+              "end": 120.76
+            },
+            {
+              "word": " fundamental",
+              "start": 120.76,
+              "end": 121.28
+            },
+            {
+              "word": " time",
+              "start": 121.28,
+              "end": 122.16
+            },
+            {
+              "word": " period.",
+              "start": 122.16,
+              "end": 122.64
+            }
+          ]
+        },
+        {
+          "start": 122.94,
+          "end": 131.76,
+          "text": "This is all we discussed in the previous presentation, but there is one very important point you need to add in the definition of periodic and non-periodic signals.",
+          "words": [
+            {
+              "word": " This",
+              "start": 122.94,
+              "end": 123.54
+            },
+            {
+              "word": " is",
+              "start": 123.54,
+              "end": 123.68
+            },
+            {
+              "word": " all",
+              "start": 123.68,
+              "end": 123.92
+            },
+            {
+              "word": " we",
+              "start": 123.92,
+              "end": 124.12
+            },
+            {
+              "word": " discussed",
+              "start": 124.12,
+              "end": 124.48
+            },
+            {
+              "word": " in",
+              "start": 124.48,
+              "end": 124.84
+            },
+            {
+              "word": " the",
+              "start": 124.84,
+              "end": 124.96
+            },
+            {
+              "word": " previous",
+              "start": 124.96,
+              "end": 125.2
+            },
+            {
+              "word": " presentation,",
+              "start": 125.2,
+              "end": 125.92
+            },
+            {
+              "word": " but",
+              "start": 126.12,
+              "end": 126.34
+            },
+            {
+              "word": " there",
+              "start": 126.34,
+              "end": 126.52
+            },
+            {
+              "word": " is",
+              "start": 126.52,
+              "end": 126.66
+            },
+            {
+              "word": " one",
+              "start": 126.66,
+              "end": 126.84
+            },
+            {
+              "word": " very",
+              "start": 126.84,
+              "end": 127.08
+            },
+            {
+              "word": " important",
+              "start": 127.08,
+              "end": 127.58
+            },
+            {
+              "word": " point",
+              "start": 127.58,
+              "end": 127.96
+            },
+            {
+              "word": " you",
+              "start": 127.96,
+              "end": 128.3
+            },
+            {
+              "word": " need",
+              "start": 128.3,
+              "end": 128.42
+            },
+            {
+              "word": " to",
+              "start": 128.42,
+              "end": 128.62
+            },
+            {
+              "word": " add",
+              "start": 128.62,
+              "end": 128.98
+            },
+            {
+              "word": " in",
+              "start": 128.98,
+              "end": 129.5
+            },
+            {
+              "word": " the",
+              "start": 129.5,
+              "end": 129.6
+            },
+            {
+              "word": " definition",
+              "start": 129.6,
+              "end": 129.98
+            },
+            {
+              "word": " of",
+              "start": 129.98,
+              "end": 130.32
+            },
+            {
+              "word": " periodic",
+              "start": 130.32,
+              "end": 130.68
+            },
+            {
+              "word": " and",
+              "start": 130.68,
+              "end": 130.92
+            },
+            {
+              "word": " non",
+              "start": 130.92,
+              "end": 131.08
+            },
+            {
+              "word": "-periodic",
+              "start": 131.08,
+              "end": 131.46
+            },
+            {
+              "word": " signals.",
+              "start": 131.46,
+              "end": 131.76
+            }
+          ]
+        },
+        {
+          "start": 131.76,
+          "end": 135.5,
+          "text": "And we will try to understand this point by the help of one example.",
+          "words": [
+            {
+              "word": " And",
+              "start": 131.76,
+              "end": 132.38
+            },
+            {
+              "word": " we",
+              "start": 132.38,
+              "end": 132.52
+            },
+            {
+              "word": " will",
+              "start": 132.52,
+              "end": 132.64
+            },
+            {
+              "word": " try",
+              "start": 132.64,
+              "end": 132.84
+            },
+            {
+              "word": " to",
+              "start": 132.84,
+              "end": 132.98
+            },
+            {
+              "word": " understand",
+              "start": 132.98,
+              "end": 133.32
+            },
+            {
+              "word": " this",
+              "start": 133.32,
+              "end": 133.62
+            },
+            {
+              "word": " point",
+              "start": 133.62,
+              "end": 133.96
+            },
+            {
+              "word": " by",
+              "start": 133.96,
+              "end": 134.28
+            },
+            {
+              "word": " the",
+              "start": 134.28,
+              "end": 134.42
+            },
+            {
+              "word": " help",
+              "start": 134.42,
+              "end": 134.66
+            },
+            {
+              "word": " of",
+              "start": 134.66,
+              "end": 134.82
+            },
+            {
+              "word": " one",
+              "start": 134.82,
+              "end": 135.08
+            },
+            {
+              "word": " example.",
+              "start": 135.08,
+              "end": 135.5
+            }
+          ]
+        },
+        {
+          "start": 135.82,
+          "end": 141.98,
+          "text": "We will use the condition of periodicity to prove whether the signal xt is periodic or not.",
+          "words": [
+            {
+              "word": " We",
+              "start": 135.82,
+              "end": 136.0
+            },
+            {
+              "word": " will",
+              "start": 136.0,
+              "end": 136.16
+            },
+            {
+              "word": " use",
+              "start": 136.16,
+              "end": 136.34
+            },
+            {
+              "word": " the",
+              "start": 136.34,
+              "end": 136.5
+            },
+            {
+              "word": " condition",
+              "start": 136.5,
+              "end": 136.98
+            },
+            {
+              "word": " of",
+              "start": 136.98,
+              "end": 137.14
+            },
+            {
+              "word": " periodicity",
+              "start": 137.14,
+              "end": 137.76
+            },
+            {
+              "word": " to",
+              "start": 137.76,
+              "end": 138.36
+            },
+            {
+              "word": " prove",
+              "start": 138.36,
+              "end": 138.8
+            },
+            {
+              "word": " whether",
+              "start": 138.8,
+              "end": 139.86
+            },
+            {
+              "word": " the",
+              "start": 139.86,
+              "end": 140.12
+            },
+            {
+              "word": " signal",
+              "start": 140.12,
+              "end": 140.4
+            },
+            {
+              "word": " xt",
+              "start": 140.4,
+              "end": 140.74
+            },
+            {
+              "word": " is",
+              "start": 140.74,
+              "end": 141.02
+            },
+            {
+              "word": " periodic",
+              "start": 141.02,
+              "end": 141.42
+            },
+            {
+              "word": " or",
+              "start": 141.42,
+              "end": 141.74
+            },
+            {
+              "word": " not.",
+              "start": 141.74,
+              "end": 141.98
+            }
+          ]
+        },
+        {
+          "start": 142.84,
+          "end": 150.78,
+          "text": "This is the waveform of signal xt and we need to find whether xt is periodic or a periodic.",
+          "words": [
+            {
+              "word": " This",
+              "start": 142.84,
+              "end": 142.98
+            },
+            {
+              "word": " is",
+              "start": 142.98,
+              "end": 143.12
+            },
+            {
+              "word": " the",
+              "start": 143.12,
+              "end": 143.24
+            },
+            {
+              "word": " waveform",
+              "start": 143.24,
+              "end": 143.52
+            },
+            {
+              "word": " of",
+              "start": 143.52,
+              "end": 143.86
+            },
+            {
+              "word": " signal",
+              "start": 143.86,
+              "end": 144.12
+            },
+            {
+              "word": " xt",
+              "start": 144.12,
+              "end": 144.56
+            },
+            {
+              "word": " and",
+              "start": 144.56,
+              "end": 144.96
+            },
+            {
+              "word": " we",
+              "start": 144.96,
+              "end": 145.12
+            },
+            {
+              "word": " need",
+              "start": 145.12,
+              "end": 145.26
+            },
+            {
+              "word": " to",
+              "start": 145.26,
+              "end": 145.44
+            },
+            {
+              "word": " find",
+              "start": 145.44,
+              "end": 145.78
+            },
+            {
+              "word": " whether",
+              "start": 145.78,
+              "end": 146.22
+            },
+            {
+              "word": " xt",
+              "start": 146.22,
+              "end": 146.64
+            },
+            {
+              "word": " is",
+              "start": 146.64,
+              "end": 147.08
+            },
+            {
+              "word": " periodic",
+              "start": 147.08,
+              "end": 147.7
+            },
+            {
+              "word": " or",
+              "start": 147.7,
+              "end": 148.54
+            },
+            {
+              "word": " a",
+              "start": 148.54,
+              "end": 149.92
+            },
+            {
+              "word": " periodic.",
+              "start": 149.92,
+              "end": 150.78
+            }
+          ]
+        },
+        {
+          "start": 151.38,
+          "end": 159.24,
+          "text": "And we can do this by the help of definition we have. According to definition, if the signal repeats itself after a regular interval of time,",
+          "words": [
+            {
+              "word": " And",
+              "start": 151.38,
+              "end": 151.64
+            },
+            {
+              "word": " we",
+              "start": 151.64,
+              "end": 151.76
+            },
+            {
+              "word": " can",
+              "start": 151.76,
+              "end": 151.92
+            },
+            {
+              "word": " do",
+              "start": 151.92,
+              "end": 152.08
+            },
+            {
+              "word": " this",
+              "start": 152.08,
+              "end": 152.3
+            },
+            {
+              "word": " by",
+              "start": 152.3,
+              "end": 152.5
+            },
+            {
+              "word": " the",
+              "start": 152.5,
+              "end": 152.66
+            },
+            {
+              "word": " help",
+              "start": 152.66,
+              "end": 152.88
+            },
+            {
+              "word": " of",
+              "start": 152.88,
+              "end": 153.04
+            },
+            {
+              "word": " definition",
+              "start": 153.04,
+              "end": 153.44
+            },
+            {
+              "word": " we",
+              "start": 153.44,
+              "end": 153.86
+            },
+            {
+              "word": " have.",
+              "start": 153.86,
+              "end": 154.14
+            },
+            {
+              "word": " According",
+              "start": 154.52,
+              "end": 154.84
+            },
+            {
+              "word": " to",
+              "start": 154.84,
+              "end": 155.04
+            },
+            {
+              "word": " definition,",
+              "start": 155.04,
+              "end": 155.48
+            },
+            {
+              "word": " if",
+              "start": 155.74,
+              "end": 155.8
+            },
+            {
+              "word": " the",
+              "start": 155.8,
+              "end": 155.94
+            },
+            {
+              "word": " signal",
+              "start": 155.94,
+              "end": 156.28
+            },
+            {
+              "word": " repeats",
+              "start": 156.28,
+              "end": 156.62
+            },
+            {
+              "word": " itself",
+              "start": 156.62,
+              "end": 157.16
+            },
+            {
+              "word": " after",
+              "start": 157.16,
+              "end": 157.72
+            },
+            {
+              "word": " a",
+              "start": 157.72,
+              "end": 157.98
+            },
+            {
+              "word": " regular",
+              "start": 157.98,
+              "end": 158.34
+            },
+            {
+              "word": " interval",
+              "start": 158.34,
+              "end": 158.76
+            },
+            {
+              "word": " of",
+              "start": 158.76,
+              "end": 158.92
+            },
+            {
+              "word": " time,",
+              "start": 158.92,
+              "end": 159.24
+            }
+          ]
+        },
+        {
+          "start": 159.24,
+          "end": 167.98,
+          "text": "it is periodic with a fundamental period t0. Here you can see the signal is repeating itself after 0.5.",
+          "words": [
+            {
+              "word": " it",
+              "start": 159.24,
+              "end": 159.44
+            },
+            {
+              "word": " is",
+              "start": 159.44,
+              "end": 159.64
+            },
+            {
+              "word": " periodic",
+              "start": 159.64,
+              "end": 160.1
+            },
+            {
+              "word": " with",
+              "start": 160.1,
+              "end": 160.56
+            },
+            {
+              "word": " a",
+              "start": 160.56,
+              "end": 160.74
+            },
+            {
+              "word": " fundamental",
+              "start": 160.74,
+              "end": 161.06
+            },
+            {
+              "word": " period",
+              "start": 161.06,
+              "end": 161.64
+            },
+            {
+              "word": " t0.",
+              "start": 161.64,
+              "end": 162.16
+            },
+            {
+              "word": " Here",
+              "start": 162.72,
+              "end": 162.9
+            },
+            {
+              "word": " you",
+              "start": 162.9,
+              "end": 163.26
+            },
+            {
+              "word": " can",
+              "start": 163.26,
+              "end": 163.44
+            },
+            {
+              "word": " see",
+              "start": 163.44,
+              "end": 163.66
+            },
+            {
+              "word": " the",
+              "start": 163.66,
+              "end": 163.96
+            },
+            {
+              "word": " signal",
+              "start": 163.96,
+              "end": 164.18
+            },
+            {
+              "word": " is",
+              "start": 164.18,
+              "end": 164.46
+            },
+            {
+              "word": " repeating",
+              "start": 164.46,
+              "end": 164.94
+            },
+            {
+              "word": " itself",
+              "start": 164.94,
+              "end": 165.78
+            },
+            {
+              "word": " after",
+              "start": 165.78,
+              "end": 166.88
+            },
+            {
+              "word": " 0",
+              "start": 166.88,
+              "end": 167.34
+            },
+            {
+              "word": ".5.",
+              "start": 167.34,
+              "end": 167.98
+            }
+          ]
+        },
+        {
+          "start": 168.46,
+          "end": 176.08,
+          "text": "We have 0 at 0 and again 0 at 0.5. In the same way, after 0.5, we again have 0 at 1.",
+          "words": [
+            {
+              "word": " We",
+              "start": 168.46,
+              "end": 168.68
+            },
+            {
+              "word": " have",
+              "start": 168.68,
+              "end": 168.9
+            },
+            {
+              "word": " 0",
+              "start": 168.9,
+              "end": 169.34
+            },
+            {
+              "word": " at",
+              "start": 169.34,
+              "end": 170.02
+            },
+            {
+              "word": " 0",
+              "start": 170.02,
+              "end": 170.34
+            },
+            {
+              "word": " and",
+              "start": 170.34,
+              "end": 170.86
+            },
+            {
+              "word": " again",
+              "start": 170.86,
+              "end": 171.1
+            },
+            {
+              "word": " 0",
+              "start": 171.1,
+              "end": 171.36
+            },
+            {
+              "word": " at",
+              "start": 171.36,
+              "end": 171.52
+            },
+            {
+              "word": " 0",
+              "start": 171.52,
+              "end": 171.68
+            },
+            {
+              "word": ".5.",
+              "start": 171.68,
+              "end": 172.22
+            },
+            {
+              "word": " In",
+              "start": 172.54,
+              "end": 172.74
+            },
+            {
+              "word": " the",
+              "start": 172.74,
+              "end": 172.88
+            },
+            {
+              "word": " same",
+              "start": 172.88,
+              "end": 173.06
+            },
+            {
+              "word": " way,",
+              "start": 173.06,
+              "end": 173.3
+            },
+            {
+              "word": " after",
+              "start": 173.36,
+              "end": 173.58
+            },
+            {
+              "word": " 0",
+              "start": 173.58,
+              "end": 173.9
+            },
+            {
+              "word": ".5,",
+              "start": 173.9,
+              "end": 174.5
+            },
+            {
+              "word": " we",
+              "start": 174.58,
+              "end": 174.84
+            },
+            {
+              "word": " again",
+              "start": 174.84,
+              "end": 175.12
+            },
+            {
+              "word": " have",
+              "start": 175.12,
+              "end": 175.32
+            },
+            {
+              "word": " 0",
+              "start": 175.32,
+              "end": 175.58
+            },
+            {
+              "word": " at",
+              "start": 175.58,
+              "end": 175.8
+            },
+            {
+              "word": " 1.",
+              "start": 175.8,
+              "end": 176.08
+            }
+          ]
+        },
+        {
+          "start": 176.58,
+          "end": 189.22,
+          "text": "So, the fundamental period t0 is equal to 0.5 and according to condition of periodicity, xt should be 0.5.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 176.58,
+              "end": 176.84
+            },
+            {
+              "word": " the",
+              "start": 176.92,
+              "end": 176.98
+            },
+            {
+              "word": " fundamental",
+              "start": 176.98,
+              "end": 177.4
+            },
+            {
+              "word": " period",
+              "start": 177.4,
+              "end": 178.06
+            },
+            {
+              "word": " t0",
+              "start": 178.06,
+              "end": 179.22
+            },
+            {
+              "word": " is",
+              "start": 179.22,
+              "end": 180.12
+            },
+            {
+              "word": " equal",
+              "start": 180.12,
+              "end": 180.5
+            },
+            {
+              "word": " to",
+              "start": 180.5,
+              "end": 180.68
+            },
+            {
+              "word": " 0",
+              "start": 180.68,
+              "end": 180.92
+            },
+            {
+              "word": ".5",
+              "start": 180.92,
+              "end": 181.6
+            },
+            {
+              "word": " and",
+              "start": 181.6,
+              "end": 182.04
+            },
+            {
+              "word": " according",
+              "start": 182.04,
+              "end": 185.48
+            },
+            {
+              "word": " to",
+              "start": 185.48,
+              "end": 185.7
+            },
+            {
+              "word": " condition",
+              "start": 185.7,
+              "end": 186.14
+            },
+            {
+              "word": " of",
+              "start": 186.14,
+              "end": 186.34
+            },
+            {
+              "word": " periodicity,",
+              "start": 186.34,
+              "end": 187.22
+            },
+            {
+              "word": " xt",
+              "start": 187.22,
+              "end": 188.52
+            },
+            {
+              "word": " should",
+              "start": 188.52,
+              "end": 189.22
+            },
+            {
+              "word": " be",
+              "start": 189.22,
+              "end": 189.22
+            },
+            {
+              "word": " 0",
+              "start": 189.22,
+              "end": 189.22
+            },
+            {
+              "word": ".5.",
+              "start": 189.22,
+              "end": 189.22
+            }
+          ]
+        },
+        {
+          "start": 189.22,
+          "end": 198.76,
+          "text": "It should be same as xt plus minus 0.5 or you can say n times 0.5. Let's say n is equal to 1.",
+          "words": [
+            {
+              "word": " It",
+              "start": 189.22,
+              "end": 189.42
+            },
+            {
+              "word": " should",
+              "start": 189.42,
+              "end": 189.42
+            },
+            {
+              "word": " be",
+              "start": 189.42,
+              "end": 189.44
+            },
+            {
+              "word": " same",
+              "start": 189.44,
+              "end": 189.72
+            },
+            {
+              "word": " as",
+              "start": 189.72,
+              "end": 190.1
+            },
+            {
+              "word": " xt",
+              "start": 190.1,
+              "end": 191.0
+            },
+            {
+              "word": " plus",
+              "start": 191.0,
+              "end": 192.02
+            },
+            {
+              "word": " minus",
+              "start": 192.02,
+              "end": 192.62
+            },
+            {
+              "word": " 0",
+              "start": 192.62,
+              "end": 193.46
+            },
+            {
+              "word": ".5",
+              "start": 193.46,
+              "end": 194.3
+            },
+            {
+              "word": " or",
+              "start": 194.3,
+              "end": 194.7
+            },
+            {
+              "word": " you",
+              "start": 194.7,
+              "end": 194.8
+            },
+            {
+              "word": " can",
+              "start": 194.8,
+              "end": 195.0
+            },
+            {
+              "word": " say",
+              "start": 195.0,
+              "end": 195.18
+            },
+            {
+              "word": " n",
+              "start": 195.18,
+              "end": 195.42
+            },
+            {
+              "word": " times",
+              "start": 195.42,
+              "end": 195.86
+            },
+            {
+              "word": " 0",
+              "start": 195.86,
+              "end": 196.2
+            },
+            {
+              "word": ".5.",
+              "start": 196.2,
+              "end": 196.76
+            },
+            {
+              "word": " Let's",
+              "start": 197.24,
+              "end": 197.6
+            },
+            {
+              "word": " say",
+              "start": 197.6,
+              "end": 197.72
+            },
+            {
+              "word": " n",
+              "start": 197.72,
+              "end": 197.86
+            },
+            {
+              "word": " is",
+              "start": 197.86,
+              "end": 198.0
+            },
+            {
+              "word": " equal",
+              "start": 198.0,
+              "end": 198.3
+            },
+            {
+              "word": " to",
+              "start": 198.3,
+              "end": 198.46
+            },
+            {
+              "word": " 1.",
+              "start": 198.46,
+              "end": 198.76
+            }
+          ]
+        },
+        {
+          "start": 199.44,
+          "end": 206.58,
+          "text": "So, xt should be same as xt plus minus 0.5 plus minus 0.5.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 199.44,
+              "end": 199.48
+            },
+            {
+              "word": " xt",
+              "start": 199.7,
+              "end": 200.0
+            },
+            {
+              "word": " should",
+              "start": 200.0,
+              "end": 200.46
+            },
+            {
+              "word": " be",
+              "start": 200.46,
+              "end": 200.66
+            },
+            {
+              "word": " same",
+              "start": 200.66,
+              "end": 200.92
+            },
+            {
+              "word": " as",
+              "start": 200.92,
+              "end": 201.26
+            },
+            {
+              "word": " xt",
+              "start": 201.26,
+              "end": 201.94
+            },
+            {
+              "word": " plus",
+              "start": 201.94,
+              "end": 202.52
+            },
+            {
+              "word": " minus",
+              "start": 202.52,
+              "end": 202.96
+            },
+            {
+              "word": " 0",
+              "start": 202.96,
+              "end": 203.32
+            },
+            {
+              "word": ".5",
+              "start": 203.32,
+              "end": 204.0
+            },
+            {
+              "word": " plus",
+              "start": 204.0,
+              "end": 204.44
+            },
+            {
+              "word": " minus",
+              "start": 204.44,
+              "end": 205.04
+            },
+            {
+              "word": " 0",
+              "start": 205.04,
+              "end": 206.04
+            },
+            {
+              "word": ".5.",
+              "start": 206.04,
+              "end": 206.58
+            }
+          ]
+        },
+        {
+          "start": 206.88,
+          "end": 214.36,
+          "text": "And to check its periodicity, I will consider the condition in which the signal is shifting towards the left by 0.5.",
+          "words": [
+            {
+              "word": " And",
+              "start": 206.88,
+              "end": 207.26
+            },
+            {
+              "word": " to",
+              "start": 207.26,
+              "end": 207.44
+            },
+            {
+              "word": " check",
+              "start": 207.44,
+              "end": 207.7
+            },
+            {
+              "word": " its",
+              "start": 207.7,
+              "end": 207.92
+            },
+            {
+              "word": " periodicity,",
+              "start": 207.92,
+              "end": 208.74
+            },
+            {
+              "word": " I",
+              "start": 209.02,
+              "end": 209.16
+            },
+            {
+              "word": " will",
+              "start": 209.16,
+              "end": 209.3
+            },
+            {
+              "word": " consider",
+              "start": 209.3,
+              "end": 209.64
+            },
+            {
+              "word": " the",
+              "start": 209.64,
+              "end": 209.86
+            },
+            {
+              "word": " condition",
+              "start": 209.86,
+              "end": 210.38
+            },
+            {
+              "word": " in",
+              "start": 210.38,
+              "end": 210.74
+            },
+            {
+              "word": " which",
+              "start": 210.74,
+              "end": 211.04
+            },
+            {
+              "word": " the",
+              "start": 211.04,
+              "end": 211.26
+            },
+            {
+              "word": " signal",
+              "start": 211.26,
+              "end": 211.56
+            },
+            {
+              "word": " is",
+              "start": 211.56,
+              "end": 211.88
+            },
+            {
+              "word": " shifting",
+              "start": 211.88,
+              "end": 212.26
+            },
+            {
+              "word": " towards",
+              "start": 212.26,
+              "end": 212.62
+            },
+            {
+              "word": " the",
+              "start": 212.62,
+              "end": 212.98
+            },
+            {
+              "word": " left",
+              "start": 212.98,
+              "end": 213.24
+            },
+            {
+              "word": " by",
+              "start": 213.24,
+              "end": 213.6
+            },
+            {
+              "word": " 0",
+              "start": 213.6,
+              "end": 213.8
+            },
+            {
+              "word": ".5.",
+              "start": 213.8,
+              "end": 214.36
+            }
+          ]
+        },
+        {
+          "start": 214.36,
+          "end": 222.68,
+          "text": "So, we will take xt plus 0.5. We will obtain the waveform of this signal.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 214.36,
+              "end": 215.06
+            },
+            {
+              "word": " we",
+              "start": 215.16,
+              "end": 215.26
+            },
+            {
+              "word": " will",
+              "start": 215.26,
+              "end": 215.44
+            },
+            {
+              "word": " take",
+              "start": 215.44,
+              "end": 215.76
+            },
+            {
+              "word": " xt",
+              "start": 215.76,
+              "end": 217.12
+            },
+            {
+              "word": " plus",
+              "start": 217.12,
+              "end": 218.46
+            },
+            {
+              "word": " 0",
+              "start": 218.46,
+              "end": 219.18
+            },
+            {
+              "word": ".5.",
+              "start": 219.18,
+              "end": 219.86
+            },
+            {
+              "word": " We",
+              "start": 220.02,
+              "end": 220.3
+            },
+            {
+              "word": " will",
+              "start": 220.3,
+              "end": 220.44
+            },
+            {
+              "word": " obtain",
+              "start": 220.44,
+              "end": 220.78
+            },
+            {
+              "word": " the",
+              "start": 220.78,
+              "end": 220.96
+            },
+            {
+              "word": " waveform",
+              "start": 220.96,
+              "end": 221.28
+            },
+            {
+              "word": " of",
+              "start": 221.28,
+              "end": 222.08
+            },
+            {
+              "word": " this",
+              "start": 222.08,
+              "end": 222.32
+            },
+            {
+              "word": " signal.",
+              "start": 222.32,
+              "end": 222.68
+            }
+          ]
+        },
+        {
+          "start": 223.2,
+          "end": 230.82,
+          "text": "So, let's see how the waveform will look after performing the left shift. This is the waveform of xt plus 0.5.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 223.2,
+              "end": 223.28
+            },
+            {
+              "word": " let's",
+              "start": 223.3,
+              "end": 223.58
+            },
+            {
+              "word": " see",
+              "start": 223.58,
+              "end": 223.78
+            },
+            {
+              "word": " how",
+              "start": 223.78,
+              "end": 224.08
+            },
+            {
+              "word": " the",
+              "start": 224.08,
+              "end": 224.26
+            },
+            {
+              "word": " waveform",
+              "start": 224.26,
+              "end": 224.6
+            },
+            {
+              "word": " will",
+              "start": 224.6,
+              "end": 225.0
+            },
+            {
+              "word": " look",
+              "start": 225.0,
+              "end": 225.26
+            },
+            {
+              "word": " after",
+              "start": 225.26,
+              "end": 225.68
+            },
+            {
+              "word": " performing",
+              "start": 225.68,
+              "end": 226.24
+            },
+            {
+              "word": " the",
+              "start": 226.24,
+              "end": 226.76
+            },
+            {
+              "word": " left",
+              "start": 226.76,
+              "end": 226.96
+            },
+            {
+              "word": " shift.",
+              "start": 226.96,
+              "end": 227.34
+            },
+            {
+              "word": " This",
+              "start": 227.8,
+              "end": 228.14
+            },
+            {
+              "word": " is",
+              "start": 228.14,
+              "end": 228.26
+            },
+            {
+              "word": " the",
+              "start": 228.26,
+              "end": 228.4
+            },
+            {
+              "word": " waveform",
+              "start": 228.4,
+              "end": 228.78
+            },
+            {
+              "word": " of",
+              "start": 228.78,
+              "end": 229.18
+            },
+            {
+              "word": " xt",
+              "start": 229.18,
+              "end": 229.58
+            },
+            {
+              "word": " plus",
+              "start": 229.58,
+              "end": 229.94
+            },
+            {
+              "word": " 0",
+              "start": 229.94,
+              "end": 230.24
+            },
+            {
+              "word": ".5.",
+              "start": 230.24,
+              "end": 230.82
+            }
+          ]
+        },
+        {
+          "start": 230.96,
+          "end": 240.44,
+          "text": "And if you compare the two waveforms, you will find in this waveform from minus 1.5 to 0, we have 3 triangular pulses.",
+          "words": [
+            {
+              "word": " And",
+              "start": 230.96,
+              "end": 231.2
+            },
+            {
+              "word": " if",
+              "start": 231.2,
+              "end": 231.32
+            },
+            {
+              "word": " you",
+              "start": 231.32,
+              "end": 231.4
+            },
+            {
+              "word": " compare",
+              "start": 231.4,
+              "end": 231.78
+            },
+            {
+              "word": " the",
+              "start": 231.78,
+              "end": 232.0
+            },
+            {
+              "word": " two",
+              "start": 232.0,
+              "end": 232.16
+            },
+            {
+              "word": " waveforms,",
+              "start": 232.16,
+              "end": 232.92
+            },
+            {
+              "word": " you",
+              "start": 232.92,
+              "end": 233.02
+            },
+            {
+              "word": " will",
+              "start": 233.02,
+              "end": 233.16
+            },
+            {
+              "word": " find",
+              "start": 233.16,
+              "end": 233.52
+            },
+            {
+              "word": " in",
+              "start": 233.52,
+              "end": 234.18
+            },
+            {
+              "word": " this",
+              "start": 234.18,
+              "end": 234.36
+            },
+            {
+              "word": " waveform",
+              "start": 234.36,
+              "end": 234.88
+            },
+            {
+              "word": " from",
+              "start": 234.88,
+              "end": 235.58
+            },
+            {
+              "word": " minus",
+              "start": 235.58,
+              "end": 235.96
+            },
+            {
+              "word": " 1",
+              "start": 235.96,
+              "end": 236.28
+            },
+            {
+              "word": ".5",
+              "start": 236.28,
+              "end": 236.74
+            },
+            {
+              "word": " to",
+              "start": 236.74,
+              "end": 236.92
+            },
+            {
+              "word": " 0,",
+              "start": 236.92,
+              "end": 237.24
+            },
+            {
+              "word": " we",
+              "start": 237.5,
+              "end": 237.74
+            },
+            {
+              "word": " have",
+              "start": 237.74,
+              "end": 238.06
+            },
+            {
+              "word": " 3",
+              "start": 238.06,
+              "end": 238.68
+            },
+            {
+              "word": " triangular",
+              "start": 238.68,
+              "end": 239.8
+            },
+            {
+              "word": " pulses.",
+              "start": 239.8,
+              "end": 240.44
+            }
+          ]
+        },
+        {
+          "start": 240.44,
+          "end": 252.78,
+          "text": "And from 0 to 1.5, we have 3 triangular pulses. But in this case, from minus 2 to 0, we have 4 triangular pulses.",
+          "words": [
+            {
+              "word": " And",
+              "start": 240.44,
+              "end": 240.94
+            },
+            {
+              "word": " from",
+              "start": 240.94,
+              "end": 241.16
+            },
+            {
+              "word": " 0",
+              "start": 241.16,
+              "end": 241.5
+            },
+            {
+              "word": " to",
+              "start": 241.5,
+              "end": 241.88
+            },
+            {
+              "word": " 1",
+              "start": 241.88,
+              "end": 242.1
+            },
+            {
+              "word": ".5,",
+              "start": 242.1,
+              "end": 242.68
+            },
+            {
+              "word": " we",
+              "start": 242.82,
+              "end": 243.1
+            },
+            {
+              "word": " have",
+              "start": 243.1,
+              "end": 243.46
+            },
+            {
+              "word": " 3",
+              "start": 243.46,
+              "end": 243.84
+            },
+            {
+              "word": " triangular",
+              "start": 243.84,
+              "end": 244.62
+            },
+            {
+              "word": " pulses.",
+              "start": 244.62,
+              "end": 245.32
+            },
+            {
+              "word": " But",
+              "start": 246.02,
+              "end": 246.12
+            },
+            {
+              "word": " in",
+              "start": 246.12,
+              "end": 246.26
+            },
+            {
+              "word": " this",
+              "start": 246.26,
+              "end": 246.44
+            },
+            {
+              "word": " case,",
+              "start": 246.44,
+              "end": 246.8
+            },
+            {
+              "word": " from",
+              "start": 247.28,
+              "end": 247.56
+            },
+            {
+              "word": " minus",
+              "start": 247.56,
+              "end": 248.0
+            },
+            {
+              "word": " 2",
+              "start": 248.0,
+              "end": 248.48
+            },
+            {
+              "word": " to",
+              "start": 248.48,
+              "end": 249.02
+            },
+            {
+              "word": " 0,",
+              "start": 249.02,
+              "end": 249.4
+            },
+            {
+              "word": " we",
+              "start": 249.62,
+              "end": 249.9
+            },
+            {
+              "word": " have",
+              "start": 249.9,
+              "end": 250.34
+            },
+            {
+              "word": " 4",
+              "start": 250.34,
+              "end": 251.42
+            },
+            {
+              "word": " triangular",
+              "start": 251.42,
+              "end": 252.2
+            },
+            {
+              "word": " pulses.",
+              "start": 252.2,
+              "end": 252.78
+            }
+          ]
+        },
+        {
+          "start": 253.14,
+          "end": 262.6,
+          "text": "And from 0 to 1, we have 2 triangular pulses. This means x of t is not same as xt plus 0.5.",
+          "words": [
+            {
+              "word": " And",
+              "start": 253.14,
+              "end": 253.22
+            },
+            {
+              "word": " from",
+              "start": 253.22,
+              "end": 253.42
+            },
+            {
+              "word": " 0",
+              "start": 253.42,
+              "end": 253.64
+            },
+            {
+              "word": " to",
+              "start": 253.64,
+              "end": 253.76
+            },
+            {
+              "word": " 1,",
+              "start": 253.76,
+              "end": 254.08
+            },
+            {
+              "word": " we",
+              "start": 254.32,
+              "end": 254.66
+            },
+            {
+              "word": " have",
+              "start": 254.66,
+              "end": 255.08
+            },
+            {
+              "word": " 2",
+              "start": 255.08,
+              "end": 255.64
+            },
+            {
+              "word": " triangular",
+              "start": 255.64,
+              "end": 256.26
+            },
+            {
+              "word": " pulses.",
+              "start": 256.26,
+              "end": 256.9
+            },
+            {
+              "word": " This",
+              "start": 257.24,
+              "end": 257.44
+            },
+            {
+              "word": " means",
+              "start": 257.44,
+              "end": 257.8
+            },
+            {
+              "word": " x",
+              "start": 257.8,
+              "end": 258.62
+            },
+            {
+              "word": " of",
+              "start": 258.62,
+              "end": 258.82
+            },
+            {
+              "word": " t",
+              "start": 258.82,
+              "end": 259.1
+            },
+            {
+              "word": " is",
+              "start": 259.1,
+              "end": 259.34
+            },
+            {
+              "word": " not",
+              "start": 259.34,
+              "end": 259.52
+            },
+            {
+              "word": " same",
+              "start": 259.52,
+              "end": 259.84
+            },
+            {
+              "word": " as",
+              "start": 259.84,
+              "end": 260.22
+            },
+            {
+              "word": " xt",
+              "start": 260.22,
+              "end": 260.74
+            },
+            {
+              "word": " plus",
+              "start": 260.74,
+              "end": 261.28
+            },
+            {
+              "word": " 0",
+              "start": 261.28,
+              "end": 261.9
+            },
+            {
+              "word": ".5.",
+              "start": 261.9,
+              "end": 262.6
+            }
+          ]
+        },
+        {
+          "start": 268.78,
+          "end": 280.44,
+          "text": "And this means signal xt is a periodic. So, we need to add something to our definition to make it correct.",
+          "words": [
+            {
+              "word": " And",
+              "start": 268.78,
+              "end": 269.7
+            },
+            {
+              "word": " this",
+              "start": 269.7,
+              "end": 270.62
+            },
+            {
+              "word": " means",
+              "start": 270.62,
+              "end": 270.96
+            },
+            {
+              "word": " signal",
+              "start": 270.96,
+              "end": 271.86
+            },
+            {
+              "word": " xt",
+              "start": 271.86,
+              "end": 272.36
+            },
+            {
+              "word": " is",
+              "start": 272.36,
+              "end": 273.76
+            },
+            {
+              "word": " a",
+              "start": 273.76,
+              "end": 274.24
+            },
+            {
+              "word": " periodic.",
+              "start": 274.24,
+              "end": 275.08
+            },
+            {
+              "word": " So,",
+              "start": 275.62,
+              "end": 276.28
+            },
+            {
+              "word": " we",
+              "start": 276.5,
+              "end": 276.68
+            },
+            {
+              "word": " need",
+              "start": 276.68,
+              "end": 276.86
+            },
+            {
+              "word": " to",
+              "start": 276.86,
+              "end": 277.1
+            },
+            {
+              "word": " add",
+              "start": 277.1,
+              "end": 277.4
+            },
+            {
+              "word": " something",
+              "start": 277.4,
+              "end": 277.82
+            },
+            {
+              "word": " to",
+              "start": 277.82,
+              "end": 278.32
+            },
+            {
+              "word": " our",
+              "start": 278.32,
+              "end": 278.48
+            },
+            {
+              "word": " definition",
+              "start": 278.48,
+              "end": 278.98
+            },
+            {
+              "word": " to",
+              "start": 278.98,
+              "end": 279.4
+            },
+            {
+              "word": " make",
+              "start": 279.4,
+              "end": 279.72
+            },
+            {
+              "word": " it",
+              "start": 279.72,
+              "end": 280.0
+            },
+            {
+              "word": " correct.",
+              "start": 280.0,
+              "end": 280.44
+            }
+          ]
+        },
+        {
+          "start": 280.44,
+          "end": 286.86,
+          "text": "The signal is said to be periodic if it repeats itself after a regular interval of time.",
+          "words": [
+            {
+              "word": " The",
+              "start": 280.44,
+              "end": 281.22
+            },
+            {
+              "word": " signal",
+              "start": 281.22,
+              "end": 281.56
+            },
+            {
+              "word": " is",
+              "start": 281.56,
+              "end": 281.8
+            },
+            {
+              "word": " said",
+              "start": 281.8,
+              "end": 282.02
+            },
+            {
+              "word": " to",
+              "start": 282.02,
+              "end": 282.2
+            },
+            {
+              "word": " be",
+              "start": 282.2,
+              "end": 282.34
+            },
+            {
+              "word": " periodic",
+              "start": 282.34,
+              "end": 282.82
+            },
+            {
+              "word": " if",
+              "start": 282.82,
+              "end": 283.2
+            },
+            {
+              "word": " it",
+              "start": 283.2,
+              "end": 283.36
+            },
+            {
+              "word": " repeats",
+              "start": 283.36,
+              "end": 283.72
+            },
+            {
+              "word": " itself",
+              "start": 283.72,
+              "end": 284.26
+            },
+            {
+              "word": " after",
+              "start": 284.26,
+              "end": 284.88
+            },
+            {
+              "word": " a",
+              "start": 284.88,
+              "end": 285.22
+            },
+            {
+              "word": " regular",
+              "start": 285.22,
+              "end": 285.62
+            },
+            {
+              "word": " interval",
+              "start": 285.62,
+              "end": 286.2
+            },
+            {
+              "word": " of",
+              "start": 286.2,
+              "end": 286.4
+            },
+            {
+              "word": " time.",
+              "start": 286.4,
+              "end": 286.86
+            }
+          ]
+        },
+        {
+          "start": 287.02,
+          "end": 296.06,
+          "text": "And the repetition of particular structure, triangle in this case, or value should be from minus infinity to infinity.",
+          "words": [
+            {
+              "word": " And",
+              "start": 287.02,
+              "end": 287.46
+            },
+            {
+              "word": " the",
+              "start": 287.46,
+              "end": 287.6
+            },
+            {
+              "word": " repetition",
+              "start": 287.6,
+              "end": 288.1
+            },
+            {
+              "word": " of",
+              "start": 288.1,
+              "end": 288.62
+            },
+            {
+              "word": " particular",
+              "start": 288.62,
+              "end": 289.24
+            },
+            {
+              "word": " structure,",
+              "start": 289.24,
+              "end": 290.24
+            },
+            {
+              "word": " triangle",
+              "start": 290.64,
+              "end": 291.16
+            },
+            {
+              "word": " in",
+              "start": 291.16,
+              "end": 291.42
+            },
+            {
+              "word": " this",
+              "start": 291.42,
+              "end": 291.58
+            },
+            {
+              "word": " case,",
+              "start": 291.58,
+              "end": 291.88
+            },
+            {
+              "word": " or",
+              "start": 292.38,
+              "end": 292.56
+            },
+            {
+              "word": " value",
+              "start": 292.56,
+              "end": 293.04
+            },
+            {
+              "word": " should",
+              "start": 293.04,
+              "end": 293.64
+            },
+            {
+              "word": " be",
+              "start": 293.64,
+              "end": 293.94
+            },
+            {
+              "word": " from",
+              "start": 293.94,
+              "end": 294.28
+            },
+            {
+              "word": " minus",
+              "start": 294.28,
+              "end": 294.78
+            },
+            {
+              "word": " infinity",
+              "start": 294.78,
+              "end": 295.3
+            },
+            {
+              "word": " to",
+              "start": 295.3,
+              "end": 295.66
+            },
+            {
+              "word": " infinity.",
+              "start": 295.66,
+              "end": 296.06
+            }
+          ]
+        },
+        {
+          "start": 296.68,
+          "end": 304.66,
+          "text": "So, this point is very important. The repetition of a structure or value should be from minus infinity to infinity.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 296.68,
+              "end": 296.84
+            },
+            {
+              "word": " this",
+              "start": 296.86,
+              "end": 297.08
+            },
+            {
+              "word": " point",
+              "start": 297.08,
+              "end": 297.4
+            },
+            {
+              "word": " is",
+              "start": 297.4,
+              "end": 297.62
+            },
+            {
+              "word": " very",
+              "start": 297.62,
+              "end": 297.86
+            },
+            {
+              "word": " important.",
+              "start": 297.86,
+              "end": 298.34
+            },
+            {
+              "word": " The",
+              "start": 298.58,
+              "end": 298.62
+            },
+            {
+              "word": " repetition",
+              "start": 298.62,
+              "end": 299.14
+            },
+            {
+              "word": " of",
+              "start": 299.14,
+              "end": 299.42
+            },
+            {
+              "word": " a",
+              "start": 299.42,
+              "end": 299.56
+            },
+            {
+              "word": " structure",
+              "start": 299.56,
+              "end": 299.88
+            },
+            {
+              "word": " or",
+              "start": 299.88,
+              "end": 300.26
+            },
+            {
+              "word": " value",
+              "start": 300.26,
+              "end": 300.66
+            },
+            {
+              "word": " should",
+              "start": 300.66,
+              "end": 301.4
+            },
+            {
+              "word": " be",
+              "start": 301.4,
+              "end": 301.72
+            },
+            {
+              "word": " from",
+              "start": 301.72,
+              "end": 302.38
+            },
+            {
+              "word": " minus",
+              "start": 302.38,
+              "end": 302.84
+            },
+            {
+              "word": " infinity",
+              "start": 302.84,
+              "end": 303.42
+            },
+            {
+              "word": " to",
+              "start": 303.42,
+              "end": 304.24
+            },
+            {
+              "word": " infinity.",
+              "start": 304.24,
+              "end": 304.66
+            }
+          ]
+        },
+        {
+          "start": 304.66,
+          "end": 313.5,
+          "text": "So, this point you need to add to your definition. Here in this case, the repetition was from minus 1.5 to 1.5.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 304.66,
+              "end": 305.56
+            },
+            {
+              "word": " this",
+              "start": 305.6,
+              "end": 305.76
+            },
+            {
+              "word": " point",
+              "start": 305.76,
+              "end": 306.1
+            },
+            {
+              "word": " you",
+              "start": 306.1,
+              "end": 306.34
+            },
+            {
+              "word": " need",
+              "start": 306.34,
+              "end": 306.48
+            },
+            {
+              "word": " to",
+              "start": 306.48,
+              "end": 306.68
+            },
+            {
+              "word": " add",
+              "start": 306.68,
+              "end": 307.0
+            },
+            {
+              "word": " to",
+              "start": 307.0,
+              "end": 307.6
+            },
+            {
+              "word": " your",
+              "start": 307.6,
+              "end": 307.76
+            },
+            {
+              "word": " definition.",
+              "start": 307.76,
+              "end": 308.16
+            },
+            {
+              "word": " Here",
+              "start": 308.86,
+              "end": 309.04
+            },
+            {
+              "word": " in",
+              "start": 309.04,
+              "end": 309.22
+            },
+            {
+              "word": " this",
+              "start": 309.22,
+              "end": 309.38
+            },
+            {
+              "word": " case,",
+              "start": 309.38,
+              "end": 309.64
+            },
+            {
+              "word": " the",
+              "start": 309.78,
+              "end": 309.86
+            },
+            {
+              "word": " repetition",
+              "start": 309.86,
+              "end": 310.3
+            },
+            {
+              "word": " was",
+              "start": 310.3,
+              "end": 310.78
+            },
+            {
+              "word": " from",
+              "start": 310.78,
+              "end": 311.1
+            },
+            {
+              "word": " minus",
+              "start": 311.1,
+              "end": 311.44
+            },
+            {
+              "word": " 1",
+              "start": 311.44,
+              "end": 311.8
+            },
+            {
+              "word": ".5",
+              "start": 311.8,
+              "end": 312.4
+            },
+            {
+              "word": " to",
+              "start": 312.4,
+              "end": 312.62
+            },
+            {
+              "word": " 1",
+              "start": 312.62,
+              "end": 312.88
+            },
+            {
+              "word": ".5.",
+              "start": 312.88,
+              "end": 313.5
+            }
+          ]
+        },
+        {
+          "start": 313.64,
+          "end": 320.82,
+          "text": "It was not from minus infinity to infinity because of which when we perform the shifting, the signal changed.",
+          "words": [
+            {
+              "word": " It",
+              "start": 313.64,
+              "end": 313.8
+            },
+            {
+              "word": " was",
+              "start": 313.8,
+              "end": 314.0
+            },
+            {
+              "word": " not",
+              "start": 314.0,
+              "end": 314.2
+            },
+            {
+              "word": " from",
+              "start": 314.2,
+              "end": 314.56
+            },
+            {
+              "word": " minus",
+              "start": 314.56,
+              "end": 315.32
+            },
+            {
+              "word": " infinity",
+              "start": 315.32,
+              "end": 315.8
+            },
+            {
+              "word": " to",
+              "start": 315.8,
+              "end": 316.04
+            },
+            {
+              "word": " infinity",
+              "start": 316.04,
+              "end": 316.48
+            },
+            {
+              "word": " because",
+              "start": 316.48,
+              "end": 317.22
+            },
+            {
+              "word": " of",
+              "start": 317.22,
+              "end": 317.5
+            },
+            {
+              "word": " which",
+              "start": 317.5,
+              "end": 317.82
+            },
+            {
+              "word": " when",
+              "start": 317.82,
+              "end": 318.04
+            },
+            {
+              "word": " we",
+              "start": 318.04,
+              "end": 318.2
+            },
+            {
+              "word": " perform",
+              "start": 318.2,
+              "end": 318.68
+            },
+            {
+              "word": " the",
+              "start": 318.68,
+              "end": 318.98
+            },
+            {
+              "word": " shifting,",
+              "start": 318.98,
+              "end": 319.36
+            },
+            {
+              "word": " the",
+              "start": 319.9,
+              "end": 319.98
+            },
+            {
+              "word": " signal",
+              "start": 319.98,
+              "end": 320.32
+            },
+            {
+              "word": " changed.",
+              "start": 320.32,
+              "end": 320.82
+            }
+          ]
+        },
+        {
+          "start": 321.22,
+          "end": 329.04,
+          "text": "But if the signal is repeating from minus infinity to infinity and if you perform the shift by any period, the signal is going to be same.",
+          "words": [
+            {
+              "word": " But",
+              "start": 321.22,
+              "end": 321.48
+            },
+            {
+              "word": " if",
+              "start": 321.48,
+              "end": 321.72
+            },
+            {
+              "word": " the",
+              "start": 321.72,
+              "end": 321.86
+            },
+            {
+              "word": " signal",
+              "start": 321.86,
+              "end": 322.14
+            },
+            {
+              "word": " is",
+              "start": 322.14,
+              "end": 322.36
+            },
+            {
+              "word": " repeating",
+              "start": 322.36,
+              "end": 322.7
+            },
+            {
+              "word": " from",
+              "start": 322.7,
+              "end": 322.98
+            },
+            {
+              "word": " minus",
+              "start": 322.98,
+              "end": 323.42
+            },
+            {
+              "word": " infinity",
+              "start": 323.42,
+              "end": 323.86
+            },
+            {
+              "word": " to",
+              "start": 323.86,
+              "end": 324.12
+            },
+            {
+              "word": " infinity",
+              "start": 324.12,
+              "end": 324.48
+            },
+            {
+              "word": " and",
+              "start": 324.48,
+              "end": 324.86
+            },
+            {
+              "word": " if",
+              "start": 324.86,
+              "end": 325.02
+            },
+            {
+              "word": " you",
+              "start": 325.02,
+              "end": 325.14
+            },
+            {
+              "word": " perform",
+              "start": 325.14,
+              "end": 325.52
+            },
+            {
+              "word": " the",
+              "start": 325.52,
+              "end": 325.74
+            },
+            {
+              "word": " shift",
+              "start": 325.74,
+              "end": 326.04
+            },
+            {
+              "word": " by",
+              "start": 326.04,
+              "end": 326.4
+            },
+            {
+              "word": " any",
+              "start": 326.4,
+              "end": 326.72
+            },
+            {
+              "word": " period,",
+              "start": 326.72,
+              "end": 327.16
+            },
+            {
+              "word": " the",
+              "start": 327.42,
+              "end": 327.66
+            },
+            {
+              "word": " signal",
+              "start": 327.66,
+              "end": 327.94
+            },
+            {
+              "word": " is",
+              "start": 327.94,
+              "end": 328.1
+            },
+            {
+              "word": " going",
+              "start": 328.1,
+              "end": 328.32
+            },
+            {
+              "word": " to",
+              "start": 328.32,
+              "end": 328.6
+            },
+            {
+              "word": " be",
+              "start": 328.6,
+              "end": 328.74
+            },
+            {
+              "word": " same.",
+              "start": 328.74,
+              "end": 329.04
+            }
+          ]
+        },
+        {
+          "start": 329.04,
+          "end": 335.94,
+          "text": "So, this point is very important. The repetition of the structure or value should be from minus infinity to infinity.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 329.04,
+              "end": 329.56
+            },
+            {
+              "word": " this",
+              "start": 329.58,
+              "end": 329.74
+            },
+            {
+              "word": " point",
+              "start": 329.74,
+              "end": 330.02
+            },
+            {
+              "word": " is",
+              "start": 330.02,
+              "end": 330.24
+            },
+            {
+              "word": " very",
+              "start": 330.24,
+              "end": 330.46
+            },
+            {
+              "word": " important.",
+              "start": 330.46,
+              "end": 331.06
+            },
+            {
+              "word": " The",
+              "start": 331.28,
+              "end": 331.3
+            },
+            {
+              "word": " repetition",
+              "start": 331.3,
+              "end": 331.72
+            },
+            {
+              "word": " of",
+              "start": 331.72,
+              "end": 332.2
+            },
+            {
+              "word": " the",
+              "start": 332.2,
+              "end": 332.4
+            },
+            {
+              "word": " structure",
+              "start": 332.4,
+              "end": 332.8
+            },
+            {
+              "word": " or",
+              "start": 332.8,
+              "end": 333.06
+            },
+            {
+              "word": " value",
+              "start": 333.06,
+              "end": 333.44
+            },
+            {
+              "word": " should",
+              "start": 333.44,
+              "end": 333.84
+            },
+            {
+              "word": " be",
+              "start": 333.84,
+              "end": 334.1
+            },
+            {
+              "word": " from",
+              "start": 334.1,
+              "end": 334.4
+            },
+            {
+              "word": " minus",
+              "start": 334.4,
+              "end": 334.8
+            },
+            {
+              "word": " infinity",
+              "start": 334.8,
+              "end": 335.28
+            },
+            {
+              "word": " to",
+              "start": 335.28,
+              "end": 335.6
+            },
+            {
+              "word": " infinity.",
+              "start": 335.6,
+              "end": 335.94
+            }
+          ]
+        },
+        {
+          "start": 336.58,
+          "end": 343.54,
+          "text": "So, this is all for this lecture. This lecture was to explain the importance of repetition from minus infinity to infinity.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 336.58,
+              "end": 336.82
+            },
+            {
+              "word": " this",
+              "start": 336.84,
+              "end": 337.02
+            },
+            {
+              "word": " is",
+              "start": 337.02,
+              "end": 337.12
+            },
+            {
+              "word": " all",
+              "start": 337.12,
+              "end": 337.34
+            },
+            {
+              "word": " for",
+              "start": 337.34,
+              "end": 337.54
+            },
+            {
+              "word": " this",
+              "start": 337.54,
+              "end": 337.72
+            },
+            {
+              "word": " lecture.",
+              "start": 337.72,
+              "end": 338.08
+            },
+            {
+              "word": " This",
+              "start": 338.48,
+              "end": 338.66
+            },
+            {
+              "word": " lecture",
+              "start": 338.66,
+              "end": 339.02
+            },
+            {
+              "word": " was",
+              "start": 339.02,
+              "end": 339.36
+            },
+            {
+              "word": " to",
+              "start": 339.36,
+              "end": 339.54
+            },
+            {
+              "word": " explain",
+              "start": 339.54,
+              "end": 340.04
+            },
+            {
+              "word": " the",
+              "start": 340.04,
+              "end": 340.38
+            },
+            {
+              "word": " importance",
+              "start": 340.38,
+              "end": 340.84
+            },
+            {
+              "word": " of",
+              "start": 340.84,
+              "end": 341.14
+            },
+            {
+              "word": " repetition",
+              "start": 341.14,
+              "end": 341.6
+            },
+            {
+              "word": " from",
+              "start": 341.6,
+              "end": 342.06
+            },
+            {
+              "word": " minus",
+              "start": 342.06,
+              "end": 342.46
+            },
+            {
+              "word": " infinity",
+              "start": 342.46,
+              "end": 342.94
+            },
+            {
+              "word": " to",
+              "start": 342.94,
+              "end": 343.18
+            },
+            {
+              "word": " infinity.",
+              "start": 343.18,
+              "end": 343.54
+            }
+          ]
+        },
+        {
+          "start": 344.08,
+          "end": 358.12,
+          "text": "And to understand this, by the help of an example, you can consider this waveform and you may add triangular pulses like this from minus infinity to infinity.",
+          "words": [
+            {
+              "word": " And",
+              "start": 344.08,
+              "end": 344.28
+            },
+            {
+              "word": " to",
+              "start": 344.28,
+              "end": 344.42
+            },
+            {
+              "word": " understand",
+              "start": 344.42,
+              "end": 344.74
+            },
+            {
+              "word": " this,",
+              "start": 344.74,
+              "end": 345.04
+            },
+            {
+              "word": " by",
+              "start": 345.16,
+              "end": 345.28
+            },
+            {
+              "word": " the",
+              "start": 345.28,
+              "end": 345.44
+            },
+            {
+              "word": " help",
+              "start": 345.44,
+              "end": 345.68
+            },
+            {
+              "word": " of",
+              "start": 345.68,
+              "end": 345.88
+            },
+            {
+              "word": " an",
+              "start": 345.88,
+              "end": 346.06
+            },
+            {
+              "word": " example,",
+              "start": 346.06,
+              "end": 346.56
+            },
+            {
+              "word": " you",
+              "start": 346.72,
+              "end": 346.82
+            },
+            {
+              "word": " can",
+              "start": 346.82,
+              "end": 346.98
+            },
+            {
+              "word": " consider",
+              "start": 346.98,
+              "end": 347.42
+            },
+            {
+              "word": " this",
+              "start": 347.42,
+              "end": 347.66
+            },
+            {
+              "word": " waveform",
+              "start": 347.66,
+              "end": 348.02
+            },
+            {
+              "word": " and",
+              "start": 348.02,
+              "end": 350.1
+            },
+            {
+              "word": " you",
+              "start": 350.1,
+              "end": 350.7
+            },
+            {
+              "word": " may",
+              "start": 350.7,
+              "end": 350.94
+            },
+            {
+              "word": " add",
+              "start": 350.94,
+              "end": 351.3
+            },
+            {
+              "word": " triangular",
+              "start": 351.3,
+              "end": 352.78
+            },
+            {
+              "word": " pulses",
+              "start": 352.78,
+              "end": 353.3
+            },
+            {
+              "word": " like",
+              "start": 353.3,
+              "end": 355.34
+            },
+            {
+              "word": " this",
+              "start": 355.34,
+              "end": 355.66
+            },
+            {
+              "word": " from",
+              "start": 355.66,
+              "end": 355.98
+            },
+            {
+              "word": " minus",
+              "start": 355.98,
+              "end": 356.54
+            },
+            {
+              "word": " infinity",
+              "start": 356.54,
+              "end": 357.12
+            },
+            {
+              "word": " to",
+              "start": 357.12,
+              "end": 357.72
+            },
+            {
+              "word": " infinity.",
+              "start": 357.72,
+              "end": 358.12
+            }
+          ]
+        },
+        {
+          "start": 358.12,
+          "end": 367.38,
+          "text": "And now if you perform the shifting towards the left or towards the right by any period, not only by fundamental time period, you will get the same waveform.",
+          "words": [
+            {
+              "word": " And",
+              "start": 358.12,
+              "end": 358.78
+            },
+            {
+              "word": " now",
+              "start": 358.78,
+              "end": 359.02
+            },
+            {
+              "word": " if",
+              "start": 359.02,
+              "end": 359.2
+            },
+            {
+              "word": " you",
+              "start": 359.2,
+              "end": 359.32
+            },
+            {
+              "word": " perform",
+              "start": 359.32,
+              "end": 359.7
+            },
+            {
+              "word": " the",
+              "start": 359.7,
+              "end": 359.92
+            },
+            {
+              "word": " shifting",
+              "start": 359.92,
+              "end": 360.28
+            },
+            {
+              "word": " towards",
+              "start": 360.28,
+              "end": 360.62
+            },
+            {
+              "word": " the",
+              "start": 360.62,
+              "end": 360.96
+            },
+            {
+              "word": " left",
+              "start": 360.96,
+              "end": 361.22
+            },
+            {
+              "word": " or",
+              "start": 361.22,
+              "end": 361.48
+            },
+            {
+              "word": " towards",
+              "start": 361.48,
+              "end": 361.86
+            },
+            {
+              "word": " the",
+              "start": 361.86,
+              "end": 362.06
+            },
+            {
+              "word": " right",
+              "start": 362.06,
+              "end": 362.38
+            },
+            {
+              "word": " by",
+              "start": 362.38,
+              "end": 362.82
+            },
+            {
+              "word": " any",
+              "start": 362.82,
+              "end": 363.1
+            },
+            {
+              "word": " period,",
+              "start": 363.1,
+              "end": 363.52
+            },
+            {
+              "word": " not",
+              "start": 363.66,
+              "end": 363.92
+            },
+            {
+              "word": " only",
+              "start": 363.92,
+              "end": 364.22
+            },
+            {
+              "word": " by",
+              "start": 364.22,
+              "end": 364.46
+            },
+            {
+              "word": " fundamental",
+              "start": 364.46,
+              "end": 364.94
+            },
+            {
+              "word": " time",
+              "start": 364.94,
+              "end": 365.44
+            },
+            {
+              "word": " period,",
+              "start": 365.44,
+              "end": 365.78
+            },
+            {
+              "word": " you",
+              "start": 366.14,
+              "end": 366.34
+            },
+            {
+              "word": " will",
+              "start": 366.34,
+              "end": 366.46
+            },
+            {
+              "word": " get",
+              "start": 366.46,
+              "end": 366.62
+            },
+            {
+              "word": " the",
+              "start": 366.62,
+              "end": 366.8
+            },
+            {
+              "word": " same",
+              "start": 366.8,
+              "end": 367.02
+            },
+            {
+              "word": " waveform.",
+              "start": 367.02,
+              "end": 367.38
+            }
+          ]
+        },
+        {
+          "start": 367.96,
+          "end": 375.46,
+          "text": "And in that way, the condition for periodicity will be satisfied. So, this is all. I will end this lecture here. See you in the next one.",
+          "words": [
+            {
+              "word": " And",
+              "start": 367.96,
+              "end": 368.24
+            },
+            {
+              "word": " in",
+              "start": 368.24,
+              "end": 368.4
+            },
+            {
+              "word": " that",
+              "start": 368.4,
+              "end": 368.64
+            },
+            {
+              "word": " way,",
+              "start": 368.64,
+              "end": 368.82
+            },
+            {
+              "word": " the",
+              "start": 368.9,
+              "end": 368.96
+            },
+            {
+              "word": " condition",
+              "start": 368.96,
+              "end": 369.48
+            },
+            {
+              "word": " for",
+              "start": 369.48,
+              "end": 369.8
+            },
+            {
+              "word": " periodicity",
+              "start": 369.8,
+              "end": 370.46
+            },
+            {
+              "word": " will",
+              "start": 370.46,
+              "end": 371.12
+            },
+            {
+              "word": " be",
+              "start": 371.12,
+              "end": 371.28
+            },
+            {
+              "word": " satisfied.",
+              "start": 371.28,
+              "end": 371.86
+            },
+            {
+              "word": " So,",
+              "start": 372.46,
+              "end": 372.54
+            },
+            {
+              "word": " this",
+              "start": 372.6,
+              "end": 372.72
+            },
+            {
+              "word": " is",
+              "start": 372.72,
+              "end": 372.86
+            },
+            {
+              "word": " all.",
+              "start": 372.86,
+              "end": 373.1
+            },
+            {
+              "word": " I",
+              "start": 373.42,
+              "end": 373.48
+            },
+            {
+              "word": " will",
+              "start": 373.48,
+              "end": 373.6
+            },
+            {
+              "word": " end",
+              "start": 373.6,
+              "end": 373.78
+            },
+            {
+              "word": " this",
+              "start": 373.78,
+              "end": 373.92
+            },
+            {
+              "word": " lecture",
+              "start": 373.92,
+              "end": 374.18
+            },
+            {
+              "word": " here.",
+              "start": 374.18,
+              "end": 374.48
+            },
+            {
+              "word": " See",
+              "start": 374.76,
+              "end": 374.86
+            },
+            {
+              "word": " you",
+              "start": 374.86,
+              "end": 374.94
+            },
+            {
+              "word": " in",
+              "start": 374.94,
+              "end": 374.96
+            },
+            {
+              "word": " the",
+              "start": 374.96,
+              "end": 375.04
+            },
+            {
+              "word": " next",
+              "start": 375.04,
+              "end": 375.2
+            },
+            {
+              "word": " one.",
+              "start": 375.2,
+              "end": 375.46
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_188\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 111.0,
+        "path": "data/processed\\lecture_188\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 140.0,
+        "path": "data/processed\\lecture_188\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 142.0,
+        "path": "data/processed\\lecture_188\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 143.0,
+        "path": "data/processed\\lecture_188\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 225.0,
+        "path": "data/processed\\lecture_188\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 226.0,
+        "path": "data/processed\\lecture_188\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 251.0,
+        "path": "data/processed\\lecture_188\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 8,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 1,
+        "timestamp": 111.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 2,
+        "timestamp": 140.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 3,
+        "timestamp": 142.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 4,
+        "timestamp": 143.0,
+        "concepts": [
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 5,
+        "timestamp": 225.0,
+        "concepts": [
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 6,
+        "timestamp": 226.0,
+        "concepts": [
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 7,
+        "timestamp": 251.0,
+        "concepts": [
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

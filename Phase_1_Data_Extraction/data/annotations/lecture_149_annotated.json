@@ -1,0 +1,4671 @@
+{
+  "video_id": "lecture_149",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_14.mp4",
+    "duration": 0.0,
+    "fps": 30.0,
+    "resolution": "640x360",
+    "processing_date": "2025-12-26T11:32:11.127931",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_149\\audio.wav",
+    "transcript": {
+      "text": " The minimum number of equations required to analyze the circuit shown in figure is so we have one network given in the question and we are required to find the minimum number of equations to perform the analysis of this network. There are four options given in the question and we are required to choose one correct option and if you remember the very first lecture on the method mesh analysis then in that lecture I gave you one formula to find out the minimum number of equations to perform the analysis of the network using the mesh analysis and the minimum number of equations E is equal to the total number of meshes in the network and the total number of meshes is equal to the number of branches minus the number of principal nodes minus one. So this is the formula to find out the minimum number of equations to perform the analysis using the mesh analysis but when you read the question you will find no where it is written that we need to find the minimum number of equations to perform the mesh analysis and therefore to get the correct answer we also have to check the number of equations required to perform the nodal analysis of the network and in the first lecture of the nodal analysis I gave you the formula to find out the minimum number of equations and the minimum number of equations E is equal to the number of principal nodes minus one. So by using this formula we can find out the minimum number of equations required to perform the analysis of the network using the nodal analysis method so you can see that we need the total number of branches and the total number of principal nodes and in our network we have one branch here this is one branch because in this wire one element is there and following the same definition we can say that this is branch number two and this is branch number three this is branch number four this is branch number five this one here is branch number six this one is branch number seven and the final one is our branch number eight so now we know the number of branches is equal to eight in this network and it's time to find out the number of principal nodes and we know what is a principal node a principal node is the common point of connection where more than two elements are connected for example this is our principal node let's call it n1 and this node is the node at which one two and three elements are connected similarly this is our node two this is our node three and this node here is also node three because this wire is not having any element and therefore we can combine them and have a single node which is node number three this is our node number four and this one is node number five so the total number of principal nodes is equal to five now we will put these values in this equation and this equation from here we will have the number of equations equal to eight minus five minus one when you solve it you will get the number of equations is equal to four and from here we will get the number of equations equal to five minus one that is e is equal to four so we need four equations to perform the mesh analysis of this network and four equations to perform the nodal analysis of this network and therefore the answer is option b four now consider one situation in which the number of equations required to perform the nodal analysis is equal to three but the number of equations required to perform the mesh analysis is equal to four in this particular situation the answer will be option a three because we are required to find the minimum number of equations required to analyze this circuit it is not mentioned which particular method we have to use so the answer will be three so I hope this problem is now clear to you and it's time to move to our homework problem and the homework problem is taken from gate 2000 to electrical paper and in this problem you are required to find the voltage between terminal a and terminal b so you need to find v ab current equal to one ampere is entering current equal to one ampere is leaving and all the resistor values are equal to one ohm and there is one hint given in the problem you may exploit the symmetry of the circuit so try to solve this problem and once you have your answer post it in comment section and now I will end this lecture here see you in the next one",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 8.8,
+          "text": "The minimum number of equations required to analyze the circuit shown in figure is so",
+          "words": [
+            {
+              "word": " The",
+              "start": 0.0,
+              "end": 0.72
+            },
+            {
+              "word": " minimum",
+              "start": 0.72,
+              "end": 1.14
+            },
+            {
+              "word": " number",
+              "start": 1.14,
+              "end": 1.8
+            },
+            {
+              "word": " of",
+              "start": 1.8,
+              "end": 2.0
+            },
+            {
+              "word": " equations",
+              "start": 2.0,
+              "end": 2.5
+            },
+            {
+              "word": " required",
+              "start": 2.5,
+              "end": 3.16
+            },
+            {
+              "word": " to",
+              "start": 3.16,
+              "end": 3.68
+            },
+            {
+              "word": " analyze",
+              "start": 3.68,
+              "end": 4.14
+            },
+            {
+              "word": " the",
+              "start": 4.14,
+              "end": 4.7
+            },
+            {
+              "word": " circuit",
+              "start": 4.7,
+              "end": 5.16
+            },
+            {
+              "word": " shown",
+              "start": 5.16,
+              "end": 5.68
+            },
+            {
+              "word": " in",
+              "start": 5.68,
+              "end": 6.32
+            },
+            {
+              "word": " figure",
+              "start": 6.32,
+              "end": 6.68
+            },
+            {
+              "word": " is",
+              "start": 6.68,
+              "end": 7.92
+            },
+            {
+              "word": " so",
+              "start": 7.92,
+              "end": 8.8
+            }
+          ]
+        },
+        {
+          "start": 8.8,
+          "end": 17.24,
+          "text": "we have one network given in the question and we are required to find the minimum number",
+          "words": [
+            {
+              "word": " we",
+              "start": 8.8,
+              "end": 9.06
+            },
+            {
+              "word": " have",
+              "start": 9.06,
+              "end": 9.32
+            },
+            {
+              "word": " one",
+              "start": 9.32,
+              "end": 9.82
+            },
+            {
+              "word": " network",
+              "start": 9.82,
+              "end": 10.22
+            },
+            {
+              "word": " given",
+              "start": 10.22,
+              "end": 10.82
+            },
+            {
+              "word": " in",
+              "start": 10.82,
+              "end": 11.3
+            },
+            {
+              "word": " the",
+              "start": 11.3,
+              "end": 11.44
+            },
+            {
+              "word": " question",
+              "start": 11.44,
+              "end": 11.9
+            },
+            {
+              "word": " and",
+              "start": 11.9,
+              "end": 12.6
+            },
+            {
+              "word": " we",
+              "start": 12.6,
+              "end": 12.72
+            },
+            {
+              "word": " are",
+              "start": 12.72,
+              "end": 12.84
+            },
+            {
+              "word": " required",
+              "start": 12.84,
+              "end": 13.14
+            },
+            {
+              "word": " to",
+              "start": 13.14,
+              "end": 13.46
+            },
+            {
+              "word": " find",
+              "start": 13.46,
+              "end": 13.9
+            },
+            {
+              "word": " the",
+              "start": 13.9,
+              "end": 15.04
+            },
+            {
+              "word": " minimum",
+              "start": 15.04,
+              "end": 15.6
+            },
+            {
+              "word": " number",
+              "start": 15.6,
+              "end": 17.24
+            }
+          ]
+        },
+        {
+          "start": 18.52,
+          "end": 25.04,
+          "text": "of equations to perform the analysis of this network.",
+          "words": [
+            {
+              "word": " of",
+              "start": 18.5,
+              "end": 19.0
+            },
+            {
+              "word": " equations",
+              "start": 19.0,
+              "end": 19.94
+            },
+            {
+              "word": " to",
+              "start": 19.94,
+              "end": 21.94
+            },
+            {
+              "word": " perform",
+              "start": 21.94,
+              "end": 22.54
+            },
+            {
+              "word": " the",
+              "start": 22.54,
+              "end": 23.18
+            },
+            {
+              "word": " analysis",
+              "start": 23.18,
+              "end": 23.6
+            },
+            {
+              "word": " of",
+              "start": 23.6,
+              "end": 23.98
+            },
+            {
+              "word": " this",
+              "start": 23.98,
+              "end": 24.26
+            },
+            {
+              "word": " network.",
+              "start": 24.26,
+              "end": 25.04
+            }
+          ]
+        },
+        {
+          "start": 25.04,
+          "end": 31.28,
+          "text": "There are four options given in the question and we are required to choose one correct",
+          "words": [
+            {
+              "word": " There",
+              "start": 25.04,
+              "end": 25.64
+            },
+            {
+              "word": " are",
+              "start": 25.64,
+              "end": 25.84
+            },
+            {
+              "word": " four",
+              "start": 25.84,
+              "end": 26.14
+            },
+            {
+              "word": " options",
+              "start": 26.14,
+              "end": 26.76
+            },
+            {
+              "word": " given",
+              "start": 26.76,
+              "end": 27.22
+            },
+            {
+              "word": " in",
+              "start": 27.22,
+              "end": 27.7
+            },
+            {
+              "word": " the",
+              "start": 27.7,
+              "end": 27.86
+            },
+            {
+              "word": " question",
+              "start": 27.86,
+              "end": 28.28
+            },
+            {
+              "word": " and",
+              "start": 28.28,
+              "end": 28.98
+            },
+            {
+              "word": " we",
+              "start": 28.98,
+              "end": 29.12
+            },
+            {
+              "word": " are",
+              "start": 29.12,
+              "end": 29.22
+            },
+            {
+              "word": " required",
+              "start": 29.22,
+              "end": 29.52
+            },
+            {
+              "word": " to",
+              "start": 29.52,
+              "end": 29.84
+            },
+            {
+              "word": " choose",
+              "start": 29.84,
+              "end": 30.26
+            },
+            {
+              "word": " one",
+              "start": 30.26,
+              "end": 30.8
+            },
+            {
+              "word": " correct",
+              "start": 30.8,
+              "end": 31.28
+            }
+          ]
+        },
+        {
+          "start": 31.28,
+          "end": 41.12,
+          "text": "option and if you remember the very first lecture on the method mesh analysis then in",
+          "words": [
+            {
+              "word": " option",
+              "start": 31.28,
+              "end": 31.94
+            },
+            {
+              "word": " and",
+              "start": 31.94,
+              "end": 32.74
+            },
+            {
+              "word": " if",
+              "start": 32.74,
+              "end": 32.86
+            },
+            {
+              "word": " you",
+              "start": 32.86,
+              "end": 32.98
+            },
+            {
+              "word": " remember",
+              "start": 32.98,
+              "end": 33.38
+            },
+            {
+              "word": " the",
+              "start": 33.38,
+              "end": 33.7
+            },
+            {
+              "word": " very",
+              "start": 33.7,
+              "end": 33.92
+            },
+            {
+              "word": " first",
+              "start": 33.92,
+              "end": 34.34
+            },
+            {
+              "word": " lecture",
+              "start": 34.34,
+              "end": 34.98
+            },
+            {
+              "word": " on",
+              "start": 34.98,
+              "end": 36.1
+            },
+            {
+              "word": " the",
+              "start": 36.1,
+              "end": 36.28
+            },
+            {
+              "word": " method",
+              "start": 36.28,
+              "end": 36.86
+            },
+            {
+              "word": " mesh",
+              "start": 36.86,
+              "end": 38.28
+            },
+            {
+              "word": " analysis",
+              "start": 38.28,
+              "end": 39.4
+            },
+            {
+              "word": " then",
+              "start": 39.4,
+              "end": 40.92
+            },
+            {
+              "word": " in",
+              "start": 40.92,
+              "end": 41.12
+            }
+          ]
+        },
+        {
+          "start": 41.12,
+          "end": 47.64,
+          "text": "that lecture I gave you one formula to find out the minimum number of equations to perform",
+          "words": [
+            {
+              "word": " that",
+              "start": 41.12,
+              "end": 41.58
+            },
+            {
+              "word": " lecture",
+              "start": 41.58,
+              "end": 42.36
+            },
+            {
+              "word": " I",
+              "start": 42.36,
+              "end": 42.98
+            },
+            {
+              "word": " gave",
+              "start": 42.98,
+              "end": 43.28
+            },
+            {
+              "word": " you",
+              "start": 43.28,
+              "end": 43.52
+            },
+            {
+              "word": " one",
+              "start": 43.52,
+              "end": 43.76
+            },
+            {
+              "word": " formula",
+              "start": 43.76,
+              "end": 44.26
+            },
+            {
+              "word": " to",
+              "start": 44.26,
+              "end": 44.52
+            },
+            {
+              "word": " find",
+              "start": 44.52,
+              "end": 44.82
+            },
+            {
+              "word": " out",
+              "start": 44.82,
+              "end": 45.12
+            },
+            {
+              "word": " the",
+              "start": 45.12,
+              "end": 45.32
+            },
+            {
+              "word": " minimum",
+              "start": 45.32,
+              "end": 45.68
+            },
+            {
+              "word": " number",
+              "start": 45.68,
+              "end": 46.08
+            },
+            {
+              "word": " of",
+              "start": 46.08,
+              "end": 46.28
+            },
+            {
+              "word": " equations",
+              "start": 46.28,
+              "end": 46.76
+            },
+            {
+              "word": " to",
+              "start": 46.76,
+              "end": 47.14
+            },
+            {
+              "word": " perform",
+              "start": 47.14,
+              "end": 47.64
+            }
+          ]
+        },
+        {
+          "start": 48.28,
+          "end": 56.46,
+          "text": "the analysis of the network using the mesh analysis and the minimum number of equations",
+          "words": [
+            {
+              "word": " the",
+              "start": 47.940000000000005,
+              "end": 48.42
+            },
+            {
+              "word": " analysis",
+              "start": 48.42,
+              "end": 48.8
+            },
+            {
+              "word": " of",
+              "start": 48.8,
+              "end": 49.4
+            },
+            {
+              "word": " the",
+              "start": 49.4,
+              "end": 49.6
+            },
+            {
+              "word": " network",
+              "start": 49.6,
+              "end": 50.08
+            },
+            {
+              "word": " using",
+              "start": 50.08,
+              "end": 50.8
+            },
+            {
+              "word": " the",
+              "start": 50.8,
+              "end": 51.54
+            },
+            {
+              "word": " mesh",
+              "start": 51.54,
+              "end": 51.9
+            },
+            {
+              "word": " analysis",
+              "start": 51.9,
+              "end": 52.5
+            },
+            {
+              "word": " and",
+              "start": 52.5,
+              "end": 53.34
+            },
+            {
+              "word": " the",
+              "start": 53.34,
+              "end": 53.5
+            },
+            {
+              "word": " minimum",
+              "start": 53.5,
+              "end": 53.92
+            },
+            {
+              "word": " number",
+              "start": 53.92,
+              "end": 54.92
+            },
+            {
+              "word": " of",
+              "start": 54.92,
+              "end": 55.86
+            },
+            {
+              "word": " equations",
+              "start": 55.86,
+              "end": 56.46
+            }
+          ]
+        },
+        {
+          "start": 56.46,
+          "end": 65.96,
+          "text": "E is equal to the total number of meshes in the network and the total number of meshes",
+          "words": [
+            {
+              "word": " E",
+              "start": 56.46,
+              "end": 57.92
+            },
+            {
+              "word": " is",
+              "start": 57.92,
+              "end": 58.8
+            },
+            {
+              "word": " equal",
+              "start": 58.8,
+              "end": 59.28
+            },
+            {
+              "word": " to",
+              "start": 59.28,
+              "end": 60.08
+            },
+            {
+              "word": " the",
+              "start": 60.08,
+              "end": 60.18
+            },
+            {
+              "word": " total",
+              "start": 60.18,
+              "end": 60.62
+            },
+            {
+              "word": " number",
+              "start": 60.62,
+              "end": 61.3
+            },
+            {
+              "word": " of",
+              "start": 61.3,
+              "end": 61.56
+            },
+            {
+              "word": " meshes",
+              "start": 61.56,
+              "end": 62.14
+            },
+            {
+              "word": " in",
+              "start": 62.14,
+              "end": 62.54
+            },
+            {
+              "word": " the",
+              "start": 62.54,
+              "end": 62.7
+            },
+            {
+              "word": " network",
+              "start": 62.7,
+              "end": 63.14
+            },
+            {
+              "word": " and",
+              "start": 63.14,
+              "end": 63.6
+            },
+            {
+              "word": " the",
+              "start": 63.6,
+              "end": 63.76
+            },
+            {
+              "word": " total",
+              "start": 63.76,
+              "end": 64.06
+            },
+            {
+              "word": " number",
+              "start": 64.06,
+              "end": 64.48
+            },
+            {
+              "word": " of",
+              "start": 64.48,
+              "end": 64.68
+            },
+            {
+              "word": " meshes",
+              "start": 64.68,
+              "end": 65.96
+            }
+          ]
+        },
+        {
+          "start": 65.96,
+          "end": 74.38,
+          "text": "is equal to the number of branches minus the number of principal nodes minus one.",
+          "words": [
+            {
+              "word": " is",
+              "start": 65.96,
+              "end": 66.36
+            },
+            {
+              "word": " equal",
+              "start": 66.36,
+              "end": 66.82
+            },
+            {
+              "word": " to",
+              "start": 66.82,
+              "end": 67.64
+            },
+            {
+              "word": " the",
+              "start": 67.64,
+              "end": 67.74
+            },
+            {
+              "word": " number",
+              "start": 67.74,
+              "end": 68.02
+            },
+            {
+              "word": " of",
+              "start": 68.02,
+              "end": 68.24
+            },
+            {
+              "word": " branches",
+              "start": 68.24,
+              "end": 68.84
+            },
+            {
+              "word": " minus",
+              "start": 68.84,
+              "end": 69.84
+            },
+            {
+              "word": " the",
+              "start": 69.84,
+              "end": 70.92
+            },
+            {
+              "word": " number",
+              "start": 70.92,
+              "end": 71.24
+            },
+            {
+              "word": " of",
+              "start": 71.24,
+              "end": 71.5
+            },
+            {
+              "word": " principal",
+              "start": 71.5,
+              "end": 71.94
+            },
+            {
+              "word": " nodes",
+              "start": 71.94,
+              "end": 72.52
+            },
+            {
+              "word": " minus",
+              "start": 72.52,
+              "end": 73.42
+            },
+            {
+              "word": " one.",
+              "start": 73.42,
+              "end": 74.38
+            }
+          ]
+        },
+        {
+          "start": 75.1,
+          "end": 81.02,
+          "text": "So this is the formula to find out the minimum number of equations to perform the analysis",
+          "words": [
+            {
+              "word": " So",
+              "start": 75.04,
+              "end": 75.4
+            },
+            {
+              "word": " this",
+              "start": 75.4,
+              "end": 75.72
+            },
+            {
+              "word": " is",
+              "start": 75.72,
+              "end": 75.96
+            },
+            {
+              "word": " the",
+              "start": 75.96,
+              "end": 76.34
+            },
+            {
+              "word": " formula",
+              "start": 76.34,
+              "end": 76.78
+            },
+            {
+              "word": " to",
+              "start": 76.78,
+              "end": 77.08
+            },
+            {
+              "word": " find",
+              "start": 77.08,
+              "end": 77.44
+            },
+            {
+              "word": " out",
+              "start": 77.44,
+              "end": 77.66
+            },
+            {
+              "word": " the",
+              "start": 77.66,
+              "end": 77.9
+            },
+            {
+              "word": " minimum",
+              "start": 77.9,
+              "end": 78.32
+            },
+            {
+              "word": " number",
+              "start": 78.32,
+              "end": 78.74
+            },
+            {
+              "word": " of",
+              "start": 78.74,
+              "end": 78.92
+            },
+            {
+              "word": " equations",
+              "start": 78.92,
+              "end": 79.38
+            },
+            {
+              "word": " to",
+              "start": 79.38,
+              "end": 79.74
+            },
+            {
+              "word": " perform",
+              "start": 79.74,
+              "end": 80.22
+            },
+            {
+              "word": " the",
+              "start": 80.22,
+              "end": 80.5
+            },
+            {
+              "word": " analysis",
+              "start": 80.5,
+              "end": 81.02
+            }
+          ]
+        },
+        {
+          "start": 81.02,
+          "end": 89.3,
+          "text": "using the mesh analysis but when you read the question you will find no where it is written",
+          "words": [
+            {
+              "word": " using",
+              "start": 81.02,
+              "end": 81.86
+            },
+            {
+              "word": " the",
+              "start": 81.86,
+              "end": 82.6
+            },
+            {
+              "word": " mesh",
+              "start": 82.6,
+              "end": 83.0
+            },
+            {
+              "word": " analysis",
+              "start": 83.0,
+              "end": 83.78
+            },
+            {
+              "word": " but",
+              "start": 83.78,
+              "end": 84.62
+            },
+            {
+              "word": " when",
+              "start": 84.62,
+              "end": 84.86
+            },
+            {
+              "word": " you",
+              "start": 84.86,
+              "end": 85.0
+            },
+            {
+              "word": " read",
+              "start": 85.0,
+              "end": 85.32
+            },
+            {
+              "word": " the",
+              "start": 85.32,
+              "end": 85.64
+            },
+            {
+              "word": " question",
+              "start": 85.64,
+              "end": 86.12
+            },
+            {
+              "word": " you",
+              "start": 86.12,
+              "end": 86.9
+            },
+            {
+              "word": " will",
+              "start": 86.9,
+              "end": 87.04
+            },
+            {
+              "word": " find",
+              "start": 87.04,
+              "end": 87.48
+            },
+            {
+              "word": " no",
+              "start": 87.48,
+              "end": 88.14
+            },
+            {
+              "word": " where",
+              "start": 88.14,
+              "end": 88.44
+            },
+            {
+              "word": " it",
+              "start": 88.44,
+              "end": 88.62
+            },
+            {
+              "word": " is",
+              "start": 88.62,
+              "end": 88.86
+            },
+            {
+              "word": " written",
+              "start": 88.86,
+              "end": 89.3
+            }
+          ]
+        },
+        {
+          "start": 89.3,
+          "end": 95.64,
+          "text": "that we need to find the minimum number of equations to perform the mesh analysis and",
+          "words": [
+            {
+              "word": " that",
+              "start": 89.3,
+              "end": 89.68
+            },
+            {
+              "word": " we",
+              "start": 89.68,
+              "end": 89.86
+            },
+            {
+              "word": " need",
+              "start": 89.86,
+              "end": 90.02
+            },
+            {
+              "word": " to",
+              "start": 90.02,
+              "end": 90.22
+            },
+            {
+              "word": " find",
+              "start": 90.22,
+              "end": 90.56
+            },
+            {
+              "word": " the",
+              "start": 90.56,
+              "end": 90.82
+            },
+            {
+              "word": " minimum",
+              "start": 90.82,
+              "end": 91.16
+            },
+            {
+              "word": " number",
+              "start": 91.16,
+              "end": 91.52
+            },
+            {
+              "word": " of",
+              "start": 91.52,
+              "end": 91.7
+            },
+            {
+              "word": " equations",
+              "start": 91.7,
+              "end": 92.18
+            },
+            {
+              "word": " to",
+              "start": 92.18,
+              "end": 92.86
+            },
+            {
+              "word": " perform",
+              "start": 92.86,
+              "end": 93.36
+            },
+            {
+              "word": " the",
+              "start": 93.36,
+              "end": 93.68
+            },
+            {
+              "word": " mesh",
+              "start": 93.68,
+              "end": 94.04
+            },
+            {
+              "word": " analysis",
+              "start": 94.04,
+              "end": 94.82
+            },
+            {
+              "word": " and",
+              "start": 94.82,
+              "end": 95.64
+            }
+          ]
+        },
+        {
+          "start": 95.64,
+          "end": 104.06,
+          "text": "therefore to get the correct answer we also have to check the number of equations required",
+          "words": [
+            {
+              "word": " therefore",
+              "start": 95.64,
+              "end": 96.16
+            },
+            {
+              "word": " to",
+              "start": 96.16,
+              "end": 96.78
+            },
+            {
+              "word": " get",
+              "start": 96.78,
+              "end": 97.14
+            },
+            {
+              "word": " the",
+              "start": 97.14,
+              "end": 97.5
+            },
+            {
+              "word": " correct",
+              "start": 97.5,
+              "end": 97.84
+            },
+            {
+              "word": " answer",
+              "start": 97.84,
+              "end": 98.42
+            },
+            {
+              "word": " we",
+              "start": 98.42,
+              "end": 98.7
+            },
+            {
+              "word": " also",
+              "start": 98.7,
+              "end": 99.04
+            },
+            {
+              "word": " have",
+              "start": 99.04,
+              "end": 99.36
+            },
+            {
+              "word": " to",
+              "start": 99.36,
+              "end": 99.7
+            },
+            {
+              "word": " check",
+              "start": 99.7,
+              "end": 100.64
+            },
+            {
+              "word": " the",
+              "start": 100.64,
+              "end": 101.54
+            },
+            {
+              "word": " number",
+              "start": 101.54,
+              "end": 101.84
+            },
+            {
+              "word": " of",
+              "start": 101.84,
+              "end": 102.24
+            },
+            {
+              "word": " equations",
+              "start": 102.24,
+              "end": 103.08
+            },
+            {
+              "word": " required",
+              "start": 103.08,
+              "end": 104.06
+            }
+          ]
+        },
+        {
+          "start": 104.06,
+          "end": 112.74,
+          "text": "to perform the nodal analysis of the network and in the first lecture of the nodal analysis",
+          "words": [
+            {
+              "word": " to",
+              "start": 104.06,
+              "end": 104.42
+            },
+            {
+              "word": " perform",
+              "start": 104.42,
+              "end": 104.88
+            },
+            {
+              "word": " the",
+              "start": 104.88,
+              "end": 105.12
+            },
+            {
+              "word": " nodal",
+              "start": 105.12,
+              "end": 105.72
+            },
+            {
+              "word": " analysis",
+              "start": 105.72,
+              "end": 106.94
+            },
+            {
+              "word": " of",
+              "start": 106.94,
+              "end": 107.98
+            },
+            {
+              "word": " the",
+              "start": 107.98,
+              "end": 108.28
+            },
+            {
+              "word": " network",
+              "start": 108.28,
+              "end": 109.14
+            },
+            {
+              "word": " and",
+              "start": 109.14,
+              "end": 109.98
+            },
+            {
+              "word": " in",
+              "start": 109.98,
+              "end": 110.08
+            },
+            {
+              "word": " the",
+              "start": 110.08,
+              "end": 110.22
+            },
+            {
+              "word": " first",
+              "start": 110.22,
+              "end": 110.56
+            },
+            {
+              "word": " lecture",
+              "start": 110.56,
+              "end": 111.24
+            },
+            {
+              "word": " of",
+              "start": 111.24,
+              "end": 111.68
+            },
+            {
+              "word": " the",
+              "start": 111.68,
+              "end": 111.86
+            },
+            {
+              "word": " nodal",
+              "start": 111.86,
+              "end": 112.24
+            },
+            {
+              "word": " analysis",
+              "start": 112.24,
+              "end": 112.74
+            }
+          ]
+        },
+        {
+          "start": 112.74,
+          "end": 118.98,
+          "text": "I gave you the formula to find out the minimum number of equations and the minimum number of",
+          "words": [
+            {
+              "word": " I",
+              "start": 112.74,
+              "end": 113.34
+            },
+            {
+              "word": " gave",
+              "start": 113.34,
+              "end": 113.62
+            },
+            {
+              "word": " you",
+              "start": 113.62,
+              "end": 113.88
+            },
+            {
+              "word": " the",
+              "start": 113.88,
+              "end": 114.06
+            },
+            {
+              "word": " formula",
+              "start": 114.06,
+              "end": 114.5
+            },
+            {
+              "word": " to",
+              "start": 114.5,
+              "end": 114.78
+            },
+            {
+              "word": " find",
+              "start": 114.78,
+              "end": 115.14
+            },
+            {
+              "word": " out",
+              "start": 115.14,
+              "end": 115.38
+            },
+            {
+              "word": " the",
+              "start": 115.38,
+              "end": 115.6
+            },
+            {
+              "word": " minimum",
+              "start": 115.6,
+              "end": 115.98
+            },
+            {
+              "word": " number",
+              "start": 115.98,
+              "end": 116.38
+            },
+            {
+              "word": " of",
+              "start": 116.38,
+              "end": 116.64
+            },
+            {
+              "word": " equations",
+              "start": 116.64,
+              "end": 117.18
+            },
+            {
+              "word": " and",
+              "start": 117.18,
+              "end": 118.04
+            },
+            {
+              "word": " the",
+              "start": 118.04,
+              "end": 118.18
+            },
+            {
+              "word": " minimum",
+              "start": 118.18,
+              "end": 118.48
+            },
+            {
+              "word": " number",
+              "start": 118.48,
+              "end": 118.8
+            },
+            {
+              "word": " of",
+              "start": 118.8,
+              "end": 118.98
+            }
+          ]
+        },
+        {
+          "start": 118.98,
+          "end": 129.96,
+          "text": "equations E is equal to the number of principal nodes minus one. So by using this formula we",
+          "words": [
+            {
+              "word": " equations",
+              "start": 118.98,
+              "end": 119.5
+            },
+            {
+              "word": " E",
+              "start": 119.5,
+              "end": 120.04
+            },
+            {
+              "word": " is",
+              "start": 120.04,
+              "end": 121.26
+            },
+            {
+              "word": " equal",
+              "start": 121.26,
+              "end": 121.72
+            },
+            {
+              "word": " to",
+              "start": 121.72,
+              "end": 123.72
+            },
+            {
+              "word": " the",
+              "start": 123.72,
+              "end": 123.84
+            },
+            {
+              "word": " number",
+              "start": 123.84,
+              "end": 124.14
+            },
+            {
+              "word": " of",
+              "start": 124.14,
+              "end": 124.38
+            },
+            {
+              "word": " principal",
+              "start": 124.38,
+              "end": 124.76
+            },
+            {
+              "word": " nodes",
+              "start": 124.76,
+              "end": 125.34
+            },
+            {
+              "word": " minus",
+              "start": 125.34,
+              "end": 126.22
+            },
+            {
+              "word": " one.",
+              "start": 126.22,
+              "end": 127.18
+            },
+            {
+              "word": " So",
+              "start": 127.72,
+              "end": 127.98
+            },
+            {
+              "word": " by",
+              "start": 127.98,
+              "end": 128.26
+            },
+            {
+              "word": " using",
+              "start": 128.26,
+              "end": 128.62
+            },
+            {
+              "word": " this",
+              "start": 128.62,
+              "end": 129.22
+            },
+            {
+              "word": " formula",
+              "start": 129.22,
+              "end": 129.74
+            },
+            {
+              "word": " we",
+              "start": 129.74,
+              "end": 129.96
+            }
+          ]
+        },
+        {
+          "start": 129.96,
+          "end": 136.6,
+          "text": "can find out the minimum number of equations required to perform the analysis of the network",
+          "words": [
+            {
+              "word": " can",
+              "start": 129.96,
+              "end": 130.18
+            },
+            {
+              "word": " find",
+              "start": 130.18,
+              "end": 130.5
+            },
+            {
+              "word": " out",
+              "start": 130.5,
+              "end": 130.82
+            },
+            {
+              "word": " the",
+              "start": 130.82,
+              "end": 131.06
+            },
+            {
+              "word": " minimum",
+              "start": 131.06,
+              "end": 131.44
+            },
+            {
+              "word": " number",
+              "start": 131.44,
+              "end": 131.84
+            },
+            {
+              "word": " of",
+              "start": 131.84,
+              "end": 132.02
+            },
+            {
+              "word": " equations",
+              "start": 132.02,
+              "end": 132.54
+            },
+            {
+              "word": " required",
+              "start": 132.54,
+              "end": 133.2
+            },
+            {
+              "word": " to",
+              "start": 133.2,
+              "end": 133.68
+            },
+            {
+              "word": " perform",
+              "start": 133.68,
+              "end": 134.16
+            },
+            {
+              "word": " the",
+              "start": 134.16,
+              "end": 134.94
+            },
+            {
+              "word": " analysis",
+              "start": 134.94,
+              "end": 135.4
+            },
+            {
+              "word": " of",
+              "start": 135.4,
+              "end": 135.96
+            },
+            {
+              "word": " the",
+              "start": 135.96,
+              "end": 136.14
+            },
+            {
+              "word": " network",
+              "start": 136.14,
+              "end": 136.6
+            }
+          ]
+        },
+        {
+          "start": 136.6,
+          "end": 147.54,
+          "text": "using the nodal analysis method so you can see that we need the total number of branches and",
+          "words": [
+            {
+              "word": " using",
+              "start": 136.6,
+              "end": 137.28
+            },
+            {
+              "word": " the",
+              "start": 137.28,
+              "end": 138.04
+            },
+            {
+              "word": " nodal",
+              "start": 138.04,
+              "end": 138.62
+            },
+            {
+              "word": " analysis",
+              "start": 138.62,
+              "end": 139.3
+            },
+            {
+              "word": " method",
+              "start": 139.3,
+              "end": 140.12
+            },
+            {
+              "word": " so",
+              "start": 140.12,
+              "end": 140.98
+            },
+            {
+              "word": " you",
+              "start": 140.98,
+              "end": 141.16
+            },
+            {
+              "word": " can",
+              "start": 141.16,
+              "end": 141.44
+            },
+            {
+              "word": " see",
+              "start": 141.44,
+              "end": 141.86
+            },
+            {
+              "word": " that",
+              "start": 141.86,
+              "end": 142.22
+            },
+            {
+              "word": " we",
+              "start": 142.22,
+              "end": 142.86
+            },
+            {
+              "word": " need",
+              "start": 142.86,
+              "end": 143.28
+            },
+            {
+              "word": " the",
+              "start": 143.28,
+              "end": 144.9
+            },
+            {
+              "word": " total",
+              "start": 144.9,
+              "end": 145.24
+            },
+            {
+              "word": " number",
+              "start": 145.24,
+              "end": 145.66
+            },
+            {
+              "word": " of",
+              "start": 145.66,
+              "end": 146.0
+            },
+            {
+              "word": " branches",
+              "start": 146.0,
+              "end": 146.66
+            },
+            {
+              "word": " and",
+              "start": 146.66,
+              "end": 147.54
+            }
+          ]
+        },
+        {
+          "start": 147.54,
+          "end": 159.28,
+          "text": "the total number of principal nodes and in our network we have one branch here this is one branch",
+          "words": [
+            {
+              "word": " the",
+              "start": 147.54,
+              "end": 148.02
+            },
+            {
+              "word": " total",
+              "start": 148.02,
+              "end": 148.36
+            },
+            {
+              "word": " number",
+              "start": 148.36,
+              "end": 148.78
+            },
+            {
+              "word": " of",
+              "start": 148.78,
+              "end": 149.18
+            },
+            {
+              "word": " principal",
+              "start": 149.18,
+              "end": 149.88
+            },
+            {
+              "word": " nodes",
+              "start": 149.88,
+              "end": 150.74
+            },
+            {
+              "word": " and",
+              "start": 150.74,
+              "end": 151.46
+            },
+            {
+              "word": " in",
+              "start": 151.46,
+              "end": 151.6
+            },
+            {
+              "word": " our",
+              "start": 151.6,
+              "end": 151.84
+            },
+            {
+              "word": " network",
+              "start": 151.84,
+              "end": 152.6
+            },
+            {
+              "word": " we",
+              "start": 152.6,
+              "end": 153.18
+            },
+            {
+              "word": " have",
+              "start": 153.18,
+              "end": 153.54
+            },
+            {
+              "word": " one",
+              "start": 153.54,
+              "end": 156.36
+            },
+            {
+              "word": " branch",
+              "start": 156.36,
+              "end": 156.92
+            },
+            {
+              "word": " here",
+              "start": 156.92,
+              "end": 157.36
+            },
+            {
+              "word": " this",
+              "start": 157.36,
+              "end": 158.06
+            },
+            {
+              "word": " is",
+              "start": 158.06,
+              "end": 158.32
+            },
+            {
+              "word": " one",
+              "start": 158.32,
+              "end": 158.74
+            },
+            {
+              "word": " branch",
+              "start": 158.74,
+              "end": 159.28
+            }
+          ]
+        },
+        {
+          "start": 159.28,
+          "end": 166.48,
+          "text": "because in this wire one element is there and following the same definition we can say that",
+          "words": [
+            {
+              "word": " because",
+              "start": 159.28,
+              "end": 159.72
+            },
+            {
+              "word": " in",
+              "start": 159.72,
+              "end": 160.16
+            },
+            {
+              "word": " this",
+              "start": 160.16,
+              "end": 160.4
+            },
+            {
+              "word": " wire",
+              "start": 160.4,
+              "end": 160.94
+            },
+            {
+              "word": " one",
+              "start": 160.94,
+              "end": 161.32
+            },
+            {
+              "word": " element",
+              "start": 161.32,
+              "end": 161.66
+            },
+            {
+              "word": " is",
+              "start": 161.66,
+              "end": 162.14
+            },
+            {
+              "word": " there",
+              "start": 162.14,
+              "end": 162.7
+            },
+            {
+              "word": " and",
+              "start": 162.7,
+              "end": 163.7
+            },
+            {
+              "word": " following",
+              "start": 163.7,
+              "end": 164.32
+            },
+            {
+              "word": " the",
+              "start": 164.32,
+              "end": 164.6
+            },
+            {
+              "word": " same",
+              "start": 164.6,
+              "end": 164.9
+            },
+            {
+              "word": " definition",
+              "start": 164.9,
+              "end": 165.42
+            },
+            {
+              "word": " we",
+              "start": 165.42,
+              "end": 165.7
+            },
+            {
+              "word": " can",
+              "start": 165.7,
+              "end": 165.92
+            },
+            {
+              "word": " say",
+              "start": 165.92,
+              "end": 166.14
+            },
+            {
+              "word": " that",
+              "start": 166.14,
+              "end": 166.48
+            }
+          ]
+        },
+        {
+          "start": 166.48,
+          "end": 179.98,
+          "text": "this is branch number two and this is branch number three this is branch number four this is",
+          "words": [
+            {
+              "word": " this",
+              "start": 166.48,
+              "end": 167.32
+            },
+            {
+              "word": " is",
+              "start": 167.32,
+              "end": 167.66
+            },
+            {
+              "word": " branch",
+              "start": 167.66,
+              "end": 169.2
+            },
+            {
+              "word": " number",
+              "start": 169.2,
+              "end": 169.82
+            },
+            {
+              "word": " two",
+              "start": 169.82,
+              "end": 170.14
+            },
+            {
+              "word": " and",
+              "start": 170.14,
+              "end": 170.86
+            },
+            {
+              "word": " this",
+              "start": 170.86,
+              "end": 171.14
+            },
+            {
+              "word": " is",
+              "start": 171.14,
+              "end": 171.42
+            },
+            {
+              "word": " branch",
+              "start": 171.42,
+              "end": 172.78
+            },
+            {
+              "word": " number",
+              "start": 172.78,
+              "end": 173.52
+            },
+            {
+              "word": " three",
+              "start": 173.52,
+              "end": 174.3
+            },
+            {
+              "word": " this",
+              "start": 174.3,
+              "end": 175.38
+            },
+            {
+              "word": " is",
+              "start": 175.38,
+              "end": 175.68
+            },
+            {
+              "word": " branch",
+              "start": 175.68,
+              "end": 176.58
+            },
+            {
+              "word": " number",
+              "start": 176.58,
+              "end": 177.72
+            },
+            {
+              "word": " four",
+              "start": 177.72,
+              "end": 178.68
+            },
+            {
+              "word": " this",
+              "start": 178.68,
+              "end": 179.7
+            },
+            {
+              "word": " is",
+              "start": 179.7,
+              "end": 179.98
+            }
+          ]
+        },
+        {
+          "start": 179.98,
+          "end": 189.32,
+          "text": "branch number five this one here is branch number six this one is branch number seven",
+          "words": [
+            {
+              "word": " branch",
+              "start": 179.98,
+              "end": 180.84
+            },
+            {
+              "word": " number",
+              "start": 180.84,
+              "end": 181.5
+            },
+            {
+              "word": " five",
+              "start": 181.5,
+              "end": 182.36
+            },
+            {
+              "word": " this",
+              "start": 182.36,
+              "end": 183.46
+            },
+            {
+              "word": " one",
+              "start": 183.46,
+              "end": 183.72
+            },
+            {
+              "word": " here",
+              "start": 183.72,
+              "end": 184.02
+            },
+            {
+              "word": " is",
+              "start": 184.02,
+              "end": 184.78
+            },
+            {
+              "word": " branch",
+              "start": 184.78,
+              "end": 185.26
+            },
+            {
+              "word": " number",
+              "start": 185.26,
+              "end": 185.76
+            },
+            {
+              "word": " six",
+              "start": 185.76,
+              "end": 186.2
+            },
+            {
+              "word": " this",
+              "start": 186.2,
+              "end": 186.92
+            },
+            {
+              "word": " one",
+              "start": 186.92,
+              "end": 187.32
+            },
+            {
+              "word": " is",
+              "start": 187.32,
+              "end": 187.78
+            },
+            {
+              "word": " branch",
+              "start": 187.78,
+              "end": 188.32
+            },
+            {
+              "word": " number",
+              "start": 188.32,
+              "end": 188.84
+            },
+            {
+              "word": " seven",
+              "start": 188.84,
+              "end": 189.32
+            }
+          ]
+        },
+        {
+          "start": 189.32,
+          "end": 199.44,
+          "text": "and the final one is our branch number eight so now we know the number of branches is equal to",
+          "words": [
+            {
+              "word": " and",
+              "start": 189.32,
+              "end": 190.1
+            },
+            {
+              "word": " the",
+              "start": 190.1,
+              "end": 190.24
+            },
+            {
+              "word": " final",
+              "start": 190.24,
+              "end": 190.66
+            },
+            {
+              "word": " one",
+              "start": 190.66,
+              "end": 191.16
+            },
+            {
+              "word": " is",
+              "start": 191.16,
+              "end": 192.54
+            },
+            {
+              "word": " our",
+              "start": 192.54,
+              "end": 192.76
+            },
+            {
+              "word": " branch",
+              "start": 192.76,
+              "end": 193.44
+            },
+            {
+              "word": " number",
+              "start": 193.44,
+              "end": 193.94
+            },
+            {
+              "word": " eight",
+              "start": 193.94,
+              "end": 194.38
+            },
+            {
+              "word": " so",
+              "start": 194.38,
+              "end": 195.16
+            },
+            {
+              "word": " now",
+              "start": 195.16,
+              "end": 195.38
+            },
+            {
+              "word": " we",
+              "start": 195.38,
+              "end": 195.58
+            },
+            {
+              "word": " know",
+              "start": 195.58,
+              "end": 195.88
+            },
+            {
+              "word": " the",
+              "start": 195.88,
+              "end": 196.56
+            },
+            {
+              "word": " number",
+              "start": 196.56,
+              "end": 196.9
+            },
+            {
+              "word": " of",
+              "start": 196.9,
+              "end": 197.3
+            },
+            {
+              "word": " branches",
+              "start": 197.3,
+              "end": 198.12
+            },
+            {
+              "word": " is",
+              "start": 198.12,
+              "end": 198.84
+            },
+            {
+              "word": " equal",
+              "start": 198.84,
+              "end": 199.22
+            },
+            {
+              "word": " to",
+              "start": 199.22,
+              "end": 199.44
+            }
+          ]
+        },
+        {
+          "start": 199.44,
+          "end": 206.84,
+          "text": "eight in this network and it's time to find out the number of principal nodes and we know what",
+          "words": [
+            {
+              "word": " eight",
+              "start": 199.44,
+              "end": 199.72
+            },
+            {
+              "word": " in",
+              "start": 199.72,
+              "end": 200.02
+            },
+            {
+              "word": " this",
+              "start": 200.02,
+              "end": 200.26
+            },
+            {
+              "word": " network",
+              "start": 200.26,
+              "end": 200.92
+            },
+            {
+              "word": " and",
+              "start": 200.92,
+              "end": 201.66
+            },
+            {
+              "word": " it's",
+              "start": 201.66,
+              "end": 202.0
+            },
+            {
+              "word": " time",
+              "start": 202.0,
+              "end": 202.5
+            },
+            {
+              "word": " to",
+              "start": 202.5,
+              "end": 202.8
+            },
+            {
+              "word": " find",
+              "start": 202.8,
+              "end": 203.12
+            },
+            {
+              "word": " out",
+              "start": 203.12,
+              "end": 203.5
+            },
+            {
+              "word": " the",
+              "start": 203.5,
+              "end": 203.94
+            },
+            {
+              "word": " number",
+              "start": 203.94,
+              "end": 204.22
+            },
+            {
+              "word": " of",
+              "start": 204.22,
+              "end": 204.6
+            },
+            {
+              "word": " principal",
+              "start": 204.6,
+              "end": 205.14
+            },
+            {
+              "word": " nodes",
+              "start": 205.14,
+              "end": 205.72
+            },
+            {
+              "word": " and",
+              "start": 205.72,
+              "end": 206.38
+            },
+            {
+              "word": " we",
+              "start": 206.38,
+              "end": 206.54
+            },
+            {
+              "word": " know",
+              "start": 206.54,
+              "end": 206.64
+            },
+            {
+              "word": " what",
+              "start": 206.64,
+              "end": 206.84
+            }
+          ]
+        },
+        {
+          "start": 206.84,
+          "end": 214.56,
+          "text": "is a principal node a principal node is the common point of connection where more than two elements",
+          "words": [
+            {
+              "word": " is",
+              "start": 206.84,
+              "end": 207.08
+            },
+            {
+              "word": " a",
+              "start": 207.08,
+              "end": 207.3
+            },
+            {
+              "word": " principal",
+              "start": 207.3,
+              "end": 207.66
+            },
+            {
+              "word": " node",
+              "start": 207.66,
+              "end": 208.18
+            },
+            {
+              "word": " a",
+              "start": 208.18,
+              "end": 208.76
+            },
+            {
+              "word": " principal",
+              "start": 208.76,
+              "end": 209.18
+            },
+            {
+              "word": " node",
+              "start": 209.18,
+              "end": 209.66
+            },
+            {
+              "word": " is",
+              "start": 209.66,
+              "end": 210.04
+            },
+            {
+              "word": " the",
+              "start": 210.04,
+              "end": 210.22
+            },
+            {
+              "word": " common",
+              "start": 210.22,
+              "end": 210.64
+            },
+            {
+              "word": " point",
+              "start": 210.64,
+              "end": 211.1
+            },
+            {
+              "word": " of",
+              "start": 211.1,
+              "end": 211.68
+            },
+            {
+              "word": " connection",
+              "start": 211.68,
+              "end": 212.2
+            },
+            {
+              "word": " where",
+              "start": 212.2,
+              "end": 213.14
+            },
+            {
+              "word": " more",
+              "start": 213.14,
+              "end": 213.74
+            },
+            {
+              "word": " than",
+              "start": 213.74,
+              "end": 213.98
+            },
+            {
+              "word": " two",
+              "start": 213.98,
+              "end": 214.22
+            },
+            {
+              "word": " elements",
+              "start": 214.22,
+              "end": 214.56
+            }
+          ]
+        },
+        {
+          "start": 214.56,
+          "end": 225.56,
+          "text": "are connected for example this is our principal node let's call it n1 and this node is the node at which",
+          "words": [
+            {
+              "word": " are",
+              "start": 214.56,
+              "end": 215.0
+            },
+            {
+              "word": " connected",
+              "start": 215.0,
+              "end": 215.68
+            },
+            {
+              "word": " for",
+              "start": 215.68,
+              "end": 216.24
+            },
+            {
+              "word": " example",
+              "start": 216.24,
+              "end": 216.8
+            },
+            {
+              "word": " this",
+              "start": 216.8,
+              "end": 217.7
+            },
+            {
+              "word": " is",
+              "start": 217.7,
+              "end": 218.04
+            },
+            {
+              "word": " our",
+              "start": 218.04,
+              "end": 219.26
+            },
+            {
+              "word": " principal",
+              "start": 219.26,
+              "end": 219.74
+            },
+            {
+              "word": " node",
+              "start": 219.74,
+              "end": 220.38
+            },
+            {
+              "word": " let's",
+              "start": 220.38,
+              "end": 220.98
+            },
+            {
+              "word": " call",
+              "start": 220.98,
+              "end": 221.26
+            },
+            {
+              "word": " it",
+              "start": 221.26,
+              "end": 221.58
+            },
+            {
+              "word": " n1",
+              "start": 221.58,
+              "end": 222.24
+            },
+            {
+              "word": " and",
+              "start": 222.24,
+              "end": 222.92
+            },
+            {
+              "word": " this",
+              "start": 222.92,
+              "end": 223.22
+            },
+            {
+              "word": " node",
+              "start": 223.22,
+              "end": 223.9
+            },
+            {
+              "word": " is",
+              "start": 223.9,
+              "end": 224.3
+            },
+            {
+              "word": " the",
+              "start": 224.3,
+              "end": 224.5
+            },
+            {
+              "word": " node",
+              "start": 224.5,
+              "end": 224.8
+            },
+            {
+              "word": " at",
+              "start": 224.8,
+              "end": 225.18
+            },
+            {
+              "word": " which",
+              "start": 225.18,
+              "end": 225.56
+            }
+          ]
+        },
+        {
+          "start": 226.52,
+          "end": 240.38,
+          "text": "one two and three elements are connected similarly this is our node two this is our node three and",
+          "words": [
+            {
+              "word": " one",
+              "start": 226.52,
+              "end": 227.12
+            },
+            {
+              "word": " two",
+              "start": 227.12,
+              "end": 229.1
+            },
+            {
+              "word": " and",
+              "start": 229.1,
+              "end": 229.98
+            },
+            {
+              "word": " three",
+              "start": 229.98,
+              "end": 230.38
+            },
+            {
+              "word": " elements",
+              "start": 230.38,
+              "end": 231.06
+            },
+            {
+              "word": " are",
+              "start": 231.06,
+              "end": 231.48
+            },
+            {
+              "word": " connected",
+              "start": 231.48,
+              "end": 232.1
+            },
+            {
+              "word": " similarly",
+              "start": 232.1,
+              "end": 233.08
+            },
+            {
+              "word": " this",
+              "start": 233.08,
+              "end": 234.18
+            },
+            {
+              "word": " is",
+              "start": 234.18,
+              "end": 234.62
+            },
+            {
+              "word": " our",
+              "start": 234.62,
+              "end": 235.54
+            },
+            {
+              "word": " node",
+              "start": 235.54,
+              "end": 236.18
+            },
+            {
+              "word": " two",
+              "start": 236.18,
+              "end": 236.6
+            },
+            {
+              "word": " this",
+              "start": 236.6,
+              "end": 237.4
+            },
+            {
+              "word": " is",
+              "start": 237.4,
+              "end": 237.78
+            },
+            {
+              "word": " our",
+              "start": 237.78,
+              "end": 238.48
+            },
+            {
+              "word": " node",
+              "start": 238.48,
+              "end": 239.2
+            },
+            {
+              "word": " three",
+              "start": 239.2,
+              "end": 239.66
+            },
+            {
+              "word": " and",
+              "start": 239.66,
+              "end": 240.38
+            }
+          ]
+        },
+        {
+          "start": 240.38,
+          "end": 248.28,
+          "text": "this node here is also node three because this wire is not having any element and therefore we can",
+          "words": [
+            {
+              "word": " this",
+              "start": 240.38,
+              "end": 240.62
+            },
+            {
+              "word": " node",
+              "start": 240.62,
+              "end": 240.94
+            },
+            {
+              "word": " here",
+              "start": 240.94,
+              "end": 241.26
+            },
+            {
+              "word": " is",
+              "start": 241.26,
+              "end": 242.02
+            },
+            {
+              "word": " also",
+              "start": 242.02,
+              "end": 242.4
+            },
+            {
+              "word": " node",
+              "start": 242.4,
+              "end": 242.78
+            },
+            {
+              "word": " three",
+              "start": 242.78,
+              "end": 243.2
+            },
+            {
+              "word": " because",
+              "start": 243.2,
+              "end": 243.92
+            },
+            {
+              "word": " this",
+              "start": 243.92,
+              "end": 244.48
+            },
+            {
+              "word": " wire",
+              "start": 244.48,
+              "end": 244.92
+            },
+            {
+              "word": " is",
+              "start": 244.92,
+              "end": 245.48
+            },
+            {
+              "word": " not",
+              "start": 245.48,
+              "end": 245.84
+            },
+            {
+              "word": " having",
+              "start": 245.84,
+              "end": 246.24
+            },
+            {
+              "word": " any",
+              "start": 246.24,
+              "end": 246.44
+            },
+            {
+              "word": " element",
+              "start": 246.44,
+              "end": 246.82
+            },
+            {
+              "word": " and",
+              "start": 246.82,
+              "end": 247.4
+            },
+            {
+              "word": " therefore",
+              "start": 247.4,
+              "end": 247.82
+            },
+            {
+              "word": " we",
+              "start": 247.82,
+              "end": 248.12
+            },
+            {
+              "word": " can",
+              "start": 248.12,
+              "end": 248.28
+            }
+          ]
+        },
+        {
+          "start": 248.28,
+          "end": 257.66,
+          "text": "combine them and have a single node which is node number three this is our node number four and this",
+          "words": [
+            {
+              "word": " combine",
+              "start": 248.28,
+              "end": 248.68
+            },
+            {
+              "word": " them",
+              "start": 248.68,
+              "end": 249.04
+            },
+            {
+              "word": " and",
+              "start": 249.04,
+              "end": 249.42
+            },
+            {
+              "word": " have",
+              "start": 249.42,
+              "end": 249.6
+            },
+            {
+              "word": " a",
+              "start": 249.6,
+              "end": 249.74
+            },
+            {
+              "word": " single",
+              "start": 249.74,
+              "end": 250.0
+            },
+            {
+              "word": " node",
+              "start": 250.0,
+              "end": 250.46
+            },
+            {
+              "word": " which",
+              "start": 250.46,
+              "end": 250.92
+            },
+            {
+              "word": " is",
+              "start": 250.92,
+              "end": 251.2
+            },
+            {
+              "word": " node",
+              "start": 251.2,
+              "end": 251.64
+            },
+            {
+              "word": " number",
+              "start": 251.64,
+              "end": 252.02
+            },
+            {
+              "word": " three",
+              "start": 252.02,
+              "end": 252.62
+            },
+            {
+              "word": " this",
+              "start": 252.62,
+              "end": 253.48
+            },
+            {
+              "word": " is",
+              "start": 253.48,
+              "end": 253.8
+            },
+            {
+              "word": " our",
+              "start": 253.8,
+              "end": 254.86
+            },
+            {
+              "word": " node",
+              "start": 254.86,
+              "end": 256.06
+            },
+            {
+              "word": " number",
+              "start": 256.06,
+              "end": 256.58
+            },
+            {
+              "word": " four",
+              "start": 256.58,
+              "end": 257.02
+            },
+            {
+              "word": " and",
+              "start": 257.02,
+              "end": 257.42
+            },
+            {
+              "word": " this",
+              "start": 257.42,
+              "end": 257.66
+            }
+          ]
+        },
+        {
+          "start": 257.66,
+          "end": 268.18,
+          "text": "one is node number five so the total number of principal nodes is equal to five now we will put",
+          "words": [
+            {
+              "word": " one",
+              "start": 257.66,
+              "end": 258.08
+            },
+            {
+              "word": " is",
+              "start": 258.08,
+              "end": 258.96
+            },
+            {
+              "word": " node",
+              "start": 258.96,
+              "end": 259.6
+            },
+            {
+              "word": " number",
+              "start": 259.6,
+              "end": 260.1
+            },
+            {
+              "word": " five",
+              "start": 260.1,
+              "end": 260.52
+            },
+            {
+              "word": " so",
+              "start": 260.52,
+              "end": 261.54
+            },
+            {
+              "word": " the",
+              "start": 261.54,
+              "end": 261.72
+            },
+            {
+              "word": " total",
+              "start": 261.72,
+              "end": 262.1
+            },
+            {
+              "word": " number",
+              "start": 262.1,
+              "end": 263.16
+            },
+            {
+              "word": " of",
+              "start": 263.16,
+              "end": 263.86
+            },
+            {
+              "word": " principal",
+              "start": 263.86,
+              "end": 264.5
+            },
+            {
+              "word": " nodes",
+              "start": 264.5,
+              "end": 265.06
+            },
+            {
+              "word": " is",
+              "start": 265.06,
+              "end": 265.64
+            },
+            {
+              "word": " equal",
+              "start": 265.64,
+              "end": 266.1
+            },
+            {
+              "word": " to",
+              "start": 266.1,
+              "end": 266.48
+            },
+            {
+              "word": " five",
+              "start": 266.48,
+              "end": 266.78
+            },
+            {
+              "word": " now",
+              "start": 266.78,
+              "end": 267.58
+            },
+            {
+              "word": " we",
+              "start": 267.58,
+              "end": 267.76
+            },
+            {
+              "word": " will",
+              "start": 267.76,
+              "end": 267.88
+            },
+            {
+              "word": " put",
+              "start": 267.88,
+              "end": 268.18
+            }
+          ]
+        },
+        {
+          "start": 268.18,
+          "end": 276.14,
+          "text": "these values in this equation and this equation from here we will have the number of equations",
+          "words": [
+            {
+              "word": " these",
+              "start": 268.18,
+              "end": 268.7
+            },
+            {
+              "word": " values",
+              "start": 268.7,
+              "end": 269.28
+            },
+            {
+              "word": " in",
+              "start": 269.28,
+              "end": 269.88
+            },
+            {
+              "word": " this",
+              "start": 269.88,
+              "end": 270.1
+            },
+            {
+              "word": " equation",
+              "start": 270.1,
+              "end": 270.58
+            },
+            {
+              "word": " and",
+              "start": 270.58,
+              "end": 271.1
+            },
+            {
+              "word": " this",
+              "start": 271.1,
+              "end": 271.32
+            },
+            {
+              "word": " equation",
+              "start": 271.32,
+              "end": 271.82
+            },
+            {
+              "word": " from",
+              "start": 271.82,
+              "end": 272.66
+            },
+            {
+              "word": " here",
+              "start": 272.66,
+              "end": 272.94
+            },
+            {
+              "word": " we",
+              "start": 272.94,
+              "end": 273.1
+            },
+            {
+              "word": " will",
+              "start": 273.1,
+              "end": 273.26
+            },
+            {
+              "word": " have",
+              "start": 273.26,
+              "end": 273.64
+            },
+            {
+              "word": " the",
+              "start": 273.64,
+              "end": 275.08
+            },
+            {
+              "word": " number",
+              "start": 275.08,
+              "end": 275.38
+            },
+            {
+              "word": " of",
+              "start": 275.38,
+              "end": 275.58
+            },
+            {
+              "word": " equations",
+              "start": 275.58,
+              "end": 276.14
+            }
+          ]
+        },
+        {
+          "start": 276.78,
+          "end": 285.86,
+          "text": "equal to eight minus five minus one when you solve it you will get the number of equations",
+          "words": [
+            {
+              "word": " equal",
+              "start": 276.78,
+              "end": 277.26
+            },
+            {
+              "word": " to",
+              "start": 277.26,
+              "end": 278.16
+            },
+            {
+              "word": " eight",
+              "start": 278.16,
+              "end": 278.5
+            },
+            {
+              "word": " minus",
+              "start": 278.5,
+              "end": 279.42
+            },
+            {
+              "word": " five",
+              "start": 279.42,
+              "end": 280.58
+            },
+            {
+              "word": " minus",
+              "start": 280.58,
+              "end": 281.54
+            },
+            {
+              "word": " one",
+              "start": 281.54,
+              "end": 282.3
+            },
+            {
+              "word": " when",
+              "start": 282.3,
+              "end": 283.2
+            },
+            {
+              "word": " you",
+              "start": 283.2,
+              "end": 283.36
+            },
+            {
+              "word": " solve",
+              "start": 283.36,
+              "end": 283.62
+            },
+            {
+              "word": " it",
+              "start": 283.62,
+              "end": 283.9
+            },
+            {
+              "word": " you",
+              "start": 283.9,
+              "end": 284.22
+            },
+            {
+              "word": " will",
+              "start": 284.22,
+              "end": 284.34
+            },
+            {
+              "word": " get",
+              "start": 284.34,
+              "end": 284.58
+            },
+            {
+              "word": " the",
+              "start": 284.58,
+              "end": 284.9
+            },
+            {
+              "word": " number",
+              "start": 284.9,
+              "end": 285.16
+            },
+            {
+              "word": " of",
+              "start": 285.16,
+              "end": 285.3
+            },
+            {
+              "word": " equations",
+              "start": 285.3,
+              "end": 285.86
+            }
+          ]
+        },
+        {
+          "start": 286.7,
+          "end": 295.42,
+          "text": "is equal to four and from here we will get the number of equations equal to five minus one",
+          "words": [
+            {
+              "word": " is",
+              "start": 286.60999999999996,
+              "end": 287.02
+            },
+            {
+              "word": " equal",
+              "start": 287.02,
+              "end": 287.46
+            },
+            {
+              "word": " to",
+              "start": 287.46,
+              "end": 287.9
+            },
+            {
+              "word": " four",
+              "start": 287.9,
+              "end": 288.32
+            },
+            {
+              "word": " and",
+              "start": 288.32,
+              "end": 289.18
+            },
+            {
+              "word": " from",
+              "start": 289.18,
+              "end": 289.46
+            },
+            {
+              "word": " here",
+              "start": 289.46,
+              "end": 289.7
+            },
+            {
+              "word": " we",
+              "start": 289.7,
+              "end": 289.88
+            },
+            {
+              "word": " will",
+              "start": 289.88,
+              "end": 290.14
+            },
+            {
+              "word": " get",
+              "start": 290.14,
+              "end": 290.7
+            },
+            {
+              "word": " the",
+              "start": 290.7,
+              "end": 291.08
+            },
+            {
+              "word": " number",
+              "start": 291.08,
+              "end": 291.32
+            },
+            {
+              "word": " of",
+              "start": 291.32,
+              "end": 291.5
+            },
+            {
+              "word": " equations",
+              "start": 291.5,
+              "end": 292.06
+            },
+            {
+              "word": " equal",
+              "start": 292.06,
+              "end": 292.9
+            },
+            {
+              "word": " to",
+              "start": 292.9,
+              "end": 293.92
+            },
+            {
+              "word": " five",
+              "start": 293.92,
+              "end": 294.3
+            },
+            {
+              "word": " minus",
+              "start": 294.3,
+              "end": 294.96
+            },
+            {
+              "word": " one",
+              "start": 294.96,
+              "end": 295.42
+            }
+          ]
+        },
+        {
+          "start": 295.42,
+          "end": 304.6,
+          "text": "that is e is equal to four so we need four equations to perform the mesh analysis of this",
+          "words": [
+            {
+              "word": " that",
+              "start": 295.42,
+              "end": 296.24
+            },
+            {
+              "word": " is",
+              "start": 296.24,
+              "end": 296.5
+            },
+            {
+              "word": " e",
+              "start": 296.5,
+              "end": 297.34
+            },
+            {
+              "word": " is",
+              "start": 297.34,
+              "end": 298.12
+            },
+            {
+              "word": " equal",
+              "start": 298.12,
+              "end": 298.52
+            },
+            {
+              "word": " to",
+              "start": 298.52,
+              "end": 298.98
+            },
+            {
+              "word": " four",
+              "start": 298.98,
+              "end": 299.38
+            },
+            {
+              "word": " so",
+              "start": 299.38,
+              "end": 300.6
+            },
+            {
+              "word": " we",
+              "start": 300.6,
+              "end": 300.82
+            },
+            {
+              "word": " need",
+              "start": 300.82,
+              "end": 301.1
+            },
+            {
+              "word": " four",
+              "start": 301.1,
+              "end": 301.54
+            },
+            {
+              "word": " equations",
+              "start": 301.54,
+              "end": 301.98
+            },
+            {
+              "word": " to",
+              "start": 301.98,
+              "end": 302.38
+            },
+            {
+              "word": " perform",
+              "start": 302.38,
+              "end": 302.8
+            },
+            {
+              "word": " the",
+              "start": 302.8,
+              "end": 303.04
+            },
+            {
+              "word": " mesh",
+              "start": 303.04,
+              "end": 303.26
+            },
+            {
+              "word": " analysis",
+              "start": 303.26,
+              "end": 303.64
+            },
+            {
+              "word": " of",
+              "start": 303.64,
+              "end": 304.3
+            },
+            {
+              "word": " this",
+              "start": 304.3,
+              "end": 304.6
+            }
+          ]
+        },
+        {
+          "start": 304.6,
+          "end": 311.78,
+          "text": "network and four equations to perform the nodal analysis of this network and therefore",
+          "words": [
+            {
+              "word": " network",
+              "start": 304.6,
+              "end": 305.26
+            },
+            {
+              "word": " and",
+              "start": 305.26,
+              "end": 305.98
+            },
+            {
+              "word": " four",
+              "start": 305.98,
+              "end": 306.26
+            },
+            {
+              "word": " equations",
+              "start": 306.26,
+              "end": 306.82
+            },
+            {
+              "word": " to",
+              "start": 306.82,
+              "end": 307.12
+            },
+            {
+              "word": " perform",
+              "start": 307.12,
+              "end": 307.56
+            },
+            {
+              "word": " the",
+              "start": 307.56,
+              "end": 307.8
+            },
+            {
+              "word": " nodal",
+              "start": 307.8,
+              "end": 308.34
+            },
+            {
+              "word": " analysis",
+              "start": 308.34,
+              "end": 309.08
+            },
+            {
+              "word": " of",
+              "start": 309.08,
+              "end": 309.62
+            },
+            {
+              "word": " this",
+              "start": 309.62,
+              "end": 309.9
+            },
+            {
+              "word": " network",
+              "start": 309.9,
+              "end": 310.6
+            },
+            {
+              "word": " and",
+              "start": 310.6,
+              "end": 311.26
+            },
+            {
+              "word": " therefore",
+              "start": 311.26,
+              "end": 311.78
+            }
+          ]
+        },
+        {
+          "start": 312.52000000000004,
+          "end": 321.48,
+          "text": "the answer is option b four now consider one situation in which the number of equations",
+          "words": [
+            {
+              "word": " the",
+              "start": 312.28,
+              "end": 312.78
+            },
+            {
+              "word": " answer",
+              "start": 312.78,
+              "end": 313.08
+            },
+            {
+              "word": " is",
+              "start": 313.08,
+              "end": 313.44
+            },
+            {
+              "word": " option",
+              "start": 313.44,
+              "end": 313.96
+            },
+            {
+              "word": " b",
+              "start": 313.96,
+              "end": 314.36
+            },
+            {
+              "word": " four",
+              "start": 314.36,
+              "end": 315.3
+            },
+            {
+              "word": " now",
+              "start": 315.3,
+              "end": 316.22
+            },
+            {
+              "word": " consider",
+              "start": 316.22,
+              "end": 317.2
+            },
+            {
+              "word": " one",
+              "start": 317.2,
+              "end": 317.84
+            },
+            {
+              "word": " situation",
+              "start": 317.84,
+              "end": 318.46
+            },
+            {
+              "word": " in",
+              "start": 318.46,
+              "end": 319.18
+            },
+            {
+              "word": " which",
+              "start": 319.18,
+              "end": 319.52
+            },
+            {
+              "word": " the",
+              "start": 319.52,
+              "end": 320.56
+            },
+            {
+              "word": " number",
+              "start": 320.56,
+              "end": 320.8
+            },
+            {
+              "word": " of",
+              "start": 320.8,
+              "end": 320.96
+            },
+            {
+              "word": " equations",
+              "start": 320.96,
+              "end": 321.48
+            }
+          ]
+        },
+        {
+          "start": 321.48,
+          "end": 328.58,
+          "text": "required to perform the nodal analysis is equal to three but the number of equations required to",
+          "words": [
+            {
+              "word": " required",
+              "start": 321.48,
+              "end": 322.14
+            },
+            {
+              "word": " to",
+              "start": 322.14,
+              "end": 322.58
+            },
+            {
+              "word": " perform",
+              "start": 322.58,
+              "end": 323.0
+            },
+            {
+              "word": " the",
+              "start": 323.0,
+              "end": 323.24
+            },
+            {
+              "word": " nodal",
+              "start": 323.24,
+              "end": 323.62
+            },
+            {
+              "word": " analysis",
+              "start": 323.62,
+              "end": 324.12
+            },
+            {
+              "word": " is",
+              "start": 324.12,
+              "end": 324.76
+            },
+            {
+              "word": " equal",
+              "start": 324.76,
+              "end": 325.16
+            },
+            {
+              "word": " to",
+              "start": 325.16,
+              "end": 325.56
+            },
+            {
+              "word": " three",
+              "start": 325.56,
+              "end": 325.9
+            },
+            {
+              "word": " but",
+              "start": 325.9,
+              "end": 326.56
+            },
+            {
+              "word": " the",
+              "start": 326.56,
+              "end": 326.74
+            },
+            {
+              "word": " number",
+              "start": 326.74,
+              "end": 326.96
+            },
+            {
+              "word": " of",
+              "start": 326.96,
+              "end": 327.14
+            },
+            {
+              "word": " equations",
+              "start": 327.14,
+              "end": 327.62
+            },
+            {
+              "word": " required",
+              "start": 327.62,
+              "end": 328.3
+            },
+            {
+              "word": " to",
+              "start": 328.3,
+              "end": 328.58
+            }
+          ]
+        },
+        {
+          "start": 328.58,
+          "end": 336.56,
+          "text": "perform the mesh analysis is equal to four in this particular situation the answer will be option a",
+          "words": [
+            {
+              "word": " perform",
+              "start": 328.58,
+              "end": 329.0
+            },
+            {
+              "word": " the",
+              "start": 329.0,
+              "end": 329.22
+            },
+            {
+              "word": " mesh",
+              "start": 329.22,
+              "end": 329.42
+            },
+            {
+              "word": " analysis",
+              "start": 329.42,
+              "end": 329.88
+            },
+            {
+              "word": " is",
+              "start": 329.88,
+              "end": 330.46
+            },
+            {
+              "word": " equal",
+              "start": 330.46,
+              "end": 330.88
+            },
+            {
+              "word": " to",
+              "start": 330.88,
+              "end": 331.54
+            },
+            {
+              "word": " four",
+              "start": 331.54,
+              "end": 331.9
+            },
+            {
+              "word": " in",
+              "start": 331.9,
+              "end": 332.56
+            },
+            {
+              "word": " this",
+              "start": 332.56,
+              "end": 332.84
+            },
+            {
+              "word": " particular",
+              "start": 332.84,
+              "end": 333.42
+            },
+            {
+              "word": " situation",
+              "start": 333.42,
+              "end": 334.16
+            },
+            {
+              "word": " the",
+              "start": 334.16,
+              "end": 335.04
+            },
+            {
+              "word": " answer",
+              "start": 335.04,
+              "end": 335.38
+            },
+            {
+              "word": " will",
+              "start": 335.38,
+              "end": 335.74
+            },
+            {
+              "word": " be",
+              "start": 335.74,
+              "end": 335.96
+            },
+            {
+              "word": " option",
+              "start": 335.96,
+              "end": 336.36
+            },
+            {
+              "word": " a",
+              "start": 336.36,
+              "end": 336.56
+            }
+          ]
+        },
+        {
+          "start": 336.56,
+          "end": 343.86,
+          "text": "three because we are required to find the minimum number of equations required to analyze this circuit",
+          "words": [
+            {
+              "word": " three",
+              "start": 336.56,
+              "end": 337.24
+            },
+            {
+              "word": " because",
+              "start": 337.24,
+              "end": 338.04
+            },
+            {
+              "word": " we",
+              "start": 338.04,
+              "end": 338.52
+            },
+            {
+              "word": " are",
+              "start": 338.52,
+              "end": 338.64
+            },
+            {
+              "word": " required",
+              "start": 338.64,
+              "end": 338.96
+            },
+            {
+              "word": " to",
+              "start": 338.96,
+              "end": 339.26
+            },
+            {
+              "word": " find",
+              "start": 339.26,
+              "end": 339.52
+            },
+            {
+              "word": " the",
+              "start": 339.52,
+              "end": 339.76
+            },
+            {
+              "word": " minimum",
+              "start": 339.76,
+              "end": 340.08
+            },
+            {
+              "word": " number",
+              "start": 340.08,
+              "end": 340.44
+            },
+            {
+              "word": " of",
+              "start": 340.44,
+              "end": 340.6
+            },
+            {
+              "word": " equations",
+              "start": 340.6,
+              "end": 341.08
+            },
+            {
+              "word": " required",
+              "start": 341.08,
+              "end": 341.72
+            },
+            {
+              "word": " to",
+              "start": 341.72,
+              "end": 342.16
+            },
+            {
+              "word": " analyze",
+              "start": 342.16,
+              "end": 342.68
+            },
+            {
+              "word": " this",
+              "start": 342.68,
+              "end": 343.42
+            },
+            {
+              "word": " circuit",
+              "start": 343.42,
+              "end": 343.86
+            }
+          ]
+        },
+        {
+          "start": 344.65999999999997,
+          "end": 352.02,
+          "text": "it is not mentioned which particular method we have to use so the answer will be three so I hope",
+          "words": [
+            {
+              "word": " it",
+              "start": 344.54,
+              "end": 344.92
+            },
+            {
+              "word": " is",
+              "start": 344.92,
+              "end": 345.1
+            },
+            {
+              "word": " not",
+              "start": 345.1,
+              "end": 345.48
+            },
+            {
+              "word": " mentioned",
+              "start": 345.48,
+              "end": 346.12
+            },
+            {
+              "word": " which",
+              "start": 346.12,
+              "end": 346.66
+            },
+            {
+              "word": " particular",
+              "start": 346.66,
+              "end": 347.2
+            },
+            {
+              "word": " method",
+              "start": 347.2,
+              "end": 347.72
+            },
+            {
+              "word": " we",
+              "start": 347.72,
+              "end": 348.26
+            },
+            {
+              "word": " have",
+              "start": 348.26,
+              "end": 348.48
+            },
+            {
+              "word": " to",
+              "start": 348.48,
+              "end": 348.68
+            },
+            {
+              "word": " use",
+              "start": 348.68,
+              "end": 349.0
+            },
+            {
+              "word": " so",
+              "start": 349.0,
+              "end": 349.6
+            },
+            {
+              "word": " the",
+              "start": 349.6,
+              "end": 349.78
+            },
+            {
+              "word": " answer",
+              "start": 349.78,
+              "end": 350.06
+            },
+            {
+              "word": " will",
+              "start": 350.06,
+              "end": 350.4
+            },
+            {
+              "word": " be",
+              "start": 350.4,
+              "end": 350.6
+            },
+            {
+              "word": " three",
+              "start": 350.6,
+              "end": 350.96
+            },
+            {
+              "word": " so",
+              "start": 350.96,
+              "end": 351.6
+            },
+            {
+              "word": " I",
+              "start": 351.6,
+              "end": 351.74
+            },
+            {
+              "word": " hope",
+              "start": 351.74,
+              "end": 352.02
+            }
+          ]
+        },
+        {
+          "start": 352.02,
+          "end": 361.68,
+          "text": "this problem is now clear to you and it's time to move to our homework problem and the homework",
+          "words": [
+            {
+              "word": " this",
+              "start": 352.02,
+              "end": 352.36
+            },
+            {
+              "word": " problem",
+              "start": 352.36,
+              "end": 352.84
+            },
+            {
+              "word": " is",
+              "start": 352.84,
+              "end": 353.28
+            },
+            {
+              "word": " now",
+              "start": 353.28,
+              "end": 353.5
+            },
+            {
+              "word": " clear",
+              "start": 353.5,
+              "end": 353.86
+            },
+            {
+              "word": " to",
+              "start": 353.86,
+              "end": 354.06
+            },
+            {
+              "word": " you",
+              "start": 354.06,
+              "end": 354.32
+            },
+            {
+              "word": " and",
+              "start": 354.32,
+              "end": 355.04
+            },
+            {
+              "word": " it's",
+              "start": 355.04,
+              "end": 355.82
+            },
+            {
+              "word": " time",
+              "start": 355.82,
+              "end": 356.16
+            },
+            {
+              "word": " to",
+              "start": 356.16,
+              "end": 357.42
+            },
+            {
+              "word": " move",
+              "start": 357.42,
+              "end": 357.94
+            },
+            {
+              "word": " to",
+              "start": 357.94,
+              "end": 358.66
+            },
+            {
+              "word": " our",
+              "start": 358.66,
+              "end": 359.04
+            },
+            {
+              "word": " homework",
+              "start": 359.04,
+              "end": 359.56
+            },
+            {
+              "word": " problem",
+              "start": 359.56,
+              "end": 360.14
+            },
+            {
+              "word": " and",
+              "start": 360.14,
+              "end": 361.28
+            },
+            {
+              "word": " the",
+              "start": 361.28,
+              "end": 361.42
+            },
+            {
+              "word": " homework",
+              "start": 361.42,
+              "end": 361.68
+            }
+          ]
+        },
+        {
+          "start": 361.68,
+          "end": 369.9,
+          "text": "problem is taken from gate 2000 to electrical paper and in this problem you are required to find",
+          "words": [
+            {
+              "word": " problem",
+              "start": 361.68,
+              "end": 362.22
+            },
+            {
+              "word": " is",
+              "start": 362.22,
+              "end": 362.62
+            },
+            {
+              "word": " taken",
+              "start": 362.62,
+              "end": 363.0
+            },
+            {
+              "word": " from",
+              "start": 363.0,
+              "end": 363.6
+            },
+            {
+              "word": " gate",
+              "start": 363.6,
+              "end": 363.98
+            },
+            {
+              "word": " 2000",
+              "start": 363.98,
+              "end": 364.74
+            },
+            {
+              "word": " to",
+              "start": 364.74,
+              "end": 365.18
+            },
+            {
+              "word": " electrical",
+              "start": 365.18,
+              "end": 366.0
+            },
+            {
+              "word": " paper",
+              "start": 366.0,
+              "end": 366.52
+            },
+            {
+              "word": " and",
+              "start": 366.52,
+              "end": 367.36
+            },
+            {
+              "word": " in",
+              "start": 367.36,
+              "end": 367.48
+            },
+            {
+              "word": " this",
+              "start": 367.48,
+              "end": 367.72
+            },
+            {
+              "word": " problem",
+              "start": 367.72,
+              "end": 368.44
+            },
+            {
+              "word": " you",
+              "start": 368.44,
+              "end": 368.82
+            },
+            {
+              "word": " are",
+              "start": 368.82,
+              "end": 368.92
+            },
+            {
+              "word": " required",
+              "start": 368.92,
+              "end": 369.24
+            },
+            {
+              "word": " to",
+              "start": 369.24,
+              "end": 369.54
+            },
+            {
+              "word": " find",
+              "start": 369.54,
+              "end": 369.9
+            }
+          ]
+        },
+        {
+          "start": 370.41999999999996,
+          "end": 380.06,
+          "text": "the voltage between terminal a and terminal b so you need to find v ab current equal to one ampere",
+          "words": [
+            {
+              "word": " the",
+              "start": 370.2,
+              "end": 370.64
+            },
+            {
+              "word": " voltage",
+              "start": 370.64,
+              "end": 371.12
+            },
+            {
+              "word": " between",
+              "start": 371.12,
+              "end": 371.88
+            },
+            {
+              "word": " terminal",
+              "start": 371.88,
+              "end": 372.72
+            },
+            {
+              "word": " a",
+              "start": 372.72,
+              "end": 373.14
+            },
+            {
+              "word": " and",
+              "start": 373.14,
+              "end": 373.6
+            },
+            {
+              "word": " terminal",
+              "start": 373.6,
+              "end": 373.96
+            },
+            {
+              "word": " b",
+              "start": 373.96,
+              "end": 374.38
+            },
+            {
+              "word": " so",
+              "start": 374.38,
+              "end": 375.24
+            },
+            {
+              "word": " you",
+              "start": 375.24,
+              "end": 375.4
+            },
+            {
+              "word": " need",
+              "start": 375.4,
+              "end": 375.54
+            },
+            {
+              "word": " to",
+              "start": 375.54,
+              "end": 375.76
+            },
+            {
+              "word": " find",
+              "start": 375.76,
+              "end": 376.14
+            },
+            {
+              "word": " v",
+              "start": 376.14,
+              "end": 376.78
+            },
+            {
+              "word": " ab",
+              "start": 376.78,
+              "end": 377.4
+            },
+            {
+              "word": " current",
+              "start": 377.4,
+              "end": 378.54
+            },
+            {
+              "word": " equal",
+              "start": 378.54,
+              "end": 379.14
+            },
+            {
+              "word": " to",
+              "start": 379.14,
+              "end": 379.4
+            },
+            {
+              "word": " one",
+              "start": 379.4,
+              "end": 379.6
+            },
+            {
+              "word": " ampere",
+              "start": 379.6,
+              "end": 380.06
+            }
+          ]
+        },
+        {
+          "start": 380.06,
+          "end": 388.26,
+          "text": "is entering current equal to one ampere is leaving and all the resistor values are equal to one ohm",
+          "words": [
+            {
+              "word": " is",
+              "start": 380.06,
+              "end": 380.34
+            },
+            {
+              "word": " entering",
+              "start": 380.34,
+              "end": 380.76
+            },
+            {
+              "word": " current",
+              "start": 380.76,
+              "end": 381.32
+            },
+            {
+              "word": " equal",
+              "start": 381.32,
+              "end": 381.74
+            },
+            {
+              "word": " to",
+              "start": 381.74,
+              "end": 382.0
+            },
+            {
+              "word": " one",
+              "start": 382.0,
+              "end": 382.18
+            },
+            {
+              "word": " ampere",
+              "start": 382.18,
+              "end": 382.54
+            },
+            {
+              "word": " is",
+              "start": 382.54,
+              "end": 382.76
+            },
+            {
+              "word": " leaving",
+              "start": 382.76,
+              "end": 383.3
+            },
+            {
+              "word": " and",
+              "start": 383.3,
+              "end": 384.02
+            },
+            {
+              "word": " all",
+              "start": 384.02,
+              "end": 384.42
+            },
+            {
+              "word": " the",
+              "start": 384.42,
+              "end": 384.84
+            },
+            {
+              "word": " resistor",
+              "start": 384.84,
+              "end": 385.24
+            },
+            {
+              "word": " values",
+              "start": 385.24,
+              "end": 385.88
+            },
+            {
+              "word": " are",
+              "start": 385.88,
+              "end": 386.82
+            },
+            {
+              "word": " equal",
+              "start": 386.82,
+              "end": 387.14
+            },
+            {
+              "word": " to",
+              "start": 387.14,
+              "end": 387.38
+            },
+            {
+              "word": " one",
+              "start": 387.38,
+              "end": 387.7
+            },
+            {
+              "word": " ohm",
+              "start": 387.7,
+              "end": 388.26
+            }
+          ]
+        },
+        {
+          "start": 388.26,
+          "end": 395.88,
+          "text": "and there is one hint given in the problem you may exploit the symmetry of the circuit so try to",
+          "words": [
+            {
+              "word": " and",
+              "start": 388.26,
+              "end": 389.0
+            },
+            {
+              "word": " there",
+              "start": 389.0,
+              "end": 389.2
+            },
+            {
+              "word": " is",
+              "start": 389.2,
+              "end": 389.32
+            },
+            {
+              "word": " one",
+              "start": 389.32,
+              "end": 389.56
+            },
+            {
+              "word": " hint",
+              "start": 389.56,
+              "end": 389.9
+            },
+            {
+              "word": " given",
+              "start": 389.9,
+              "end": 390.26
+            },
+            {
+              "word": " in",
+              "start": 390.26,
+              "end": 390.44
+            },
+            {
+              "word": " the",
+              "start": 390.44,
+              "end": 390.54
+            },
+            {
+              "word": " problem",
+              "start": 390.54,
+              "end": 390.96
+            },
+            {
+              "word": " you",
+              "start": 390.96,
+              "end": 391.7
+            },
+            {
+              "word": " may",
+              "start": 391.7,
+              "end": 391.88
+            },
+            {
+              "word": " exploit",
+              "start": 391.88,
+              "end": 392.38
+            },
+            {
+              "word": " the",
+              "start": 392.38,
+              "end": 392.92
+            },
+            {
+              "word": " symmetry",
+              "start": 392.92,
+              "end": 393.4
+            },
+            {
+              "word": " of",
+              "start": 393.4,
+              "end": 394.04
+            },
+            {
+              "word": " the",
+              "start": 394.04,
+              "end": 394.28
+            },
+            {
+              "word": " circuit",
+              "start": 394.28,
+              "end": 394.72
+            },
+            {
+              "word": " so",
+              "start": 394.72,
+              "end": 395.46
+            },
+            {
+              "word": " try",
+              "start": 395.46,
+              "end": 395.7
+            },
+            {
+              "word": " to",
+              "start": 395.7,
+              "end": 395.88
+            }
+          ]
+        },
+        {
+          "start": 395.88,
+          "end": 402.12,
+          "text": "solve this problem and once you have your answer post it in comment section and now I will end",
+          "words": [
+            {
+              "word": " solve",
+              "start": 395.88,
+              "end": 396.3
+            },
+            {
+              "word": " this",
+              "start": 396.3,
+              "end": 396.76
+            },
+            {
+              "word": " problem",
+              "start": 396.76,
+              "end": 397.28
+            },
+            {
+              "word": " and",
+              "start": 397.28,
+              "end": 397.7
+            },
+            {
+              "word": " once",
+              "start": 397.7,
+              "end": 397.94
+            },
+            {
+              "word": " you",
+              "start": 397.94,
+              "end": 398.12
+            },
+            {
+              "word": " have",
+              "start": 398.12,
+              "end": 398.3
+            },
+            {
+              "word": " your",
+              "start": 398.3,
+              "end": 398.46
+            },
+            {
+              "word": " answer",
+              "start": 398.46,
+              "end": 398.74
+            },
+            {
+              "word": " post",
+              "start": 398.74,
+              "end": 399.16
+            },
+            {
+              "word": " it",
+              "start": 399.16,
+              "end": 399.42
+            },
+            {
+              "word": " in",
+              "start": 399.42,
+              "end": 399.58
+            },
+            {
+              "word": " comment",
+              "start": 399.58,
+              "end": 399.92
+            },
+            {
+              "word": " section",
+              "start": 399.92,
+              "end": 400.5
+            },
+            {
+              "word": " and",
+              "start": 400.5,
+              "end": 401.28
+            },
+            {
+              "word": " now",
+              "start": 401.28,
+              "end": 401.5
+            },
+            {
+              "word": " I",
+              "start": 401.5,
+              "end": 401.7
+            },
+            {
+              "word": " will",
+              "start": 401.7,
+              "end": 401.82
+            },
+            {
+              "word": " end",
+              "start": 401.82,
+              "end": 402.12
+            }
+          ]
+        },
+        {
+          "start": 402.12,
+          "end": 404.56,
+          "text": "this lecture here see you in the next one",
+          "words": [
+            {
+              "word": " this",
+              "start": 402.12,
+              "end": 402.5
+            },
+            {
+              "word": " lecture",
+              "start": 402.5,
+              "end": 403.04
+            },
+            {
+              "word": " here",
+              "start": 403.04,
+              "end": 403.42
+            },
+            {
+              "word": " see",
+              "start": 403.42,
+              "end": 403.66
+            },
+            {
+              "word": " you",
+              "start": 403.66,
+              "end": 403.76
+            },
+            {
+              "word": " in",
+              "start": 403.76,
+              "end": 403.84
+            },
+            {
+              "word": " the",
+              "start": 403.84,
+              "end": 403.92
+            },
+            {
+              "word": " next",
+              "start": 403.92,
+              "end": 404.16
+            },
+            {
+              "word": " one",
+              "start": 404.16,
+              "end": 404.56
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              224.177978515625,
+              115.75440979003906,
+              229.1820068359375,
+              122.19279479980469
+            ],
+            "confidence": 0.32062986493110657,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 261.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 282.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              224.38540649414062,
+              115.37389373779297,
+              229.18789672851562,
+              121.41082763671875
+            ],
+            "confidence": 0.30609849095344543,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 3,
+        "timestamp": 300.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 301.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              223.95449829101562,
+              115.81407165527344,
+              229.11627197265625,
+              122.57987976074219
+            ],
+            "confidence": 0.3538958430290222,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 5,
+        "timestamp": 357.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 358.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 359.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 360.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 9,
+        "timestamp": 361.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 362.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 406.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 12,
+        "timestamp": 416.0,
+        "path": "data/processed\\lecture_149\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 13,
+      "frames_with_instructor": 3,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 4,
+        "timestamp": 301.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 10,
+        "timestamp": 362.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 11,
+        "timestamp": 406.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

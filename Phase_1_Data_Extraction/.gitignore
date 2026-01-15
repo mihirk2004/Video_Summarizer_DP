@@ -3,10 +3,11 @@ venv/
 .venv/
 __pycache__/
 *.pyc
-
+venv310/
 # Data
 data/raw_videos/
 data/processed/
+data/raw_frames
 *.mp4
 *.wav
 

@@ -1,0 +1,7625 @@
+{
+  "video_id": "lecture_190",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_19.mp4",
+    "duration": 0.0,
+    "fps": 30.0,
+    "resolution": "640x360",
+    "processing_date": "2026-01-06T00:40:35.890617",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_190\\audio.wav",
+    "transcript": {
+      "text": " Today, we will be looking at these two different rigid body motion questions, where we will be looking at an application of moment of inertia in order to calculate the acceleration of the object. We have a yo-yo, which behaves like a solid disk of mass m hanging from a string. As the yo-yo drops, it rotates while moving downward without slipping, meaning it only rolls and does not slide like this. We want to determine the vertical acceleration of the yo-yo. The difficulty is that the tension in the string is not known beforehand, because the object is rotating while being supported by that same string. So the two unknowns here are the acceleration and the tension, meaning we need two equations that we will solve together. The first equation comes from the rotational idea similar to mass times acceleration, meaning torque equals moment of inertia times the angle acceleration alpha. But what is creating this torque? The tension in the string pulls at the edge of the yo-yo, and because this pull is not through the center, it produces a turning effect. The rotation happens about the center of the yo-yo, so the tension acting at a distance equal to the radius r gives the torque that makes the yo-yo spin while it moves downward. So basically, the tension in the string creates the torque. Let this tension be t. Since the yo-yo rotates about its center, and the tension pulls at the outer edge of the disk, the radius r gives the lever arm. So the torque is the tension t times r, and the moment of inertia for a solid disk is one-half the mass times the radius squared. Now for the case of pure rotation and no sliding, the angular acceleration alpha relates to the linear acceleration a by a equals the radius r times the alpha. So the alpha equals a divided by r. Replacing the angular acceleration with this expression makes one radius cancel out, leaving the tension equal to one-half mass times acceleration. Now the second equation comes from the vertical force balance. The weight, m times the gravity g, pulls the yo-yo downward helping the motion, and the tension in the string pulls upward, resisting the motion. So weight minus tension equals mass times the downward acceleration a. Solving this relationship for tension gives t equal to mg minus m times a. Now we have two expressions for tension, one from the torque relationship, and one from the force balance. Setting them equal allows us to remove tension entirely. This gives one-half m times a equal to mg minus m times a. Move this m a here to get 3 over 2 times m a equals mg. The masses cancel out, and multiplying both sides by 2 divided by 3 shows that the acceleration a equals 2 divided by 3 times the gravity g. Real yo-yos usually have two disks and a narrower central axle where the string actually winds, which changes the calculation slightly. That variation will be handled separately, but for this simple case with the string on the edge of the disk, the acceleration is 2 divided by 3g, and that completes the first question. In the next question, we will see how a solid cylinder of mass m and radius r rolls down an inclined surface with angle of inclination equal to theta, and the surface is having friction, but the coefficient of the friction mu is unknown. Here also note that the solid cylinder is moving downward without slipping, meaning it only rolls and does not slide on the surface. Now because the object is rotating as well as translating, we end up needing two separate relationships. One that deals with torque being equal to the moment of inertia times the angular acceleration alpha, and the other is f equals mass times acceleration a. Our job is to find this linear acceleration a. Again, think what is creating this torque. The torque is produced by the friction between the incline and the surface of the cylinder. To understand the motion, we first look at all the forces involved. The weight, which is mg, acts straight downward. This weight can be split into two components, one parallel to the incline, which is mg sign of the angle theta, and one perpendicular to the incline, which is mg cos of theta. This perpendicular component mg cos theta leads to the normal force n from the surface, which pushes outward and is also equal to mg cos theta. Because there is contact between the surface and the solid cylinder without sliding, a static friction force fs appears, acting opposite the direction in which the cylinder would slide. The friction force equals the normal force times the coefficient of static friction, so it becomes mu times mg cos theta. Now without this friction, the cylinder would not be able to roll. It would simply slide down, so this friction force is what creates the torque. The torque is produced because the friction acts at the edge of the cylinder, at a distance equal to the radius from the center of the cylinder. So torque becomes the friction force fs times the radius r. The moment of inertia of a solid cylinder is one half the mass times the radius squared. Again, because there is no sliding, the angular acceleration alpha is equal to the linear acceleration a divided by the radius r. When we substitute that here, the radius in the torque expression cancels nicely, leaving us with a relationship that connects the friction force to one half the mass times the linear acceleration a. Replacing the friction force with this, we get a connection between mu g times cos of theta and half the acceleration after cancelling the masses. Next, we will write the force balance equation along the incline. The component mg sin of theta tries to accelerate the cylinder downward. The friction force fs acts upward along the incline, resisting this motion. So mg sin theta minus mu times mg cos theta equals the mass m times the linear acceleration a. Again, the masses cancel, leaving g sin theta minus mu times g cos theta equal to the acceleration a. This way, we have two relationships connecting mu and a. To solve for the acceleration a, we will eliminate mu. From the torque relationship, mu equals a divided by 2g cos theta. Putting it here gives us g sin theta minus g cos theta times a divided by 2g cos theta all equal to a. The g and cos of theta cancel in this second term, simplifying it to a divided by 2. Moving a over 2 to the right side gives g sin theta equals a plus half a, which becomes 3 over 2 times a. Solving for a gives a equal to 2 divided by 3 times g sin theta. So the final acceleration depends on the angle of the incline. The steeper the incline, the larger the sin of theta, and therefore the larger the acceleration. The coefficient of friction does not directly appear in the final result, because its role is just to provide enough torque so that the object rolls without slipping. In later problems, we consider situations where there is not enough friction available, in which case the cylinder would start slipping instead of rolling. But that is part of a different discussion that comes later in the series. Now let me know in the comments what will be the relationship between mu and the angle theta. If you enjoyed this video, please don't forget to like, share, and subscribe to our channel. Also, you can support my channel by joining our community and becoming a member. So good!",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.52,
+          "text": "Today, we will be looking at these two different rigid body motion questions,",
+          "words": [
+            {
+              "word": " Today,",
+              "start": 0.0,
+              "end": 0.46
+            },
+            {
+              "word": " we",
+              "start": 0.8,
+              "end": 1.02
+            },
+            {
+              "word": " will",
+              "start": 1.02,
+              "end": 1.16
+            },
+            {
+              "word": " be",
+              "start": 1.16,
+              "end": 1.32
+            },
+            {
+              "word": " looking",
+              "start": 1.32,
+              "end": 1.56
+            },
+            {
+              "word": " at",
+              "start": 1.56,
+              "end": 1.78
+            },
+            {
+              "word": " these",
+              "start": 1.78,
+              "end": 1.98
+            },
+            {
+              "word": " two",
+              "start": 1.98,
+              "end": 2.32
+            },
+            {
+              "word": " different",
+              "start": 2.32,
+              "end": 2.76
+            },
+            {
+              "word": " rigid",
+              "start": 2.76,
+              "end": 3.14
+            },
+            {
+              "word": " body",
+              "start": 3.14,
+              "end": 3.58
+            },
+            {
+              "word": " motion",
+              "start": 3.58,
+              "end": 3.98
+            },
+            {
+              "word": " questions,",
+              "start": 3.98,
+              "end": 4.52
+            }
+          ]
+        },
+        {
+          "start": 5.06,
+          "end": 8.24,
+          "text": "where we will be looking at an application of moment of inertia",
+          "words": [
+            {
+              "word": " where",
+              "start": 5.06,
+              "end": 5.24
+            },
+            {
+              "word": " we",
+              "start": 5.24,
+              "end": 5.42
+            },
+            {
+              "word": " will",
+              "start": 5.42,
+              "end": 5.54
+            },
+            {
+              "word": " be",
+              "start": 5.54,
+              "end": 5.68
+            },
+            {
+              "word": " looking",
+              "start": 5.68,
+              "end": 5.94
+            },
+            {
+              "word": " at",
+              "start": 5.94,
+              "end": 6.18
+            },
+            {
+              "word": " an",
+              "start": 6.18,
+              "end": 6.3
+            },
+            {
+              "word": " application",
+              "start": 6.3,
+              "end": 6.8
+            },
+            {
+              "word": " of",
+              "start": 6.8,
+              "end": 7.28
+            },
+            {
+              "word": " moment",
+              "start": 7.28,
+              "end": 7.58
+            },
+            {
+              "word": " of",
+              "start": 7.58,
+              "end": 7.86
+            },
+            {
+              "word": " inertia",
+              "start": 7.86,
+              "end": 8.24
+            }
+          ]
+        },
+        {
+          "start": 8.24,
+          "end": 11.68,
+          "text": "in order to calculate the acceleration of the object.",
+          "words": [
+            {
+              "word": " in",
+              "start": 8.24,
+              "end": 9.0
+            },
+            {
+              "word": " order",
+              "start": 9.0,
+              "end": 9.22
+            },
+            {
+              "word": " to",
+              "start": 9.22,
+              "end": 9.4
+            },
+            {
+              "word": " calculate",
+              "start": 9.4,
+              "end": 9.82
+            },
+            {
+              "word": " the",
+              "start": 9.82,
+              "end": 10.16
+            },
+            {
+              "word": " acceleration",
+              "start": 10.16,
+              "end": 10.62
+            },
+            {
+              "word": " of",
+              "start": 10.62,
+              "end": 11.16
+            },
+            {
+              "word": " the",
+              "start": 11.16,
+              "end": 11.28
+            },
+            {
+              "word": " object.",
+              "start": 11.28,
+              "end": 11.68
+            }
+          ]
+        },
+        {
+          "start": 12.46,
+          "end": 17.92,
+          "text": "We have a yo-yo, which behaves like a solid disk of mass m hanging from a string.",
+          "words": [
+            {
+              "word": " We",
+              "start": 12.46,
+              "end": 12.68
+            },
+            {
+              "word": " have",
+              "start": 12.68,
+              "end": 12.86
+            },
+            {
+              "word": " a",
+              "start": 12.86,
+              "end": 12.98
+            },
+            {
+              "word": " yo",
+              "start": 12.98,
+              "end": 13.2
+            },
+            {
+              "word": "-yo,",
+              "start": 13.2,
+              "end": 13.46
+            },
+            {
+              "word": " which",
+              "start": 13.78,
+              "end": 13.92
+            },
+            {
+              "word": " behaves",
+              "start": 13.92,
+              "end": 14.34
+            },
+            {
+              "word": " like",
+              "start": 14.34,
+              "end": 14.62
+            },
+            {
+              "word": " a",
+              "start": 14.62,
+              "end": 14.78
+            },
+            {
+              "word": " solid",
+              "start": 14.78,
+              "end": 15.1
+            },
+            {
+              "word": " disk",
+              "start": 15.1,
+              "end": 15.54
+            },
+            {
+              "word": " of",
+              "start": 15.54,
+              "end": 15.74
+            },
+            {
+              "word": " mass",
+              "start": 15.74,
+              "end": 15.98
+            },
+            {
+              "word": " m",
+              "start": 15.98,
+              "end": 16.52
+            },
+            {
+              "word": " hanging",
+              "start": 16.52,
+              "end": 17.24
+            },
+            {
+              "word": " from",
+              "start": 17.24,
+              "end": 17.48
+            },
+            {
+              "word": " a",
+              "start": 17.48,
+              "end": 17.64
+            },
+            {
+              "word": " string.",
+              "start": 17.64,
+              "end": 17.92
+            }
+          ]
+        },
+        {
+          "start": 18.94,
+          "end": 23.7,
+          "text": "As the yo-yo drops, it rotates while moving downward without slipping,",
+          "words": [
+            {
+              "word": " As",
+              "start": 18.94,
+              "end": 19.28
+            },
+            {
+              "word": " the",
+              "start": 19.28,
+              "end": 19.42
+            },
+            {
+              "word": " yo",
+              "start": 19.42,
+              "end": 19.64
+            },
+            {
+              "word": "-yo",
+              "start": 19.64,
+              "end": 19.8
+            },
+            {
+              "word": " drops,",
+              "start": 19.8,
+              "end": 20.26
+            },
+            {
+              "word": " it",
+              "start": 20.78,
+              "end": 20.94
+            },
+            {
+              "word": " rotates",
+              "start": 20.94,
+              "end": 21.36
+            },
+            {
+              "word": " while",
+              "start": 21.36,
+              "end": 21.76
+            },
+            {
+              "word": " moving",
+              "start": 21.76,
+              "end": 22.1
+            },
+            {
+              "word": " downward",
+              "start": 22.1,
+              "end": 22.68
+            },
+            {
+              "word": " without",
+              "start": 22.68,
+              "end": 23.24
+            },
+            {
+              "word": " slipping,",
+              "start": 23.24,
+              "end": 23.7
+            }
+          ]
+        },
+        {
+          "start": 24.16,
+          "end": 27.66,
+          "text": "meaning it only rolls and does not slide like this.",
+          "words": [
+            {
+              "word": " meaning",
+              "start": 24.16,
+              "end": 24.6
+            },
+            {
+              "word": " it",
+              "start": 24.6,
+              "end": 24.88
+            },
+            {
+              "word": " only",
+              "start": 24.88,
+              "end": 25.12
+            },
+            {
+              "word": " rolls",
+              "start": 25.12,
+              "end": 25.58
+            },
+            {
+              "word": " and",
+              "start": 25.58,
+              "end": 26.2
+            },
+            {
+              "word": " does",
+              "start": 26.2,
+              "end": 26.42
+            },
+            {
+              "word": " not",
+              "start": 26.42,
+              "end": 26.64
+            },
+            {
+              "word": " slide",
+              "start": 26.64,
+              "end": 27.06
+            },
+            {
+              "word": " like",
+              "start": 27.06,
+              "end": 27.3
+            },
+            {
+              "word": " this.",
+              "start": 27.3,
+              "end": 27.66
+            }
+          ]
+        },
+        {
+          "start": 28.3,
+          "end": 31.6,
+          "text": "We want to determine the vertical acceleration of the yo-yo.",
+          "words": [
+            {
+              "word": " We",
+              "start": 28.2,
+              "end": 28.54
+            },
+            {
+              "word": " want",
+              "start": 28.54,
+              "end": 28.76
+            },
+            {
+              "word": " to",
+              "start": 28.76,
+              "end": 28.88
+            },
+            {
+              "word": " determine",
+              "start": 28.88,
+              "end": 29.28
+            },
+            {
+              "word": " the",
+              "start": 29.28,
+              "end": 29.48
+            },
+            {
+              "word": " vertical",
+              "start": 29.48,
+              "end": 29.8
+            },
+            {
+              "word": " acceleration",
+              "start": 29.8,
+              "end": 30.5
+            },
+            {
+              "word": " of",
+              "start": 30.5,
+              "end": 31.08
+            },
+            {
+              "word": " the",
+              "start": 31.08,
+              "end": 31.2
+            },
+            {
+              "word": " yo",
+              "start": 31.2,
+              "end": 31.4
+            },
+            {
+              "word": "-yo.",
+              "start": 31.4,
+              "end": 31.6
+            }
+          ]
+        },
+        {
+          "start": 32.24,
+          "end": 36.2,
+          "text": "The difficulty is that the tension in the string is not known beforehand,",
+          "words": [
+            {
+              "word": " The",
+              "start": 32.24,
+              "end": 32.5
+            },
+            {
+              "word": " difficulty",
+              "start": 32.5,
+              "end": 32.9
+            },
+            {
+              "word": " is",
+              "start": 32.9,
+              "end": 33.46
+            },
+            {
+              "word": " that",
+              "start": 33.46,
+              "end": 33.72
+            },
+            {
+              "word": " the",
+              "start": 33.72,
+              "end": 33.86
+            },
+            {
+              "word": " tension",
+              "start": 33.86,
+              "end": 34.18
+            },
+            {
+              "word": " in",
+              "start": 34.18,
+              "end": 34.42
+            },
+            {
+              "word": " the",
+              "start": 34.42,
+              "end": 34.52
+            },
+            {
+              "word": " string",
+              "start": 34.52,
+              "end": 34.82
+            },
+            {
+              "word": " is",
+              "start": 34.82,
+              "end": 35.08
+            },
+            {
+              "word": " not",
+              "start": 35.08,
+              "end": 35.3
+            },
+            {
+              "word": " known",
+              "start": 35.3,
+              "end": 35.6
+            },
+            {
+              "word": " beforehand,",
+              "start": 35.6,
+              "end": 36.2
+            }
+          ]
+        },
+        {
+          "start": 36.54,
+          "end": 40.84,
+          "text": "because the object is rotating while being supported by that same string.",
+          "words": [
+            {
+              "word": " because",
+              "start": 36.54,
+              "end": 37.04
+            },
+            {
+              "word": " the",
+              "start": 37.04,
+              "end": 37.28
+            },
+            {
+              "word": " object",
+              "start": 37.28,
+              "end": 37.66
+            },
+            {
+              "word": " is",
+              "start": 37.66,
+              "end": 37.92
+            },
+            {
+              "word": " rotating",
+              "start": 37.92,
+              "end": 38.36
+            },
+            {
+              "word": " while",
+              "start": 38.36,
+              "end": 38.8
+            },
+            {
+              "word": " being",
+              "start": 38.8,
+              "end": 39.06
+            },
+            {
+              "word": " supported",
+              "start": 39.06,
+              "end": 39.56
+            },
+            {
+              "word": " by",
+              "start": 39.56,
+              "end": 39.9
+            },
+            {
+              "word": " that",
+              "start": 39.9,
+              "end": 40.14
+            },
+            {
+              "word": " same",
+              "start": 40.14,
+              "end": 40.42
+            },
+            {
+              "word": " string.",
+              "start": 40.42,
+              "end": 40.84
+            }
+          ]
+        },
+        {
+          "start": 41.52,
+          "end": 45.34,
+          "text": "So the two unknowns here are the acceleration and the tension,",
+          "words": [
+            {
+              "word": " So",
+              "start": 41.52,
+              "end": 41.74
+            },
+            {
+              "word": " the",
+              "start": 41.74,
+              "end": 41.86
+            },
+            {
+              "word": " two",
+              "start": 41.86,
+              "end": 42.06
+            },
+            {
+              "word": " unknowns",
+              "start": 42.06,
+              "end": 42.46
+            },
+            {
+              "word": " here",
+              "start": 42.46,
+              "end": 42.9
+            },
+            {
+              "word": " are",
+              "start": 42.9,
+              "end": 43.16
+            },
+            {
+              "word": " the",
+              "start": 43.16,
+              "end": 43.32
+            },
+            {
+              "word": " acceleration",
+              "start": 43.32,
+              "end": 44.0
+            },
+            {
+              "word": " and",
+              "start": 44.0,
+              "end": 44.8
+            },
+            {
+              "word": " the",
+              "start": 44.8,
+              "end": 44.94
+            },
+            {
+              "word": " tension,",
+              "start": 44.94,
+              "end": 45.34
+            }
+          ]
+        },
+        {
+          "start": 45.88,
+          "end": 49.5,
+          "text": "meaning we need two equations that we will solve together.",
+          "words": [
+            {
+              "word": " meaning",
+              "start": 45.88,
+              "end": 46.3
+            },
+            {
+              "word": " we",
+              "start": 46.3,
+              "end": 46.76
+            },
+            {
+              "word": " need",
+              "start": 46.76,
+              "end": 47.0
+            },
+            {
+              "word": " two",
+              "start": 47.0,
+              "end": 47.32
+            },
+            {
+              "word": " equations",
+              "start": 47.32,
+              "end": 47.88
+            },
+            {
+              "word": " that",
+              "start": 47.88,
+              "end": 48.42
+            },
+            {
+              "word": " we",
+              "start": 48.42,
+              "end": 48.58
+            },
+            {
+              "word": " will",
+              "start": 48.58,
+              "end": 48.74
+            },
+            {
+              "word": " solve",
+              "start": 48.74,
+              "end": 49.08
+            },
+            {
+              "word": " together.",
+              "start": 49.08,
+              "end": 49.5
+            }
+          ]
+        },
+        {
+          "start": 50.2,
+          "end": 55.88,
+          "text": "The first equation comes from the rotational idea similar to mass times acceleration,",
+          "words": [
+            {
+              "word": " The",
+              "start": 50.2,
+              "end": 50.56
+            },
+            {
+              "word": " first",
+              "start": 50.56,
+              "end": 50.78
+            },
+            {
+              "word": " equation",
+              "start": 50.78,
+              "end": 51.28
+            },
+            {
+              "word": " comes",
+              "start": 51.28,
+              "end": 51.64
+            },
+            {
+              "word": " from",
+              "start": 51.64,
+              "end": 51.94
+            },
+            {
+              "word": " the",
+              "start": 51.94,
+              "end": 52.14
+            },
+            {
+              "word": " rotational",
+              "start": 52.14,
+              "end": 52.7
+            },
+            {
+              "word": " idea",
+              "start": 52.7,
+              "end": 53.32
+            },
+            {
+              "word": " similar",
+              "start": 53.32,
+              "end": 54.02
+            },
+            {
+              "word": " to",
+              "start": 54.02,
+              "end": 54.34
+            },
+            {
+              "word": " mass",
+              "start": 54.34,
+              "end": 54.68
+            },
+            {
+              "word": " times",
+              "start": 54.68,
+              "end": 55.08
+            },
+            {
+              "word": " acceleration,",
+              "start": 55.08,
+              "end": 55.88
+            }
+          ]
+        },
+        {
+          "start": 56.52,
+          "end": 62.34,
+          "text": "meaning torque equals moment of inertia times the angle acceleration alpha.",
+          "words": [
+            {
+              "word": " meaning",
+              "start": 56.52,
+              "end": 56.88
+            },
+            {
+              "word": " torque",
+              "start": 56.88,
+              "end": 57.42
+            },
+            {
+              "word": " equals",
+              "start": 57.42,
+              "end": 58.22
+            },
+            {
+              "word": " moment",
+              "start": 58.22,
+              "end": 58.64
+            },
+            {
+              "word": " of",
+              "start": 58.64,
+              "end": 58.9
+            },
+            {
+              "word": " inertia",
+              "start": 58.9,
+              "end": 59.32
+            },
+            {
+              "word": " times",
+              "start": 59.32,
+              "end": 60.3
+            },
+            {
+              "word": " the",
+              "start": 60.3,
+              "end": 60.58
+            },
+            {
+              "word": " angle",
+              "start": 60.58,
+              "end": 60.9
+            },
+            {
+              "word": " acceleration",
+              "start": 60.9,
+              "end": 61.54
+            },
+            {
+              "word": " alpha.",
+              "start": 61.54,
+              "end": 62.34
+            }
+          ]
+        },
+        {
+          "start": 63.08,
+          "end": 68.64,
+          "text": "But what is creating this torque? The tension in the string pulls at the edge of the yo-yo,",
+          "words": [
+            {
+              "word": " But",
+              "start": 63.08,
+              "end": 63.48
+            },
+            {
+              "word": " what",
+              "start": 63.48,
+              "end": 63.66
+            },
+            {
+              "word": " is",
+              "start": 63.66,
+              "end": 63.9
+            },
+            {
+              "word": " creating",
+              "start": 63.9,
+              "end": 64.38
+            },
+            {
+              "word": " this",
+              "start": 64.38,
+              "end": 64.72
+            },
+            {
+              "word": " torque?",
+              "start": 64.72,
+              "end": 65.02
+            },
+            {
+              "word": " The",
+              "start": 65.58,
+              "end": 65.68
+            },
+            {
+              "word": " tension",
+              "start": 65.68,
+              "end": 66.02
+            },
+            {
+              "word": " in",
+              "start": 66.02,
+              "end": 66.32
+            },
+            {
+              "word": " the",
+              "start": 66.32,
+              "end": 66.42
+            },
+            {
+              "word": " string",
+              "start": 66.42,
+              "end": 66.78
+            },
+            {
+              "word": " pulls",
+              "start": 66.78,
+              "end": 67.2
+            },
+            {
+              "word": " at",
+              "start": 67.2,
+              "end": 67.44
+            },
+            {
+              "word": " the",
+              "start": 67.44,
+              "end": 67.58
+            },
+            {
+              "word": " edge",
+              "start": 67.58,
+              "end": 67.92
+            },
+            {
+              "word": " of",
+              "start": 67.92,
+              "end": 68.06
+            },
+            {
+              "word": " the",
+              "start": 68.06,
+              "end": 68.18
+            },
+            {
+              "word": " yo",
+              "start": 68.18,
+              "end": 68.42
+            },
+            {
+              "word": "-yo,",
+              "start": 68.42,
+              "end": 68.64
+            }
+          ]
+        },
+        {
+          "start": 69.0,
+          "end": 73.62,
+          "text": "and because this pull is not through the center, it produces a turning effect.",
+          "words": [
+            {
+              "word": " and",
+              "start": 69.0,
+              "end": 69.44
+            },
+            {
+              "word": " because",
+              "start": 69.44,
+              "end": 69.76
+            },
+            {
+              "word": " this",
+              "start": 69.76,
+              "end": 70.1
+            },
+            {
+              "word": " pull",
+              "start": 70.1,
+              "end": 70.42
+            },
+            {
+              "word": " is",
+              "start": 70.42,
+              "end": 70.6
+            },
+            {
+              "word": " not",
+              "start": 70.6,
+              "end": 70.76
+            },
+            {
+              "word": " through",
+              "start": 70.76,
+              "end": 71.02
+            },
+            {
+              "word": " the",
+              "start": 71.02,
+              "end": 71.2
+            },
+            {
+              "word": " center,",
+              "start": 71.2,
+              "end": 71.52
+            },
+            {
+              "word": " it",
+              "start": 72.0,
+              "end": 72.16
+            },
+            {
+              "word": " produces",
+              "start": 72.16,
+              "end": 72.62
+            },
+            {
+              "word": " a",
+              "start": 72.62,
+              "end": 72.9
+            },
+            {
+              "word": " turning",
+              "start": 72.9,
+              "end": 73.22
+            },
+            {
+              "word": " effect.",
+              "start": 73.22,
+              "end": 73.62
+            }
+          ]
+        },
+        {
+          "start": 74.4,
+          "end": 77.18,
+          "text": "The rotation happens about the center of the yo-yo,",
+          "words": [
+            {
+              "word": " The",
+              "start": 74.4,
+              "end": 74.62
+            },
+            {
+              "word": " rotation",
+              "start": 74.62,
+              "end": 75.08
+            },
+            {
+              "word": " happens",
+              "start": 75.08,
+              "end": 75.5
+            },
+            {
+              "word": " about",
+              "start": 75.5,
+              "end": 75.82
+            },
+            {
+              "word": " the",
+              "start": 75.82,
+              "end": 76.04
+            },
+            {
+              "word": " center",
+              "start": 76.04,
+              "end": 76.3
+            },
+            {
+              "word": " of",
+              "start": 76.3,
+              "end": 76.52
+            },
+            {
+              "word": " the",
+              "start": 76.52,
+              "end": 76.64
+            },
+            {
+              "word": " yo",
+              "start": 76.64,
+              "end": 76.88
+            },
+            {
+              "word": "-yo,",
+              "start": 76.88,
+              "end": 77.18
+            }
+          ]
+        },
+        {
+          "start": 77.48,
+          "end": 81.06,
+          "text": "so the tension acting at a distance equal to the radius r",
+          "words": [
+            {
+              "word": " so",
+              "start": 77.48,
+              "end": 77.78
+            },
+            {
+              "word": " the",
+              "start": 77.78,
+              "end": 77.94
+            },
+            {
+              "word": " tension",
+              "start": 77.94,
+              "end": 78.26
+            },
+            {
+              "word": " acting",
+              "start": 78.26,
+              "end": 78.66
+            },
+            {
+              "word": " at",
+              "start": 78.66,
+              "end": 78.9
+            },
+            {
+              "word": " a",
+              "start": 78.9,
+              "end": 79.02
+            },
+            {
+              "word": " distance",
+              "start": 79.02,
+              "end": 79.34
+            },
+            {
+              "word": " equal",
+              "start": 79.34,
+              "end": 79.76
+            },
+            {
+              "word": " to",
+              "start": 79.76,
+              "end": 79.98
+            },
+            {
+              "word": " the",
+              "start": 79.98,
+              "end": 80.1
+            },
+            {
+              "word": " radius",
+              "start": 80.1,
+              "end": 80.48
+            },
+            {
+              "word": " r",
+              "start": 80.48,
+              "end": 81.06
+            }
+          ]
+        },
+        {
+          "start": 81.06,
+          "end": 85.9,
+          "text": "gives the torque that makes the yo-yo spin while it moves downward.",
+          "words": [
+            {
+              "word": " gives",
+              "start": 81.06,
+              "end": 81.7
+            },
+            {
+              "word": " the",
+              "start": 81.7,
+              "end": 82.0
+            },
+            {
+              "word": " torque",
+              "start": 82.0,
+              "end": 82.32
+            },
+            {
+              "word": " that",
+              "start": 82.32,
+              "end": 82.8
+            },
+            {
+              "word": " makes",
+              "start": 82.8,
+              "end": 83.08
+            },
+            {
+              "word": " the",
+              "start": 83.08,
+              "end": 83.3
+            },
+            {
+              "word": " yo",
+              "start": 83.3,
+              "end": 83.48
+            },
+            {
+              "word": "-yo",
+              "start": 83.48,
+              "end": 83.66
+            },
+            {
+              "word": " spin",
+              "start": 83.66,
+              "end": 84.08
+            },
+            {
+              "word": " while",
+              "start": 84.08,
+              "end": 84.88
+            },
+            {
+              "word": " it",
+              "start": 84.88,
+              "end": 85.04
+            },
+            {
+              "word": " moves",
+              "start": 85.04,
+              "end": 85.36
+            },
+            {
+              "word": " downward.",
+              "start": 85.36,
+              "end": 85.9
+            }
+          ]
+        },
+        {
+          "start": 86.62,
+          "end": 90.16,
+          "text": "So basically, the tension in the string creates the torque.",
+          "words": [
+            {
+              "word": " So",
+              "start": 86.62,
+              "end": 87.02
+            },
+            {
+              "word": " basically,",
+              "start": 87.02,
+              "end": 87.46
+            },
+            {
+              "word": " the",
+              "start": 87.94,
+              "end": 87.98
+            },
+            {
+              "word": " tension",
+              "start": 87.98,
+              "end": 88.3
+            },
+            {
+              "word": " in",
+              "start": 88.3,
+              "end": 88.56
+            },
+            {
+              "word": " the",
+              "start": 88.56,
+              "end": 88.66
+            },
+            {
+              "word": " string",
+              "start": 88.66,
+              "end": 89.0
+            },
+            {
+              "word": " creates",
+              "start": 89.0,
+              "end": 89.52
+            },
+            {
+              "word": " the",
+              "start": 89.52,
+              "end": 89.78
+            },
+            {
+              "word": " torque.",
+              "start": 89.78,
+              "end": 90.16
+            }
+          ]
+        },
+        {
+          "start": 90.8,
+          "end": 95.94,
+          "text": "Let this tension be t. Since the yo-yo rotates about its center,",
+          "words": [
+            {
+              "word": " Let",
+              "start": 90.8,
+              "end": 91.06
+            },
+            {
+              "word": " this",
+              "start": 91.06,
+              "end": 91.36
+            },
+            {
+              "word": " tension",
+              "start": 91.36,
+              "end": 91.76
+            },
+            {
+              "word": " be",
+              "start": 91.76,
+              "end": 92.08
+            },
+            {
+              "word": " t.",
+              "start": 92.08,
+              "end": 92.6
+            },
+            {
+              "word": " Since",
+              "start": 93.42,
+              "end": 93.78
+            },
+            {
+              "word": " the",
+              "start": 93.78,
+              "end": 94.0
+            },
+            {
+              "word": " yo",
+              "start": 94.0,
+              "end": 94.22
+            },
+            {
+              "word": "-yo",
+              "start": 94.22,
+              "end": 94.4
+            },
+            {
+              "word": " rotates",
+              "start": 94.4,
+              "end": 94.88
+            },
+            {
+              "word": " about",
+              "start": 94.88,
+              "end": 95.34
+            },
+            {
+              "word": " its",
+              "start": 95.34,
+              "end": 95.56
+            },
+            {
+              "word": " center,",
+              "start": 95.56,
+              "end": 95.94
+            }
+          ]
+        },
+        {
+          "start": 96.34,
+          "end": 102.42,
+          "text": "and the tension pulls at the outer edge of the disk, the radius r gives the lever arm.",
+          "words": [
+            {
+              "word": " and",
+              "start": 96.34,
+              "end": 96.66
+            },
+            {
+              "word": " the",
+              "start": 96.66,
+              "end": 96.78
+            },
+            {
+              "word": " tension",
+              "start": 96.78,
+              "end": 97.08
+            },
+            {
+              "word": " pulls",
+              "start": 97.08,
+              "end": 97.5
+            },
+            {
+              "word": " at",
+              "start": 97.5,
+              "end": 97.78
+            },
+            {
+              "word": " the",
+              "start": 97.78,
+              "end": 97.9
+            },
+            {
+              "word": " outer",
+              "start": 97.9,
+              "end": 98.14
+            },
+            {
+              "word": " edge",
+              "start": 98.14,
+              "end": 98.46
+            },
+            {
+              "word": " of",
+              "start": 98.46,
+              "end": 98.6
+            },
+            {
+              "word": " the",
+              "start": 98.6,
+              "end": 98.7
+            },
+            {
+              "word": " disk,",
+              "start": 98.7,
+              "end": 99.06
+            },
+            {
+              "word": " the",
+              "start": 99.62,
+              "end": 99.78
+            },
+            {
+              "word": " radius",
+              "start": 99.78,
+              "end": 100.16
+            },
+            {
+              "word": " r",
+              "start": 100.16,
+              "end": 100.76
+            },
+            {
+              "word": " gives",
+              "start": 100.76,
+              "end": 101.44
+            },
+            {
+              "word": " the",
+              "start": 101.44,
+              "end": 101.7
+            },
+            {
+              "word": " lever",
+              "start": 101.7,
+              "end": 101.92
+            },
+            {
+              "word": " arm.",
+              "start": 101.92,
+              "end": 102.42
+            }
+          ]
+        },
+        {
+          "start": 103.1,
+          "end": 109.26,
+          "text": "So the torque is the tension t times r, and the moment of inertia for a solid disk",
+          "words": [
+            {
+              "word": " So",
+              "start": 103.1,
+              "end": 103.36
+            },
+            {
+              "word": " the",
+              "start": 103.36,
+              "end": 103.52
+            },
+            {
+              "word": " torque",
+              "start": 103.52,
+              "end": 103.9
+            },
+            {
+              "word": " is",
+              "start": 103.9,
+              "end": 104.16
+            },
+            {
+              "word": " the",
+              "start": 104.16,
+              "end": 104.32
+            },
+            {
+              "word": " tension",
+              "start": 104.32,
+              "end": 104.66
+            },
+            {
+              "word": " t",
+              "start": 104.66,
+              "end": 105.22
+            },
+            {
+              "word": " times",
+              "start": 105.22,
+              "end": 105.66
+            },
+            {
+              "word": " r,",
+              "start": 105.66,
+              "end": 106.2
+            },
+            {
+              "word": " and",
+              "start": 106.5,
+              "end": 106.98
+            },
+            {
+              "word": " the",
+              "start": 106.98,
+              "end": 107.1
+            },
+            {
+              "word": " moment",
+              "start": 107.1,
+              "end": 107.36
+            },
+            {
+              "word": " of",
+              "start": 107.36,
+              "end": 107.56
+            },
+            {
+              "word": " inertia",
+              "start": 107.56,
+              "end": 107.88
+            },
+            {
+              "word": " for",
+              "start": 107.88,
+              "end": 108.3
+            },
+            {
+              "word": " a",
+              "start": 108.3,
+              "end": 108.48
+            },
+            {
+              "word": " solid",
+              "start": 108.48,
+              "end": 108.78
+            },
+            {
+              "word": " disk",
+              "start": 108.78,
+              "end": 109.26
+            }
+          ]
+        },
+        {
+          "start": 109.26,
+          "end": 112.88,
+          "text": "is one-half the mass times the radius squared.",
+          "words": [
+            {
+              "word": " is",
+              "start": 109.26,
+              "end": 109.82
+            },
+            {
+              "word": " one",
+              "start": 109.82,
+              "end": 110.1
+            },
+            {
+              "word": "-half",
+              "start": 110.1,
+              "end": 110.4
+            },
+            {
+              "word": " the",
+              "start": 110.4,
+              "end": 110.66
+            },
+            {
+              "word": " mass",
+              "start": 110.66,
+              "end": 110.92
+            },
+            {
+              "word": " times",
+              "start": 110.92,
+              "end": 111.74
+            },
+            {
+              "word": " the",
+              "start": 111.74,
+              "end": 112.04
+            },
+            {
+              "word": " radius",
+              "start": 112.04,
+              "end": 112.4
+            },
+            {
+              "word": " squared.",
+              "start": 112.4,
+              "end": 112.88
+            }
+          ]
+        },
+        {
+          "start": 113.8,
+          "end": 120.62,
+          "text": "Now for the case of pure rotation and no sliding, the angular acceleration alpha relates to the",
+          "words": [
+            {
+              "word": " Now",
+              "start": 113.8,
+              "end": 114.06
+            },
+            {
+              "word": " for",
+              "start": 114.06,
+              "end": 114.3
+            },
+            {
+              "word": " the",
+              "start": 114.3,
+              "end": 114.42
+            },
+            {
+              "word": " case",
+              "start": 114.42,
+              "end": 114.76
+            },
+            {
+              "word": " of",
+              "start": 114.76,
+              "end": 114.98
+            },
+            {
+              "word": " pure",
+              "start": 114.98,
+              "end": 115.24
+            },
+            {
+              "word": " rotation",
+              "start": 115.24,
+              "end": 115.78
+            },
+            {
+              "word": " and",
+              "start": 115.78,
+              "end": 116.54
+            },
+            {
+              "word": " no",
+              "start": 116.54,
+              "end": 116.82
+            },
+            {
+              "word": " sliding,",
+              "start": 116.82,
+              "end": 117.26
+            },
+            {
+              "word": " the",
+              "start": 117.86,
+              "end": 117.98
+            },
+            {
+              "word": " angular",
+              "start": 117.98,
+              "end": 118.38
+            },
+            {
+              "word": " acceleration",
+              "start": 118.38,
+              "end": 119.12
+            },
+            {
+              "word": " alpha",
+              "start": 119.12,
+              "end": 119.58
+            },
+            {
+              "word": " relates",
+              "start": 119.58,
+              "end": 120.18
+            },
+            {
+              "word": " to",
+              "start": 120.18,
+              "end": 120.48
+            },
+            {
+              "word": " the",
+              "start": 120.48,
+              "end": 120.62
+            }
+          ]
+        },
+        {
+          "start": 120.62,
+          "end": 126.34,
+          "text": "linear acceleration a by a equals the radius r times the alpha.",
+          "words": [
+            {
+              "word": " linear",
+              "start": 120.62,
+              "end": 120.92
+            },
+            {
+              "word": " acceleration",
+              "start": 120.92,
+              "end": 121.56
+            },
+            {
+              "word": " a",
+              "start": 121.56,
+              "end": 122.16
+            },
+            {
+              "word": " by",
+              "start": 122.16,
+              "end": 122.72
+            },
+            {
+              "word": " a",
+              "start": 122.72,
+              "end": 123.16
+            },
+            {
+              "word": " equals",
+              "start": 123.16,
+              "end": 123.94
+            },
+            {
+              "word": " the",
+              "start": 123.94,
+              "end": 124.18
+            },
+            {
+              "word": " radius",
+              "start": 124.18,
+              "end": 124.54
+            },
+            {
+              "word": " r",
+              "start": 124.54,
+              "end": 125.12
+            },
+            {
+              "word": " times",
+              "start": 125.12,
+              "end": 125.78
+            },
+            {
+              "word": " the",
+              "start": 125.78,
+              "end": 126.02
+            },
+            {
+              "word": " alpha.",
+              "start": 126.02,
+              "end": 126.34
+            }
+          ]
+        },
+        {
+          "start": 127.02,
+          "end": 133.96,
+          "text": "So the alpha equals a divided by r. Replacing the angular acceleration with this expression",
+          "words": [
+            {
+              "word": " So",
+              "start": 127.02,
+              "end": 127.38
+            },
+            {
+              "word": " the",
+              "start": 127.38,
+              "end": 127.58
+            },
+            {
+              "word": " alpha",
+              "start": 127.58,
+              "end": 127.9
+            },
+            {
+              "word": " equals",
+              "start": 127.9,
+              "end": 128.3
+            },
+            {
+              "word": " a",
+              "start": 128.3,
+              "end": 128.76
+            },
+            {
+              "word": " divided",
+              "start": 128.76,
+              "end": 129.5
+            },
+            {
+              "word": " by",
+              "start": 129.5,
+              "end": 129.9
+            },
+            {
+              "word": " r.",
+              "start": 129.9,
+              "end": 130.28
+            },
+            {
+              "word": " Replacing",
+              "start": 130.5,
+              "end": 131.22
+            },
+            {
+              "word": " the",
+              "start": 131.22,
+              "end": 131.42
+            },
+            {
+              "word": " angular",
+              "start": 131.42,
+              "end": 131.82
+            },
+            {
+              "word": " acceleration",
+              "start": 131.82,
+              "end": 132.56
+            },
+            {
+              "word": " with",
+              "start": 132.56,
+              "end": 133.16
+            },
+            {
+              "word": " this",
+              "start": 133.16,
+              "end": 133.42
+            },
+            {
+              "word": " expression",
+              "start": 133.42,
+              "end": 133.96
+            }
+          ]
+        },
+        {
+          "start": 133.96,
+          "end": 140.3,
+          "text": "makes one radius cancel out, leaving the tension equal to one-half mass times acceleration.",
+          "words": [
+            {
+              "word": " makes",
+              "start": 133.96,
+              "end": 134.56
+            },
+            {
+              "word": " one",
+              "start": 134.56,
+              "end": 134.86
+            },
+            {
+              "word": " radius",
+              "start": 134.86,
+              "end": 135.24
+            },
+            {
+              "word": " cancel",
+              "start": 135.24,
+              "end": 135.68
+            },
+            {
+              "word": " out,",
+              "start": 135.68,
+              "end": 136.08
+            },
+            {
+              "word": " leaving",
+              "start": 136.5,
+              "end": 136.78
+            },
+            {
+              "word": " the",
+              "start": 136.78,
+              "end": 137.04
+            },
+            {
+              "word": " tension",
+              "start": 137.04,
+              "end": 137.38
+            },
+            {
+              "word": " equal",
+              "start": 137.38,
+              "end": 137.92
+            },
+            {
+              "word": " to",
+              "start": 137.92,
+              "end": 138.2
+            },
+            {
+              "word": " one",
+              "start": 138.2,
+              "end": 138.52
+            },
+            {
+              "word": "-half",
+              "start": 138.52,
+              "end": 138.86
+            },
+            {
+              "word": " mass",
+              "start": 138.86,
+              "end": 139.24
+            },
+            {
+              "word": " times",
+              "start": 139.24,
+              "end": 139.8
+            },
+            {
+              "word": " acceleration.",
+              "start": 139.8,
+              "end": 140.3
+            }
+          ]
+        },
+        {
+          "start": 141.4,
+          "end": 144.74,
+          "text": "Now the second equation comes from the vertical force balance.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 141.4,
+              "end": 141.86
+            },
+            {
+              "word": " the",
+              "start": 141.86,
+              "end": 142.02
+            },
+            {
+              "word": " second",
+              "start": 142.02,
+              "end": 142.3
+            },
+            {
+              "word": " equation",
+              "start": 142.3,
+              "end": 142.7
+            },
+            {
+              "word": " comes",
+              "start": 142.7,
+              "end": 143.12
+            },
+            {
+              "word": " from",
+              "start": 143.12,
+              "end": 143.44
+            },
+            {
+              "word": " the",
+              "start": 143.44,
+              "end": 143.62
+            },
+            {
+              "word": " vertical",
+              "start": 143.62,
+              "end": 143.9
+            },
+            {
+              "word": " force",
+              "start": 143.9,
+              "end": 144.28
+            },
+            {
+              "word": " balance.",
+              "start": 144.28,
+              "end": 144.74
+            }
+          ]
+        },
+        {
+          "start": 145.4,
+          "end": 151.42,
+          "text": "The weight, m times the gravity g, pulls the yo-yo downward helping the motion,",
+          "words": [
+            {
+              "word": " The",
+              "start": 145.4,
+              "end": 145.5
+            },
+            {
+              "word": " weight,",
+              "start": 145.5,
+              "end": 145.7
+            },
+            {
+              "word": " m",
+              "start": 146.16,
+              "end": 146.52
+            },
+            {
+              "word": " times",
+              "start": 146.52,
+              "end": 146.94
+            },
+            {
+              "word": " the",
+              "start": 146.94,
+              "end": 147.22
+            },
+            {
+              "word": " gravity",
+              "start": 147.22,
+              "end": 147.5
+            },
+            {
+              "word": " g,",
+              "start": 147.5,
+              "end": 148.04
+            },
+            {
+              "word": " pulls",
+              "start": 148.58,
+              "end": 148.96
+            },
+            {
+              "word": " the",
+              "start": 148.96,
+              "end": 149.18
+            },
+            {
+              "word": " yo",
+              "start": 149.18,
+              "end": 149.38
+            },
+            {
+              "word": "-yo",
+              "start": 149.38,
+              "end": 149.52
+            },
+            {
+              "word": " downward",
+              "start": 149.52,
+              "end": 150.18
+            },
+            {
+              "word": " helping",
+              "start": 150.18,
+              "end": 150.82
+            },
+            {
+              "word": " the",
+              "start": 150.82,
+              "end": 151.06
+            },
+            {
+              "word": " motion,",
+              "start": 151.06,
+              "end": 151.42
+            }
+          ]
+        },
+        {
+          "start": 151.7,
+          "end": 155.76,
+          "text": "and the tension in the string pulls upward, resisting the motion.",
+          "words": [
+            {
+              "word": " and",
+              "start": 151.7,
+              "end": 152.16
+            },
+            {
+              "word": " the",
+              "start": 152.16,
+              "end": 152.26
+            },
+            {
+              "word": " tension",
+              "start": 152.26,
+              "end": 152.54
+            },
+            {
+              "word": " in",
+              "start": 152.54,
+              "end": 152.74
+            },
+            {
+              "word": " the",
+              "start": 152.74,
+              "end": 152.84
+            },
+            {
+              "word": " string",
+              "start": 152.84,
+              "end": 153.16
+            },
+            {
+              "word": " pulls",
+              "start": 153.16,
+              "end": 153.56
+            },
+            {
+              "word": " upward,",
+              "start": 153.56,
+              "end": 154.02
+            },
+            {
+              "word": " resisting",
+              "start": 154.36,
+              "end": 154.98
+            },
+            {
+              "word": " the",
+              "start": 154.98,
+              "end": 155.36
+            },
+            {
+              "word": " motion.",
+              "start": 155.36,
+              "end": 155.76
+            }
+          ]
+        },
+        {
+          "start": 156.24,
+          "end": 161.3,
+          "text": "So weight minus tension equals mass times the downward acceleration a.",
+          "words": [
+            {
+              "word": " So",
+              "start": 156.24,
+              "end": 156.52
+            },
+            {
+              "word": " weight",
+              "start": 156.52,
+              "end": 156.78
+            },
+            {
+              "word": " minus",
+              "start": 156.78,
+              "end": 157.06
+            },
+            {
+              "word": " tension",
+              "start": 157.06,
+              "end": 157.5
+            },
+            {
+              "word": " equals",
+              "start": 157.5,
+              "end": 157.9
+            },
+            {
+              "word": " mass",
+              "start": 157.9,
+              "end": 158.32
+            },
+            {
+              "word": " times",
+              "start": 158.32,
+              "end": 159.2
+            },
+            {
+              "word": " the",
+              "start": 159.2,
+              "end": 159.48
+            },
+            {
+              "word": " downward",
+              "start": 159.48,
+              "end": 159.8
+            },
+            {
+              "word": " acceleration",
+              "start": 159.8,
+              "end": 160.54
+            },
+            {
+              "word": " a.",
+              "start": 160.54,
+              "end": 161.3
+            }
+          ]
+        },
+        {
+          "start": 162.26000000000002,
+          "end": 168.96,
+          "text": "Solving this relationship for tension gives t equal to mg minus m times a.",
+          "words": [
+            {
+              "word": " Solving",
+              "start": 162.26000000000002,
+              "end": 162.68
+            },
+            {
+              "word": " this",
+              "start": 162.68,
+              "end": 162.88
+            },
+            {
+              "word": " relationship",
+              "start": 162.88,
+              "end": 163.48
+            },
+            {
+              "word": " for",
+              "start": 163.48,
+              "end": 163.7
+            },
+            {
+              "word": " tension",
+              "start": 163.7,
+              "end": 163.98
+            },
+            {
+              "word": " gives",
+              "start": 163.98,
+              "end": 164.42
+            },
+            {
+              "word": " t",
+              "start": 164.42,
+              "end": 165.02
+            },
+            {
+              "word": " equal",
+              "start": 165.02,
+              "end": 165.7
+            },
+            {
+              "word": " to",
+              "start": 165.7,
+              "end": 165.92
+            },
+            {
+              "word": " mg",
+              "start": 165.92,
+              "end": 166.4
+            },
+            {
+              "word": " minus",
+              "start": 166.4,
+              "end": 167.4
+            },
+            {
+              "word": " m",
+              "start": 167.4,
+              "end": 167.94
+            },
+            {
+              "word": " times",
+              "start": 167.94,
+              "end": 168.46
+            },
+            {
+              "word": " a.",
+              "start": 168.46,
+              "end": 168.96
+            }
+          ]
+        },
+        {
+          "start": 169.64,
+          "end": 173.62,
+          "text": "Now we have two expressions for tension, one from the torque relationship,",
+          "words": [
+            {
+              "word": " Now",
+              "start": 169.64,
+              "end": 170.0
+            },
+            {
+              "word": " we",
+              "start": 170.0,
+              "end": 170.16
+            },
+            {
+              "word": " have",
+              "start": 170.16,
+              "end": 170.36
+            },
+            {
+              "word": " two",
+              "start": 170.36,
+              "end": 170.56
+            },
+            {
+              "word": " expressions",
+              "start": 170.56,
+              "end": 171.02
+            },
+            {
+              "word": " for",
+              "start": 171.02,
+              "end": 171.34
+            },
+            {
+              "word": " tension,",
+              "start": 171.34,
+              "end": 171.62
+            },
+            {
+              "word": " one",
+              "start": 172.04,
+              "end": 172.42
+            },
+            {
+              "word": " from",
+              "start": 172.42,
+              "end": 172.66
+            },
+            {
+              "word": " the",
+              "start": 172.66,
+              "end": 172.8
+            },
+            {
+              "word": " torque",
+              "start": 172.8,
+              "end": 173.0
+            },
+            {
+              "word": " relationship,",
+              "start": 173.0,
+              "end": 173.62
+            }
+          ]
+        },
+        {
+          "start": 173.84,
+          "end": 179.04,
+          "text": "and one from the force balance. Setting them equal allows us to remove tension entirely.",
+          "words": [
+            {
+              "word": " and",
+              "start": 173.84,
+              "end": 174.18
+            },
+            {
+              "word": " one",
+              "start": 174.18,
+              "end": 174.36
+            },
+            {
+              "word": " from",
+              "start": 174.36,
+              "end": 174.58
+            },
+            {
+              "word": " the",
+              "start": 174.58,
+              "end": 174.72
+            },
+            {
+              "word": " force",
+              "start": 174.72,
+              "end": 174.94
+            },
+            {
+              "word": " balance.",
+              "start": 174.94,
+              "end": 175.4
+            },
+            {
+              "word": " Setting",
+              "start": 176.12,
+              "end": 176.32
+            },
+            {
+              "word": " them",
+              "start": 176.32,
+              "end": 176.5
+            },
+            {
+              "word": " equal",
+              "start": 176.5,
+              "end": 176.84
+            },
+            {
+              "word": " allows",
+              "start": 176.84,
+              "end": 177.48
+            },
+            {
+              "word": " us",
+              "start": 177.48,
+              "end": 177.74
+            },
+            {
+              "word": " to",
+              "start": 177.74,
+              "end": 177.88
+            },
+            {
+              "word": " remove",
+              "start": 177.88,
+              "end": 178.14
+            },
+            {
+              "word": " tension",
+              "start": 178.14,
+              "end": 178.52
+            },
+            {
+              "word": " entirely.",
+              "start": 178.52,
+              "end": 179.04
+            }
+          ]
+        },
+        {
+          "start": 179.8,
+          "end": 185.52,
+          "text": "This gives one-half m times a equal to mg minus m times a.",
+          "words": [
+            {
+              "word": " This",
+              "start": 179.8,
+              "end": 180.1
+            },
+            {
+              "word": " gives",
+              "start": 180.1,
+              "end": 180.34
+            },
+            {
+              "word": " one",
+              "start": 180.34,
+              "end": 180.6
+            },
+            {
+              "word": "-half",
+              "start": 180.6,
+              "end": 180.86
+            },
+            {
+              "word": " m",
+              "start": 180.86,
+              "end": 181.28
+            },
+            {
+              "word": " times",
+              "start": 181.28,
+              "end": 181.62
+            },
+            {
+              "word": " a",
+              "start": 181.62,
+              "end": 182.12
+            },
+            {
+              "word": " equal",
+              "start": 182.12,
+              "end": 182.7
+            },
+            {
+              "word": " to",
+              "start": 182.7,
+              "end": 182.9
+            },
+            {
+              "word": " mg",
+              "start": 182.9,
+              "end": 183.34
+            },
+            {
+              "word": " minus",
+              "start": 183.34,
+              "end": 184.12
+            },
+            {
+              "word": " m",
+              "start": 184.12,
+              "end": 184.68
+            },
+            {
+              "word": " times",
+              "start": 184.68,
+              "end": 185.04
+            },
+            {
+              "word": " a.",
+              "start": 185.04,
+              "end": 185.52
+            }
+          ]
+        },
+        {
+          "start": 186.32000000000002,
+          "end": 192.18,
+          "text": "Move this m a here to get 3 over 2 times m a equals mg.",
+          "words": [
+            {
+              "word": " Move",
+              "start": 186.2,
+              "end": 186.6
+            },
+            {
+              "word": " this",
+              "start": 186.6,
+              "end": 186.94
+            },
+            {
+              "word": " m",
+              "start": 186.94,
+              "end": 187.4
+            },
+            {
+              "word": " a",
+              "start": 187.4,
+              "end": 187.82
+            },
+            {
+              "word": " here",
+              "start": 187.82,
+              "end": 188.38
+            },
+            {
+              "word": " to",
+              "start": 188.38,
+              "end": 188.78
+            },
+            {
+              "word": " get",
+              "start": 188.78,
+              "end": 188.96
+            },
+            {
+              "word": " 3",
+              "start": 188.96,
+              "end": 189.3
+            },
+            {
+              "word": " over",
+              "start": 189.3,
+              "end": 189.56
+            },
+            {
+              "word": " 2",
+              "start": 189.56,
+              "end": 189.88
+            },
+            {
+              "word": " times",
+              "start": 189.88,
+              "end": 190.14
+            },
+            {
+              "word": " m",
+              "start": 190.14,
+              "end": 190.68
+            },
+            {
+              "word": " a",
+              "start": 190.68,
+              "end": 191.18
+            },
+            {
+              "word": " equals",
+              "start": 191.18,
+              "end": 191.7
+            },
+            {
+              "word": " mg.",
+              "start": 191.7,
+              "end": 192.18
+            }
+          ]
+        },
+        {
+          "start": 193.1,
+          "end": 200.3,
+          "text": "The masses cancel out, and multiplying both sides by 2 divided by 3 shows that the acceleration a",
+          "words": [
+            {
+              "word": " The",
+              "start": 193.1,
+              "end": 193.32
+            },
+            {
+              "word": " masses",
+              "start": 193.32,
+              "end": 193.62
+            },
+            {
+              "word": " cancel",
+              "start": 193.62,
+              "end": 194.08
+            },
+            {
+              "word": " out,",
+              "start": 194.08,
+              "end": 194.46
+            },
+            {
+              "word": " and",
+              "start": 194.66,
+              "end": 194.96
+            },
+            {
+              "word": " multiplying",
+              "start": 194.96,
+              "end": 195.42
+            },
+            {
+              "word": " both",
+              "start": 195.42,
+              "end": 195.8
+            },
+            {
+              "word": " sides",
+              "start": 195.8,
+              "end": 196.26
+            },
+            {
+              "word": " by",
+              "start": 196.26,
+              "end": 196.5
+            },
+            {
+              "word": " 2",
+              "start": 196.5,
+              "end": 196.92
+            },
+            {
+              "word": " divided",
+              "start": 196.92,
+              "end": 197.5
+            },
+            {
+              "word": " by",
+              "start": 197.5,
+              "end": 197.8
+            },
+            {
+              "word": " 3",
+              "start": 197.8,
+              "end": 198.08
+            },
+            {
+              "word": " shows",
+              "start": 198.08,
+              "end": 198.48
+            },
+            {
+              "word": " that",
+              "start": 198.48,
+              "end": 199.1
+            },
+            {
+              "word": " the",
+              "start": 199.1,
+              "end": 199.2
+            },
+            {
+              "word": " acceleration",
+              "start": 199.2,
+              "end": 199.64
+            },
+            {
+              "word": " a",
+              "start": 199.64,
+              "end": 200.3
+            }
+          ]
+        },
+        {
+          "start": 200.3,
+          "end": 208.02,
+          "text": "equals 2 divided by 3 times the gravity g. Real yo-yos usually have two disks and a narrower",
+          "words": [
+            {
+              "word": " equals",
+              "start": 200.3,
+              "end": 200.78
+            },
+            {
+              "word": " 2",
+              "start": 200.78,
+              "end": 201.18
+            },
+            {
+              "word": " divided",
+              "start": 201.18,
+              "end": 201.6
+            },
+            {
+              "word": " by",
+              "start": 201.6,
+              "end": 201.9
+            },
+            {
+              "word": " 3",
+              "start": 201.9,
+              "end": 202.18
+            },
+            {
+              "word": " times",
+              "start": 202.18,
+              "end": 202.56
+            },
+            {
+              "word": " the",
+              "start": 202.56,
+              "end": 202.72
+            },
+            {
+              "word": " gravity",
+              "start": 202.72,
+              "end": 203.1
+            },
+            {
+              "word": " g.",
+              "start": 203.1,
+              "end": 203.66
+            },
+            {
+              "word": " Real",
+              "start": 204.38,
+              "end": 204.74
+            },
+            {
+              "word": " yo",
+              "start": 204.74,
+              "end": 205.02
+            },
+            {
+              "word": "-yos",
+              "start": 205.02,
+              "end": 205.36
+            },
+            {
+              "word": " usually",
+              "start": 205.36,
+              "end": 205.8
+            },
+            {
+              "word": " have",
+              "start": 205.8,
+              "end": 206.16
+            },
+            {
+              "word": " two",
+              "start": 206.16,
+              "end": 206.44
+            },
+            {
+              "word": " disks",
+              "start": 206.44,
+              "end": 206.88
+            },
+            {
+              "word": " and",
+              "start": 206.88,
+              "end": 207.52
+            },
+            {
+              "word": " a",
+              "start": 207.52,
+              "end": 207.66
+            },
+            {
+              "word": " narrower",
+              "start": 207.66,
+              "end": 208.02
+            }
+          ]
+        },
+        {
+          "start": 208.02,
+          "end": 213.34,
+          "text": "central axle where the string actually winds, which changes the calculation slightly.",
+          "words": [
+            {
+              "word": " central",
+              "start": 208.02,
+              "end": 208.54
+            },
+            {
+              "word": " axle",
+              "start": 208.54,
+              "end": 209.08
+            },
+            {
+              "word": " where",
+              "start": 209.08,
+              "end": 209.38
+            },
+            {
+              "word": " the",
+              "start": 209.38,
+              "end": 209.52
+            },
+            {
+              "word": " string",
+              "start": 209.52,
+              "end": 209.84
+            },
+            {
+              "word": " actually",
+              "start": 209.84,
+              "end": 210.3
+            },
+            {
+              "word": " winds,",
+              "start": 210.3,
+              "end": 210.82
+            },
+            {
+              "word": " which",
+              "start": 211.08,
+              "end": 211.48
+            },
+            {
+              "word": " changes",
+              "start": 211.48,
+              "end": 211.94
+            },
+            {
+              "word": " the",
+              "start": 211.94,
+              "end": 212.18
+            },
+            {
+              "word": " calculation",
+              "start": 212.18,
+              "end": 212.6
+            },
+            {
+              "word": " slightly.",
+              "start": 212.6,
+              "end": 213.34
+            }
+          ]
+        },
+        {
+          "start": 214.3,
+          "end": 219.5,
+          "text": "That variation will be handled separately, but for this simple case with the string on the",
+          "words": [
+            {
+              "word": " That",
+              "start": 214.26000000000002,
+              "end": 214.58
+            },
+            {
+              "word": " variation",
+              "start": 214.58,
+              "end": 215.04
+            },
+            {
+              "word": " will",
+              "start": 215.04,
+              "end": 215.48
+            },
+            {
+              "word": " be",
+              "start": 215.48,
+              "end": 215.64
+            },
+            {
+              "word": " handled",
+              "start": 215.64,
+              "end": 215.94
+            },
+            {
+              "word": " separately,",
+              "start": 215.94,
+              "end": 216.44
+            },
+            {
+              "word": " but",
+              "start": 217.14,
+              "end": 217.36
+            },
+            {
+              "word": " for",
+              "start": 217.36,
+              "end": 217.52
+            },
+            {
+              "word": " this",
+              "start": 217.52,
+              "end": 217.76
+            },
+            {
+              "word": " simple",
+              "start": 217.76,
+              "end": 218.1
+            },
+            {
+              "word": " case",
+              "start": 218.1,
+              "end": 218.46
+            },
+            {
+              "word": " with",
+              "start": 218.46,
+              "end": 218.72
+            },
+            {
+              "word": " the",
+              "start": 218.72,
+              "end": 218.88
+            },
+            {
+              "word": " string",
+              "start": 218.88,
+              "end": 219.16
+            },
+            {
+              "word": " on",
+              "start": 219.16,
+              "end": 219.36
+            },
+            {
+              "word": " the",
+              "start": 219.36,
+              "end": 219.5
+            }
+          ]
+        },
+        {
+          "start": 219.5,
+          "end": 226.58,
+          "text": "edge of the disk, the acceleration is 2 divided by 3g, and that completes the first question.",
+          "words": [
+            {
+              "word": " edge",
+              "start": 219.5,
+              "end": 219.7
+            },
+            {
+              "word": " of",
+              "start": 219.7,
+              "end": 219.84
+            },
+            {
+              "word": " the",
+              "start": 219.84,
+              "end": 219.94
+            },
+            {
+              "word": " disk,",
+              "start": 219.94,
+              "end": 220.3
+            },
+            {
+              "word": " the",
+              "start": 220.78,
+              "end": 220.94
+            },
+            {
+              "word": " acceleration",
+              "start": 220.94,
+              "end": 221.4
+            },
+            {
+              "word": " is",
+              "start": 221.4,
+              "end": 222.22
+            },
+            {
+              "word": " 2",
+              "start": 222.22,
+              "end": 222.56
+            },
+            {
+              "word": " divided",
+              "start": 222.56,
+              "end": 222.86
+            },
+            {
+              "word": " by",
+              "start": 222.86,
+              "end": 223.28
+            },
+            {
+              "word": " 3g,",
+              "start": 223.28,
+              "end": 224.06
+            },
+            {
+              "word": " and",
+              "start": 224.58,
+              "end": 224.9
+            },
+            {
+              "word": " that",
+              "start": 224.9,
+              "end": 225.12
+            },
+            {
+              "word": " completes",
+              "start": 225.12,
+              "end": 225.54
+            },
+            {
+              "word": " the",
+              "start": 225.54,
+              "end": 225.84
+            },
+            {
+              "word": " first",
+              "start": 225.84,
+              "end": 226.06
+            },
+            {
+              "word": " question.",
+              "start": 226.06,
+              "end": 226.58
+            }
+          ]
+        },
+        {
+          "start": 227.32,
+          "end": 234.64,
+          "text": "In the next question, we will see how a solid cylinder of mass m and radius r rolls down an",
+          "words": [
+            {
+              "word": " In",
+              "start": 227.32,
+              "end": 227.56
+            },
+            {
+              "word": " the",
+              "start": 227.56,
+              "end": 227.66
+            },
+            {
+              "word": " next",
+              "start": 227.66,
+              "end": 227.86
+            },
+            {
+              "word": " question,",
+              "start": 227.86,
+              "end": 228.38
+            },
+            {
+              "word": " we",
+              "start": 228.78,
+              "end": 228.94
+            },
+            {
+              "word": " will",
+              "start": 228.94,
+              "end": 229.08
+            },
+            {
+              "word": " see",
+              "start": 229.08,
+              "end": 229.3
+            },
+            {
+              "word": " how",
+              "start": 229.3,
+              "end": 229.54
+            },
+            {
+              "word": " a",
+              "start": 229.54,
+              "end": 229.68
+            },
+            {
+              "word": " solid",
+              "start": 229.68,
+              "end": 230.04
+            },
+            {
+              "word": " cylinder",
+              "start": 230.04,
+              "end": 230.56
+            },
+            {
+              "word": " of",
+              "start": 230.56,
+              "end": 230.84
+            },
+            {
+              "word": " mass",
+              "start": 230.84,
+              "end": 231.1
+            },
+            {
+              "word": " m",
+              "start": 231.1,
+              "end": 231.76
+            },
+            {
+              "word": " and",
+              "start": 231.76,
+              "end": 232.36
+            },
+            {
+              "word": " radius",
+              "start": 232.36,
+              "end": 232.78
+            },
+            {
+              "word": " r",
+              "start": 232.78,
+              "end": 233.38
+            },
+            {
+              "word": " rolls",
+              "start": 233.38,
+              "end": 234.1
+            },
+            {
+              "word": " down",
+              "start": 234.1,
+              "end": 234.44
+            },
+            {
+              "word": " an",
+              "start": 234.44,
+              "end": 234.64
+            }
+          ]
+        },
+        {
+          "start": 234.64,
+          "end": 240.74,
+          "text": "inclined surface with angle of inclination equal to theta, and the surface is having friction,",
+          "words": [
+            {
+              "word": " inclined",
+              "start": 234.64,
+              "end": 235.02
+            },
+            {
+              "word": " surface",
+              "start": 235.02,
+              "end": 235.6
+            },
+            {
+              "word": " with",
+              "start": 235.6,
+              "end": 236.22
+            },
+            {
+              "word": " angle",
+              "start": 236.22,
+              "end": 236.58
+            },
+            {
+              "word": " of",
+              "start": 236.58,
+              "end": 236.74
+            },
+            {
+              "word": " inclination",
+              "start": 236.74,
+              "end": 237.32
+            },
+            {
+              "word": " equal",
+              "start": 237.32,
+              "end": 237.92
+            },
+            {
+              "word": " to",
+              "start": 237.92,
+              "end": 238.14
+            },
+            {
+              "word": " theta,",
+              "start": 238.14,
+              "end": 238.44
+            },
+            {
+              "word": " and",
+              "start": 238.88,
+              "end": 239.18
+            },
+            {
+              "word": " the",
+              "start": 239.18,
+              "end": 239.32
+            },
+            {
+              "word": " surface",
+              "start": 239.32,
+              "end": 239.68
+            },
+            {
+              "word": " is",
+              "start": 239.68,
+              "end": 239.98
+            },
+            {
+              "word": " having",
+              "start": 239.98,
+              "end": 240.3
+            },
+            {
+              "word": " friction,",
+              "start": 240.3,
+              "end": 240.74
+            }
+          ]
+        },
+        {
+          "start": 240.74,
+          "end": 248.34,
+          "text": "but the coefficient of the friction mu is unknown. Here also note that the solid cylinder is moving",
+          "words": [
+            {
+              "word": " but",
+              "start": 240.74,
+              "end": 241.44
+            },
+            {
+              "word": " the",
+              "start": 241.44,
+              "end": 241.58
+            },
+            {
+              "word": " coefficient",
+              "start": 241.58,
+              "end": 242.04
+            },
+            {
+              "word": " of",
+              "start": 242.04,
+              "end": 242.58
+            },
+            {
+              "word": " the",
+              "start": 242.58,
+              "end": 242.7
+            },
+            {
+              "word": " friction",
+              "start": 242.7,
+              "end": 243.02
+            },
+            {
+              "word": " mu",
+              "start": 243.02,
+              "end": 243.42
+            },
+            {
+              "word": " is",
+              "start": 243.42,
+              "end": 243.78
+            },
+            {
+              "word": " unknown.",
+              "start": 243.78,
+              "end": 244.32
+            },
+            {
+              "word": " Here",
+              "start": 245.3,
+              "end": 245.52
+            },
+            {
+              "word": " also",
+              "start": 245.52,
+              "end": 245.96
+            },
+            {
+              "word": " note",
+              "start": 245.96,
+              "end": 246.3
+            },
+            {
+              "word": " that",
+              "start": 246.3,
+              "end": 246.78
+            },
+            {
+              "word": " the",
+              "start": 246.78,
+              "end": 246.9
+            },
+            {
+              "word": " solid",
+              "start": 246.9,
+              "end": 247.26
+            },
+            {
+              "word": " cylinder",
+              "start": 247.26,
+              "end": 247.76
+            },
+            {
+              "word": " is",
+              "start": 247.76,
+              "end": 248.04
+            },
+            {
+              "word": " moving",
+              "start": 248.04,
+              "end": 248.34
+            }
+          ]
+        },
+        {
+          "start": 248.34,
+          "end": 253.74,
+          "text": "downward without slipping, meaning it only rolls and does not slide on the surface.",
+          "words": [
+            {
+              "word": " downward",
+              "start": 248.34,
+              "end": 248.88
+            },
+            {
+              "word": " without",
+              "start": 248.88,
+              "end": 249.32
+            },
+            {
+              "word": " slipping,",
+              "start": 249.32,
+              "end": 249.78
+            },
+            {
+              "word": " meaning",
+              "start": 250.2,
+              "end": 250.7
+            },
+            {
+              "word": " it",
+              "start": 250.7,
+              "end": 250.94
+            },
+            {
+              "word": " only",
+              "start": 250.94,
+              "end": 251.18
+            },
+            {
+              "word": " rolls",
+              "start": 251.18,
+              "end": 251.66
+            },
+            {
+              "word": " and",
+              "start": 251.66,
+              "end": 252.2
+            },
+            {
+              "word": " does",
+              "start": 252.2,
+              "end": 252.4
+            },
+            {
+              "word": " not",
+              "start": 252.4,
+              "end": 252.6
+            },
+            {
+              "word": " slide",
+              "start": 252.6,
+              "end": 253.0
+            },
+            {
+              "word": " on",
+              "start": 253.0,
+              "end": 253.24
+            },
+            {
+              "word": " the",
+              "start": 253.24,
+              "end": 253.38
+            },
+            {
+              "word": " surface.",
+              "start": 253.38,
+              "end": 253.74
+            }
+          ]
+        },
+        {
+          "start": 254.6,
+          "end": 260.14,
+          "text": "Now because the object is rotating as well as translating, we end up needing two separate",
+          "words": [
+            {
+              "word": " Now",
+              "start": 254.6,
+              "end": 254.88
+            },
+            {
+              "word": " because",
+              "start": 254.88,
+              "end": 255.18
+            },
+            {
+              "word": " the",
+              "start": 255.18,
+              "end": 255.46
+            },
+            {
+              "word": " object",
+              "start": 255.46,
+              "end": 255.84
+            },
+            {
+              "word": " is",
+              "start": 255.84,
+              "end": 256.08
+            },
+            {
+              "word": " rotating",
+              "start": 256.08,
+              "end": 256.56
+            },
+            {
+              "word": " as",
+              "start": 256.56,
+              "end": 256.9
+            },
+            {
+              "word": " well",
+              "start": 256.9,
+              "end": 257.14
+            },
+            {
+              "word": " as",
+              "start": 257.14,
+              "end": 257.32
+            },
+            {
+              "word": " translating,",
+              "start": 257.32,
+              "end": 257.86
+            },
+            {
+              "word": " we",
+              "start": 258.44,
+              "end": 258.62
+            },
+            {
+              "word": " end",
+              "start": 258.62,
+              "end": 258.88
+            },
+            {
+              "word": " up",
+              "start": 258.88,
+              "end": 259.06
+            },
+            {
+              "word": " needing",
+              "start": 259.06,
+              "end": 259.3
+            },
+            {
+              "word": " two",
+              "start": 259.3,
+              "end": 259.7
+            },
+            {
+              "word": " separate",
+              "start": 259.7,
+              "end": 260.14
+            }
+          ]
+        },
+        {
+          "start": 260.14,
+          "end": 267.22,
+          "text": "relationships. One that deals with torque being equal to the moment of inertia times the angular",
+          "words": [
+            {
+              "word": " relationships.",
+              "start": 260.14,
+              "end": 260.9
+            },
+            {
+              "word": " One",
+              "start": 261.64,
+              "end": 262.1
+            },
+            {
+              "word": " that",
+              "start": 262.1,
+              "end": 262.34
+            },
+            {
+              "word": " deals",
+              "start": 262.34,
+              "end": 262.6
+            },
+            {
+              "word": " with",
+              "start": 262.6,
+              "end": 262.88
+            },
+            {
+              "word": " torque",
+              "start": 262.88,
+              "end": 263.22
+            },
+            {
+              "word": " being",
+              "start": 263.22,
+              "end": 263.8
+            },
+            {
+              "word": " equal",
+              "start": 263.8,
+              "end": 264.22
+            },
+            {
+              "word": " to",
+              "start": 264.22,
+              "end": 264.46
+            },
+            {
+              "word": " the",
+              "start": 264.46,
+              "end": 264.58
+            },
+            {
+              "word": " moment",
+              "start": 264.58,
+              "end": 264.88
+            },
+            {
+              "word": " of",
+              "start": 264.88,
+              "end": 265.14
+            },
+            {
+              "word": " inertia",
+              "start": 265.14,
+              "end": 265.62
+            },
+            {
+              "word": " times",
+              "start": 265.62,
+              "end": 266.52
+            },
+            {
+              "word": " the",
+              "start": 266.52,
+              "end": 266.78
+            },
+            {
+              "word": " angular",
+              "start": 266.78,
+              "end": 267.22
+            }
+          ]
+        },
+        {
+          "start": 267.22,
+          "end": 276.3,
+          "text": "acceleration alpha, and the other is f equals mass times acceleration a. Our job is to find this",
+          "words": [
+            {
+              "word": " acceleration",
+              "start": 267.22,
+              "end": 267.94
+            },
+            {
+              "word": " alpha,",
+              "start": 267.94,
+              "end": 268.52
+            },
+            {
+              "word": " and",
+              "start": 268.94,
+              "end": 269.34
+            },
+            {
+              "word": " the",
+              "start": 269.34,
+              "end": 269.46
+            },
+            {
+              "word": " other",
+              "start": 269.46,
+              "end": 269.72
+            },
+            {
+              "word": " is",
+              "start": 269.72,
+              "end": 270.08
+            },
+            {
+              "word": " f",
+              "start": 270.08,
+              "end": 270.64
+            },
+            {
+              "word": " equals",
+              "start": 270.64,
+              "end": 271.38
+            },
+            {
+              "word": " mass",
+              "start": 271.38,
+              "end": 271.76
+            },
+            {
+              "word": " times",
+              "start": 271.76,
+              "end": 272.4
+            },
+            {
+              "word": " acceleration",
+              "start": 272.4,
+              "end": 272.96
+            },
+            {
+              "word": " a.",
+              "start": 272.96,
+              "end": 273.78
+            },
+            {
+              "word": " Our",
+              "start": 274.66,
+              "end": 275.04
+            },
+            {
+              "word": " job",
+              "start": 275.04,
+              "end": 275.38
+            },
+            {
+              "word": " is",
+              "start": 275.38,
+              "end": 275.58
+            },
+            {
+              "word": " to",
+              "start": 275.58,
+              "end": 275.72
+            },
+            {
+              "word": " find",
+              "start": 275.72,
+              "end": 276.04
+            },
+            {
+              "word": " this",
+              "start": 276.04,
+              "end": 276.3
+            }
+          ]
+        },
+        {
+          "start": 276.3,
+          "end": 284.54,
+          "text": "linear acceleration a. Again, think what is creating this torque. The torque is produced by the friction",
+          "words": [
+            {
+              "word": " linear",
+              "start": 276.3,
+              "end": 276.68
+            },
+            {
+              "word": " acceleration",
+              "start": 276.68,
+              "end": 277.5
+            },
+            {
+              "word": " a.",
+              "start": 277.5,
+              "end": 278.14
+            },
+            {
+              "word": " Again,",
+              "start": 278.86,
+              "end": 279.32
+            },
+            {
+              "word": " think",
+              "start": 279.54,
+              "end": 279.82
+            },
+            {
+              "word": " what",
+              "start": 279.82,
+              "end": 280.22
+            },
+            {
+              "word": " is",
+              "start": 280.22,
+              "end": 280.44
+            },
+            {
+              "word": " creating",
+              "start": 280.44,
+              "end": 280.88
+            },
+            {
+              "word": " this",
+              "start": 280.88,
+              "end": 281.28
+            },
+            {
+              "word": " torque.",
+              "start": 281.28,
+              "end": 281.6
+            },
+            {
+              "word": " The",
+              "start": 282.36,
+              "end": 282.66
+            },
+            {
+              "word": " torque",
+              "start": 282.66,
+              "end": 282.96
+            },
+            {
+              "word": " is",
+              "start": 282.96,
+              "end": 283.34
+            },
+            {
+              "word": " produced",
+              "start": 283.34,
+              "end": 283.66
+            },
+            {
+              "word": " by",
+              "start": 283.66,
+              "end": 284.02
+            },
+            {
+              "word": " the",
+              "start": 284.02,
+              "end": 284.16
+            },
+            {
+              "word": " friction",
+              "start": 284.16,
+              "end": 284.54
+            }
+          ]
+        },
+        {
+          "start": 284.54,
+          "end": 291.06,
+          "text": "between the incline and the surface of the cylinder. To understand the motion, we first look at all",
+          "words": [
+            {
+              "word": " between",
+              "start": 284.54,
+              "end": 284.98
+            },
+            {
+              "word": " the",
+              "start": 284.98,
+              "end": 285.22
+            },
+            {
+              "word": " incline",
+              "start": 285.22,
+              "end": 285.78
+            },
+            {
+              "word": " and",
+              "start": 285.78,
+              "end": 286.46
+            },
+            {
+              "word": " the",
+              "start": 286.46,
+              "end": 286.62
+            },
+            {
+              "word": " surface",
+              "start": 286.62,
+              "end": 286.98
+            },
+            {
+              "word": " of",
+              "start": 286.98,
+              "end": 287.24
+            },
+            {
+              "word": " the",
+              "start": 287.24,
+              "end": 287.36
+            },
+            {
+              "word": " cylinder.",
+              "start": 287.36,
+              "end": 287.8
+            },
+            {
+              "word": " To",
+              "start": 288.26,
+              "end": 288.44
+            },
+            {
+              "word": " understand",
+              "start": 288.44,
+              "end": 288.96
+            },
+            {
+              "word": " the",
+              "start": 288.96,
+              "end": 289.12
+            },
+            {
+              "word": " motion,",
+              "start": 289.12,
+              "end": 289.46
+            },
+            {
+              "word": " we",
+              "start": 289.88,
+              "end": 290.1
+            },
+            {
+              "word": " first",
+              "start": 290.1,
+              "end": 290.38
+            },
+            {
+              "word": " look",
+              "start": 290.38,
+              "end": 290.64
+            },
+            {
+              "word": " at",
+              "start": 290.64,
+              "end": 290.84
+            },
+            {
+              "word": " all",
+              "start": 290.84,
+              "end": 291.06
+            }
+          ]
+        },
+        {
+          "start": 291.06,
+          "end": 298.8,
+          "text": "the forces involved. The weight, which is mg, acts straight downward. This weight can be split",
+          "words": [
+            {
+              "word": " the",
+              "start": 291.06,
+              "end": 291.28
+            },
+            {
+              "word": " forces",
+              "start": 291.28,
+              "end": 291.52
+            },
+            {
+              "word": " involved.",
+              "start": 291.52,
+              "end": 292.02
+            },
+            {
+              "word": " The",
+              "start": 292.88,
+              "end": 293.04
+            },
+            {
+              "word": " weight,",
+              "start": 293.04,
+              "end": 293.4
+            },
+            {
+              "word": " which",
+              "start": 293.6,
+              "end": 293.84
+            },
+            {
+              "word": " is",
+              "start": 293.84,
+              "end": 294.06
+            },
+            {
+              "word": " mg,",
+              "start": 294.06,
+              "end": 294.48
+            },
+            {
+              "word": " acts",
+              "start": 295.32,
+              "end": 295.66
+            },
+            {
+              "word": " straight",
+              "start": 295.66,
+              "end": 296.14
+            },
+            {
+              "word": " downward.",
+              "start": 296.14,
+              "end": 296.66
+            },
+            {
+              "word": " This",
+              "start": 297.46,
+              "end": 297.78
+            },
+            {
+              "word": " weight",
+              "start": 297.78,
+              "end": 298.04
+            },
+            {
+              "word": " can",
+              "start": 298.04,
+              "end": 298.34
+            },
+            {
+              "word": " be",
+              "start": 298.34,
+              "end": 298.5
+            },
+            {
+              "word": " split",
+              "start": 298.5,
+              "end": 298.8
+            }
+          ]
+        },
+        {
+          "start": 298.8,
+          "end": 306.12,
+          "text": "into two components, one parallel to the incline, which is mg sign of the angle theta, and one",
+          "words": [
+            {
+              "word": " into",
+              "start": 298.8,
+              "end": 299.1
+            },
+            {
+              "word": " two",
+              "start": 299.1,
+              "end": 299.36
+            },
+            {
+              "word": " components,",
+              "start": 299.36,
+              "end": 299.94
+            },
+            {
+              "word": " one",
+              "start": 300.5,
+              "end": 300.76
+            },
+            {
+              "word": " parallel",
+              "start": 300.76,
+              "end": 301.18
+            },
+            {
+              "word": " to",
+              "start": 301.18,
+              "end": 301.52
+            },
+            {
+              "word": " the",
+              "start": 301.52,
+              "end": 301.68
+            },
+            {
+              "word": " incline,",
+              "start": 301.68,
+              "end": 302.18
+            },
+            {
+              "word": " which",
+              "start": 302.66,
+              "end": 302.92
+            },
+            {
+              "word": " is",
+              "start": 302.92,
+              "end": 303.06
+            },
+            {
+              "word": " mg",
+              "start": 303.06,
+              "end": 303.56
+            },
+            {
+              "word": " sign",
+              "start": 303.56,
+              "end": 304.12
+            },
+            {
+              "word": " of",
+              "start": 304.12,
+              "end": 304.36
+            },
+            {
+              "word": " the",
+              "start": 304.36,
+              "end": 304.48
+            },
+            {
+              "word": " angle",
+              "start": 304.48,
+              "end": 304.78
+            },
+            {
+              "word": " theta,",
+              "start": 304.78,
+              "end": 305.08
+            },
+            {
+              "word": " and",
+              "start": 305.56,
+              "end": 305.94
+            },
+            {
+              "word": " one",
+              "start": 305.94,
+              "end": 306.12
+            }
+          ]
+        },
+        {
+          "start": 306.12,
+          "end": 313.98,
+          "text": "perpendicular to the incline, which is mg cos of theta. This perpendicular component mg cos theta",
+          "words": [
+            {
+              "word": " perpendicular",
+              "start": 306.12,
+              "end": 306.6
+            },
+            {
+              "word": " to",
+              "start": 306.6,
+              "end": 307.1
+            },
+            {
+              "word": " the",
+              "start": 307.1,
+              "end": 307.22
+            },
+            {
+              "word": " incline,",
+              "start": 307.22,
+              "end": 307.74
+            },
+            {
+              "word": " which",
+              "start": 308.08,
+              "end": 308.32
+            },
+            {
+              "word": " is",
+              "start": 308.32,
+              "end": 308.48
+            },
+            {
+              "word": " mg",
+              "start": 308.48,
+              "end": 309.02
+            },
+            {
+              "word": " cos",
+              "start": 309.02,
+              "end": 309.46
+            },
+            {
+              "word": " of",
+              "start": 309.46,
+              "end": 309.72
+            },
+            {
+              "word": " theta.",
+              "start": 309.72,
+              "end": 309.98
+            },
+            {
+              "word": " This",
+              "start": 310.72,
+              "end": 311.0
+            },
+            {
+              "word": " perpendicular",
+              "start": 311.0,
+              "end": 311.48
+            },
+            {
+              "word": " component",
+              "start": 311.48,
+              "end": 312.16
+            },
+            {
+              "word": " mg",
+              "start": 312.16,
+              "end": 312.78
+            },
+            {
+              "word": " cos",
+              "start": 312.78,
+              "end": 313.6
+            },
+            {
+              "word": " theta",
+              "start": 313.6,
+              "end": 313.98
+            }
+          ]
+        },
+        {
+          "start": 313.98,
+          "end": 320.9,
+          "text": "leads to the normal force n from the surface, which pushes outward and is also equal to mg",
+          "words": [
+            {
+              "word": " leads",
+              "start": 313.98,
+              "end": 314.54
+            },
+            {
+              "word": " to",
+              "start": 314.54,
+              "end": 314.82
+            },
+            {
+              "word": " the",
+              "start": 314.82,
+              "end": 314.96
+            },
+            {
+              "word": " normal",
+              "start": 314.96,
+              "end": 315.24
+            },
+            {
+              "word": " force",
+              "start": 315.24,
+              "end": 315.64
+            },
+            {
+              "word": " n",
+              "start": 315.64,
+              "end": 316.08
+            },
+            {
+              "word": " from",
+              "start": 316.08,
+              "end": 316.38
+            },
+            {
+              "word": " the",
+              "start": 316.38,
+              "end": 316.6
+            },
+            {
+              "word": " surface,",
+              "start": 316.6,
+              "end": 316.94
+            },
+            {
+              "word": " which",
+              "start": 317.52,
+              "end": 317.78
+            },
+            {
+              "word": " pushes",
+              "start": 317.78,
+              "end": 318.14
+            },
+            {
+              "word": " outward",
+              "start": 318.14,
+              "end": 318.62
+            },
+            {
+              "word": " and",
+              "start": 318.62,
+              "end": 319.2
+            },
+            {
+              "word": " is",
+              "start": 319.2,
+              "end": 319.36
+            },
+            {
+              "word": " also",
+              "start": 319.36,
+              "end": 319.76
+            },
+            {
+              "word": " equal",
+              "start": 319.76,
+              "end": 320.14
+            },
+            {
+              "word": " to",
+              "start": 320.14,
+              "end": 320.38
+            },
+            {
+              "word": " mg",
+              "start": 320.38,
+              "end": 320.9
+            }
+          ]
+        },
+        {
+          "start": 320.9,
+          "end": 327.2,
+          "text": "cos theta. Because there is contact between the surface and the solid cylinder without sliding,",
+          "words": [
+            {
+              "word": " cos",
+              "start": 320.9,
+              "end": 321.54
+            },
+            {
+              "word": " theta.",
+              "start": 321.54,
+              "end": 321.82
+            },
+            {
+              "word": " Because",
+              "start": 322.62,
+              "end": 323.14
+            },
+            {
+              "word": " there",
+              "start": 323.14,
+              "end": 323.54
+            },
+            {
+              "word": " is",
+              "start": 323.54,
+              "end": 323.72
+            },
+            {
+              "word": " contact",
+              "start": 323.72,
+              "end": 324.1
+            },
+            {
+              "word": " between",
+              "start": 324.1,
+              "end": 324.56
+            },
+            {
+              "word": " the",
+              "start": 324.56,
+              "end": 324.76
+            },
+            {
+              "word": " surface",
+              "start": 324.76,
+              "end": 325.06
+            },
+            {
+              "word": " and",
+              "start": 325.06,
+              "end": 325.44
+            },
+            {
+              "word": " the",
+              "start": 325.44,
+              "end": 325.56
+            },
+            {
+              "word": " solid",
+              "start": 325.56,
+              "end": 325.88
+            },
+            {
+              "word": " cylinder",
+              "start": 325.88,
+              "end": 326.38
+            },
+            {
+              "word": " without",
+              "start": 326.38,
+              "end": 326.66
+            },
+            {
+              "word": " sliding,",
+              "start": 326.66,
+              "end": 327.2
+            }
+          ]
+        },
+        {
+          "start": 327.94,
+          "end": 334.88,
+          "text": "a static friction force fs appears, acting opposite the direction in which the cylinder would slide.",
+          "words": [
+            {
+              "word": " a",
+              "start": 327.94,
+              "end": 328.04
+            },
+            {
+              "word": " static",
+              "start": 328.04,
+              "end": 328.4
+            },
+            {
+              "word": " friction",
+              "start": 328.4,
+              "end": 328.86
+            },
+            {
+              "word": " force",
+              "start": 328.86,
+              "end": 329.28
+            },
+            {
+              "word": " fs",
+              "start": 329.28,
+              "end": 330.18
+            },
+            {
+              "word": " appears,",
+              "start": 330.18,
+              "end": 330.78
+            },
+            {
+              "word": " acting",
+              "start": 331.68,
+              "end": 332.04
+            },
+            {
+              "word": " opposite",
+              "start": 332.04,
+              "end": 332.5
+            },
+            {
+              "word": " the",
+              "start": 332.5,
+              "end": 332.82
+            },
+            {
+              "word": " direction",
+              "start": 332.82,
+              "end": 333.2
+            },
+            {
+              "word": " in",
+              "start": 333.2,
+              "end": 333.46
+            },
+            {
+              "word": " which",
+              "start": 333.46,
+              "end": 333.64
+            },
+            {
+              "word": " the",
+              "start": 333.64,
+              "end": 333.84
+            },
+            {
+              "word": " cylinder",
+              "start": 333.84,
+              "end": 334.24
+            },
+            {
+              "word": " would",
+              "start": 334.24,
+              "end": 334.48
+            },
+            {
+              "word": " slide.",
+              "start": 334.48,
+              "end": 334.88
+            }
+          ]
+        },
+        {
+          "start": 335.66,
+          "end": 341.04,
+          "text": "The friction force equals the normal force times the coefficient of static friction,",
+          "words": [
+            {
+              "word": " The",
+              "start": 335.66,
+              "end": 335.92
+            },
+            {
+              "word": " friction",
+              "start": 335.92,
+              "end": 336.24
+            },
+            {
+              "word": " force",
+              "start": 336.24,
+              "end": 336.74
+            },
+            {
+              "word": " equals",
+              "start": 336.74,
+              "end": 337.24
+            },
+            {
+              "word": " the",
+              "start": 337.24,
+              "end": 337.54
+            },
+            {
+              "word": " normal",
+              "start": 337.54,
+              "end": 337.84
+            },
+            {
+              "word": " force",
+              "start": 337.84,
+              "end": 338.4
+            },
+            {
+              "word": " times",
+              "start": 338.4,
+              "end": 338.9
+            },
+            {
+              "word": " the",
+              "start": 338.9,
+              "end": 339.2
+            },
+            {
+              "word": " coefficient",
+              "start": 339.2,
+              "end": 339.72
+            },
+            {
+              "word": " of",
+              "start": 339.72,
+              "end": 340.08
+            },
+            {
+              "word": " static",
+              "start": 340.08,
+              "end": 340.48
+            },
+            {
+              "word": " friction,",
+              "start": 340.48,
+              "end": 341.04
+            }
+          ]
+        },
+        {
+          "start": 341.04,
+          "end": 349.26,
+          "text": "so it becomes mu times mg cos theta. Now without this friction, the cylinder would not be able to",
+          "words": [
+            {
+              "word": " so",
+              "start": 341.04,
+              "end": 341.82
+            },
+            {
+              "word": " it",
+              "start": 341.82,
+              "end": 341.98
+            },
+            {
+              "word": " becomes",
+              "start": 341.98,
+              "end": 342.4
+            },
+            {
+              "word": " mu",
+              "start": 342.4,
+              "end": 342.72
+            },
+            {
+              "word": " times",
+              "start": 342.72,
+              "end": 343.22
+            },
+            {
+              "word": " mg",
+              "start": 343.22,
+              "end": 344.02
+            },
+            {
+              "word": " cos",
+              "start": 344.02,
+              "end": 344.88
+            },
+            {
+              "word": " theta.",
+              "start": 344.88,
+              "end": 345.22
+            },
+            {
+              "word": " Now",
+              "start": 345.9,
+              "end": 346.08
+            },
+            {
+              "word": " without",
+              "start": 346.08,
+              "end": 346.42
+            },
+            {
+              "word": " this",
+              "start": 346.42,
+              "end": 346.8
+            },
+            {
+              "word": " friction,",
+              "start": 346.8,
+              "end": 347.16
+            },
+            {
+              "word": " the",
+              "start": 347.64,
+              "end": 347.8
+            },
+            {
+              "word": " cylinder",
+              "start": 347.8,
+              "end": 348.12
+            },
+            {
+              "word": " would",
+              "start": 348.12,
+              "end": 348.4
+            },
+            {
+              "word": " not",
+              "start": 348.4,
+              "end": 348.62
+            },
+            {
+              "word": " be",
+              "start": 348.62,
+              "end": 348.9
+            },
+            {
+              "word": " able",
+              "start": 348.9,
+              "end": 349.1
+            },
+            {
+              "word": " to",
+              "start": 349.1,
+              "end": 349.26
+            }
+          ]
+        },
+        {
+          "start": 349.26,
+          "end": 356.68,
+          "text": "roll. It would simply slide down, so this friction force is what creates the torque. The torque is",
+          "words": [
+            {
+              "word": " roll.",
+              "start": 349.26,
+              "end": 349.64
+            },
+            {
+              "word": " It",
+              "start": 350.26,
+              "end": 350.44
+            },
+            {
+              "word": " would",
+              "start": 350.44,
+              "end": 350.58
+            },
+            {
+              "word": " simply",
+              "start": 350.58,
+              "end": 350.96
+            },
+            {
+              "word": " slide",
+              "start": 350.96,
+              "end": 351.6
+            },
+            {
+              "word": " down,",
+              "start": 351.6,
+              "end": 352.22
+            },
+            {
+              "word": " so",
+              "start": 352.44,
+              "end": 352.88
+            },
+            {
+              "word": " this",
+              "start": 352.88,
+              "end": 353.12
+            },
+            {
+              "word": " friction",
+              "start": 353.12,
+              "end": 353.48
+            },
+            {
+              "word": " force",
+              "start": 353.48,
+              "end": 353.9
+            },
+            {
+              "word": " is",
+              "start": 353.9,
+              "end": 354.2
+            },
+            {
+              "word": " what",
+              "start": 354.2,
+              "end": 354.36
+            },
+            {
+              "word": " creates",
+              "start": 354.36,
+              "end": 354.82
+            },
+            {
+              "word": " the",
+              "start": 354.82,
+              "end": 355.04
+            },
+            {
+              "word": " torque.",
+              "start": 355.04,
+              "end": 355.36
+            },
+            {
+              "word": " The",
+              "start": 356.0,
+              "end": 356.2
+            },
+            {
+              "word": " torque",
+              "start": 356.2,
+              "end": 356.46
+            },
+            {
+              "word": " is",
+              "start": 356.46,
+              "end": 356.68
+            }
+          ]
+        },
+        {
+          "start": 356.68,
+          "end": 362.3,
+          "text": "produced because the friction acts at the edge of the cylinder, at a distance equal to the radius",
+          "words": [
+            {
+              "word": " produced",
+              "start": 356.68,
+              "end": 357.1
+            },
+            {
+              "word": " because",
+              "start": 357.1,
+              "end": 357.6
+            },
+            {
+              "word": " the",
+              "start": 357.6,
+              "end": 357.86
+            },
+            {
+              "word": " friction",
+              "start": 357.86,
+              "end": 358.2
+            },
+            {
+              "word": " acts",
+              "start": 358.2,
+              "end": 358.62
+            },
+            {
+              "word": " at",
+              "start": 358.62,
+              "end": 358.84
+            },
+            {
+              "word": " the",
+              "start": 358.84,
+              "end": 358.98
+            },
+            {
+              "word": " edge",
+              "start": 358.98,
+              "end": 359.34
+            },
+            {
+              "word": " of",
+              "start": 359.34,
+              "end": 359.48
+            },
+            {
+              "word": " the",
+              "start": 359.48,
+              "end": 359.58
+            },
+            {
+              "word": " cylinder,",
+              "start": 359.58,
+              "end": 360.04
+            },
+            {
+              "word": " at",
+              "start": 360.44,
+              "end": 360.7
+            },
+            {
+              "word": " a",
+              "start": 360.7,
+              "end": 360.82
+            },
+            {
+              "word": " distance",
+              "start": 360.82,
+              "end": 361.1
+            },
+            {
+              "word": " equal",
+              "start": 361.1,
+              "end": 361.54
+            },
+            {
+              "word": " to",
+              "start": 361.54,
+              "end": 361.78
+            },
+            {
+              "word": " the",
+              "start": 361.78,
+              "end": 361.94
+            },
+            {
+              "word": " radius",
+              "start": 361.94,
+              "end": 362.3
+            }
+          ]
+        },
+        {
+          "start": 362.3,
+          "end": 370.86,
+          "text": "from the center of the cylinder. So torque becomes the friction force fs times the radius r. The moment",
+          "words": [
+            {
+              "word": " from",
+              "start": 362.3,
+              "end": 362.58
+            },
+            {
+              "word": " the",
+              "start": 362.58,
+              "end": 362.78
+            },
+            {
+              "word": " center",
+              "start": 362.78,
+              "end": 363.0
+            },
+            {
+              "word": " of",
+              "start": 363.0,
+              "end": 363.22
+            },
+            {
+              "word": " the",
+              "start": 363.22,
+              "end": 363.34
+            },
+            {
+              "word": " cylinder.",
+              "start": 363.34,
+              "end": 363.78
+            },
+            {
+              "word": " So",
+              "start": 364.34,
+              "end": 364.66
+            },
+            {
+              "word": " torque",
+              "start": 364.66,
+              "end": 365.14
+            },
+            {
+              "word": " becomes",
+              "start": 365.14,
+              "end": 365.78
+            },
+            {
+              "word": " the",
+              "start": 365.78,
+              "end": 366.0
+            },
+            {
+              "word": " friction",
+              "start": 366.0,
+              "end": 366.32
+            },
+            {
+              "word": " force",
+              "start": 366.32,
+              "end": 366.86
+            },
+            {
+              "word": " fs",
+              "start": 366.86,
+              "end": 368.02
+            },
+            {
+              "word": " times",
+              "start": 368.02,
+              "end": 368.62
+            },
+            {
+              "word": " the",
+              "start": 368.62,
+              "end": 368.88
+            },
+            {
+              "word": " radius",
+              "start": 368.88,
+              "end": 369.28
+            },
+            {
+              "word": " r.",
+              "start": 369.28,
+              "end": 369.78
+            },
+            {
+              "word": " The",
+              "start": 370.44,
+              "end": 370.6
+            },
+            {
+              "word": " moment",
+              "start": 370.6,
+              "end": 370.86
+            }
+          ]
+        },
+        {
+          "start": 370.86,
+          "end": 378.62,
+          "text": "of inertia of a solid cylinder is one half the mass times the radius squared. Again, because there",
+          "words": [
+            {
+              "word": " of",
+              "start": 370.86,
+              "end": 371.14
+            },
+            {
+              "word": " inertia",
+              "start": 371.14,
+              "end": 371.42
+            },
+            {
+              "word": " of",
+              "start": 371.42,
+              "end": 372.0
+            },
+            {
+              "word": " a",
+              "start": 372.0,
+              "end": 372.14
+            },
+            {
+              "word": " solid",
+              "start": 372.14,
+              "end": 372.44
+            },
+            {
+              "word": " cylinder",
+              "start": 372.44,
+              "end": 372.94
+            },
+            {
+              "word": " is",
+              "start": 372.94,
+              "end": 373.6
+            },
+            {
+              "word": " one",
+              "start": 373.6,
+              "end": 373.88
+            },
+            {
+              "word": " half",
+              "start": 373.88,
+              "end": 374.22
+            },
+            {
+              "word": " the",
+              "start": 374.22,
+              "end": 374.42
+            },
+            {
+              "word": " mass",
+              "start": 374.42,
+              "end": 374.86
+            },
+            {
+              "word": " times",
+              "start": 374.86,
+              "end": 375.44
+            },
+            {
+              "word": " the",
+              "start": 375.44,
+              "end": 375.68
+            },
+            {
+              "word": " radius",
+              "start": 375.68,
+              "end": 376.02
+            },
+            {
+              "word": " squared.",
+              "start": 376.02,
+              "end": 376.6
+            },
+            {
+              "word": " Again,",
+              "start": 377.08,
+              "end": 377.48
+            },
+            {
+              "word": " because",
+              "start": 377.96,
+              "end": 378.28
+            },
+            {
+              "word": " there",
+              "start": 378.28,
+              "end": 378.62
+            }
+          ]
+        },
+        {
+          "start": 378.62,
+          "end": 385.62,
+          "text": "is no sliding, the angular acceleration alpha is equal to the linear acceleration a divided by the",
+          "words": [
+            {
+              "word": " is",
+              "start": 378.62,
+              "end": 378.84
+            },
+            {
+              "word": " no",
+              "start": 378.84,
+              "end": 379.04
+            },
+            {
+              "word": " sliding,",
+              "start": 379.04,
+              "end": 379.48
+            },
+            {
+              "word": " the",
+              "start": 380.1,
+              "end": 380.2
+            },
+            {
+              "word": " angular",
+              "start": 380.2,
+              "end": 380.6
+            },
+            {
+              "word": " acceleration",
+              "start": 380.6,
+              "end": 381.36
+            },
+            {
+              "word": " alpha",
+              "start": 381.36,
+              "end": 381.82
+            },
+            {
+              "word": " is",
+              "start": 381.82,
+              "end": 382.2
+            },
+            {
+              "word": " equal",
+              "start": 382.2,
+              "end": 382.52
+            },
+            {
+              "word": " to",
+              "start": 382.52,
+              "end": 382.74
+            },
+            {
+              "word": " the",
+              "start": 382.74,
+              "end": 382.86
+            },
+            {
+              "word": " linear",
+              "start": 382.86,
+              "end": 383.18
+            },
+            {
+              "word": " acceleration",
+              "start": 383.18,
+              "end": 383.98
+            },
+            {
+              "word": " a",
+              "start": 383.98,
+              "end": 384.6
+            },
+            {
+              "word": " divided",
+              "start": 384.6,
+              "end": 385.14
+            },
+            {
+              "word": " by",
+              "start": 385.14,
+              "end": 385.48
+            },
+            {
+              "word": " the",
+              "start": 385.48,
+              "end": 385.62
+            }
+          ]
+        },
+        {
+          "start": 385.62,
+          "end": 391.84,
+          "text": "radius r. When we substitute that here, the radius in the torque expression cancels nicely,",
+          "words": [
+            {
+              "word": " radius",
+              "start": 385.62,
+              "end": 386.02
+            },
+            {
+              "word": " r.",
+              "start": 386.02,
+              "end": 386.44
+            },
+            {
+              "word": " When",
+              "start": 387.08,
+              "end": 387.24
+            },
+            {
+              "word": " we",
+              "start": 387.24,
+              "end": 387.42
+            },
+            {
+              "word": " substitute",
+              "start": 387.42,
+              "end": 387.86
+            },
+            {
+              "word": " that",
+              "start": 387.86,
+              "end": 388.26
+            },
+            {
+              "word": " here,",
+              "start": 388.26,
+              "end": 388.6
+            },
+            {
+              "word": " the",
+              "start": 389.08,
+              "end": 389.16
+            },
+            {
+              "word": " radius",
+              "start": 389.16,
+              "end": 389.5
+            },
+            {
+              "word": " in",
+              "start": 389.5,
+              "end": 389.82
+            },
+            {
+              "word": " the",
+              "start": 389.82,
+              "end": 389.94
+            },
+            {
+              "word": " torque",
+              "start": 389.94,
+              "end": 390.18
+            },
+            {
+              "word": " expression",
+              "start": 390.18,
+              "end": 390.78
+            },
+            {
+              "word": " cancels",
+              "start": 390.78,
+              "end": 391.38
+            },
+            {
+              "word": " nicely,",
+              "start": 391.38,
+              "end": 391.84
+            }
+          ]
+        },
+        {
+          "start": 392.36,
+          "end": 398.04,
+          "text": "leaving us with a relationship that connects the friction force to one half the mass times the linear",
+          "words": [
+            {
+              "word": " leaving",
+              "start": 392.36,
+              "end": 392.62
+            },
+            {
+              "word": " us",
+              "start": 392.62,
+              "end": 392.9
+            },
+            {
+              "word": " with",
+              "start": 392.9,
+              "end": 393.08
+            },
+            {
+              "word": " a",
+              "start": 393.08,
+              "end": 393.2
+            },
+            {
+              "word": " relationship",
+              "start": 393.2,
+              "end": 393.66
+            },
+            {
+              "word": " that",
+              "start": 393.66,
+              "end": 394.08
+            },
+            {
+              "word": " connects",
+              "start": 394.08,
+              "end": 394.42
+            },
+            {
+              "word": " the",
+              "start": 394.42,
+              "end": 394.66
+            },
+            {
+              "word": " friction",
+              "start": 394.66,
+              "end": 394.96
+            },
+            {
+              "word": " force",
+              "start": 394.96,
+              "end": 395.38
+            },
+            {
+              "word": " to",
+              "start": 395.38,
+              "end": 395.84
+            },
+            {
+              "word": " one",
+              "start": 395.84,
+              "end": 396.1
+            },
+            {
+              "word": " half",
+              "start": 396.1,
+              "end": 396.42
+            },
+            {
+              "word": " the",
+              "start": 396.42,
+              "end": 396.62
+            },
+            {
+              "word": " mass",
+              "start": 396.62,
+              "end": 396.9
+            },
+            {
+              "word": " times",
+              "start": 396.9,
+              "end": 397.4
+            },
+            {
+              "word": " the",
+              "start": 397.4,
+              "end": 397.72
+            },
+            {
+              "word": " linear",
+              "start": 397.72,
+              "end": 398.04
+            }
+          ]
+        },
+        {
+          "start": 398.04,
+          "end": 405.34,
+          "text": "acceleration a. Replacing the friction force with this, we get a connection between mu g times",
+          "words": [
+            {
+              "word": " acceleration",
+              "start": 398.04,
+              "end": 398.54
+            },
+            {
+              "word": " a.",
+              "start": 398.54,
+              "end": 399.5
+            },
+            {
+              "word": " Replacing",
+              "start": 400.16,
+              "end": 400.84
+            },
+            {
+              "word": " the",
+              "start": 400.84,
+              "end": 401.04
+            },
+            {
+              "word": " friction",
+              "start": 401.04,
+              "end": 401.36
+            },
+            {
+              "word": " force",
+              "start": 401.36,
+              "end": 401.76
+            },
+            {
+              "word": " with",
+              "start": 401.76,
+              "end": 402.1
+            },
+            {
+              "word": " this,",
+              "start": 402.1,
+              "end": 402.48
+            },
+            {
+              "word": " we",
+              "start": 402.78,
+              "end": 403.0
+            },
+            {
+              "word": " get",
+              "start": 403.0,
+              "end": 403.16
+            },
+            {
+              "word": " a",
+              "start": 403.16,
+              "end": 403.26
+            },
+            {
+              "word": " connection",
+              "start": 403.26,
+              "end": 403.62
+            },
+            {
+              "word": " between",
+              "start": 403.62,
+              "end": 404.06
+            },
+            {
+              "word": " mu",
+              "start": 404.06,
+              "end": 404.4
+            },
+            {
+              "word": " g",
+              "start": 404.4,
+              "end": 404.84
+            },
+            {
+              "word": " times",
+              "start": 404.84,
+              "end": 405.34
+            }
+          ]
+        },
+        {
+          "start": 405.34,
+          "end": 412.32,
+          "text": "cos of theta and half the acceleration after cancelling the masses. Next, we will write the",
+          "words": [
+            {
+              "word": " cos",
+              "start": 405.34,
+              "end": 405.84
+            },
+            {
+              "word": " of",
+              "start": 405.84,
+              "end": 406.08
+            },
+            {
+              "word": " theta",
+              "start": 406.08,
+              "end": 406.36
+            },
+            {
+              "word": " and",
+              "start": 406.36,
+              "end": 407.0
+            },
+            {
+              "word": " half",
+              "start": 407.0,
+              "end": 407.32
+            },
+            {
+              "word": " the",
+              "start": 407.32,
+              "end": 407.48
+            },
+            {
+              "word": " acceleration",
+              "start": 407.48,
+              "end": 408.2
+            },
+            {
+              "word": " after",
+              "start": 408.2,
+              "end": 408.92
+            },
+            {
+              "word": " cancelling",
+              "start": 408.92,
+              "end": 409.54
+            },
+            {
+              "word": " the",
+              "start": 409.54,
+              "end": 409.7
+            },
+            {
+              "word": " masses.",
+              "start": 409.7,
+              "end": 410.04
+            },
+            {
+              "word": " Next,",
+              "start": 410.86,
+              "end": 411.22
+            },
+            {
+              "word": " we",
+              "start": 411.64,
+              "end": 411.76
+            },
+            {
+              "word": " will",
+              "start": 411.76,
+              "end": 411.9
+            },
+            {
+              "word": " write",
+              "start": 411.9,
+              "end": 412.12
+            },
+            {
+              "word": " the",
+              "start": 412.12,
+              "end": 412.32
+            }
+          ]
+        },
+        {
+          "start": 412.32,
+          "end": 418.94,
+          "text": "force balance equation along the incline. The component mg sin of theta tries to accelerate",
+          "words": [
+            {
+              "word": " force",
+              "start": 412.32,
+              "end": 412.58
+            },
+            {
+              "word": " balance",
+              "start": 412.58,
+              "end": 412.98
+            },
+            {
+              "word": " equation",
+              "start": 412.98,
+              "end": 413.54
+            },
+            {
+              "word": " along",
+              "start": 413.54,
+              "end": 413.86
+            },
+            {
+              "word": " the",
+              "start": 413.86,
+              "end": 414.14
+            },
+            {
+              "word": " incline.",
+              "start": 414.14,
+              "end": 414.64
+            },
+            {
+              "word": " The",
+              "start": 415.44,
+              "end": 415.58
+            },
+            {
+              "word": " component",
+              "start": 415.58,
+              "end": 415.96
+            },
+            {
+              "word": " mg",
+              "start": 415.96,
+              "end": 416.56
+            },
+            {
+              "word": " sin",
+              "start": 416.56,
+              "end": 417.14
+            },
+            {
+              "word": " of",
+              "start": 417.14,
+              "end": 417.34
+            },
+            {
+              "word": " theta",
+              "start": 417.34,
+              "end": 417.68
+            },
+            {
+              "word": " tries",
+              "start": 417.68,
+              "end": 418.28
+            },
+            {
+              "word": " to",
+              "start": 418.28,
+              "end": 418.54
+            },
+            {
+              "word": " accelerate",
+              "start": 418.54,
+              "end": 418.94
+            }
+          ]
+        },
+        {
+          "start": 418.94,
+          "end": 426.18,
+          "text": "the cylinder downward. The friction force fs acts upward along the incline, resisting this motion.",
+          "words": [
+            {
+              "word": " the",
+              "start": 418.94,
+              "end": 419.24
+            },
+            {
+              "word": " cylinder",
+              "start": 419.24,
+              "end": 419.62
+            },
+            {
+              "word": " downward.",
+              "start": 419.62,
+              "end": 420.16
+            },
+            {
+              "word": " The",
+              "start": 420.94,
+              "end": 421.06
+            },
+            {
+              "word": " friction",
+              "start": 421.06,
+              "end": 421.34
+            },
+            {
+              "word": " force",
+              "start": 421.34,
+              "end": 421.76
+            },
+            {
+              "word": " fs",
+              "start": 421.76,
+              "end": 422.52
+            },
+            {
+              "word": " acts",
+              "start": 422.52,
+              "end": 423.04
+            },
+            {
+              "word": " upward",
+              "start": 423.04,
+              "end": 423.52
+            },
+            {
+              "word": " along",
+              "start": 423.52,
+              "end": 423.84
+            },
+            {
+              "word": " the",
+              "start": 423.84,
+              "end": 424.1
+            },
+            {
+              "word": " incline,",
+              "start": 424.1,
+              "end": 424.58
+            },
+            {
+              "word": " resisting",
+              "start": 424.92,
+              "end": 425.4
+            },
+            {
+              "word": " this",
+              "start": 425.4,
+              "end": 425.76
+            },
+            {
+              "word": " motion.",
+              "start": 425.76,
+              "end": 426.18
+            }
+          ]
+        },
+        {
+          "start": 426.74,
+          "end": 436.08,
+          "text": "So mg sin theta minus mu times mg cos theta equals the mass m times the linear acceleration a.",
+          "words": [
+            {
+              "word": " So",
+              "start": 426.64,
+              "end": 427.02
+            },
+            {
+              "word": " mg",
+              "start": 427.02,
+              "end": 427.52
+            },
+            {
+              "word": " sin",
+              "start": 427.52,
+              "end": 428.08
+            },
+            {
+              "word": " theta",
+              "start": 428.08,
+              "end": 428.4
+            },
+            {
+              "word": " minus",
+              "start": 428.4,
+              "end": 428.96
+            },
+            {
+              "word": " mu",
+              "start": 428.96,
+              "end": 429.7
+            },
+            {
+              "word": " times",
+              "start": 429.7,
+              "end": 430.24
+            },
+            {
+              "word": " mg",
+              "start": 430.24,
+              "end": 430.96
+            },
+            {
+              "word": " cos",
+              "start": 430.96,
+              "end": 431.86
+            },
+            {
+              "word": " theta",
+              "start": 431.86,
+              "end": 432.28
+            },
+            {
+              "word": " equals",
+              "start": 432.28,
+              "end": 433.16
+            },
+            {
+              "word": " the",
+              "start": 433.16,
+              "end": 433.38
+            },
+            {
+              "word": " mass",
+              "start": 433.38,
+              "end": 433.62
+            },
+            {
+              "word": " m",
+              "start": 433.62,
+              "end": 434.0
+            },
+            {
+              "word": " times",
+              "start": 434.0,
+              "end": 434.46
+            },
+            {
+              "word": " the",
+              "start": 434.46,
+              "end": 434.72
+            },
+            {
+              "word": " linear",
+              "start": 434.72,
+              "end": 434.98
+            },
+            {
+              "word": " acceleration",
+              "start": 434.98,
+              "end": 435.64
+            },
+            {
+              "word": " a.",
+              "start": 435.64,
+              "end": 436.08
+            }
+          ]
+        },
+        {
+          "start": 436.56,
+          "end": 445.1,
+          "text": "Again, the masses cancel, leaving g sin theta minus mu times g cos theta equal to the acceleration a.",
+          "words": [
+            {
+              "word": " Again,",
+              "start": 436.56,
+              "end": 437.02
+            },
+            {
+              "word": " the",
+              "start": 437.26,
+              "end": 437.42
+            },
+            {
+              "word": " masses",
+              "start": 437.42,
+              "end": 437.7
+            },
+            {
+              "word": " cancel,",
+              "start": 437.7,
+              "end": 438.22
+            },
+            {
+              "word": " leaving",
+              "start": 438.6,
+              "end": 438.84
+            },
+            {
+              "word": " g",
+              "start": 438.84,
+              "end": 439.22
+            },
+            {
+              "word": " sin",
+              "start": 439.22,
+              "end": 439.54
+            },
+            {
+              "word": " theta",
+              "start": 439.54,
+              "end": 439.86
+            },
+            {
+              "word": " minus",
+              "start": 439.86,
+              "end": 440.2
+            },
+            {
+              "word": " mu",
+              "start": 440.2,
+              "end": 440.66
+            },
+            {
+              "word": " times",
+              "start": 440.66,
+              "end": 441.18
+            },
+            {
+              "word": " g",
+              "start": 441.18,
+              "end": 441.8
+            },
+            {
+              "word": " cos",
+              "start": 441.8,
+              "end": 442.54
+            },
+            {
+              "word": " theta",
+              "start": 442.54,
+              "end": 443.0
+            },
+            {
+              "word": " equal",
+              "start": 443.0,
+              "end": 443.78
+            },
+            {
+              "word": " to",
+              "start": 443.78,
+              "end": 444.0
+            },
+            {
+              "word": " the",
+              "start": 444.0,
+              "end": 444.12
+            },
+            {
+              "word": " acceleration",
+              "start": 444.12,
+              "end": 444.58
+            },
+            {
+              "word": " a.",
+              "start": 444.58,
+              "end": 445.1
+            }
+          ]
+        },
+        {
+          "start": 445.58,
+          "end": 451.64,
+          "text": "This way, we have two relationships connecting mu and a. To solve for the acceleration a,",
+          "words": [
+            {
+              "word": " This",
+              "start": 445.58,
+              "end": 445.86
+            },
+            {
+              "word": " way,",
+              "start": 445.86,
+              "end": 446.14
+            },
+            {
+              "word": " we",
+              "start": 446.32,
+              "end": 446.56
+            },
+            {
+              "word": " have",
+              "start": 446.56,
+              "end": 446.72
+            },
+            {
+              "word": " two",
+              "start": 446.72,
+              "end": 446.92
+            },
+            {
+              "word": " relationships",
+              "start": 446.92,
+              "end": 447.48
+            },
+            {
+              "word": " connecting",
+              "start": 447.48,
+              "end": 447.82
+            },
+            {
+              "word": " mu",
+              "start": 447.82,
+              "end": 448.38
+            },
+            {
+              "word": " and",
+              "start": 448.38,
+              "end": 448.7
+            },
+            {
+              "word": " a.",
+              "start": 448.7,
+              "end": 449.06
+            },
+            {
+              "word": " To",
+              "start": 449.66,
+              "end": 449.92
+            },
+            {
+              "word": " solve",
+              "start": 449.92,
+              "end": 450.2
+            },
+            {
+              "word": " for",
+              "start": 450.2,
+              "end": 450.38
+            },
+            {
+              "word": " the",
+              "start": 450.38,
+              "end": 450.5
+            },
+            {
+              "word": " acceleration",
+              "start": 450.5,
+              "end": 450.98
+            },
+            {
+              "word": " a,",
+              "start": 450.98,
+              "end": 451.64
+            }
+          ]
+        },
+        {
+          "start": 451.64,
+          "end": 459.74,
+          "text": "we will eliminate mu. From the torque relationship, mu equals a divided by 2g cos theta.",
+          "words": [
+            {
+              "word": " we",
+              "start": 451.64,
+              "end": 452.12
+            },
+            {
+              "word": " will",
+              "start": 452.12,
+              "end": 452.34
+            },
+            {
+              "word": " eliminate",
+              "start": 452.34,
+              "end": 452.82
+            },
+            {
+              "word": " mu.",
+              "start": 452.82,
+              "end": 453.26
+            },
+            {
+              "word": " From",
+              "start": 453.98,
+              "end": 454.26
+            },
+            {
+              "word": " the",
+              "start": 454.26,
+              "end": 454.4
+            },
+            {
+              "word": " torque",
+              "start": 454.4,
+              "end": 454.64
+            },
+            {
+              "word": " relationship,",
+              "start": 454.64,
+              "end": 455.34
+            },
+            {
+              "word": " mu",
+              "start": 455.68,
+              "end": 455.96
+            },
+            {
+              "word": " equals",
+              "start": 455.96,
+              "end": 456.5
+            },
+            {
+              "word": " a",
+              "start": 456.5,
+              "end": 456.94
+            },
+            {
+              "word": " divided",
+              "start": 456.94,
+              "end": 457.68
+            },
+            {
+              "word": " by",
+              "start": 457.68,
+              "end": 457.96
+            },
+            {
+              "word": " 2g",
+              "start": 457.96,
+              "end": 458.72
+            },
+            {
+              "word": " cos",
+              "start": 458.72,
+              "end": 459.36
+            },
+            {
+              "word": " theta.",
+              "start": 459.36,
+              "end": 459.74
+            }
+          ]
+        },
+        {
+          "start": 460.42,
+          "end": 468.8,
+          "text": "Putting it here gives us g sin theta minus g cos theta times a divided by 2g cos theta",
+          "words": [
+            {
+              "word": " Putting",
+              "start": 460.42,
+              "end": 460.74
+            },
+            {
+              "word": " it",
+              "start": 460.74,
+              "end": 460.92
+            },
+            {
+              "word": " here",
+              "start": 460.92,
+              "end": 461.22
+            },
+            {
+              "word": " gives",
+              "start": 461.22,
+              "end": 461.56
+            },
+            {
+              "word": " us",
+              "start": 461.56,
+              "end": 461.74
+            },
+            {
+              "word": " g",
+              "start": 461.74,
+              "end": 462.18
+            },
+            {
+              "word": " sin",
+              "start": 462.18,
+              "end": 462.76
+            },
+            {
+              "word": " theta",
+              "start": 462.76,
+              "end": 463.18
+            },
+            {
+              "word": " minus",
+              "start": 463.18,
+              "end": 463.66
+            },
+            {
+              "word": " g",
+              "start": 463.66,
+              "end": 464.28
+            },
+            {
+              "word": " cos",
+              "start": 464.28,
+              "end": 464.94
+            },
+            {
+              "word": " theta",
+              "start": 464.94,
+              "end": 465.24
+            },
+            {
+              "word": " times",
+              "start": 465.24,
+              "end": 465.74
+            },
+            {
+              "word": " a",
+              "start": 465.74,
+              "end": 466.16
+            },
+            {
+              "word": " divided",
+              "start": 466.16,
+              "end": 466.82
+            },
+            {
+              "word": " by",
+              "start": 466.82,
+              "end": 467.06
+            },
+            {
+              "word": " 2g",
+              "start": 467.06,
+              "end": 467.78
+            },
+            {
+              "word": " cos",
+              "start": 467.78,
+              "end": 468.4
+            },
+            {
+              "word": " theta",
+              "start": 468.4,
+              "end": 468.8
+            }
+          ]
+        },
+        {
+          "start": 468.8,
+          "end": 476.54,
+          "text": "all equal to a. The g and cos of theta cancel in this second term, simplifying it to a divided by",
+          "words": [
+            {
+              "word": " all",
+              "start": 468.8,
+              "end": 469.32
+            },
+            {
+              "word": " equal",
+              "start": 469.32,
+              "end": 469.56
+            },
+            {
+              "word": " to",
+              "start": 469.56,
+              "end": 469.82
+            },
+            {
+              "word": " a.",
+              "start": 469.82,
+              "end": 470.18
+            },
+            {
+              "word": " The",
+              "start": 470.92,
+              "end": 471.14
+            },
+            {
+              "word": " g",
+              "start": 471.14,
+              "end": 471.44
+            },
+            {
+              "word": " and",
+              "start": 471.44,
+              "end": 471.66
+            },
+            {
+              "word": " cos",
+              "start": 471.66,
+              "end": 471.96
+            },
+            {
+              "word": " of",
+              "start": 471.96,
+              "end": 472.14
+            },
+            {
+              "word": " theta",
+              "start": 472.14,
+              "end": 472.4
+            },
+            {
+              "word": " cancel",
+              "start": 472.4,
+              "end": 472.94
+            },
+            {
+              "word": " in",
+              "start": 472.94,
+              "end": 473.2
+            },
+            {
+              "word": " this",
+              "start": 473.2,
+              "end": 473.36
+            },
+            {
+              "word": " second",
+              "start": 473.36,
+              "end": 473.66
+            },
+            {
+              "word": " term,",
+              "start": 473.66,
+              "end": 473.98
+            },
+            {
+              "word": " simplifying",
+              "start": 474.28,
+              "end": 474.9
+            },
+            {
+              "word": " it",
+              "start": 474.9,
+              "end": 475.1
+            },
+            {
+              "word": " to",
+              "start": 475.1,
+              "end": 475.32
+            },
+            {
+              "word": " a",
+              "start": 475.32,
+              "end": 475.68
+            },
+            {
+              "word": " divided",
+              "start": 475.68,
+              "end": 476.3
+            },
+            {
+              "word": " by",
+              "start": 476.3,
+              "end": 476.54
+            }
+          ]
+        },
+        {
+          "start": 476.54,
+          "end": 485.54,
+          "text": "2. Moving a over 2 to the right side gives g sin theta equals a plus half a, which becomes 3 over",
+          "words": [
+            {
+              "word": " 2.",
+              "start": 476.54,
+              "end": 476.84
+            },
+            {
+              "word": " Moving",
+              "start": 477.32,
+              "end": 478.08
+            },
+            {
+              "word": " a",
+              "start": 478.08,
+              "end": 478.46
+            },
+            {
+              "word": " over",
+              "start": 478.46,
+              "end": 478.8
+            },
+            {
+              "word": " 2",
+              "start": 478.8,
+              "end": 479.08
+            },
+            {
+              "word": " to",
+              "start": 479.08,
+              "end": 479.22
+            },
+            {
+              "word": " the",
+              "start": 479.22,
+              "end": 479.34
+            },
+            {
+              "word": " right",
+              "start": 479.34,
+              "end": 479.54
+            },
+            {
+              "word": " side",
+              "start": 479.54,
+              "end": 479.92
+            },
+            {
+              "word": " gives",
+              "start": 479.92,
+              "end": 480.24
+            },
+            {
+              "word": " g",
+              "start": 480.24,
+              "end": 480.68
+            },
+            {
+              "word": " sin",
+              "start": 480.68,
+              "end": 481.06
+            },
+            {
+              "word": " theta",
+              "start": 481.06,
+              "end": 481.42
+            },
+            {
+              "word": " equals",
+              "start": 481.42,
+              "end": 481.84
+            },
+            {
+              "word": " a",
+              "start": 481.84,
+              "end": 482.36
+            },
+            {
+              "word": " plus",
+              "start": 482.36,
+              "end": 482.94
+            },
+            {
+              "word": " half",
+              "start": 482.94,
+              "end": 483.34
+            },
+            {
+              "word": " a,",
+              "start": 483.34,
+              "end": 483.78
+            },
+            {
+              "word": " which",
+              "start": 484.04,
+              "end": 484.4
+            },
+            {
+              "word": " becomes",
+              "start": 484.4,
+              "end": 484.8
+            },
+            {
+              "word": " 3",
+              "start": 484.8,
+              "end": 485.2
+            },
+            {
+              "word": " over",
+              "start": 485.2,
+              "end": 485.54
+            }
+          ]
+        },
+        {
+          "start": 485.54,
+          "end": 494.94,
+          "text": "2 times a. Solving for a gives a equal to 2 divided by 3 times g sin theta. So the final acceleration",
+          "words": [
+            {
+              "word": " 2",
+              "start": 485.54,
+              "end": 485.84
+            },
+            {
+              "word": " times",
+              "start": 485.84,
+              "end": 486.22
+            },
+            {
+              "word": " a.",
+              "start": 486.22,
+              "end": 486.64
+            },
+            {
+              "word": " Solving",
+              "start": 487.34,
+              "end": 487.8
+            },
+            {
+              "word": " for",
+              "start": 487.8,
+              "end": 488.04
+            },
+            {
+              "word": " a",
+              "start": 488.04,
+              "end": 488.38
+            },
+            {
+              "word": " gives",
+              "start": 488.38,
+              "end": 488.76
+            },
+            {
+              "word": " a",
+              "start": 488.76,
+              "end": 489.2
+            },
+            {
+              "word": " equal",
+              "start": 489.2,
+              "end": 489.64
+            },
+            {
+              "word": " to",
+              "start": 489.64,
+              "end": 489.82
+            },
+            {
+              "word": " 2",
+              "start": 489.82,
+              "end": 490.2
+            },
+            {
+              "word": " divided",
+              "start": 490.2,
+              "end": 490.74
+            },
+            {
+              "word": " by",
+              "start": 490.74,
+              "end": 491.08
+            },
+            {
+              "word": " 3",
+              "start": 491.08,
+              "end": 491.38
+            },
+            {
+              "word": " times",
+              "start": 491.38,
+              "end": 491.72
+            },
+            {
+              "word": " g",
+              "start": 491.72,
+              "end": 492.22
+            },
+            {
+              "word": " sin",
+              "start": 492.22,
+              "end": 492.64
+            },
+            {
+              "word": " theta.",
+              "start": 492.64,
+              "end": 493.04
+            },
+            {
+              "word": " So",
+              "start": 493.42,
+              "end": 493.84
+            },
+            {
+              "word": " the",
+              "start": 493.84,
+              "end": 493.98
+            },
+            {
+              "word": " final",
+              "start": 493.98,
+              "end": 494.24
+            },
+            {
+              "word": " acceleration",
+              "start": 494.24,
+              "end": 494.94
+            }
+          ]
+        },
+        {
+          "start": 494.94,
+          "end": 502.5,
+          "text": "depends on the angle of the incline. The steeper the incline, the larger the sin of theta, and therefore",
+          "words": [
+            {
+              "word": " depends",
+              "start": 494.94,
+              "end": 495.54
+            },
+            {
+              "word": " on",
+              "start": 495.54,
+              "end": 495.9
+            },
+            {
+              "word": " the",
+              "start": 495.9,
+              "end": 496.04
+            },
+            {
+              "word": " angle",
+              "start": 496.04,
+              "end": 496.44
+            },
+            {
+              "word": " of",
+              "start": 496.44,
+              "end": 496.64
+            },
+            {
+              "word": " the",
+              "start": 496.64,
+              "end": 496.76
+            },
+            {
+              "word": " incline.",
+              "start": 496.76,
+              "end": 497.28
+            },
+            {
+              "word": " The",
+              "start": 497.96,
+              "end": 498.14
+            },
+            {
+              "word": " steeper",
+              "start": 498.14,
+              "end": 498.62
+            },
+            {
+              "word": " the",
+              "start": 498.62,
+              "end": 498.76
+            },
+            {
+              "word": " incline,",
+              "start": 498.76,
+              "end": 499.34
+            },
+            {
+              "word": " the",
+              "start": 499.76,
+              "end": 499.9
+            },
+            {
+              "word": " larger",
+              "start": 499.9,
+              "end": 500.32
+            },
+            {
+              "word": " the",
+              "start": 500.32,
+              "end": 500.54
+            },
+            {
+              "word": " sin",
+              "start": 500.54,
+              "end": 500.92
+            },
+            {
+              "word": " of",
+              "start": 500.92,
+              "end": 501.12
+            },
+            {
+              "word": " theta,",
+              "start": 501.12,
+              "end": 501.42
+            },
+            {
+              "word": " and",
+              "start": 501.84,
+              "end": 502.06
+            },
+            {
+              "word": " therefore",
+              "start": 502.06,
+              "end": 502.5
+            }
+          ]
+        },
+        {
+          "start": 502.5,
+          "end": 509.58,
+          "text": "the larger the acceleration. The coefficient of friction does not directly appear in the final result,",
+          "words": [
+            {
+              "word": " the",
+              "start": 502.5,
+              "end": 503.02
+            },
+            {
+              "word": " larger",
+              "start": 503.02,
+              "end": 503.34
+            },
+            {
+              "word": " the",
+              "start": 503.34,
+              "end": 503.64
+            },
+            {
+              "word": " acceleration.",
+              "start": 503.64,
+              "end": 504.34
+            },
+            {
+              "word": " The",
+              "start": 505.28,
+              "end": 505.44
+            },
+            {
+              "word": " coefficient",
+              "start": 505.44,
+              "end": 505.84
+            },
+            {
+              "word": " of",
+              "start": 505.84,
+              "end": 506.32
+            },
+            {
+              "word": " friction",
+              "start": 506.32,
+              "end": 506.66
+            },
+            {
+              "word": " does",
+              "start": 506.66,
+              "end": 507.22
+            },
+            {
+              "word": " not",
+              "start": 507.22,
+              "end": 507.46
+            },
+            {
+              "word": " directly",
+              "start": 507.46,
+              "end": 507.84
+            },
+            {
+              "word": " appear",
+              "start": 507.84,
+              "end": 508.46
+            },
+            {
+              "word": " in",
+              "start": 508.46,
+              "end": 508.64
+            },
+            {
+              "word": " the",
+              "start": 508.64,
+              "end": 508.76
+            },
+            {
+              "word": " final",
+              "start": 508.76,
+              "end": 509.04
+            },
+            {
+              "word": " result,",
+              "start": 509.04,
+              "end": 509.58
+            }
+          ]
+        },
+        {
+          "start": 509.82,
+          "end": 515.42,
+          "text": "because its role is just to provide enough torque so that the object rolls without slipping.",
+          "words": [
+            {
+              "word": " because",
+              "start": 509.82,
+              "end": 510.26
+            },
+            {
+              "word": " its",
+              "start": 510.26,
+              "end": 510.7
+            },
+            {
+              "word": " role",
+              "start": 510.7,
+              "end": 511.02
+            },
+            {
+              "word": " is",
+              "start": 511.02,
+              "end": 511.24
+            },
+            {
+              "word": " just",
+              "start": 511.24,
+              "end": 511.48
+            },
+            {
+              "word": " to",
+              "start": 511.48,
+              "end": 511.68
+            },
+            {
+              "word": " provide",
+              "start": 511.68,
+              "end": 512.04
+            },
+            {
+              "word": " enough",
+              "start": 512.04,
+              "end": 512.4
+            },
+            {
+              "word": " torque",
+              "start": 512.4,
+              "end": 512.88
+            },
+            {
+              "word": " so",
+              "start": 512.88,
+              "end": 513.42
+            },
+            {
+              "word": " that",
+              "start": 513.42,
+              "end": 513.6
+            },
+            {
+              "word": " the",
+              "start": 513.6,
+              "end": 513.72
+            },
+            {
+              "word": " object",
+              "start": 513.72,
+              "end": 514.12
+            },
+            {
+              "word": " rolls",
+              "start": 514.12,
+              "end": 514.62
+            },
+            {
+              "word": " without",
+              "start": 514.62,
+              "end": 515.02
+            },
+            {
+              "word": " slipping.",
+              "start": 515.02,
+              "end": 515.42
+            }
+          ]
+        },
+        {
+          "start": 516.38,
+          "end": 521.56,
+          "text": "In later problems, we consider situations where there is not enough friction available,",
+          "words": [
+            {
+              "word": " In",
+              "start": 516.38,
+              "end": 516.72
+            },
+            {
+              "word": " later",
+              "start": 516.72,
+              "end": 516.96
+            },
+            {
+              "word": " problems,",
+              "start": 516.96,
+              "end": 517.46
+            },
+            {
+              "word": " we",
+              "start": 517.94,
+              "end": 518.1
+            },
+            {
+              "word": " consider",
+              "start": 518.1,
+              "end": 518.52
+            },
+            {
+              "word": " situations",
+              "start": 518.52,
+              "end": 519.08
+            },
+            {
+              "word": " where",
+              "start": 519.08,
+              "end": 519.6
+            },
+            {
+              "word": " there",
+              "start": 519.6,
+              "end": 519.78
+            },
+            {
+              "word": " is",
+              "start": 519.78,
+              "end": 520.02
+            },
+            {
+              "word": " not",
+              "start": 520.02,
+              "end": 520.3
+            },
+            {
+              "word": " enough",
+              "start": 520.3,
+              "end": 520.62
+            },
+            {
+              "word": " friction",
+              "start": 520.62,
+              "end": 521.02
+            },
+            {
+              "word": " available,",
+              "start": 521.02,
+              "end": 521.56
+            }
+          ]
+        },
+        {
+          "start": 522.1,
+          "end": 527.36,
+          "text": "in which case the cylinder would start slipping instead of rolling. But that is part of a different",
+          "words": [
+            {
+              "word": " in",
+              "start": 522.1,
+              "end": 522.26
+            },
+            {
+              "word": " which",
+              "start": 522.26,
+              "end": 522.46
+            },
+            {
+              "word": " case",
+              "start": 522.46,
+              "end": 522.74
+            },
+            {
+              "word": " the",
+              "start": 522.74,
+              "end": 522.98
+            },
+            {
+              "word": " cylinder",
+              "start": 522.98,
+              "end": 523.34
+            },
+            {
+              "word": " would",
+              "start": 523.34,
+              "end": 523.62
+            },
+            {
+              "word": " start",
+              "start": 523.62,
+              "end": 523.92
+            },
+            {
+              "word": " slipping",
+              "start": 523.92,
+              "end": 524.38
+            },
+            {
+              "word": " instead",
+              "start": 524.38,
+              "end": 524.82
+            },
+            {
+              "word": " of",
+              "start": 524.82,
+              "end": 525.1
+            },
+            {
+              "word": " rolling.",
+              "start": 525.1,
+              "end": 525.42
+            },
+            {
+              "word": " But",
+              "start": 525.98,
+              "end": 526.26
+            },
+            {
+              "word": " that",
+              "start": 526.26,
+              "end": 526.42
+            },
+            {
+              "word": " is",
+              "start": 526.42,
+              "end": 526.6
+            },
+            {
+              "word": " part",
+              "start": 526.6,
+              "end": 526.84
+            },
+            {
+              "word": " of",
+              "start": 526.84,
+              "end": 527.0
+            },
+            {
+              "word": " a",
+              "start": 527.0,
+              "end": 527.14
+            },
+            {
+              "word": " different",
+              "start": 527.14,
+              "end": 527.36
+            }
+          ]
+        },
+        {
+          "start": 527.36,
+          "end": 532.86,
+          "text": "discussion that comes later in the series. Now let me know in the comments what will be the",
+          "words": [
+            {
+              "word": " discussion",
+              "start": 527.36,
+              "end": 527.84
+            },
+            {
+              "word": " that",
+              "start": 527.84,
+              "end": 528.18
+            },
+            {
+              "word": " comes",
+              "start": 528.18,
+              "end": 528.42
+            },
+            {
+              "word": " later",
+              "start": 528.42,
+              "end": 528.76
+            },
+            {
+              "word": " in",
+              "start": 528.76,
+              "end": 528.96
+            },
+            {
+              "word": " the",
+              "start": 528.96,
+              "end": 529.04
+            },
+            {
+              "word": " series.",
+              "start": 529.04,
+              "end": 529.42
+            },
+            {
+              "word": " Now",
+              "start": 530.2,
+              "end": 530.38
+            },
+            {
+              "word": " let",
+              "start": 530.38,
+              "end": 530.58
+            },
+            {
+              "word": " me",
+              "start": 530.58,
+              "end": 530.74
+            },
+            {
+              "word": " know",
+              "start": 530.74,
+              "end": 530.94
+            },
+            {
+              "word": " in",
+              "start": 530.94,
+              "end": 531.14
+            },
+            {
+              "word": " the",
+              "start": 531.14,
+              "end": 531.22
+            },
+            {
+              "word": " comments",
+              "start": 531.22,
+              "end": 531.62
+            },
+            {
+              "word": " what",
+              "start": 531.62,
+              "end": 532.38
+            },
+            {
+              "word": " will",
+              "start": 532.38,
+              "end": 532.56
+            },
+            {
+              "word": " be",
+              "start": 532.56,
+              "end": 532.7
+            },
+            {
+              "word": " the",
+              "start": 532.7,
+              "end": 532.86
+            }
+          ]
+        },
+        {
+          "start": 532.86,
+          "end": 540.28,
+          "text": "relationship between mu and the angle theta. If you enjoyed this video, please don't forget to like,",
+          "words": [
+            {
+              "word": " relationship",
+              "start": 532.86,
+              "end": 533.5
+            },
+            {
+              "word": " between",
+              "start": 533.5,
+              "end": 533.92
+            },
+            {
+              "word": " mu",
+              "start": 533.92,
+              "end": 534.52
+            },
+            {
+              "word": " and",
+              "start": 534.52,
+              "end": 535.1
+            },
+            {
+              "word": " the",
+              "start": 535.1,
+              "end": 535.28
+            },
+            {
+              "word": " angle",
+              "start": 535.28,
+              "end": 535.7
+            },
+            {
+              "word": " theta.",
+              "start": 535.7,
+              "end": 536.08
+            },
+            {
+              "word": " If",
+              "start": 536.96,
+              "end": 537.22
+            },
+            {
+              "word": " you",
+              "start": 537.22,
+              "end": 537.34
+            },
+            {
+              "word": " enjoyed",
+              "start": 537.34,
+              "end": 537.74
+            },
+            {
+              "word": " this",
+              "start": 537.74,
+              "end": 538.0
+            },
+            {
+              "word": " video,",
+              "start": 538.0,
+              "end": 538.44
+            },
+            {
+              "word": " please",
+              "start": 538.8,
+              "end": 539.16
+            },
+            {
+              "word": " don't",
+              "start": 539.16,
+              "end": 539.48
+            },
+            {
+              "word": " forget",
+              "start": 539.48,
+              "end": 539.76
+            },
+            {
+              "word": " to",
+              "start": 539.76,
+              "end": 540.0
+            },
+            {
+              "word": " like,",
+              "start": 540.0,
+              "end": 540.28
+            }
+          ]
+        },
+        {
+          "start": 540.64,
+          "end": 548.08,
+          "text": "share, and subscribe to our channel. Also, you can support my channel by joining our community",
+          "words": [
+            {
+              "word": " share,",
+              "start": 540.64,
+              "end": 541.04
+            },
+            {
+              "word": " and",
+              "start": 541.36,
+              "end": 541.66
+            },
+            {
+              "word": " subscribe",
+              "start": 541.66,
+              "end": 542.12
+            },
+            {
+              "word": " to",
+              "start": 542.12,
+              "end": 542.56
+            },
+            {
+              "word": " our",
+              "start": 542.56,
+              "end": 542.78
+            },
+            {
+              "word": " channel.",
+              "start": 542.78,
+              "end": 543.2
+            },
+            {
+              "word": " Also,",
+              "start": 544.04,
+              "end": 544.5
+            },
+            {
+              "word": " you",
+              "start": 544.72,
+              "end": 544.9
+            },
+            {
+              "word": " can",
+              "start": 544.9,
+              "end": 545.08
+            },
+            {
+              "word": " support",
+              "start": 545.08,
+              "end": 545.42
+            },
+            {
+              "word": " my",
+              "start": 545.42,
+              "end": 545.74
+            },
+            {
+              "word": " channel",
+              "start": 545.74,
+              "end": 546.18
+            },
+            {
+              "word": " by",
+              "start": 546.18,
+              "end": 546.82
+            },
+            {
+              "word": " joining",
+              "start": 546.82,
+              "end": 547.26
+            },
+            {
+              "word": " our",
+              "start": 547.26,
+              "end": 547.52
+            },
+            {
+              "word": " community",
+              "start": 547.52,
+              "end": 548.08
+            }
+          ]
+        },
+        {
+          "start": 548.08,
+          "end": 553.36,
+          "text": "and becoming a member. So good!",
+          "words": [
+            {
+              "word": " and",
+              "start": 548.08,
+              "end": 548.78
+            },
+            {
+              "word": " becoming",
+              "start": 548.78,
+              "end": 549.26
+            },
+            {
+              "word": " a",
+              "start": 549.26,
+              "end": 549.44
+            },
+            {
+              "word": " member.",
+              "start": 549.44,
+              "end": 549.76
+            },
+            {
+              "word": " So",
+              "start": 550.94,
+              "end": 551.64
+            },
+            {
+              "word": " good!",
+              "start": 551.64,
+              "end": 553.36
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 27.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 35.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              442.40252685546875,
+              88.08895874023438,
+              541.4782104492188,
+              203.98471069335938
+            ],
+            "confidence": 0.5467513203620911,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 3,
+        "timestamp": 63.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              440.8330078125,
+              156.177734375,
+              485.80029296875,
+              218.59820556640625
+            ],
+            "confidence": 0.7595947980880737,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 4,
+        "timestamp": 88.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 189.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 204.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 227.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 346.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 9,
+        "timestamp": 437.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 466.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 494.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 12,
+        "timestamp": 530.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 13,
+        "timestamp": 537.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000013.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 14,
+        "timestamp": 538.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000014.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 15,
+        "timestamp": 539.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000015.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 16,
+        "timestamp": 540.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000016.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 17,
+        "timestamp": 542.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000017.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 18,
+        "timestamp": 544.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000018.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 19,
+        "timestamp": 551.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000019.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 20,
+        "timestamp": 555.0,
+        "path": "data/processed\\lecture_190\\frames\\frame_000020.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 21,
+      "frames_with_instructor": 2,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 1,
+        "timestamp": 27.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 2,
+        "timestamp": 35.0,
+        "concepts": [
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 3,
+        "timestamp": 63.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 4,
+        "timestamp": 88.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 5,
+        "timestamp": 189.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 6,
+        "timestamp": 204.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 7,
+        "timestamp": 227.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 8,
+        "timestamp": 346.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 9,
+        "timestamp": 437.0,
+        "concepts": [
+          "Mathematical Equation"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 10,
+        "timestamp": 466.0,
+        "concepts": [
+          "Mathematical Equation"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 11,
+        "timestamp": 494.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 12,
+        "timestamp": 530.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 13,
+        "timestamp": 537.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 14,
+        "timestamp": 538.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 15,
+        "timestamp": 539.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 16,
+        "timestamp": 540.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 17,
+        "timestamp": 542.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 18,
+        "timestamp": 544.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 19,
+        "timestamp": 551.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 20,
+        "timestamp": 555.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

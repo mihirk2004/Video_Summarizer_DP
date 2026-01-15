@@ -1,0 +1,4421 @@
+{
+  "video_id": "lecture_158",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_23.mp4",
+    "duration": 0.0,
+    "fps": 29.97002997002997,
+    "resolution": "640x360",
+    "processing_date": "2025-12-26T12:20:10.210924",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_158\\audio.wav",
+    "transcript": {
+      "text": " We are going to understand case number 2 of maximum power transfer theorem for DC circuits and this case we will understand with the help of this problem. When you observe the network in the problem, you will find the load is fixed. It is not variable, it is fixed. And if you remember in case number 1, load was variable but here it is fixed. And you can also notice that one resistance of the network is variable which was not happening in case number 1. So what is the case number 2 of maximum power transfer theorem for DC circuits? The case number 2 is load is fixed but the source is variable. We will see what has to be done in case number 2 to transfer the maximum power to the fixed load. So let us read the problem. In the circuit given below, the value of R, this resistance required for the transfer of maximum power to the load having the resistance of 3 ohms is. There are 4 options in the question and we are required to choose the correct one. So let us solve this problem. We know in case number 1, the maximum power will get transferred to the load when it is equal to RTH of the network. First I am going to solve this problem following this result. So let us find out RTH. To find out RTH, we will open circuit the load and we will short circuit the source. We will have the network like this. Now from here you can see that resistance RTH is equal to R in parallel with 6. RTH is equal to R in parallel with 6 or I can say RTH is equal to 6R divided by 6 plus R. Now following this result, maximum power will be transferred to RL when it is equal to RTH. So RL which is 3 ohms should be equal to RTH which is 6R divided by 6 plus R. So we will have 6R divided by 6 plus R equal to 3. When you simplify it, you will have the value of R equal to 6 ohms. Now when you match the options, you will find option C is correct. Now we will move on to the verification of this answer. I will assume current through load as I sub L and we know maximum power will be transferred to RL when I L is maximum. Because power is equal to square of current multiplied to the resistance. And I L in this case is equal to 10 volts divided by R in parallel with 6. R is equal to 6 so we have 6 in parallel with 6 giving us 3 in series with 3. So we have 3 plus 3 giving us 6. So 10 over 6 should be the maximum value of current I L for which we are getting maximum power delivered to RL. Now I am going to explain you the main concept of case 2. So understand it properly. We have RTH equal to 6R divided by 6 plus R. R is variable. Resistance R is variable and therefore RTH is also variable. Now it is not difficult to understand that I L will be maximum when RTH will be minimum and minimum will be 0. And RTH can be 0 when R is equal to 0. And in this scenario when R is equal to 0, current I L will be equal to 10 divided by 3 amperes which is more than this current. So this current is not our maximum current and therefore maximum power will not be delivered to RL when R is equal to 6 ohms. This answer is not correct. Maximum power will be delivered to RL when R is equal to 0. Option A is the correct option. When R is equal to 0, this means it is short-circuited. No current will flow through 6 ohm resistor. Therefore all the current will flow through load resistor making I L equal to 10 divided by 3 which is maximum. So this result is not valid when we have fixed load and variable source. So now we can have the statement for case number 2 of maximum power transfer theorem for DC circuits. The statement is whenever we have fixed load and the source is variable, the maximum power will be transferred to the load when the source resistance is 0 or as minimum as possible. So this is all for this problem and the case number 2 of maximum power transfer theorem for DC circuits.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 6.22,
+          "text": "We are going to understand case number 2 of maximum power transfer theorem for DC circuits",
+          "words": [
+            {
+              "word": " We",
+              "start": 0.0,
+              "end": 0.52
+            },
+            {
+              "word": " are",
+              "start": 0.52,
+              "end": 0.68
+            },
+            {
+              "word": " going",
+              "start": 0.68,
+              "end": 0.88
+            },
+            {
+              "word": " to",
+              "start": 0.88,
+              "end": 1.1
+            },
+            {
+              "word": " understand",
+              "start": 1.1,
+              "end": 1.58
+            },
+            {
+              "word": " case",
+              "start": 1.58,
+              "end": 2.06
+            },
+            {
+              "word": " number",
+              "start": 2.06,
+              "end": 2.5
+            },
+            {
+              "word": " 2",
+              "start": 2.5,
+              "end": 2.76
+            },
+            {
+              "word": " of",
+              "start": 2.76,
+              "end": 3.02
+            },
+            {
+              "word": " maximum",
+              "start": 3.02,
+              "end": 3.42
+            },
+            {
+              "word": " power",
+              "start": 3.42,
+              "end": 3.86
+            },
+            {
+              "word": " transfer",
+              "start": 3.86,
+              "end": 4.38
+            },
+            {
+              "word": " theorem",
+              "start": 4.38,
+              "end": 4.92
+            },
+            {
+              "word": " for",
+              "start": 4.92,
+              "end": 5.4
+            },
+            {
+              "word": " DC",
+              "start": 5.4,
+              "end": 5.72
+            },
+            {
+              "word": " circuits",
+              "start": 5.72,
+              "end": 6.22
+            }
+          ]
+        },
+        {
+          "start": 6.22,
+          "end": 10.44,
+          "text": "and this case we will understand with the help of this problem.",
+          "words": [
+            {
+              "word": " and",
+              "start": 6.22,
+              "end": 7.02
+            },
+            {
+              "word": " this",
+              "start": 7.02,
+              "end": 7.32
+            },
+            {
+              "word": " case",
+              "start": 7.32,
+              "end": 7.66
+            },
+            {
+              "word": " we",
+              "start": 7.66,
+              "end": 7.94
+            },
+            {
+              "word": " will",
+              "start": 7.94,
+              "end": 8.06
+            },
+            {
+              "word": " understand",
+              "start": 8.06,
+              "end": 8.48
+            },
+            {
+              "word": " with",
+              "start": 8.48,
+              "end": 8.82
+            },
+            {
+              "word": " the",
+              "start": 8.82,
+              "end": 8.92
+            },
+            {
+              "word": " help",
+              "start": 8.92,
+              "end": 9.16
+            },
+            {
+              "word": " of",
+              "start": 9.16,
+              "end": 9.42
+            },
+            {
+              "word": " this",
+              "start": 9.42,
+              "end": 9.82
+            },
+            {
+              "word": " problem.",
+              "start": 9.82,
+              "end": 10.44
+            }
+          ]
+        },
+        {
+          "start": 11.0,
+          "end": 18.4,
+          "text": "When you observe the network in the problem, you will find the load is fixed.",
+          "words": [
+            {
+              "word": " When",
+              "start": 11.0,
+              "end": 11.16
+            },
+            {
+              "word": " you",
+              "start": 11.16,
+              "end": 11.28
+            },
+            {
+              "word": " observe",
+              "start": 11.28,
+              "end": 11.74
+            },
+            {
+              "word": " the",
+              "start": 11.74,
+              "end": 12.06
+            },
+            {
+              "word": " network",
+              "start": 12.06,
+              "end": 12.52
+            },
+            {
+              "word": " in",
+              "start": 12.52,
+              "end": 12.84
+            },
+            {
+              "word": " the",
+              "start": 12.84,
+              "end": 12.94
+            },
+            {
+              "word": " problem,",
+              "start": 12.94,
+              "end": 13.38
+            },
+            {
+              "word": " you",
+              "start": 13.72,
+              "end": 13.98
+            },
+            {
+              "word": " will",
+              "start": 13.98,
+              "end": 14.1
+            },
+            {
+              "word": " find",
+              "start": 14.1,
+              "end": 14.56
+            },
+            {
+              "word": " the",
+              "start": 14.56,
+              "end": 15.84
+            },
+            {
+              "word": " load",
+              "start": 15.84,
+              "end": 16.24
+            },
+            {
+              "word": " is",
+              "start": 16.24,
+              "end": 17.46
+            },
+            {
+              "word": " fixed.",
+              "start": 17.46,
+              "end": 18.4
+            }
+          ]
+        },
+        {
+          "start": 18.76,
+          "end": 21.24,
+          "text": "It is not variable, it is fixed.",
+          "words": [
+            {
+              "word": " It",
+              "start": 18.76,
+              "end": 18.9
+            },
+            {
+              "word": " is",
+              "start": 18.9,
+              "end": 19.12
+            },
+            {
+              "word": " not",
+              "start": 19.12,
+              "end": 19.5
+            },
+            {
+              "word": " variable,",
+              "start": 19.5,
+              "end": 19.96
+            },
+            {
+              "word": " it",
+              "start": 20.38,
+              "end": 20.54
+            },
+            {
+              "word": " is",
+              "start": 20.54,
+              "end": 20.74
+            },
+            {
+              "word": " fixed.",
+              "start": 20.74,
+              "end": 21.24
+            }
+          ]
+        },
+        {
+          "start": 21.98,
+          "end": 28.18,
+          "text": "And if you remember in case number 1, load was variable but here it is fixed.",
+          "words": [
+            {
+              "word": " And",
+              "start": 21.98,
+              "end": 22.28
+            },
+            {
+              "word": " if",
+              "start": 22.28,
+              "end": 22.52
+            },
+            {
+              "word": " you",
+              "start": 22.52,
+              "end": 22.66
+            },
+            {
+              "word": " remember",
+              "start": 22.66,
+              "end": 23.06
+            },
+            {
+              "word": " in",
+              "start": 23.06,
+              "end": 23.52
+            },
+            {
+              "word": " case",
+              "start": 23.52,
+              "end": 23.82
+            },
+            {
+              "word": " number",
+              "start": 23.82,
+              "end": 24.22
+            },
+            {
+              "word": " 1,",
+              "start": 24.22,
+              "end": 24.64
+            },
+            {
+              "word": " load",
+              "start": 24.94,
+              "end": 25.34
+            },
+            {
+              "word": " was",
+              "start": 25.34,
+              "end": 25.68
+            },
+            {
+              "word": " variable",
+              "start": 25.68,
+              "end": 26.34
+            },
+            {
+              "word": " but",
+              "start": 26.34,
+              "end": 26.92
+            },
+            {
+              "word": " here",
+              "start": 26.92,
+              "end": 27.16
+            },
+            {
+              "word": " it",
+              "start": 27.16,
+              "end": 27.38
+            },
+            {
+              "word": " is",
+              "start": 27.38,
+              "end": 27.64
+            },
+            {
+              "word": " fixed.",
+              "start": 27.64,
+              "end": 28.18
+            }
+          ]
+        },
+        {
+          "start": 28.86,
+          "end": 36.88,
+          "text": "And you can also notice that one resistance of the network is variable which was not happening in case number 1.",
+          "words": [
+            {
+              "word": " And",
+              "start": 28.729999999999997,
+              "end": 29.06
+            },
+            {
+              "word": " you",
+              "start": 29.06,
+              "end": 29.26
+            },
+            {
+              "word": " can",
+              "start": 29.26,
+              "end": 29.44
+            },
+            {
+              "word": " also",
+              "start": 29.44,
+              "end": 29.72
+            },
+            {
+              "word": " notice",
+              "start": 29.72,
+              "end": 30.02
+            },
+            {
+              "word": " that",
+              "start": 30.02,
+              "end": 30.4
+            },
+            {
+              "word": " one",
+              "start": 30.4,
+              "end": 30.78
+            },
+            {
+              "word": " resistance",
+              "start": 30.78,
+              "end": 31.28
+            },
+            {
+              "word": " of",
+              "start": 31.28,
+              "end": 31.84
+            },
+            {
+              "word": " the",
+              "start": 31.84,
+              "end": 31.98
+            },
+            {
+              "word": " network",
+              "start": 31.98,
+              "end": 32.32
+            },
+            {
+              "word": " is",
+              "start": 32.32,
+              "end": 32.64
+            },
+            {
+              "word": " variable",
+              "start": 32.64,
+              "end": 33.22
+            },
+            {
+              "word": " which",
+              "start": 33.22,
+              "end": 34.04
+            },
+            {
+              "word": " was",
+              "start": 34.04,
+              "end": 34.36
+            },
+            {
+              "word": " not",
+              "start": 34.36,
+              "end": 34.88
+            },
+            {
+              "word": " happening",
+              "start": 34.88,
+              "end": 35.44
+            },
+            {
+              "word": " in",
+              "start": 35.44,
+              "end": 35.76
+            },
+            {
+              "word": " case",
+              "start": 35.76,
+              "end": 36.0
+            },
+            {
+              "word": " number",
+              "start": 36.0,
+              "end": 36.48
+            },
+            {
+              "word": " 1.",
+              "start": 36.48,
+              "end": 36.88
+            }
+          ]
+        },
+        {
+          "start": 37.38,
+          "end": 42.42,
+          "text": "So what is the case number 2 of maximum power transfer theorem for DC circuits?",
+          "words": [
+            {
+              "word": " So",
+              "start": 37.38,
+              "end": 37.62
+            },
+            {
+              "word": " what",
+              "start": 37.62,
+              "end": 37.88
+            },
+            {
+              "word": " is",
+              "start": 37.88,
+              "end": 38.06
+            },
+            {
+              "word": " the",
+              "start": 38.06,
+              "end": 38.26
+            },
+            {
+              "word": " case",
+              "start": 38.26,
+              "end": 38.54
+            },
+            {
+              "word": " number",
+              "start": 38.54,
+              "end": 38.94
+            },
+            {
+              "word": " 2",
+              "start": 38.94,
+              "end": 39.22
+            },
+            {
+              "word": " of",
+              "start": 39.22,
+              "end": 39.44
+            },
+            {
+              "word": " maximum",
+              "start": 39.44,
+              "end": 39.84
+            },
+            {
+              "word": " power",
+              "start": 39.84,
+              "end": 40.3
+            },
+            {
+              "word": " transfer",
+              "start": 40.3,
+              "end": 40.78
+            },
+            {
+              "word": " theorem",
+              "start": 40.78,
+              "end": 41.26
+            },
+            {
+              "word": " for",
+              "start": 41.26,
+              "end": 41.8
+            },
+            {
+              "word": " DC",
+              "start": 41.8,
+              "end": 42.04
+            },
+            {
+              "word": " circuits?",
+              "start": 42.04,
+              "end": 42.42
+            }
+          ]
+        },
+        {
+          "start": 43.14,
+          "end": 47.96,
+          "text": "The case number 2 is load is fixed but the source is variable.",
+          "words": [
+            {
+              "word": " The",
+              "start": 43.14,
+              "end": 43.3
+            },
+            {
+              "word": " case",
+              "start": 43.3,
+              "end": 43.58
+            },
+            {
+              "word": " number",
+              "start": 43.58,
+              "end": 44.02
+            },
+            {
+              "word": " 2",
+              "start": 44.02,
+              "end": 44.34
+            },
+            {
+              "word": " is",
+              "start": 44.34,
+              "end": 44.56
+            },
+            {
+              "word": " load",
+              "start": 44.56,
+              "end": 45.14
+            },
+            {
+              "word": " is",
+              "start": 45.14,
+              "end": 45.42
+            },
+            {
+              "word": " fixed",
+              "start": 45.42,
+              "end": 45.9
+            },
+            {
+              "word": " but",
+              "start": 45.9,
+              "end": 46.4
+            },
+            {
+              "word": " the",
+              "start": 46.4,
+              "end": 46.76
+            },
+            {
+              "word": " source",
+              "start": 46.76,
+              "end": 47.04
+            },
+            {
+              "word": " is",
+              "start": 47.04,
+              "end": 47.34
+            },
+            {
+              "word": " variable.",
+              "start": 47.34,
+              "end": 47.96
+            }
+          ]
+        },
+        {
+          "start": 48.54,
+          "end": 54.62,
+          "text": "We will see what has to be done in case number 2 to transfer the maximum power to the fixed load.",
+          "words": [
+            {
+              "word": " We",
+              "start": 48.54,
+              "end": 48.8
+            },
+            {
+              "word": " will",
+              "start": 48.8,
+              "end": 48.98
+            },
+            {
+              "word": " see",
+              "start": 48.98,
+              "end": 49.32
+            },
+            {
+              "word": " what",
+              "start": 49.32,
+              "end": 49.54
+            },
+            {
+              "word": " has",
+              "start": 49.54,
+              "end": 49.76
+            },
+            {
+              "word": " to",
+              "start": 49.76,
+              "end": 49.9
+            },
+            {
+              "word": " be",
+              "start": 49.9,
+              "end": 50.02
+            },
+            {
+              "word": " done",
+              "start": 50.02,
+              "end": 50.24
+            },
+            {
+              "word": " in",
+              "start": 50.24,
+              "end": 50.62
+            },
+            {
+              "word": " case",
+              "start": 50.62,
+              "end": 50.9
+            },
+            {
+              "word": " number",
+              "start": 50.9,
+              "end": 51.3
+            },
+            {
+              "word": " 2",
+              "start": 51.3,
+              "end": 51.64
+            },
+            {
+              "word": " to",
+              "start": 51.64,
+              "end": 51.84
+            },
+            {
+              "word": " transfer",
+              "start": 51.84,
+              "end": 52.3
+            },
+            {
+              "word": " the",
+              "start": 52.3,
+              "end": 52.54
+            },
+            {
+              "word": " maximum",
+              "start": 52.54,
+              "end": 52.88
+            },
+            {
+              "word": " power",
+              "start": 52.88,
+              "end": 53.36
+            },
+            {
+              "word": " to",
+              "start": 53.36,
+              "end": 53.62
+            },
+            {
+              "word": " the",
+              "start": 53.62,
+              "end": 53.72
+            },
+            {
+              "word": " fixed",
+              "start": 53.72,
+              "end": 54.04
+            },
+            {
+              "word": " load.",
+              "start": 54.04,
+              "end": 54.62
+            }
+          ]
+        },
+        {
+          "start": 54.62,
+          "end": 57.02,
+          "text": "So let us read the problem.",
+          "words": [
+            {
+              "word": " So",
+              "start": 54.62,
+              "end": 55.4
+            },
+            {
+              "word": " let",
+              "start": 55.4,
+              "end": 55.64
+            },
+            {
+              "word": " us",
+              "start": 55.64,
+              "end": 55.84
+            },
+            {
+              "word": " read",
+              "start": 55.84,
+              "end": 56.2
+            },
+            {
+              "word": " the",
+              "start": 56.2,
+              "end": 56.62
+            },
+            {
+              "word": " problem.",
+              "start": 56.62,
+              "end": 57.02
+            }
+          ]
+        },
+        {
+          "start": 57.56,
+          "end": 69.48,
+          "text": "In the circuit given below, the value of R, this resistance required for the transfer of maximum power to the load having the resistance of 3 ohms is.",
+          "words": [
+            {
+              "word": " In",
+              "start": 57.56,
+              "end": 57.76
+            },
+            {
+              "word": " the",
+              "start": 57.76,
+              "end": 57.9
+            },
+            {
+              "word": " circuit",
+              "start": 57.9,
+              "end": 58.3
+            },
+            {
+              "word": " given",
+              "start": 58.3,
+              "end": 58.8
+            },
+            {
+              "word": " below,",
+              "start": 58.8,
+              "end": 59.24
+            },
+            {
+              "word": " the",
+              "start": 59.64,
+              "end": 59.8
+            },
+            {
+              "word": " value",
+              "start": 59.8,
+              "end": 60.18
+            },
+            {
+              "word": " of",
+              "start": 60.18,
+              "end": 60.42
+            },
+            {
+              "word": " R,",
+              "start": 60.42,
+              "end": 60.76
+            },
+            {
+              "word": " this",
+              "start": 61.12,
+              "end": 61.46
+            },
+            {
+              "word": " resistance",
+              "start": 61.46,
+              "end": 62.12
+            },
+            {
+              "word": " required",
+              "start": 62.12,
+              "end": 62.98
+            },
+            {
+              "word": " for",
+              "start": 62.98,
+              "end": 63.62
+            },
+            {
+              "word": " the",
+              "start": 63.62,
+              "end": 63.76
+            },
+            {
+              "word": " transfer",
+              "start": 63.76,
+              "end": 64.16
+            },
+            {
+              "word": " of",
+              "start": 64.16,
+              "end": 64.42
+            },
+            {
+              "word": " maximum",
+              "start": 64.42,
+              "end": 64.84
+            },
+            {
+              "word": " power",
+              "start": 64.84,
+              "end": 65.4
+            },
+            {
+              "word": " to",
+              "start": 65.4,
+              "end": 65.66
+            },
+            {
+              "word": " the",
+              "start": 65.66,
+              "end": 65.78
+            },
+            {
+              "word": " load",
+              "start": 65.78,
+              "end": 66.12
+            },
+            {
+              "word": " having",
+              "start": 66.12,
+              "end": 66.56
+            },
+            {
+              "word": " the",
+              "start": 66.56,
+              "end": 67.2
+            },
+            {
+              "word": " resistance",
+              "start": 67.2,
+              "end": 67.6
+            },
+            {
+              "word": " of",
+              "start": 67.6,
+              "end": 67.98
+            },
+            {
+              "word": " 3",
+              "start": 67.98,
+              "end": 68.34
+            },
+            {
+              "word": " ohms",
+              "start": 68.34,
+              "end": 69.04
+            },
+            {
+              "word": " is.",
+              "start": 69.04,
+              "end": 69.48
+            }
+          ]
+        },
+        {
+          "start": 70.08,
+          "end": 74.92,
+          "text": "There are 4 options in the question and we are required to choose the correct one.",
+          "words": [
+            {
+              "word": " There",
+              "start": 70.08,
+              "end": 70.44
+            },
+            {
+              "word": " are",
+              "start": 70.44,
+              "end": 70.66
+            },
+            {
+              "word": " 4",
+              "start": 70.66,
+              "end": 70.88
+            },
+            {
+              "word": " options",
+              "start": 70.88,
+              "end": 71.34
+            },
+            {
+              "word": " in",
+              "start": 71.34,
+              "end": 71.58
+            },
+            {
+              "word": " the",
+              "start": 71.58,
+              "end": 71.68
+            },
+            {
+              "word": " question",
+              "start": 71.68,
+              "end": 72.08
+            },
+            {
+              "word": " and",
+              "start": 72.08,
+              "end": 72.5
+            },
+            {
+              "word": " we",
+              "start": 72.5,
+              "end": 72.66
+            },
+            {
+              "word": " are",
+              "start": 72.66,
+              "end": 72.78
+            },
+            {
+              "word": " required",
+              "start": 72.78,
+              "end": 73.18
+            },
+            {
+              "word": " to",
+              "start": 73.18,
+              "end": 73.54
+            },
+            {
+              "word": " choose",
+              "start": 73.54,
+              "end": 73.96
+            },
+            {
+              "word": " the",
+              "start": 73.96,
+              "end": 74.26
+            },
+            {
+              "word": " correct",
+              "start": 74.26,
+              "end": 74.6
+            },
+            {
+              "word": " one.",
+              "start": 74.6,
+              "end": 74.92
+            }
+          ]
+        },
+        {
+          "start": 75.46,
+          "end": 77.44,
+          "text": "So let us solve this problem.",
+          "words": [
+            {
+              "word": " So",
+              "start": 75.46,
+              "end": 75.78
+            },
+            {
+              "word": " let",
+              "start": 75.78,
+              "end": 76.02
+            },
+            {
+              "word": " us",
+              "start": 76.02,
+              "end": 76.18
+            },
+            {
+              "word": " solve",
+              "start": 76.18,
+              "end": 76.58
+            },
+            {
+              "word": " this",
+              "start": 76.58,
+              "end": 76.96
+            },
+            {
+              "word": " problem.",
+              "start": 76.96,
+              "end": 77.44
+            }
+          ]
+        },
+        {
+          "start": 77.44,
+          "end": 89.9,
+          "text": "We know in case number 1, the maximum power will get transferred to the load when it is equal to RTH of the network.",
+          "words": [
+            {
+              "word": " We",
+              "start": 77.44,
+              "end": 78.1
+            },
+            {
+              "word": " know",
+              "start": 78.1,
+              "end": 78.34
+            },
+            {
+              "word": " in",
+              "start": 78.34,
+              "end": 78.62
+            },
+            {
+              "word": " case",
+              "start": 78.62,
+              "end": 78.92
+            },
+            {
+              "word": " number",
+              "start": 78.92,
+              "end": 79.34
+            },
+            {
+              "word": " 1,",
+              "start": 79.34,
+              "end": 79.82
+            },
+            {
+              "word": " the",
+              "start": 80.36,
+              "end": 80.4
+            },
+            {
+              "word": " maximum",
+              "start": 80.4,
+              "end": 80.94
+            },
+            {
+              "word": " power",
+              "start": 80.94,
+              "end": 81.56
+            },
+            {
+              "word": " will",
+              "start": 81.56,
+              "end": 82.34
+            },
+            {
+              "word": " get",
+              "start": 82.34,
+              "end": 83.0
+            },
+            {
+              "word": " transferred",
+              "start": 83.0,
+              "end": 83.86
+            },
+            {
+              "word": " to",
+              "start": 83.86,
+              "end": 84.76
+            },
+            {
+              "word": " the",
+              "start": 84.76,
+              "end": 84.9
+            },
+            {
+              "word": " load",
+              "start": 84.9,
+              "end": 85.24
+            },
+            {
+              "word": " when",
+              "start": 85.24,
+              "end": 85.78
+            },
+            {
+              "word": " it",
+              "start": 85.78,
+              "end": 86.18
+            },
+            {
+              "word": " is",
+              "start": 86.18,
+              "end": 86.46
+            },
+            {
+              "word": " equal",
+              "start": 86.46,
+              "end": 87.04
+            },
+            {
+              "word": " to",
+              "start": 87.04,
+              "end": 87.9
+            },
+            {
+              "word": " RTH",
+              "start": 87.9,
+              "end": 88.78
+            },
+            {
+              "word": " of",
+              "start": 88.78,
+              "end": 89.32
+            },
+            {
+              "word": " the",
+              "start": 89.32,
+              "end": 89.5
+            },
+            {
+              "word": " network.",
+              "start": 89.5,
+              "end": 89.9
+            }
+          ]
+        },
+        {
+          "start": 90.42,
+          "end": 94.32,
+          "text": "First I am going to solve this problem following this result.",
+          "words": [
+            {
+              "word": " First",
+              "start": 90.42,
+              "end": 90.8
+            },
+            {
+              "word": " I",
+              "start": 90.8,
+              "end": 91.16
+            },
+            {
+              "word": " am",
+              "start": 91.16,
+              "end": 91.24
+            },
+            {
+              "word": " going",
+              "start": 91.24,
+              "end": 91.4
+            },
+            {
+              "word": " to",
+              "start": 91.4,
+              "end": 91.56
+            },
+            {
+              "word": " solve",
+              "start": 91.56,
+              "end": 91.9
+            },
+            {
+              "word": " this",
+              "start": 91.9,
+              "end": 92.28
+            },
+            {
+              "word": " problem",
+              "start": 92.28,
+              "end": 92.72
+            },
+            {
+              "word": " following",
+              "start": 92.72,
+              "end": 93.24
+            },
+            {
+              "word": " this",
+              "start": 93.24,
+              "end": 93.7
+            },
+            {
+              "word": " result.",
+              "start": 93.7,
+              "end": 94.32
+            }
+          ]
+        },
+        {
+          "start": 94.78,
+          "end": 96.7,
+          "text": "So let us find out RTH.",
+          "words": [
+            {
+              "word": " So",
+              "start": 94.78,
+              "end": 95.0
+            },
+            {
+              "word": " let",
+              "start": 95.0,
+              "end": 95.32
+            },
+            {
+              "word": " us",
+              "start": 95.32,
+              "end": 95.46
+            },
+            {
+              "word": " find",
+              "start": 95.46,
+              "end": 95.78
+            },
+            {
+              "word": " out",
+              "start": 95.78,
+              "end": 96.04
+            },
+            {
+              "word": " RTH.",
+              "start": 96.04,
+              "end": 96.7
+            }
+          ]
+        },
+        {
+          "start": 97.16,
+          "end": 103.28,
+          "text": "To find out RTH, we will open circuit the load and we will short circuit the source.",
+          "words": [
+            {
+              "word": " To",
+              "start": 97.16,
+              "end": 97.34
+            },
+            {
+              "word": " find",
+              "start": 97.34,
+              "end": 97.66
+            },
+            {
+              "word": " out",
+              "start": 97.66,
+              "end": 97.86
+            },
+            {
+              "word": " RTH,",
+              "start": 97.86,
+              "end": 98.44
+            },
+            {
+              "word": " we",
+              "start": 98.72,
+              "end": 98.82
+            },
+            {
+              "word": " will",
+              "start": 98.82,
+              "end": 99.02
+            },
+            {
+              "word": " open",
+              "start": 99.02,
+              "end": 99.7
+            },
+            {
+              "word": " circuit",
+              "start": 99.7,
+              "end": 100.14
+            },
+            {
+              "word": " the",
+              "start": 100.14,
+              "end": 100.58
+            },
+            {
+              "word": " load",
+              "start": 100.58,
+              "end": 100.88
+            },
+            {
+              "word": " and",
+              "start": 100.88,
+              "end": 101.5
+            },
+            {
+              "word": " we",
+              "start": 101.5,
+              "end": 101.68
+            },
+            {
+              "word": " will",
+              "start": 101.68,
+              "end": 101.84
+            },
+            {
+              "word": " short",
+              "start": 101.84,
+              "end": 102.22
+            },
+            {
+              "word": " circuit",
+              "start": 102.22,
+              "end": 102.58
+            },
+            {
+              "word": " the",
+              "start": 102.58,
+              "end": 102.98
+            },
+            {
+              "word": " source.",
+              "start": 102.98,
+              "end": 103.28
+            }
+          ]
+        },
+        {
+          "start": 103.48,
+          "end": 106.0,
+          "text": "We will have the network like this.",
+          "words": [
+            {
+              "word": " We",
+              "start": 103.48,
+              "end": 103.62
+            },
+            {
+              "word": " will",
+              "start": 103.62,
+              "end": 103.74
+            },
+            {
+              "word": " have",
+              "start": 103.74,
+              "end": 104.04
+            },
+            {
+              "word": " the",
+              "start": 104.04,
+              "end": 104.48
+            },
+            {
+              "word": " network",
+              "start": 104.48,
+              "end": 104.96
+            },
+            {
+              "word": " like",
+              "start": 104.96,
+              "end": 105.44
+            },
+            {
+              "word": " this.",
+              "start": 105.44,
+              "end": 106.0
+            }
+          ]
+        },
+        {
+          "start": 106.6,
+          "end": 115.24,
+          "text": "Now from here you can see that resistance RTH is equal to R in parallel with 6.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 106.39,
+              "end": 106.86
+            },
+            {
+              "word": " from",
+              "start": 106.86,
+              "end": 107.08
+            },
+            {
+              "word": " here",
+              "start": 107.08,
+              "end": 107.34
+            },
+            {
+              "word": " you",
+              "start": 107.34,
+              "end": 107.5
+            },
+            {
+              "word": " can",
+              "start": 107.5,
+              "end": 107.66
+            },
+            {
+              "word": " see",
+              "start": 107.66,
+              "end": 107.86
+            },
+            {
+              "word": " that",
+              "start": 107.86,
+              "end": 108.22
+            },
+            {
+              "word": " resistance",
+              "start": 108.22,
+              "end": 109.4
+            },
+            {
+              "word": " RTH",
+              "start": 109.4,
+              "end": 111.78
+            },
+            {
+              "word": " is",
+              "start": 111.78,
+              "end": 112.68
+            },
+            {
+              "word": " equal",
+              "start": 112.68,
+              "end": 113.08
+            },
+            {
+              "word": " to",
+              "start": 113.08,
+              "end": 113.48
+            },
+            {
+              "word": " R",
+              "start": 113.48,
+              "end": 113.82
+            },
+            {
+              "word": " in",
+              "start": 113.82,
+              "end": 114.06
+            },
+            {
+              "word": " parallel",
+              "start": 114.06,
+              "end": 114.4
+            },
+            {
+              "word": " with",
+              "start": 114.4,
+              "end": 114.78
+            },
+            {
+              "word": " 6.",
+              "start": 114.78,
+              "end": 115.24
+            }
+          ]
+        },
+        {
+          "start": 116.12,
+          "end": 129.82,
+          "text": "RTH is equal to R in parallel with 6 or I can say RTH is equal to 6R divided by 6 plus R.",
+          "words": [
+            {
+              "word": " RTH",
+              "start": 116.12,
+              "end": 117.06
+            },
+            {
+              "word": " is",
+              "start": 117.06,
+              "end": 118.22
+            },
+            {
+              "word": " equal",
+              "start": 118.22,
+              "end": 118.7
+            },
+            {
+              "word": " to",
+              "start": 118.7,
+              "end": 119.38
+            },
+            {
+              "word": " R",
+              "start": 119.38,
+              "end": 119.8
+            },
+            {
+              "word": " in",
+              "start": 119.8,
+              "end": 120.18
+            },
+            {
+              "word": " parallel",
+              "start": 120.18,
+              "end": 120.66
+            },
+            {
+              "word": " with",
+              "start": 120.66,
+              "end": 121.24
+            },
+            {
+              "word": " 6",
+              "start": 121.24,
+              "end": 121.54
+            },
+            {
+              "word": " or",
+              "start": 121.54,
+              "end": 122.04
+            },
+            {
+              "word": " I",
+              "start": 122.04,
+              "end": 122.2
+            },
+            {
+              "word": " can",
+              "start": 122.2,
+              "end": 122.4
+            },
+            {
+              "word": " say",
+              "start": 122.4,
+              "end": 122.7
+            },
+            {
+              "word": " RTH",
+              "start": 122.7,
+              "end": 124.04
+            },
+            {
+              "word": " is",
+              "start": 124.04,
+              "end": 124.88
+            },
+            {
+              "word": " equal",
+              "start": 124.88,
+              "end": 125.3
+            },
+            {
+              "word": " to",
+              "start": 125.3,
+              "end": 126.14
+            },
+            {
+              "word": " 6R",
+              "start": 126.14,
+              "end": 126.9
+            },
+            {
+              "word": " divided",
+              "start": 126.9,
+              "end": 127.48
+            },
+            {
+              "word": " by",
+              "start": 127.48,
+              "end": 128.1
+            },
+            {
+              "word": " 6",
+              "start": 128.1,
+              "end": 128.74
+            },
+            {
+              "word": " plus",
+              "start": 128.74,
+              "end": 129.08
+            },
+            {
+              "word": " R.",
+              "start": 129.08,
+              "end": 129.82
+            }
+          ]
+        },
+        {
+          "start": 130.54,
+          "end": 136.62,
+          "text": "Now following this result, maximum power will be transferred to RL when it is equal to RTH.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 130.49,
+              "end": 130.84
+            },
+            {
+              "word": " following",
+              "start": 130.84,
+              "end": 131.3
+            },
+            {
+              "word": " this",
+              "start": 131.3,
+              "end": 131.68
+            },
+            {
+              "word": " result,",
+              "start": 131.68,
+              "end": 132.22
+            },
+            {
+              "word": " maximum",
+              "start": 132.46,
+              "end": 132.74
+            },
+            {
+              "word": " power",
+              "start": 132.74,
+              "end": 133.24
+            },
+            {
+              "word": " will",
+              "start": 133.24,
+              "end": 133.54
+            },
+            {
+              "word": " be",
+              "start": 133.54,
+              "end": 133.68
+            },
+            {
+              "word": " transferred",
+              "start": 133.68,
+              "end": 134.04
+            },
+            {
+              "word": " to",
+              "start": 134.04,
+              "end": 134.44
+            },
+            {
+              "word": " RL",
+              "start": 134.44,
+              "end": 134.78
+            },
+            {
+              "word": " when",
+              "start": 134.78,
+              "end": 135.06
+            },
+            {
+              "word": " it",
+              "start": 135.06,
+              "end": 135.36
+            },
+            {
+              "word": " is",
+              "start": 135.36,
+              "end": 135.5
+            },
+            {
+              "word": " equal",
+              "start": 135.5,
+              "end": 135.84
+            },
+            {
+              "word": " to",
+              "start": 135.84,
+              "end": 136.24
+            },
+            {
+              "word": " RTH.",
+              "start": 136.24,
+              "end": 136.62
+            }
+          ]
+        },
+        {
+          "start": 137.16,
+          "end": 144.24,
+          "text": "So RL which is 3 ohms should be equal to RTH which is 6R divided by 6 plus R.",
+          "words": [
+            {
+              "word": " So",
+              "start": 137.16,
+              "end": 137.36
+            },
+            {
+              "word": " RL",
+              "start": 137.36,
+              "end": 137.82
+            },
+            {
+              "word": " which",
+              "start": 137.82,
+              "end": 138.06
+            },
+            {
+              "word": " is",
+              "start": 138.06,
+              "end": 138.26
+            },
+            {
+              "word": " 3",
+              "start": 138.26,
+              "end": 138.66
+            },
+            {
+              "word": " ohms",
+              "start": 138.66,
+              "end": 139.02
+            },
+            {
+              "word": " should",
+              "start": 139.02,
+              "end": 139.36
+            },
+            {
+              "word": " be",
+              "start": 139.36,
+              "end": 139.58
+            },
+            {
+              "word": " equal",
+              "start": 139.58,
+              "end": 139.94
+            },
+            {
+              "word": " to",
+              "start": 139.94,
+              "end": 140.36
+            },
+            {
+              "word": " RTH",
+              "start": 140.36,
+              "end": 140.8
+            },
+            {
+              "word": " which",
+              "start": 140.8,
+              "end": 141.28
+            },
+            {
+              "word": " is",
+              "start": 141.28,
+              "end": 141.54
+            },
+            {
+              "word": " 6R",
+              "start": 141.54,
+              "end": 142.36
+            },
+            {
+              "word": " divided",
+              "start": 142.36,
+              "end": 142.76
+            },
+            {
+              "word": " by",
+              "start": 142.76,
+              "end": 143.28
+            },
+            {
+              "word": " 6",
+              "start": 143.28,
+              "end": 143.62
+            },
+            {
+              "word": " plus",
+              "start": 143.62,
+              "end": 143.88
+            },
+            {
+              "word": " R.",
+              "start": 143.88,
+              "end": 144.24
+            }
+          ]
+        },
+        {
+          "start": 144.64,
+          "end": 150.44,
+          "text": "So we will have 6R divided by 6 plus R equal to 3.",
+          "words": [
+            {
+              "word": " So",
+              "start": 144.64,
+              "end": 144.84
+            },
+            {
+              "word": " we",
+              "start": 144.84,
+              "end": 144.98
+            },
+            {
+              "word": " will",
+              "start": 144.98,
+              "end": 145.1
+            },
+            {
+              "word": " have",
+              "start": 145.1,
+              "end": 145.42
+            },
+            {
+              "word": " 6R",
+              "start": 145.42,
+              "end": 146.38
+            },
+            {
+              "word": " divided",
+              "start": 146.38,
+              "end": 146.92
+            },
+            {
+              "word": " by",
+              "start": 146.92,
+              "end": 147.2
+            },
+            {
+              "word": " 6",
+              "start": 147.2,
+              "end": 147.44
+            },
+            {
+              "word": " plus",
+              "start": 147.44,
+              "end": 147.68
+            },
+            {
+              "word": " R",
+              "start": 147.68,
+              "end": 148.18
+            },
+            {
+              "word": " equal",
+              "start": 148.18,
+              "end": 149.38
+            },
+            {
+              "word": " to",
+              "start": 149.38,
+              "end": 150.18
+            },
+            {
+              "word": " 3.",
+              "start": 150.18,
+              "end": 150.44
+            }
+          ]
+        },
+        {
+          "start": 150.72,
+          "end": 157.84,
+          "text": "When you simplify it, you will have the value of R equal to 6 ohms.",
+          "words": [
+            {
+              "word": " When",
+              "start": 150.72,
+              "end": 150.92
+            },
+            {
+              "word": " you",
+              "start": 150.92,
+              "end": 151.02
+            },
+            {
+              "word": " simplify",
+              "start": 151.02,
+              "end": 151.4
+            },
+            {
+              "word": " it,",
+              "start": 151.4,
+              "end": 151.8
+            },
+            {
+              "word": " you",
+              "start": 151.94,
+              "end": 152.12
+            },
+            {
+              "word": " will",
+              "start": 152.12,
+              "end": 152.26
+            },
+            {
+              "word": " have",
+              "start": 152.26,
+              "end": 152.6
+            },
+            {
+              "word": " the",
+              "start": 152.6,
+              "end": 152.94
+            },
+            {
+              "word": " value",
+              "start": 152.94,
+              "end": 153.32
+            },
+            {
+              "word": " of",
+              "start": 153.32,
+              "end": 153.56
+            },
+            {
+              "word": " R",
+              "start": 153.56,
+              "end": 153.88
+            },
+            {
+              "word": " equal",
+              "start": 153.88,
+              "end": 154.9
+            },
+            {
+              "word": " to",
+              "start": 154.9,
+              "end": 155.74
+            },
+            {
+              "word": " 6",
+              "start": 155.74,
+              "end": 156.2
+            },
+            {
+              "word": " ohms.",
+              "start": 156.2,
+              "end": 157.84
+            }
+          ]
+        },
+        {
+          "start": 158.4,
+          "end": 162.98,
+          "text": "Now when you match the options, you will find option C is correct.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 158.26,
+              "end": 158.7
+            },
+            {
+              "word": " when",
+              "start": 158.7,
+              "end": 158.94
+            },
+            {
+              "word": " you",
+              "start": 158.94,
+              "end": 159.04
+            },
+            {
+              "word": " match",
+              "start": 159.04,
+              "end": 159.46
+            },
+            {
+              "word": " the",
+              "start": 159.46,
+              "end": 159.78
+            },
+            {
+              "word": " options,",
+              "start": 159.78,
+              "end": 160.22
+            },
+            {
+              "word": " you",
+              "start": 160.54,
+              "end": 160.62
+            },
+            {
+              "word": " will",
+              "start": 160.62,
+              "end": 160.74
+            },
+            {
+              "word": " find",
+              "start": 160.74,
+              "end": 161.2
+            },
+            {
+              "word": " option",
+              "start": 161.2,
+              "end": 161.68
+            },
+            {
+              "word": " C",
+              "start": 161.68,
+              "end": 162.04
+            },
+            {
+              "word": " is",
+              "start": 162.04,
+              "end": 162.44
+            },
+            {
+              "word": " correct.",
+              "start": 162.44,
+              "end": 162.98
+            }
+          ]
+        },
+        {
+          "start": 163.76,
+          "end": 166.86,
+          "text": "Now we will move on to the verification of this answer.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 163.76,
+              "end": 164.1
+            },
+            {
+              "word": " we",
+              "start": 164.1,
+              "end": 164.32
+            },
+            {
+              "word": " will",
+              "start": 164.32,
+              "end": 164.5
+            },
+            {
+              "word": " move",
+              "start": 164.5,
+              "end": 164.7
+            },
+            {
+              "word": " on",
+              "start": 164.7,
+              "end": 165.0
+            },
+            {
+              "word": " to",
+              "start": 165.0,
+              "end": 165.2
+            },
+            {
+              "word": " the",
+              "start": 165.2,
+              "end": 165.34
+            },
+            {
+              "word": " verification",
+              "start": 165.34,
+              "end": 165.78
+            },
+            {
+              "word": " of",
+              "start": 165.78,
+              "end": 166.26
+            },
+            {
+              "word": " this",
+              "start": 166.26,
+              "end": 166.48
+            },
+            {
+              "word": " answer.",
+              "start": 166.48,
+              "end": 166.86
+            }
+          ]
+        },
+        {
+          "start": 167.42,
+          "end": 183.84,
+          "text": "I will assume current through load as I sub L and we know maximum power will be transferred to RL when I L is maximum.",
+          "words": [
+            {
+              "word": " I",
+              "start": 167.42,
+              "end": 167.56
+            },
+            {
+              "word": " will",
+              "start": 167.56,
+              "end": 167.7
+            },
+            {
+              "word": " assume",
+              "start": 167.7,
+              "end": 168.1
+            },
+            {
+              "word": " current",
+              "start": 168.1,
+              "end": 168.88
+            },
+            {
+              "word": " through",
+              "start": 168.88,
+              "end": 169.72
+            },
+            {
+              "word": " load",
+              "start": 169.72,
+              "end": 170.14
+            },
+            {
+              "word": " as",
+              "start": 170.14,
+              "end": 170.96
+            },
+            {
+              "word": " I",
+              "start": 170.96,
+              "end": 171.84
+            },
+            {
+              "word": " sub",
+              "start": 171.84,
+              "end": 172.58
+            },
+            {
+              "word": " L",
+              "start": 172.58,
+              "end": 172.86
+            },
+            {
+              "word": " and",
+              "start": 172.86,
+              "end": 173.66
+            },
+            {
+              "word": " we",
+              "start": 173.66,
+              "end": 173.94
+            },
+            {
+              "word": " know",
+              "start": 173.94,
+              "end": 174.22
+            },
+            {
+              "word": " maximum",
+              "start": 174.22,
+              "end": 175.26
+            },
+            {
+              "word": " power",
+              "start": 175.26,
+              "end": 176.72
+            },
+            {
+              "word": " will",
+              "start": 176.72,
+              "end": 177.36
+            },
+            {
+              "word": " be",
+              "start": 177.36,
+              "end": 177.54
+            },
+            {
+              "word": " transferred",
+              "start": 177.54,
+              "end": 178.12
+            },
+            {
+              "word": " to",
+              "start": 178.12,
+              "end": 179.0
+            },
+            {
+              "word": " RL",
+              "start": 179.0,
+              "end": 179.48
+            },
+            {
+              "word": " when",
+              "start": 179.48,
+              "end": 180.1
+            },
+            {
+              "word": " I",
+              "start": 180.1,
+              "end": 181.14
+            },
+            {
+              "word": " L",
+              "start": 181.14,
+              "end": 181.7
+            },
+            {
+              "word": " is",
+              "start": 181.7,
+              "end": 182.82
+            },
+            {
+              "word": " maximum.",
+              "start": 182.82,
+              "end": 183.84
+            }
+          ]
+        },
+        {
+          "start": 184.48,
+          "end": 189.14,
+          "text": "Because power is equal to square of current multiplied to the resistance.",
+          "words": [
+            {
+              "word": " Because",
+              "start": 184.48,
+              "end": 184.9
+            },
+            {
+              "word": " power",
+              "start": 184.9,
+              "end": 185.48
+            },
+            {
+              "word": " is",
+              "start": 185.48,
+              "end": 185.78
+            },
+            {
+              "word": " equal",
+              "start": 185.78,
+              "end": 186.16
+            },
+            {
+              "word": " to",
+              "start": 186.16,
+              "end": 186.56
+            },
+            {
+              "word": " square",
+              "start": 186.56,
+              "end": 186.86
+            },
+            {
+              "word": " of",
+              "start": 186.86,
+              "end": 187.06
+            },
+            {
+              "word": " current",
+              "start": 187.06,
+              "end": 187.42
+            },
+            {
+              "word": " multiplied",
+              "start": 187.42,
+              "end": 187.96
+            },
+            {
+              "word": " to",
+              "start": 187.96,
+              "end": 188.52
+            },
+            {
+              "word": " the",
+              "start": 188.52,
+              "end": 188.62
+            },
+            {
+              "word": " resistance.",
+              "start": 188.62,
+              "end": 189.14
+            }
+          ]
+        },
+        {
+          "start": 189.54,
+          "end": 199.82,
+          "text": "And I L in this case is equal to 10 volts divided by R in parallel with 6.",
+          "words": [
+            {
+              "word": " And",
+              "start": 189.54,
+              "end": 190.16
+            },
+            {
+              "word": " I",
+              "start": 190.16,
+              "end": 190.4
+            },
+            {
+              "word": " L",
+              "start": 190.4,
+              "end": 190.58
+            },
+            {
+              "word": " in",
+              "start": 190.58,
+              "end": 190.92
+            },
+            {
+              "word": " this",
+              "start": 190.92,
+              "end": 191.12
+            },
+            {
+              "word": " case",
+              "start": 191.12,
+              "end": 191.44
+            },
+            {
+              "word": " is",
+              "start": 191.44,
+              "end": 191.84
+            },
+            {
+              "word": " equal",
+              "start": 191.84,
+              "end": 192.22
+            },
+            {
+              "word": " to",
+              "start": 192.22,
+              "end": 193.82
+            },
+            {
+              "word": " 10",
+              "start": 193.82,
+              "end": 194.3
+            },
+            {
+              "word": " volts",
+              "start": 194.3,
+              "end": 194.94
+            },
+            {
+              "word": " divided",
+              "start": 194.94,
+              "end": 196.94
+            },
+            {
+              "word": " by",
+              "start": 196.94,
+              "end": 197.52
+            },
+            {
+              "word": " R",
+              "start": 197.52,
+              "end": 198.44
+            },
+            {
+              "word": " in",
+              "start": 198.44,
+              "end": 198.68
+            },
+            {
+              "word": " parallel",
+              "start": 198.68,
+              "end": 199.08
+            },
+            {
+              "word": " with",
+              "start": 199.08,
+              "end": 199.44
+            },
+            {
+              "word": " 6.",
+              "start": 199.44,
+              "end": 199.82
+            }
+          ]
+        },
+        {
+          "start": 200.12,
+          "end": 206.24,
+          "text": "R is equal to 6 so we have 6 in parallel with 6 giving us 3 in series with 3.",
+          "words": [
+            {
+              "word": " R",
+              "start": 200.12,
+              "end": 200.52
+            },
+            {
+              "word": " is",
+              "start": 200.52,
+              "end": 200.64
+            },
+            {
+              "word": " equal",
+              "start": 200.64,
+              "end": 200.92
+            },
+            {
+              "word": " to",
+              "start": 200.92,
+              "end": 201.08
+            },
+            {
+              "word": " 6",
+              "start": 201.08,
+              "end": 201.34
+            },
+            {
+              "word": " so",
+              "start": 201.34,
+              "end": 201.66
+            },
+            {
+              "word": " we",
+              "start": 201.66,
+              "end": 201.86
+            },
+            {
+              "word": " have",
+              "start": 201.86,
+              "end": 202.04
+            },
+            {
+              "word": " 6",
+              "start": 202.04,
+              "end": 202.26
+            },
+            {
+              "word": " in",
+              "start": 202.26,
+              "end": 202.46
+            },
+            {
+              "word": " parallel",
+              "start": 202.46,
+              "end": 202.8
+            },
+            {
+              "word": " with",
+              "start": 202.8,
+              "end": 203.16
+            },
+            {
+              "word": " 6",
+              "start": 203.16,
+              "end": 203.54
+            },
+            {
+              "word": " giving",
+              "start": 203.54,
+              "end": 203.96
+            },
+            {
+              "word": " us",
+              "start": 203.96,
+              "end": 204.2
+            },
+            {
+              "word": " 3",
+              "start": 204.2,
+              "end": 204.56
+            },
+            {
+              "word": " in",
+              "start": 204.56,
+              "end": 205.08
+            },
+            {
+              "word": " series",
+              "start": 205.08,
+              "end": 205.38
+            },
+            {
+              "word": " with",
+              "start": 205.38,
+              "end": 205.74
+            },
+            {
+              "word": " 3.",
+              "start": 205.74,
+              "end": 206.24
+            }
+          ]
+        },
+        {
+          "start": 206.56,
+          "end": 209.6,
+          "text": "So we have 3 plus 3 giving us 6.",
+          "words": [
+            {
+              "word": " So",
+              "start": 206.56,
+              "end": 206.76
+            },
+            {
+              "word": " we",
+              "start": 206.76,
+              "end": 206.96
+            },
+            {
+              "word": " have",
+              "start": 206.96,
+              "end": 207.14
+            },
+            {
+              "word": " 3",
+              "start": 207.14,
+              "end": 207.4
+            },
+            {
+              "word": " plus",
+              "start": 207.4,
+              "end": 207.62
+            },
+            {
+              "word": " 3",
+              "start": 207.62,
+              "end": 208.06
+            },
+            {
+              "word": " giving",
+              "start": 208.06,
+              "end": 208.86
+            },
+            {
+              "word": " us",
+              "start": 208.86,
+              "end": 209.16
+            },
+            {
+              "word": " 6.",
+              "start": 209.16,
+              "end": 209.6
+            }
+          ]
+        },
+        {
+          "start": 210.4,
+          "end": 217.94,
+          "text": "So 10 over 6 should be the maximum value of current I L for which we are getting maximum power delivered to RL.",
+          "words": [
+            {
+              "word": " So",
+              "start": 210.29999999999998,
+              "end": 210.66
+            },
+            {
+              "word": " 10",
+              "start": 210.66,
+              "end": 210.94
+            },
+            {
+              "word": " over",
+              "start": 210.94,
+              "end": 211.14
+            },
+            {
+              "word": " 6",
+              "start": 211.14,
+              "end": 211.48
+            },
+            {
+              "word": " should",
+              "start": 211.48,
+              "end": 211.8
+            },
+            {
+              "word": " be",
+              "start": 211.8,
+              "end": 211.98
+            },
+            {
+              "word": " the",
+              "start": 211.98,
+              "end": 212.08
+            },
+            {
+              "word": " maximum",
+              "start": 212.08,
+              "end": 212.44
+            },
+            {
+              "word": " value",
+              "start": 212.44,
+              "end": 212.98
+            },
+            {
+              "word": " of",
+              "start": 212.98,
+              "end": 213.18
+            },
+            {
+              "word": " current",
+              "start": 213.18,
+              "end": 213.4
+            },
+            {
+              "word": " I",
+              "start": 213.4,
+              "end": 213.72
+            },
+            {
+              "word": " L",
+              "start": 213.72,
+              "end": 213.86
+            },
+            {
+              "word": " for",
+              "start": 213.86,
+              "end": 214.12
+            },
+            {
+              "word": " which",
+              "start": 214.12,
+              "end": 214.42
+            },
+            {
+              "word": " we",
+              "start": 214.42,
+              "end": 214.72
+            },
+            {
+              "word": " are",
+              "start": 214.72,
+              "end": 214.94
+            },
+            {
+              "word": " getting",
+              "start": 214.94,
+              "end": 215.22
+            },
+            {
+              "word": " maximum",
+              "start": 215.22,
+              "end": 216.1
+            },
+            {
+              "word": " power",
+              "start": 216.1,
+              "end": 216.54
+            },
+            {
+              "word": " delivered",
+              "start": 216.54,
+              "end": 217.06
+            },
+            {
+              "word": " to",
+              "start": 217.06,
+              "end": 217.52
+            },
+            {
+              "word": " RL.",
+              "start": 217.52,
+              "end": 217.94
+            }
+          ]
+        },
+        {
+          "start": 218.4,
+          "end": 222.08,
+          "text": "Now I am going to explain you the main concept of case 2.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 218.4,
+              "end": 218.82
+            },
+            {
+              "word": " I",
+              "start": 218.82,
+              "end": 219.02
+            },
+            {
+              "word": " am",
+              "start": 219.02,
+              "end": 219.12
+            },
+            {
+              "word": " going",
+              "start": 219.12,
+              "end": 219.28
+            },
+            {
+              "word": " to",
+              "start": 219.28,
+              "end": 219.48
+            },
+            {
+              "word": " explain",
+              "start": 219.48,
+              "end": 219.8
+            },
+            {
+              "word": " you",
+              "start": 219.8,
+              "end": 220.06
+            },
+            {
+              "word": " the",
+              "start": 220.06,
+              "end": 220.24
+            },
+            {
+              "word": " main",
+              "start": 220.24,
+              "end": 220.5
+            },
+            {
+              "word": " concept",
+              "start": 220.5,
+              "end": 220.96
+            },
+            {
+              "word": " of",
+              "start": 220.96,
+              "end": 221.3
+            },
+            {
+              "word": " case",
+              "start": 221.3,
+              "end": 221.6
+            },
+            {
+              "word": " 2.",
+              "start": 221.6,
+              "end": 222.08
+            }
+          ]
+        },
+        {
+          "start": 222.48,
+          "end": 223.74,
+          "text": "So understand it properly.",
+          "words": [
+            {
+              "word": " So",
+              "start": 222.48,
+              "end": 222.68
+            },
+            {
+              "word": " understand",
+              "start": 222.68,
+              "end": 223.08
+            },
+            {
+              "word": " it",
+              "start": 223.08,
+              "end": 223.36
+            },
+            {
+              "word": " properly.",
+              "start": 223.36,
+              "end": 223.74
+            }
+          ]
+        },
+        {
+          "start": 224.5,
+          "end": 228.8,
+          "text": "We have RTH equal to 6R divided by 6 plus R.",
+          "words": [
+            {
+              "word": " We",
+              "start": 224.5,
+              "end": 224.68
+            },
+            {
+              "word": " have",
+              "start": 224.68,
+              "end": 224.88
+            },
+            {
+              "word": " RTH",
+              "start": 224.88,
+              "end": 225.42
+            },
+            {
+              "word": " equal",
+              "start": 225.42,
+              "end": 226.08
+            },
+            {
+              "word": " to",
+              "start": 226.08,
+              "end": 226.5
+            },
+            {
+              "word": " 6R",
+              "start": 226.5,
+              "end": 227.06
+            },
+            {
+              "word": " divided",
+              "start": 227.06,
+              "end": 227.52
+            },
+            {
+              "word": " by",
+              "start": 227.52,
+              "end": 227.94
+            },
+            {
+              "word": " 6",
+              "start": 227.94,
+              "end": 228.2
+            },
+            {
+              "word": " plus",
+              "start": 228.2,
+              "end": 228.44
+            },
+            {
+              "word": " R.",
+              "start": 228.44,
+              "end": 228.8
+            }
+          ]
+        },
+        {
+          "start": 229.32,
+          "end": 230.4,
+          "text": "R is variable.",
+          "words": [
+            {
+              "word": " R",
+              "start": 229.32,
+              "end": 229.68
+            },
+            {
+              "word": " is",
+              "start": 229.68,
+              "end": 229.88
+            },
+            {
+              "word": " variable.",
+              "start": 229.88,
+              "end": 230.4
+            }
+          ]
+        },
+        {
+          "start": 231.24,
+          "end": 237.62,
+          "text": "Resistance R is variable and therefore RTH is also variable.",
+          "words": [
+            {
+              "word": " Resistance",
+              "start": 231.24,
+              "end": 231.74
+            },
+            {
+              "word": " R",
+              "start": 231.74,
+              "end": 232.32
+            },
+            {
+              "word": " is",
+              "start": 232.32,
+              "end": 233.38
+            },
+            {
+              "word": " variable",
+              "start": 233.38,
+              "end": 233.96
+            },
+            {
+              "word": " and",
+              "start": 233.96,
+              "end": 234.34
+            },
+            {
+              "word": " therefore",
+              "start": 234.34,
+              "end": 234.8
+            },
+            {
+              "word": " RTH",
+              "start": 234.8,
+              "end": 236.26
+            },
+            {
+              "word": " is",
+              "start": 236.26,
+              "end": 236.62
+            },
+            {
+              "word": " also",
+              "start": 236.62,
+              "end": 237.08
+            },
+            {
+              "word": " variable.",
+              "start": 237.08,
+              "end": 237.62
+            }
+          ]
+        },
+        {
+          "start": 238.18,
+          "end": 247.5,
+          "text": "Now it is not difficult to understand that I L will be maximum when RTH will be minimum and minimum will be 0.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 238.0,
+              "end": 238.42
+            },
+            {
+              "word": " it",
+              "start": 238.42,
+              "end": 238.62
+            },
+            {
+              "word": " is",
+              "start": 238.62,
+              "end": 238.8
+            },
+            {
+              "word": " not",
+              "start": 238.8,
+              "end": 239.08
+            },
+            {
+              "word": " difficult",
+              "start": 239.08,
+              "end": 239.48
+            },
+            {
+              "word": " to",
+              "start": 239.48,
+              "end": 239.76
+            },
+            {
+              "word": " understand",
+              "start": 239.76,
+              "end": 240.24
+            },
+            {
+              "word": " that",
+              "start": 240.24,
+              "end": 240.68
+            },
+            {
+              "word": " I",
+              "start": 240.68,
+              "end": 240.98
+            },
+            {
+              "word": " L",
+              "start": 240.98,
+              "end": 241.16
+            },
+            {
+              "word": " will",
+              "start": 241.16,
+              "end": 241.36
+            },
+            {
+              "word": " be",
+              "start": 241.36,
+              "end": 241.54
+            },
+            {
+              "word": " maximum",
+              "start": 241.54,
+              "end": 242.02
+            },
+            {
+              "word": " when",
+              "start": 242.02,
+              "end": 242.92
+            },
+            {
+              "word": " RTH",
+              "start": 242.92,
+              "end": 243.74
+            },
+            {
+              "word": " will",
+              "start": 243.74,
+              "end": 244.34
+            },
+            {
+              "word": " be",
+              "start": 244.34,
+              "end": 244.6
+            },
+            {
+              "word": " minimum",
+              "start": 244.6,
+              "end": 245.24
+            },
+            {
+              "word": " and",
+              "start": 245.24,
+              "end": 246.02
+            },
+            {
+              "word": " minimum",
+              "start": 246.02,
+              "end": 246.4
+            },
+            {
+              "word": " will",
+              "start": 246.4,
+              "end": 246.96
+            },
+            {
+              "word": " be",
+              "start": 246.96,
+              "end": 247.14
+            },
+            {
+              "word": " 0.",
+              "start": 247.14,
+              "end": 247.5
+            }
+          ]
+        },
+        {
+          "start": 247.92,
+          "end": 253.26,
+          "text": "And RTH can be 0 when R is equal to 0.",
+          "words": [
+            {
+              "word": " And",
+              "start": 247.92,
+              "end": 248.18
+            },
+            {
+              "word": " RTH",
+              "start": 248.18,
+              "end": 248.62
+            },
+            {
+              "word": " can",
+              "start": 248.62,
+              "end": 249.3
+            },
+            {
+              "word": " be",
+              "start": 249.3,
+              "end": 249.82
+            },
+            {
+              "word": " 0",
+              "start": 249.82,
+              "end": 250.26
+            },
+            {
+              "word": " when",
+              "start": 250.26,
+              "end": 251.0
+            },
+            {
+              "word": " R",
+              "start": 251.0,
+              "end": 251.4
+            },
+            {
+              "word": " is",
+              "start": 251.4,
+              "end": 252.06
+            },
+            {
+              "word": " equal",
+              "start": 252.06,
+              "end": 252.48
+            },
+            {
+              "word": " to",
+              "start": 252.48,
+              "end": 252.92
+            },
+            {
+              "word": " 0.",
+              "start": 252.92,
+              "end": 253.26
+            }
+          ]
+        },
+        {
+          "start": 253.94,
+          "end": 266.4,
+          "text": "And in this scenario when R is equal to 0, current I L will be equal to 10 divided by 3 amperes which is more than this current.",
+          "words": [
+            {
+              "word": " And",
+              "start": 253.94,
+              "end": 254.28
+            },
+            {
+              "word": " in",
+              "start": 254.28,
+              "end": 254.38
+            },
+            {
+              "word": " this",
+              "start": 254.38,
+              "end": 254.6
+            },
+            {
+              "word": " scenario",
+              "start": 254.6,
+              "end": 255.08
+            },
+            {
+              "word": " when",
+              "start": 255.08,
+              "end": 255.4
+            },
+            {
+              "word": " R",
+              "start": 255.4,
+              "end": 255.72
+            },
+            {
+              "word": " is",
+              "start": 255.72,
+              "end": 256.02
+            },
+            {
+              "word": " equal",
+              "start": 256.02,
+              "end": 256.38
+            },
+            {
+              "word": " to",
+              "start": 256.38,
+              "end": 256.82
+            },
+            {
+              "word": " 0,",
+              "start": 256.82,
+              "end": 257.22
+            },
+            {
+              "word": " current",
+              "start": 257.52,
+              "end": 258.02
+            },
+            {
+              "word": " I",
+              "start": 258.02,
+              "end": 258.92
+            },
+            {
+              "word": " L",
+              "start": 258.92,
+              "end": 259.48
+            },
+            {
+              "word": " will",
+              "start": 259.48,
+              "end": 260.14
+            },
+            {
+              "word": " be",
+              "start": 260.14,
+              "end": 260.38
+            },
+            {
+              "word": " equal",
+              "start": 260.38,
+              "end": 260.8
+            },
+            {
+              "word": " to",
+              "start": 260.8,
+              "end": 261.3
+            },
+            {
+              "word": " 10",
+              "start": 261.3,
+              "end": 261.76
+            },
+            {
+              "word": " divided",
+              "start": 261.76,
+              "end": 262.4
+            },
+            {
+              "word": " by",
+              "start": 262.4,
+              "end": 262.86
+            },
+            {
+              "word": " 3",
+              "start": 262.86,
+              "end": 263.42
+            },
+            {
+              "word": " amperes",
+              "start": 263.42,
+              "end": 264.1
+            },
+            {
+              "word": " which",
+              "start": 264.1,
+              "end": 264.76
+            },
+            {
+              "word": " is",
+              "start": 264.76,
+              "end": 265.02
+            },
+            {
+              "word": " more",
+              "start": 265.02,
+              "end": 265.5
+            },
+            {
+              "word": " than",
+              "start": 265.5,
+              "end": 265.76
+            },
+            {
+              "word": " this",
+              "start": 265.76,
+              "end": 266.0
+            },
+            {
+              "word": " current.",
+              "start": 266.0,
+              "end": 266.4
+            }
+          ]
+        },
+        {
+          "start": 266.4,
+          "end": 277.3,
+          "text": "So this current is not our maximum current and therefore maximum power will not be delivered to RL when R is equal to 6 ohms.",
+          "words": [
+            {
+              "word": " So",
+              "start": 266.4,
+              "end": 267.16
+            },
+            {
+              "word": " this",
+              "start": 267.16,
+              "end": 267.48
+            },
+            {
+              "word": " current",
+              "start": 267.48,
+              "end": 267.82
+            },
+            {
+              "word": " is",
+              "start": 267.82,
+              "end": 268.72
+            },
+            {
+              "word": " not",
+              "start": 268.72,
+              "end": 269.2
+            },
+            {
+              "word": " our",
+              "start": 269.2,
+              "end": 269.52
+            },
+            {
+              "word": " maximum",
+              "start": 269.52,
+              "end": 269.98
+            },
+            {
+              "word": " current",
+              "start": 269.98,
+              "end": 270.48
+            },
+            {
+              "word": " and",
+              "start": 270.48,
+              "end": 271.08
+            },
+            {
+              "word": " therefore",
+              "start": 271.08,
+              "end": 271.58
+            },
+            {
+              "word": " maximum",
+              "start": 271.58,
+              "end": 272.28
+            },
+            {
+              "word": " power",
+              "start": 272.28,
+              "end": 272.9
+            },
+            {
+              "word": " will",
+              "start": 272.9,
+              "end": 273.2
+            },
+            {
+              "word": " not",
+              "start": 273.2,
+              "end": 273.38
+            },
+            {
+              "word": " be",
+              "start": 273.38,
+              "end": 273.56
+            },
+            {
+              "word": " delivered",
+              "start": 273.56,
+              "end": 273.92
+            },
+            {
+              "word": " to",
+              "start": 273.92,
+              "end": 274.26
+            },
+            {
+              "word": " RL",
+              "start": 274.26,
+              "end": 274.7
+            },
+            {
+              "word": " when",
+              "start": 274.7,
+              "end": 275.0
+            },
+            {
+              "word": " R",
+              "start": 275.0,
+              "end": 275.34
+            },
+            {
+              "word": " is",
+              "start": 275.34,
+              "end": 275.82
+            },
+            {
+              "word": " equal",
+              "start": 275.82,
+              "end": 276.22
+            },
+            {
+              "word": " to",
+              "start": 276.22,
+              "end": 276.6
+            },
+            {
+              "word": " 6",
+              "start": 276.6,
+              "end": 276.92
+            },
+            {
+              "word": " ohms.",
+              "start": 276.92,
+              "end": 277.3
+            }
+          ]
+        },
+        {
+          "start": 277.58,
+          "end": 279.38,
+          "text": "This answer is not correct.",
+          "words": [
+            {
+              "word": " This",
+              "start": 277.58,
+              "end": 277.72
+            },
+            {
+              "word": " answer",
+              "start": 277.72,
+              "end": 278.04
+            },
+            {
+              "word": " is",
+              "start": 278.04,
+              "end": 278.38
+            },
+            {
+              "word": " not",
+              "start": 278.38,
+              "end": 278.8
+            },
+            {
+              "word": " correct.",
+              "start": 278.8,
+              "end": 279.38
+            }
+          ]
+        },
+        {
+          "start": 280.06,
+          "end": 285.18,
+          "text": "Maximum power will be delivered to RL when R is equal to 0.",
+          "words": [
+            {
+              "word": " Maximum",
+              "start": 280.06,
+              "end": 280.82
+            },
+            {
+              "word": " power",
+              "start": 280.82,
+              "end": 281.18
+            },
+            {
+              "word": " will",
+              "start": 281.18,
+              "end": 281.5
+            },
+            {
+              "word": " be",
+              "start": 281.5,
+              "end": 281.66
+            },
+            {
+              "word": " delivered",
+              "start": 281.66,
+              "end": 282.08
+            },
+            {
+              "word": " to",
+              "start": 282.08,
+              "end": 282.5
+            },
+            {
+              "word": " RL",
+              "start": 282.5,
+              "end": 282.92
+            },
+            {
+              "word": " when",
+              "start": 282.92,
+              "end": 283.1
+            },
+            {
+              "word": " R",
+              "start": 283.1,
+              "end": 283.46
+            },
+            {
+              "word": " is",
+              "start": 283.46,
+              "end": 284.08
+            },
+            {
+              "word": " equal",
+              "start": 284.08,
+              "end": 284.46
+            },
+            {
+              "word": " to",
+              "start": 284.46,
+              "end": 284.86
+            },
+            {
+              "word": " 0.",
+              "start": 284.86,
+              "end": 285.18
+            }
+          ]
+        },
+        {
+          "start": 285.64,
+          "end": 287.4,
+          "text": "Option A is the correct option.",
+          "words": [
+            {
+              "word": " Option",
+              "start": 285.64,
+              "end": 286.0
+            },
+            {
+              "word": " A",
+              "start": 286.0,
+              "end": 286.3
+            },
+            {
+              "word": " is",
+              "start": 286.3,
+              "end": 286.62
+            },
+            {
+              "word": " the",
+              "start": 286.62,
+              "end": 286.78
+            },
+            {
+              "word": " correct",
+              "start": 286.78,
+              "end": 287.02
+            },
+            {
+              "word": " option.",
+              "start": 287.02,
+              "end": 287.4
+            }
+          ]
+        },
+        {
+          "start": 288.2,
+          "end": 293.62,
+          "text": "When R is equal to 0, this means it is short-circuited.",
+          "words": [
+            {
+              "word": " When",
+              "start": 288.2,
+              "end": 288.38
+            },
+            {
+              "word": " R",
+              "start": 288.38,
+              "end": 288.66
+            },
+            {
+              "word": " is",
+              "start": 288.66,
+              "end": 289.06
+            },
+            {
+              "word": " equal",
+              "start": 289.06,
+              "end": 289.4
+            },
+            {
+              "word": " to",
+              "start": 289.4,
+              "end": 289.8
+            },
+            {
+              "word": " 0,",
+              "start": 289.8,
+              "end": 290.12
+            },
+            {
+              "word": " this",
+              "start": 290.56,
+              "end": 290.88
+            },
+            {
+              "word": " means",
+              "start": 290.88,
+              "end": 291.26
+            },
+            {
+              "word": " it",
+              "start": 291.26,
+              "end": 291.64
+            },
+            {
+              "word": " is",
+              "start": 291.64,
+              "end": 291.94
+            },
+            {
+              "word": " short",
+              "start": 291.94,
+              "end": 292.88
+            },
+            {
+              "word": "-circuited.",
+              "start": 292.88,
+              "end": 293.62
+            }
+          ]
+        },
+        {
+          "start": 293.62,
+          "end": 297.06,
+          "text": "No current will flow through 6 ohm resistor.",
+          "words": [
+            {
+              "word": " No",
+              "start": 293.62,
+              "end": 294.36
+            },
+            {
+              "word": " current",
+              "start": 294.36,
+              "end": 294.78
+            },
+            {
+              "word": " will",
+              "start": 294.78,
+              "end": 295.12
+            },
+            {
+              "word": " flow",
+              "start": 295.12,
+              "end": 295.38
+            },
+            {
+              "word": " through",
+              "start": 295.38,
+              "end": 295.68
+            },
+            {
+              "word": " 6",
+              "start": 295.68,
+              "end": 296.1
+            },
+            {
+              "word": " ohm",
+              "start": 296.1,
+              "end": 296.46
+            },
+            {
+              "word": " resistor.",
+              "start": 296.46,
+              "end": 297.06
+            }
+          ]
+        },
+        {
+          "start": 297.7,
+          "end": 305.94,
+          "text": "Therefore all the current will flow through load resistor making I L equal to 10 divided by 3 which is maximum.",
+          "words": [
+            {
+              "word": " Therefore",
+              "start": 297.7,
+              "end": 298.44
+            },
+            {
+              "word": " all",
+              "start": 298.44,
+              "end": 298.9
+            },
+            {
+              "word": " the",
+              "start": 298.9,
+              "end": 299.08
+            },
+            {
+              "word": " current",
+              "start": 299.08,
+              "end": 299.38
+            },
+            {
+              "word": " will",
+              "start": 299.38,
+              "end": 299.7
+            },
+            {
+              "word": " flow",
+              "start": 299.7,
+              "end": 299.98
+            },
+            {
+              "word": " through",
+              "start": 299.98,
+              "end": 300.24
+            },
+            {
+              "word": " load",
+              "start": 300.24,
+              "end": 300.78
+            },
+            {
+              "word": " resistor",
+              "start": 300.78,
+              "end": 301.48
+            },
+            {
+              "word": " making",
+              "start": 301.48,
+              "end": 301.86
+            },
+            {
+              "word": " I",
+              "start": 301.86,
+              "end": 302.72
+            },
+            {
+              "word": " L",
+              "start": 302.72,
+              "end": 302.92
+            },
+            {
+              "word": " equal",
+              "start": 302.92,
+              "end": 303.26
+            },
+            {
+              "word": " to",
+              "start": 303.26,
+              "end": 303.66
+            },
+            {
+              "word": " 10",
+              "start": 303.66,
+              "end": 303.94
+            },
+            {
+              "word": " divided",
+              "start": 303.94,
+              "end": 304.32
+            },
+            {
+              "word": " by",
+              "start": 304.32,
+              "end": 304.64
+            },
+            {
+              "word": " 3",
+              "start": 304.64,
+              "end": 304.98
+            },
+            {
+              "word": " which",
+              "start": 304.98,
+              "end": 305.26
+            },
+            {
+              "word": " is",
+              "start": 305.26,
+              "end": 305.48
+            },
+            {
+              "word": " maximum.",
+              "start": 305.48,
+              "end": 305.94
+            }
+          ]
+        },
+        {
+          "start": 306.66,
+          "end": 311.88,
+          "text": "So this result is not valid when we have fixed load and variable source.",
+          "words": [
+            {
+              "word": " So",
+              "start": 306.66,
+              "end": 306.92
+            },
+            {
+              "word": " this",
+              "start": 306.92,
+              "end": 307.16
+            },
+            {
+              "word": " result",
+              "start": 307.16,
+              "end": 307.62
+            },
+            {
+              "word": " is",
+              "start": 307.62,
+              "end": 308.04
+            },
+            {
+              "word": " not",
+              "start": 308.04,
+              "end": 308.34
+            },
+            {
+              "word": " valid",
+              "start": 308.34,
+              "end": 308.76
+            },
+            {
+              "word": " when",
+              "start": 308.76,
+              "end": 309.1
+            },
+            {
+              "word": " we",
+              "start": 309.1,
+              "end": 309.3
+            },
+            {
+              "word": " have",
+              "start": 309.3,
+              "end": 309.52
+            },
+            {
+              "word": " fixed",
+              "start": 309.52,
+              "end": 309.9
+            },
+            {
+              "word": " load",
+              "start": 309.9,
+              "end": 310.44
+            },
+            {
+              "word": " and",
+              "start": 310.44,
+              "end": 310.82
+            },
+            {
+              "word": " variable",
+              "start": 310.82,
+              "end": 311.18
+            },
+            {
+              "word": " source.",
+              "start": 311.18,
+              "end": 311.88
+            }
+          ]
+        },
+        {
+          "start": 312.64,
+          "end": 319.34,
+          "text": "So now we can have the statement for case number 2 of maximum power transfer theorem for DC circuits.",
+          "words": [
+            {
+              "word": " So",
+              "start": 312.64,
+              "end": 312.92
+            },
+            {
+              "word": " now",
+              "start": 312.92,
+              "end": 313.18
+            },
+            {
+              "word": " we",
+              "start": 313.18,
+              "end": 313.38
+            },
+            {
+              "word": " can",
+              "start": 313.38,
+              "end": 313.52
+            },
+            {
+              "word": " have",
+              "start": 313.52,
+              "end": 313.74
+            },
+            {
+              "word": " the",
+              "start": 313.74,
+              "end": 313.94
+            },
+            {
+              "word": " statement",
+              "start": 313.94,
+              "end": 314.3
+            },
+            {
+              "word": " for",
+              "start": 314.3,
+              "end": 314.82
+            },
+            {
+              "word": " case",
+              "start": 314.82,
+              "end": 315.14
+            },
+            {
+              "word": " number",
+              "start": 315.14,
+              "end": 315.56
+            },
+            {
+              "word": " 2",
+              "start": 315.56,
+              "end": 315.94
+            },
+            {
+              "word": " of",
+              "start": 315.94,
+              "end": 316.46
+            },
+            {
+              "word": " maximum",
+              "start": 316.46,
+              "end": 316.9
+            },
+            {
+              "word": " power",
+              "start": 316.9,
+              "end": 317.34
+            },
+            {
+              "word": " transfer",
+              "start": 317.34,
+              "end": 317.88
+            },
+            {
+              "word": " theorem",
+              "start": 317.88,
+              "end": 318.34
+            },
+            {
+              "word": " for",
+              "start": 318.34,
+              "end": 318.7
+            },
+            {
+              "word": " DC",
+              "start": 318.7,
+              "end": 318.92
+            },
+            {
+              "word": " circuits.",
+              "start": 318.92,
+              "end": 319.34
+            }
+          ]
+        },
+        {
+          "start": 319.34,
+          "end": 325.44,
+          "text": "The statement is whenever we have fixed load and the source is variable,",
+          "words": [
+            {
+              "word": " The",
+              "start": 319.34,
+              "end": 320.0
+            },
+            {
+              "word": " statement",
+              "start": 320.0,
+              "end": 320.36
+            },
+            {
+              "word": " is",
+              "start": 320.36,
+              "end": 320.78
+            },
+            {
+              "word": " whenever",
+              "start": 320.78,
+              "end": 321.34
+            },
+            {
+              "word": " we",
+              "start": 321.34,
+              "end": 321.76
+            },
+            {
+              "word": " have",
+              "start": 321.76,
+              "end": 322.08
+            },
+            {
+              "word": " fixed",
+              "start": 322.08,
+              "end": 322.72
+            },
+            {
+              "word": " load",
+              "start": 322.72,
+              "end": 323.32
+            },
+            {
+              "word": " and",
+              "start": 323.32,
+              "end": 324.02
+            },
+            {
+              "word": " the",
+              "start": 324.02,
+              "end": 324.2
+            },
+            {
+              "word": " source",
+              "start": 324.2,
+              "end": 324.52
+            },
+            {
+              "word": " is",
+              "start": 324.52,
+              "end": 324.8
+            },
+            {
+              "word": " variable,",
+              "start": 324.8,
+              "end": 325.44
+            }
+          ]
+        },
+        {
+          "start": 325.92,
+          "end": 333.72,
+          "text": "the maximum power will be transferred to the load when the source resistance is 0 or as minimum as possible.",
+          "words": [
+            {
+              "word": " the",
+              "start": 325.92,
+              "end": 326.0
+            },
+            {
+              "word": " maximum",
+              "start": 326.0,
+              "end": 326.46
+            },
+            {
+              "word": " power",
+              "start": 326.46,
+              "end": 327.02
+            },
+            {
+              "word": " will",
+              "start": 327.02,
+              "end": 327.38
+            },
+            {
+              "word": " be",
+              "start": 327.38,
+              "end": 327.54
+            },
+            {
+              "word": " transferred",
+              "start": 327.54,
+              "end": 327.94
+            },
+            {
+              "word": " to",
+              "start": 327.94,
+              "end": 328.44
+            },
+            {
+              "word": " the",
+              "start": 328.44,
+              "end": 328.56
+            },
+            {
+              "word": " load",
+              "start": 328.56,
+              "end": 328.9
+            },
+            {
+              "word": " when",
+              "start": 328.9,
+              "end": 329.3
+            },
+            {
+              "word": " the",
+              "start": 329.3,
+              "end": 329.44
+            },
+            {
+              "word": " source",
+              "start": 329.44,
+              "end": 329.8
+            },
+            {
+              "word": " resistance",
+              "start": 329.8,
+              "end": 330.36
+            },
+            {
+              "word": " is",
+              "start": 330.36,
+              "end": 330.82
+            },
+            {
+              "word": " 0",
+              "start": 330.82,
+              "end": 331.36
+            },
+            {
+              "word": " or",
+              "start": 331.36,
+              "end": 331.86
+            },
+            {
+              "word": " as",
+              "start": 331.86,
+              "end": 332.22
+            },
+            {
+              "word": " minimum",
+              "start": 332.22,
+              "end": 332.7
+            },
+            {
+              "word": " as",
+              "start": 332.7,
+              "end": 333.12
+            },
+            {
+              "word": " possible.",
+              "start": 333.12,
+              "end": 333.72
+            }
+          ]
+        },
+        {
+          "start": 334.58,
+          "end": 342.6,
+          "text": "So this is all for this problem and the case number 2 of maximum power transfer theorem for DC circuits.",
+          "words": [
+            {
+              "word": " So",
+              "start": 334.58,
+              "end": 335.2
+            },
+            {
+              "word": " this",
+              "start": 335.2,
+              "end": 335.44
+            },
+            {
+              "word": " is",
+              "start": 335.44,
+              "end": 335.62
+            },
+            {
+              "word": " all",
+              "start": 335.62,
+              "end": 335.98
+            },
+            {
+              "word": " for",
+              "start": 335.98,
+              "end": 336.24
+            },
+            {
+              "word": " this",
+              "start": 336.24,
+              "end": 336.44
+            },
+            {
+              "word": " problem",
+              "start": 336.44,
+              "end": 336.9
+            },
+            {
+              "word": " and",
+              "start": 336.9,
+              "end": 337.72
+            },
+            {
+              "word": " the",
+              "start": 337.72,
+              "end": 338.02
+            },
+            {
+              "word": " case",
+              "start": 338.02,
+              "end": 338.34
+            },
+            {
+              "word": " number",
+              "start": 338.34,
+              "end": 338.78
+            },
+            {
+              "word": " 2",
+              "start": 338.78,
+              "end": 339.08
+            },
+            {
+              "word": " of",
+              "start": 339.08,
+              "end": 339.3
+            },
+            {
+              "word": " maximum",
+              "start": 339.3,
+              "end": 339.72
+            },
+            {
+              "word": " power",
+              "start": 339.72,
+              "end": 340.26
+            },
+            {
+              "word": " transfer",
+              "start": 340.26,
+              "end": 340.76
+            },
+            {
+              "word": " theorem",
+              "start": 340.76,
+              "end": 341.32
+            },
+            {
+              "word": " for",
+              "start": 341.32,
+              "end": 341.88
+            },
+            {
+              "word": " DC",
+              "start": 341.88,
+              "end": 342.14
+            },
+            {
+              "word": " circuits.",
+              "start": 342.14,
+              "end": 342.6
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_158\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              233.59820556640625,
+              75.29310607910156,
+              239.91888427734375,
+              83.01786804199219
+            ],
+            "confidence": 0.5037484169006348,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 277.71,
+        "path": "data/processed\\lecture_158\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              233.42662048339844,
+              75.18417358398438,
+              239.7993621826172,
+              82.93130493164062
+            ],
+            "confidence": 0.5360400676727295,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 2,
+        "timestamp": 334.8,
+        "path": "data/processed\\lecture_158\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 335.77,
+        "path": "data/processed\\lecture_158\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              233.45840454101562,
+              74.96714782714844,
+              239.81149291992188,
+              82.90956115722656
+            ],
+            "confidence": 0.5229024291038513,
+            "class": "face"
+          },
+          {
+            "bbox": [
+              146.41336059570312,
+              214.7329559326172,
+              152.19882202148438,
+              222.09873962402344
+            ],
+            "confidence": 0.2777712345123291,
+            "class": "face"
+          }
+        ],
+        "face_count": 2
+      },
+      {
+        "index": 4,
+        "timestamp": 344.48,
+        "path": "data/processed\\lecture_158\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 345.45,
+        "path": "data/processed\\lecture_158\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 355.12,
+        "path": "data/processed\\lecture_158\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 7,
+      "frames_with_instructor": 3,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 1,
+        "timestamp": 277.71,
+        "concepts": [
+          "Scientific Diagram",
+          "Scientific Equation",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 3,
+        "timestamp": 335.77,
+        "concepts": [
+          "Scientific Diagram",
+          "Scientific Equation",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 4,
+        "timestamp": 344.48,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

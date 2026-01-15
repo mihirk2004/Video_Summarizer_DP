@@ -1,0 +1,5244 @@
+{
+  "video_id": "lecture_160",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_25.mp4",
+    "duration": 0.0,
+    "fps": 29.97002997002997,
+    "resolution": "640x360",
+    "processing_date": "2025-12-26T12:28:02.978794",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_160\\audio.wav",
+    "transcript": {
+      "text": " In the previous lecture, we had discussion on maximum power transfer theorem for AC circuits and there we saw multiple cases for maximum power transfer when we have AC circuits and now we are going to solve one problem based on one of the cases we saw in the previous lecture. So, let us move on to our problem now. We are required to find the maximum power that can be dissipated in the load. When you observe the network, you will find this is our load which is equal to RL. So our load ZL is purely resistive and this implies XL is equal to 0. The reactive part of the load is equal to 0. Now if you recall, you will find this problem is based on case number 3. In case number 3, the load impedance is purely resistive and for maximum power transfer to the load RL which is our ZL should be equal to the magnitude of thevenin's impedance or we can say ZL which is RL should be equal to under root RTH squared plus XTH squared and the maximum power transferred will be equal to the square of the magnitude of current in thevenin's circuit multiplied to RL and in this problem we are required to find out the maximum power transfer and to calculate Pmax we need magnitude of current i and RL. RL we can have once we have RTH and XTH so to find out RL we need RTH and we need XTH and we know RTH is the real part of ZTH and XTH is the imaginary part of ZTH so we need to find ZTH. Now to find out magnitude of current i we need the magnitude of voltage VTH. So let us move on to the solution and we will first find out voltage VTH and to find out voltage VTH we will make one modification in our network. We will open circuit the load and we will find out the open circuit voltage which is VTH. Now if i connect this point to the ground this point will have the potential VTH. Now to find out VTH i will use nodal analysis. I will consider this to be principal node, this to be reference node and the principal node will have the largest voltage in the network and therefore the two currents in the two branches will leave this node. I will call this current i1 and this current i2 when you apply KCL at this node you will find i1 plus i2 is equal to 0. Now moving on to current i1 it is equal to VTH minus 110 angle 0 degree in volts divided by 6 plus j8 ohms plus current i2. i2 is equal to VTH minus 90 angle 0 degree in volts divided by 6 plus j8 and this should be equal to 0. We can simplify the left hand side as twice of VTH minus 200 angle 0 degree divided by 6 plus j8 and this should be equal to 0. When you multiply both the sides by 6 plus j8 you will have twice of VTH minus 200 angle 0 degree equal to 0. From here we will have VTH VTH will be equal to 100 angle 0 degree in volts. We need the magnitude of VTH and the magnitude of VTH will be 100. So in this way we are done with the calculation of VTH and its magnitude and now we will focus on calculation of ZTH and its magnitude. We will make two changes in our network change number one is open circuiting the load and the change number two is short circuiting the two sources we have and then we will find out impedance ZTH. ZTH is equal to 6 plus j8 ohms in parallel with 6 plus j8 ohms and this should be equal to 6 plus j8 divided by 2 so we have ZTH equal to 3 plus j4 ohms and the real part which is 3 is our RTH and the imaginary part which is 4 is our XTH. Now we will find out the magnitude of ZTH the magnitude of ZTH will be equal to under root 3 squared plus 4 squared so we have 9 plus 16 and therefore ZTH will have the magnitude equal to under root 25 which is 5 and the units will be ohm and for maximum power transfer ZL which is equal to RL should be equal to magnitude of ZTH so this should be equal to RL so we now have RL let's find out magnitude of current i it is equal to magnitude of thevenin voltage VTH divided by magnitude of ZTH plus RL. Magnitude of VTH we know it is 100 magnitude of ZTH plus RL will be equal to under root 8 squared plus 4 squared why because ZTH plus RL will be 3 plus j4 plus 5 real part will get added and the imaginary part is equal to 4 so the magnitude of current i is equal to 100 divided by root 80 and the unit will be amperes. Now moving on to the calculation of maximum power delivered Pmax will be equal to square of this which will be 10 power 4 divided by 80 multiplied to RL which is 5 when you simplify this you will have the maximum power equal to 625 watts this is our answer so i hope this problem is clear to you and you understand how to deal with case number three of maximum power transfer theorem when we have AC circuit",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.94,
+          "text": "In the previous lecture, we had discussion on maximum power transfer theorem for AC circuits",
+          "words": [
+            {
+              "word": " In",
+              "start": 0.0,
+              "end": 0.46
+            },
+            {
+              "word": " the",
+              "start": 0.46,
+              "end": 0.62
+            },
+            {
+              "word": " previous",
+              "start": 0.62,
+              "end": 0.94
+            },
+            {
+              "word": " lecture,",
+              "start": 0.94,
+              "end": 1.46
+            },
+            {
+              "word": " we",
+              "start": 1.7,
+              "end": 1.74
+            },
+            {
+              "word": " had",
+              "start": 1.74,
+              "end": 1.92
+            },
+            {
+              "word": " discussion",
+              "start": 1.92,
+              "end": 2.26
+            },
+            {
+              "word": " on",
+              "start": 2.26,
+              "end": 2.66
+            },
+            {
+              "word": " maximum",
+              "start": 2.66,
+              "end": 3.24
+            },
+            {
+              "word": " power",
+              "start": 3.24,
+              "end": 3.66
+            },
+            {
+              "word": " transfer",
+              "start": 3.66,
+              "end": 4.18
+            },
+            {
+              "word": " theorem",
+              "start": 4.18,
+              "end": 4.74
+            },
+            {
+              "word": " for",
+              "start": 4.74,
+              "end": 5.22
+            },
+            {
+              "word": " AC",
+              "start": 5.22,
+              "end": 5.48
+            },
+            {
+              "word": " circuits",
+              "start": 5.48,
+              "end": 5.94
+            }
+          ]
+        },
+        {
+          "start": 5.94,
+          "end": 13.3,
+          "text": "and there we saw multiple cases for maximum power transfer when we have AC circuits and",
+          "words": [
+            {
+              "word": " and",
+              "start": 5.94,
+              "end": 6.7
+            },
+            {
+              "word": " there",
+              "start": 6.7,
+              "end": 7.0
+            },
+            {
+              "word": " we",
+              "start": 7.0,
+              "end": 7.22
+            },
+            {
+              "word": " saw",
+              "start": 7.22,
+              "end": 7.56
+            },
+            {
+              "word": " multiple",
+              "start": 7.56,
+              "end": 8.16
+            },
+            {
+              "word": " cases",
+              "start": 8.16,
+              "end": 8.74
+            },
+            {
+              "word": " for",
+              "start": 8.74,
+              "end": 9.22
+            },
+            {
+              "word": " maximum",
+              "start": 9.22,
+              "end": 9.58
+            },
+            {
+              "word": " power",
+              "start": 9.58,
+              "end": 10.0
+            },
+            {
+              "word": " transfer",
+              "start": 10.0,
+              "end": 10.52
+            },
+            {
+              "word": " when",
+              "start": 10.52,
+              "end": 10.86
+            },
+            {
+              "word": " we",
+              "start": 10.86,
+              "end": 11.02
+            },
+            {
+              "word": " have",
+              "start": 11.02,
+              "end": 11.32
+            },
+            {
+              "word": " AC",
+              "start": 11.32,
+              "end": 12.04
+            },
+            {
+              "word": " circuits",
+              "start": 12.04,
+              "end": 12.5
+            },
+            {
+              "word": " and",
+              "start": 12.5,
+              "end": 13.3
+            }
+          ]
+        },
+        {
+          "start": 13.3,
+          "end": 18.46,
+          "text": "now we are going to solve one problem based on one of the cases we saw in the previous",
+          "words": [
+            {
+              "word": " now",
+              "start": 13.3,
+              "end": 13.62
+            },
+            {
+              "word": " we",
+              "start": 13.62,
+              "end": 13.78
+            },
+            {
+              "word": " are",
+              "start": 13.78,
+              "end": 13.86
+            },
+            {
+              "word": " going",
+              "start": 13.86,
+              "end": 14.02
+            },
+            {
+              "word": " to",
+              "start": 14.02,
+              "end": 14.26
+            },
+            {
+              "word": " solve",
+              "start": 14.26,
+              "end": 14.58
+            },
+            {
+              "word": " one",
+              "start": 14.58,
+              "end": 15.14
+            },
+            {
+              "word": " problem",
+              "start": 15.14,
+              "end": 15.62
+            },
+            {
+              "word": " based",
+              "start": 15.62,
+              "end": 15.98
+            },
+            {
+              "word": " on",
+              "start": 15.98,
+              "end": 16.38
+            },
+            {
+              "word": " one",
+              "start": 16.38,
+              "end": 16.8
+            },
+            {
+              "word": " of",
+              "start": 16.8,
+              "end": 16.92
+            },
+            {
+              "word": " the",
+              "start": 16.92,
+              "end": 17.06
+            },
+            {
+              "word": " cases",
+              "start": 17.06,
+              "end": 17.34
+            },
+            {
+              "word": " we",
+              "start": 17.34,
+              "end": 17.74
+            },
+            {
+              "word": " saw",
+              "start": 17.74,
+              "end": 17.96
+            },
+            {
+              "word": " in",
+              "start": 17.96,
+              "end": 18.08
+            },
+            {
+              "word": " the",
+              "start": 18.08,
+              "end": 18.2
+            },
+            {
+              "word": " previous",
+              "start": 18.2,
+              "end": 18.46
+            }
+          ]
+        },
+        {
+          "start": 18.46,
+          "end": 19.2,
+          "text": "lecture.",
+          "words": [
+            {
+              "word": " lecture.",
+              "start": 18.46,
+              "end": 19.2
+            }
+          ]
+        },
+        {
+          "start": 19.62,
+          "end": 22.02,
+          "text": "So, let us move on to our problem now.",
+          "words": [
+            {
+              "word": " So,",
+              "start": 19.62,
+              "end": 19.88
+            },
+            {
+              "word": " let",
+              "start": 19.96,
+              "end": 20.1
+            },
+            {
+              "word": " us",
+              "start": 20.1,
+              "end": 20.28
+            },
+            {
+              "word": " move",
+              "start": 20.28,
+              "end": 20.54
+            },
+            {
+              "word": " on",
+              "start": 20.54,
+              "end": 20.82
+            },
+            {
+              "word": " to",
+              "start": 20.82,
+              "end": 21.0
+            },
+            {
+              "word": " our",
+              "start": 21.0,
+              "end": 21.2
+            },
+            {
+              "word": " problem",
+              "start": 21.2,
+              "end": 21.68
+            },
+            {
+              "word": " now.",
+              "start": 21.68,
+              "end": 22.02
+            }
+          ]
+        },
+        {
+          "start": 22.38,
+          "end": 27.72,
+          "text": "We are required to find the maximum power that can be dissipated in the load.",
+          "words": [
+            {
+              "word": " We",
+              "start": 22.38,
+              "end": 22.68
+            },
+            {
+              "word": " are",
+              "start": 22.68,
+              "end": 22.82
+            },
+            {
+              "word": " required",
+              "start": 22.82,
+              "end": 23.06
+            },
+            {
+              "word": " to",
+              "start": 23.06,
+              "end": 23.4
+            },
+            {
+              "word": " find",
+              "start": 23.4,
+              "end": 23.76
+            },
+            {
+              "word": " the",
+              "start": 23.76,
+              "end": 24.2
+            },
+            {
+              "word": " maximum",
+              "start": 24.2,
+              "end": 24.62
+            },
+            {
+              "word": " power",
+              "start": 24.62,
+              "end": 25.12
+            },
+            {
+              "word": " that",
+              "start": 25.12,
+              "end": 25.66
+            },
+            {
+              "word": " can",
+              "start": 25.66,
+              "end": 26.04
+            },
+            {
+              "word": " be",
+              "start": 26.04,
+              "end": 26.24
+            },
+            {
+              "word": " dissipated",
+              "start": 26.24,
+              "end": 26.82
+            },
+            {
+              "word": " in",
+              "start": 26.82,
+              "end": 27.26
+            },
+            {
+              "word": " the",
+              "start": 27.26,
+              "end": 27.38
+            },
+            {
+              "word": " load.",
+              "start": 27.38,
+              "end": 27.72
+            }
+          ]
+        },
+        {
+          "start": 28.36,
+          "end": 34.82,
+          "text": "When you observe the network, you will find this is our load which is equal to RL.",
+          "words": [
+            {
+              "word": " When",
+              "start": 28.02,
+              "end": 28.4
+            },
+            {
+              "word": " you",
+              "start": 28.4,
+              "end": 28.54
+            },
+            {
+              "word": " observe",
+              "start": 28.54,
+              "end": 29.0
+            },
+            {
+              "word": " the",
+              "start": 29.0,
+              "end": 29.32
+            },
+            {
+              "word": " network,",
+              "start": 29.32,
+              "end": 29.74
+            },
+            {
+              "word": " you",
+              "start": 29.98,
+              "end": 30.08
+            },
+            {
+              "word": " will",
+              "start": 30.08,
+              "end": 30.22
+            },
+            {
+              "word": " find",
+              "start": 30.22,
+              "end": 30.62
+            },
+            {
+              "word": " this",
+              "start": 30.62,
+              "end": 31.3
+            },
+            {
+              "word": " is",
+              "start": 31.3,
+              "end": 31.54
+            },
+            {
+              "word": " our",
+              "start": 31.54,
+              "end": 31.9
+            },
+            {
+              "word": " load",
+              "start": 31.9,
+              "end": 32.56
+            },
+            {
+              "word": " which",
+              "start": 32.56,
+              "end": 33.1
+            },
+            {
+              "word": " is",
+              "start": 33.1,
+              "end": 33.26
+            },
+            {
+              "word": " equal",
+              "start": 33.26,
+              "end": 33.76
+            },
+            {
+              "word": " to",
+              "start": 33.76,
+              "end": 34.28
+            },
+            {
+              "word": " RL.",
+              "start": 34.28,
+              "end": 34.82
+            }
+          ]
+        },
+        {
+          "start": 35.16,
+          "end": 44.7,
+          "text": "So our load ZL is purely resistive and this implies XL is equal to 0.",
+          "words": [
+            {
+              "word": " So",
+              "start": 35.16,
+              "end": 35.22
+            },
+            {
+              "word": " our",
+              "start": 35.22,
+              "end": 35.5
+            },
+            {
+              "word": " load",
+              "start": 35.5,
+              "end": 36.46
+            },
+            {
+              "word": " ZL",
+              "start": 36.46,
+              "end": 37.5
+            },
+            {
+              "word": " is",
+              "start": 37.5,
+              "end": 38.12
+            },
+            {
+              "word": " purely",
+              "start": 38.12,
+              "end": 38.82
+            },
+            {
+              "word": " resistive",
+              "start": 38.82,
+              "end": 40.12
+            },
+            {
+              "word": " and",
+              "start": 40.12,
+              "end": 40.72
+            },
+            {
+              "word": " this",
+              "start": 40.72,
+              "end": 41.02
+            },
+            {
+              "word": " implies",
+              "start": 41.02,
+              "end": 41.82
+            },
+            {
+              "word": " XL",
+              "start": 41.82,
+              "end": 42.72
+            },
+            {
+              "word": " is",
+              "start": 42.72,
+              "end": 43.56
+            },
+            {
+              "word": " equal",
+              "start": 43.56,
+              "end": 43.96
+            },
+            {
+              "word": " to",
+              "start": 43.96,
+              "end": 44.4
+            },
+            {
+              "word": " 0.",
+              "start": 44.4,
+              "end": 44.7
+            }
+          ]
+        },
+        {
+          "start": 45.0,
+          "end": 48.12,
+          "text": "The reactive part of the load is equal to 0.",
+          "words": [
+            {
+              "word": " The",
+              "start": 45.0,
+              "end": 45.1
+            },
+            {
+              "word": " reactive",
+              "start": 45.1,
+              "end": 45.48
+            },
+            {
+              "word": " part",
+              "start": 45.48,
+              "end": 45.96
+            },
+            {
+              "word": " of",
+              "start": 45.96,
+              "end": 46.12
+            },
+            {
+              "word": " the",
+              "start": 46.12,
+              "end": 46.24
+            },
+            {
+              "word": " load",
+              "start": 46.24,
+              "end": 46.52
+            },
+            {
+              "word": " is",
+              "start": 46.52,
+              "end": 46.94
+            },
+            {
+              "word": " equal",
+              "start": 46.94,
+              "end": 47.32
+            },
+            {
+              "word": " to",
+              "start": 47.32,
+              "end": 47.78
+            },
+            {
+              "word": " 0.",
+              "start": 47.78,
+              "end": 48.12
+            }
+          ]
+        },
+        {
+          "start": 48.56,
+          "end": 53.4,
+          "text": "Now if you recall, you will find this problem is based on case number 3.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 48.56,
+              "end": 48.8
+            },
+            {
+              "word": " if",
+              "start": 48.8,
+              "end": 49.0
+            },
+            {
+              "word": " you",
+              "start": 49.0,
+              "end": 49.14
+            },
+            {
+              "word": " recall,",
+              "start": 49.14,
+              "end": 49.52
+            },
+            {
+              "word": " you",
+              "start": 49.66,
+              "end": 49.76
+            },
+            {
+              "word": " will",
+              "start": 49.76,
+              "end": 49.88
+            },
+            {
+              "word": " find",
+              "start": 49.88,
+              "end": 50.24
+            },
+            {
+              "word": " this",
+              "start": 50.24,
+              "end": 50.64
+            },
+            {
+              "word": " problem",
+              "start": 50.64,
+              "end": 51.04
+            },
+            {
+              "word": " is",
+              "start": 51.04,
+              "end": 51.32
+            },
+            {
+              "word": " based",
+              "start": 51.32,
+              "end": 51.66
+            },
+            {
+              "word": " on",
+              "start": 51.66,
+              "end": 52.02
+            },
+            {
+              "word": " case",
+              "start": 52.02,
+              "end": 52.4
+            },
+            {
+              "word": " number",
+              "start": 52.4,
+              "end": 52.94
+            },
+            {
+              "word": " 3.",
+              "start": 52.94,
+              "end": 53.4
+            }
+          ]
+        },
+        {
+          "start": 53.4,
+          "end": 60.68,
+          "text": "In case number 3, the load impedance is purely resistive and for maximum power transfer",
+          "words": [
+            {
+              "word": " In",
+              "start": 53.4,
+              "end": 53.92
+            },
+            {
+              "word": " case",
+              "start": 53.92,
+              "end": 54.22
+            },
+            {
+              "word": " number",
+              "start": 54.22,
+              "end": 54.66
+            },
+            {
+              "word": " 3,",
+              "start": 54.66,
+              "end": 55.08
+            },
+            {
+              "word": " the",
+              "start": 55.46,
+              "end": 55.56
+            },
+            {
+              "word": " load",
+              "start": 55.56,
+              "end": 55.76
+            },
+            {
+              "word": " impedance",
+              "start": 55.76,
+              "end": 56.14
+            },
+            {
+              "word": " is",
+              "start": 56.14,
+              "end": 56.64
+            },
+            {
+              "word": " purely",
+              "start": 56.64,
+              "end": 57.14
+            },
+            {
+              "word": " resistive",
+              "start": 57.14,
+              "end": 57.94
+            },
+            {
+              "word": " and",
+              "start": 57.94,
+              "end": 58.56
+            },
+            {
+              "word": " for",
+              "start": 58.56,
+              "end": 58.86
+            },
+            {
+              "word": " maximum",
+              "start": 58.86,
+              "end": 59.38
+            },
+            {
+              "word": " power",
+              "start": 59.38,
+              "end": 59.96
+            },
+            {
+              "word": " transfer",
+              "start": 59.96,
+              "end": 60.68
+            }
+          ]
+        },
+        {
+          "start": 60.68,
+          "end": 71.56,
+          "text": "to the load RL which is our ZL should be equal to the magnitude of thevenin's impedance",
+          "words": [
+            {
+              "word": " to",
+              "start": 60.68,
+              "end": 62.48
+            },
+            {
+              "word": " the",
+              "start": 62.48,
+              "end": 62.6
+            },
+            {
+              "word": " load",
+              "start": 62.6,
+              "end": 62.92
+            },
+            {
+              "word": " RL",
+              "start": 62.92,
+              "end": 64.16
+            },
+            {
+              "word": " which",
+              "start": 64.16,
+              "end": 65.4
+            },
+            {
+              "word": " is",
+              "start": 65.4,
+              "end": 65.56
+            },
+            {
+              "word": " our",
+              "start": 65.56,
+              "end": 65.8
+            },
+            {
+              "word": " ZL",
+              "start": 65.8,
+              "end": 66.62
+            },
+            {
+              "word": " should",
+              "start": 66.62,
+              "end": 67.1
+            },
+            {
+              "word": " be",
+              "start": 67.1,
+              "end": 67.34
+            },
+            {
+              "word": " equal",
+              "start": 67.34,
+              "end": 67.78
+            },
+            {
+              "word": " to",
+              "start": 67.78,
+              "end": 68.6
+            },
+            {
+              "word": " the",
+              "start": 68.6,
+              "end": 68.74
+            },
+            {
+              "word": " magnitude",
+              "start": 68.74,
+              "end": 69.22
+            },
+            {
+              "word": " of",
+              "start": 69.22,
+              "end": 69.74
+            },
+            {
+              "word": " thevenin's",
+              "start": 69.74,
+              "end": 70.8
+            },
+            {
+              "word": " impedance",
+              "start": 70.8,
+              "end": 71.56
+            }
+          ]
+        },
+        {
+          "start": 72.32000000000001,
+          "end": 85.7,
+          "text": "or we can say ZL which is RL should be equal to under root RTH squared plus XTH squared",
+          "words": [
+            {
+              "word": " or",
+              "start": 72.1,
+              "end": 72.52
+            },
+            {
+              "word": " we",
+              "start": 72.52,
+              "end": 72.68
+            },
+            {
+              "word": " can",
+              "start": 72.68,
+              "end": 72.86
+            },
+            {
+              "word": " say",
+              "start": 72.86,
+              "end": 73.14
+            },
+            {
+              "word": " ZL",
+              "start": 73.14,
+              "end": 74.64
+            },
+            {
+              "word": " which",
+              "start": 74.64,
+              "end": 75.46
+            },
+            {
+              "word": " is",
+              "start": 75.46,
+              "end": 75.64
+            },
+            {
+              "word": " RL",
+              "start": 75.64,
+              "end": 76.12
+            },
+            {
+              "word": " should",
+              "start": 76.12,
+              "end": 76.68
+            },
+            {
+              "word": " be",
+              "start": 76.68,
+              "end": 76.9
+            },
+            {
+              "word": " equal",
+              "start": 76.9,
+              "end": 77.32
+            },
+            {
+              "word": " to",
+              "start": 77.32,
+              "end": 78.02
+            },
+            {
+              "word": " under",
+              "start": 78.02,
+              "end": 78.28
+            },
+            {
+              "word": " root",
+              "start": 78.28,
+              "end": 78.74
+            },
+            {
+              "word": " RTH",
+              "start": 78.74,
+              "end": 80.88
+            },
+            {
+              "word": " squared",
+              "start": 80.88,
+              "end": 82.04
+            },
+            {
+              "word": " plus",
+              "start": 82.04,
+              "end": 83.1
+            },
+            {
+              "word": " XTH",
+              "start": 83.1,
+              "end": 84.48
+            },
+            {
+              "word": " squared",
+              "start": 84.48,
+              "end": 85.7
+            }
+          ]
+        },
+        {
+          "start": 86.60000000000001,
+          "end": 93.08,
+          "text": "and the maximum power transferred will be equal to the square of the magnitude of current",
+          "words": [
+            {
+              "word": " and",
+              "start": 86.34,
+              "end": 86.76
+            },
+            {
+              "word": " the",
+              "start": 86.76,
+              "end": 86.92
+            },
+            {
+              "word": " maximum",
+              "start": 86.92,
+              "end": 87.34
+            },
+            {
+              "word": " power",
+              "start": 87.34,
+              "end": 87.76
+            },
+            {
+              "word": " transferred",
+              "start": 87.76,
+              "end": 88.4
+            },
+            {
+              "word": " will",
+              "start": 88.4,
+              "end": 89.26
+            },
+            {
+              "word": " be",
+              "start": 89.26,
+              "end": 89.46
+            },
+            {
+              "word": " equal",
+              "start": 89.46,
+              "end": 89.9
+            },
+            {
+              "word": " to",
+              "start": 89.9,
+              "end": 90.4
+            },
+            {
+              "word": " the",
+              "start": 90.4,
+              "end": 90.54
+            },
+            {
+              "word": " square",
+              "start": 90.54,
+              "end": 90.92
+            },
+            {
+              "word": " of",
+              "start": 90.92,
+              "end": 91.42
+            },
+            {
+              "word": " the",
+              "start": 91.42,
+              "end": 91.84
+            },
+            {
+              "word": " magnitude",
+              "start": 91.84,
+              "end": 92.32
+            },
+            {
+              "word": " of",
+              "start": 92.32,
+              "end": 92.66
+            },
+            {
+              "word": " current",
+              "start": 92.66,
+              "end": 93.08
+            }
+          ]
+        },
+        {
+          "start": 93.08,
+          "end": 99.6,
+          "text": "in thevenin's circuit multiplied to RL and in this problem we are required to find out",
+          "words": [
+            {
+              "word": " in",
+              "start": 93.08,
+              "end": 93.42
+            },
+            {
+              "word": " thevenin's",
+              "start": 93.42,
+              "end": 94.0
+            },
+            {
+              "word": " circuit",
+              "start": 94.0,
+              "end": 94.3
+            },
+            {
+              "word": " multiplied",
+              "start": 94.3,
+              "end": 95.06
+            },
+            {
+              "word": " to",
+              "start": 95.06,
+              "end": 96.22
+            },
+            {
+              "word": " RL",
+              "start": 96.22,
+              "end": 96.7
+            },
+            {
+              "word": " and",
+              "start": 96.7,
+              "end": 97.3
+            },
+            {
+              "word": " in",
+              "start": 97.3,
+              "end": 97.42
+            },
+            {
+              "word": " this",
+              "start": 97.42,
+              "end": 97.6
+            },
+            {
+              "word": " problem",
+              "start": 97.6,
+              "end": 98.04
+            },
+            {
+              "word": " we",
+              "start": 98.04,
+              "end": 98.42
+            },
+            {
+              "word": " are",
+              "start": 98.42,
+              "end": 98.5
+            },
+            {
+              "word": " required",
+              "start": 98.5,
+              "end": 98.8
+            },
+            {
+              "word": " to",
+              "start": 98.8,
+              "end": 99.08
+            },
+            {
+              "word": " find",
+              "start": 99.08,
+              "end": 99.32
+            },
+            {
+              "word": " out",
+              "start": 99.32,
+              "end": 99.6
+            }
+          ]
+        },
+        {
+          "start": 99.6,
+          "end": 108.2,
+          "text": "the maximum power transfer and to calculate Pmax we need magnitude of current i and RL.",
+          "words": [
+            {
+              "word": " the",
+              "start": 99.6,
+              "end": 99.9
+            },
+            {
+              "word": " maximum",
+              "start": 99.9,
+              "end": 100.26
+            },
+            {
+              "word": " power",
+              "start": 100.26,
+              "end": 100.96
+            },
+            {
+              "word": " transfer",
+              "start": 100.96,
+              "end": 101.82
+            },
+            {
+              "word": " and",
+              "start": 101.82,
+              "end": 102.9
+            },
+            {
+              "word": " to",
+              "start": 102.9,
+              "end": 103.12
+            },
+            {
+              "word": " calculate",
+              "start": 103.12,
+              "end": 103.58
+            },
+            {
+              "word": " Pmax",
+              "start": 103.58,
+              "end": 104.36
+            },
+            {
+              "word": " we",
+              "start": 104.36,
+              "end": 104.72
+            },
+            {
+              "word": " need",
+              "start": 104.72,
+              "end": 105.0
+            },
+            {
+              "word": " magnitude",
+              "start": 105.0,
+              "end": 105.64
+            },
+            {
+              "word": " of",
+              "start": 105.64,
+              "end": 106.0
+            },
+            {
+              "word": " current",
+              "start": 106.0,
+              "end": 106.36
+            },
+            {
+              "word": " i",
+              "start": 106.36,
+              "end": 106.74
+            },
+            {
+              "word": " and",
+              "start": 106.74,
+              "end": 107.5
+            },
+            {
+              "word": " RL.",
+              "start": 107.5,
+              "end": 108.2
+            }
+          ]
+        },
+        {
+          "start": 108.44,
+          "end": 121.44,
+          "text": "RL we can have once we have RTH and XTH so to find out RL we need RTH and we need XTH",
+          "words": [
+            {
+              "word": " RL",
+              "start": 108.44,
+              "end": 109.14
+            },
+            {
+              "word": " we",
+              "start": 109.14,
+              "end": 109.3
+            },
+            {
+              "word": " can",
+              "start": 109.3,
+              "end": 109.4
+            },
+            {
+              "word": " have",
+              "start": 109.4,
+              "end": 109.74
+            },
+            {
+              "word": " once",
+              "start": 109.74,
+              "end": 110.28
+            },
+            {
+              "word": " we",
+              "start": 110.28,
+              "end": 110.48
+            },
+            {
+              "word": " have",
+              "start": 110.48,
+              "end": 110.68
+            },
+            {
+              "word": " RTH",
+              "start": 110.68,
+              "end": 111.1
+            },
+            {
+              "word": " and",
+              "start": 111.1,
+              "end": 111.64
+            },
+            {
+              "word": " XTH",
+              "start": 111.64,
+              "end": 112.1
+            },
+            {
+              "word": " so",
+              "start": 112.1,
+              "end": 112.86
+            },
+            {
+              "word": " to",
+              "start": 112.86,
+              "end": 113.06
+            },
+            {
+              "word": " find",
+              "start": 113.06,
+              "end": 113.36
+            },
+            {
+              "word": " out",
+              "start": 113.36,
+              "end": 113.54
+            },
+            {
+              "word": " RL",
+              "start": 113.54,
+              "end": 114.16
+            },
+            {
+              "word": " we",
+              "start": 114.16,
+              "end": 114.92
+            },
+            {
+              "word": " need",
+              "start": 114.92,
+              "end": 115.34
+            },
+            {
+              "word": " RTH",
+              "start": 115.34,
+              "end": 117.6
+            },
+            {
+              "word": " and",
+              "start": 117.6,
+              "end": 118.68
+            },
+            {
+              "word": " we",
+              "start": 118.68,
+              "end": 119.06
+            },
+            {
+              "word": " need",
+              "start": 119.06,
+              "end": 119.46
+            },
+            {
+              "word": " XTH",
+              "start": 119.46,
+              "end": 121.44
+            }
+          ]
+        },
+        {
+          "start": 121.44,
+          "end": 128.94,
+          "text": "and we know RTH is the real part of ZTH and XTH is the imaginary part of ZTH so we need",
+          "words": [
+            {
+              "word": " and",
+              "start": 121.44,
+              "end": 122.46
+            },
+            {
+              "word": " we",
+              "start": 122.46,
+              "end": 122.7
+            },
+            {
+              "word": " know",
+              "start": 122.7,
+              "end": 122.84
+            },
+            {
+              "word": " RTH",
+              "start": 122.84,
+              "end": 123.28
+            },
+            {
+              "word": " is",
+              "start": 123.28,
+              "end": 123.7
+            },
+            {
+              "word": " the",
+              "start": 123.7,
+              "end": 123.86
+            },
+            {
+              "word": " real",
+              "start": 123.86,
+              "end": 124.1
+            },
+            {
+              "word": " part",
+              "start": 124.1,
+              "end": 124.36
+            },
+            {
+              "word": " of",
+              "start": 124.36,
+              "end": 124.6
+            },
+            {
+              "word": " ZTH",
+              "start": 124.6,
+              "end": 125.26
+            },
+            {
+              "word": " and",
+              "start": 125.26,
+              "end": 125.52
+            },
+            {
+              "word": " XTH",
+              "start": 125.52,
+              "end": 125.92
+            },
+            {
+              "word": " is",
+              "start": 125.92,
+              "end": 126.38
+            },
+            {
+              "word": " the",
+              "start": 126.38,
+              "end": 126.52
+            },
+            {
+              "word": " imaginary",
+              "start": 126.52,
+              "end": 126.94
+            },
+            {
+              "word": " part",
+              "start": 126.94,
+              "end": 127.32
+            },
+            {
+              "word": " of",
+              "start": 127.32,
+              "end": 127.54
+            },
+            {
+              "word": " ZTH",
+              "start": 127.54,
+              "end": 128.12
+            },
+            {
+              "word": " so",
+              "start": 128.12,
+              "end": 128.58
+            },
+            {
+              "word": " we",
+              "start": 128.58,
+              "end": 128.82
+            },
+            {
+              "word": " need",
+              "start": 128.82,
+              "end": 128.94
+            }
+          ]
+        },
+        {
+          "start": 128.94,
+          "end": 141.18,
+          "text": "to find ZTH. Now to find out magnitude of current i we need the magnitude of voltage VTH.",
+          "words": [
+            {
+              "word": " to",
+              "start": 128.94,
+              "end": 129.08
+            },
+            {
+              "word": " find",
+              "start": 129.08,
+              "end": 129.56
+            },
+            {
+              "word": " ZTH.",
+              "start": 129.56,
+              "end": 132.62
+            },
+            {
+              "word": " Now",
+              "start": 133.42,
+              "end": 133.82
+            },
+            {
+              "word": " to",
+              "start": 133.82,
+              "end": 134.06
+            },
+            {
+              "word": " find",
+              "start": 134.06,
+              "end": 134.32
+            },
+            {
+              "word": " out",
+              "start": 134.32,
+              "end": 134.58
+            },
+            {
+              "word": " magnitude",
+              "start": 134.58,
+              "end": 135.16
+            },
+            {
+              "word": " of",
+              "start": 135.16,
+              "end": 135.64
+            },
+            {
+              "word": " current",
+              "start": 135.64,
+              "end": 136.04
+            },
+            {
+              "word": " i",
+              "start": 136.04,
+              "end": 136.46
+            },
+            {
+              "word": " we",
+              "start": 136.46,
+              "end": 136.72
+            },
+            {
+              "word": " need",
+              "start": 136.72,
+              "end": 137.02
+            },
+            {
+              "word": " the",
+              "start": 137.02,
+              "end": 137.76
+            },
+            {
+              "word": " magnitude",
+              "start": 137.76,
+              "end": 138.28
+            },
+            {
+              "word": " of",
+              "start": 138.28,
+              "end": 138.78
+            },
+            {
+              "word": " voltage",
+              "start": 138.78,
+              "end": 139.86
+            },
+            {
+              "word": " VTH.",
+              "start": 139.86,
+              "end": 141.18
+            }
+          ]
+        },
+        {
+          "start": 141.7,
+          "end": 148.18,
+          "text": "So let us move on to the solution and we will first find out voltage VTH and to find out",
+          "words": [
+            {
+              "word": " So",
+              "start": 141.7,
+              "end": 142.04
+            },
+            {
+              "word": " let",
+              "start": 142.04,
+              "end": 142.28
+            },
+            {
+              "word": " us",
+              "start": 142.28,
+              "end": 142.44
+            },
+            {
+              "word": " move",
+              "start": 142.44,
+              "end": 142.66
+            },
+            {
+              "word": " on",
+              "start": 142.66,
+              "end": 142.92
+            },
+            {
+              "word": " to",
+              "start": 142.92,
+              "end": 143.06
+            },
+            {
+              "word": " the",
+              "start": 143.06,
+              "end": 143.18
+            },
+            {
+              "word": " solution",
+              "start": 143.18,
+              "end": 143.64
+            },
+            {
+              "word": " and",
+              "start": 143.64,
+              "end": 143.98
+            },
+            {
+              "word": " we",
+              "start": 143.98,
+              "end": 144.12
+            },
+            {
+              "word": " will",
+              "start": 144.12,
+              "end": 144.24
+            },
+            {
+              "word": " first",
+              "start": 144.24,
+              "end": 144.54
+            },
+            {
+              "word": " find",
+              "start": 144.54,
+              "end": 144.88
+            },
+            {
+              "word": " out",
+              "start": 144.88,
+              "end": 145.22
+            },
+            {
+              "word": " voltage",
+              "start": 145.22,
+              "end": 145.78
+            },
+            {
+              "word": " VTH",
+              "start": 145.78,
+              "end": 146.5
+            },
+            {
+              "word": " and",
+              "start": 146.5,
+              "end": 147.36
+            },
+            {
+              "word": " to",
+              "start": 147.36,
+              "end": 147.62
+            },
+            {
+              "word": " find",
+              "start": 147.62,
+              "end": 147.9
+            },
+            {
+              "word": " out",
+              "start": 147.9,
+              "end": 148.18
+            }
+          ]
+        },
+        {
+          "start": 148.18,
+          "end": 156.32,
+          "text": "voltage VTH we will make one modification in our network. We will open circuit the load",
+          "words": [
+            {
+              "word": " voltage",
+              "start": 148.18,
+              "end": 148.66
+            },
+            {
+              "word": " VTH",
+              "start": 148.66,
+              "end": 149.34
+            },
+            {
+              "word": " we",
+              "start": 149.34,
+              "end": 149.54
+            },
+            {
+              "word": " will",
+              "start": 149.54,
+              "end": 149.7
+            },
+            {
+              "word": " make",
+              "start": 149.7,
+              "end": 150.02
+            },
+            {
+              "word": " one",
+              "start": 150.02,
+              "end": 150.88
+            },
+            {
+              "word": " modification",
+              "start": 150.88,
+              "end": 151.58
+            },
+            {
+              "word": " in",
+              "start": 151.58,
+              "end": 152.6
+            },
+            {
+              "word": " our",
+              "start": 152.6,
+              "end": 152.84
+            },
+            {
+              "word": " network.",
+              "start": 152.84,
+              "end": 153.58
+            },
+            {
+              "word": " We",
+              "start": 154.04,
+              "end": 154.3
+            },
+            {
+              "word": " will",
+              "start": 154.3,
+              "end": 154.46
+            },
+            {
+              "word": " open",
+              "start": 154.46,
+              "end": 154.72
+            },
+            {
+              "word": " circuit",
+              "start": 154.72,
+              "end": 155.22
+            },
+            {
+              "word": " the",
+              "start": 155.22,
+              "end": 156.04
+            },
+            {
+              "word": " load",
+              "start": 156.04,
+              "end": 156.32
+            }
+          ]
+        },
+        {
+          "start": 156.95999999999998,
+          "end": 166.92,
+          "text": "and we will find out the open circuit voltage which is VTH. Now if i connect this point to the ground",
+          "words": [
+            {
+              "word": " and",
+              "start": 156.84,
+              "end": 157.22
+            },
+            {
+              "word": " we",
+              "start": 157.22,
+              "end": 157.36
+            },
+            {
+              "word": " will",
+              "start": 157.36,
+              "end": 157.5
+            },
+            {
+              "word": " find",
+              "start": 157.5,
+              "end": 157.82
+            },
+            {
+              "word": " out",
+              "start": 157.82,
+              "end": 158.22
+            },
+            {
+              "word": " the",
+              "start": 158.22,
+              "end": 158.86
+            },
+            {
+              "word": " open",
+              "start": 158.86,
+              "end": 159.18
+            },
+            {
+              "word": " circuit",
+              "start": 159.18,
+              "end": 159.54
+            },
+            {
+              "word": " voltage",
+              "start": 159.54,
+              "end": 160.18
+            },
+            {
+              "word": " which",
+              "start": 160.18,
+              "end": 161.24
+            },
+            {
+              "word": " is",
+              "start": 161.24,
+              "end": 161.56
+            },
+            {
+              "word": " VTH.",
+              "start": 161.56,
+              "end": 162.66
+            },
+            {
+              "word": " Now",
+              "start": 163.54,
+              "end": 163.68
+            },
+            {
+              "word": " if",
+              "start": 163.68,
+              "end": 163.86
+            },
+            {
+              "word": " i",
+              "start": 163.86,
+              "end": 164.08
+            },
+            {
+              "word": " connect",
+              "start": 164.08,
+              "end": 164.56
+            },
+            {
+              "word": " this",
+              "start": 164.56,
+              "end": 165.0
+            },
+            {
+              "word": " point",
+              "start": 165.0,
+              "end": 165.48
+            },
+            {
+              "word": " to",
+              "start": 165.48,
+              "end": 166.28
+            },
+            {
+              "word": " the",
+              "start": 166.28,
+              "end": 166.4
+            },
+            {
+              "word": " ground",
+              "start": 166.4,
+              "end": 166.92
+            }
+          ]
+        },
+        {
+          "start": 167.68,
+          "end": 176.68,
+          "text": "this point will have the potential VTH. Now to find out VTH i will use nodal analysis. I will",
+          "words": [
+            {
+              "word": " this",
+              "start": 167.58,
+              "end": 167.96
+            },
+            {
+              "word": " point",
+              "start": 167.96,
+              "end": 168.48
+            },
+            {
+              "word": " will",
+              "start": 168.48,
+              "end": 168.88
+            },
+            {
+              "word": " have",
+              "start": 168.88,
+              "end": 169.12
+            },
+            {
+              "word": " the",
+              "start": 169.12,
+              "end": 169.26
+            },
+            {
+              "word": " potential",
+              "start": 169.26,
+              "end": 169.72
+            },
+            {
+              "word": " VTH.",
+              "start": 169.72,
+              "end": 171.76
+            },
+            {
+              "word": " Now",
+              "start": 172.52,
+              "end": 172.8
+            },
+            {
+              "word": " to",
+              "start": 172.8,
+              "end": 172.98
+            },
+            {
+              "word": " find",
+              "start": 172.98,
+              "end": 173.26
+            },
+            {
+              "word": " out",
+              "start": 173.26,
+              "end": 173.54
+            },
+            {
+              "word": " VTH",
+              "start": 173.54,
+              "end": 174.14
+            },
+            {
+              "word": " i",
+              "start": 174.14,
+              "end": 174.46
+            },
+            {
+              "word": " will",
+              "start": 174.46,
+              "end": 174.64
+            },
+            {
+              "word": " use",
+              "start": 174.64,
+              "end": 175.02
+            },
+            {
+              "word": " nodal",
+              "start": 175.02,
+              "end": 175.56
+            },
+            {
+              "word": " analysis.",
+              "start": 175.56,
+              "end": 176.0
+            },
+            {
+              "word": " I",
+              "start": 176.34,
+              "end": 176.46
+            },
+            {
+              "word": " will",
+              "start": 176.46,
+              "end": 176.68
+            }
+          ]
+        },
+        {
+          "start": 176.68,
+          "end": 183.84,
+          "text": "consider this to be principal node, this to be reference node and the principal node will have",
+          "words": [
+            {
+              "word": " consider",
+              "start": 176.68,
+              "end": 177.26
+            },
+            {
+              "word": " this",
+              "start": 177.26,
+              "end": 177.66
+            },
+            {
+              "word": " to",
+              "start": 177.66,
+              "end": 177.88
+            },
+            {
+              "word": " be",
+              "start": 177.88,
+              "end": 178.0
+            },
+            {
+              "word": " principal",
+              "start": 178.0,
+              "end": 178.38
+            },
+            {
+              "word": " node,",
+              "start": 178.38,
+              "end": 178.84
+            },
+            {
+              "word": " this",
+              "start": 179.2,
+              "end": 179.5
+            },
+            {
+              "word": " to",
+              "start": 179.5,
+              "end": 179.7
+            },
+            {
+              "word": " be",
+              "start": 179.7,
+              "end": 179.8
+            },
+            {
+              "word": " reference",
+              "start": 179.8,
+              "end": 180.12
+            },
+            {
+              "word": " node",
+              "start": 180.12,
+              "end": 180.68
+            },
+            {
+              "word": " and",
+              "start": 180.68,
+              "end": 181.46
+            },
+            {
+              "word": " the",
+              "start": 181.46,
+              "end": 182.3
+            },
+            {
+              "word": " principal",
+              "start": 182.3,
+              "end": 182.68
+            },
+            {
+              "word": " node",
+              "start": 182.68,
+              "end": 183.22
+            },
+            {
+              "word": " will",
+              "start": 183.22,
+              "end": 183.64
+            },
+            {
+              "word": " have",
+              "start": 183.64,
+              "end": 183.84
+            }
+          ]
+        },
+        {
+          "start": 183.84,
+          "end": 189.7,
+          "text": "the largest voltage in the network and therefore the two currents in the two branches will leave",
+          "words": [
+            {
+              "word": " the",
+              "start": 183.84,
+              "end": 184.0
+            },
+            {
+              "word": " largest",
+              "start": 184.0,
+              "end": 184.36
+            },
+            {
+              "word": " voltage",
+              "start": 184.36,
+              "end": 184.92
+            },
+            {
+              "word": " in",
+              "start": 184.92,
+              "end": 185.18
+            },
+            {
+              "word": " the",
+              "start": 185.18,
+              "end": 185.28
+            },
+            {
+              "word": " network",
+              "start": 185.28,
+              "end": 185.68
+            },
+            {
+              "word": " and",
+              "start": 185.68,
+              "end": 186.26
+            },
+            {
+              "word": " therefore",
+              "start": 186.26,
+              "end": 186.7
+            },
+            {
+              "word": " the",
+              "start": 186.7,
+              "end": 187.26
+            },
+            {
+              "word": " two",
+              "start": 187.26,
+              "end": 187.46
+            },
+            {
+              "word": " currents",
+              "start": 187.46,
+              "end": 187.88
+            },
+            {
+              "word": " in",
+              "start": 187.88,
+              "end": 188.18
+            },
+            {
+              "word": " the",
+              "start": 188.18,
+              "end": 188.28
+            },
+            {
+              "word": " two",
+              "start": 188.28,
+              "end": 188.42
+            },
+            {
+              "word": " branches",
+              "start": 188.42,
+              "end": 188.86
+            },
+            {
+              "word": " will",
+              "start": 188.86,
+              "end": 189.36
+            },
+            {
+              "word": " leave",
+              "start": 189.36,
+              "end": 189.7
+            }
+          ]
+        },
+        {
+          "start": 189.7,
+          "end": 197.76,
+          "text": "this node. I will call this current i1 and this current i2 when you apply KCL at this node you",
+          "words": [
+            {
+              "word": " this",
+              "start": 189.7,
+              "end": 190.14
+            },
+            {
+              "word": " node.",
+              "start": 190.14,
+              "end": 190.7
+            },
+            {
+              "word": " I",
+              "start": 191.34,
+              "end": 191.46
+            },
+            {
+              "word": " will",
+              "start": 191.46,
+              "end": 191.66
+            },
+            {
+              "word": " call",
+              "start": 191.66,
+              "end": 192.22
+            },
+            {
+              "word": " this",
+              "start": 192.22,
+              "end": 192.68
+            },
+            {
+              "word": " current",
+              "start": 192.68,
+              "end": 192.92
+            },
+            {
+              "word": " i1",
+              "start": 192.92,
+              "end": 193.5
+            },
+            {
+              "word": " and",
+              "start": 193.5,
+              "end": 193.84
+            },
+            {
+              "word": " this",
+              "start": 193.84,
+              "end": 194.06
+            },
+            {
+              "word": " current",
+              "start": 194.06,
+              "end": 194.36
+            },
+            {
+              "word": " i2",
+              "start": 194.36,
+              "end": 195.34
+            },
+            {
+              "word": " when",
+              "start": 195.34,
+              "end": 195.52
+            },
+            {
+              "word": " you",
+              "start": 195.52,
+              "end": 195.62
+            },
+            {
+              "word": " apply",
+              "start": 195.62,
+              "end": 195.88
+            },
+            {
+              "word": " KCL",
+              "start": 195.88,
+              "end": 196.32
+            },
+            {
+              "word": " at",
+              "start": 196.32,
+              "end": 196.64
+            },
+            {
+              "word": " this",
+              "start": 196.64,
+              "end": 196.96
+            },
+            {
+              "word": " node",
+              "start": 196.96,
+              "end": 197.36
+            },
+            {
+              "word": " you",
+              "start": 197.36,
+              "end": 197.76
+            }
+          ]
+        },
+        {
+          "start": 197.76,
+          "end": 210.5,
+          "text": "will find i1 plus i2 is equal to 0. Now moving on to current i1 it is equal to VTH minus 110",
+          "words": [
+            {
+              "word": " will",
+              "start": 197.76,
+              "end": 197.88
+            },
+            {
+              "word": " find",
+              "start": 197.88,
+              "end": 198.42
+            },
+            {
+              "word": " i1",
+              "start": 198.42,
+              "end": 200.12
+            },
+            {
+              "word": " plus",
+              "start": 200.12,
+              "end": 201.24
+            },
+            {
+              "word": " i2",
+              "start": 201.24,
+              "end": 202.06
+            },
+            {
+              "word": " is",
+              "start": 202.06,
+              "end": 202.94
+            },
+            {
+              "word": " equal",
+              "start": 202.94,
+              "end": 203.3
+            },
+            {
+              "word": " to",
+              "start": 203.3,
+              "end": 203.74
+            },
+            {
+              "word": " 0.",
+              "start": 203.74,
+              "end": 204.02
+            },
+            {
+              "word": " Now",
+              "start": 204.54,
+              "end": 204.7
+            },
+            {
+              "word": " moving",
+              "start": 204.7,
+              "end": 205.0
+            },
+            {
+              "word": " on",
+              "start": 205.0,
+              "end": 205.28
+            },
+            {
+              "word": " to",
+              "start": 205.28,
+              "end": 205.44
+            },
+            {
+              "word": " current",
+              "start": 205.44,
+              "end": 205.64
+            },
+            {
+              "word": " i1",
+              "start": 205.64,
+              "end": 206.26
+            },
+            {
+              "word": " it",
+              "start": 206.26,
+              "end": 206.72
+            },
+            {
+              "word": " is",
+              "start": 206.72,
+              "end": 206.82
+            },
+            {
+              "word": " equal",
+              "start": 206.82,
+              "end": 207.18
+            },
+            {
+              "word": " to",
+              "start": 207.18,
+              "end": 207.66
+            },
+            {
+              "word": " VTH",
+              "start": 207.66,
+              "end": 208.1
+            },
+            {
+              "word": " minus",
+              "start": 208.1,
+              "end": 209.02
+            },
+            {
+              "word": " 110",
+              "start": 209.02,
+              "end": 210.5
+            }
+          ]
+        },
+        {
+          "start": 211.14,
+          "end": 224.48,
+          "text": "angle 0 degree in volts divided by 6 plus j8 ohms plus current i2. i2 is equal to VTH minus 90",
+          "words": [
+            {
+              "word": " angle",
+              "start": 211.14,
+              "end": 211.66
+            },
+            {
+              "word": " 0",
+              "start": 211.66,
+              "end": 212.62
+            },
+            {
+              "word": " degree",
+              "start": 212.62,
+              "end": 212.88
+            },
+            {
+              "word": " in",
+              "start": 212.88,
+              "end": 213.2
+            },
+            {
+              "word": " volts",
+              "start": 213.2,
+              "end": 213.76
+            },
+            {
+              "word": " divided",
+              "start": 213.76,
+              "end": 214.28
+            },
+            {
+              "word": " by",
+              "start": 214.28,
+              "end": 214.88
+            },
+            {
+              "word": " 6",
+              "start": 214.88,
+              "end": 215.26
+            },
+            {
+              "word": " plus",
+              "start": 215.26,
+              "end": 215.56
+            },
+            {
+              "word": " j8",
+              "start": 215.56,
+              "end": 216.54
+            },
+            {
+              "word": " ohms",
+              "start": 216.54,
+              "end": 217.16
+            },
+            {
+              "word": " plus",
+              "start": 217.16,
+              "end": 218.14
+            },
+            {
+              "word": " current",
+              "start": 218.14,
+              "end": 219.14
+            },
+            {
+              "word": " i2.",
+              "start": 219.14,
+              "end": 219.68
+            },
+            {
+              "word": " i2",
+              "start": 219.98,
+              "end": 220.66
+            },
+            {
+              "word": " is",
+              "start": 220.66,
+              "end": 221.04
+            },
+            {
+              "word": " equal",
+              "start": 221.04,
+              "end": 221.46
+            },
+            {
+              "word": " to",
+              "start": 221.46,
+              "end": 221.84
+            },
+            {
+              "word": " VTH",
+              "start": 221.84,
+              "end": 222.28
+            },
+            {
+              "word": " minus",
+              "start": 222.28,
+              "end": 223.08
+            },
+            {
+              "word": " 90",
+              "start": 223.08,
+              "end": 224.48
+            }
+          ]
+        },
+        {
+          "start": 225.22,
+          "end": 234.68,
+          "text": "angle 0 degree in volts divided by 6 plus j8 and this should be equal to 0. We can simplify the",
+          "words": [
+            {
+              "word": " angle",
+              "start": 225.22,
+              "end": 225.72
+            },
+            {
+              "word": " 0",
+              "start": 225.72,
+              "end": 226.32
+            },
+            {
+              "word": " degree",
+              "start": 226.32,
+              "end": 226.56
+            },
+            {
+              "word": " in",
+              "start": 226.56,
+              "end": 226.76
+            },
+            {
+              "word": " volts",
+              "start": 226.76,
+              "end": 227.12
+            },
+            {
+              "word": " divided",
+              "start": 227.12,
+              "end": 227.66
+            },
+            {
+              "word": " by",
+              "start": 227.66,
+              "end": 228.1
+            },
+            {
+              "word": " 6",
+              "start": 228.1,
+              "end": 228.4
+            },
+            {
+              "word": " plus",
+              "start": 228.4,
+              "end": 228.7
+            },
+            {
+              "word": " j8",
+              "start": 228.7,
+              "end": 229.62
+            },
+            {
+              "word": " and",
+              "start": 229.62,
+              "end": 230.44
+            },
+            {
+              "word": " this",
+              "start": 230.44,
+              "end": 230.66
+            },
+            {
+              "word": " should",
+              "start": 230.66,
+              "end": 230.82
+            },
+            {
+              "word": " be",
+              "start": 230.82,
+              "end": 231.02
+            },
+            {
+              "word": " equal",
+              "start": 231.02,
+              "end": 231.46
+            },
+            {
+              "word": " to",
+              "start": 231.46,
+              "end": 232.66
+            },
+            {
+              "word": " 0.",
+              "start": 232.66,
+              "end": 232.94
+            },
+            {
+              "word": " We",
+              "start": 233.4,
+              "end": 233.64
+            },
+            {
+              "word": " can",
+              "start": 233.64,
+              "end": 233.84
+            },
+            {
+              "word": " simplify",
+              "start": 233.84,
+              "end": 234.32
+            },
+            {
+              "word": " the",
+              "start": 234.32,
+              "end": 234.68
+            }
+          ]
+        },
+        {
+          "start": 234.68,
+          "end": 248.1,
+          "text": "left hand side as twice of VTH minus 200 angle 0 degree divided by 6 plus j8 and this should be equal",
+          "words": [
+            {
+              "word": " left",
+              "start": 234.68,
+              "end": 234.86
+            },
+            {
+              "word": " hand",
+              "start": 234.86,
+              "end": 235.06
+            },
+            {
+              "word": " side",
+              "start": 235.06,
+              "end": 235.34
+            },
+            {
+              "word": " as",
+              "start": 235.34,
+              "end": 235.76
+            },
+            {
+              "word": " twice",
+              "start": 235.76,
+              "end": 236.28
+            },
+            {
+              "word": " of",
+              "start": 236.28,
+              "end": 236.74
+            },
+            {
+              "word": " VTH",
+              "start": 236.74,
+              "end": 238.0
+            },
+            {
+              "word": " minus",
+              "start": 238.0,
+              "end": 238.9
+            },
+            {
+              "word": " 200",
+              "start": 238.9,
+              "end": 240.54
+            },
+            {
+              "word": " angle",
+              "start": 240.54,
+              "end": 241.78
+            },
+            {
+              "word": " 0",
+              "start": 241.78,
+              "end": 242.4
+            },
+            {
+              "word": " degree",
+              "start": 242.4,
+              "end": 242.72
+            },
+            {
+              "word": " divided",
+              "start": 242.72,
+              "end": 243.54
+            },
+            {
+              "word": " by",
+              "start": 243.54,
+              "end": 244.02
+            },
+            {
+              "word": " 6",
+              "start": 244.02,
+              "end": 245.0
+            },
+            {
+              "word": " plus",
+              "start": 245.0,
+              "end": 245.4
+            },
+            {
+              "word": " j8",
+              "start": 245.4,
+              "end": 246.82
+            },
+            {
+              "word": " and",
+              "start": 246.82,
+              "end": 247.1
+            },
+            {
+              "word": " this",
+              "start": 247.1,
+              "end": 247.3
+            },
+            {
+              "word": " should",
+              "start": 247.3,
+              "end": 247.44
+            },
+            {
+              "word": " be",
+              "start": 247.44,
+              "end": 247.66
+            },
+            {
+              "word": " equal",
+              "start": 247.66,
+              "end": 248.1
+            }
+          ]
+        },
+        {
+          "start": 248.84,
+          "end": 259.2,
+          "text": "to 0. When you multiply both the sides by 6 plus j8 you will have twice of VTH minus 200",
+          "words": [
+            {
+              "word": " to",
+              "start": 248.64000000000001,
+              "end": 249.06
+            },
+            {
+              "word": " 0.",
+              "start": 249.06,
+              "end": 249.36
+            },
+            {
+              "word": " When",
+              "start": 249.78,
+              "end": 250.02
+            },
+            {
+              "word": " you",
+              "start": 250.02,
+              "end": 250.14
+            },
+            {
+              "word": " multiply",
+              "start": 250.14,
+              "end": 250.56
+            },
+            {
+              "word": " both",
+              "start": 250.56,
+              "end": 251.04
+            },
+            {
+              "word": " the",
+              "start": 251.04,
+              "end": 251.36
+            },
+            {
+              "word": " sides",
+              "start": 251.36,
+              "end": 251.66
+            },
+            {
+              "word": " by",
+              "start": 251.66,
+              "end": 251.96
+            },
+            {
+              "word": " 6",
+              "start": 251.96,
+              "end": 252.2
+            },
+            {
+              "word": " plus",
+              "start": 252.2,
+              "end": 252.48
+            },
+            {
+              "word": " j8",
+              "start": 252.48,
+              "end": 253.32
+            },
+            {
+              "word": " you",
+              "start": 253.32,
+              "end": 253.6
+            },
+            {
+              "word": " will",
+              "start": 253.6,
+              "end": 253.74
+            },
+            {
+              "word": " have",
+              "start": 253.74,
+              "end": 254.08
+            },
+            {
+              "word": " twice",
+              "start": 254.08,
+              "end": 255.04
+            },
+            {
+              "word": " of",
+              "start": 255.04,
+              "end": 255.62
+            },
+            {
+              "word": " VTH",
+              "start": 255.62,
+              "end": 256.72
+            },
+            {
+              "word": " minus",
+              "start": 256.72,
+              "end": 257.6
+            },
+            {
+              "word": " 200",
+              "start": 257.6,
+              "end": 259.2
+            }
+          ]
+        },
+        {
+          "start": 260.0,
+          "end": 275.28,
+          "text": "angle 0 degree equal to 0. From here we will have VTH VTH will be equal to 100 angle 0 degree in volts.",
+          "words": [
+            {
+              "word": " angle",
+              "start": 260.0,
+              "end": 260.54
+            },
+            {
+              "word": " 0",
+              "start": 260.54,
+              "end": 261.08
+            },
+            {
+              "word": " degree",
+              "start": 261.08,
+              "end": 261.44
+            },
+            {
+              "word": " equal",
+              "start": 261.44,
+              "end": 262.48
+            },
+            {
+              "word": " to",
+              "start": 262.48,
+              "end": 263.04
+            },
+            {
+              "word": " 0.",
+              "start": 263.04,
+              "end": 263.36
+            },
+            {
+              "word": " From",
+              "start": 263.94,
+              "end": 264.46
+            },
+            {
+              "word": " here",
+              "start": 264.46,
+              "end": 264.64
+            },
+            {
+              "word": " we",
+              "start": 264.64,
+              "end": 264.82
+            },
+            {
+              "word": " will",
+              "start": 264.82,
+              "end": 264.96
+            },
+            {
+              "word": " have",
+              "start": 264.96,
+              "end": 265.26
+            },
+            {
+              "word": " VTH",
+              "start": 265.26,
+              "end": 266.06
+            },
+            {
+              "word": " VTH",
+              "start": 266.06,
+              "end": 267.68
+            },
+            {
+              "word": " will",
+              "start": 267.68,
+              "end": 268.5
+            },
+            {
+              "word": " be",
+              "start": 268.5,
+              "end": 268.74
+            },
+            {
+              "word": " equal",
+              "start": 268.74,
+              "end": 269.22
+            },
+            {
+              "word": " to",
+              "start": 269.22,
+              "end": 270.1
+            },
+            {
+              "word": " 100",
+              "start": 270.1,
+              "end": 270.74
+            },
+            {
+              "word": " angle",
+              "start": 270.74,
+              "end": 271.76
+            },
+            {
+              "word": " 0",
+              "start": 271.76,
+              "end": 272.78
+            },
+            {
+              "word": " degree",
+              "start": 272.78,
+              "end": 273.42
+            },
+            {
+              "word": " in",
+              "start": 273.42,
+              "end": 274.34
+            },
+            {
+              "word": " volts.",
+              "start": 274.34,
+              "end": 275.28
+            }
+          ]
+        },
+        {
+          "start": 275.74,
+          "end": 285.64,
+          "text": "We need the magnitude of VTH and the magnitude of VTH will be 100. So in this way we are done with",
+          "words": [
+            {
+              "word": " We",
+              "start": 275.74,
+              "end": 276.26
+            },
+            {
+              "word": " need",
+              "start": 276.26,
+              "end": 276.6
+            },
+            {
+              "word": " the",
+              "start": 276.6,
+              "end": 276.92
+            },
+            {
+              "word": " magnitude",
+              "start": 276.92,
+              "end": 277.34
+            },
+            {
+              "word": " of",
+              "start": 277.34,
+              "end": 277.68
+            },
+            {
+              "word": " VTH",
+              "start": 277.68,
+              "end": 278.18
+            },
+            {
+              "word": " and",
+              "start": 278.18,
+              "end": 278.56
+            },
+            {
+              "word": " the",
+              "start": 278.56,
+              "end": 278.68
+            },
+            {
+              "word": " magnitude",
+              "start": 278.68,
+              "end": 279.12
+            },
+            {
+              "word": " of",
+              "start": 279.12,
+              "end": 279.42
+            },
+            {
+              "word": " VTH",
+              "start": 279.42,
+              "end": 279.98
+            },
+            {
+              "word": " will",
+              "start": 279.98,
+              "end": 280.32
+            },
+            {
+              "word": " be",
+              "start": 280.32,
+              "end": 280.72
+            },
+            {
+              "word": " 100.",
+              "start": 280.72,
+              "end": 282.36
+            },
+            {
+              "word": " So",
+              "start": 283.6,
+              "end": 284.5
+            },
+            {
+              "word": " in",
+              "start": 284.5,
+              "end": 284.66
+            },
+            {
+              "word": " this",
+              "start": 284.66,
+              "end": 284.84
+            },
+            {
+              "word": " way",
+              "start": 284.84,
+              "end": 285.06
+            },
+            {
+              "word": " we",
+              "start": 285.06,
+              "end": 285.2
+            },
+            {
+              "word": " are",
+              "start": 285.2,
+              "end": 285.28
+            },
+            {
+              "word": " done",
+              "start": 285.28,
+              "end": 285.46
+            },
+            {
+              "word": " with",
+              "start": 285.46,
+              "end": 285.64
+            }
+          ]
+        },
+        {
+          "start": 285.64,
+          "end": 292.64,
+          "text": "the calculation of VTH and its magnitude and now we will focus on calculation of ZTH and its",
+          "words": [
+            {
+              "word": " the",
+              "start": 285.64,
+              "end": 285.76
+            },
+            {
+              "word": " calculation",
+              "start": 285.76,
+              "end": 286.12
+            },
+            {
+              "word": " of",
+              "start": 286.12,
+              "end": 286.54
+            },
+            {
+              "word": " VTH",
+              "start": 286.54,
+              "end": 287.0
+            },
+            {
+              "word": " and",
+              "start": 287.0,
+              "end": 287.36
+            },
+            {
+              "word": " its",
+              "start": 287.36,
+              "end": 287.62
+            },
+            {
+              "word": " magnitude",
+              "start": 287.62,
+              "end": 288.24
+            },
+            {
+              "word": " and",
+              "start": 288.24,
+              "end": 289.04
+            },
+            {
+              "word": " now",
+              "start": 289.04,
+              "end": 289.38
+            },
+            {
+              "word": " we",
+              "start": 289.38,
+              "end": 289.56
+            },
+            {
+              "word": " will",
+              "start": 289.56,
+              "end": 289.66
+            },
+            {
+              "word": " focus",
+              "start": 289.66,
+              "end": 289.88
+            },
+            {
+              "word": " on",
+              "start": 289.88,
+              "end": 290.2
+            },
+            {
+              "word": " calculation",
+              "start": 290.2,
+              "end": 290.66
+            },
+            {
+              "word": " of",
+              "start": 290.66,
+              "end": 291.14
+            },
+            {
+              "word": " ZTH",
+              "start": 291.14,
+              "end": 291.8
+            },
+            {
+              "word": " and",
+              "start": 291.8,
+              "end": 292.4
+            },
+            {
+              "word": " its",
+              "start": 292.4,
+              "end": 292.64
+            }
+          ]
+        },
+        {
+          "start": 292.64,
+          "end": 300.8,
+          "text": "magnitude. We will make two changes in our network change number one is open circuiting the load and",
+          "words": [
+            {
+              "word": " magnitude.",
+              "start": 292.64,
+              "end": 293.32
+            },
+            {
+              "word": " We",
+              "start": 293.72,
+              "end": 294.22
+            },
+            {
+              "word": " will",
+              "start": 294.22,
+              "end": 294.42
+            },
+            {
+              "word": " make",
+              "start": 294.42,
+              "end": 294.76
+            },
+            {
+              "word": " two",
+              "start": 294.76,
+              "end": 295.1
+            },
+            {
+              "word": " changes",
+              "start": 295.1,
+              "end": 295.52
+            },
+            {
+              "word": " in",
+              "start": 295.52,
+              "end": 296.02
+            },
+            {
+              "word": " our",
+              "start": 296.02,
+              "end": 296.24
+            },
+            {
+              "word": " network",
+              "start": 296.24,
+              "end": 297.0
+            },
+            {
+              "word": " change",
+              "start": 297.0,
+              "end": 297.7
+            },
+            {
+              "word": " number",
+              "start": 297.7,
+              "end": 298.16
+            },
+            {
+              "word": " one",
+              "start": 298.16,
+              "end": 298.44
+            },
+            {
+              "word": " is",
+              "start": 298.44,
+              "end": 298.7
+            },
+            {
+              "word": " open",
+              "start": 298.7,
+              "end": 299.08
+            },
+            {
+              "word": " circuiting",
+              "start": 299.08,
+              "end": 299.62
+            },
+            {
+              "word": " the",
+              "start": 299.62,
+              "end": 299.98
+            },
+            {
+              "word": " load",
+              "start": 299.98,
+              "end": 300.26
+            },
+            {
+              "word": " and",
+              "start": 300.26,
+              "end": 300.8
+            }
+          ]
+        },
+        {
+          "start": 300.8,
+          "end": 307.64,
+          "text": "the change number two is short circuiting the two sources we have and then we will find out",
+          "words": [
+            {
+              "word": " the",
+              "start": 300.8,
+              "end": 300.94
+            },
+            {
+              "word": " change",
+              "start": 300.94,
+              "end": 301.26
+            },
+            {
+              "word": " number",
+              "start": 301.26,
+              "end": 301.66
+            },
+            {
+              "word": " two",
+              "start": 301.66,
+              "end": 301.94
+            },
+            {
+              "word": " is",
+              "start": 301.94,
+              "end": 302.14
+            },
+            {
+              "word": " short",
+              "start": 302.14,
+              "end": 302.58
+            },
+            {
+              "word": " circuiting",
+              "start": 302.58,
+              "end": 303.1
+            },
+            {
+              "word": " the",
+              "start": 303.1,
+              "end": 303.74
+            },
+            {
+              "word": " two",
+              "start": 303.74,
+              "end": 303.96
+            },
+            {
+              "word": " sources",
+              "start": 303.96,
+              "end": 304.38
+            },
+            {
+              "word": " we",
+              "start": 304.38,
+              "end": 304.88
+            },
+            {
+              "word": " have",
+              "start": 304.88,
+              "end": 305.18
+            },
+            {
+              "word": " and",
+              "start": 305.18,
+              "end": 306.08
+            },
+            {
+              "word": " then",
+              "start": 306.08,
+              "end": 306.32
+            },
+            {
+              "word": " we",
+              "start": 306.32,
+              "end": 306.58
+            },
+            {
+              "word": " will",
+              "start": 306.58,
+              "end": 306.78
+            },
+            {
+              "word": " find",
+              "start": 306.78,
+              "end": 307.1
+            },
+            {
+              "word": " out",
+              "start": 307.1,
+              "end": 307.64
+            }
+          ]
+        },
+        {
+          "start": 308.52,
+          "end": 318.84,
+          "text": "impedance ZTH. ZTH is equal to 6 plus j8 ohms in parallel with 6 plus j8 ohms",
+          "words": [
+            {
+              "word": " impedance",
+              "start": 308.52,
+              "end": 309.12
+            },
+            {
+              "word": " ZTH.",
+              "start": 309.12,
+              "end": 311.16
+            },
+            {
+              "word": " ZTH",
+              "start": 311.42,
+              "end": 312.44
+            },
+            {
+              "word": " is",
+              "start": 312.44,
+              "end": 312.92
+            },
+            {
+              "word": " equal",
+              "start": 312.92,
+              "end": 313.32
+            },
+            {
+              "word": " to",
+              "start": 313.32,
+              "end": 313.74
+            },
+            {
+              "word": " 6",
+              "start": 313.74,
+              "end": 314.02
+            },
+            {
+              "word": " plus",
+              "start": 314.02,
+              "end": 314.28
+            },
+            {
+              "word": " j8",
+              "start": 314.28,
+              "end": 315.22
+            },
+            {
+              "word": " ohms",
+              "start": 315.22,
+              "end": 315.72
+            },
+            {
+              "word": " in",
+              "start": 315.72,
+              "end": 316.0
+            },
+            {
+              "word": " parallel",
+              "start": 316.0,
+              "end": 316.4
+            },
+            {
+              "word": " with",
+              "start": 316.4,
+              "end": 316.82
+            },
+            {
+              "word": " 6",
+              "start": 316.82,
+              "end": 317.16
+            },
+            {
+              "word": " plus",
+              "start": 317.16,
+              "end": 317.46
+            },
+            {
+              "word": " j8",
+              "start": 317.46,
+              "end": 318.32
+            },
+            {
+              "word": " ohms",
+              "start": 318.32,
+              "end": 318.84
+            }
+          ]
+        },
+        {
+          "start": 320.03999999999996,
+          "end": 334.08,
+          "text": "and this should be equal to 6 plus j8 divided by 2 so we have ZTH equal to 3 plus j4 ohms",
+          "words": [
+            {
+              "word": " and",
+              "start": 319.81,
+              "end": 320.32
+            },
+            {
+              "word": " this",
+              "start": 320.32,
+              "end": 320.5
+            },
+            {
+              "word": " should",
+              "start": 320.5,
+              "end": 320.62
+            },
+            {
+              "word": " be",
+              "start": 320.62,
+              "end": 320.82
+            },
+            {
+              "word": " equal",
+              "start": 320.82,
+              "end": 321.26
+            },
+            {
+              "word": " to",
+              "start": 321.26,
+              "end": 322.02
+            },
+            {
+              "word": " 6",
+              "start": 322.02,
+              "end": 322.62
+            },
+            {
+              "word": " plus",
+              "start": 322.62,
+              "end": 323.56
+            },
+            {
+              "word": " j8",
+              "start": 323.56,
+              "end": 324.74
+            },
+            {
+              "word": " divided",
+              "start": 324.74,
+              "end": 325.32
+            },
+            {
+              "word": " by",
+              "start": 325.32,
+              "end": 325.9
+            },
+            {
+              "word": " 2",
+              "start": 325.9,
+              "end": 326.52
+            },
+            {
+              "word": " so",
+              "start": 326.52,
+              "end": 327.54
+            },
+            {
+              "word": " we",
+              "start": 327.54,
+              "end": 327.76
+            },
+            {
+              "word": " have",
+              "start": 327.76,
+              "end": 328.12
+            },
+            {
+              "word": " ZTH",
+              "start": 328.12,
+              "end": 329.06
+            },
+            {
+              "word": " equal",
+              "start": 329.06,
+              "end": 329.58
+            },
+            {
+              "word": " to",
+              "start": 329.58,
+              "end": 330.64
+            },
+            {
+              "word": " 3",
+              "start": 330.64,
+              "end": 330.98
+            },
+            {
+              "word": " plus",
+              "start": 330.98,
+              "end": 331.44
+            },
+            {
+              "word": " j4",
+              "start": 331.44,
+              "end": 332.64
+            },
+            {
+              "word": " ohms",
+              "start": 332.64,
+              "end": 334.08
+            }
+          ]
+        },
+        {
+          "start": 334.08,
+          "end": 345.28,
+          "text": "and the real part which is 3 is our RTH and the imaginary part which is 4 is our XTH.",
+          "words": [
+            {
+              "word": " and",
+              "start": 334.08,
+              "end": 334.8
+            },
+            {
+              "word": " the",
+              "start": 334.8,
+              "end": 334.92
+            },
+            {
+              "word": " real",
+              "start": 334.92,
+              "end": 335.16
+            },
+            {
+              "word": " part",
+              "start": 335.16,
+              "end": 335.64
+            },
+            {
+              "word": " which",
+              "start": 335.64,
+              "end": 336.44
+            },
+            {
+              "word": " is",
+              "start": 336.44,
+              "end": 336.74
+            },
+            {
+              "word": " 3",
+              "start": 336.74,
+              "end": 337.3
+            },
+            {
+              "word": " is",
+              "start": 337.3,
+              "end": 338.2
+            },
+            {
+              "word": " our",
+              "start": 338.2,
+              "end": 338.52
+            },
+            {
+              "word": " RTH",
+              "start": 338.52,
+              "end": 339.34
+            },
+            {
+              "word": " and",
+              "start": 339.34,
+              "end": 339.82
+            },
+            {
+              "word": " the",
+              "start": 339.82,
+              "end": 339.94
+            },
+            {
+              "word": " imaginary",
+              "start": 339.94,
+              "end": 340.36
+            },
+            {
+              "word": " part",
+              "start": 340.36,
+              "end": 340.86
+            },
+            {
+              "word": " which",
+              "start": 340.86,
+              "end": 341.48
+            },
+            {
+              "word": " is",
+              "start": 341.48,
+              "end": 341.68
+            },
+            {
+              "word": " 4",
+              "start": 341.68,
+              "end": 342.26
+            },
+            {
+              "word": " is",
+              "start": 342.26,
+              "end": 342.92
+            },
+            {
+              "word": " our",
+              "start": 342.92,
+              "end": 343.24
+            },
+            {
+              "word": " XTH.",
+              "start": 343.24,
+              "end": 345.28
+            }
+          ]
+        },
+        {
+          "start": 345.9,
+          "end": 355.42,
+          "text": "Now we will find out the magnitude of ZTH the magnitude of ZTH will be equal to under root",
+          "words": [
+            {
+              "word": " Now",
+              "start": 345.9,
+              "end": 346.42
+            },
+            {
+              "word": " we",
+              "start": 346.42,
+              "end": 346.58
+            },
+            {
+              "word": " will",
+              "start": 346.58,
+              "end": 346.72
+            },
+            {
+              "word": " find",
+              "start": 346.72,
+              "end": 347.02
+            },
+            {
+              "word": " out",
+              "start": 347.02,
+              "end": 347.36
+            },
+            {
+              "word": " the",
+              "start": 347.36,
+              "end": 347.7
+            },
+            {
+              "word": " magnitude",
+              "start": 347.7,
+              "end": 348.18
+            },
+            {
+              "word": " of",
+              "start": 348.18,
+              "end": 348.58
+            },
+            {
+              "word": " ZTH",
+              "start": 348.58,
+              "end": 349.82
+            },
+            {
+              "word": " the",
+              "start": 349.82,
+              "end": 351.12
+            },
+            {
+              "word": " magnitude",
+              "start": 351.12,
+              "end": 351.54
+            },
+            {
+              "word": " of",
+              "start": 351.54,
+              "end": 352.52
+            },
+            {
+              "word": " ZTH",
+              "start": 352.52,
+              "end": 353.36
+            },
+            {
+              "word": " will",
+              "start": 353.36,
+              "end": 353.8
+            },
+            {
+              "word": " be",
+              "start": 353.8,
+              "end": 354.02
+            },
+            {
+              "word": " equal",
+              "start": 354.02,
+              "end": 354.42
+            },
+            {
+              "word": " to",
+              "start": 354.42,
+              "end": 354.9
+            },
+            {
+              "word": " under",
+              "start": 354.9,
+              "end": 355.08
+            },
+            {
+              "word": " root",
+              "start": 355.08,
+              "end": 355.42
+            }
+          ]
+        },
+        {
+          "start": 355.42,
+          "end": 367.58,
+          "text": "3 squared plus 4 squared so we have 9 plus 16 and therefore ZTH will have the magnitude equal",
+          "words": [
+            {
+              "word": " 3",
+              "start": 355.42,
+              "end": 356.08
+            },
+            {
+              "word": " squared",
+              "start": 356.08,
+              "end": 356.58
+            },
+            {
+              "word": " plus",
+              "start": 356.58,
+              "end": 357.12
+            },
+            {
+              "word": " 4",
+              "start": 357.12,
+              "end": 357.62
+            },
+            {
+              "word": " squared",
+              "start": 357.62,
+              "end": 358.18
+            },
+            {
+              "word": " so",
+              "start": 358.18,
+              "end": 358.96
+            },
+            {
+              "word": " we",
+              "start": 358.96,
+              "end": 359.16
+            },
+            {
+              "word": " have",
+              "start": 359.16,
+              "end": 359.46
+            },
+            {
+              "word": " 9",
+              "start": 359.46,
+              "end": 360.46
+            },
+            {
+              "word": " plus",
+              "start": 360.46,
+              "end": 361.42
+            },
+            {
+              "word": " 16",
+              "start": 361.42,
+              "end": 362.28
+            },
+            {
+              "word": " and",
+              "start": 362.28,
+              "end": 363.08
+            },
+            {
+              "word": " therefore",
+              "start": 363.08,
+              "end": 363.66
+            },
+            {
+              "word": " ZTH",
+              "start": 363.66,
+              "end": 364.94
+            },
+            {
+              "word": " will",
+              "start": 364.94,
+              "end": 366.02
+            },
+            {
+              "word": " have",
+              "start": 366.02,
+              "end": 366.26
+            },
+            {
+              "word": " the",
+              "start": 366.26,
+              "end": 366.42
+            },
+            {
+              "word": " magnitude",
+              "start": 366.42,
+              "end": 366.92
+            },
+            {
+              "word": " equal",
+              "start": 366.92,
+              "end": 367.58
+            }
+          ]
+        },
+        {
+          "start": 367.58,
+          "end": 376.32,
+          "text": "to under root 25 which is 5 and the units will be ohm and for maximum power transfer ZL which is",
+          "words": [
+            {
+              "word": " to",
+              "start": 367.58,
+              "end": 368.0
+            },
+            {
+              "word": " under",
+              "start": 368.0,
+              "end": 368.18
+            },
+            {
+              "word": " root",
+              "start": 368.18,
+              "end": 368.4
+            },
+            {
+              "word": " 25",
+              "start": 368.4,
+              "end": 368.94
+            },
+            {
+              "word": " which",
+              "start": 368.94,
+              "end": 369.94
+            },
+            {
+              "word": " is",
+              "start": 369.94,
+              "end": 370.22
+            },
+            {
+              "word": " 5",
+              "start": 370.22,
+              "end": 370.7
+            },
+            {
+              "word": " and",
+              "start": 370.7,
+              "end": 371.76
+            },
+            {
+              "word": " the",
+              "start": 371.76,
+              "end": 371.86
+            },
+            {
+              "word": " units",
+              "start": 371.86,
+              "end": 372.18
+            },
+            {
+              "word": " will",
+              "start": 372.18,
+              "end": 372.34
+            },
+            {
+              "word": " be",
+              "start": 372.34,
+              "end": 372.48
+            },
+            {
+              "word": " ohm",
+              "start": 372.48,
+              "end": 372.94
+            },
+            {
+              "word": " and",
+              "start": 372.94,
+              "end": 373.54
+            },
+            {
+              "word": " for",
+              "start": 373.54,
+              "end": 373.82
+            },
+            {
+              "word": " maximum",
+              "start": 373.82,
+              "end": 374.18
+            },
+            {
+              "word": " power",
+              "start": 374.18,
+              "end": 374.54
+            },
+            {
+              "word": " transfer",
+              "start": 374.54,
+              "end": 375.16
+            },
+            {
+              "word": " ZL",
+              "start": 375.16,
+              "end": 375.9
+            },
+            {
+              "word": " which",
+              "start": 375.9,
+              "end": 376.2
+            },
+            {
+              "word": " is",
+              "start": 376.2,
+              "end": 376.32
+            }
+          ]
+        },
+        {
+          "start": 376.32,
+          "end": 385.2,
+          "text": "equal to RL should be equal to magnitude of ZTH so this should be equal to RL so we now",
+          "words": [
+            {
+              "word": " equal",
+              "start": 376.32,
+              "end": 376.62
+            },
+            {
+              "word": " to",
+              "start": 376.62,
+              "end": 376.84
+            },
+            {
+              "word": " RL",
+              "start": 376.84,
+              "end": 377.22
+            },
+            {
+              "word": " should",
+              "start": 377.22,
+              "end": 377.48
+            },
+            {
+              "word": " be",
+              "start": 377.48,
+              "end": 377.68
+            },
+            {
+              "word": " equal",
+              "start": 377.68,
+              "end": 378.02
+            },
+            {
+              "word": " to",
+              "start": 378.02,
+              "end": 378.52
+            },
+            {
+              "word": " magnitude",
+              "start": 378.52,
+              "end": 378.9
+            },
+            {
+              "word": " of",
+              "start": 378.9,
+              "end": 379.26
+            },
+            {
+              "word": " ZTH",
+              "start": 379.26,
+              "end": 380.02
+            },
+            {
+              "word": " so",
+              "start": 380.02,
+              "end": 380.38
+            },
+            {
+              "word": " this",
+              "start": 380.38,
+              "end": 380.58
+            },
+            {
+              "word": " should",
+              "start": 380.58,
+              "end": 380.76
+            },
+            {
+              "word": " be",
+              "start": 380.76,
+              "end": 381.04
+            },
+            {
+              "word": " equal",
+              "start": 381.04,
+              "end": 382.58
+            },
+            {
+              "word": " to",
+              "start": 382.58,
+              "end": 383.5
+            },
+            {
+              "word": " RL",
+              "start": 383.5,
+              "end": 384.14
+            },
+            {
+              "word": " so",
+              "start": 384.14,
+              "end": 384.92
+            },
+            {
+              "word": " we",
+              "start": 384.92,
+              "end": 385.06
+            },
+            {
+              "word": " now",
+              "start": 385.06,
+              "end": 385.2
+            }
+          ]
+        },
+        {
+          "start": 385.2,
+          "end": 394.02,
+          "text": "have RL let's find out magnitude of current i it is equal to magnitude of thevenin voltage VTH",
+          "words": [
+            {
+              "word": " have",
+              "start": 385.2,
+              "end": 385.46
+            },
+            {
+              "word": " RL",
+              "start": 385.46,
+              "end": 385.86
+            },
+            {
+              "word": " let's",
+              "start": 385.86,
+              "end": 386.42
+            },
+            {
+              "word": " find",
+              "start": 386.42,
+              "end": 386.74
+            },
+            {
+              "word": " out",
+              "start": 386.74,
+              "end": 387.06
+            },
+            {
+              "word": " magnitude",
+              "start": 387.06,
+              "end": 387.92
+            },
+            {
+              "word": " of",
+              "start": 387.92,
+              "end": 388.42
+            },
+            {
+              "word": " current",
+              "start": 388.42,
+              "end": 388.94
+            },
+            {
+              "word": " i",
+              "start": 388.94,
+              "end": 389.34
+            },
+            {
+              "word": " it",
+              "start": 389.34,
+              "end": 389.98
+            },
+            {
+              "word": " is",
+              "start": 389.98,
+              "end": 390.12
+            },
+            {
+              "word": " equal",
+              "start": 390.12,
+              "end": 390.48
+            },
+            {
+              "word": " to",
+              "start": 390.48,
+              "end": 391.18
+            },
+            {
+              "word": " magnitude",
+              "start": 391.18,
+              "end": 391.62
+            },
+            {
+              "word": " of",
+              "start": 391.62,
+              "end": 392.24
+            },
+            {
+              "word": " thevenin",
+              "start": 392.24,
+              "end": 393.1
+            },
+            {
+              "word": " voltage",
+              "start": 393.1,
+              "end": 393.44
+            },
+            {
+              "word": " VTH",
+              "start": 393.44,
+              "end": 394.02
+            }
+          ]
+        },
+        {
+          "start": 394.02,
+          "end": 406.08,
+          "text": "divided by magnitude of ZTH plus RL. Magnitude of VTH we know it is 100 magnitude of ZTH plus RL",
+          "words": [
+            {
+              "word": " divided",
+              "start": 394.02,
+              "end": 394.8
+            },
+            {
+              "word": " by",
+              "start": 394.8,
+              "end": 395.22
+            },
+            {
+              "word": " magnitude",
+              "start": 395.22,
+              "end": 396.18
+            },
+            {
+              "word": " of",
+              "start": 396.18,
+              "end": 396.72
+            },
+            {
+              "word": " ZTH",
+              "start": 396.72,
+              "end": 398.4
+            },
+            {
+              "word": " plus",
+              "start": 398.4,
+              "end": 399.16
+            },
+            {
+              "word": " RL.",
+              "start": 399.16,
+              "end": 400.42
+            },
+            {
+              "word": " Magnitude",
+              "start": 400.86,
+              "end": 401.86
+            },
+            {
+              "word": " of",
+              "start": 401.86,
+              "end": 402.16
+            },
+            {
+              "word": " VTH",
+              "start": 402.16,
+              "end": 402.7
+            },
+            {
+              "word": " we",
+              "start": 402.7,
+              "end": 402.94
+            },
+            {
+              "word": " know",
+              "start": 402.94,
+              "end": 403.04
+            },
+            {
+              "word": " it",
+              "start": 403.04,
+              "end": 403.16
+            },
+            {
+              "word": " is",
+              "start": 403.16,
+              "end": 403.32
+            },
+            {
+              "word": " 100",
+              "start": 403.32,
+              "end": 403.7
+            },
+            {
+              "word": " magnitude",
+              "start": 403.7,
+              "end": 404.34
+            },
+            {
+              "word": " of",
+              "start": 404.34,
+              "end": 404.7
+            },
+            {
+              "word": " ZTH",
+              "start": 404.7,
+              "end": 405.36
+            },
+            {
+              "word": " plus",
+              "start": 405.36,
+              "end": 405.62
+            },
+            {
+              "word": " RL",
+              "start": 405.62,
+              "end": 406.12
+            }
+          ]
+        },
+        {
+          "start": 406.12,
+          "end": 414.74,
+          "text": "will be equal to under root 8 squared plus 4 squared why because ZTH plus RL will be 3 plus",
+          "words": [
+            {
+              "word": " will",
+              "start": 406.12,
+              "end": 406.26
+            },
+            {
+              "word": " be",
+              "start": 406.26,
+              "end": 406.4
+            },
+            {
+              "word": " equal",
+              "start": 406.4,
+              "end": 406.8
+            },
+            {
+              "word": " to",
+              "start": 406.8,
+              "end": 407.5
+            },
+            {
+              "word": " under",
+              "start": 407.5,
+              "end": 407.74
+            },
+            {
+              "word": " root",
+              "start": 407.74,
+              "end": 408.0
+            },
+            {
+              "word": " 8",
+              "start": 408.0,
+              "end": 408.38
+            },
+            {
+              "word": " squared",
+              "start": 408.38,
+              "end": 408.94
+            },
+            {
+              "word": " plus",
+              "start": 408.94,
+              "end": 409.42
+            },
+            {
+              "word": " 4",
+              "start": 409.42,
+              "end": 409.8
+            },
+            {
+              "word": " squared",
+              "start": 409.8,
+              "end": 410.32
+            },
+            {
+              "word": " why",
+              "start": 410.32,
+              "end": 411.24
+            },
+            {
+              "word": " because",
+              "start": 411.24,
+              "end": 412.06
+            },
+            {
+              "word": " ZTH",
+              "start": 412.06,
+              "end": 412.82
+            },
+            {
+              "word": " plus",
+              "start": 412.82,
+              "end": 413.16
+            },
+            {
+              "word": " RL",
+              "start": 413.16,
+              "end": 413.62
+            },
+            {
+              "word": " will",
+              "start": 413.62,
+              "end": 413.86
+            },
+            {
+              "word": " be",
+              "start": 413.86,
+              "end": 414.08
+            },
+            {
+              "word": " 3",
+              "start": 414.08,
+              "end": 414.44
+            },
+            {
+              "word": " plus",
+              "start": 414.44,
+              "end": 414.74
+            }
+          ]
+        },
+        {
+          "start": 414.74,
+          "end": 423.24,
+          "text": "j4 plus 5 real part will get added and the imaginary part is equal to 4 so the magnitude of current",
+          "words": [
+            {
+              "word": " j4",
+              "start": 414.74,
+              "end": 415.56
+            },
+            {
+              "word": " plus",
+              "start": 415.56,
+              "end": 415.86
+            },
+            {
+              "word": " 5",
+              "start": 415.86,
+              "end": 416.38
+            },
+            {
+              "word": " real",
+              "start": 416.38,
+              "end": 417.08
+            },
+            {
+              "word": " part",
+              "start": 417.08,
+              "end": 417.4
+            },
+            {
+              "word": " will",
+              "start": 417.4,
+              "end": 417.72
+            },
+            {
+              "word": " get",
+              "start": 417.72,
+              "end": 417.9
+            },
+            {
+              "word": " added",
+              "start": 417.9,
+              "end": 418.2
+            },
+            {
+              "word": " and",
+              "start": 418.2,
+              "end": 418.74
+            },
+            {
+              "word": " the",
+              "start": 418.74,
+              "end": 418.86
+            },
+            {
+              "word": " imaginary",
+              "start": 418.86,
+              "end": 419.22
+            },
+            {
+              "word": " part",
+              "start": 419.22,
+              "end": 419.64
+            },
+            {
+              "word": " is",
+              "start": 419.64,
+              "end": 419.98
+            },
+            {
+              "word": " equal",
+              "start": 419.98,
+              "end": 420.36
+            },
+            {
+              "word": " to",
+              "start": 420.36,
+              "end": 420.72
+            },
+            {
+              "word": " 4",
+              "start": 420.72,
+              "end": 421.06
+            },
+            {
+              "word": " so",
+              "start": 421.06,
+              "end": 422.04
+            },
+            {
+              "word": " the",
+              "start": 422.04,
+              "end": 422.22
+            },
+            {
+              "word": " magnitude",
+              "start": 422.22,
+              "end": 422.66
+            },
+            {
+              "word": " of",
+              "start": 422.66,
+              "end": 423.0
+            },
+            {
+              "word": " current",
+              "start": 423.0,
+              "end": 423.24
+            }
+          ]
+        },
+        {
+          "start": 423.24,
+          "end": 433.74,
+          "text": "i is equal to 100 divided by root 80 and the unit will be amperes. Now moving on to the calculation",
+          "words": [
+            {
+              "word": " i",
+              "start": 423.24,
+              "end": 423.66
+            },
+            {
+              "word": " is",
+              "start": 423.66,
+              "end": 424.5
+            },
+            {
+              "word": " equal",
+              "start": 424.5,
+              "end": 424.88
+            },
+            {
+              "word": " to",
+              "start": 424.88,
+              "end": 425.36
+            },
+            {
+              "word": " 100",
+              "start": 425.36,
+              "end": 425.82
+            },
+            {
+              "word": " divided",
+              "start": 425.82,
+              "end": 427.06
+            },
+            {
+              "word": " by",
+              "start": 427.06,
+              "end": 427.54
+            },
+            {
+              "word": " root",
+              "start": 427.54,
+              "end": 428.56
+            },
+            {
+              "word": " 80",
+              "start": 428.56,
+              "end": 429.62
+            },
+            {
+              "word": " and",
+              "start": 429.62,
+              "end": 430.2
+            },
+            {
+              "word": " the",
+              "start": 430.2,
+              "end": 430.34
+            },
+            {
+              "word": " unit",
+              "start": 430.34,
+              "end": 430.56
+            },
+            {
+              "word": " will",
+              "start": 430.56,
+              "end": 430.8
+            },
+            {
+              "word": " be",
+              "start": 430.8,
+              "end": 430.98
+            },
+            {
+              "word": " amperes.",
+              "start": 430.98,
+              "end": 431.7
+            },
+            {
+              "word": " Now",
+              "start": 431.92,
+              "end": 432.44
+            },
+            {
+              "word": " moving",
+              "start": 432.44,
+              "end": 432.74
+            },
+            {
+              "word": " on",
+              "start": 432.74,
+              "end": 433.04
+            },
+            {
+              "word": " to",
+              "start": 433.04,
+              "end": 433.2
+            },
+            {
+              "word": " the",
+              "start": 433.2,
+              "end": 433.32
+            },
+            {
+              "word": " calculation",
+              "start": 433.32,
+              "end": 433.74
+            }
+          ]
+        },
+        {
+          "start": 433.74,
+          "end": 445.66,
+          "text": "of maximum power delivered Pmax will be equal to square of this which will be 10 power 4 divided",
+          "words": [
+            {
+              "word": " of",
+              "start": 433.74,
+              "end": 434.22
+            },
+            {
+              "word": " maximum",
+              "start": 434.22,
+              "end": 434.64
+            },
+            {
+              "word": " power",
+              "start": 434.64,
+              "end": 435.22
+            },
+            {
+              "word": " delivered",
+              "start": 435.22,
+              "end": 436.08
+            },
+            {
+              "word": " Pmax",
+              "start": 436.08,
+              "end": 437.34
+            },
+            {
+              "word": " will",
+              "start": 437.34,
+              "end": 438.98
+            },
+            {
+              "word": " be",
+              "start": 438.98,
+              "end": 439.28
+            },
+            {
+              "word": " equal",
+              "start": 439.28,
+              "end": 439.72
+            },
+            {
+              "word": " to",
+              "start": 439.72,
+              "end": 440.66
+            },
+            {
+              "word": " square",
+              "start": 440.66,
+              "end": 441.04
+            },
+            {
+              "word": " of",
+              "start": 441.04,
+              "end": 441.24
+            },
+            {
+              "word": " this",
+              "start": 441.24,
+              "end": 441.56
+            },
+            {
+              "word": " which",
+              "start": 441.56,
+              "end": 442.3
+            },
+            {
+              "word": " will",
+              "start": 442.3,
+              "end": 442.52
+            },
+            {
+              "word": " be",
+              "start": 442.52,
+              "end": 442.82
+            },
+            {
+              "word": " 10",
+              "start": 442.82,
+              "end": 444.26
+            },
+            {
+              "word": " power",
+              "start": 444.26,
+              "end": 444.58
+            },
+            {
+              "word": " 4",
+              "start": 444.58,
+              "end": 445.06
+            },
+            {
+              "word": " divided",
+              "start": 445.06,
+              "end": 445.66
+            }
+          ]
+        },
+        {
+          "start": 445.66,
+          "end": 458.14,
+          "text": "by 80 multiplied to RL which is 5 when you simplify this you will have the maximum power equal to 625",
+          "words": [
+            {
+              "word": " by",
+              "start": 445.66,
+              "end": 446.12
+            },
+            {
+              "word": " 80",
+              "start": 446.12,
+              "end": 446.52
+            },
+            {
+              "word": " multiplied",
+              "start": 446.52,
+              "end": 447.64
+            },
+            {
+              "word": " to",
+              "start": 447.64,
+              "end": 448.32
+            },
+            {
+              "word": " RL",
+              "start": 448.32,
+              "end": 448.82
+            },
+            {
+              "word": " which",
+              "start": 448.82,
+              "end": 449.08
+            },
+            {
+              "word": " is",
+              "start": 449.08,
+              "end": 449.24
+            },
+            {
+              "word": " 5",
+              "start": 449.24,
+              "end": 449.6
+            },
+            {
+              "word": " when",
+              "start": 449.6,
+              "end": 450.88
+            },
+            {
+              "word": " you",
+              "start": 450.88,
+              "end": 451.0
+            },
+            {
+              "word": " simplify",
+              "start": 451.0,
+              "end": 451.42
+            },
+            {
+              "word": " this",
+              "start": 451.42,
+              "end": 451.82
+            },
+            {
+              "word": " you",
+              "start": 451.82,
+              "end": 452.18
+            },
+            {
+              "word": " will",
+              "start": 452.18,
+              "end": 452.34
+            },
+            {
+              "word": " have",
+              "start": 452.34,
+              "end": 452.76
+            },
+            {
+              "word": " the",
+              "start": 452.76,
+              "end": 453.5
+            },
+            {
+              "word": " maximum",
+              "start": 453.5,
+              "end": 453.92
+            },
+            {
+              "word": " power",
+              "start": 453.92,
+              "end": 454.44
+            },
+            {
+              "word": " equal",
+              "start": 454.44,
+              "end": 455.48
+            },
+            {
+              "word": " to",
+              "start": 455.48,
+              "end": 456.26
+            },
+            {
+              "word": " 625",
+              "start": 456.26,
+              "end": 458.14
+            }
+          ]
+        },
+        {
+          "start": 459.28000000000003,
+          "end": 467.1,
+          "text": "watts this is our answer so i hope this problem is clear to you and you understand how to deal",
+          "words": [
+            {
+              "word": " watts",
+              "start": 459.28000000000003,
+              "end": 460.04
+            },
+            {
+              "word": " this",
+              "start": 460.04,
+              "end": 460.8
+            },
+            {
+              "word": " is",
+              "start": 460.8,
+              "end": 461.08
+            },
+            {
+              "word": " our",
+              "start": 461.08,
+              "end": 461.48
+            },
+            {
+              "word": " answer",
+              "start": 461.48,
+              "end": 461.88
+            },
+            {
+              "word": " so",
+              "start": 461.88,
+              "end": 462.88
+            },
+            {
+              "word": " i",
+              "start": 462.88,
+              "end": 463.12
+            },
+            {
+              "word": " hope",
+              "start": 463.12,
+              "end": 463.4
+            },
+            {
+              "word": " this",
+              "start": 463.4,
+              "end": 463.78
+            },
+            {
+              "word": " problem",
+              "start": 463.78,
+              "end": 464.16
+            },
+            {
+              "word": " is",
+              "start": 464.16,
+              "end": 464.46
+            },
+            {
+              "word": " clear",
+              "start": 464.46,
+              "end": 464.82
+            },
+            {
+              "word": " to",
+              "start": 464.82,
+              "end": 465.0
+            },
+            {
+              "word": " you",
+              "start": 465.0,
+              "end": 465.22
+            },
+            {
+              "word": " and",
+              "start": 465.22,
+              "end": 465.82
+            },
+            {
+              "word": " you",
+              "start": 465.82,
+              "end": 465.96
+            },
+            {
+              "word": " understand",
+              "start": 465.96,
+              "end": 466.32
+            },
+            {
+              "word": " how",
+              "start": 466.32,
+              "end": 466.74
+            },
+            {
+              "word": " to",
+              "start": 466.74,
+              "end": 466.9
+            },
+            {
+              "word": " deal",
+              "start": 466.9,
+              "end": 467.1
+            }
+          ]
+        },
+        {
+          "start": 467.1,
+          "end": 472.76,
+          "text": "with case number three of maximum power transfer theorem when we have AC circuit",
+          "words": [
+            {
+              "word": " with",
+              "start": 467.1,
+              "end": 467.4
+            },
+            {
+              "word": " case",
+              "start": 467.4,
+              "end": 467.88
+            },
+            {
+              "word": " number",
+              "start": 467.88,
+              "end": 468.36
+            },
+            {
+              "word": " three",
+              "start": 468.36,
+              "end": 468.7
+            },
+            {
+              "word": " of",
+              "start": 468.7,
+              "end": 468.98
+            },
+            {
+              "word": " maximum",
+              "start": 468.98,
+              "end": 469.4
+            },
+            {
+              "word": " power",
+              "start": 469.4,
+              "end": 469.8
+            },
+            {
+              "word": " transfer",
+              "start": 469.8,
+              "end": 470.3
+            },
+            {
+              "word": " theorem",
+              "start": 470.3,
+              "end": 470.8
+            },
+            {
+              "word": " when",
+              "start": 470.8,
+              "end": 471.4
+            },
+            {
+              "word": " we",
+              "start": 471.4,
+              "end": 471.56
+            },
+            {
+              "word": " have",
+              "start": 471.56,
+              "end": 471.86
+            },
+            {
+              "word": " AC",
+              "start": 471.86,
+              "end": 472.32
+            },
+            {
+              "word": " circuit",
+              "start": 472.32,
+              "end": 472.76
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_160\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 260.29,
+        "path": "data/processed\\lecture_160\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 435.44,
+        "path": "data/processed\\lecture_160\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 468.33,
+        "path": "data/processed\\lecture_160\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 469.3,
+        "path": "data/processed\\lecture_160\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 470.27,
+        "path": "data/processed\\lecture_160\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 476.08,
+        "path": "data/processed\\lecture_160\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 477.04,
+        "path": "data/processed\\lecture_160\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 486.72,
+        "path": "data/processed\\lecture_160\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 9,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 1,
+        "timestamp": 260.29,
+        "concepts": [
+          "Scientific Diagram",
+          "Scientific Equation",
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 2,
+        "timestamp": 435.44,
+        "concepts": [
+          "Scientific Diagram",
+          "Scientific Equation",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 3,
+        "timestamp": 468.33,
+        "concepts": [
+          "Scientific Diagram",
+          "Scientific Equation",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

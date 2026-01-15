@@ -1,0 +1,4082 @@
+{
+  "video_id": "lecture_159",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_24.mp4",
+    "duration": 0.0,
+    "fps": 29.97002997002997,
+    "resolution": "640x360",
+    "processing_date": "2025-12-26T12:23:43.146433",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_159\\audio.wav",
+    "transcript": {
+      "text": " Now, we are going to solve our problem number 6 on maximum power transfer theorem. So let us read the problem now. A practical DC source provides 20 kW to a 50 ohms load and 20 kW again to a 200 ohms load. The maximum power that can be drawn from it is. So we are required to find out the maximum power that can be drawn from this practical DC source. After reading the question, we can see that we have two cases. In case number 1, 20 kW is supplied to 50 ohms load. In case number 2, in case number 2, 20 kW is supplied to 200 ohms load. Now if you remember the first lecture on maximum power transfer theorem, there we derived the expression for maximum power when the load is variable. For example, we obtained the maximum power equal to Vth squared divided by 4 times Rth. So if we can calculate Vth and Rth, we will have the maximum power. So let us try to find out Vth and Rth. And first we will consider this case, case number 1. We will consider case number 1. We will have the Thevenin's equivalent circuit. Vth and Rth, they are unknown. Rl is equal to 50 ohms. And I will assume current through Rl equal to I1. Now moving on to the power delivered to the load resistance, it is 20 multiplied to 10 power 3 watts. We will call it P1. And P1 will be equal to I1 squared multiplied to 50. So this should be equal to current I1 squared multiplied to 50. From here we will have current I1. I1 will be equal to under root 20 multiplied to 10 power 3 in the numerator. And in the denominator we will have 50. Now when you solve it, you will have current I1 equal to 20 amperes. And when you apply KVL in this loop, you will have I1 equal to Vth divided by Rth plus 50. So I1 which is 20 amperes should be equal to Vth divided by Rth plus 50. I will call it equation number one. So this is all for our case number one. Now we will move on to case number two. Vth and Rth, they are unknown. Rl is equal to 200 ohms. I will assume the load current as I2. Moving on to the power delivered, I will call it P2. And it is equal to 20 multiplied to 10 power 3 watts. And this should be equal to I2 squared multiplied to 200. We are following the same steps. From here we will have current I2 equal to under root 20 multiplied to 10 power 3 in the numerator. And in the denominator we will have 200. When you solve it, you will have current I2 equal to 10 amperes. Now when you apply KVL in this loop, you will have I2, I2 which is 10 amperes equal to Vth divided by Rth plus 200. From this we will have Vth equal to 10 multiplied to Rth, 10 Rth plus 10 multiplied to 200, giving us 2000. I will call it equation number two. In equation one, I will put Vth equal to 10 Rth plus 2000 from equation two. So we will put Vth from equation number two and it will give us 10 Rth plus 2000 divided by Rth plus 50 equal to 20. From this we will have Rth. Rth will be equal to 100 ohms. So in this way we now have Rth. Now we will focus on finding out Vth. I will put Rth equal to 100 ohms here. In equation number two, this will give us Vth equal to 3000 volts. So now we have Vth as well. So the maximum power that can be drawn from the practical DC source we have, Pmax will be equal to 3000 volts squared divided by 4 multiplied to Rth which is 100. So we have 400 in the denominator. When you simplify it, you will have Pmax equal to 22,500 watts or we can write the maximum power will be 22.5 kilowatts. This is our answer. Thank you.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 6.3,
+          "text": "Now, we are going to solve our problem number 6 on maximum power transfer theorem.",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 0.0,
+              "end": 0.64
+            },
+            {
+              "word": " we",
+              "start": 0.72,
+              "end": 0.86
+            },
+            {
+              "word": " are",
+              "start": 0.86,
+              "end": 1.0
+            },
+            {
+              "word": " going",
+              "start": 1.0,
+              "end": 1.18
+            },
+            {
+              "word": " to",
+              "start": 1.18,
+              "end": 1.38
+            },
+            {
+              "word": " solve",
+              "start": 1.38,
+              "end": 1.8
+            },
+            {
+              "word": " our",
+              "start": 1.8,
+              "end": 2.22
+            },
+            {
+              "word": " problem",
+              "start": 2.22,
+              "end": 2.76
+            },
+            {
+              "word": " number",
+              "start": 2.76,
+              "end": 3.14
+            },
+            {
+              "word": " 6",
+              "start": 3.14,
+              "end": 3.48
+            },
+            {
+              "word": " on",
+              "start": 3.48,
+              "end": 3.84
+            },
+            {
+              "word": " maximum",
+              "start": 3.84,
+              "end": 4.64
+            },
+            {
+              "word": " power",
+              "start": 4.64,
+              "end": 5.2
+            },
+            {
+              "word": " transfer",
+              "start": 5.2,
+              "end": 5.76
+            },
+            {
+              "word": " theorem.",
+              "start": 5.76,
+              "end": 6.3
+            }
+          ]
+        },
+        {
+          "start": 6.88,
+          "end": 8.96,
+          "text": "So let us read the problem now.",
+          "words": [
+            {
+              "word": " So",
+              "start": 6.88,
+              "end": 7.04
+            },
+            {
+              "word": " let",
+              "start": 7.04,
+              "end": 7.26
+            },
+            {
+              "word": " us",
+              "start": 7.26,
+              "end": 7.48
+            },
+            {
+              "word": " read",
+              "start": 7.48,
+              "end": 7.82
+            },
+            {
+              "word": " the",
+              "start": 7.82,
+              "end": 8.24
+            },
+            {
+              "word": " problem",
+              "start": 8.24,
+              "end": 8.6
+            },
+            {
+              "word": " now.",
+              "start": 8.6,
+              "end": 8.96
+            }
+          ]
+        },
+        {
+          "start": 9.5,
+          "end": 17.98,
+          "text": "A practical DC source provides 20 kW to a 50 ohms load and 20 kW again to a 200 ohms",
+          "words": [
+            {
+              "word": " A",
+              "start": 9.5,
+              "end": 9.62
+            },
+            {
+              "word": " practical",
+              "start": 9.62,
+              "end": 10.14
+            },
+            {
+              "word": " DC",
+              "start": 10.14,
+              "end": 10.82
+            },
+            {
+              "word": " source",
+              "start": 10.82,
+              "end": 11.2
+            },
+            {
+              "word": " provides",
+              "start": 11.2,
+              "end": 11.66
+            },
+            {
+              "word": " 20",
+              "start": 11.66,
+              "end": 12.2
+            },
+            {
+              "word": " kW",
+              "start": 12.2,
+              "end": 12.78
+            },
+            {
+              "word": " to",
+              "start": 12.78,
+              "end": 13.08
+            },
+            {
+              "word": " a",
+              "start": 13.08,
+              "end": 13.22
+            },
+            {
+              "word": " 50",
+              "start": 13.22,
+              "end": 13.46
+            },
+            {
+              "word": " ohms",
+              "start": 13.46,
+              "end": 13.82
+            },
+            {
+              "word": " load",
+              "start": 13.82,
+              "end": 14.36
+            },
+            {
+              "word": " and",
+              "start": 14.36,
+              "end": 15.06
+            },
+            {
+              "word": " 20",
+              "start": 15.06,
+              "end": 15.52
+            },
+            {
+              "word": " kW",
+              "start": 15.52,
+              "end": 16.0
+            },
+            {
+              "word": " again",
+              "start": 16.0,
+              "end": 16.5
+            },
+            {
+              "word": " to",
+              "start": 16.5,
+              "end": 17.04
+            },
+            {
+              "word": " a",
+              "start": 17.04,
+              "end": 17.18
+            },
+            {
+              "word": " 200",
+              "start": 17.18,
+              "end": 17.56
+            },
+            {
+              "word": " ohms",
+              "start": 17.56,
+              "end": 17.98
+            }
+          ]
+        },
+        {
+          "start": 17.98,
+          "end": 18.6,
+          "text": "load.",
+          "words": [
+            {
+              "word": " load.",
+              "start": 17.98,
+              "end": 18.6
+            }
+          ]
+        },
+        {
+          "start": 18.98,
+          "end": 22.6,
+          "text": "The maximum power that can be drawn from it is.",
+          "words": [
+            {
+              "word": " The",
+              "start": 18.98,
+              "end": 19.22
+            },
+            {
+              "word": " maximum",
+              "start": 19.22,
+              "end": 19.66
+            },
+            {
+              "word": " power",
+              "start": 19.66,
+              "end": 20.22
+            },
+            {
+              "word": " that",
+              "start": 20.22,
+              "end": 20.68
+            },
+            {
+              "word": " can",
+              "start": 20.68,
+              "end": 21.08
+            },
+            {
+              "word": " be",
+              "start": 21.08,
+              "end": 21.26
+            },
+            {
+              "word": " drawn",
+              "start": 21.26,
+              "end": 21.58
+            },
+            {
+              "word": " from",
+              "start": 21.58,
+              "end": 21.92
+            },
+            {
+              "word": " it",
+              "start": 21.92,
+              "end": 22.18
+            },
+            {
+              "word": " is.",
+              "start": 22.18,
+              "end": 22.6
+            }
+          ]
+        },
+        {
+          "start": 23.400000000000002,
+          "end": 32.22,
+          "text": "So we are required to find out the maximum power that can be drawn from this practical",
+          "words": [
+            {
+              "word": " So",
+              "start": 23.14,
+              "end": 23.5
+            },
+            {
+              "word": " we",
+              "start": 23.5,
+              "end": 23.7
+            },
+            {
+              "word": " are",
+              "start": 23.7,
+              "end": 23.86
+            },
+            {
+              "word": " required",
+              "start": 23.86,
+              "end": 24.36
+            },
+            {
+              "word": " to",
+              "start": 24.36,
+              "end": 24.82
+            },
+            {
+              "word": " find",
+              "start": 24.82,
+              "end": 25.16
+            },
+            {
+              "word": " out",
+              "start": 25.16,
+              "end": 25.52
+            },
+            {
+              "word": " the",
+              "start": 25.52,
+              "end": 26.38
+            },
+            {
+              "word": " maximum",
+              "start": 26.38,
+              "end": 27.06
+            },
+            {
+              "word": " power",
+              "start": 27.06,
+              "end": 28.6
+            },
+            {
+              "word": " that",
+              "start": 28.6,
+              "end": 29.48
+            },
+            {
+              "word": " can",
+              "start": 29.48,
+              "end": 30.4
+            },
+            {
+              "word": " be",
+              "start": 30.4,
+              "end": 30.68
+            },
+            {
+              "word": " drawn",
+              "start": 30.68,
+              "end": 31.14
+            },
+            {
+              "word": " from",
+              "start": 31.14,
+              "end": 31.44
+            },
+            {
+              "word": " this",
+              "start": 31.44,
+              "end": 31.68
+            },
+            {
+              "word": " practical",
+              "start": 31.68,
+              "end": 32.22
+            }
+          ]
+        },
+        {
+          "start": 32.22,
+          "end": 33.28,
+          "text": "DC source.",
+          "words": [
+            {
+              "word": " DC",
+              "start": 32.22,
+              "end": 32.78
+            },
+            {
+              "word": " source.",
+              "start": 32.78,
+              "end": 33.28
+            }
+          ]
+        },
+        {
+          "start": 34.04,
+          "end": 37.04,
+          "text": "After reading the question, we can see that we have two cases.",
+          "words": [
+            {
+              "word": " After",
+              "start": 34.04,
+              "end": 34.28
+            },
+            {
+              "word": " reading",
+              "start": 34.28,
+              "end": 34.6
+            },
+            {
+              "word": " the",
+              "start": 34.6,
+              "end": 34.8
+            },
+            {
+              "word": " question,",
+              "start": 34.8,
+              "end": 35.14
+            },
+            {
+              "word": " we",
+              "start": 35.28,
+              "end": 35.36
+            },
+            {
+              "word": " can",
+              "start": 35.36,
+              "end": 35.52
+            },
+            {
+              "word": " see",
+              "start": 35.52,
+              "end": 35.72
+            },
+            {
+              "word": " that",
+              "start": 35.72,
+              "end": 36.02
+            },
+            {
+              "word": " we",
+              "start": 36.02,
+              "end": 36.3
+            },
+            {
+              "word": " have",
+              "start": 36.3,
+              "end": 36.52
+            },
+            {
+              "word": " two",
+              "start": 36.52,
+              "end": 36.7
+            },
+            {
+              "word": " cases.",
+              "start": 36.7,
+              "end": 37.04
+            }
+          ]
+        },
+        {
+          "start": 37.58,
+          "end": 45.62,
+          "text": "In case number 1, 20 kW is supplied to 50 ohms load.",
+          "words": [
+            {
+              "word": " In",
+              "start": 37.58,
+              "end": 37.58
+            },
+            {
+              "word": " case",
+              "start": 37.58,
+              "end": 37.84
+            },
+            {
+              "word": " number",
+              "start": 37.84,
+              "end": 38.38
+            },
+            {
+              "word": " 1,",
+              "start": 38.38,
+              "end": 39.18
+            },
+            {
+              "word": " 20",
+              "start": 42.12,
+              "end": 42.46
+            },
+            {
+              "word": " kW",
+              "start": 42.46,
+              "end": 43.04
+            },
+            {
+              "word": " is",
+              "start": 43.04,
+              "end": 43.46
+            },
+            {
+              "word": " supplied",
+              "start": 43.46,
+              "end": 43.86
+            },
+            {
+              "word": " to",
+              "start": 43.86,
+              "end": 44.32
+            },
+            {
+              "word": " 50",
+              "start": 44.32,
+              "end": 44.68
+            },
+            {
+              "word": " ohms",
+              "start": 44.68,
+              "end": 45.0
+            },
+            {
+              "word": " load.",
+              "start": 45.0,
+              "end": 45.62
+            }
+          ]
+        },
+        {
+          "start": 45.62,
+          "end": 54.38,
+          "text": "In case number 2, in case number 2, 20 kW is supplied to 200 ohms load.",
+          "words": [
+            {
+              "word": " In",
+              "start": 45.62,
+              "end": 46.26
+            },
+            {
+              "word": " case",
+              "start": 46.26,
+              "end": 46.66
+            },
+            {
+              "word": " number",
+              "start": 46.66,
+              "end": 47.3
+            },
+            {
+              "word": " 2,",
+              "start": 47.3,
+              "end": 47.72
+            },
+            {
+              "word": " in",
+              "start": 48.32,
+              "end": 48.56
+            },
+            {
+              "word": " case",
+              "start": 48.56,
+              "end": 48.98
+            },
+            {
+              "word": " number",
+              "start": 48.98,
+              "end": 50.0
+            },
+            {
+              "word": " 2,",
+              "start": 50.0,
+              "end": 50.36
+            },
+            {
+              "word": " 20",
+              "start": 50.6,
+              "end": 51.04
+            },
+            {
+              "word": " kW",
+              "start": 51.04,
+              "end": 51.56
+            },
+            {
+              "word": " is",
+              "start": 51.56,
+              "end": 52.02
+            },
+            {
+              "word": " supplied",
+              "start": 52.02,
+              "end": 52.42
+            },
+            {
+              "word": " to",
+              "start": 52.42,
+              "end": 52.88
+            },
+            {
+              "word": " 200",
+              "start": 52.88,
+              "end": 53.38
+            },
+            {
+              "word": " ohms",
+              "start": 53.38,
+              "end": 53.82
+            },
+            {
+              "word": " load.",
+              "start": 53.82,
+              "end": 54.38
+            }
+          ]
+        },
+        {
+          "start": 54.96,
+          "end": 60.5,
+          "text": "Now if you remember the first lecture on maximum power transfer theorem, there we derived",
+          "words": [
+            {
+              "word": " Now",
+              "start": 54.96,
+              "end": 55.5
+            },
+            {
+              "word": " if",
+              "start": 55.5,
+              "end": 55.68
+            },
+            {
+              "word": " you",
+              "start": 55.68,
+              "end": 55.82
+            },
+            {
+              "word": " remember",
+              "start": 55.82,
+              "end": 56.2
+            },
+            {
+              "word": " the",
+              "start": 56.2,
+              "end": 56.46
+            },
+            {
+              "word": " first",
+              "start": 56.46,
+              "end": 56.74
+            },
+            {
+              "word": " lecture",
+              "start": 56.74,
+              "end": 57.2
+            },
+            {
+              "word": " on",
+              "start": 57.2,
+              "end": 57.48
+            },
+            {
+              "word": " maximum",
+              "start": 57.48,
+              "end": 57.82
+            },
+            {
+              "word": " power",
+              "start": 57.82,
+              "end": 58.28
+            },
+            {
+              "word": " transfer",
+              "start": 58.28,
+              "end": 58.72
+            },
+            {
+              "word": " theorem,",
+              "start": 58.72,
+              "end": 59.2
+            },
+            {
+              "word": " there",
+              "start": 59.68,
+              "end": 59.96
+            },
+            {
+              "word": " we",
+              "start": 59.96,
+              "end": 60.14
+            },
+            {
+              "word": " derived",
+              "start": 60.14,
+              "end": 60.5
+            }
+          ]
+        },
+        {
+          "start": 60.5,
+          "end": 64.74,
+          "text": "the expression for maximum power when the load is variable.",
+          "words": [
+            {
+              "word": " the",
+              "start": 60.5,
+              "end": 60.98
+            },
+            {
+              "word": " expression",
+              "start": 60.98,
+              "end": 61.4
+            },
+            {
+              "word": " for",
+              "start": 61.4,
+              "end": 61.8
+            },
+            {
+              "word": " maximum",
+              "start": 61.8,
+              "end": 62.38
+            },
+            {
+              "word": " power",
+              "start": 62.38,
+              "end": 62.94
+            },
+            {
+              "word": " when",
+              "start": 62.94,
+              "end": 63.32
+            },
+            {
+              "word": " the",
+              "start": 63.32,
+              "end": 63.66
+            },
+            {
+              "word": " load",
+              "start": 63.66,
+              "end": 63.9
+            },
+            {
+              "word": " is",
+              "start": 63.9,
+              "end": 64.18
+            },
+            {
+              "word": " variable.",
+              "start": 64.18,
+              "end": 64.74
+            }
+          ]
+        },
+        {
+          "start": 64.74,
+          "end": 74.66,
+          "text": "For example, we obtained the maximum power equal to Vth squared divided by 4 times Rth.",
+          "words": [
+            {
+              "word": " For",
+              "start": 64.74,
+              "end": 64.96
+            },
+            {
+              "word": " example,",
+              "start": 64.96,
+              "end": 64.96
+            },
+            {
+              "word": " we",
+              "start": 65.14,
+              "end": 65.38
+            },
+            {
+              "word": " obtained",
+              "start": 65.38,
+              "end": 65.9
+            },
+            {
+              "word": " the",
+              "start": 65.9,
+              "end": 66.3
+            },
+            {
+              "word": " maximum",
+              "start": 66.3,
+              "end": 66.64
+            },
+            {
+              "word": " power",
+              "start": 66.64,
+              "end": 67.24
+            },
+            {
+              "word": " equal",
+              "start": 67.24,
+              "end": 68.1
+            },
+            {
+              "word": " to",
+              "start": 68.1,
+              "end": 68.74
+            },
+            {
+              "word": " Vth",
+              "start": 68.74,
+              "end": 69.98
+            },
+            {
+              "word": " squared",
+              "start": 69.98,
+              "end": 70.98
+            },
+            {
+              "word": " divided",
+              "start": 70.98,
+              "end": 71.84
+            },
+            {
+              "word": " by",
+              "start": 71.84,
+              "end": 72.36
+            },
+            {
+              "word": " 4",
+              "start": 72.36,
+              "end": 73.04
+            },
+            {
+              "word": " times",
+              "start": 73.04,
+              "end": 73.64
+            },
+            {
+              "word": " Rth.",
+              "start": 73.64,
+              "end": 74.66
+            }
+          ]
+        },
+        {
+          "start": 75.32,
+          "end": 80.74,
+          "text": "So if we can calculate Vth and Rth, we will have the maximum power.",
+          "words": [
+            {
+              "word": " So",
+              "start": 75.32,
+              "end": 75.7
+            },
+            {
+              "word": " if",
+              "start": 75.7,
+              "end": 75.92
+            },
+            {
+              "word": " we",
+              "start": 75.92,
+              "end": 76.1
+            },
+            {
+              "word": " can",
+              "start": 76.1,
+              "end": 76.34
+            },
+            {
+              "word": " calculate",
+              "start": 76.34,
+              "end": 76.92
+            },
+            {
+              "word": " Vth",
+              "start": 76.92,
+              "end": 77.84
+            },
+            {
+              "word": " and",
+              "start": 77.84,
+              "end": 78.16
+            },
+            {
+              "word": " Rth,",
+              "start": 78.16,
+              "end": 78.58
+            },
+            {
+              "word": " we",
+              "start": 78.84,
+              "end": 78.98
+            },
+            {
+              "word": " will",
+              "start": 78.98,
+              "end": 79.14
+            },
+            {
+              "word": " have",
+              "start": 79.14,
+              "end": 79.48
+            },
+            {
+              "word": " the",
+              "start": 79.48,
+              "end": 79.84
+            },
+            {
+              "word": " maximum",
+              "start": 79.84,
+              "end": 80.24
+            },
+            {
+              "word": " power.",
+              "start": 80.24,
+              "end": 80.74
+            }
+          ]
+        },
+        {
+          "start": 81.2,
+          "end": 84.56,
+          "text": "So let us try to find out Vth and Rth.",
+          "words": [
+            {
+              "word": " So",
+              "start": 81.2,
+              "end": 81.54
+            },
+            {
+              "word": " let",
+              "start": 81.54,
+              "end": 81.76
+            },
+            {
+              "word": " us",
+              "start": 81.76,
+              "end": 81.98
+            },
+            {
+              "word": " try",
+              "start": 81.98,
+              "end": 82.28
+            },
+            {
+              "word": " to",
+              "start": 82.28,
+              "end": 82.46
+            },
+            {
+              "word": " find",
+              "start": 82.46,
+              "end": 82.74
+            },
+            {
+              "word": " out",
+              "start": 82.74,
+              "end": 83.0
+            },
+            {
+              "word": " Vth",
+              "start": 83.0,
+              "end": 83.66
+            },
+            {
+              "word": " and",
+              "start": 83.66,
+              "end": 84.0
+            },
+            {
+              "word": " Rth.",
+              "start": 84.0,
+              "end": 84.56
+            }
+          ]
+        },
+        {
+          "start": 85.69999999999999,
+          "end": 89.34,
+          "text": "And first we will consider this case, case number 1.",
+          "words": [
+            {
+              "word": " And",
+              "start": 85.33,
+              "end": 85.72
+            },
+            {
+              "word": " first",
+              "start": 85.72,
+              "end": 86.04
+            },
+            {
+              "word": " we",
+              "start": 86.04,
+              "end": 86.34
+            },
+            {
+              "word": " will",
+              "start": 86.34,
+              "end": 86.48
+            },
+            {
+              "word": " consider",
+              "start": 86.48,
+              "end": 87.02
+            },
+            {
+              "word": " this",
+              "start": 87.02,
+              "end": 87.52
+            },
+            {
+              "word": " case,",
+              "start": 87.52,
+              "end": 87.86
+            },
+            {
+              "word": " case",
+              "start": 88.2,
+              "end": 88.4
+            },
+            {
+              "word": " number",
+              "start": 88.4,
+              "end": 88.92
+            },
+            {
+              "word": " 1.",
+              "start": 88.92,
+              "end": 89.34
+            }
+          ]
+        },
+        {
+          "start": 89.34,
+          "end": 93.82,
+          "text": "We will consider case number 1.",
+          "words": [
+            {
+              "word": " We",
+              "start": 89.34,
+              "end": 89.98
+            },
+            {
+              "word": " will",
+              "start": 89.98,
+              "end": 90.24
+            },
+            {
+              "word": " consider",
+              "start": 90.24,
+              "end": 91.62
+            },
+            {
+              "word": " case",
+              "start": 91.62,
+              "end": 92.74
+            },
+            {
+              "word": " number",
+              "start": 92.74,
+              "end": 93.46
+            },
+            {
+              "word": " 1.",
+              "start": 93.46,
+              "end": 93.82
+            }
+          ]
+        },
+        {
+          "start": 93.94,
+          "end": 96.44,
+          "text": "We will have the Thevenin's equivalent circuit.",
+          "words": [
+            {
+              "word": " We",
+              "start": 93.94,
+              "end": 94.1
+            },
+            {
+              "word": " will",
+              "start": 94.1,
+              "end": 94.24
+            },
+            {
+              "word": " have",
+              "start": 94.24,
+              "end": 94.5
+            },
+            {
+              "word": " the",
+              "start": 94.5,
+              "end": 94.78
+            },
+            {
+              "word": " Thevenin's",
+              "start": 94.78,
+              "end": 95.32
+            },
+            {
+              "word": " equivalent",
+              "start": 95.32,
+              "end": 95.66
+            },
+            {
+              "word": " circuit.",
+              "start": 95.66,
+              "end": 96.44
+            }
+          ]
+        },
+        {
+          "start": 96.9,
+          "end": 99.34,
+          "text": "Vth and Rth, they are unknown.",
+          "words": [
+            {
+              "word": " Vth",
+              "start": 96.9,
+              "end": 97.54
+            },
+            {
+              "word": " and",
+              "start": 97.54,
+              "end": 97.94
+            },
+            {
+              "word": " Rth,",
+              "start": 97.94,
+              "end": 98.34
+            },
+            {
+              "word": " they",
+              "start": 98.6,
+              "end": 98.78
+            },
+            {
+              "word": " are",
+              "start": 98.78,
+              "end": 98.94
+            },
+            {
+              "word": " unknown.",
+              "start": 98.94,
+              "end": 99.34
+            }
+          ]
+        },
+        {
+          "start": 99.9,
+          "end": 102.44,
+          "text": "Rl is equal to 50 ohms.",
+          "words": [
+            {
+              "word": " Rl",
+              "start": 99.9,
+              "end": 100.44
+            },
+            {
+              "word": " is",
+              "start": 100.44,
+              "end": 100.94
+            },
+            {
+              "word": " equal",
+              "start": 100.94,
+              "end": 101.28
+            },
+            {
+              "word": " to",
+              "start": 101.28,
+              "end": 101.66
+            },
+            {
+              "word": " 50",
+              "start": 101.66,
+              "end": 101.94
+            },
+            {
+              "word": " ohms.",
+              "start": 101.94,
+              "end": 102.44
+            }
+          ]
+        },
+        {
+          "start": 102.86,
+          "end": 109.18,
+          "text": "And I will assume current through Rl equal to I1.",
+          "words": [
+            {
+              "word": " And",
+              "start": 102.86,
+              "end": 103.2
+            },
+            {
+              "word": " I",
+              "start": 103.2,
+              "end": 103.36
+            },
+            {
+              "word": " will",
+              "start": 103.36,
+              "end": 103.48
+            },
+            {
+              "word": " assume",
+              "start": 103.48,
+              "end": 103.84
+            },
+            {
+              "word": " current",
+              "start": 103.84,
+              "end": 105.06
+            },
+            {
+              "word": " through",
+              "start": 105.06,
+              "end": 105.72
+            },
+            {
+              "word": " Rl",
+              "start": 105.72,
+              "end": 106.34
+            },
+            {
+              "word": " equal",
+              "start": 106.34,
+              "end": 106.9
+            },
+            {
+              "word": " to",
+              "start": 106.9,
+              "end": 107.78
+            },
+            {
+              "word": " I1.",
+              "start": 107.78,
+              "end": 109.18
+            }
+          ]
+        },
+        {
+          "start": 109.92,
+          "end": 115.48,
+          "text": "Now moving on to the power delivered to the load resistance, it is 20 multiplied to 10",
+          "words": [
+            {
+              "word": " Now",
+              "start": 109.92,
+              "end": 110.24
+            },
+            {
+              "word": " moving",
+              "start": 110.24,
+              "end": 110.52
+            },
+            {
+              "word": " on",
+              "start": 110.52,
+              "end": 110.8
+            },
+            {
+              "word": " to",
+              "start": 110.8,
+              "end": 111.0
+            },
+            {
+              "word": " the",
+              "start": 111.0,
+              "end": 111.12
+            },
+            {
+              "word": " power",
+              "start": 111.12,
+              "end": 111.42
+            },
+            {
+              "word": " delivered",
+              "start": 111.42,
+              "end": 111.82
+            },
+            {
+              "word": " to",
+              "start": 111.82,
+              "end": 112.12
+            },
+            {
+              "word": " the",
+              "start": 112.12,
+              "end": 112.24
+            },
+            {
+              "word": " load",
+              "start": 112.24,
+              "end": 112.46
+            },
+            {
+              "word": " resistance,",
+              "start": 112.46,
+              "end": 113.06
+            },
+            {
+              "word": " it",
+              "start": 113.28,
+              "end": 113.4
+            },
+            {
+              "word": " is",
+              "start": 113.4,
+              "end": 113.56
+            },
+            {
+              "word": " 20",
+              "start": 113.56,
+              "end": 114.12
+            },
+            {
+              "word": " multiplied",
+              "start": 114.12,
+              "end": 114.76
+            },
+            {
+              "word": " to",
+              "start": 114.76,
+              "end": 115.24
+            },
+            {
+              "word": " 10",
+              "start": 115.24,
+              "end": 115.48
+            }
+          ]
+        },
+        {
+          "start": 115.48,
+          "end": 116.86,
+          "text": "power 3 watts.",
+          "words": [
+            {
+              "word": " power",
+              "start": 115.48,
+              "end": 115.84
+            },
+            {
+              "word": " 3",
+              "start": 115.84,
+              "end": 116.3
+            },
+            {
+              "word": " watts.",
+              "start": 116.3,
+              "end": 116.86
+            }
+          ]
+        },
+        {
+          "start": 116.86,
+          "end": 118.7,
+          "text": "We will call it P1.",
+          "words": [
+            {
+              "word": " We",
+              "start": 116.86,
+              "end": 117.42
+            },
+            {
+              "word": " will",
+              "start": 117.42,
+              "end": 117.58
+            },
+            {
+              "word": " call",
+              "start": 117.58,
+              "end": 117.84
+            },
+            {
+              "word": " it",
+              "start": 117.84,
+              "end": 118.08
+            },
+            {
+              "word": " P1.",
+              "start": 118.08,
+              "end": 118.7
+            }
+          ]
+        },
+        {
+          "start": 119.06,
+          "end": 124.24,
+          "text": "And P1 will be equal to I1 squared multiplied to 50.",
+          "words": [
+            {
+              "word": " And",
+              "start": 119.06,
+              "end": 119.42
+            },
+            {
+              "word": " P1",
+              "start": 119.42,
+              "end": 120.0
+            },
+            {
+              "word": " will",
+              "start": 120.0,
+              "end": 120.36
+            },
+            {
+              "word": " be",
+              "start": 120.36,
+              "end": 120.54
+            },
+            {
+              "word": " equal",
+              "start": 120.54,
+              "end": 120.96
+            },
+            {
+              "word": " to",
+              "start": 120.96,
+              "end": 121.5
+            },
+            {
+              "word": " I1",
+              "start": 121.5,
+              "end": 122.08
+            },
+            {
+              "word": " squared",
+              "start": 122.08,
+              "end": 122.48
+            },
+            {
+              "word": " multiplied",
+              "start": 122.48,
+              "end": 123.22
+            },
+            {
+              "word": " to",
+              "start": 123.22,
+              "end": 123.94
+            },
+            {
+              "word": " 50.",
+              "start": 123.94,
+              "end": 124.24
+            }
+          ]
+        },
+        {
+          "start": 124.66,
+          "end": 130.28,
+          "text": "So this should be equal to current I1 squared multiplied to 50.",
+          "words": [
+            {
+              "word": " So",
+              "start": 124.66,
+              "end": 124.82
+            },
+            {
+              "word": " this",
+              "start": 124.82,
+              "end": 125.0
+            },
+            {
+              "word": " should",
+              "start": 125.0,
+              "end": 125.14
+            },
+            {
+              "word": " be",
+              "start": 125.14,
+              "end": 125.34
+            },
+            {
+              "word": " equal",
+              "start": 125.34,
+              "end": 125.76
+            },
+            {
+              "word": " to",
+              "start": 125.76,
+              "end": 126.28
+            },
+            {
+              "word": " current",
+              "start": 126.28,
+              "end": 126.64
+            },
+            {
+              "word": " I1",
+              "start": 126.64,
+              "end": 127.48
+            },
+            {
+              "word": " squared",
+              "start": 127.48,
+              "end": 128.34
+            },
+            {
+              "word": " multiplied",
+              "start": 128.34,
+              "end": 129.08
+            },
+            {
+              "word": " to",
+              "start": 129.08,
+              "end": 129.94
+            },
+            {
+              "word": " 50.",
+              "start": 129.94,
+              "end": 130.28
+            }
+          ]
+        },
+        {
+          "start": 130.72,
+          "end": 132.98,
+          "text": "From here we will have current I1.",
+          "words": [
+            {
+              "word": " From",
+              "start": 130.72,
+              "end": 131.0
+            },
+            {
+              "word": " here",
+              "start": 131.0,
+              "end": 131.18
+            },
+            {
+              "word": " we",
+              "start": 131.18,
+              "end": 131.34
+            },
+            {
+              "word": " will",
+              "start": 131.34,
+              "end": 131.46
+            },
+            {
+              "word": " have",
+              "start": 131.46,
+              "end": 131.78
+            },
+            {
+              "word": " current",
+              "start": 131.78,
+              "end": 132.22
+            },
+            {
+              "word": " I1.",
+              "start": 132.22,
+              "end": 132.98
+            }
+          ]
+        },
+        {
+          "start": 133.36,
+          "end": 141.9,
+          "text": "I1 will be equal to under root 20 multiplied to 10 power 3 in the numerator.",
+          "words": [
+            {
+              "word": " I1",
+              "start": 133.36,
+              "end": 134.12
+            },
+            {
+              "word": " will",
+              "start": 134.12,
+              "end": 134.78
+            },
+            {
+              "word": " be",
+              "start": 134.78,
+              "end": 135.0
+            },
+            {
+              "word": " equal",
+              "start": 135.0,
+              "end": 135.48
+            },
+            {
+              "word": " to",
+              "start": 135.48,
+              "end": 136.58
+            },
+            {
+              "word": " under",
+              "start": 136.58,
+              "end": 136.94
+            },
+            {
+              "word": " root",
+              "start": 136.94,
+              "end": 137.32
+            },
+            {
+              "word": " 20",
+              "start": 137.32,
+              "end": 137.98
+            },
+            {
+              "word": " multiplied",
+              "start": 137.98,
+              "end": 138.74
+            },
+            {
+              "word": " to",
+              "start": 138.74,
+              "end": 139.2
+            },
+            {
+              "word": " 10",
+              "start": 139.2,
+              "end": 139.42
+            },
+            {
+              "word": " power",
+              "start": 139.42,
+              "end": 139.7
+            },
+            {
+              "word": " 3",
+              "start": 139.7,
+              "end": 140.16
+            },
+            {
+              "word": " in",
+              "start": 140.16,
+              "end": 140.62
+            },
+            {
+              "word": " the",
+              "start": 140.62,
+              "end": 140.9
+            },
+            {
+              "word": " numerator.",
+              "start": 140.9,
+              "end": 141.9
+            }
+          ]
+        },
+        {
+          "start": 142.64,
+          "end": 144.68,
+          "text": "And in the denominator we will have 50.",
+          "words": [
+            {
+              "word": " And",
+              "start": 142.64,
+              "end": 142.98
+            },
+            {
+              "word": " in",
+              "start": 142.98,
+              "end": 143.12
+            },
+            {
+              "word": " the",
+              "start": 143.12,
+              "end": 143.24
+            },
+            {
+              "word": " denominator",
+              "start": 143.24,
+              "end": 143.76
+            },
+            {
+              "word": " we",
+              "start": 143.76,
+              "end": 144.08
+            },
+            {
+              "word": " will",
+              "start": 144.08,
+              "end": 144.18
+            },
+            {
+              "word": " have",
+              "start": 144.18,
+              "end": 144.34
+            },
+            {
+              "word": " 50.",
+              "start": 144.34,
+              "end": 144.68
+            }
+          ]
+        },
+        {
+          "start": 145.52,
+          "end": 152.94,
+          "text": "Now when you solve it, you will have current I1 equal to 20 amperes.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 145.12,
+              "end": 145.56
+            },
+            {
+              "word": " when",
+              "start": 145.56,
+              "end": 145.82
+            },
+            {
+              "word": " you",
+              "start": 145.82,
+              "end": 145.92
+            },
+            {
+              "word": " solve",
+              "start": 145.92,
+              "end": 146.24
+            },
+            {
+              "word": " it,",
+              "start": 146.24,
+              "end": 146.48
+            },
+            {
+              "word": " you",
+              "start": 146.66,
+              "end": 146.76
+            },
+            {
+              "word": " will",
+              "start": 146.76,
+              "end": 146.92
+            },
+            {
+              "word": " have",
+              "start": 146.92,
+              "end": 147.26
+            },
+            {
+              "word": " current",
+              "start": 147.26,
+              "end": 148.3
+            },
+            {
+              "word": " I1",
+              "start": 148.3,
+              "end": 149.56
+            },
+            {
+              "word": " equal",
+              "start": 149.56,
+              "end": 150.34
+            },
+            {
+              "word": " to",
+              "start": 150.34,
+              "end": 151.26
+            },
+            {
+              "word": " 20",
+              "start": 151.26,
+              "end": 151.8
+            },
+            {
+              "word": " amperes.",
+              "start": 151.8,
+              "end": 152.94
+            }
+          ]
+        },
+        {
+          "start": 153.3,
+          "end": 161.04,
+          "text": "And when you apply KVL in this loop, you will have I1 equal to Vth divided by Rth plus 50.",
+          "words": [
+            {
+              "word": " And",
+              "start": 153.3,
+              "end": 153.82
+            },
+            {
+              "word": " when",
+              "start": 153.82,
+              "end": 154.04
+            },
+            {
+              "word": " you",
+              "start": 154.04,
+              "end": 154.18
+            },
+            {
+              "word": " apply",
+              "start": 154.18,
+              "end": 154.46
+            },
+            {
+              "word": " KVL",
+              "start": 154.46,
+              "end": 155.14
+            },
+            {
+              "word": " in",
+              "start": 155.14,
+              "end": 155.44
+            },
+            {
+              "word": " this",
+              "start": 155.44,
+              "end": 155.7
+            },
+            {
+              "word": " loop,",
+              "start": 155.7,
+              "end": 156.08
+            },
+            {
+              "word": " you",
+              "start": 156.28,
+              "end": 156.4
+            },
+            {
+              "word": " will",
+              "start": 156.4,
+              "end": 156.54
+            },
+            {
+              "word": " have",
+              "start": 156.54,
+              "end": 156.7
+            },
+            {
+              "word": " I1",
+              "start": 156.7,
+              "end": 157.06
+            },
+            {
+              "word": " equal",
+              "start": 157.06,
+              "end": 157.42
+            },
+            {
+              "word": " to",
+              "start": 157.42,
+              "end": 158.0
+            },
+            {
+              "word": " Vth",
+              "start": 158.0,
+              "end": 158.44
+            },
+            {
+              "word": " divided",
+              "start": 158.44,
+              "end": 159.0
+            },
+            {
+              "word": " by",
+              "start": 159.0,
+              "end": 159.46
+            },
+            {
+              "word": " Rth",
+              "start": 159.46,
+              "end": 159.94
+            },
+            {
+              "word": " plus",
+              "start": 159.94,
+              "end": 160.46
+            },
+            {
+              "word": " 50.",
+              "start": 160.46,
+              "end": 161.04
+            }
+          ]
+        },
+        {
+          "start": 161.66,
+          "end": 172.32,
+          "text": "So I1 which is 20 amperes should be equal to Vth divided by Rth plus 50.",
+          "words": [
+            {
+              "word": " So",
+              "start": 161.66,
+              "end": 161.98
+            },
+            {
+              "word": " I1",
+              "start": 161.98,
+              "end": 162.54
+            },
+            {
+              "word": " which",
+              "start": 162.54,
+              "end": 162.86
+            },
+            {
+              "word": " is",
+              "start": 162.86,
+              "end": 163.08
+            },
+            {
+              "word": " 20",
+              "start": 163.08,
+              "end": 163.58
+            },
+            {
+              "word": " amperes",
+              "start": 163.58,
+              "end": 164.32
+            },
+            {
+              "word": " should",
+              "start": 164.32,
+              "end": 164.74
+            },
+            {
+              "word": " be",
+              "start": 164.74,
+              "end": 164.96
+            },
+            {
+              "word": " equal",
+              "start": 164.96,
+              "end": 165.42
+            },
+            {
+              "word": " to",
+              "start": 165.42,
+              "end": 166.54
+            },
+            {
+              "word": " Vth",
+              "start": 166.54,
+              "end": 167.3
+            },
+            {
+              "word": " divided",
+              "start": 167.3,
+              "end": 168.2
+            },
+            {
+              "word": " by",
+              "start": 168.2,
+              "end": 168.82
+            },
+            {
+              "word": " Rth",
+              "start": 168.82,
+              "end": 170.42
+            },
+            {
+              "word": " plus",
+              "start": 170.42,
+              "end": 171.38
+            },
+            {
+              "word": " 50.",
+              "start": 171.38,
+              "end": 172.32
+            }
+          ]
+        },
+        {
+          "start": 172.32,
+          "end": 176.44,
+          "text": "I will call it equation number one.",
+          "words": [
+            {
+              "word": " I",
+              "start": 172.32,
+              "end": 172.94
+            },
+            {
+              "word": " will",
+              "start": 172.94,
+              "end": 173.08
+            },
+            {
+              "word": " call",
+              "start": 173.08,
+              "end": 173.32
+            },
+            {
+              "word": " it",
+              "start": 173.32,
+              "end": 173.58
+            },
+            {
+              "word": " equation",
+              "start": 173.58,
+              "end": 174.56
+            },
+            {
+              "word": " number",
+              "start": 174.56,
+              "end": 176.04
+            },
+            {
+              "word": " one.",
+              "start": 176.04,
+              "end": 176.44
+            }
+          ]
+        },
+        {
+          "start": 177.06,
+          "end": 179.84,
+          "text": "So this is all for our case number one.",
+          "words": [
+            {
+              "word": " So",
+              "start": 177.06,
+              "end": 177.36
+            },
+            {
+              "word": " this",
+              "start": 177.36,
+              "end": 177.6
+            },
+            {
+              "word": " is",
+              "start": 177.6,
+              "end": 177.82
+            },
+            {
+              "word": " all",
+              "start": 177.82,
+              "end": 178.16
+            },
+            {
+              "word": " for",
+              "start": 178.16,
+              "end": 178.4
+            },
+            {
+              "word": " our",
+              "start": 178.4,
+              "end": 178.6
+            },
+            {
+              "word": " case",
+              "start": 178.6,
+              "end": 178.96
+            },
+            {
+              "word": " number",
+              "start": 178.96,
+              "end": 179.42
+            },
+            {
+              "word": " one.",
+              "start": 179.42,
+              "end": 179.84
+            }
+          ]
+        },
+        {
+          "start": 180.12,
+          "end": 182.42,
+          "text": "Now we will move on to case number two.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 180.12,
+              "end": 180.38
+            },
+            {
+              "word": " we",
+              "start": 180.38,
+              "end": 180.58
+            },
+            {
+              "word": " will",
+              "start": 180.58,
+              "end": 180.72
+            },
+            {
+              "word": " move",
+              "start": 180.72,
+              "end": 180.88
+            },
+            {
+              "word": " on",
+              "start": 180.88,
+              "end": 181.12
+            },
+            {
+              "word": " to",
+              "start": 181.12,
+              "end": 181.26
+            },
+            {
+              "word": " case",
+              "start": 181.26,
+              "end": 181.62
+            },
+            {
+              "word": " number",
+              "start": 181.62,
+              "end": 182.08
+            },
+            {
+              "word": " two.",
+              "start": 182.08,
+              "end": 182.42
+            }
+          ]
+        },
+        {
+          "start": 182.78,
+          "end": 185.3,
+          "text": "Vth and Rth, they are unknown.",
+          "words": [
+            {
+              "word": " Vth",
+              "start": 182.78,
+              "end": 183.46
+            },
+            {
+              "word": " and",
+              "start": 183.46,
+              "end": 183.84
+            },
+            {
+              "word": " Rth,",
+              "start": 183.84,
+              "end": 184.22
+            },
+            {
+              "word": " they",
+              "start": 184.54,
+              "end": 184.66
+            },
+            {
+              "word": " are",
+              "start": 184.66,
+              "end": 184.84
+            },
+            {
+              "word": " unknown.",
+              "start": 184.84,
+              "end": 185.3
+            }
+          ]
+        },
+        {
+          "start": 185.78,
+          "end": 188.04,
+          "text": "Rl is equal to 200 ohms.",
+          "words": [
+            {
+              "word": " Rl",
+              "start": 185.78,
+              "end": 186.22
+            },
+            {
+              "word": " is",
+              "start": 186.22,
+              "end": 186.54
+            },
+            {
+              "word": " equal",
+              "start": 186.54,
+              "end": 186.9
+            },
+            {
+              "word": " to",
+              "start": 186.9,
+              "end": 187.22
+            },
+            {
+              "word": " 200",
+              "start": 187.22,
+              "end": 187.6
+            },
+            {
+              "word": " ohms.",
+              "start": 187.6,
+              "end": 188.04
+            }
+          ]
+        },
+        {
+          "start": 188.56,
+          "end": 193.52,
+          "text": "I will assume the load current as I2.",
+          "words": [
+            {
+              "word": " I",
+              "start": 188.56,
+              "end": 188.94
+            },
+            {
+              "word": " will",
+              "start": 188.94,
+              "end": 189.08
+            },
+            {
+              "word": " assume",
+              "start": 189.08,
+              "end": 189.56
+            },
+            {
+              "word": " the",
+              "start": 189.56,
+              "end": 190.0
+            },
+            {
+              "word": " load",
+              "start": 190.0,
+              "end": 190.32
+            },
+            {
+              "word": " current",
+              "start": 190.32,
+              "end": 190.98
+            },
+            {
+              "word": " as",
+              "start": 190.98,
+              "end": 192.44
+            },
+            {
+              "word": " I2.",
+              "start": 192.44,
+              "end": 193.52
+            }
+          ]
+        },
+        {
+          "start": 193.82,
+          "end": 197.96,
+          "text": "Moving on to the power delivered, I will call it P2.",
+          "words": [
+            {
+              "word": " Moving",
+              "start": 193.82,
+              "end": 194.1
+            },
+            {
+              "word": " on",
+              "start": 194.1,
+              "end": 194.4
+            },
+            {
+              "word": " to",
+              "start": 194.4,
+              "end": 194.56
+            },
+            {
+              "word": " the",
+              "start": 194.56,
+              "end": 194.66
+            },
+            {
+              "word": " power",
+              "start": 194.66,
+              "end": 194.96
+            },
+            {
+              "word": " delivered,",
+              "start": 194.96,
+              "end": 195.34
+            },
+            {
+              "word": " I",
+              "start": 195.98,
+              "end": 196.54
+            },
+            {
+              "word": " will",
+              "start": 196.54,
+              "end": 196.68
+            },
+            {
+              "word": " call",
+              "start": 196.68,
+              "end": 197.06
+            },
+            {
+              "word": " it",
+              "start": 197.06,
+              "end": 197.42
+            },
+            {
+              "word": " P2.",
+              "start": 197.42,
+              "end": 197.96
+            }
+          ]
+        },
+        {
+          "start": 197.96,
+          "end": 204.22,
+          "text": "And it is equal to 20 multiplied to 10 power 3 watts.",
+          "words": [
+            {
+              "word": " And",
+              "start": 197.96,
+              "end": 198.6
+            },
+            {
+              "word": " it",
+              "start": 198.6,
+              "end": 198.7
+            },
+            {
+              "word": " is",
+              "start": 198.7,
+              "end": 198.84
+            },
+            {
+              "word": " equal",
+              "start": 198.84,
+              "end": 199.3
+            },
+            {
+              "word": " to",
+              "start": 199.3,
+              "end": 200.04
+            },
+            {
+              "word": " 20",
+              "start": 200.04,
+              "end": 200.6
+            },
+            {
+              "word": " multiplied",
+              "start": 200.6,
+              "end": 201.42
+            },
+            {
+              "word": " to",
+              "start": 201.42,
+              "end": 202.08
+            },
+            {
+              "word": " 10",
+              "start": 202.08,
+              "end": 202.34
+            },
+            {
+              "word": " power",
+              "start": 202.34,
+              "end": 202.66
+            },
+            {
+              "word": " 3",
+              "start": 202.66,
+              "end": 203.12
+            },
+            {
+              "word": " watts.",
+              "start": 203.12,
+              "end": 204.22
+            }
+          ]
+        },
+        {
+          "start": 204.58,
+          "end": 211.84,
+          "text": "And this should be equal to I2 squared multiplied to 200.",
+          "words": [
+            {
+              "word": " And",
+              "start": 204.58,
+              "end": 204.84
+            },
+            {
+              "word": " this",
+              "start": 204.84,
+              "end": 205.02
+            },
+            {
+              "word": " should",
+              "start": 205.02,
+              "end": 205.16
+            },
+            {
+              "word": " be",
+              "start": 205.16,
+              "end": 205.34
+            },
+            {
+              "word": " equal",
+              "start": 205.34,
+              "end": 205.78
+            },
+            {
+              "word": " to",
+              "start": 205.78,
+              "end": 206.76
+            },
+            {
+              "word": " I2",
+              "start": 206.76,
+              "end": 207.16
+            },
+            {
+              "word": " squared",
+              "start": 207.16,
+              "end": 207.9
+            },
+            {
+              "word": " multiplied",
+              "start": 207.9,
+              "end": 210.14
+            },
+            {
+              "word": " to",
+              "start": 210.14,
+              "end": 211.36
+            },
+            {
+              "word": " 200.",
+              "start": 211.36,
+              "end": 211.84
+            }
+          ]
+        },
+        {
+          "start": 212.46,
+          "end": 214.36,
+          "text": "We are following the same steps.",
+          "words": [
+            {
+              "word": " We",
+              "start": 212.46,
+              "end": 212.96
+            },
+            {
+              "word": " are",
+              "start": 212.96,
+              "end": 213.06
+            },
+            {
+              "word": " following",
+              "start": 213.06,
+              "end": 213.4
+            },
+            {
+              "word": " the",
+              "start": 213.4,
+              "end": 213.72
+            },
+            {
+              "word": " same",
+              "start": 213.72,
+              "end": 213.94
+            },
+            {
+              "word": " steps.",
+              "start": 213.94,
+              "end": 214.36
+            }
+          ]
+        },
+        {
+          "start": 214.94,
+          "end": 226.02,
+          "text": "From here we will have current I2 equal to under root 20 multiplied to 10 power 3 in the numerator.",
+          "words": [
+            {
+              "word": " From",
+              "start": 214.94,
+              "end": 215.32
+            },
+            {
+              "word": " here",
+              "start": 215.32,
+              "end": 215.6
+            },
+            {
+              "word": " we",
+              "start": 215.6,
+              "end": 215.76
+            },
+            {
+              "word": " will",
+              "start": 215.76,
+              "end": 215.9
+            },
+            {
+              "word": " have",
+              "start": 215.9,
+              "end": 216.28
+            },
+            {
+              "word": " current",
+              "start": 216.28,
+              "end": 217.12
+            },
+            {
+              "word": " I2",
+              "start": 217.12,
+              "end": 218.64
+            },
+            {
+              "word": " equal",
+              "start": 218.64,
+              "end": 219.54
+            },
+            {
+              "word": " to",
+              "start": 219.54,
+              "end": 220.54
+            },
+            {
+              "word": " under",
+              "start": 220.54,
+              "end": 220.82
+            },
+            {
+              "word": " root",
+              "start": 220.82,
+              "end": 221.18
+            },
+            {
+              "word": " 20",
+              "start": 221.18,
+              "end": 222.08
+            },
+            {
+              "word": " multiplied",
+              "start": 222.08,
+              "end": 222.64
+            },
+            {
+              "word": " to",
+              "start": 222.64,
+              "end": 223.08
+            },
+            {
+              "word": " 10",
+              "start": 223.08,
+              "end": 223.32
+            },
+            {
+              "word": " power",
+              "start": 223.32,
+              "end": 223.62
+            },
+            {
+              "word": " 3",
+              "start": 223.62,
+              "end": 224.02
+            },
+            {
+              "word": " in",
+              "start": 224.02,
+              "end": 225.02
+            },
+            {
+              "word": " the",
+              "start": 225.02,
+              "end": 225.26
+            },
+            {
+              "word": " numerator.",
+              "start": 225.26,
+              "end": 226.02
+            }
+          ]
+        },
+        {
+          "start": 226.98000000000002,
+          "end": 229.34,
+          "text": "And in the denominator we will have 200.",
+          "words": [
+            {
+              "word": " And",
+              "start": 226.94,
+              "end": 227.32
+            },
+            {
+              "word": " in",
+              "start": 227.32,
+              "end": 227.48
+            },
+            {
+              "word": " the",
+              "start": 227.48,
+              "end": 227.6
+            },
+            {
+              "word": " denominator",
+              "start": 227.6,
+              "end": 228.12
+            },
+            {
+              "word": " we",
+              "start": 228.12,
+              "end": 228.42
+            },
+            {
+              "word": " will",
+              "start": 228.42,
+              "end": 228.56
+            },
+            {
+              "word": " have",
+              "start": 228.56,
+              "end": 228.8
+            },
+            {
+              "word": " 200.",
+              "start": 228.8,
+              "end": 229.34
+            }
+          ]
+        },
+        {
+          "start": 229.72,
+          "end": 236.12,
+          "text": "When you solve it, you will have current I2 equal to 10 amperes.",
+          "words": [
+            {
+              "word": " When",
+              "start": 229.72,
+              "end": 230.04
+            },
+            {
+              "word": " you",
+              "start": 230.04,
+              "end": 230.18
+            },
+            {
+              "word": " solve",
+              "start": 230.18,
+              "end": 230.42
+            },
+            {
+              "word": " it,",
+              "start": 230.42,
+              "end": 230.7
+            },
+            {
+              "word": " you",
+              "start": 230.88,
+              "end": 231.0
+            },
+            {
+              "word": " will",
+              "start": 231.0,
+              "end": 231.14
+            },
+            {
+              "word": " have",
+              "start": 231.14,
+              "end": 231.56
+            },
+            {
+              "word": " current",
+              "start": 231.56,
+              "end": 232.46
+            },
+            {
+              "word": " I2",
+              "start": 232.46,
+              "end": 233.02
+            },
+            {
+              "word": " equal",
+              "start": 233.02,
+              "end": 234.0
+            },
+            {
+              "word": " to",
+              "start": 234.0,
+              "end": 234.58
+            },
+            {
+              "word": " 10",
+              "start": 234.58,
+              "end": 235.02
+            },
+            {
+              "word": " amperes.",
+              "start": 235.02,
+              "end": 236.12
+            }
+          ]
+        },
+        {
+          "start": 236.9,
+          "end": 244.44,
+          "text": "Now when you apply KVL in this loop, you will have I2, I2 which is 10 amperes equal to Vth",
+          "words": [
+            {
+              "word": " Now",
+              "start": 236.9,
+              "end": 237.1
+            },
+            {
+              "word": " when",
+              "start": 237.1,
+              "end": 237.34
+            },
+            {
+              "word": " you",
+              "start": 237.34,
+              "end": 237.44
+            },
+            {
+              "word": " apply",
+              "start": 237.44,
+              "end": 237.74
+            },
+            {
+              "word": " KVL",
+              "start": 237.74,
+              "end": 238.32
+            },
+            {
+              "word": " in",
+              "start": 238.32,
+              "end": 238.5
+            },
+            {
+              "word": " this",
+              "start": 238.5,
+              "end": 238.7
+            },
+            {
+              "word": " loop,",
+              "start": 238.7,
+              "end": 239.1
+            },
+            {
+              "word": " you",
+              "start": 239.32,
+              "end": 239.44
+            },
+            {
+              "word": " will",
+              "start": 239.44,
+              "end": 239.58
+            },
+            {
+              "word": " have",
+              "start": 239.58,
+              "end": 239.74
+            },
+            {
+              "word": " I2,",
+              "start": 239.74,
+              "end": 240.24
+            },
+            {
+              "word": " I2",
+              "start": 240.5,
+              "end": 241.02
+            },
+            {
+              "word": " which",
+              "start": 241.02,
+              "end": 241.2
+            },
+            {
+              "word": " is",
+              "start": 241.2,
+              "end": 241.4
+            },
+            {
+              "word": " 10",
+              "start": 241.4,
+              "end": 241.78
+            },
+            {
+              "word": " amperes",
+              "start": 241.78,
+              "end": 242.4
+            },
+            {
+              "word": " equal",
+              "start": 242.4,
+              "end": 242.8
+            },
+            {
+              "word": " to",
+              "start": 242.8,
+              "end": 243.92
+            },
+            {
+              "word": " Vth",
+              "start": 243.92,
+              "end": 244.44
+            }
+          ]
+        },
+        {
+          "start": 245.06,
+          "end": 249.76,
+          "text": "divided by Rth plus 200.",
+          "words": [
+            {
+              "word": " divided",
+              "start": 245.06,
+              "end": 245.52
+            },
+            {
+              "word": " by",
+              "start": 245.52,
+              "end": 246.12
+            },
+            {
+              "word": " Rth",
+              "start": 246.12,
+              "end": 247.82
+            },
+            {
+              "word": " plus",
+              "start": 247.82,
+              "end": 248.72
+            },
+            {
+              "word": " 200.",
+              "start": 248.72,
+              "end": 249.76
+            }
+          ]
+        },
+        {
+          "start": 251.12,
+          "end": 264.08,
+          "text": "From this we will have Vth equal to 10 multiplied to Rth, 10 Rth plus 10 multiplied to 200,",
+          "words": [
+            {
+              "word": " From",
+              "start": 251.12,
+              "end": 252.0
+            },
+            {
+              "word": " this",
+              "start": 252.0,
+              "end": 252.34
+            },
+            {
+              "word": " we",
+              "start": 252.34,
+              "end": 252.66
+            },
+            {
+              "word": " will",
+              "start": 252.66,
+              "end": 252.82
+            },
+            {
+              "word": " have",
+              "start": 252.82,
+              "end": 253.14
+            },
+            {
+              "word": " Vth",
+              "start": 253.14,
+              "end": 253.8
+            },
+            {
+              "word": " equal",
+              "start": 253.8,
+              "end": 255.24
+            },
+            {
+              "word": " to",
+              "start": 255.24,
+              "end": 256.56
+            },
+            {
+              "word": " 10",
+              "start": 256.56,
+              "end": 256.96
+            },
+            {
+              "word": " multiplied",
+              "start": 256.96,
+              "end": 257.6
+            },
+            {
+              "word": " to",
+              "start": 257.6,
+              "end": 258.16
+            },
+            {
+              "word": " Rth,",
+              "start": 258.16,
+              "end": 258.56
+            },
+            {
+              "word": " 10",
+              "start": 259.36,
+              "end": 259.88
+            },
+            {
+              "word": " Rth",
+              "start": 259.88,
+              "end": 261.1
+            },
+            {
+              "word": " plus",
+              "start": 261.1,
+              "end": 261.76
+            },
+            {
+              "word": " 10",
+              "start": 261.76,
+              "end": 262.44
+            },
+            {
+              "word": " multiplied",
+              "start": 262.44,
+              "end": 263.06
+            },
+            {
+              "word": " to",
+              "start": 263.06,
+              "end": 263.54
+            },
+            {
+              "word": " 200,",
+              "start": 263.54,
+              "end": 264.08
+            }
+          ]
+        },
+        {
+          "start": 264.64,
+          "end": 266.88,
+          "text": "giving us 2000.",
+          "words": [
+            {
+              "word": " giving",
+              "start": 264.64,
+              "end": 265.14
+            },
+            {
+              "word": " us",
+              "start": 265.14,
+              "end": 265.54
+            },
+            {
+              "word": " 2000.",
+              "start": 265.54,
+              "end": 266.88
+            }
+          ]
+        },
+        {
+          "start": 267.6,
+          "end": 271.66,
+          "text": "I will call it equation number two.",
+          "words": [
+            {
+              "word": " I",
+              "start": 267.6,
+              "end": 267.88
+            },
+            {
+              "word": " will",
+              "start": 267.88,
+              "end": 268.02
+            },
+            {
+              "word": " call",
+              "start": 268.02,
+              "end": 268.32
+            },
+            {
+              "word": " it",
+              "start": 268.32,
+              "end": 268.6
+            },
+            {
+              "word": " equation",
+              "start": 268.6,
+              "end": 269.12
+            },
+            {
+              "word": " number",
+              "start": 269.12,
+              "end": 270.46
+            },
+            {
+              "word": " two.",
+              "start": 270.46,
+              "end": 271.66
+            }
+          ]
+        },
+        {
+          "start": 272.42,
+          "end": 279.0,
+          "text": "In equation one, I will put Vth equal to 10 Rth plus 2000 from equation two.",
+          "words": [
+            {
+              "word": " In",
+              "start": 272.42,
+              "end": 272.68
+            },
+            {
+              "word": " equation",
+              "start": 272.68,
+              "end": 273.0
+            },
+            {
+              "word": " one,",
+              "start": 273.0,
+              "end": 273.44
+            },
+            {
+              "word": " I",
+              "start": 273.76,
+              "end": 273.88
+            },
+            {
+              "word": " will",
+              "start": 273.88,
+              "end": 274.04
+            },
+            {
+              "word": " put",
+              "start": 274.04,
+              "end": 274.28
+            },
+            {
+              "word": " Vth",
+              "start": 274.28,
+              "end": 275.0
+            },
+            {
+              "word": " equal",
+              "start": 275.0,
+              "end": 275.52
+            },
+            {
+              "word": " to",
+              "start": 275.52,
+              "end": 275.96
+            },
+            {
+              "word": " 10",
+              "start": 275.96,
+              "end": 276.2
+            },
+            {
+              "word": " Rth",
+              "start": 276.2,
+              "end": 276.62
+            },
+            {
+              "word": " plus",
+              "start": 276.62,
+              "end": 277.06
+            },
+            {
+              "word": " 2000",
+              "start": 277.06,
+              "end": 277.92
+            },
+            {
+              "word": " from",
+              "start": 277.92,
+              "end": 278.3
+            },
+            {
+              "word": " equation",
+              "start": 278.3,
+              "end": 278.66
+            },
+            {
+              "word": " two.",
+              "start": 278.66,
+              "end": 279.0
+            }
+          ]
+        },
+        {
+          "start": 279.0,
+          "end": 298.78,
+          "text": "So we will put Vth from equation number two and it will give us 10 Rth plus 2000 divided by Rth plus 50 equal to 20.",
+          "words": [
+            {
+              "word": " So",
+              "start": 279.0,
+              "end": 279.64
+            },
+            {
+              "word": " we",
+              "start": 279.64,
+              "end": 279.84
+            },
+            {
+              "word": " will",
+              "start": 279.84,
+              "end": 280.04
+            },
+            {
+              "word": " put",
+              "start": 280.04,
+              "end": 280.6
+            },
+            {
+              "word": " Vth",
+              "start": 280.6,
+              "end": 281.76
+            },
+            {
+              "word": " from",
+              "start": 281.76,
+              "end": 282.78
+            },
+            {
+              "word": " equation",
+              "start": 282.78,
+              "end": 284.16
+            },
+            {
+              "word": " number",
+              "start": 284.16,
+              "end": 285.66
+            },
+            {
+              "word": " two",
+              "start": 285.66,
+              "end": 286.3
+            },
+            {
+              "word": " and",
+              "start": 286.3,
+              "end": 286.86
+            },
+            {
+              "word": " it",
+              "start": 286.86,
+              "end": 287.02
+            },
+            {
+              "word": " will",
+              "start": 287.02,
+              "end": 287.22
+            },
+            {
+              "word": " give",
+              "start": 287.22,
+              "end": 287.6
+            },
+            {
+              "word": " us",
+              "start": 287.6,
+              "end": 287.96
+            },
+            {
+              "word": " 10",
+              "start": 287.96,
+              "end": 288.9
+            },
+            {
+              "word": " Rth",
+              "start": 288.9,
+              "end": 290.42
+            },
+            {
+              "word": " plus",
+              "start": 290.42,
+              "end": 291.38
+            },
+            {
+              "word": " 2000",
+              "start": 291.38,
+              "end": 292.62
+            },
+            {
+              "word": " divided",
+              "start": 292.62,
+              "end": 293.38
+            },
+            {
+              "word": " by",
+              "start": 293.38,
+              "end": 293.94
+            },
+            {
+              "word": " Rth",
+              "start": 293.94,
+              "end": 294.88
+            },
+            {
+              "word": " plus",
+              "start": 294.88,
+              "end": 295.4
+            },
+            {
+              "word": " 50",
+              "start": 295.4,
+              "end": 296.04
+            },
+            {
+              "word": " equal",
+              "start": 296.04,
+              "end": 297.32
+            },
+            {
+              "word": " to",
+              "start": 297.32,
+              "end": 298.36
+            },
+            {
+              "word": " 20.",
+              "start": 298.36,
+              "end": 298.78
+            }
+          ]
+        },
+        {
+          "start": 300.48,
+          "end": 302.16,
+          "text": "From this we will have Rth.",
+          "words": [
+            {
+              "word": " From",
+              "start": 300.18,
+              "end": 300.8
+            },
+            {
+              "word": " this",
+              "start": 300.8,
+              "end": 301.12
+            },
+            {
+              "word": " we",
+              "start": 301.12,
+              "end": 301.42
+            },
+            {
+              "word": " will",
+              "start": 301.42,
+              "end": 301.56
+            },
+            {
+              "word": " have",
+              "start": 301.56,
+              "end": 301.7
+            },
+            {
+              "word": " Rth.",
+              "start": 301.7,
+              "end": 302.16
+            }
+          ]
+        },
+        {
+          "start": 302.72,
+          "end": 308.22,
+          "text": "Rth will be equal to 100 ohms.",
+          "words": [
+            {
+              "word": " Rth",
+              "start": 302.72,
+              "end": 303.26
+            },
+            {
+              "word": " will",
+              "start": 303.26,
+              "end": 304.4
+            },
+            {
+              "word": " be",
+              "start": 304.4,
+              "end": 304.64
+            },
+            {
+              "word": " equal",
+              "start": 304.64,
+              "end": 305.08
+            },
+            {
+              "word": " to",
+              "start": 305.08,
+              "end": 305.94
+            },
+            {
+              "word": " 100",
+              "start": 305.94,
+              "end": 306.62
+            },
+            {
+              "word": " ohms.",
+              "start": 306.62,
+              "end": 308.22
+            }
+          ]
+        },
+        {
+          "start": 309.0,
+          "end": 312.06,
+          "text": "So in this way we now have Rth.",
+          "words": [
+            {
+              "word": " So",
+              "start": 309.0,
+              "end": 309.48
+            },
+            {
+              "word": " in",
+              "start": 309.48,
+              "end": 309.62
+            },
+            {
+              "word": " this",
+              "start": 309.62,
+              "end": 309.76
+            },
+            {
+              "word": " way",
+              "start": 309.76,
+              "end": 309.96
+            },
+            {
+              "word": " we",
+              "start": 309.96,
+              "end": 310.12
+            },
+            {
+              "word": " now",
+              "start": 310.12,
+              "end": 310.3
+            },
+            {
+              "word": " have",
+              "start": 310.3,
+              "end": 310.68
+            },
+            {
+              "word": " Rth.",
+              "start": 310.68,
+              "end": 312.06
+            }
+          ]
+        },
+        {
+          "start": 312.48,
+          "end": 314.88,
+          "text": "Now we will focus on finding out Vth.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 312.48,
+              "end": 312.72
+            },
+            {
+              "word": " we",
+              "start": 312.72,
+              "end": 312.88
+            },
+            {
+              "word": " will",
+              "start": 312.88,
+              "end": 313.0
+            },
+            {
+              "word": " focus",
+              "start": 313.0,
+              "end": 313.24
+            },
+            {
+              "word": " on",
+              "start": 313.24,
+              "end": 313.58
+            },
+            {
+              "word": " finding",
+              "start": 313.58,
+              "end": 313.98
+            },
+            {
+              "word": " out",
+              "start": 313.98,
+              "end": 314.28
+            },
+            {
+              "word": " Vth.",
+              "start": 314.28,
+              "end": 314.88
+            }
+          ]
+        },
+        {
+          "start": 315.58,
+          "end": 319.24,
+          "text": "I will put Rth equal to 100 ohms here.",
+          "words": [
+            {
+              "word": " I",
+              "start": 315.58,
+              "end": 316.0
+            },
+            {
+              "word": " will",
+              "start": 316.0,
+              "end": 316.14
+            },
+            {
+              "word": " put",
+              "start": 316.14,
+              "end": 316.42
+            },
+            {
+              "word": " Rth",
+              "start": 316.42,
+              "end": 317.04
+            },
+            {
+              "word": " equal",
+              "start": 317.04,
+              "end": 317.66
+            },
+            {
+              "word": " to",
+              "start": 317.66,
+              "end": 318.08
+            },
+            {
+              "word": " 100",
+              "start": 318.08,
+              "end": 318.36
+            },
+            {
+              "word": " ohms",
+              "start": 318.36,
+              "end": 318.78
+            },
+            {
+              "word": " here.",
+              "start": 318.78,
+              "end": 319.24
+            }
+          ]
+        },
+        {
+          "start": 320.0,
+          "end": 328.6,
+          "text": "In equation number two, this will give us Vth equal to 3000 volts.",
+          "words": [
+            {
+              "word": " In",
+              "start": 320.0,
+              "end": 320.24
+            },
+            {
+              "word": " equation",
+              "start": 320.24,
+              "end": 320.58
+            },
+            {
+              "word": " number",
+              "start": 320.58,
+              "end": 320.96
+            },
+            {
+              "word": " two,",
+              "start": 320.96,
+              "end": 321.32
+            },
+            {
+              "word": " this",
+              "start": 321.78,
+              "end": 322.06
+            },
+            {
+              "word": " will",
+              "start": 322.06,
+              "end": 322.38
+            },
+            {
+              "word": " give",
+              "start": 322.38,
+              "end": 322.9
+            },
+            {
+              "word": " us",
+              "start": 322.9,
+              "end": 323.2
+            },
+            {
+              "word": " Vth",
+              "start": 323.2,
+              "end": 323.98
+            },
+            {
+              "word": " equal",
+              "start": 323.98,
+              "end": 324.72
+            },
+            {
+              "word": " to",
+              "start": 324.72,
+              "end": 325.38
+            },
+            {
+              "word": " 3000",
+              "start": 325.38,
+              "end": 326.58
+            },
+            {
+              "word": " volts.",
+              "start": 326.58,
+              "end": 328.6
+            }
+          ]
+        },
+        {
+          "start": 329.28,
+          "end": 332.54,
+          "text": "So now we have Vth as well.",
+          "words": [
+            {
+              "word": " So",
+              "start": 329.28,
+              "end": 329.64
+            },
+            {
+              "word": " now",
+              "start": 329.64,
+              "end": 329.88
+            },
+            {
+              "word": " we",
+              "start": 329.88,
+              "end": 330.2
+            },
+            {
+              "word": " have",
+              "start": 330.2,
+              "end": 330.56
+            },
+            {
+              "word": " Vth",
+              "start": 330.56,
+              "end": 331.76
+            },
+            {
+              "word": " as",
+              "start": 331.76,
+              "end": 332.24
+            },
+            {
+              "word": " well.",
+              "start": 332.24,
+              "end": 332.54
+            }
+          ]
+        },
+        {
+          "start": 332.54,
+          "end": 350.32,
+          "text": "So the maximum power that can be drawn from the practical DC source we have, Pmax will be equal to 3000 volts squared divided by 4 multiplied to Rth which is 100.",
+          "words": [
+            {
+              "word": " So",
+              "start": 332.54,
+              "end": 333.28
+            },
+            {
+              "word": " the",
+              "start": 333.28,
+              "end": 333.46
+            },
+            {
+              "word": " maximum",
+              "start": 333.46,
+              "end": 333.8
+            },
+            {
+              "word": " power",
+              "start": 333.8,
+              "end": 334.3
+            },
+            {
+              "word": " that",
+              "start": 334.3,
+              "end": 334.7
+            },
+            {
+              "word": " can",
+              "start": 334.7,
+              "end": 335.1
+            },
+            {
+              "word": " be",
+              "start": 335.1,
+              "end": 335.26
+            },
+            {
+              "word": " drawn",
+              "start": 335.26,
+              "end": 335.6
+            },
+            {
+              "word": " from",
+              "start": 335.6,
+              "end": 335.96
+            },
+            {
+              "word": " the",
+              "start": 335.96,
+              "end": 336.22
+            },
+            {
+              "word": " practical",
+              "start": 336.22,
+              "end": 336.78
+            },
+            {
+              "word": " DC",
+              "start": 336.78,
+              "end": 337.14
+            },
+            {
+              "word": " source",
+              "start": 337.14,
+              "end": 337.58
+            },
+            {
+              "word": " we",
+              "start": 337.58,
+              "end": 337.78
+            },
+            {
+              "word": " have,",
+              "start": 337.78,
+              "end": 338.16
+            },
+            {
+              "word": " Pmax",
+              "start": 338.72,
+              "end": 340.58
+            },
+            {
+              "word": " will",
+              "start": 340.58,
+              "end": 341.3
+            },
+            {
+              "word": " be",
+              "start": 341.3,
+              "end": 341.52
+            },
+            {
+              "word": " equal",
+              "start": 341.52,
+              "end": 341.92
+            },
+            {
+              "word": " to",
+              "start": 341.92,
+              "end": 343.0
+            },
+            {
+              "word": " 3000",
+              "start": 343.0,
+              "end": 343.64
+            },
+            {
+              "word": " volts",
+              "start": 343.64,
+              "end": 344.08
+            },
+            {
+              "word": " squared",
+              "start": 344.08,
+              "end": 345.08
+            },
+            {
+              "word": " divided",
+              "start": 345.08,
+              "end": 346.02
+            },
+            {
+              "word": " by",
+              "start": 346.02,
+              "end": 346.6
+            },
+            {
+              "word": " 4",
+              "start": 346.6,
+              "end": 347.56
+            },
+            {
+              "word": " multiplied",
+              "start": 347.56,
+              "end": 348.26
+            },
+            {
+              "word": " to",
+              "start": 348.26,
+              "end": 348.78
+            },
+            {
+              "word": " Rth",
+              "start": 348.78,
+              "end": 349.14
+            },
+            {
+              "word": " which",
+              "start": 349.14,
+              "end": 349.58
+            },
+            {
+              "word": " is",
+              "start": 349.58,
+              "end": 349.84
+            },
+            {
+              "word": " 100.",
+              "start": 349.84,
+              "end": 350.32
+            }
+          ]
+        },
+        {
+          "start": 350.82,
+          "end": 353.84,
+          "text": "So we have 400 in the denominator.",
+          "words": [
+            {
+              "word": " So",
+              "start": 350.82,
+              "end": 351.24
+            },
+            {
+              "word": " we",
+              "start": 351.24,
+              "end": 351.48
+            },
+            {
+              "word": " have",
+              "start": 351.48,
+              "end": 351.8
+            },
+            {
+              "word": " 400",
+              "start": 351.8,
+              "end": 352.74
+            },
+            {
+              "word": " in",
+              "start": 352.74,
+              "end": 353.14
+            },
+            {
+              "word": " the",
+              "start": 353.14,
+              "end": 353.26
+            },
+            {
+              "word": " denominator.",
+              "start": 353.26,
+              "end": 353.84
+            }
+          ]
+        },
+        {
+          "start": 353.84,
+          "end": 375.52,
+          "text": "When you simplify it, you will have Pmax equal to 22,500 watts or we can write the maximum power will be 22.5 kilowatts.",
+          "words": [
+            {
+              "word": " When",
+              "start": 353.84,
+              "end": 354.42
+            },
+            {
+              "word": " you",
+              "start": 354.42,
+              "end": 354.54
+            },
+            {
+              "word": " simplify",
+              "start": 354.54,
+              "end": 354.94
+            },
+            {
+              "word": " it,",
+              "start": 354.94,
+              "end": 355.28
+            },
+            {
+              "word": " you",
+              "start": 355.4,
+              "end": 355.52
+            },
+            {
+              "word": " will",
+              "start": 355.52,
+              "end": 355.68
+            },
+            {
+              "word": " have",
+              "start": 355.68,
+              "end": 356.04
+            },
+            {
+              "word": " Pmax",
+              "start": 356.04,
+              "end": 357.86
+            },
+            {
+              "word": " equal",
+              "start": 357.86,
+              "end": 358.86
+            },
+            {
+              "word": " to",
+              "start": 358.86,
+              "end": 359.96
+            },
+            {
+              "word": " 22",
+              "start": 359.96,
+              "end": 360.94
+            },
+            {
+              "word": ",500",
+              "start": 360.94,
+              "end": 363.4
+            },
+            {
+              "word": " watts",
+              "start": 363.4,
+              "end": 365.0
+            },
+            {
+              "word": " or",
+              "start": 365.0,
+              "end": 365.88
+            },
+            {
+              "word": " we",
+              "start": 365.88,
+              "end": 366.02
+            },
+            {
+              "word": " can",
+              "start": 366.02,
+              "end": 366.2
+            },
+            {
+              "word": " write",
+              "start": 366.2,
+              "end": 366.48
+            },
+            {
+              "word": " the",
+              "start": 366.48,
+              "end": 367.32
+            },
+            {
+              "word": " maximum",
+              "start": 367.32,
+              "end": 367.8
+            },
+            {
+              "word": " power",
+              "start": 367.8,
+              "end": 369.14
+            },
+            {
+              "word": " will",
+              "start": 369.14,
+              "end": 369.88
+            },
+            {
+              "word": " be",
+              "start": 369.88,
+              "end": 370.14
+            },
+            {
+              "word": " 22",
+              "start": 370.14,
+              "end": 371.56
+            },
+            {
+              "word": ".5",
+              "start": 371.56,
+              "end": 373.16
+            },
+            {
+              "word": " kilowatts.",
+              "start": 373.16,
+              "end": 375.52
+            }
+          ]
+        },
+        {
+          "start": 375.7,
+          "end": 376.98,
+          "text": "This is our answer.",
+          "words": [
+            {
+              "word": " This",
+              "start": 375.7,
+              "end": 375.92
+            },
+            {
+              "word": " is",
+              "start": 375.92,
+              "end": 376.14
+            },
+            {
+              "word": " our",
+              "start": 376.14,
+              "end": 376.58
+            },
+            {
+              "word": " answer.",
+              "start": 376.58,
+              "end": 376.98
+            }
+          ]
+        },
+        {
+          "start": 384.02000000000004,
+          "end": 385.5,
+          "text": "Thank you.",
+          "words": [
+            {
+              "word": " Thank",
+              "start": 384.02000000000004,
+              "end": 385.42
+            },
+            {
+              "word": " you.",
+              "start": 385.42,
+              "end": 385.5
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_159\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 188.69,
+        "path": "data/processed\\lecture_159\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 373.51,
+        "path": "data/processed\\lecture_159\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 380.28,
+        "path": "data/processed\\lecture_159\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 381.25,
+        "path": "data/processed\\lecture_159\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 390.92,
+        "path": "data/processed\\lecture_159\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 6,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "concepts": [
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 2,
+        "timestamp": 373.51,
+        "concepts": [
+          "Scientific Diagram",
+          "Scientific Equation",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

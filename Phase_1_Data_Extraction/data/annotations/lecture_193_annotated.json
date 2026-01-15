@@ -1,0 +1,6059 @@
+{
+  "video_id": "lecture_203",
+  "metadata": {
+    "original_path": "C:\\Users\\Shubham Sunil Shinde\\Desktop\\TY\\s2\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\C_Blecture02.mp4",
+    "duration": 0.0,
+    "fps": 25.0,
+    "resolution": "640x360",
+    "processing_date": "2026-01-06T17:38:47.248699",
+    "subject": "Biology",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_203\\audio.wav",
+    "transcript": {
+      "text": " Now we're going to talk about one of the most important muscles in the entire body, the diaphragm. It's so important because the diaphragm is the muscle that primarily helps us breathe. It's also what separates the thorax from the abdomen. In fact, fram means fence. So it's essentially the fence that separates the thorax from its next door neighbor, the abdomen. The diaphragm is kind of a complicated shape and there's a lot going on. So use yours to take a deep breath and we'll dive right in. The diaphragm occupies and seals off essentially the inferior thoracic aperture. Therefore, all of its attachments are going to mirror the borders of the inferior thoracic aperture. For example, we'll have the xiphoid part where it's joined to the xiphoid process, the costal part where it's joined to rib 7 through 12, and the lumbar part, down where it attaches to the lumbar vertebra L1 to L3. If we look from above, if we have a superior view looking down on the diaphragm, we see that this sort of dome-shaped muscle has fibers that travel centrally. And they meet up at this large, flat sheet, sometimes called an aponeurosis, but specifically here called the central tendon. And so as these fibers contract, it will draw the diaphragm inferiorly, which will increase the thoracic cavity volume, which will lower the pressure and will subsequently cause the lungs to expand. And so that's how the diaphragm helps us breathe. Now, it's great that it fills the entire inferior thoracic aperture, but there are some structures that still need to pass between the thorax and the abdomen. So we have some openings. We see one right here in the central tendon called the cable opening. And it's called that because that's where the inferior vena cava is going to pass through to reach the right atrium. Just to the left and posterior to that, we have another opening, and that's the esophageal hiatus, where the esophagus is going to pass through on its way to the stomach. And then most posteriorly, we have this hole here, which is the aortic hiatus, where the thoracic aorta is going to pass through, and then on the other side turn into the abdominal aorta. Now let's look at those openings from below. So if we look from below, from the abdomen's point of view, we again see the cable opening. And for reference to give you an idea roughly of where we're at, we're at about the T8 vertebral level. And as the name implies, the inferior vena cava is going to pass through there. We're also going to have some branches of the right phrenic nerve taking advantage of this opening. Just to the left and posterior is that other opening. About the T10 level, that's the esophageal hiatus, where the esophagus is going to pass through. And we're also going to have some trunks of the vagus nerve. Then finally, most posteriorly, we have that aortic hiatus all the way down at around the T12 level, where the aorta is going to transition from being a thoracic aorta to an abdominal aorta. And it's also where the thoracic duct is going to be passing from the abdomen up into the thorax. If we focus a little bit more on the inferior and posterior portions of the diaphragm, we see some weird stuff going on. We have what are called crura. Crura just means legs. And we have a right leg or a right crus and a left leg or a left crus on either side of the inferior most portion of the diaphragm here. And if we zoom in in that area and we look at the area of the diaphragm, especially around the esophageal hiatus where the esophagus is coming through, we see it kind of divides. We see some of that dividing into one leg off to the right, the right crus, and then the other off to the left, which is called the left crus. There's this weird little thing happening off of the right crus. We see some of it going over and around and past the celiac trunk of the abdominal aorta on its way to a portion of the intestine called the duodenum. And that's why this funny little muscle is called the suspensory muscle of the duodenum, or you may have heard it by its eponym, the ligament of trites. If you've had embryology, you've probably heard of this as an important landmark for rotation of the gut, but it's also an important landmark in just anatomic sense because this is what we generally say divides the GI tract into upper and lower. So for example, if you're saying an upper GI bleed versus a lower GI bleed, this is the point where we're talking about upper becomes lower. All right, so let's talk about the innervation a little bit. So we have the phrenic nerves, and the phrenic nerves originate up in the neck and travel down through the mediastinum on their way to the diaphragm to provide motor innervation there. But we also see as it's going through the mediastinum, it's giving off branches. And we see, for example, there's some pericardial branches here. And so there's going to be a lot of sensory innervation provided by the phrenic nerves before they reach the diaphragm to provide motor innervation. And they're going to go all the way to the undersurface or the abdominal surface where they're going to terminate as phrenicobdominal branches, very appropriately named. Sometimes there can even be a little ganglion called the phrenic ganglion that will communicate with the celiac ganglion down in the abdomen.",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 4.36,
+          "text": "Now we're going to talk about one of the most important muscles in the entire body,",
+          "words": [
+            {
+              "word": " Now",
+              "start": 0.0,
+              "end": 1.12
+            },
+            {
+              "word": " we're",
+              "start": 1.12,
+              "end": 1.24
+            },
+            {
+              "word": " going",
+              "start": 1.24,
+              "end": 1.32
+            },
+            {
+              "word": " to",
+              "start": 1.32,
+              "end": 1.38
+            },
+            {
+              "word": " talk",
+              "start": 1.38,
+              "end": 1.54
+            },
+            {
+              "word": " about",
+              "start": 1.54,
+              "end": 1.72
+            },
+            {
+              "word": " one",
+              "start": 1.72,
+              "end": 1.9
+            },
+            {
+              "word": " of",
+              "start": 1.9,
+              "end": 1.96
+            },
+            {
+              "word": " the",
+              "start": 1.96,
+              "end": 2.04
+            },
+            {
+              "word": " most",
+              "start": 2.04,
+              "end": 2.2
+            },
+            {
+              "word": " important",
+              "start": 2.2,
+              "end": 2.6
+            },
+            {
+              "word": " muscles",
+              "start": 2.6,
+              "end": 2.96
+            },
+            {
+              "word": " in",
+              "start": 2.96,
+              "end": 3.5
+            },
+            {
+              "word": " the",
+              "start": 3.5,
+              "end": 3.66
+            },
+            {
+              "word": " entire",
+              "start": 3.66,
+              "end": 4.0
+            },
+            {
+              "word": " body,",
+              "start": 4.0,
+              "end": 4.36
+            }
+          ]
+        },
+        {
+          "start": 5.06,
+          "end": 6.02,
+          "text": "the diaphragm.",
+          "words": [
+            {
+              "word": " the",
+              "start": 5.06,
+              "end": 5.12
+            },
+            {
+              "word": " diaphragm.",
+              "start": 5.12,
+              "end": 6.02
+            }
+          ]
+        },
+        {
+          "start": 6.58,
+          "end": 10.88,
+          "text": "It's so important because the diaphragm is the muscle that primarily helps us breathe.",
+          "words": [
+            {
+              "word": " It's",
+              "start": 6.58,
+              "end": 6.92
+            },
+            {
+              "word": " so",
+              "start": 6.92,
+              "end": 7.08
+            },
+            {
+              "word": " important",
+              "start": 7.08,
+              "end": 7.38
+            },
+            {
+              "word": " because",
+              "start": 7.38,
+              "end": 7.56
+            },
+            {
+              "word": " the",
+              "start": 7.56,
+              "end": 7.72
+            },
+            {
+              "word": " diaphragm",
+              "start": 7.72,
+              "end": 8.32
+            },
+            {
+              "word": " is",
+              "start": 8.32,
+              "end": 8.42
+            },
+            {
+              "word": " the",
+              "start": 8.42,
+              "end": 8.54
+            },
+            {
+              "word": " muscle",
+              "start": 8.54,
+              "end": 8.86
+            },
+            {
+              "word": " that",
+              "start": 8.86,
+              "end": 9.42
+            },
+            {
+              "word": " primarily",
+              "start": 9.42,
+              "end": 9.82
+            },
+            {
+              "word": " helps",
+              "start": 9.82,
+              "end": 10.18
+            },
+            {
+              "word": " us",
+              "start": 10.18,
+              "end": 10.36
+            },
+            {
+              "word": " breathe.",
+              "start": 10.36,
+              "end": 10.88
+            }
+          ]
+        },
+        {
+          "start": 11.7,
+          "end": 14.44,
+          "text": "It's also what separates the thorax from the abdomen.",
+          "words": [
+            {
+              "word": " It's",
+              "start": 11.7,
+              "end": 11.92
+            },
+            {
+              "word": " also",
+              "start": 11.92,
+              "end": 12.26
+            },
+            {
+              "word": " what",
+              "start": 12.26,
+              "end": 12.46
+            },
+            {
+              "word": " separates",
+              "start": 12.46,
+              "end": 12.84
+            },
+            {
+              "word": " the",
+              "start": 12.84,
+              "end": 13.2
+            },
+            {
+              "word": " thorax",
+              "start": 13.2,
+              "end": 13.66
+            },
+            {
+              "word": " from",
+              "start": 13.66,
+              "end": 13.9
+            },
+            {
+              "word": " the",
+              "start": 13.9,
+              "end": 14.02
+            },
+            {
+              "word": " abdomen.",
+              "start": 14.02,
+              "end": 14.44
+            }
+          ]
+        },
+        {
+          "start": 15.34,
+          "end": 17.26,
+          "text": "In fact, fram means fence.",
+          "words": [
+            {
+              "word": " In",
+              "start": 15.34,
+              "end": 15.42
+            },
+            {
+              "word": " fact,",
+              "start": 15.42,
+              "end": 15.64
+            },
+            {
+              "word": " fram",
+              "start": 15.82,
+              "end": 16.26
+            },
+            {
+              "word": " means",
+              "start": 16.26,
+              "end": 16.72
+            },
+            {
+              "word": " fence.",
+              "start": 16.72,
+              "end": 17.26
+            }
+          ]
+        },
+        {
+          "start": 17.88,
+          "end": 22.64,
+          "text": "So it's essentially the fence that separates the thorax from its next door neighbor, the",
+          "words": [
+            {
+              "word": " So",
+              "start": 17.88,
+              "end": 18.02
+            },
+            {
+              "word": " it's",
+              "start": 18.02,
+              "end": 18.24
+            },
+            {
+              "word": " essentially",
+              "start": 18.24,
+              "end": 18.6
+            },
+            {
+              "word": " the",
+              "start": 18.6,
+              "end": 18.78
+            },
+            {
+              "word": " fence",
+              "start": 18.78,
+              "end": 19.2
+            },
+            {
+              "word": " that",
+              "start": 19.2,
+              "end": 19.66
+            },
+            {
+              "word": " separates",
+              "start": 19.66,
+              "end": 20.34
+            },
+            {
+              "word": " the",
+              "start": 20.34,
+              "end": 20.62
+            },
+            {
+              "word": " thorax",
+              "start": 20.62,
+              "end": 21.04
+            },
+            {
+              "word": " from",
+              "start": 21.04,
+              "end": 21.26
+            },
+            {
+              "word": " its",
+              "start": 21.26,
+              "end": 21.4
+            },
+            {
+              "word": " next",
+              "start": 21.4,
+              "end": 21.6
+            },
+            {
+              "word": " door",
+              "start": 21.6,
+              "end": 21.78
+            },
+            {
+              "word": " neighbor,",
+              "start": 21.78,
+              "end": 22.02
+            },
+            {
+              "word": " the",
+              "start": 22.54,
+              "end": 22.64
+            }
+          ]
+        },
+        {
+          "start": 22.64,
+          "end": 22.96,
+          "text": "abdomen.",
+          "words": [
+            {
+              "word": " abdomen.",
+              "start": 22.64,
+              "end": 22.96
+            }
+          ]
+        },
+        {
+          "start": 24.82,
+          "end": 29.12,
+          "text": "The diaphragm is kind of a complicated shape and there's a lot going on.",
+          "words": [
+            {
+              "word": " The",
+              "start": 24.599999999999998,
+              "end": 24.9
+            },
+            {
+              "word": " diaphragm",
+              "start": 24.9,
+              "end": 25.5
+            },
+            {
+              "word": " is",
+              "start": 25.5,
+              "end": 25.88
+            },
+            {
+              "word": " kind",
+              "start": 25.88,
+              "end": 26.52
+            },
+            {
+              "word": " of",
+              "start": 26.52,
+              "end": 26.62
+            },
+            {
+              "word": " a",
+              "start": 26.62,
+              "end": 26.74
+            },
+            {
+              "word": " complicated",
+              "start": 26.74,
+              "end": 27.14
+            },
+            {
+              "word": " shape",
+              "start": 27.14,
+              "end": 27.74
+            },
+            {
+              "word": " and",
+              "start": 27.74,
+              "end": 28.12
+            },
+            {
+              "word": " there's",
+              "start": 28.12,
+              "end": 28.32
+            },
+            {
+              "word": " a",
+              "start": 28.32,
+              "end": 28.38
+            },
+            {
+              "word": " lot",
+              "start": 28.38,
+              "end": 28.56
+            },
+            {
+              "word": " going",
+              "start": 28.56,
+              "end": 28.84
+            },
+            {
+              "word": " on.",
+              "start": 28.84,
+              "end": 29.12
+            }
+          ]
+        },
+        {
+          "start": 29.12,
+          "end": 32.42,
+          "text": "So use yours to take a deep breath and we'll dive right in.",
+          "words": [
+            {
+              "word": " So",
+              "start": 29.12,
+              "end": 29.44
+            },
+            {
+              "word": " use",
+              "start": 29.44,
+              "end": 29.86
+            },
+            {
+              "word": " yours",
+              "start": 29.86,
+              "end": 30.16
+            },
+            {
+              "word": " to",
+              "start": 30.16,
+              "end": 30.36
+            },
+            {
+              "word": " take",
+              "start": 30.36,
+              "end": 30.6
+            },
+            {
+              "word": " a",
+              "start": 30.6,
+              "end": 30.72
+            },
+            {
+              "word": " deep",
+              "start": 30.72,
+              "end": 30.8
+            },
+            {
+              "word": " breath",
+              "start": 30.8,
+              "end": 31.08
+            },
+            {
+              "word": " and",
+              "start": 31.08,
+              "end": 31.6
+            },
+            {
+              "word": " we'll",
+              "start": 31.6,
+              "end": 31.76
+            },
+            {
+              "word": " dive",
+              "start": 31.76,
+              "end": 31.96
+            },
+            {
+              "word": " right",
+              "start": 31.96,
+              "end": 32.16
+            },
+            {
+              "word": " in.",
+              "start": 32.16,
+              "end": 32.42
+            }
+          ]
+        },
+        {
+          "start": 33.300000000000004,
+          "end": 39.72,
+          "text": "The diaphragm occupies and seals off essentially the inferior thoracic aperture.",
+          "words": [
+            {
+              "word": " The",
+              "start": 33.300000000000004,
+              "end": 33.92
+            },
+            {
+              "word": " diaphragm",
+              "start": 33.92,
+              "end": 34.54
+            },
+            {
+              "word": " occupies",
+              "start": 34.54,
+              "end": 35.24
+            },
+            {
+              "word": " and",
+              "start": 35.24,
+              "end": 35.42
+            },
+            {
+              "word": " seals",
+              "start": 35.42,
+              "end": 35.66
+            },
+            {
+              "word": " off",
+              "start": 35.66,
+              "end": 35.9
+            },
+            {
+              "word": " essentially",
+              "start": 35.9,
+              "end": 36.44
+            },
+            {
+              "word": " the",
+              "start": 36.44,
+              "end": 37.3
+            },
+            {
+              "word": " inferior",
+              "start": 37.3,
+              "end": 38.24
+            },
+            {
+              "word": " thoracic",
+              "start": 38.24,
+              "end": 39.26
+            },
+            {
+              "word": " aperture.",
+              "start": 39.26,
+              "end": 39.72
+            }
+          ]
+        },
+        {
+          "start": 40.66,
+          "end": 44.84,
+          "text": "Therefore, all of its attachments are going to mirror the borders of the inferior thoracic",
+          "words": [
+            {
+              "word": " Therefore,",
+              "start": 40.66,
+              "end": 41.04
+            },
+            {
+              "word": " all",
+              "start": 41.2,
+              "end": 41.46
+            },
+            {
+              "word": " of",
+              "start": 41.46,
+              "end": 41.54
+            },
+            {
+              "word": " its",
+              "start": 41.54,
+              "end": 41.64
+            },
+            {
+              "word": " attachments",
+              "start": 41.64,
+              "end": 42.06
+            },
+            {
+              "word": " are",
+              "start": 42.06,
+              "end": 42.4
+            },
+            {
+              "word": " going",
+              "start": 42.4,
+              "end": 42.54
+            },
+            {
+              "word": " to",
+              "start": 42.54,
+              "end": 42.6
+            },
+            {
+              "word": " mirror",
+              "start": 42.6,
+              "end": 42.88
+            },
+            {
+              "word": " the",
+              "start": 42.88,
+              "end": 43.12
+            },
+            {
+              "word": " borders",
+              "start": 43.12,
+              "end": 43.38
+            },
+            {
+              "word": " of",
+              "start": 43.38,
+              "end": 43.7
+            },
+            {
+              "word": " the",
+              "start": 43.7,
+              "end": 43.84
+            },
+            {
+              "word": " inferior",
+              "start": 43.84,
+              "end": 44.28
+            },
+            {
+              "word": " thoracic",
+              "start": 44.28,
+              "end": 44.84
+            }
+          ]
+        },
+        {
+          "start": 44.84,
+          "end": 45.3,
+          "text": "aperture.",
+          "words": [
+            {
+              "word": " aperture.",
+              "start": 44.84,
+              "end": 45.3
+            }
+          ]
+        },
+        {
+          "start": 46.620000000000005,
+          "end": 51.1,
+          "text": "For example, we'll have the xiphoid part where it's joined to the xiphoid process,",
+          "words": [
+            {
+              "word": " For",
+              "start": 46.37,
+              "end": 46.68
+            },
+            {
+              "word": " example,",
+              "start": 46.68,
+              "end": 47.04
+            },
+            {
+              "word": " we'll",
+              "start": 47.32,
+              "end": 47.8
+            },
+            {
+              "word": " have",
+              "start": 47.8,
+              "end": 48.02
+            },
+            {
+              "word": " the",
+              "start": 48.02,
+              "end": 48.18
+            },
+            {
+              "word": " xiphoid",
+              "start": 48.18,
+              "end": 48.58
+            },
+            {
+              "word": " part",
+              "start": 48.58,
+              "end": 48.88
+            },
+            {
+              "word": " where",
+              "start": 48.88,
+              "end": 49.12
+            },
+            {
+              "word": " it's",
+              "start": 49.12,
+              "end": 49.5
+            },
+            {
+              "word": " joined",
+              "start": 49.5,
+              "end": 49.82
+            },
+            {
+              "word": " to",
+              "start": 49.82,
+              "end": 50.12
+            },
+            {
+              "word": " the",
+              "start": 50.12,
+              "end": 50.22
+            },
+            {
+              "word": " xiphoid",
+              "start": 50.22,
+              "end": 50.66
+            },
+            {
+              "word": " process,",
+              "start": 50.66,
+              "end": 51.1
+            }
+          ]
+        },
+        {
+          "start": 52.06,
+          "end": 55.4,
+          "text": "the costal part where it's joined to rib 7 through 12,",
+          "words": [
+            {
+              "word": " the",
+              "start": 52.06,
+              "end": 52.7
+            },
+            {
+              "word": " costal",
+              "start": 52.7,
+              "end": 53.1
+            },
+            {
+              "word": " part",
+              "start": 53.1,
+              "end": 53.34
+            },
+            {
+              "word": " where",
+              "start": 53.34,
+              "end": 53.64
+            },
+            {
+              "word": " it's",
+              "start": 53.64,
+              "end": 53.8
+            },
+            {
+              "word": " joined",
+              "start": 53.8,
+              "end": 54.06
+            },
+            {
+              "word": " to",
+              "start": 54.06,
+              "end": 54.3
+            },
+            {
+              "word": " rib",
+              "start": 54.3,
+              "end": 54.4
+            },
+            {
+              "word": " 7",
+              "start": 54.4,
+              "end": 54.74
+            },
+            {
+              "word": " through",
+              "start": 54.74,
+              "end": 54.94
+            },
+            {
+              "word": " 12,",
+              "start": 54.94,
+              "end": 55.4
+            }
+          ]
+        },
+        {
+          "start": 56.62,
+          "end": 62.6,
+          "text": "and the lumbar part, down where it attaches to the lumbar vertebra L1 to L3.",
+          "words": [
+            {
+              "word": " and",
+              "start": 56.62,
+              "end": 57.26
+            },
+            {
+              "word": " the",
+              "start": 57.26,
+              "end": 57.52
+            },
+            {
+              "word": " lumbar",
+              "start": 57.52,
+              "end": 58.02
+            },
+            {
+              "word": " part,",
+              "start": 58.02,
+              "end": 58.34
+            },
+            {
+              "word": " down",
+              "start": 59.02,
+              "end": 59.32
+            },
+            {
+              "word": " where",
+              "start": 59.32,
+              "end": 59.46
+            },
+            {
+              "word": " it",
+              "start": 59.46,
+              "end": 59.56
+            },
+            {
+              "word": " attaches",
+              "start": 59.56,
+              "end": 59.94
+            },
+            {
+              "word": " to",
+              "start": 59.94,
+              "end": 60.38
+            },
+            {
+              "word": " the",
+              "start": 60.38,
+              "end": 60.68
+            },
+            {
+              "word": " lumbar",
+              "start": 60.68,
+              "end": 61.0
+            },
+            {
+              "word": " vertebra",
+              "start": 61.0,
+              "end": 61.38
+            },
+            {
+              "word": " L1",
+              "start": 61.38,
+              "end": 61.98
+            },
+            {
+              "word": " to",
+              "start": 61.98,
+              "end": 62.2
+            },
+            {
+              "word": " L3.",
+              "start": 62.2,
+              "end": 62.6
+            }
+          ]
+        },
+        {
+          "start": 64.14,
+          "end": 70.02,
+          "text": "If we look from above, if we have a superior view looking down on the diaphragm, we see",
+          "words": [
+            {
+              "word": " If",
+              "start": 64.14,
+              "end": 64.78
+            },
+            {
+              "word": " we",
+              "start": 64.78,
+              "end": 64.88
+            },
+            {
+              "word": " look",
+              "start": 64.88,
+              "end": 65.08
+            },
+            {
+              "word": " from",
+              "start": 65.08,
+              "end": 65.36
+            },
+            {
+              "word": " above,",
+              "start": 65.36,
+              "end": 65.82
+            },
+            {
+              "word": " if",
+              "start": 66.24,
+              "end": 66.36
+            },
+            {
+              "word": " we",
+              "start": 66.36,
+              "end": 66.44
+            },
+            {
+              "word": " have",
+              "start": 66.44,
+              "end": 66.5
+            },
+            {
+              "word": " a",
+              "start": 66.5,
+              "end": 66.58
+            },
+            {
+              "word": " superior",
+              "start": 66.58,
+              "end": 67.1
+            },
+            {
+              "word": " view",
+              "start": 67.1,
+              "end": 67.52
+            },
+            {
+              "word": " looking",
+              "start": 67.52,
+              "end": 67.76
+            },
+            {
+              "word": " down",
+              "start": 67.76,
+              "end": 68.12
+            },
+            {
+              "word": " on",
+              "start": 68.12,
+              "end": 68.32
+            },
+            {
+              "word": " the",
+              "start": 68.32,
+              "end": 68.42
+            },
+            {
+              "word": " diaphragm,",
+              "start": 68.42,
+              "end": 69.12
+            },
+            {
+              "word": " we",
+              "start": 69.3,
+              "end": 69.78
+            },
+            {
+              "word": " see",
+              "start": 69.78,
+              "end": 70.02
+            }
+          ]
+        },
+        {
+          "start": 70.02,
+          "end": 75.74,
+          "text": "that this sort of dome-shaped muscle has fibers that travel centrally.",
+          "words": [
+            {
+              "word": " that",
+              "start": 70.02,
+              "end": 70.2
+            },
+            {
+              "word": " this",
+              "start": 70.2,
+              "end": 70.44
+            },
+            {
+              "word": " sort",
+              "start": 70.44,
+              "end": 70.58
+            },
+            {
+              "word": " of",
+              "start": 70.58,
+              "end": 70.72
+            },
+            {
+              "word": " dome",
+              "start": 70.72,
+              "end": 71.24
+            },
+            {
+              "word": "-shaped",
+              "start": 71.24,
+              "end": 71.64
+            },
+            {
+              "word": " muscle",
+              "start": 71.64,
+              "end": 72.32
+            },
+            {
+              "word": " has",
+              "start": 72.32,
+              "end": 73.32
+            },
+            {
+              "word": " fibers",
+              "start": 73.32,
+              "end": 73.84
+            },
+            {
+              "word": " that",
+              "start": 73.84,
+              "end": 74.5
+            },
+            {
+              "word": " travel",
+              "start": 74.5,
+              "end": 74.88
+            },
+            {
+              "word": " centrally.",
+              "start": 74.88,
+              "end": 75.74
+            }
+          ]
+        },
+        {
+          "start": 75.74,
+          "end": 81.52,
+          "text": "And they meet up at this large, flat sheet, sometimes called an aponeurosis, but specifically",
+          "words": [
+            {
+              "word": " And",
+              "start": 75.74,
+              "end": 76.52
+            },
+            {
+              "word": " they",
+              "start": 76.52,
+              "end": 76.64
+            },
+            {
+              "word": " meet",
+              "start": 76.64,
+              "end": 76.92
+            },
+            {
+              "word": " up",
+              "start": 76.92,
+              "end": 77.08
+            },
+            {
+              "word": " at",
+              "start": 77.08,
+              "end": 77.2
+            },
+            {
+              "word": " this",
+              "start": 77.2,
+              "end": 77.38
+            },
+            {
+              "word": " large,",
+              "start": 77.38,
+              "end": 77.74
+            },
+            {
+              "word": " flat",
+              "start": 77.74,
+              "end": 78.22
+            },
+            {
+              "word": " sheet,",
+              "start": 78.22,
+              "end": 78.66
+            },
+            {
+              "word": " sometimes",
+              "start": 79.04,
+              "end": 79.24
+            },
+            {
+              "word": " called",
+              "start": 79.24,
+              "end": 79.48
+            },
+            {
+              "word": " an",
+              "start": 79.48,
+              "end": 79.66
+            },
+            {
+              "word": " aponeurosis,",
+              "start": 79.66,
+              "end": 80.42
+            },
+            {
+              "word": " but",
+              "start": 80.98,
+              "end": 81.1
+            },
+            {
+              "word": " specifically",
+              "start": 81.1,
+              "end": 81.52
+            }
+          ]
+        },
+        {
+          "start": 81.52,
+          "end": 83.3,
+          "text": "here called the central tendon.",
+          "words": [
+            {
+              "word": " here",
+              "start": 81.52,
+              "end": 81.92
+            },
+            {
+              "word": " called",
+              "start": 81.92,
+              "end": 82.16
+            },
+            {
+              "word": " the",
+              "start": 82.16,
+              "end": 82.36
+            },
+            {
+              "word": " central",
+              "start": 82.36,
+              "end": 82.82
+            },
+            {
+              "word": " tendon.",
+              "start": 82.82,
+              "end": 83.3
+            }
+          ]
+        },
+        {
+          "start": 84.2,
+          "end": 90.74,
+          "text": "And so as these fibers contract, it will draw the diaphragm inferiorly, which will increase",
+          "words": [
+            {
+              "word": " And",
+              "start": 84.2,
+              "end": 84.54
+            },
+            {
+              "word": " so",
+              "start": 84.54,
+              "end": 84.66
+            },
+            {
+              "word": " as",
+              "start": 84.66,
+              "end": 84.9
+            },
+            {
+              "word": " these",
+              "start": 84.9,
+              "end": 85.08
+            },
+            {
+              "word": " fibers",
+              "start": 85.08,
+              "end": 85.42
+            },
+            {
+              "word": " contract,",
+              "start": 85.42,
+              "end": 86.1
+            },
+            {
+              "word": " it",
+              "start": 86.94,
+              "end": 87.12
+            },
+            {
+              "word": " will",
+              "start": 87.12,
+              "end": 87.3
+            },
+            {
+              "word": " draw",
+              "start": 87.3,
+              "end": 87.68
+            },
+            {
+              "word": " the",
+              "start": 87.68,
+              "end": 87.86
+            },
+            {
+              "word": " diaphragm",
+              "start": 87.86,
+              "end": 88.48
+            },
+            {
+              "word": " inferiorly,",
+              "start": 88.48,
+              "end": 89.66
+            },
+            {
+              "word": " which",
+              "start": 89.92,
+              "end": 90.54
+            },
+            {
+              "word": " will",
+              "start": 90.54,
+              "end": 90.7
+            },
+            {
+              "word": " increase",
+              "start": 90.7,
+              "end": 91.04
+            }
+          ]
+        },
+        {
+          "start": 91.28,
+          "end": 97.3,
+          "text": "the thoracic cavity volume, which will lower the pressure and will subsequently cause the",
+          "words": [
+            {
+              "word": " the",
+              "start": 91.28,
+              "end": 91.54
+            },
+            {
+              "word": " thoracic",
+              "start": 91.54,
+              "end": 91.94
+            },
+            {
+              "word": " cavity",
+              "start": 91.94,
+              "end": 92.26
+            },
+            {
+              "word": " volume,",
+              "start": 92.26,
+              "end": 92.9
+            },
+            {
+              "word": " which",
+              "start": 93.16,
+              "end": 93.64
+            },
+            {
+              "word": " will",
+              "start": 93.64,
+              "end": 93.86
+            },
+            {
+              "word": " lower",
+              "start": 93.86,
+              "end": 94.14
+            },
+            {
+              "word": " the",
+              "start": 94.14,
+              "end": 94.34
+            },
+            {
+              "word": " pressure",
+              "start": 94.34,
+              "end": 94.76
+            },
+            {
+              "word": " and",
+              "start": 94.76,
+              "end": 95.82
+            },
+            {
+              "word": " will",
+              "start": 95.82,
+              "end": 96.06
+            },
+            {
+              "word": " subsequently",
+              "start": 96.06,
+              "end": 96.62
+            },
+            {
+              "word": " cause",
+              "start": 96.62,
+              "end": 97.1
+            },
+            {
+              "word": " the",
+              "start": 97.1,
+              "end": 97.3
+            }
+          ]
+        },
+        {
+          "start": 97.3,
+          "end": 98.44,
+          "text": "lungs to expand.",
+          "words": [
+            {
+              "word": " lungs",
+              "start": 97.3,
+              "end": 97.5
+            },
+            {
+              "word": " to",
+              "start": 97.5,
+              "end": 97.76
+            },
+            {
+              "word": " expand.",
+              "start": 97.76,
+              "end": 98.44
+            }
+          ]
+        },
+        {
+          "start": 99.18,
+          "end": 102.26,
+          "text": "And so that's how the diaphragm helps us breathe.",
+          "words": [
+            {
+              "word": " And",
+              "start": 99.18,
+              "end": 99.56
+            },
+            {
+              "word": " so",
+              "start": 99.56,
+              "end": 99.66
+            },
+            {
+              "word": " that's",
+              "start": 99.66,
+              "end": 100.08
+            },
+            {
+              "word": " how",
+              "start": 100.08,
+              "end": 100.38
+            },
+            {
+              "word": " the",
+              "start": 100.38,
+              "end": 100.52
+            },
+            {
+              "word": " diaphragm",
+              "start": 100.52,
+              "end": 101.22
+            },
+            {
+              "word": " helps",
+              "start": 101.22,
+              "end": 101.54
+            },
+            {
+              "word": " us",
+              "start": 101.54,
+              "end": 101.82
+            },
+            {
+              "word": " breathe.",
+              "start": 101.82,
+              "end": 102.26
+            }
+          ]
+        },
+        {
+          "start": 104.24,
+          "end": 110.52,
+          "text": "Now, it's great that it fills the entire inferior thoracic aperture, but there are some structures",
+          "words": [
+            {
+              "word": " Now,",
+              "start": 104.24,
+              "end": 104.72
+            },
+            {
+              "word": " it's",
+              "start": 105.24,
+              "end": 105.48
+            },
+            {
+              "word": " great",
+              "start": 105.48,
+              "end": 105.82
+            },
+            {
+              "word": " that",
+              "start": 105.82,
+              "end": 106.04
+            },
+            {
+              "word": " it",
+              "start": 106.04,
+              "end": 106.14
+            },
+            {
+              "word": " fills",
+              "start": 106.14,
+              "end": 106.56
+            },
+            {
+              "word": " the",
+              "start": 106.56,
+              "end": 107.18
+            },
+            {
+              "word": " entire",
+              "start": 107.18,
+              "end": 107.54
+            },
+            {
+              "word": " inferior",
+              "start": 107.54,
+              "end": 107.9
+            },
+            {
+              "word": " thoracic",
+              "start": 107.9,
+              "end": 108.62
+            },
+            {
+              "word": " aperture,",
+              "start": 108.62,
+              "end": 109.14
+            },
+            {
+              "word": " but",
+              "start": 109.42,
+              "end": 109.78
+            },
+            {
+              "word": " there",
+              "start": 109.78,
+              "end": 109.9
+            },
+            {
+              "word": " are",
+              "start": 109.9,
+              "end": 110.02
+            },
+            {
+              "word": " some",
+              "start": 110.02,
+              "end": 110.2
+            },
+            {
+              "word": " structures",
+              "start": 110.2,
+              "end": 110.52
+            }
+          ]
+        },
+        {
+          "start": 110.52,
+          "end": 113.2,
+          "text": "that still need to pass between the thorax and the abdomen.",
+          "words": [
+            {
+              "word": " that",
+              "start": 110.52,
+              "end": 110.74
+            },
+            {
+              "word": " still",
+              "start": 110.74,
+              "end": 110.96
+            },
+            {
+              "word": " need",
+              "start": 110.96,
+              "end": 111.06
+            },
+            {
+              "word": " to",
+              "start": 111.06,
+              "end": 111.16
+            },
+            {
+              "word": " pass",
+              "start": 111.16,
+              "end": 111.44
+            },
+            {
+              "word": " between",
+              "start": 111.44,
+              "end": 111.82
+            },
+            {
+              "word": " the",
+              "start": 111.82,
+              "end": 112.04
+            },
+            {
+              "word": " thorax",
+              "start": 112.04,
+              "end": 112.48
+            },
+            {
+              "word": " and",
+              "start": 112.48,
+              "end": 112.74
+            },
+            {
+              "word": " the",
+              "start": 112.74,
+              "end": 112.86
+            },
+            {
+              "word": " abdomen.",
+              "start": 112.86,
+              "end": 113.2
+            }
+          ]
+        },
+        {
+          "start": 113.54,
+          "end": 114.72,
+          "text": "So we have some openings.",
+          "words": [
+            {
+              "word": " So",
+              "start": 113.54,
+              "end": 113.78
+            },
+            {
+              "word": " we",
+              "start": 113.78,
+              "end": 113.9
+            },
+            {
+              "word": " have",
+              "start": 113.9,
+              "end": 114.08
+            },
+            {
+              "word": " some",
+              "start": 114.08,
+              "end": 114.24
+            },
+            {
+              "word": " openings.",
+              "start": 114.24,
+              "end": 114.72
+            }
+          ]
+        },
+        {
+          "start": 115.58,
+          "end": 119.5,
+          "text": "We see one right here in the central tendon called the cable opening.",
+          "words": [
+            {
+              "word": " We",
+              "start": 115.58,
+              "end": 115.82
+            },
+            {
+              "word": " see",
+              "start": 115.82,
+              "end": 115.98
+            },
+            {
+              "word": " one",
+              "start": 115.98,
+              "end": 116.2
+            },
+            {
+              "word": " right",
+              "start": 116.2,
+              "end": 116.4
+            },
+            {
+              "word": " here",
+              "start": 116.4,
+              "end": 116.64
+            },
+            {
+              "word": " in",
+              "start": 116.64,
+              "end": 116.8
+            },
+            {
+              "word": " the",
+              "start": 116.8,
+              "end": 116.88
+            },
+            {
+              "word": " central",
+              "start": 116.88,
+              "end": 117.18
+            },
+            {
+              "word": " tendon",
+              "start": 117.18,
+              "end": 117.6
+            },
+            {
+              "word": " called",
+              "start": 117.6,
+              "end": 118.38
+            },
+            {
+              "word": " the",
+              "start": 118.38,
+              "end": 118.54
+            },
+            {
+              "word": " cable",
+              "start": 118.54,
+              "end": 118.98
+            },
+            {
+              "word": " opening.",
+              "start": 118.98,
+              "end": 119.5
+            }
+          ]
+        },
+        {
+          "start": 120.2,
+          "end": 125.7,
+          "text": "And it's called that because that's where the inferior vena cava is going to pass through to reach the right atrium.",
+          "words": [
+            {
+              "word": " And",
+              "start": 120.2,
+              "end": 120.44
+            },
+            {
+              "word": " it's",
+              "start": 120.44,
+              "end": 120.58
+            },
+            {
+              "word": " called",
+              "start": 120.58,
+              "end": 120.8
+            },
+            {
+              "word": " that",
+              "start": 120.8,
+              "end": 121.02
+            },
+            {
+              "word": " because",
+              "start": 121.02,
+              "end": 121.24
+            },
+            {
+              "word": " that's",
+              "start": 121.24,
+              "end": 121.5
+            },
+            {
+              "word": " where",
+              "start": 121.5,
+              "end": 121.62
+            },
+            {
+              "word": " the",
+              "start": 121.62,
+              "end": 121.72
+            },
+            {
+              "word": " inferior",
+              "start": 121.72,
+              "end": 122.18
+            },
+            {
+              "word": " vena",
+              "start": 122.18,
+              "end": 122.56
+            },
+            {
+              "word": " cava",
+              "start": 122.56,
+              "end": 123.16
+            },
+            {
+              "word": " is",
+              "start": 123.16,
+              "end": 123.52
+            },
+            {
+              "word": " going",
+              "start": 123.52,
+              "end": 123.7
+            },
+            {
+              "word": " to",
+              "start": 123.7,
+              "end": 123.84
+            },
+            {
+              "word": " pass",
+              "start": 123.84,
+              "end": 124.08
+            },
+            {
+              "word": " through",
+              "start": 124.08,
+              "end": 124.44
+            },
+            {
+              "word": " to",
+              "start": 124.44,
+              "end": 124.74
+            },
+            {
+              "word": " reach",
+              "start": 124.74,
+              "end": 124.92
+            },
+            {
+              "word": " the",
+              "start": 124.92,
+              "end": 125.08
+            },
+            {
+              "word": " right",
+              "start": 125.08,
+              "end": 125.26
+            },
+            {
+              "word": " atrium.",
+              "start": 125.26,
+              "end": 125.7
+            }
+          ]
+        },
+        {
+          "start": 126.78,
+          "end": 131.8,
+          "text": "Just to the left and posterior to that, we have another opening, and that's the esophageal hiatus,",
+          "words": [
+            {
+              "word": " Just",
+              "start": 126.78,
+              "end": 127.26
+            },
+            {
+              "word": " to",
+              "start": 127.26,
+              "end": 127.58
+            },
+            {
+              "word": " the",
+              "start": 127.58,
+              "end": 127.68
+            },
+            {
+              "word": " left",
+              "start": 127.68,
+              "end": 127.88
+            },
+            {
+              "word": " and",
+              "start": 127.88,
+              "end": 128.04
+            },
+            {
+              "word": " posterior",
+              "start": 128.04,
+              "end": 128.42
+            },
+            {
+              "word": " to",
+              "start": 128.42,
+              "end": 128.74
+            },
+            {
+              "word": " that,",
+              "start": 128.74,
+              "end": 128.9
+            },
+            {
+              "word": " we",
+              "start": 129.0,
+              "end": 129.06
+            },
+            {
+              "word": " have",
+              "start": 129.06,
+              "end": 129.14
+            },
+            {
+              "word": " another",
+              "start": 129.14,
+              "end": 129.46
+            },
+            {
+              "word": " opening,",
+              "start": 129.46,
+              "end": 129.92
+            },
+            {
+              "word": " and",
+              "start": 129.94,
+              "end": 130.1
+            },
+            {
+              "word": " that's",
+              "start": 130.1,
+              "end": 130.3
+            },
+            {
+              "word": " the",
+              "start": 130.3,
+              "end": 130.44
+            },
+            {
+              "word": " esophageal",
+              "start": 130.44,
+              "end": 131.34
+            },
+            {
+              "word": " hiatus,",
+              "start": 131.34,
+              "end": 131.8
+            }
+          ]
+        },
+        {
+          "start": 131.8,
+          "end": 135.52,
+          "text": "where the esophagus is going to pass through on its way to the stomach.",
+          "words": [
+            {
+              "word": " where",
+              "start": 131.8,
+              "end": 132.5
+            },
+            {
+              "word": " the",
+              "start": 132.5,
+              "end": 132.98
+            },
+            {
+              "word": " esophagus",
+              "start": 132.98,
+              "end": 133.4
+            },
+            {
+              "word": " is",
+              "start": 133.4,
+              "end": 133.62
+            },
+            {
+              "word": " going",
+              "start": 133.62,
+              "end": 133.8
+            },
+            {
+              "word": " to",
+              "start": 133.8,
+              "end": 133.94
+            },
+            {
+              "word": " pass",
+              "start": 133.94,
+              "end": 134.16
+            },
+            {
+              "word": " through",
+              "start": 134.16,
+              "end": 134.48
+            },
+            {
+              "word": " on",
+              "start": 134.48,
+              "end": 134.76
+            },
+            {
+              "word": " its",
+              "start": 134.76,
+              "end": 134.88
+            },
+            {
+              "word": " way",
+              "start": 134.88,
+              "end": 135.02
+            },
+            {
+              "word": " to",
+              "start": 135.02,
+              "end": 135.14
+            },
+            {
+              "word": " the",
+              "start": 135.14,
+              "end": 135.26
+            },
+            {
+              "word": " stomach.",
+              "start": 135.26,
+              "end": 135.52
+            }
+          ]
+        },
+        {
+          "start": 136.66,
+          "end": 144.8,
+          "text": "And then most posteriorly, we have this hole here, which is the aortic hiatus, where the thoracic aorta is going to pass through,",
+          "words": [
+            {
+              "word": " And",
+              "start": 136.66,
+              "end": 137.12
+            },
+            {
+              "word": " then",
+              "start": 137.12,
+              "end": 137.26
+            },
+            {
+              "word": " most",
+              "start": 137.26,
+              "end": 137.6
+            },
+            {
+              "word": " posteriorly,",
+              "start": 137.6,
+              "end": 138.44
+            },
+            {
+              "word": " we",
+              "start": 138.5,
+              "end": 138.9
+            },
+            {
+              "word": " have",
+              "start": 138.9,
+              "end": 139.02
+            },
+            {
+              "word": " this",
+              "start": 139.02,
+              "end": 139.22
+            },
+            {
+              "word": " hole",
+              "start": 139.22,
+              "end": 139.42
+            },
+            {
+              "word": " here,",
+              "start": 139.42,
+              "end": 139.66
+            },
+            {
+              "word": " which",
+              "start": 139.72,
+              "end": 139.86
+            },
+            {
+              "word": " is",
+              "start": 139.86,
+              "end": 140.0
+            },
+            {
+              "word": " the",
+              "start": 140.0,
+              "end": 140.2
+            },
+            {
+              "word": " aortic",
+              "start": 140.2,
+              "end": 140.68
+            },
+            {
+              "word": " hiatus,",
+              "start": 140.68,
+              "end": 141.28
+            },
+            {
+              "word": " where",
+              "start": 141.6,
+              "end": 142.22
+            },
+            {
+              "word": " the",
+              "start": 142.22,
+              "end": 142.42
+            },
+            {
+              "word": " thoracic",
+              "start": 142.42,
+              "end": 143.16
+            },
+            {
+              "word": " aorta",
+              "start": 143.16,
+              "end": 143.62
+            },
+            {
+              "word": " is",
+              "start": 143.62,
+              "end": 143.88
+            },
+            {
+              "word": " going",
+              "start": 143.88,
+              "end": 144.04
+            },
+            {
+              "word": " to",
+              "start": 144.04,
+              "end": 144.2
+            },
+            {
+              "word": " pass",
+              "start": 144.2,
+              "end": 144.42
+            },
+            {
+              "word": " through,",
+              "start": 144.42,
+              "end": 144.8
+            }
+          ]
+        },
+        {
+          "start": 145.06,
+          "end": 147.54,
+          "text": "and then on the other side turn into the abdominal aorta.",
+          "words": [
+            {
+              "word": " and",
+              "start": 145.06,
+              "end": 145.3
+            },
+            {
+              "word": " then",
+              "start": 145.3,
+              "end": 145.44
+            },
+            {
+              "word": " on",
+              "start": 145.44,
+              "end": 145.64
+            },
+            {
+              "word": " the",
+              "start": 145.64,
+              "end": 145.74
+            },
+            {
+              "word": " other",
+              "start": 145.74,
+              "end": 145.86
+            },
+            {
+              "word": " side",
+              "start": 145.86,
+              "end": 146.16
+            },
+            {
+              "word": " turn",
+              "start": 146.16,
+              "end": 146.36
+            },
+            {
+              "word": " into",
+              "start": 146.36,
+              "end": 146.58
+            },
+            {
+              "word": " the",
+              "start": 146.58,
+              "end": 146.74
+            },
+            {
+              "word": " abdominal",
+              "start": 146.74,
+              "end": 147.04
+            },
+            {
+              "word": " aorta.",
+              "start": 147.04,
+              "end": 147.54
+            }
+          ]
+        },
+        {
+          "start": 149.34,
+          "end": 151.84,
+          "text": "Now let's look at those openings from below.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 149.34,
+              "end": 149.8
+            },
+            {
+              "word": " let's",
+              "start": 149.8,
+              "end": 149.94
+            },
+            {
+              "word": " look",
+              "start": 149.94,
+              "end": 150.06
+            },
+            {
+              "word": " at",
+              "start": 150.06,
+              "end": 150.18
+            },
+            {
+              "word": " those",
+              "start": 150.18,
+              "end": 150.4
+            },
+            {
+              "word": " openings",
+              "start": 150.4,
+              "end": 150.92
+            },
+            {
+              "word": " from",
+              "start": 150.92,
+              "end": 151.36
+            },
+            {
+              "word": " below.",
+              "start": 151.36,
+              "end": 151.84
+            }
+          ]
+        },
+        {
+          "start": 152.84,
+          "end": 158.44,
+          "text": "So if we look from below, from the abdomen's point of view, we again see the cable opening.",
+          "words": [
+            {
+              "word": " So",
+              "start": 152.84,
+              "end": 153.14
+            },
+            {
+              "word": " if",
+              "start": 153.14,
+              "end": 153.28
+            },
+            {
+              "word": " we",
+              "start": 153.28,
+              "end": 153.38
+            },
+            {
+              "word": " look",
+              "start": 153.38,
+              "end": 153.54
+            },
+            {
+              "word": " from",
+              "start": 153.54,
+              "end": 153.82
+            },
+            {
+              "word": " below,",
+              "start": 153.82,
+              "end": 154.4
+            },
+            {
+              "word": " from",
+              "start": 154.58,
+              "end": 154.72
+            },
+            {
+              "word": " the",
+              "start": 154.72,
+              "end": 154.86
+            },
+            {
+              "word": " abdomen's",
+              "start": 154.86,
+              "end": 155.54
+            },
+            {
+              "word": " point",
+              "start": 155.54,
+              "end": 155.76
+            },
+            {
+              "word": " of",
+              "start": 155.76,
+              "end": 155.94
+            },
+            {
+              "word": " view,",
+              "start": 155.94,
+              "end": 156.14
+            },
+            {
+              "word": " we",
+              "start": 156.54,
+              "end": 156.92
+            },
+            {
+              "word": " again",
+              "start": 156.92,
+              "end": 157.2
+            },
+            {
+              "word": " see",
+              "start": 157.2,
+              "end": 157.46
+            },
+            {
+              "word": " the",
+              "start": 157.46,
+              "end": 157.6
+            },
+            {
+              "word": " cable",
+              "start": 157.6,
+              "end": 157.88
+            },
+            {
+              "word": " opening.",
+              "start": 157.88,
+              "end": 158.44
+            }
+          ]
+        },
+        {
+          "start": 158.44,
+          "end": 164.1,
+          "text": "And for reference to give you an idea roughly of where we're at, we're at about the T8 vertebral level.",
+          "words": [
+            {
+              "word": " And",
+              "start": 158.44,
+              "end": 159.22
+            },
+            {
+              "word": " for",
+              "start": 159.22,
+              "end": 159.4
+            },
+            {
+              "word": " reference",
+              "start": 159.4,
+              "end": 159.7
+            },
+            {
+              "word": " to",
+              "start": 159.7,
+              "end": 159.94
+            },
+            {
+              "word": " give",
+              "start": 159.94,
+              "end": 160.06
+            },
+            {
+              "word": " you",
+              "start": 160.06,
+              "end": 160.16
+            },
+            {
+              "word": " an",
+              "start": 160.16,
+              "end": 160.24
+            },
+            {
+              "word": " idea",
+              "start": 160.24,
+              "end": 160.46
+            },
+            {
+              "word": " roughly",
+              "start": 160.46,
+              "end": 160.82
+            },
+            {
+              "word": " of",
+              "start": 160.82,
+              "end": 161.06
+            },
+            {
+              "word": " where",
+              "start": 161.06,
+              "end": 161.18
+            },
+            {
+              "word": " we're",
+              "start": 161.18,
+              "end": 161.36
+            },
+            {
+              "word": " at,",
+              "start": 161.36,
+              "end": 161.54
+            },
+            {
+              "word": " we're",
+              "start": 161.62,
+              "end": 161.72
+            },
+            {
+              "word": " at",
+              "start": 161.72,
+              "end": 161.8
+            },
+            {
+              "word": " about",
+              "start": 161.8,
+              "end": 162.04
+            },
+            {
+              "word": " the",
+              "start": 162.04,
+              "end": 162.24
+            },
+            {
+              "word": " T8",
+              "start": 162.24,
+              "end": 162.96
+            },
+            {
+              "word": " vertebral",
+              "start": 162.96,
+              "end": 163.78
+            },
+            {
+              "word": " level.",
+              "start": 163.78,
+              "end": 164.1
+            }
+          ]
+        },
+        {
+          "start": 164.98,
+          "end": 169.7,
+          "text": "And as the name implies, the inferior vena cava is going to pass through there.",
+          "words": [
+            {
+              "word": " And",
+              "start": 164.98,
+              "end": 165.54
+            },
+            {
+              "word": " as",
+              "start": 165.54,
+              "end": 165.84
+            },
+            {
+              "word": " the",
+              "start": 165.84,
+              "end": 165.96
+            },
+            {
+              "word": " name",
+              "start": 165.96,
+              "end": 166.08
+            },
+            {
+              "word": " implies,",
+              "start": 166.08,
+              "end": 166.46
+            },
+            {
+              "word": " the",
+              "start": 167.3,
+              "end": 167.32
+            },
+            {
+              "word": " inferior",
+              "start": 167.32,
+              "end": 167.64
+            },
+            {
+              "word": " vena",
+              "start": 167.64,
+              "end": 167.96
+            },
+            {
+              "word": " cava",
+              "start": 167.96,
+              "end": 168.5
+            },
+            {
+              "word": " is",
+              "start": 168.5,
+              "end": 168.78
+            },
+            {
+              "word": " going",
+              "start": 168.78,
+              "end": 168.94
+            },
+            {
+              "word": " to",
+              "start": 168.94,
+              "end": 169.06
+            },
+            {
+              "word": " pass",
+              "start": 169.06,
+              "end": 169.24
+            },
+            {
+              "word": " through",
+              "start": 169.24,
+              "end": 169.48
+            },
+            {
+              "word": " there.",
+              "start": 169.48,
+              "end": 169.7
+            }
+          ]
+        },
+        {
+          "start": 170.54,
+          "end": 175.06,
+          "text": "We're also going to have some branches of the right phrenic nerve taking advantage of this opening.",
+          "words": [
+            {
+              "word": " We're",
+              "start": 170.54,
+              "end": 171.06
+            },
+            {
+              "word": " also",
+              "start": 171.06,
+              "end": 171.3
+            },
+            {
+              "word": " going",
+              "start": 171.3,
+              "end": 171.42
+            },
+            {
+              "word": " to",
+              "start": 171.42,
+              "end": 171.46
+            },
+            {
+              "word": " have",
+              "start": 171.46,
+              "end": 171.58
+            },
+            {
+              "word": " some",
+              "start": 171.58,
+              "end": 171.72
+            },
+            {
+              "word": " branches",
+              "start": 171.72,
+              "end": 172.1
+            },
+            {
+              "word": " of",
+              "start": 172.1,
+              "end": 172.4
+            },
+            {
+              "word": " the",
+              "start": 172.4,
+              "end": 172.52
+            },
+            {
+              "word": " right",
+              "start": 172.52,
+              "end": 172.8
+            },
+            {
+              "word": " phrenic",
+              "start": 172.8,
+              "end": 173.4
+            },
+            {
+              "word": " nerve",
+              "start": 173.4,
+              "end": 173.64
+            },
+            {
+              "word": " taking",
+              "start": 173.64,
+              "end": 173.92
+            },
+            {
+              "word": " advantage",
+              "start": 173.92,
+              "end": 174.26
+            },
+            {
+              "word": " of",
+              "start": 174.26,
+              "end": 174.54
+            },
+            {
+              "word": " this",
+              "start": 174.54,
+              "end": 174.7
+            },
+            {
+              "word": " opening.",
+              "start": 174.7,
+              "end": 175.06
+            }
+          ]
+        },
+        {
+          "start": 176.26,
+          "end": 179.2,
+          "text": "Just to the left and posterior is that other opening.",
+          "words": [
+            {
+              "word": " Just",
+              "start": 176.26,
+              "end": 176.82
+            },
+            {
+              "word": " to",
+              "start": 176.82,
+              "end": 177.0
+            },
+            {
+              "word": " the",
+              "start": 177.0,
+              "end": 177.1
+            },
+            {
+              "word": " left",
+              "start": 177.1,
+              "end": 177.28
+            },
+            {
+              "word": " and",
+              "start": 177.28,
+              "end": 177.42
+            },
+            {
+              "word": " posterior",
+              "start": 177.42,
+              "end": 177.9
+            },
+            {
+              "word": " is",
+              "start": 177.9,
+              "end": 178.32
+            },
+            {
+              "word": " that",
+              "start": 178.32,
+              "end": 178.48
+            },
+            {
+              "word": " other",
+              "start": 178.48,
+              "end": 178.74
+            },
+            {
+              "word": " opening.",
+              "start": 178.74,
+              "end": 179.2
+            }
+          ]
+        },
+        {
+          "start": 179.64,
+          "end": 186.12,
+          "text": "About the T10 level, that's the esophageal hiatus, where the esophagus is going to pass through.",
+          "words": [
+            {
+              "word": " About",
+              "start": 179.64,
+              "end": 180.2
+            },
+            {
+              "word": " the",
+              "start": 180.2,
+              "end": 180.68
+            },
+            {
+              "word": " T10",
+              "start": 180.68,
+              "end": 181.14
+            },
+            {
+              "word": " level,",
+              "start": 181.14,
+              "end": 181.5
+            },
+            {
+              "word": " that's",
+              "start": 181.94,
+              "end": 182.18
+            },
+            {
+              "word": " the",
+              "start": 182.18,
+              "end": 182.28
+            },
+            {
+              "word": " esophageal",
+              "start": 182.28,
+              "end": 182.92
+            },
+            {
+              "word": " hiatus,",
+              "start": 182.92,
+              "end": 183.4
+            },
+            {
+              "word": " where",
+              "start": 183.7,
+              "end": 184.16
+            },
+            {
+              "word": " the",
+              "start": 184.16,
+              "end": 184.5
+            },
+            {
+              "word": " esophagus",
+              "start": 184.5,
+              "end": 184.98
+            },
+            {
+              "word": " is",
+              "start": 184.98,
+              "end": 185.22
+            },
+            {
+              "word": " going",
+              "start": 185.22,
+              "end": 185.44
+            },
+            {
+              "word": " to",
+              "start": 185.44,
+              "end": 185.6
+            },
+            {
+              "word": " pass",
+              "start": 185.6,
+              "end": 185.82
+            },
+            {
+              "word": " through.",
+              "start": 185.82,
+              "end": 186.12
+            }
+          ]
+        },
+        {
+          "start": 186.94,
+          "end": 190.1,
+          "text": "And we're also going to have some trunks of the vagus nerve.",
+          "words": [
+            {
+              "word": " And",
+              "start": 186.94,
+              "end": 187.5
+            },
+            {
+              "word": " we're",
+              "start": 187.5,
+              "end": 188.06
+            },
+            {
+              "word": " also",
+              "start": 188.06,
+              "end": 188.26
+            },
+            {
+              "word": " going",
+              "start": 188.26,
+              "end": 188.38
+            },
+            {
+              "word": " to",
+              "start": 188.38,
+              "end": 188.44
+            },
+            {
+              "word": " have",
+              "start": 188.44,
+              "end": 188.62
+            },
+            {
+              "word": " some",
+              "start": 188.62,
+              "end": 188.76
+            },
+            {
+              "word": " trunks",
+              "start": 188.76,
+              "end": 189.04
+            },
+            {
+              "word": " of",
+              "start": 189.04,
+              "end": 189.26
+            },
+            {
+              "word": " the",
+              "start": 189.26,
+              "end": 189.38
+            },
+            {
+              "word": " vagus",
+              "start": 189.38,
+              "end": 189.84
+            },
+            {
+              "word": " nerve.",
+              "start": 189.84,
+              "end": 190.1
+            }
+          ]
+        },
+        {
+          "start": 190.92,
+          "end": 196.86,
+          "text": "Then finally, most posteriorly, we have that aortic hiatus all the way down at around the T12 level,",
+          "words": [
+            {
+              "word": " Then",
+              "start": 190.92,
+              "end": 191.48
+            },
+            {
+              "word": " finally,",
+              "start": 191.48,
+              "end": 191.9
+            },
+            {
+              "word": " most",
+              "start": 192.1,
+              "end": 192.3
+            },
+            {
+              "word": " posteriorly,",
+              "start": 192.3,
+              "end": 192.9
+            },
+            {
+              "word": " we",
+              "start": 192.92,
+              "end": 192.98
+            },
+            {
+              "word": " have",
+              "start": 192.98,
+              "end": 193.16
+            },
+            {
+              "word": " that",
+              "start": 193.16,
+              "end": 193.4
+            },
+            {
+              "word": " aortic",
+              "start": 193.4,
+              "end": 193.88
+            },
+            {
+              "word": " hiatus",
+              "start": 193.88,
+              "end": 194.4
+            },
+            {
+              "word": " all",
+              "start": 194.4,
+              "end": 194.82
+            },
+            {
+              "word": " the",
+              "start": 194.82,
+              "end": 194.94
+            },
+            {
+              "word": " way",
+              "start": 194.94,
+              "end": 195.06
+            },
+            {
+              "word": " down",
+              "start": 195.06,
+              "end": 195.28
+            },
+            {
+              "word": " at",
+              "start": 195.28,
+              "end": 195.46
+            },
+            {
+              "word": " around",
+              "start": 195.46,
+              "end": 195.8
+            },
+            {
+              "word": " the",
+              "start": 195.8,
+              "end": 195.96
+            },
+            {
+              "word": " T12",
+              "start": 195.96,
+              "end": 196.52
+            },
+            {
+              "word": " level,",
+              "start": 196.52,
+              "end": 196.86
+            }
+          ]
+        },
+        {
+          "start": 197.7,
+          "end": 203.3,
+          "text": "where the aorta is going to transition from being a thoracic aorta to an abdominal aorta.",
+          "words": [
+            {
+              "word": " where",
+              "start": 197.7,
+              "end": 198.26
+            },
+            {
+              "word": " the",
+              "start": 198.26,
+              "end": 198.82
+            },
+            {
+              "word": " aorta",
+              "start": 198.82,
+              "end": 199.38
+            },
+            {
+              "word": " is",
+              "start": 199.38,
+              "end": 199.56
+            },
+            {
+              "word": " going",
+              "start": 199.56,
+              "end": 199.72
+            },
+            {
+              "word": " to",
+              "start": 199.72,
+              "end": 199.9
+            },
+            {
+              "word": " transition",
+              "start": 199.9,
+              "end": 200.5
+            },
+            {
+              "word": " from",
+              "start": 200.5,
+              "end": 200.8
+            },
+            {
+              "word": " being",
+              "start": 200.8,
+              "end": 201.06
+            },
+            {
+              "word": " a",
+              "start": 201.06,
+              "end": 201.32
+            },
+            {
+              "word": " thoracic",
+              "start": 201.32,
+              "end": 201.78
+            },
+            {
+              "word": " aorta",
+              "start": 201.78,
+              "end": 202.08
+            },
+            {
+              "word": " to",
+              "start": 202.08,
+              "end": 202.3
+            },
+            {
+              "word": " an",
+              "start": 202.3,
+              "end": 202.46
+            },
+            {
+              "word": " abdominal",
+              "start": 202.46,
+              "end": 202.78
+            },
+            {
+              "word": " aorta.",
+              "start": 202.78,
+              "end": 203.3
+            }
+          ]
+        },
+        {
+          "start": 204.0,
+          "end": 210.26,
+          "text": "And it's also where the thoracic duct is going to be passing from the abdomen up into the thorax.",
+          "words": [
+            {
+              "word": " And",
+              "start": 204.0,
+              "end": 204.56
+            },
+            {
+              "word": " it's",
+              "start": 204.56,
+              "end": 204.7
+            },
+            {
+              "word": " also",
+              "start": 204.7,
+              "end": 204.98
+            },
+            {
+              "word": " where",
+              "start": 204.98,
+              "end": 205.18
+            },
+            {
+              "word": " the",
+              "start": 205.18,
+              "end": 205.32
+            },
+            {
+              "word": " thoracic",
+              "start": 205.32,
+              "end": 205.92
+            },
+            {
+              "word": " duct",
+              "start": 205.92,
+              "end": 206.24
+            },
+            {
+              "word": " is",
+              "start": 206.24,
+              "end": 206.72
+            },
+            {
+              "word": " going",
+              "start": 206.72,
+              "end": 206.9
+            },
+            {
+              "word": " to",
+              "start": 206.9,
+              "end": 207.04
+            },
+            {
+              "word": " be",
+              "start": 207.04,
+              "end": 207.16
+            },
+            {
+              "word": " passing",
+              "start": 207.16,
+              "end": 207.82
+            },
+            {
+              "word": " from",
+              "start": 207.82,
+              "end": 208.26
+            },
+            {
+              "word": " the",
+              "start": 208.26,
+              "end": 208.5
+            },
+            {
+              "word": " abdomen",
+              "start": 208.5,
+              "end": 208.88
+            },
+            {
+              "word": " up",
+              "start": 208.88,
+              "end": 209.46
+            },
+            {
+              "word": " into",
+              "start": 209.46,
+              "end": 209.64
+            },
+            {
+              "word": " the",
+              "start": 209.64,
+              "end": 209.8
+            },
+            {
+              "word": " thorax.",
+              "start": 209.8,
+              "end": 210.26
+            }
+          ]
+        },
+        {
+          "start": 211.56,
+          "end": 218.52,
+          "text": "If we focus a little bit more on the inferior and posterior portions of the diaphragm, we see some weird stuff going on.",
+          "words": [
+            {
+              "word": " If",
+              "start": 211.56,
+              "end": 212.04
+            },
+            {
+              "word": " we",
+              "start": 212.04,
+              "end": 212.24
+            },
+            {
+              "word": " focus",
+              "start": 212.24,
+              "end": 212.8
+            },
+            {
+              "word": " a",
+              "start": 212.8,
+              "end": 213.3
+            },
+            {
+              "word": " little",
+              "start": 213.3,
+              "end": 213.4
+            },
+            {
+              "word": " bit",
+              "start": 213.4,
+              "end": 213.58
+            },
+            {
+              "word": " more",
+              "start": 213.58,
+              "end": 213.86
+            },
+            {
+              "word": " on",
+              "start": 213.86,
+              "end": 214.02
+            },
+            {
+              "word": " the",
+              "start": 214.02,
+              "end": 214.14
+            },
+            {
+              "word": " inferior",
+              "start": 214.14,
+              "end": 214.62
+            },
+            {
+              "word": " and",
+              "start": 214.62,
+              "end": 214.98
+            },
+            {
+              "word": " posterior",
+              "start": 214.98,
+              "end": 215.42
+            },
+            {
+              "word": " portions",
+              "start": 215.42,
+              "end": 215.84
+            },
+            {
+              "word": " of",
+              "start": 215.84,
+              "end": 216.08
+            },
+            {
+              "word": " the",
+              "start": 216.08,
+              "end": 216.16
+            },
+            {
+              "word": " diaphragm,",
+              "start": 216.16,
+              "end": 216.66
+            },
+            {
+              "word": " we",
+              "start": 216.72,
+              "end": 216.76
+            },
+            {
+              "word": " see",
+              "start": 216.76,
+              "end": 216.94
+            },
+            {
+              "word": " some",
+              "start": 216.94,
+              "end": 217.16
+            },
+            {
+              "word": " weird",
+              "start": 217.16,
+              "end": 217.54
+            },
+            {
+              "word": " stuff",
+              "start": 217.54,
+              "end": 217.9
+            },
+            {
+              "word": " going",
+              "start": 217.9,
+              "end": 218.2
+            },
+            {
+              "word": " on.",
+              "start": 218.2,
+              "end": 218.52
+            }
+          ]
+        },
+        {
+          "start": 219.08,
+          "end": 221.78,
+          "text": "We have what are called crura. Crura just means legs.",
+          "words": [
+            {
+              "word": " We",
+              "start": 219.08,
+              "end": 219.24
+            },
+            {
+              "word": " have",
+              "start": 219.24,
+              "end": 219.54
+            },
+            {
+              "word": " what",
+              "start": 219.54,
+              "end": 219.72
+            },
+            {
+              "word": " are",
+              "start": 219.72,
+              "end": 219.82
+            },
+            {
+              "word": " called",
+              "start": 219.82,
+              "end": 220.06
+            },
+            {
+              "word": " crura.",
+              "start": 220.06,
+              "end": 220.58
+            },
+            {
+              "word": " Crura",
+              "start": 220.76,
+              "end": 220.94
+            },
+            {
+              "word": " just",
+              "start": 220.94,
+              "end": 221.12
+            },
+            {
+              "word": " means",
+              "start": 221.12,
+              "end": 221.3
+            },
+            {
+              "word": " legs.",
+              "start": 221.3,
+              "end": 221.78
+            }
+          ]
+        },
+        {
+          "start": 222.42,
+          "end": 233.0,
+          "text": "And we have a right leg or a right crus and a left leg or a left crus on either side of the inferior most portion of the diaphragm here.",
+          "words": [
+            {
+              "word": " And",
+              "start": 222.42,
+              "end": 222.64
+            },
+            {
+              "word": " we",
+              "start": 222.64,
+              "end": 222.76
+            },
+            {
+              "word": " have",
+              "start": 222.76,
+              "end": 223.0
+            },
+            {
+              "word": " a",
+              "start": 223.0,
+              "end": 223.16
+            },
+            {
+              "word": " right",
+              "start": 223.16,
+              "end": 223.52
+            },
+            {
+              "word": " leg",
+              "start": 223.52,
+              "end": 223.82
+            },
+            {
+              "word": " or",
+              "start": 223.82,
+              "end": 223.98
+            },
+            {
+              "word": " a",
+              "start": 223.98,
+              "end": 224.1
+            },
+            {
+              "word": " right",
+              "start": 224.1,
+              "end": 224.28
+            },
+            {
+              "word": " crus",
+              "start": 224.28,
+              "end": 224.8
+            },
+            {
+              "word": " and",
+              "start": 224.8,
+              "end": 225.86
+            },
+            {
+              "word": " a",
+              "start": 225.86,
+              "end": 226.18
+            },
+            {
+              "word": " left",
+              "start": 226.18,
+              "end": 226.42
+            },
+            {
+              "word": " leg",
+              "start": 226.42,
+              "end": 226.66
+            },
+            {
+              "word": " or",
+              "start": 226.66,
+              "end": 226.9
+            },
+            {
+              "word": " a",
+              "start": 226.9,
+              "end": 227.04
+            },
+            {
+              "word": " left",
+              "start": 227.04,
+              "end": 227.26
+            },
+            {
+              "word": " crus",
+              "start": 227.26,
+              "end": 227.82
+            },
+            {
+              "word": " on",
+              "start": 227.82,
+              "end": 228.5
+            },
+            {
+              "word": " either",
+              "start": 228.5,
+              "end": 228.88
+            },
+            {
+              "word": " side",
+              "start": 228.88,
+              "end": 229.42
+            },
+            {
+              "word": " of",
+              "start": 229.42,
+              "end": 230.26
+            },
+            {
+              "word": " the",
+              "start": 230.26,
+              "end": 230.5
+            },
+            {
+              "word": " inferior",
+              "start": 230.5,
+              "end": 230.98
+            },
+            {
+              "word": " most",
+              "start": 230.98,
+              "end": 231.22
+            },
+            {
+              "word": " portion",
+              "start": 231.22,
+              "end": 231.78
+            },
+            {
+              "word": " of",
+              "start": 231.78,
+              "end": 232.1
+            },
+            {
+              "word": " the",
+              "start": 232.1,
+              "end": 232.2
+            },
+            {
+              "word": " diaphragm",
+              "start": 232.2,
+              "end": 232.8
+            },
+            {
+              "word": " here.",
+              "start": 232.8,
+              "end": 233.0
+            }
+          ]
+        },
+        {
+          "start": 234.57999999999998,
+          "end": 244.34,
+          "text": "And if we zoom in in that area and we look at the area of the diaphragm, especially around the esophageal hiatus where the esophagus is coming through,",
+          "words": [
+            {
+              "word": " And",
+              "start": 234.57999999999998,
+              "end": 235.04
+            },
+            {
+              "word": " if",
+              "start": 235.04,
+              "end": 235.38
+            },
+            {
+              "word": " we",
+              "start": 235.38,
+              "end": 235.6
+            },
+            {
+              "word": " zoom",
+              "start": 235.6,
+              "end": 236.04
+            },
+            {
+              "word": " in",
+              "start": 236.04,
+              "end": 236.22
+            },
+            {
+              "word": " in",
+              "start": 236.22,
+              "end": 236.38
+            },
+            {
+              "word": " that",
+              "start": 236.38,
+              "end": 236.54
+            },
+            {
+              "word": " area",
+              "start": 236.54,
+              "end": 237.02
+            },
+            {
+              "word": " and",
+              "start": 237.02,
+              "end": 238.02
+            },
+            {
+              "word": " we",
+              "start": 238.02,
+              "end": 238.12
+            },
+            {
+              "word": " look",
+              "start": 238.12,
+              "end": 238.36
+            },
+            {
+              "word": " at",
+              "start": 238.36,
+              "end": 238.48
+            },
+            {
+              "word": " the",
+              "start": 238.48,
+              "end": 238.58
+            },
+            {
+              "word": " area",
+              "start": 238.58,
+              "end": 238.9
+            },
+            {
+              "word": " of",
+              "start": 238.9,
+              "end": 239.06
+            },
+            {
+              "word": " the",
+              "start": 239.06,
+              "end": 239.18
+            },
+            {
+              "word": " diaphragm,",
+              "start": 239.18,
+              "end": 240.3
+            },
+            {
+              "word": " especially",
+              "start": 240.3,
+              "end": 240.78
+            },
+            {
+              "word": " around",
+              "start": 240.78,
+              "end": 241.2
+            },
+            {
+              "word": " the",
+              "start": 241.2,
+              "end": 241.4
+            },
+            {
+              "word": " esophageal",
+              "start": 241.4,
+              "end": 242.2
+            },
+            {
+              "word": " hiatus",
+              "start": 242.2,
+              "end": 242.7
+            },
+            {
+              "word": " where",
+              "start": 242.7,
+              "end": 242.94
+            },
+            {
+              "word": " the",
+              "start": 242.94,
+              "end": 243.06
+            },
+            {
+              "word": " esophagus",
+              "start": 243.06,
+              "end": 243.56
+            },
+            {
+              "word": " is",
+              "start": 243.56,
+              "end": 243.8
+            },
+            {
+              "word": " coming",
+              "start": 243.8,
+              "end": 244.04
+            },
+            {
+              "word": " through,",
+              "start": 244.04,
+              "end": 244.34
+            }
+          ]
+        },
+        {
+          "start": 244.92,
+          "end": 250.38,
+          "text": "we see it kind of divides. We see some of that dividing into one leg off to the right, the right crus,",
+          "words": [
+            {
+              "word": " we",
+              "start": 244.92,
+              "end": 245.04
+            },
+            {
+              "word": " see",
+              "start": 245.04,
+              "end": 245.18
+            },
+            {
+              "word": " it",
+              "start": 245.18,
+              "end": 245.32
+            },
+            {
+              "word": " kind",
+              "start": 245.32,
+              "end": 245.44
+            },
+            {
+              "word": " of",
+              "start": 245.44,
+              "end": 245.54
+            },
+            {
+              "word": " divides.",
+              "start": 245.54,
+              "end": 246.08
+            },
+            {
+              "word": " We",
+              "start": 246.46,
+              "end": 246.54
+            },
+            {
+              "word": " see",
+              "start": 246.54,
+              "end": 246.84
+            },
+            {
+              "word": " some",
+              "start": 246.84,
+              "end": 247.38
+            },
+            {
+              "word": " of",
+              "start": 247.38,
+              "end": 247.52
+            },
+            {
+              "word": " that",
+              "start": 247.52,
+              "end": 247.68
+            },
+            {
+              "word": " dividing",
+              "start": 247.68,
+              "end": 248.06
+            },
+            {
+              "word": " into",
+              "start": 248.06,
+              "end": 248.34
+            },
+            {
+              "word": " one",
+              "start": 248.34,
+              "end": 248.64
+            },
+            {
+              "word": " leg",
+              "start": 248.64,
+              "end": 248.86
+            },
+            {
+              "word": " off",
+              "start": 248.86,
+              "end": 248.98
+            },
+            {
+              "word": " to",
+              "start": 248.98,
+              "end": 249.16
+            },
+            {
+              "word": " the",
+              "start": 249.16,
+              "end": 249.26
+            },
+            {
+              "word": " right,",
+              "start": 249.26,
+              "end": 249.5
+            },
+            {
+              "word": " the",
+              "start": 249.62,
+              "end": 249.76
+            },
+            {
+              "word": " right",
+              "start": 249.76,
+              "end": 250.0
+            },
+            {
+              "word": " crus,",
+              "start": 250.0,
+              "end": 250.38
+            }
+          ]
+        },
+        {
+          "start": 251.17999999999998,
+          "end": 254.22,
+          "text": "and then the other off to the left, which is called the left crus.",
+          "words": [
+            {
+              "word": " and",
+              "start": 251.17999999999998,
+              "end": 251.64
+            },
+            {
+              "word": " then",
+              "start": 251.64,
+              "end": 251.74
+            },
+            {
+              "word": " the",
+              "start": 251.74,
+              "end": 251.86
+            },
+            {
+              "word": " other",
+              "start": 251.86,
+              "end": 252.06
+            },
+            {
+              "word": " off",
+              "start": 252.06,
+              "end": 252.28
+            },
+            {
+              "word": " to",
+              "start": 252.28,
+              "end": 252.44
+            },
+            {
+              "word": " the",
+              "start": 252.44,
+              "end": 252.54
+            },
+            {
+              "word": " left,",
+              "start": 252.54,
+              "end": 252.84
+            },
+            {
+              "word": " which",
+              "start": 253.08,
+              "end": 253.2
+            },
+            {
+              "word": " is",
+              "start": 253.2,
+              "end": 253.3
+            },
+            {
+              "word": " called",
+              "start": 253.3,
+              "end": 253.42
+            },
+            {
+              "word": " the",
+              "start": 253.42,
+              "end": 253.56
+            },
+            {
+              "word": " left",
+              "start": 253.56,
+              "end": 253.8
+            },
+            {
+              "word": " crus.",
+              "start": 253.8,
+              "end": 254.22
+            }
+          ]
+        },
+        {
+          "start": 254.84,
+          "end": 257.84,
+          "text": "There's this weird little thing happening off of the right crus.",
+          "words": [
+            {
+              "word": " There's",
+              "start": 254.84,
+              "end": 255.26
+            },
+            {
+              "word": " this",
+              "start": 255.26,
+              "end": 255.36
+            },
+            {
+              "word": " weird",
+              "start": 255.36,
+              "end": 255.72
+            },
+            {
+              "word": " little",
+              "start": 255.72,
+              "end": 255.94
+            },
+            {
+              "word": " thing",
+              "start": 255.94,
+              "end": 256.16
+            },
+            {
+              "word": " happening",
+              "start": 256.16,
+              "end": 256.56
+            },
+            {
+              "word": " off",
+              "start": 256.56,
+              "end": 256.8
+            },
+            {
+              "word": " of",
+              "start": 256.8,
+              "end": 256.92
+            },
+            {
+              "word": " the",
+              "start": 256.92,
+              "end": 257.06
+            },
+            {
+              "word": " right",
+              "start": 257.06,
+              "end": 257.28
+            },
+            {
+              "word": " crus.",
+              "start": 257.28,
+              "end": 257.84
+            }
+          ]
+        },
+        {
+          "start": 257.84,
+          "end": 268.88,
+          "text": "We see some of it going over and around and past the celiac trunk of the abdominal aorta on its way to a portion of the intestine called the duodenum.",
+          "words": [
+            {
+              "word": " We",
+              "start": 257.84,
+              "end": 258.7
+            },
+            {
+              "word": " see",
+              "start": 258.7,
+              "end": 259.06
+            },
+            {
+              "word": " some",
+              "start": 259.06,
+              "end": 259.76
+            },
+            {
+              "word": " of",
+              "start": 259.76,
+              "end": 259.88
+            },
+            {
+              "word": " it",
+              "start": 259.88,
+              "end": 259.96
+            },
+            {
+              "word": " going",
+              "start": 259.96,
+              "end": 260.22
+            },
+            {
+              "word": " over",
+              "start": 260.22,
+              "end": 260.62
+            },
+            {
+              "word": " and",
+              "start": 260.62,
+              "end": 260.88
+            },
+            {
+              "word": " around",
+              "start": 260.88,
+              "end": 261.28
+            },
+            {
+              "word": " and",
+              "start": 261.28,
+              "end": 261.62
+            },
+            {
+              "word": " past",
+              "start": 261.62,
+              "end": 261.98
+            },
+            {
+              "word": " the",
+              "start": 261.98,
+              "end": 262.26
+            },
+            {
+              "word": " celiac",
+              "start": 262.26,
+              "end": 262.74
+            },
+            {
+              "word": " trunk",
+              "start": 262.74,
+              "end": 263.24
+            },
+            {
+              "word": " of",
+              "start": 263.24,
+              "end": 263.88
+            },
+            {
+              "word": " the",
+              "start": 263.88,
+              "end": 264.0
+            },
+            {
+              "word": " abdominal",
+              "start": 264.0,
+              "end": 264.34
+            },
+            {
+              "word": " aorta",
+              "start": 264.34,
+              "end": 264.8
+            },
+            {
+              "word": " on",
+              "start": 264.8,
+              "end": 265.56
+            },
+            {
+              "word": " its",
+              "start": 265.56,
+              "end": 265.7
+            },
+            {
+              "word": " way",
+              "start": 265.7,
+              "end": 266.02
+            },
+            {
+              "word": " to",
+              "start": 266.02,
+              "end": 266.68
+            },
+            {
+              "word": " a",
+              "start": 266.68,
+              "end": 266.84
+            },
+            {
+              "word": " portion",
+              "start": 266.84,
+              "end": 267.04
+            },
+            {
+              "word": " of",
+              "start": 267.04,
+              "end": 267.2
+            },
+            {
+              "word": " the",
+              "start": 267.2,
+              "end": 267.26
+            },
+            {
+              "word": " intestine",
+              "start": 267.26,
+              "end": 267.58
+            },
+            {
+              "word": " called",
+              "start": 267.58,
+              "end": 267.9
+            },
+            {
+              "word": " the",
+              "start": 267.9,
+              "end": 268.06
+            },
+            {
+              "word": " duodenum.",
+              "start": 268.06,
+              "end": 268.88
+            }
+          ]
+        },
+        {
+          "start": 269.48,
+          "end": 278.28,
+          "text": "And that's why this funny little muscle is called the suspensory muscle of the duodenum, or you may have heard it by its eponym, the ligament of trites.",
+          "words": [
+            {
+              "word": " And",
+              "start": 269.48,
+              "end": 270.04
+            },
+            {
+              "word": " that's",
+              "start": 270.04,
+              "end": 270.28
+            },
+            {
+              "word": " why",
+              "start": 270.28,
+              "end": 270.48
+            },
+            {
+              "word": " this",
+              "start": 270.48,
+              "end": 270.84
+            },
+            {
+              "word": " funny",
+              "start": 270.84,
+              "end": 271.26
+            },
+            {
+              "word": " little",
+              "start": 271.26,
+              "end": 271.46
+            },
+            {
+              "word": " muscle",
+              "start": 271.46,
+              "end": 271.8
+            },
+            {
+              "word": " is",
+              "start": 271.8,
+              "end": 272.02
+            },
+            {
+              "word": " called",
+              "start": 272.02,
+              "end": 272.22
+            },
+            {
+              "word": " the",
+              "start": 272.22,
+              "end": 272.42
+            },
+            {
+              "word": " suspensory",
+              "start": 272.42,
+              "end": 272.98
+            },
+            {
+              "word": " muscle",
+              "start": 272.98,
+              "end": 273.36
+            },
+            {
+              "word": " of",
+              "start": 273.36,
+              "end": 273.66
+            },
+            {
+              "word": " the",
+              "start": 273.66,
+              "end": 273.78
+            },
+            {
+              "word": " duodenum,",
+              "start": 273.78,
+              "end": 274.68
+            },
+            {
+              "word": " or",
+              "start": 274.68,
+              "end": 275.3
+            },
+            {
+              "word": " you",
+              "start": 275.3,
+              "end": 275.42
+            },
+            {
+              "word": " may",
+              "start": 275.42,
+              "end": 275.54
+            },
+            {
+              "word": " have",
+              "start": 275.54,
+              "end": 275.66
+            },
+            {
+              "word": " heard",
+              "start": 275.66,
+              "end": 275.82
+            },
+            {
+              "word": " it",
+              "start": 275.82,
+              "end": 275.92
+            },
+            {
+              "word": " by",
+              "start": 275.92,
+              "end": 276.08
+            },
+            {
+              "word": " its",
+              "start": 276.08,
+              "end": 276.34
+            },
+            {
+              "word": " eponym,",
+              "start": 276.34,
+              "end": 276.86
+            },
+            {
+              "word": " the",
+              "start": 277.14,
+              "end": 277.18
+            },
+            {
+              "word": " ligament",
+              "start": 277.18,
+              "end": 277.54
+            },
+            {
+              "word": " of",
+              "start": 277.54,
+              "end": 277.76
+            },
+            {
+              "word": " trites.",
+              "start": 277.76,
+              "end": 278.28
+            }
+          ]
+        },
+        {
+          "start": 279.14,
+          "end": 284.18,
+          "text": "If you've had embryology, you've probably heard of this as an important landmark for rotation of the gut,",
+          "words": [
+            {
+              "word": " If",
+              "start": 279.14,
+              "end": 279.38
+            },
+            {
+              "word": " you've",
+              "start": 279.38,
+              "end": 279.56
+            },
+            {
+              "word": " had",
+              "start": 279.56,
+              "end": 279.7
+            },
+            {
+              "word": " embryology,",
+              "start": 279.7,
+              "end": 280.18
+            },
+            {
+              "word": " you've",
+              "start": 280.26,
+              "end": 280.36
+            },
+            {
+              "word": " probably",
+              "start": 280.36,
+              "end": 280.56
+            },
+            {
+              "word": " heard",
+              "start": 280.56,
+              "end": 280.84
+            },
+            {
+              "word": " of",
+              "start": 280.84,
+              "end": 280.98
+            },
+            {
+              "word": " this",
+              "start": 280.98,
+              "end": 281.2
+            },
+            {
+              "word": " as",
+              "start": 281.2,
+              "end": 281.56
+            },
+            {
+              "word": " an",
+              "start": 281.56,
+              "end": 281.86
+            },
+            {
+              "word": " important",
+              "start": 281.86,
+              "end": 282.24
+            },
+            {
+              "word": " landmark",
+              "start": 282.24,
+              "end": 282.66
+            },
+            {
+              "word": " for",
+              "start": 282.66,
+              "end": 283.02
+            },
+            {
+              "word": " rotation",
+              "start": 283.02,
+              "end": 283.48
+            },
+            {
+              "word": " of",
+              "start": 283.48,
+              "end": 283.78
+            },
+            {
+              "word": " the",
+              "start": 283.78,
+              "end": 283.9
+            },
+            {
+              "word": " gut,",
+              "start": 283.9,
+              "end": 284.18
+            }
+          ]
+        },
+        {
+          "start": 284.18,
+          "end": 294.14,
+          "text": "but it's also an important landmark in just anatomic sense because this is what we generally say divides the GI tract into upper and lower.",
+          "words": [
+            {
+              "word": " but",
+              "start": 284.18,
+              "end": 284.78
+            },
+            {
+              "word": " it's",
+              "start": 284.78,
+              "end": 284.94
+            },
+            {
+              "word": " also",
+              "start": 284.94,
+              "end": 285.14
+            },
+            {
+              "word": " an",
+              "start": 285.14,
+              "end": 285.26
+            },
+            {
+              "word": " important",
+              "start": 285.26,
+              "end": 285.54
+            },
+            {
+              "word": " landmark",
+              "start": 285.54,
+              "end": 286.02
+            },
+            {
+              "word": " in",
+              "start": 286.02,
+              "end": 286.64
+            },
+            {
+              "word": " just",
+              "start": 286.64,
+              "end": 286.96
+            },
+            {
+              "word": " anatomic",
+              "start": 286.96,
+              "end": 287.6
+            },
+            {
+              "word": " sense",
+              "start": 287.6,
+              "end": 288.0
+            },
+            {
+              "word": " because",
+              "start": 288.0,
+              "end": 289.02
+            },
+            {
+              "word": " this",
+              "start": 289.02,
+              "end": 290.04
+            },
+            {
+              "word": " is",
+              "start": 290.04,
+              "end": 290.16
+            },
+            {
+              "word": " what",
+              "start": 290.16,
+              "end": 290.38
+            },
+            {
+              "word": " we",
+              "start": 290.38,
+              "end": 290.66
+            },
+            {
+              "word": " generally",
+              "start": 290.66,
+              "end": 291.44
+            },
+            {
+              "word": " say",
+              "start": 291.44,
+              "end": 291.94
+            },
+            {
+              "word": " divides",
+              "start": 291.94,
+              "end": 292.36
+            },
+            {
+              "word": " the",
+              "start": 292.36,
+              "end": 292.7
+            },
+            {
+              "word": " GI",
+              "start": 292.7,
+              "end": 292.92
+            },
+            {
+              "word": " tract",
+              "start": 292.92,
+              "end": 293.18
+            },
+            {
+              "word": " into",
+              "start": 293.18,
+              "end": 293.42
+            },
+            {
+              "word": " upper",
+              "start": 293.42,
+              "end": 293.7
+            },
+            {
+              "word": " and",
+              "start": 293.7,
+              "end": 293.9
+            },
+            {
+              "word": " lower.",
+              "start": 293.9,
+              "end": 294.14
+            }
+          ]
+        },
+        {
+          "start": 294.82,
+          "end": 302.56,
+          "text": "So for example, if you're saying an upper GI bleed versus a lower GI bleed, this is the point where we're talking about upper becomes lower.",
+          "words": [
+            {
+              "word": " So",
+              "start": 294.82,
+              "end": 294.94
+            },
+            {
+              "word": " for",
+              "start": 294.94,
+              "end": 295.18
+            },
+            {
+              "word": " example,",
+              "start": 295.18,
+              "end": 295.46
+            },
+            {
+              "word": " if",
+              "start": 295.56,
+              "end": 295.68
+            },
+            {
+              "word": " you're",
+              "start": 295.68,
+              "end": 295.78
+            },
+            {
+              "word": " saying",
+              "start": 295.78,
+              "end": 296.02
+            },
+            {
+              "word": " an",
+              "start": 296.02,
+              "end": 296.2
+            },
+            {
+              "word": " upper",
+              "start": 296.2,
+              "end": 296.44
+            },
+            {
+              "word": " GI",
+              "start": 296.44,
+              "end": 296.74
+            },
+            {
+              "word": " bleed",
+              "start": 296.74,
+              "end": 297.4
+            },
+            {
+              "word": " versus",
+              "start": 297.4,
+              "end": 297.68
+            },
+            {
+              "word": " a",
+              "start": 297.68,
+              "end": 297.9
+            },
+            {
+              "word": " lower",
+              "start": 297.9,
+              "end": 298.1
+            },
+            {
+              "word": " GI",
+              "start": 298.1,
+              "end": 298.42
+            },
+            {
+              "word": " bleed,",
+              "start": 298.42,
+              "end": 298.82
+            },
+            {
+              "word": " this",
+              "start": 299.14,
+              "end": 299.66
+            },
+            {
+              "word": " is",
+              "start": 299.66,
+              "end": 300.06
+            },
+            {
+              "word": " the",
+              "start": 300.06,
+              "end": 300.2
+            },
+            {
+              "word": " point",
+              "start": 300.2,
+              "end": 300.46
+            },
+            {
+              "word": " where",
+              "start": 300.46,
+              "end": 300.62
+            },
+            {
+              "word": " we're",
+              "start": 300.62,
+              "end": 300.76
+            },
+            {
+              "word": " talking",
+              "start": 300.76,
+              "end": 301.02
+            },
+            {
+              "word": " about",
+              "start": 301.02,
+              "end": 301.4
+            },
+            {
+              "word": " upper",
+              "start": 301.4,
+              "end": 301.78
+            },
+            {
+              "word": " becomes",
+              "start": 301.78,
+              "end": 302.22
+            },
+            {
+              "word": " lower.",
+              "start": 302.22,
+              "end": 302.56
+            }
+          ]
+        },
+        {
+          "start": 303.82,
+          "end": 306.38,
+          "text": "All right, so let's talk about the innervation a little bit.",
+          "words": [
+            {
+              "word": " All",
+              "start": 303.82,
+              "end": 304.34
+            },
+            {
+              "word": " right,",
+              "start": 304.34,
+              "end": 304.46
+            },
+            {
+              "word": " so",
+              "start": 304.48,
+              "end": 304.58
+            },
+            {
+              "word": " let's",
+              "start": 304.58,
+              "end": 304.7
+            },
+            {
+              "word": " talk",
+              "start": 304.7,
+              "end": 304.86
+            },
+            {
+              "word": " about",
+              "start": 304.86,
+              "end": 305.08
+            },
+            {
+              "word": " the",
+              "start": 305.08,
+              "end": 305.24
+            },
+            {
+              "word": " innervation",
+              "start": 305.24,
+              "end": 305.84
+            },
+            {
+              "word": " a",
+              "start": 305.84,
+              "end": 306.02
+            },
+            {
+              "word": " little",
+              "start": 306.02,
+              "end": 306.14
+            },
+            {
+              "word": " bit.",
+              "start": 306.14,
+              "end": 306.38
+            }
+          ]
+        },
+        {
+          "start": 306.38,
+          "end": 319.72,
+          "text": "So we have the phrenic nerves, and the phrenic nerves originate up in the neck and travel down through the mediastinum on their way to the diaphragm to provide motor innervation there.",
+          "words": [
+            {
+              "word": " So",
+              "start": 306.38,
+              "end": 307.22
+            },
+            {
+              "word": " we",
+              "start": 307.22,
+              "end": 308.0
+            },
+            {
+              "word": " have",
+              "start": 308.0,
+              "end": 308.32
+            },
+            {
+              "word": " the",
+              "start": 308.32,
+              "end": 308.48
+            },
+            {
+              "word": " phrenic",
+              "start": 308.48,
+              "end": 309.04
+            },
+            {
+              "word": " nerves,",
+              "start": 309.04,
+              "end": 309.64
+            },
+            {
+              "word": " and",
+              "start": 310.2,
+              "end": 310.78
+            },
+            {
+              "word": " the",
+              "start": 310.78,
+              "end": 310.86
+            },
+            {
+              "word": " phrenic",
+              "start": 310.86,
+              "end": 311.14
+            },
+            {
+              "word": " nerves",
+              "start": 311.14,
+              "end": 311.56
+            },
+            {
+              "word": " originate",
+              "start": 311.56,
+              "end": 312.16
+            },
+            {
+              "word": " up",
+              "start": 312.16,
+              "end": 312.4
+            },
+            {
+              "word": " in",
+              "start": 312.4,
+              "end": 312.52
+            },
+            {
+              "word": " the",
+              "start": 312.52,
+              "end": 312.6
+            },
+            {
+              "word": " neck",
+              "start": 312.6,
+              "end": 312.88
+            },
+            {
+              "word": " and",
+              "start": 312.88,
+              "end": 313.24
+            },
+            {
+              "word": " travel",
+              "start": 313.24,
+              "end": 313.56
+            },
+            {
+              "word": " down",
+              "start": 313.56,
+              "end": 314.02
+            },
+            {
+              "word": " through",
+              "start": 314.02,
+              "end": 314.38
+            },
+            {
+              "word": " the",
+              "start": 314.38,
+              "end": 314.58
+            },
+            {
+              "word": " mediastinum",
+              "start": 314.58,
+              "end": 315.26
+            },
+            {
+              "word": " on",
+              "start": 315.26,
+              "end": 315.56
+            },
+            {
+              "word": " their",
+              "start": 315.56,
+              "end": 315.68
+            },
+            {
+              "word": " way",
+              "start": 315.68,
+              "end": 316.22
+            },
+            {
+              "word": " to",
+              "start": 316.22,
+              "end": 317.02
+            },
+            {
+              "word": " the",
+              "start": 317.02,
+              "end": 317.12
+            },
+            {
+              "word": " diaphragm",
+              "start": 317.12,
+              "end": 317.72
+            },
+            {
+              "word": " to",
+              "start": 317.72,
+              "end": 317.82
+            },
+            {
+              "word": " provide",
+              "start": 317.82,
+              "end": 318.22
+            },
+            {
+              "word": " motor",
+              "start": 318.22,
+              "end": 318.94
+            },
+            {
+              "word": " innervation",
+              "start": 318.94,
+              "end": 319.48
+            },
+            {
+              "word": " there.",
+              "start": 319.48,
+              "end": 319.72
+            }
+          ]
+        },
+        {
+          "start": 319.76,
+          "end": 324.04,
+          "text": "But we also see as it's going through the mediastinum, it's giving off branches.",
+          "words": [
+            {
+              "word": " But",
+              "start": 319.76,
+              "end": 319.86
+            },
+            {
+              "word": " we",
+              "start": 319.86,
+              "end": 320.02
+            },
+            {
+              "word": " also",
+              "start": 320.02,
+              "end": 320.32
+            },
+            {
+              "word": " see",
+              "start": 320.32,
+              "end": 320.6
+            },
+            {
+              "word": " as",
+              "start": 320.6,
+              "end": 321.02
+            },
+            {
+              "word": " it's",
+              "start": 321.02,
+              "end": 321.16
+            },
+            {
+              "word": " going",
+              "start": 321.16,
+              "end": 321.32
+            },
+            {
+              "word": " through",
+              "start": 321.32,
+              "end": 321.62
+            },
+            {
+              "word": " the",
+              "start": 321.62,
+              "end": 321.78
+            },
+            {
+              "word": " mediastinum,",
+              "start": 321.78,
+              "end": 322.4
+            },
+            {
+              "word": " it's",
+              "start": 322.52,
+              "end": 322.98
+            },
+            {
+              "word": " giving",
+              "start": 322.98,
+              "end": 323.22
+            },
+            {
+              "word": " off",
+              "start": 323.22,
+              "end": 323.52
+            },
+            {
+              "word": " branches.",
+              "start": 323.52,
+              "end": 324.04
+            }
+          ]
+        },
+        {
+          "start": 324.68,
+          "end": 328.76,
+          "text": "And we see, for example, there's some pericardial branches here.",
+          "words": [
+            {
+              "word": " And",
+              "start": 324.68,
+              "end": 325.1
+            },
+            {
+              "word": " we",
+              "start": 325.1,
+              "end": 325.22
+            },
+            {
+              "word": " see,",
+              "start": 325.22,
+              "end": 325.48
+            },
+            {
+              "word": " for",
+              "start": 325.58,
+              "end": 325.66
+            },
+            {
+              "word": " example,",
+              "start": 325.66,
+              "end": 326.0
+            },
+            {
+              "word": " there's",
+              "start": 326.14,
+              "end": 326.44
+            },
+            {
+              "word": " some",
+              "start": 326.44,
+              "end": 326.76
+            },
+            {
+              "word": " pericardial",
+              "start": 326.76,
+              "end": 327.86
+            },
+            {
+              "word": " branches",
+              "start": 327.86,
+              "end": 328.34
+            },
+            {
+              "word": " here.",
+              "start": 328.34,
+              "end": 328.76
+            }
+          ]
+        },
+        {
+          "start": 328.76,
+          "end": 338.1,
+          "text": "And so there's going to be a lot of sensory innervation provided by the phrenic nerves before they reach the diaphragm to provide motor innervation.",
+          "words": [
+            {
+              "word": " And",
+              "start": 328.76,
+              "end": 329.6
+            },
+            {
+              "word": " so",
+              "start": 329.6,
+              "end": 329.84
+            },
+            {
+              "word": " there's",
+              "start": 329.84,
+              "end": 330.38
+            },
+            {
+              "word": " going",
+              "start": 330.38,
+              "end": 330.54
+            },
+            {
+              "word": " to",
+              "start": 330.54,
+              "end": 330.64
+            },
+            {
+              "word": " be",
+              "start": 330.64,
+              "end": 330.74
+            },
+            {
+              "word": " a",
+              "start": 330.74,
+              "end": 330.84
+            },
+            {
+              "word": " lot",
+              "start": 330.84,
+              "end": 331.0
+            },
+            {
+              "word": " of",
+              "start": 331.0,
+              "end": 331.16
+            },
+            {
+              "word": " sensory",
+              "start": 331.16,
+              "end": 331.84
+            },
+            {
+              "word": " innervation",
+              "start": 331.84,
+              "end": 332.74
+            },
+            {
+              "word": " provided",
+              "start": 332.74,
+              "end": 333.24
+            },
+            {
+              "word": " by",
+              "start": 333.24,
+              "end": 333.5
+            },
+            {
+              "word": " the",
+              "start": 333.5,
+              "end": 333.66
+            },
+            {
+              "word": " phrenic",
+              "start": 333.66,
+              "end": 333.9
+            },
+            {
+              "word": " nerves",
+              "start": 333.9,
+              "end": 334.3
+            },
+            {
+              "word": " before",
+              "start": 334.3,
+              "end": 335.02
+            },
+            {
+              "word": " they",
+              "start": 335.02,
+              "end": 335.36
+            },
+            {
+              "word": " reach",
+              "start": 335.36,
+              "end": 335.82
+            },
+            {
+              "word": " the",
+              "start": 335.82,
+              "end": 335.96
+            },
+            {
+              "word": " diaphragm",
+              "start": 335.96,
+              "end": 336.54
+            },
+            {
+              "word": " to",
+              "start": 336.54,
+              "end": 336.68
+            },
+            {
+              "word": " provide",
+              "start": 336.68,
+              "end": 337.08
+            },
+            {
+              "word": " motor",
+              "start": 337.08,
+              "end": 337.56
+            },
+            {
+              "word": " innervation.",
+              "start": 337.56,
+              "end": 338.1
+            }
+          ]
+        },
+        {
+          "start": 339.28,
+          "end": 350.58,
+          "text": "And they're going to go all the way to the undersurface or the abdominal surface where they're going to terminate as phrenicobdominal branches, very appropriately named.",
+          "words": [
+            {
+              "word": " And",
+              "start": 339.28,
+              "end": 340.02
+            },
+            {
+              "word": " they're",
+              "start": 340.02,
+              "end": 340.44
+            },
+            {
+              "word": " going",
+              "start": 340.44,
+              "end": 340.52
+            },
+            {
+              "word": " to",
+              "start": 340.52,
+              "end": 340.6
+            },
+            {
+              "word": " go",
+              "start": 340.6,
+              "end": 340.72
+            },
+            {
+              "word": " all",
+              "start": 340.72,
+              "end": 341.2
+            },
+            {
+              "word": " the",
+              "start": 341.2,
+              "end": 341.38
+            },
+            {
+              "word": " way",
+              "start": 341.38,
+              "end": 341.66
+            },
+            {
+              "word": " to",
+              "start": 341.66,
+              "end": 342.02
+            },
+            {
+              "word": " the",
+              "start": 342.02,
+              "end": 342.14
+            },
+            {
+              "word": " undersurface",
+              "start": 342.14,
+              "end": 342.94
+            },
+            {
+              "word": " or",
+              "start": 342.94,
+              "end": 343.22
+            },
+            {
+              "word": " the",
+              "start": 343.22,
+              "end": 343.36
+            },
+            {
+              "word": " abdominal",
+              "start": 343.36,
+              "end": 343.74
+            },
+            {
+              "word": " surface",
+              "start": 343.74,
+              "end": 344.3
+            },
+            {
+              "word": " where",
+              "start": 344.3,
+              "end": 345.04
+            },
+            {
+              "word": " they're",
+              "start": 345.04,
+              "end": 345.2
+            },
+            {
+              "word": " going",
+              "start": 345.2,
+              "end": 345.3
+            },
+            {
+              "word": " to",
+              "start": 345.3,
+              "end": 345.38
+            },
+            {
+              "word": " terminate",
+              "start": 345.38,
+              "end": 346.12
+            },
+            {
+              "word": " as",
+              "start": 346.12,
+              "end": 346.82
+            },
+            {
+              "word": " phrenicobdominal",
+              "start": 346.82,
+              "end": 348.5
+            },
+            {
+              "word": " branches,",
+              "start": 348.5,
+              "end": 349.0
+            },
+            {
+              "word": " very",
+              "start": 349.28,
+              "end": 349.6
+            },
+            {
+              "word": " appropriately",
+              "start": 349.6,
+              "end": 350.08
+            },
+            {
+              "word": " named.",
+              "start": 350.08,
+              "end": 350.58
+            }
+          ]
+        },
+        {
+          "start": 351.5,
+          "end": 359.58,
+          "text": "Sometimes there can even be a little ganglion called the phrenic ganglion that will communicate with the celiac ganglion down in the abdomen.",
+          "words": [
+            {
+              "word": " Sometimes",
+              "start": 351.5,
+              "end": 352.18
+            },
+            {
+              "word": " there",
+              "start": 352.18,
+              "end": 352.48
+            },
+            {
+              "word": " can",
+              "start": 352.48,
+              "end": 352.6
+            },
+            {
+              "word": " even",
+              "start": 352.6,
+              "end": 352.9
+            },
+            {
+              "word": " be",
+              "start": 352.9,
+              "end": 353.04
+            },
+            {
+              "word": " a",
+              "start": 353.04,
+              "end": 353.18
+            },
+            {
+              "word": " little",
+              "start": 353.18,
+              "end": 353.56
+            },
+            {
+              "word": " ganglion",
+              "start": 353.56,
+              "end": 354.16
+            },
+            {
+              "word": " called",
+              "start": 354.16,
+              "end": 354.4
+            },
+            {
+              "word": " the",
+              "start": 354.4,
+              "end": 354.56
+            },
+            {
+              "word": " phrenic",
+              "start": 354.56,
+              "end": 355.14
+            },
+            {
+              "word": " ganglion",
+              "start": 355.14,
+              "end": 355.8
+            },
+            {
+              "word": " that",
+              "start": 355.8,
+              "end": 356.3
+            },
+            {
+              "word": " will",
+              "start": 356.3,
+              "end": 356.4
+            },
+            {
+              "word": " communicate",
+              "start": 356.4,
+              "end": 357.06
+            },
+            {
+              "word": " with",
+              "start": 357.06,
+              "end": 357.28
+            },
+            {
+              "word": " the",
+              "start": 357.28,
+              "end": 357.44
+            },
+            {
+              "word": " celiac",
+              "start": 357.44,
+              "end": 357.88
+            },
+            {
+              "word": " ganglion",
+              "start": 357.88,
+              "end": 358.48
+            },
+            {
+              "word": " down",
+              "start": 358.48,
+              "end": 358.94
+            },
+            {
+              "word": " in",
+              "start": 358.94,
+              "end": 359.08
+            },
+            {
+              "word": " the",
+              "start": 359.08,
+              "end": 359.2
+            },
+            {
+              "word": " abdomen.",
+              "start": 359.2,
+              "end": 359.58
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 1.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              501.178955078125,
+              57.68675231933594,
+              548.743408203125,
+              121.92381286621094
+            ],
+            "confidence": 0.842862606048584,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 2,
+        "timestamp": 5.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              505.8775634765625,
+              60.23602294921875,
+              552.6575927734375,
+              125.84150695800781
+            ],
+            "confidence": 0.8456775546073914,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 3,
+        "timestamp": 13.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              493.7127685546875,
+              61.94898986816406,
+              540.98095703125,
+              124.10993957519531
+            ],
+            "confidence": 0.8224852085113525,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 4,
+        "timestamp": 25.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              514.576416015625,
+              62.030975341796875,
+              561.4285888671875,
+              128.30194091796875
+            ],
+            "confidence": 0.831516444683075,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 5,
+        "timestamp": 26.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              500.52825927734375,
+              61.565460205078125,
+              547.3938598632812,
+              125.78912353515625
+            ],
+            "confidence": 0.8362054228782654,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 33.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 65.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 85.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              509.69073486328125,
+              63.880157470703125,
+              555.9804077148438,
+              125.38189697265625
+            ],
+            "confidence": 0.8472516536712646,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 9,
+        "timestamp": 94.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              486.1776123046875,
+              64.68719482421875,
+              535.369873046875,
+              132.15087890625
+            ],
+            "confidence": 0.827081024646759,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 10,
+        "timestamp": 98.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              519.1586303710938,
+              61.610260009765625,
+              568.7545776367188,
+              127.06448364257812
+            ],
+            "confidence": 0.8445698618888855,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 105.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              507.8709716796875,
+              58.53672790527344,
+              555.412353515625,
+              122.80490112304688
+            ],
+            "confidence": 0.8297987580299377,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 12,
+        "timestamp": 116.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 13,
+        "timestamp": 142.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000013.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              507.0338439941406,
+              58.75788879394531,
+              554.4932861328125,
+              124.02174377441406
+            ],
+            "confidence": 0.8337485194206238,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 14,
+        "timestamp": 149.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000014.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              511.8156433105469,
+              60.90032958984375,
+              559.3095703125,
+              126.79608154296875
+            ],
+            "confidence": 0.8323067426681519,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 15,
+        "timestamp": 153.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000015.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              199.25677490234375,
+              82.02788543701172,
+              460.08447265625,
+              267.4825439453125
+            ],
+            "confidence": 0.26258277893066406,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 16,
+        "timestamp": 189.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000016.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 17,
+        "timestamp": 212.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000017.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              507.7801513671875,
+              62.7880859375,
+              554.9656982421875,
+              128.1605682373047
+            ],
+            "confidence": 0.8372552990913391,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 18,
+        "timestamp": 223.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000018.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 19,
+        "timestamp": 228.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000019.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 20,
+        "timestamp": 229.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000020.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              505.09320068359375,
+              60.32429504394531,
+              552.8276977539062,
+              123.44346618652344
+            ],
+            "confidence": 0.8405715227127075,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 21,
+        "timestamp": 235.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000021.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              511.453857421875,
+              61.959625244140625,
+              558.7861328125,
+              127.00970458984375
+            ],
+            "confidence": 0.8195443749427795,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 22,
+        "timestamp": 252.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000022.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              499.0074462890625,
+              59.94770812988281,
+              546.04443359375,
+              125.28724670410156
+            ],
+            "confidence": 0.828397810459137,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 23,
+        "timestamp": 259.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000023.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 24,
+        "timestamp": 279.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000024.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              515.2430419921875,
+              61.508148193359375,
+              562.6014404296875,
+              124.50201416015625
+            ],
+            "confidence": 0.8211610317230225,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 25,
+        "timestamp": 280.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000025.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              505.8088073730469,
+              60.35319519042969,
+              553.31591796875,
+              126.53005981445312
+            ],
+            "confidence": 0.839810311794281,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 26,
+        "timestamp": 295.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000026.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 27,
+        "timestamp": 304.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000027.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              512.2083740234375,
+              61.66108703613281,
+              559.1756591796875,
+              126.98141479492188
+            ],
+            "confidence": 0.8210046887397766,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 28,
+        "timestamp": 305.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000028.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              505.15228271484375,
+              63.482025146484375,
+              551.9147338867188,
+              127.9041748046875
+            ],
+            "confidence": 0.8381900191307068,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 29,
+        "timestamp": 313.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000029.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              515.6260986328125,
+              61.90519714355469,
+              563.9561767578125,
+              126.74050903320312
+            ],
+            "confidence": 0.8343477845191956,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 30,
+        "timestamp": 320.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000030.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              517.5426635742188,
+              59.56390380859375,
+              565.2512817382812,
+              125.33616638183594
+            ],
+            "confidence": 0.8440528512001038,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 31,
+        "timestamp": 321.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000031.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              507.947021484375,
+              60.33642578125,
+              555.916259765625,
+              123.75531005859375
+            ],
+            "confidence": 0.8326669931411743,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 32,
+        "timestamp": 325.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000032.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 33,
+        "timestamp": 326.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000033.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 34,
+        "timestamp": 340.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000034.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              516.8011474609375,
+              61.22077941894531,
+              564.2032470703125,
+              126.42160034179688
+            ],
+            "confidence": 0.8360591530799866,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 35,
+        "timestamp": 345.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000035.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              512.5516967773438,
+              60.31153869628906,
+              560.0776977539062,
+              125.80595397949219
+            ],
+            "confidence": 0.8171685934066772,
+            "class": "face"
+          }
+        ],
+        "face_count": 1,
+        "concepts": []
+      },
+      {
+        "index": 36,
+        "timestamp": 346.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000036.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              513.087158203125,
+              61.02801513671875,
+              560.47412109375,
+              125.23931884765625
+            ],
+            "confidence": 0.8219007253646851,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 37,
+        "timestamp": 347.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000037.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              511.6439208984375,
+              60.978668212890625,
+              559.3221435546875,
+              125.08982849121094
+            ],
+            "confidence": 0.8192980289459229,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 38,
+        "timestamp": 361.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000038.jpg",
+        "ssim_kept": true,
+        "instructor": true,
+        "faces": [
+          {
+            "bbox": [
+              452.9263916015625,
+              68.68099975585938,
+              541.366943359375,
+              190.4691162109375
+            ],
+            "confidence": 0.8692084550857544,
+            "class": "face"
+          }
+        ],
+        "face_count": 1
+      },
+      {
+        "index": 39,
+        "timestamp": 381.0,
+        "path": "data/processed\\lecture_203\\frames\\frame_000039.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 40,
+      "frames_with_instructor": 28,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 6,
+        "timestamp": 33.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 12,
+        "timestamp": 116.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 16,
+        "timestamp": 189.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 20,
+        "timestamp": 229.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 26,
+        "timestamp": 295.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 33,
+        "timestamp": 326.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      },
+      {
+        "frame_index": 37,
+        "timestamp": 347.0,
+        "concepts": [
+          "Scientific Diagram"
+        ],
+        "quality": "Good",
+        "notes": "biology Diagram"
+      }
+    ]
+  }
+}

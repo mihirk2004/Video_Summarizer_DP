@@ -67,7 +67,10 @@ class VideoAnnotationGUI:
         self.concept_vars = {}
         concepts = [
             "Mathematical Equation",
-            "Scientific Diagram", 
+            "Scientific Diagram",
+            "Scientific Equation",
+            "Molecular Reaction",
+            "Scientific Formula", 
             "Computer Code",
             "Instructor Pointing",
             "Instructor Writing",
@@ -219,7 +222,7 @@ class VideoAnnotationGUI:
 
 if __name__ == "__main__":
     # Example usage
-    json_file = "data/processed/lecture_002/lecture_002.json"
+    json_file = "data\processed\lecture_229\lecture_229.json"
     if os.path.exists(json_file):
         app = VideoAnnotationGUI(json_file)
         app.run()

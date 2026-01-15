@@ -1,0 +1,3913 @@
+{
+  "video_id": "lecture_166",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_31.mp4",
+    "duration": 0.0,
+    "fps": 25.0,
+    "resolution": "640x342",
+    "processing_date": "2025-12-26T13:02:12.739640",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_166\\audio.wav",
+    "transcript": {
+      "text": " In this lecture, I will solve one numerical problem based on Zener diode. We need to determine the range of input voltage Vi. Vi is the variable input voltage that will maintain Zener diode in on state. The Zener diode must be on and for this we have to determine the range of input voltage Vi. If you remember the third part of Zener diode as voltage regulator, I explained Vi minimum, the minimum value of input voltage is equal to Vz. Inside the bracket we have R plus RL where R is the series resistance or current limiting resistance. RL is the load resistance divided by RL. In this problem, Vz is equal to 20 volts. We have 20 inside the bracket. R is equal to 220 ohms, 220 plus RL is equal to 1.2 kilo ohms. We have 120 ohms divided by 120. 220 plus 120 is equal to 140 divided by 120. When you solve this, you have 71 divided by 3 and this is equal to 23.67 volts. This is the minimum value of input voltage. Now we will calculate the maximum value of input voltage Vi max. Vi max is equal to Vr max voltage across the series resistance plus Vz. Vz is the Zener voltage and I have obtained this equation by using the KVL, by using the KVL voltage law. In this loop, Vr maximum is equal to Ir maximum multiplied by R plus Vz and this is equal to Vi max. I will call this equation number 1 and we have to calculate Ir max. If I use Kirchoff's current law at this node, Ir is equal to Iz plus Il. Very simple. Ir is equal to Iz plus Il. When Iz is maximum, when Iz is maximum, Ir is also maximum because Il is fixed. Il is fixed. Why Il is fixed? Because Il is the current through the load resistance and it is equal to Vl divided by Rl. Vl is the voltage across the load resistance. Vl is also equal to Vz. You can see both these voltages are measured across the same point. So Vl is equal to Vz. So we have Vz divided by Rl as the value of Il. Vz is fixed. It is equal to 20 volts. Rl is also fixed. It is equal to 1.2 kilo ohms. So Il is also fixed. And when Zener current is maximum, current through the series resistance is also maximum. Iz maximum is equal to 60 milliamps already given in the problem. So we have 60 milliamps plus Il is equal to Vz divided by Rl. Vz is 20 volts. Rl is 1.2 kilo ohms. So finally we have 60 milliamps plus 16.67 milliamps. When you add these two values, you will have 76.67 milliamps. And this is the value of Ir max. Now I will put this value in equation 1. And let's see what we have. From equation 1, Vimax is equal to 76.67 milliamps multiplied by R. R is equal to 220 ohms plus Vz. Vz is 20 volts. When you solve this, you have 16.867 volts plus 20 volts. And finally, the maximum value of input voltage is equal to 36.867 volts. This is the value of Vimax. So range of Vi is equal to 23.67 volts to 36.867 volts. This is the answer of this numerical problem. This is very easy problem. The only thing you should know is the formula for Vi minimum and Vi maximum. If you don't remember the formula, you can easily derive them. I have already explained how to obtain condition for minimum input voltage and condition for maximum input voltage. In the next lecture, I will solve another numerical problem based on Zener diodes.",
+      "segments": [
+        {
+          "start": 4.78,
+          "end": 9.1,
+          "text": "In this lecture, I will solve one numerical problem based on Zener diode.",
+          "words": [
+            {
+              "word": " In",
+              "start": 4.78,
+              "end": 5.46
+            },
+            {
+              "word": " this",
+              "start": 5.46,
+              "end": 5.68
+            },
+            {
+              "word": " lecture,",
+              "start": 5.68,
+              "end": 6.08
+            },
+            {
+              "word": " I",
+              "start": 6.26,
+              "end": 6.3
+            },
+            {
+              "word": " will",
+              "start": 6.3,
+              "end": 6.42
+            },
+            {
+              "word": " solve",
+              "start": 6.42,
+              "end": 6.72
+            },
+            {
+              "word": " one",
+              "start": 6.72,
+              "end": 6.96
+            },
+            {
+              "word": " numerical",
+              "start": 6.96,
+              "end": 7.34
+            },
+            {
+              "word": " problem",
+              "start": 7.34,
+              "end": 7.92
+            },
+            {
+              "word": " based",
+              "start": 7.92,
+              "end": 8.32
+            },
+            {
+              "word": " on",
+              "start": 8.32,
+              "end": 8.52
+            },
+            {
+              "word": " Zener",
+              "start": 8.52,
+              "end": 8.82
+            },
+            {
+              "word": " diode.",
+              "start": 8.82,
+              "end": 9.1
+            }
+          ]
+        },
+        {
+          "start": 9.62,
+          "end": 12.68,
+          "text": "We need to determine the range of input voltage Vi.",
+          "words": [
+            {
+              "word": " We",
+              "start": 9.62,
+              "end": 9.8
+            },
+            {
+              "word": " need",
+              "start": 9.8,
+              "end": 10.04
+            },
+            {
+              "word": " to",
+              "start": 10.04,
+              "end": 10.2
+            },
+            {
+              "word": " determine",
+              "start": 10.2,
+              "end": 10.56
+            },
+            {
+              "word": " the",
+              "start": 10.56,
+              "end": 11.12
+            },
+            {
+              "word": " range",
+              "start": 11.12,
+              "end": 11.46
+            },
+            {
+              "word": " of",
+              "start": 11.46,
+              "end": 11.68
+            },
+            {
+              "word": " input",
+              "start": 11.68,
+              "end": 11.94
+            },
+            {
+              "word": " voltage",
+              "start": 11.94,
+              "end": 12.38
+            },
+            {
+              "word": " Vi.",
+              "start": 12.38,
+              "end": 12.68
+            }
+          ]
+        },
+        {
+          "start": 13.16,
+          "end": 18.9,
+          "text": "Vi is the variable input voltage that will maintain Zener diode in on state.",
+          "words": [
+            {
+              "word": " Vi",
+              "start": 13.16,
+              "end": 13.54
+            },
+            {
+              "word": " is",
+              "start": 13.54,
+              "end": 14.02
+            },
+            {
+              "word": " the",
+              "start": 14.02,
+              "end": 14.18
+            },
+            {
+              "word": " variable",
+              "start": 14.18,
+              "end": 14.56
+            },
+            {
+              "word": " input",
+              "start": 14.56,
+              "end": 14.96
+            },
+            {
+              "word": " voltage",
+              "start": 14.96,
+              "end": 15.5
+            },
+            {
+              "word": " that",
+              "start": 15.5,
+              "end": 16.2
+            },
+            {
+              "word": " will",
+              "start": 16.2,
+              "end": 16.4
+            },
+            {
+              "word": " maintain",
+              "start": 16.4,
+              "end": 16.86
+            },
+            {
+              "word": " Zener",
+              "start": 16.86,
+              "end": 17.34
+            },
+            {
+              "word": " diode",
+              "start": 17.34,
+              "end": 17.84
+            },
+            {
+              "word": " in",
+              "start": 17.84,
+              "end": 18.3
+            },
+            {
+              "word": " on",
+              "start": 18.3,
+              "end": 18.5
+            },
+            {
+              "word": " state.",
+              "start": 18.5,
+              "end": 18.9
+            }
+          ]
+        },
+        {
+          "start": 19.42,
+          "end": 24.52,
+          "text": "The Zener diode must be on and for this we have to determine the range of input voltage",
+          "words": [
+            {
+              "word": " The",
+              "start": 19.42,
+              "end": 19.54
+            },
+            {
+              "word": " Zener",
+              "start": 19.54,
+              "end": 19.92
+            },
+            {
+              "word": " diode",
+              "start": 19.92,
+              "end": 20.26
+            },
+            {
+              "word": " must",
+              "start": 20.26,
+              "end": 20.56
+            },
+            {
+              "word": " be",
+              "start": 20.56,
+              "end": 20.84
+            },
+            {
+              "word": " on",
+              "start": 20.84,
+              "end": 21.22
+            },
+            {
+              "word": " and",
+              "start": 21.22,
+              "end": 21.46
+            },
+            {
+              "word": " for",
+              "start": 21.46,
+              "end": 21.7
+            },
+            {
+              "word": " this",
+              "start": 21.7,
+              "end": 21.94
+            },
+            {
+              "word": " we",
+              "start": 21.94,
+              "end": 22.16
+            },
+            {
+              "word": " have",
+              "start": 22.16,
+              "end": 22.36
+            },
+            {
+              "word": " to",
+              "start": 22.36,
+              "end": 22.52
+            },
+            {
+              "word": " determine",
+              "start": 22.52,
+              "end": 22.9
+            },
+            {
+              "word": " the",
+              "start": 22.9,
+              "end": 23.3
+            },
+            {
+              "word": " range",
+              "start": 23.3,
+              "end": 23.6
+            },
+            {
+              "word": " of",
+              "start": 23.6,
+              "end": 23.8
+            },
+            {
+              "word": " input",
+              "start": 23.8,
+              "end": 24.04
+            },
+            {
+              "word": " voltage",
+              "start": 24.04,
+              "end": 24.52
+            }
+          ]
+        },
+        {
+          "start": 24.52,
+          "end": 24.92,
+          "text": "Vi.",
+          "words": [
+            {
+              "word": " Vi.",
+              "start": 24.52,
+              "end": 24.92
+            }
+          ]
+        },
+        {
+          "start": 25.92,
+          "end": 33.12,
+          "text": "If you remember the third part of Zener diode as voltage regulator, I explained Vi minimum,",
+          "words": [
+            {
+              "word": " If",
+              "start": 25.58,
+              "end": 26.02
+            },
+            {
+              "word": " you",
+              "start": 26.02,
+              "end": 26.18
+            },
+            {
+              "word": " remember",
+              "start": 26.18,
+              "end": 26.58
+            },
+            {
+              "word": " the",
+              "start": 26.58,
+              "end": 26.96
+            },
+            {
+              "word": " third",
+              "start": 26.96,
+              "end": 27.24
+            },
+            {
+              "word": " part",
+              "start": 27.24,
+              "end": 27.64
+            },
+            {
+              "word": " of",
+              "start": 27.64,
+              "end": 27.94
+            },
+            {
+              "word": " Zener",
+              "start": 27.94,
+              "end": 28.3
+            },
+            {
+              "word": " diode",
+              "start": 28.3,
+              "end": 28.58
+            },
+            {
+              "word": " as",
+              "start": 28.58,
+              "end": 28.94
+            },
+            {
+              "word": " voltage",
+              "start": 28.94,
+              "end": 29.26
+            },
+            {
+              "word": " regulator,",
+              "start": 29.26,
+              "end": 29.9
+            },
+            {
+              "word": " I",
+              "start": 30.34,
+              "end": 30.58
+            },
+            {
+              "word": " explained",
+              "start": 30.58,
+              "end": 31.26
+            },
+            {
+              "word": " Vi",
+              "start": 31.26,
+              "end": 32.42
+            },
+            {
+              "word": " minimum,",
+              "start": 32.42,
+              "end": 33.12
+            }
+          ]
+        },
+        {
+          "start": 33.6,
+          "end": 38.64,
+          "text": "the minimum value of input voltage is equal to Vz.",
+          "words": [
+            {
+              "word": " the",
+              "start": 33.6,
+              "end": 33.78
+            },
+            {
+              "word": " minimum",
+              "start": 33.78,
+              "end": 34.08
+            },
+            {
+              "word": " value",
+              "start": 34.08,
+              "end": 34.58
+            },
+            {
+              "word": " of",
+              "start": 34.58,
+              "end": 35.24
+            },
+            {
+              "word": " input",
+              "start": 35.24,
+              "end": 35.54
+            },
+            {
+              "word": " voltage",
+              "start": 35.54,
+              "end": 36.08
+            },
+            {
+              "word": " is",
+              "start": 36.08,
+              "end": 36.38
+            },
+            {
+              "word": " equal",
+              "start": 36.38,
+              "end": 36.76
+            },
+            {
+              "word": " to",
+              "start": 36.76,
+              "end": 37.06
+            },
+            {
+              "word": " Vz.",
+              "start": 37.06,
+              "end": 38.64
+            }
+          ]
+        },
+        {
+          "start": 39.36,
+          "end": 47.1,
+          "text": "Inside the bracket we have R plus RL where R is the series resistance or current limiting",
+          "words": [
+            {
+              "word": " Inside",
+              "start": 39.36,
+              "end": 39.88
+            },
+            {
+              "word": " the",
+              "start": 39.88,
+              "end": 40.14
+            },
+            {
+              "word": " bracket",
+              "start": 40.14,
+              "end": 40.48
+            },
+            {
+              "word": " we",
+              "start": 40.48,
+              "end": 40.86
+            },
+            {
+              "word": " have",
+              "start": 40.86,
+              "end": 41.14
+            },
+            {
+              "word": " R",
+              "start": 41.14,
+              "end": 41.58
+            },
+            {
+              "word": " plus",
+              "start": 41.58,
+              "end": 42.28
+            },
+            {
+              "word": " RL",
+              "start": 42.28,
+              "end": 43.08
+            },
+            {
+              "word": " where",
+              "start": 43.08,
+              "end": 43.62
+            },
+            {
+              "word": " R",
+              "start": 43.62,
+              "end": 44.1
+            },
+            {
+              "word": " is",
+              "start": 44.1,
+              "end": 44.72
+            },
+            {
+              "word": " the",
+              "start": 44.72,
+              "end": 44.9
+            },
+            {
+              "word": " series",
+              "start": 44.9,
+              "end": 45.22
+            },
+            {
+              "word": " resistance",
+              "start": 45.22,
+              "end": 45.88
+            },
+            {
+              "word": " or",
+              "start": 45.88,
+              "end": 46.38
+            },
+            {
+              "word": " current",
+              "start": 46.38,
+              "end": 46.74
+            },
+            {
+              "word": " limiting",
+              "start": 46.74,
+              "end": 47.1
+            }
+          ]
+        },
+        {
+          "start": 47.1,
+          "end": 47.74,
+          "text": "resistance.",
+          "words": [
+            {
+              "word": " resistance.",
+              "start": 47.1,
+              "end": 47.74
+            }
+          ]
+        },
+        {
+          "start": 48.26,
+          "end": 51.86,
+          "text": "RL is the load resistance divided by RL.",
+          "words": [
+            {
+              "word": " RL",
+              "start": 48.26,
+              "end": 48.78
+            },
+            {
+              "word": " is",
+              "start": 48.78,
+              "end": 48.98
+            },
+            {
+              "word": " the",
+              "start": 48.98,
+              "end": 49.1
+            },
+            {
+              "word": " load",
+              "start": 49.1,
+              "end": 49.26
+            },
+            {
+              "word": " resistance",
+              "start": 49.26,
+              "end": 49.8
+            },
+            {
+              "word": " divided",
+              "start": 49.8,
+              "end": 50.28
+            },
+            {
+              "word": " by",
+              "start": 50.28,
+              "end": 50.76
+            },
+            {
+              "word": " RL.",
+              "start": 50.76,
+              "end": 51.86
+            }
+          ]
+        },
+        {
+          "start": 52.82,
+          "end": 56.8,
+          "text": "In this problem, Vz is equal to 20 volts.",
+          "words": [
+            {
+              "word": " In",
+              "start": 52.46,
+              "end": 52.88
+            },
+            {
+              "word": " this",
+              "start": 52.88,
+              "end": 53.08
+            },
+            {
+              "word": " problem,",
+              "start": 53.08,
+              "end": 53.58
+            },
+            {
+              "word": " Vz",
+              "start": 54.2,
+              "end": 54.68
+            },
+            {
+              "word": " is",
+              "start": 54.68,
+              "end": 55.78
+            },
+            {
+              "word": " equal",
+              "start": 55.78,
+              "end": 56.08
+            },
+            {
+              "word": " to",
+              "start": 56.08,
+              "end": 56.22
+            },
+            {
+              "word": " 20",
+              "start": 56.22,
+              "end": 56.52
+            },
+            {
+              "word": " volts.",
+              "start": 56.52,
+              "end": 56.8
+            }
+          ]
+        },
+        {
+          "start": 57.36,
+          "end": 60.2,
+          "text": "We have 20 inside the bracket.",
+          "words": [
+            {
+              "word": " We",
+              "start": 57.36,
+              "end": 57.6
+            },
+            {
+              "word": " have",
+              "start": 57.6,
+              "end": 57.96
+            },
+            {
+              "word": " 20",
+              "start": 57.96,
+              "end": 58.5
+            },
+            {
+              "word": " inside",
+              "start": 58.5,
+              "end": 59.6
+            },
+            {
+              "word": " the",
+              "start": 59.6,
+              "end": 59.88
+            },
+            {
+              "word": " bracket.",
+              "start": 59.88,
+              "end": 60.2
+            }
+          ]
+        },
+        {
+          "start": 60.64,
+          "end": 69.44,
+          "text": "R is equal to 220 ohms, 220 plus RL is equal to 1.2 kilo ohms.",
+          "words": [
+            {
+              "word": " R",
+              "start": 60.64,
+              "end": 61.04
+            },
+            {
+              "word": " is",
+              "start": 61.04,
+              "end": 61.26
+            },
+            {
+              "word": " equal",
+              "start": 61.26,
+              "end": 61.6
+            },
+            {
+              "word": " to",
+              "start": 61.6,
+              "end": 61.8
+            },
+            {
+              "word": " 220",
+              "start": 61.8,
+              "end": 62.36
+            },
+            {
+              "word": " ohms,",
+              "start": 62.36,
+              "end": 63.38
+            },
+            {
+              "word": " 220",
+              "start": 63.74,
+              "end": 64.48
+            },
+            {
+              "word": " plus",
+              "start": 64.48,
+              "end": 65.66
+            },
+            {
+              "word": " RL",
+              "start": 65.66,
+              "end": 66.94
+            },
+            {
+              "word": " is",
+              "start": 66.94,
+              "end": 67.24
+            },
+            {
+              "word": " equal",
+              "start": 67.24,
+              "end": 67.56
+            },
+            {
+              "word": " to",
+              "start": 67.56,
+              "end": 67.74
+            },
+            {
+              "word": " 1",
+              "start": 67.74,
+              "end": 68.0
+            },
+            {
+              "word": ".2",
+              "start": 68.0,
+              "end": 68.62
+            },
+            {
+              "word": " kilo",
+              "start": 68.62,
+              "end": 68.84
+            },
+            {
+              "word": " ohms.",
+              "start": 68.84,
+              "end": 69.44
+            }
+          ]
+        },
+        {
+          "start": 69.8,
+          "end": 75.7,
+          "text": "We have 120 ohms divided by 120.",
+          "words": [
+            {
+              "word": " We",
+              "start": 69.8,
+              "end": 70.18
+            },
+            {
+              "word": " have",
+              "start": 70.18,
+              "end": 70.44
+            },
+            {
+              "word": " 120",
+              "start": 70.44,
+              "end": 71.34
+            },
+            {
+              "word": " ohms",
+              "start": 71.34,
+              "end": 73.46
+            },
+            {
+              "word": " divided",
+              "start": 73.46,
+              "end": 74.22
+            },
+            {
+              "word": " by",
+              "start": 74.22,
+              "end": 74.74
+            },
+            {
+              "word": " 120.",
+              "start": 74.74,
+              "end": 75.7
+            }
+          ]
+        },
+        {
+          "start": 77.1,
+          "end": 85.3,
+          "text": "220 plus 120 is equal to 140 divided by 120.",
+          "words": [
+            {
+              "word": " 220",
+              "start": 77.1,
+              "end": 77.88
+            },
+            {
+              "word": " plus",
+              "start": 77.88,
+              "end": 78.62
+            },
+            {
+              "word": " 120",
+              "start": 78.62,
+              "end": 78.96
+            },
+            {
+              "word": " is",
+              "start": 78.96,
+              "end": 80.06
+            },
+            {
+              "word": " equal",
+              "start": 80.06,
+              "end": 80.48
+            },
+            {
+              "word": " to",
+              "start": 80.48,
+              "end": 80.78
+            },
+            {
+              "word": " 140",
+              "start": 80.78,
+              "end": 82.1
+            },
+            {
+              "word": " divided",
+              "start": 82.1,
+              "end": 84.06
+            },
+            {
+              "word": " by",
+              "start": 84.06,
+              "end": 84.6
+            },
+            {
+              "word": " 120.",
+              "start": 84.6,
+              "end": 85.3
+            }
+          ]
+        },
+        {
+          "start": 86.16,
+          "end": 94.02,
+          "text": "When you solve this, you have 71 divided by 3 and this is equal to 23.67 volts.",
+          "words": [
+            {
+              "word": " When",
+              "start": 86.16,
+              "end": 86.46
+            },
+            {
+              "word": " you",
+              "start": 86.46,
+              "end": 86.6
+            },
+            {
+              "word": " solve",
+              "start": 86.6,
+              "end": 86.82
+            },
+            {
+              "word": " this,",
+              "start": 86.82,
+              "end": 87.18
+            },
+            {
+              "word": " you",
+              "start": 87.3,
+              "end": 87.42
+            },
+            {
+              "word": " have",
+              "start": 87.42,
+              "end": 87.6
+            },
+            {
+              "word": " 71",
+              "start": 87.6,
+              "end": 88.22
+            },
+            {
+              "word": " divided",
+              "start": 88.22,
+              "end": 89.0
+            },
+            {
+              "word": " by",
+              "start": 89.0,
+              "end": 89.32
+            },
+            {
+              "word": " 3",
+              "start": 89.32,
+              "end": 89.62
+            },
+            {
+              "word": " and",
+              "start": 89.62,
+              "end": 90.24
+            },
+            {
+              "word": " this",
+              "start": 90.24,
+              "end": 90.42
+            },
+            {
+              "word": " is",
+              "start": 90.42,
+              "end": 90.56
+            },
+            {
+              "word": " equal",
+              "start": 90.56,
+              "end": 90.9
+            },
+            {
+              "word": " to",
+              "start": 90.9,
+              "end": 91.22
+            },
+            {
+              "word": " 23",
+              "start": 91.22,
+              "end": 92.06
+            },
+            {
+              "word": ".67",
+              "start": 92.06,
+              "end": 93.26
+            },
+            {
+              "word": " volts.",
+              "start": 93.26,
+              "end": 94.02
+            }
+          ]
+        },
+        {
+          "start": 94.66,
+          "end": 97.54,
+          "text": "This is the minimum value of input voltage.",
+          "words": [
+            {
+              "word": " This",
+              "start": 94.66,
+              "end": 94.86
+            },
+            {
+              "word": " is",
+              "start": 94.86,
+              "end": 95.12
+            },
+            {
+              "word": " the",
+              "start": 95.12,
+              "end": 95.26
+            },
+            {
+              "word": " minimum",
+              "start": 95.26,
+              "end": 95.56
+            },
+            {
+              "word": " value",
+              "start": 95.56,
+              "end": 96.1
+            },
+            {
+              "word": " of",
+              "start": 96.1,
+              "end": 96.78
+            },
+            {
+              "word": " input",
+              "start": 96.78,
+              "end": 97.06
+            },
+            {
+              "word": " voltage.",
+              "start": 97.06,
+              "end": 97.54
+            }
+          ]
+        },
+        {
+          "start": 97.54,
+          "end": 103.94,
+          "text": "Now we will calculate the maximum value of input voltage Vi max.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 97.54,
+              "end": 97.84
+            },
+            {
+              "word": " we",
+              "start": 97.84,
+              "end": 97.98
+            },
+            {
+              "word": " will",
+              "start": 97.98,
+              "end": 98.12
+            },
+            {
+              "word": " calculate",
+              "start": 98.12,
+              "end": 98.72
+            },
+            {
+              "word": " the",
+              "start": 98.72,
+              "end": 99.42
+            },
+            {
+              "word": " maximum",
+              "start": 99.42,
+              "end": 99.92
+            },
+            {
+              "word": " value",
+              "start": 99.92,
+              "end": 100.46
+            },
+            {
+              "word": " of",
+              "start": 100.46,
+              "end": 101.12
+            },
+            {
+              "word": " input",
+              "start": 101.12,
+              "end": 101.44
+            },
+            {
+              "word": " voltage",
+              "start": 101.44,
+              "end": 101.94
+            },
+            {
+              "word": " Vi",
+              "start": 101.94,
+              "end": 102.74
+            },
+            {
+              "word": " max.",
+              "start": 102.74,
+              "end": 103.94
+            }
+          ]
+        },
+        {
+          "start": 104.12,
+          "end": 116.06,
+          "text": "Vi max is equal to Vr max voltage across the series resistance plus Vz.",
+          "words": [
+            {
+              "word": " Vi",
+              "start": 104.12,
+              "end": 104.66
+            },
+            {
+              "word": " max",
+              "start": 104.66,
+              "end": 105.0
+            },
+            {
+              "word": " is",
+              "start": 105.0,
+              "end": 105.28
+            },
+            {
+              "word": " equal",
+              "start": 105.28,
+              "end": 105.62
+            },
+            {
+              "word": " to",
+              "start": 105.62,
+              "end": 106.86
+            },
+            {
+              "word": " Vr",
+              "start": 106.86,
+              "end": 107.74
+            },
+            {
+              "word": " max",
+              "start": 107.74,
+              "end": 108.08
+            },
+            {
+              "word": " voltage",
+              "start": 108.08,
+              "end": 109.2
+            },
+            {
+              "word": " across",
+              "start": 109.2,
+              "end": 109.72
+            },
+            {
+              "word": " the",
+              "start": 109.72,
+              "end": 111.56
+            },
+            {
+              "word": " series",
+              "start": 111.56,
+              "end": 113.48
+            },
+            {
+              "word": " resistance",
+              "start": 113.48,
+              "end": 114.08
+            },
+            {
+              "word": " plus",
+              "start": 114.08,
+              "end": 115.08
+            },
+            {
+              "word": " Vz.",
+              "start": 115.08,
+              "end": 116.06
+            }
+          ]
+        },
+        {
+          "start": 116.26,
+          "end": 122.36,
+          "text": "Vz is the Zener voltage and I have obtained this equation by using the KVL, by using the",
+          "words": [
+            {
+              "word": " Vz",
+              "start": 116.26,
+              "end": 116.72
+            },
+            {
+              "word": " is",
+              "start": 116.72,
+              "end": 116.94
+            },
+            {
+              "word": " the",
+              "start": 116.94,
+              "end": 117.1
+            },
+            {
+              "word": " Zener",
+              "start": 117.1,
+              "end": 117.36
+            },
+            {
+              "word": " voltage",
+              "start": 117.36,
+              "end": 117.68
+            },
+            {
+              "word": " and",
+              "start": 117.68,
+              "end": 118.4
+            },
+            {
+              "word": " I",
+              "start": 118.4,
+              "end": 118.6
+            },
+            {
+              "word": " have",
+              "start": 118.6,
+              "end": 118.76
+            },
+            {
+              "word": " obtained",
+              "start": 118.76,
+              "end": 119.12
+            },
+            {
+              "word": " this",
+              "start": 119.12,
+              "end": 119.48
+            },
+            {
+              "word": " equation",
+              "start": 119.48,
+              "end": 120.0
+            },
+            {
+              "word": " by",
+              "start": 120.0,
+              "end": 120.3
+            },
+            {
+              "word": " using",
+              "start": 120.3,
+              "end": 120.64
+            },
+            {
+              "word": " the",
+              "start": 120.64,
+              "end": 120.88
+            },
+            {
+              "word": " KVL,",
+              "start": 120.88,
+              "end": 121.5
+            },
+            {
+              "word": " by",
+              "start": 121.66,
+              "end": 121.88
+            },
+            {
+              "word": " using",
+              "start": 121.88,
+              "end": 122.16
+            },
+            {
+              "word": " the",
+              "start": 122.16,
+              "end": 122.36
+            }
+          ]
+        },
+        {
+          "start": 122.36,
+          "end": 123.86,
+          "text": "KVL voltage law.",
+          "words": [
+            {
+              "word": " KVL",
+              "start": 122.36,
+              "end": 123.42
+            },
+            {
+              "word": " voltage",
+              "start": 123.42,
+              "end": 123.42
+            },
+            {
+              "word": " law.",
+              "start": 123.42,
+              "end": 123.86
+            }
+          ]
+        },
+        {
+          "start": 124.48,
+          "end": 136.6,
+          "text": "In this loop, Vr maximum is equal to Ir maximum multiplied by R plus Vz and this is equal",
+          "words": [
+            {
+              "word": " In",
+              "start": 124.48,
+              "end": 124.86
+            },
+            {
+              "word": " this",
+              "start": 124.86,
+              "end": 125.08
+            },
+            {
+              "word": " loop,",
+              "start": 125.08,
+              "end": 125.48
+            },
+            {
+              "word": " Vr",
+              "start": 125.98,
+              "end": 126.84
+            },
+            {
+              "word": " maximum",
+              "start": 126.84,
+              "end": 127.28
+            },
+            {
+              "word": " is",
+              "start": 127.28,
+              "end": 127.86
+            },
+            {
+              "word": " equal",
+              "start": 127.86,
+              "end": 128.24
+            },
+            {
+              "word": " to",
+              "start": 128.24,
+              "end": 128.5
+            },
+            {
+              "word": " Ir",
+              "start": 128.5,
+              "end": 129.5
+            },
+            {
+              "word": " maximum",
+              "start": 129.5,
+              "end": 130.78
+            },
+            {
+              "word": " multiplied",
+              "start": 130.78,
+              "end": 131.6
+            },
+            {
+              "word": " by",
+              "start": 131.6,
+              "end": 132.22
+            },
+            {
+              "word": " R",
+              "start": 132.22,
+              "end": 133.06
+            },
+            {
+              "word": " plus",
+              "start": 133.06,
+              "end": 133.9
+            },
+            {
+              "word": " Vz",
+              "start": 133.9,
+              "end": 134.68
+            },
+            {
+              "word": " and",
+              "start": 134.68,
+              "end": 135.92
+            },
+            {
+              "word": " this",
+              "start": 135.92,
+              "end": 136.1
+            },
+            {
+              "word": " is",
+              "start": 136.1,
+              "end": 136.26
+            },
+            {
+              "word": " equal",
+              "start": 136.26,
+              "end": 136.6
+            }
+          ]
+        },
+        {
+          "start": 136.6,
+          "end": 137.5,
+          "text": "to Vi max.",
+          "words": [
+            {
+              "word": " to",
+              "start": 136.6,
+              "end": 136.82
+            },
+            {
+              "word": " Vi",
+              "start": 136.82,
+              "end": 137.12
+            },
+            {
+              "word": " max.",
+              "start": 137.12,
+              "end": 137.5
+            }
+          ]
+        },
+        {
+          "start": 138.06,
+          "end": 145.14,
+          "text": "I will call this equation number 1 and we have to calculate Ir max.",
+          "words": [
+            {
+              "word": " I",
+              "start": 138.06,
+              "end": 138.18
+            },
+            {
+              "word": " will",
+              "start": 138.18,
+              "end": 138.32
+            },
+            {
+              "word": " call",
+              "start": 138.32,
+              "end": 138.58
+            },
+            {
+              "word": " this",
+              "start": 138.58,
+              "end": 140.5
+            },
+            {
+              "word": " equation",
+              "start": 140.5,
+              "end": 141.1
+            },
+            {
+              "word": " number",
+              "start": 141.1,
+              "end": 141.62
+            },
+            {
+              "word": " 1",
+              "start": 141.62,
+              "end": 142.02
+            },
+            {
+              "word": " and",
+              "start": 142.02,
+              "end": 142.68
+            },
+            {
+              "word": " we",
+              "start": 142.68,
+              "end": 142.88
+            },
+            {
+              "word": " have",
+              "start": 142.88,
+              "end": 143.08
+            },
+            {
+              "word": " to",
+              "start": 143.08,
+              "end": 143.24
+            },
+            {
+              "word": " calculate",
+              "start": 143.24,
+              "end": 143.84
+            },
+            {
+              "word": " Ir",
+              "start": 143.84,
+              "end": 144.9
+            },
+            {
+              "word": " max.",
+              "start": 144.9,
+              "end": 145.14
+            }
+          ]
+        },
+        {
+          "start": 145.85999999999999,
+          "end": 152.2,
+          "text": "If I use Kirchoff's current law at this node, Ir is equal to Iz plus Il.",
+          "words": [
+            {
+              "word": " If",
+              "start": 145.52,
+              "end": 145.94
+            },
+            {
+              "word": " I",
+              "start": 145.94,
+              "end": 146.12
+            },
+            {
+              "word": " use",
+              "start": 146.12,
+              "end": 146.5
+            },
+            {
+              "word": " Kirchoff's",
+              "start": 146.5,
+              "end": 147.26
+            },
+            {
+              "word": " current",
+              "start": 147.26,
+              "end": 147.52
+            },
+            {
+              "word": " law",
+              "start": 147.52,
+              "end": 147.88
+            },
+            {
+              "word": " at",
+              "start": 147.88,
+              "end": 148.08
+            },
+            {
+              "word": " this",
+              "start": 148.08,
+              "end": 148.3
+            },
+            {
+              "word": " node,",
+              "start": 148.3,
+              "end": 148.66
+            },
+            {
+              "word": " Ir",
+              "start": 149.2,
+              "end": 149.84
+            },
+            {
+              "word": " is",
+              "start": 149.84,
+              "end": 150.12
+            },
+            {
+              "word": " equal",
+              "start": 150.12,
+              "end": 150.52
+            },
+            {
+              "word": " to",
+              "start": 150.52,
+              "end": 150.72
+            },
+            {
+              "word": " Iz",
+              "start": 150.72,
+              "end": 151.04
+            },
+            {
+              "word": " plus",
+              "start": 151.04,
+              "end": 151.64
+            },
+            {
+              "word": " Il.",
+              "start": 151.64,
+              "end": 152.2
+            }
+          ]
+        },
+        {
+          "start": 152.4,
+          "end": 153.12,
+          "text": "Very simple.",
+          "words": [
+            {
+              "word": " Very",
+              "start": 152.4,
+              "end": 152.7
+            },
+            {
+              "word": " simple.",
+              "start": 152.7,
+              "end": 153.12
+            }
+          ]
+        },
+        {
+          "start": 153.8,
+          "end": 158.44,
+          "text": "Ir is equal to Iz plus Il.",
+          "words": [
+            {
+              "word": " Ir",
+              "start": 153.8,
+              "end": 154.42
+            },
+            {
+              "word": " is",
+              "start": 154.42,
+              "end": 154.58
+            },
+            {
+              "word": " equal",
+              "start": 154.58,
+              "end": 155.0
+            },
+            {
+              "word": " to",
+              "start": 155.0,
+              "end": 155.24
+            },
+            {
+              "word": " Iz",
+              "start": 155.24,
+              "end": 156.34
+            },
+            {
+              "word": " plus",
+              "start": 156.34,
+              "end": 157.62
+            },
+            {
+              "word": " Il.",
+              "start": 157.62,
+              "end": 158.44
+            }
+          ]
+        },
+        {
+          "start": 158.78,
+          "end": 169.06,
+          "text": "When Iz is maximum, when Iz is maximum, Ir is also maximum because Il is fixed.",
+          "words": [
+            {
+              "word": " When",
+              "start": 158.78,
+              "end": 159.1
+            },
+            {
+              "word": " Iz",
+              "start": 159.1,
+              "end": 159.52
+            },
+            {
+              "word": " is",
+              "start": 159.52,
+              "end": 159.8
+            },
+            {
+              "word": " maximum,",
+              "start": 159.8,
+              "end": 160.34
+            },
+            {
+              "word": " when",
+              "start": 160.86,
+              "end": 160.9
+            },
+            {
+              "word": " Iz",
+              "start": 160.9,
+              "end": 161.5
+            },
+            {
+              "word": " is",
+              "start": 161.5,
+              "end": 164.0
+            },
+            {
+              "word": " maximum,",
+              "start": 164.0,
+              "end": 164.58
+            },
+            {
+              "word": " Ir",
+              "start": 165.22,
+              "end": 165.94
+            },
+            {
+              "word": " is",
+              "start": 165.94,
+              "end": 166.46
+            },
+            {
+              "word": " also",
+              "start": 166.46,
+              "end": 166.76
+            },
+            {
+              "word": " maximum",
+              "start": 166.76,
+              "end": 167.48
+            },
+            {
+              "word": " because",
+              "start": 167.48,
+              "end": 167.9
+            },
+            {
+              "word": " Il",
+              "start": 167.9,
+              "end": 168.58
+            },
+            {
+              "word": " is",
+              "start": 168.58,
+              "end": 168.74
+            },
+            {
+              "word": " fixed.",
+              "start": 168.74,
+              "end": 169.06
+            }
+          ]
+        },
+        {
+          "start": 169.7,
+          "end": 170.56,
+          "text": "Il is fixed.",
+          "words": [
+            {
+              "word": " Il",
+              "start": 169.7,
+              "end": 170.14
+            },
+            {
+              "word": " is",
+              "start": 170.14,
+              "end": 170.32
+            },
+            {
+              "word": " fixed.",
+              "start": 170.32,
+              "end": 170.56
+            }
+          ]
+        },
+        {
+          "start": 170.76,
+          "end": 171.78,
+          "text": "Why Il is fixed?",
+          "words": [
+            {
+              "word": " Why",
+              "start": 170.76,
+              "end": 170.98
+            },
+            {
+              "word": " Il",
+              "start": 170.98,
+              "end": 171.34
+            },
+            {
+              "word": " is",
+              "start": 171.34,
+              "end": 171.5
+            },
+            {
+              "word": " fixed?",
+              "start": 171.5,
+              "end": 171.78
+            }
+          ]
+        },
+        {
+          "start": 172.54,
+          "end": 177.9,
+          "text": "Because Il is the current through the load resistance and it is equal to Vl divided by",
+          "words": [
+            {
+              "word": " Because",
+              "start": 172.54,
+              "end": 172.62
+            },
+            {
+              "word": " Il",
+              "start": 172.62,
+              "end": 173.22
+            },
+            {
+              "word": " is",
+              "start": 173.22,
+              "end": 173.76
+            },
+            {
+              "word": " the",
+              "start": 173.76,
+              "end": 173.92
+            },
+            {
+              "word": " current",
+              "start": 173.92,
+              "end": 174.12
+            },
+            {
+              "word": " through",
+              "start": 174.12,
+              "end": 174.42
+            },
+            {
+              "word": " the",
+              "start": 174.42,
+              "end": 174.52
+            },
+            {
+              "word": " load",
+              "start": 174.52,
+              "end": 174.7
+            },
+            {
+              "word": " resistance",
+              "start": 174.7,
+              "end": 175.14
+            },
+            {
+              "word": " and",
+              "start": 175.14,
+              "end": 175.54
+            },
+            {
+              "word": " it",
+              "start": 175.54,
+              "end": 175.66
+            },
+            {
+              "word": " is",
+              "start": 175.66,
+              "end": 175.8
+            },
+            {
+              "word": " equal",
+              "start": 175.8,
+              "end": 176.1
+            },
+            {
+              "word": " to",
+              "start": 176.1,
+              "end": 176.3
+            },
+            {
+              "word": " Vl",
+              "start": 176.3,
+              "end": 176.86
+            },
+            {
+              "word": " divided",
+              "start": 176.86,
+              "end": 177.52
+            },
+            {
+              "word": " by",
+              "start": 177.52,
+              "end": 177.9
+            }
+          ]
+        },
+        {
+          "start": 177.9,
+          "end": 178.52,
+          "text": "Rl.",
+          "words": [
+            {
+              "word": " Rl.",
+              "start": 177.9,
+              "end": 178.52
+            }
+          ]
+        },
+        {
+          "start": 178.82,
+          "end": 182.72,
+          "text": "Vl is the voltage across the load resistance.",
+          "words": [
+            {
+              "word": " Vl",
+              "start": 178.82,
+              "end": 179.32
+            },
+            {
+              "word": " is",
+              "start": 179.32,
+              "end": 180.18
+            },
+            {
+              "word": " the",
+              "start": 180.18,
+              "end": 180.34
+            },
+            {
+              "word": " voltage",
+              "start": 180.34,
+              "end": 180.7
+            },
+            {
+              "word": " across",
+              "start": 180.7,
+              "end": 181.28
+            },
+            {
+              "word": " the",
+              "start": 181.28,
+              "end": 181.96
+            },
+            {
+              "word": " load",
+              "start": 181.96,
+              "end": 182.18
+            },
+            {
+              "word": " resistance.",
+              "start": 182.18,
+              "end": 182.72
+            }
+          ]
+        },
+        {
+          "start": 183.14,
+          "end": 185.06,
+          "text": "Vl is also equal to Vz.",
+          "words": [
+            {
+              "word": " Vl",
+              "start": 183.14,
+              "end": 183.74
+            },
+            {
+              "word": " is",
+              "start": 183.74,
+              "end": 183.92
+            },
+            {
+              "word": " also",
+              "start": 183.92,
+              "end": 184.16
+            },
+            {
+              "word": " equal",
+              "start": 184.16,
+              "end": 184.5
+            },
+            {
+              "word": " to",
+              "start": 184.5,
+              "end": 184.7
+            },
+            {
+              "word": " Vz.",
+              "start": 184.7,
+              "end": 185.06
+            }
+          ]
+        },
+        {
+          "start": 185.54,
+          "end": 189.0,
+          "text": "You can see both these voltages are measured across the same point.",
+          "words": [
+            {
+              "word": " You",
+              "start": 185.54,
+              "end": 185.68
+            },
+            {
+              "word": " can",
+              "start": 185.68,
+              "end": 185.84
+            },
+            {
+              "word": " see",
+              "start": 185.84,
+              "end": 186.02
+            },
+            {
+              "word": " both",
+              "start": 186.02,
+              "end": 186.28
+            },
+            {
+              "word": " these",
+              "start": 186.28,
+              "end": 186.52
+            },
+            {
+              "word": " voltages",
+              "start": 186.52,
+              "end": 186.94
+            },
+            {
+              "word": " are",
+              "start": 186.94,
+              "end": 187.42
+            },
+            {
+              "word": " measured",
+              "start": 187.42,
+              "end": 187.78
+            },
+            {
+              "word": " across",
+              "start": 187.78,
+              "end": 188.2
+            },
+            {
+              "word": " the",
+              "start": 188.2,
+              "end": 188.42
+            },
+            {
+              "word": " same",
+              "start": 188.42,
+              "end": 188.66
+            },
+            {
+              "word": " point.",
+              "start": 188.66,
+              "end": 189.0
+            }
+          ]
+        },
+        {
+          "start": 189.5,
+          "end": 192.14,
+          "text": "So Vl is equal to Vz.",
+          "words": [
+            {
+              "word": " So",
+              "start": 189.5,
+              "end": 189.58
+            },
+            {
+              "word": " Vl",
+              "start": 189.58,
+              "end": 190.2
+            },
+            {
+              "word": " is",
+              "start": 190.2,
+              "end": 191.08
+            },
+            {
+              "word": " equal",
+              "start": 191.08,
+              "end": 191.42
+            },
+            {
+              "word": " to",
+              "start": 191.42,
+              "end": 191.6
+            },
+            {
+              "word": " Vz.",
+              "start": 191.6,
+              "end": 192.14
+            }
+          ]
+        },
+        {
+          "start": 192.86,
+          "end": 196.5,
+          "text": "So we have Vz divided by Rl as the value of Il.",
+          "words": [
+            {
+              "word": " So",
+              "start": 192.86,
+              "end": 193.28
+            },
+            {
+              "word": " we",
+              "start": 193.28,
+              "end": 193.52
+            },
+            {
+              "word": " have",
+              "start": 193.52,
+              "end": 193.72
+            },
+            {
+              "word": " Vz",
+              "start": 193.72,
+              "end": 194.16
+            },
+            {
+              "word": " divided",
+              "start": 194.16,
+              "end": 194.38
+            },
+            {
+              "word": " by",
+              "start": 194.38,
+              "end": 194.66
+            },
+            {
+              "word": " Rl",
+              "start": 194.66,
+              "end": 195.28
+            },
+            {
+              "word": " as",
+              "start": 195.28,
+              "end": 195.48
+            },
+            {
+              "word": " the",
+              "start": 195.48,
+              "end": 195.62
+            },
+            {
+              "word": " value",
+              "start": 195.62,
+              "end": 195.88
+            },
+            {
+              "word": " of",
+              "start": 195.88,
+              "end": 196.08
+            },
+            {
+              "word": " Il.",
+              "start": 196.08,
+              "end": 196.5
+            }
+          ]
+        },
+        {
+          "start": 196.5,
+          "end": 197.78,
+          "text": "Vz is fixed.",
+          "words": [
+            {
+              "word": " Vz",
+              "start": 196.5,
+              "end": 197.3
+            },
+            {
+              "word": " is",
+              "start": 197.3,
+              "end": 197.5
+            },
+            {
+              "word": " fixed.",
+              "start": 197.5,
+              "end": 197.78
+            }
+          ]
+        },
+        {
+          "start": 198.06,
+          "end": 199.46,
+          "text": "It is equal to 20 volts.",
+          "words": [
+            {
+              "word": " It",
+              "start": 198.06,
+              "end": 198.18
+            },
+            {
+              "word": " is",
+              "start": 198.18,
+              "end": 198.3
+            },
+            {
+              "word": " equal",
+              "start": 198.3,
+              "end": 198.64
+            },
+            {
+              "word": " to",
+              "start": 198.64,
+              "end": 198.8
+            },
+            {
+              "word": " 20",
+              "start": 198.8,
+              "end": 199.1
+            },
+            {
+              "word": " volts.",
+              "start": 199.1,
+              "end": 199.46
+            }
+          ]
+        },
+        {
+          "start": 200.02,
+          "end": 201.3,
+          "text": "Rl is also fixed.",
+          "words": [
+            {
+              "word": " Rl",
+              "start": 200.02,
+              "end": 200.42
+            },
+            {
+              "word": " is",
+              "start": 200.42,
+              "end": 200.62
+            },
+            {
+              "word": " also",
+              "start": 200.62,
+              "end": 200.88
+            },
+            {
+              "word": " fixed.",
+              "start": 200.88,
+              "end": 201.3
+            }
+          ]
+        },
+        {
+          "start": 201.48,
+          "end": 203.54,
+          "text": "It is equal to 1.2 kilo ohms.",
+          "words": [
+            {
+              "word": " It",
+              "start": 201.48,
+              "end": 201.54
+            },
+            {
+              "word": " is",
+              "start": 201.54,
+              "end": 201.68
+            },
+            {
+              "word": " equal",
+              "start": 201.68,
+              "end": 201.96
+            },
+            {
+              "word": " to",
+              "start": 201.96,
+              "end": 202.14
+            },
+            {
+              "word": " 1",
+              "start": 202.14,
+              "end": 202.36
+            },
+            {
+              "word": ".2",
+              "start": 202.36,
+              "end": 202.86
+            },
+            {
+              "word": " kilo",
+              "start": 202.86,
+              "end": 203.0
+            },
+            {
+              "word": " ohms.",
+              "start": 203.0,
+              "end": 203.54
+            }
+          ]
+        },
+        {
+          "start": 204.0,
+          "end": 205.78,
+          "text": "So Il is also fixed.",
+          "words": [
+            {
+              "word": " So",
+              "start": 204.0,
+              "end": 204.02
+            },
+            {
+              "word": " Il",
+              "start": 204.02,
+              "end": 204.6
+            },
+            {
+              "word": " is",
+              "start": 204.6,
+              "end": 204.82
+            },
+            {
+              "word": " also",
+              "start": 204.82,
+              "end": 205.2
+            },
+            {
+              "word": " fixed.",
+              "start": 205.2,
+              "end": 205.78
+            }
+          ]
+        },
+        {
+          "start": 206.6,
+          "end": 211.18,
+          "text": "And when Zener current is maximum, current through the series resistance is also maximum.",
+          "words": [
+            {
+              "word": " And",
+              "start": 206.6,
+              "end": 206.72
+            },
+            {
+              "word": " when",
+              "start": 206.72,
+              "end": 206.9
+            },
+            {
+              "word": " Zener",
+              "start": 206.9,
+              "end": 207.24
+            },
+            {
+              "word": " current",
+              "start": 207.24,
+              "end": 207.54
+            },
+            {
+              "word": " is",
+              "start": 207.54,
+              "end": 207.74
+            },
+            {
+              "word": " maximum,",
+              "start": 207.74,
+              "end": 208.28
+            },
+            {
+              "word": " current",
+              "start": 208.62,
+              "end": 208.8
+            },
+            {
+              "word": " through",
+              "start": 208.8,
+              "end": 209.12
+            },
+            {
+              "word": " the",
+              "start": 209.12,
+              "end": 209.28
+            },
+            {
+              "word": " series",
+              "start": 209.28,
+              "end": 209.54
+            },
+            {
+              "word": " resistance",
+              "start": 209.54,
+              "end": 210.1
+            },
+            {
+              "word": " is",
+              "start": 210.1,
+              "end": 210.4
+            },
+            {
+              "word": " also",
+              "start": 210.4,
+              "end": 210.68
+            },
+            {
+              "word": " maximum.",
+              "start": 210.68,
+              "end": 211.18
+            }
+          ]
+        },
+        {
+          "start": 211.94,
+          "end": 216.98,
+          "text": "Iz maximum is equal to 60 milliamps already given in the problem.",
+          "words": [
+            {
+              "word": " Iz",
+              "start": 211.94,
+              "end": 212.22
+            },
+            {
+              "word": " maximum",
+              "start": 212.22,
+              "end": 212.8
+            },
+            {
+              "word": " is",
+              "start": 212.8,
+              "end": 213.6
+            },
+            {
+              "word": " equal",
+              "start": 213.6,
+              "end": 213.92
+            },
+            {
+              "word": " to",
+              "start": 213.92,
+              "end": 214.1
+            },
+            {
+              "word": " 60",
+              "start": 214.1,
+              "end": 214.54
+            },
+            {
+              "word": " milliamps",
+              "start": 214.54,
+              "end": 215.28
+            },
+            {
+              "word": " already",
+              "start": 215.28,
+              "end": 216.02
+            },
+            {
+              "word": " given",
+              "start": 216.02,
+              "end": 216.36
+            },
+            {
+              "word": " in",
+              "start": 216.36,
+              "end": 216.54
+            },
+            {
+              "word": " the",
+              "start": 216.54,
+              "end": 216.62
+            },
+            {
+              "word": " problem.",
+              "start": 216.62,
+              "end": 216.98
+            }
+          ]
+        },
+        {
+          "start": 217.22,
+          "end": 223.32,
+          "text": "So we have 60 milliamps plus Il is equal to Vz divided by Rl.",
+          "words": [
+            {
+              "word": " So",
+              "start": 217.22,
+              "end": 217.36
+            },
+            {
+              "word": " we",
+              "start": 217.36,
+              "end": 217.56
+            },
+            {
+              "word": " have",
+              "start": 217.56,
+              "end": 217.72
+            },
+            {
+              "word": " 60",
+              "start": 217.72,
+              "end": 218.12
+            },
+            {
+              "word": " milliamps",
+              "start": 218.12,
+              "end": 219.02
+            },
+            {
+              "word": " plus",
+              "start": 219.02,
+              "end": 219.58
+            },
+            {
+              "word": " Il",
+              "start": 219.58,
+              "end": 220.78
+            },
+            {
+              "word": " is",
+              "start": 220.78,
+              "end": 221.0
+            },
+            {
+              "word": " equal",
+              "start": 221.0,
+              "end": 221.3
+            },
+            {
+              "word": " to",
+              "start": 221.3,
+              "end": 221.46
+            },
+            {
+              "word": " Vz",
+              "start": 221.46,
+              "end": 221.98
+            },
+            {
+              "word": " divided",
+              "start": 221.98,
+              "end": 222.38
+            },
+            {
+              "word": " by",
+              "start": 222.38,
+              "end": 222.72
+            },
+            {
+              "word": " Rl.",
+              "start": 222.72,
+              "end": 223.32
+            }
+          ]
+        },
+        {
+          "start": 223.32,
+          "end": 224.98,
+          "text": "Vz is 20 volts.",
+          "words": [
+            {
+              "word": " Vz",
+              "start": 223.32,
+              "end": 224.1
+            },
+            {
+              "word": " is",
+              "start": 224.1,
+              "end": 224.32
+            },
+            {
+              "word": " 20",
+              "start": 224.32,
+              "end": 224.62
+            },
+            {
+              "word": " volts.",
+              "start": 224.62,
+              "end": 224.98
+            }
+          ]
+        },
+        {
+          "start": 225.7,
+          "end": 229.92,
+          "text": "Rl is 1.2 kilo ohms.",
+          "words": [
+            {
+              "word": " Rl",
+              "start": 225.7,
+              "end": 226.3
+            },
+            {
+              "word": " is",
+              "start": 226.3,
+              "end": 226.94
+            },
+            {
+              "word": " 1",
+              "start": 226.94,
+              "end": 227.3
+            },
+            {
+              "word": ".2",
+              "start": 227.3,
+              "end": 228.06
+            },
+            {
+              "word": " kilo",
+              "start": 228.06,
+              "end": 228.62
+            },
+            {
+              "word": " ohms.",
+              "start": 228.62,
+              "end": 229.92
+            }
+          ]
+        },
+        {
+          "start": 230.42,
+          "end": 238.32,
+          "text": "So finally we have 60 milliamps plus 16.67 milliamps.",
+          "words": [
+            {
+              "word": " So",
+              "start": 230.42,
+              "end": 230.86
+            },
+            {
+              "word": " finally",
+              "start": 230.86,
+              "end": 231.28
+            },
+            {
+              "word": " we",
+              "start": 231.28,
+              "end": 231.64
+            },
+            {
+              "word": " have",
+              "start": 231.64,
+              "end": 231.9
+            },
+            {
+              "word": " 60",
+              "start": 231.9,
+              "end": 232.36
+            },
+            {
+              "word": " milliamps",
+              "start": 232.36,
+              "end": 233.38
+            },
+            {
+              "word": " plus",
+              "start": 233.38,
+              "end": 234.48
+            },
+            {
+              "word": " 16",
+              "start": 234.48,
+              "end": 235.84
+            },
+            {
+              "word": ".67",
+              "start": 235.84,
+              "end": 236.88
+            },
+            {
+              "word": " milliamps.",
+              "start": 236.88,
+              "end": 238.32
+            }
+          ]
+        },
+        {
+          "start": 238.76,
+          "end": 245.44,
+          "text": "When you add these two values, you will have 76.67 milliamps.",
+          "words": [
+            {
+              "word": " When",
+              "start": 238.76,
+              "end": 239.08
+            },
+            {
+              "word": " you",
+              "start": 239.08,
+              "end": 239.24
+            },
+            {
+              "word": " add",
+              "start": 239.24,
+              "end": 239.48
+            },
+            {
+              "word": " these",
+              "start": 239.48,
+              "end": 239.72
+            },
+            {
+              "word": " two",
+              "start": 239.72,
+              "end": 239.9
+            },
+            {
+              "word": " values,",
+              "start": 239.9,
+              "end": 240.3
+            },
+            {
+              "word": " you",
+              "start": 240.9,
+              "end": 241.72
+            },
+            {
+              "word": " will",
+              "start": 241.72,
+              "end": 241.88
+            },
+            {
+              "word": " have",
+              "start": 241.88,
+              "end": 242.28
+            },
+            {
+              "word": " 76",
+              "start": 242.28,
+              "end": 243.24
+            },
+            {
+              "word": ".67",
+              "start": 243.24,
+              "end": 244.32
+            },
+            {
+              "word": " milliamps.",
+              "start": 244.32,
+              "end": 245.44
+            }
+          ]
+        },
+        {
+          "start": 245.54,
+          "end": 249.78,
+          "text": "And this is the value of Ir max.",
+          "words": [
+            {
+              "word": " And",
+              "start": 245.54,
+              "end": 245.64
+            },
+            {
+              "word": " this",
+              "start": 245.64,
+              "end": 245.82
+            },
+            {
+              "word": " is",
+              "start": 245.82,
+              "end": 245.96
+            },
+            {
+              "word": " the",
+              "start": 245.96,
+              "end": 246.08
+            },
+            {
+              "word": " value",
+              "start": 246.08,
+              "end": 246.54
+            },
+            {
+              "word": " of",
+              "start": 246.54,
+              "end": 247.6
+            },
+            {
+              "word": " Ir",
+              "start": 247.6,
+              "end": 249.04
+            },
+            {
+              "word": " max.",
+              "start": 249.04,
+              "end": 249.78
+            }
+          ]
+        },
+        {
+          "start": 250.3,
+          "end": 252.24,
+          "text": "Now I will put this value in equation 1.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 250.3,
+              "end": 250.44
+            },
+            {
+              "word": " I",
+              "start": 250.44,
+              "end": 250.56
+            },
+            {
+              "word": " will",
+              "start": 250.56,
+              "end": 250.7
+            },
+            {
+              "word": " put",
+              "start": 250.7,
+              "end": 250.86
+            },
+            {
+              "word": " this",
+              "start": 250.86,
+              "end": 251.06
+            },
+            {
+              "word": " value",
+              "start": 251.06,
+              "end": 251.36
+            },
+            {
+              "word": " in",
+              "start": 251.36,
+              "end": 251.52
+            },
+            {
+              "word": " equation",
+              "start": 251.52,
+              "end": 251.82
+            },
+            {
+              "word": " 1.",
+              "start": 251.82,
+              "end": 252.24
+            }
+          ]
+        },
+        {
+          "start": 252.8,
+          "end": 253.94,
+          "text": "And let's see what we have.",
+          "words": [
+            {
+              "word": " And",
+              "start": 252.45,
+              "end": 252.88
+            },
+            {
+              "word": " let's",
+              "start": 252.88,
+              "end": 253.18
+            },
+            {
+              "word": " see",
+              "start": 253.18,
+              "end": 253.28
+            },
+            {
+              "word": " what",
+              "start": 253.28,
+              "end": 253.42
+            },
+            {
+              "word": " we",
+              "start": 253.42,
+              "end": 253.58
+            },
+            {
+              "word": " have.",
+              "start": 253.58,
+              "end": 253.94
+            }
+          ]
+        },
+        {
+          "start": 255.54,
+          "end": 265.34,
+          "text": "From equation 1, Vimax is equal to 76.67 milliamps multiplied by R.",
+          "words": [
+            {
+              "word": " From",
+              "start": 255.54,
+              "end": 255.58
+            },
+            {
+              "word": " equation",
+              "start": 255.58,
+              "end": 256.0
+            },
+            {
+              "word": " 1,",
+              "start": 256.0,
+              "end": 256.54
+            },
+            {
+              "word": " Vimax",
+              "start": 257.32,
+              "end": 258.6
+            },
+            {
+              "word": " is",
+              "start": 258.6,
+              "end": 259.04
+            },
+            {
+              "word": " equal",
+              "start": 259.04,
+              "end": 259.42
+            },
+            {
+              "word": " to",
+              "start": 259.42,
+              "end": 259.7
+            },
+            {
+              "word": " 76",
+              "start": 259.7,
+              "end": 261.14
+            },
+            {
+              "word": ".67",
+              "start": 261.14,
+              "end": 262.46
+            },
+            {
+              "word": " milliamps",
+              "start": 262.46,
+              "end": 263.88
+            },
+            {
+              "word": " multiplied",
+              "start": 263.88,
+              "end": 264.44
+            },
+            {
+              "word": " by",
+              "start": 264.44,
+              "end": 264.96
+            },
+            {
+              "word": " R.",
+              "start": 264.96,
+              "end": 265.34
+            }
+          ]
+        },
+        {
+          "start": 265.72,
+          "end": 272.82,
+          "text": "R is equal to 220 ohms plus Vz.",
+          "words": [
+            {
+              "word": " R",
+              "start": 265.72,
+              "end": 266.08
+            },
+            {
+              "word": " is",
+              "start": 266.08,
+              "end": 266.22
+            },
+            {
+              "word": " equal",
+              "start": 266.22,
+              "end": 266.52
+            },
+            {
+              "word": " to",
+              "start": 266.52,
+              "end": 266.74
+            },
+            {
+              "word": " 220",
+              "start": 266.74,
+              "end": 267.04
+            },
+            {
+              "word": " ohms",
+              "start": 267.04,
+              "end": 270.2
+            },
+            {
+              "word": " plus",
+              "start": 270.2,
+              "end": 270.68
+            },
+            {
+              "word": " Vz.",
+              "start": 270.68,
+              "end": 272.82
+            }
+          ]
+        },
+        {
+          "start": 273.1,
+          "end": 275.02,
+          "text": "Vz is 20 volts.",
+          "words": [
+            {
+              "word": " Vz",
+              "start": 273.1,
+              "end": 273.62
+            },
+            {
+              "word": " is",
+              "start": 273.62,
+              "end": 273.88
+            },
+            {
+              "word": " 20",
+              "start": 273.88,
+              "end": 274.36
+            },
+            {
+              "word": " volts.",
+              "start": 274.36,
+              "end": 275.02
+            }
+          ]
+        },
+        {
+          "start": 275.94,
+          "end": 283.08,
+          "text": "When you solve this, you have 16.867 volts plus 20 volts.",
+          "words": [
+            {
+              "word": " When",
+              "start": 275.72,
+              "end": 276.1
+            },
+            {
+              "word": " you",
+              "start": 276.1,
+              "end": 276.26
+            },
+            {
+              "word": " solve",
+              "start": 276.26,
+              "end": 276.46
+            },
+            {
+              "word": " this,",
+              "start": 276.46,
+              "end": 276.8
+            },
+            {
+              "word": " you",
+              "start": 277.0,
+              "end": 277.14
+            },
+            {
+              "word": " have",
+              "start": 277.14,
+              "end": 277.52
+            },
+            {
+              "word": " 16",
+              "start": 277.52,
+              "end": 278.74
+            },
+            {
+              "word": ".867",
+              "start": 278.74,
+              "end": 281.22
+            },
+            {
+              "word": " volts",
+              "start": 281.22,
+              "end": 281.62
+            },
+            {
+              "word": " plus",
+              "start": 281.62,
+              "end": 282.28
+            },
+            {
+              "word": " 20",
+              "start": 282.28,
+              "end": 282.7
+            },
+            {
+              "word": " volts.",
+              "start": 282.7,
+              "end": 283.08
+            }
+          ]
+        },
+        {
+          "start": 283.7,
+          "end": 290.72,
+          "text": "And finally, the maximum value of input voltage is equal to 36.867 volts.",
+          "words": [
+            {
+              "word": " And",
+              "start": 283.7,
+              "end": 283.8
+            },
+            {
+              "word": " finally,",
+              "start": 283.8,
+              "end": 284.3
+            },
+            {
+              "word": " the",
+              "start": 284.54,
+              "end": 284.64
+            },
+            {
+              "word": " maximum",
+              "start": 284.64,
+              "end": 285.06
+            },
+            {
+              "word": " value",
+              "start": 285.06,
+              "end": 285.56
+            },
+            {
+              "word": " of",
+              "start": 285.56,
+              "end": 286.34
+            },
+            {
+              "word": " input",
+              "start": 286.34,
+              "end": 286.8
+            },
+            {
+              "word": " voltage",
+              "start": 286.8,
+              "end": 287.36
+            },
+            {
+              "word": " is",
+              "start": 287.36,
+              "end": 287.64
+            },
+            {
+              "word": " equal",
+              "start": 287.64,
+              "end": 287.96
+            },
+            {
+              "word": " to",
+              "start": 287.96,
+              "end": 288.14
+            },
+            {
+              "word": " 36",
+              "start": 288.14,
+              "end": 288.62
+            },
+            {
+              "word": ".867",
+              "start": 288.62,
+              "end": 290.3
+            },
+            {
+              "word": " volts.",
+              "start": 290.3,
+              "end": 290.72
+            }
+          ]
+        },
+        {
+          "start": 290.98,
+          "end": 292.82,
+          "text": "This is the value of Vimax.",
+          "words": [
+            {
+              "word": " This",
+              "start": 290.98,
+              "end": 291.1
+            },
+            {
+              "word": " is",
+              "start": 291.1,
+              "end": 291.26
+            },
+            {
+              "word": " the",
+              "start": 291.26,
+              "end": 291.38
+            },
+            {
+              "word": " value",
+              "start": 291.38,
+              "end": 291.64
+            },
+            {
+              "word": " of",
+              "start": 291.64,
+              "end": 291.92
+            },
+            {
+              "word": " Vimax.",
+              "start": 291.92,
+              "end": 292.82
+            }
+          ]
+        },
+        {
+          "start": 292.82,
+          "end": 305.54,
+          "text": "So range of Vi is equal to 23.67 volts to 36.867 volts.",
+          "words": [
+            {
+              "word": " So",
+              "start": 292.82,
+              "end": 293.4
+            },
+            {
+              "word": " range",
+              "start": 293.4,
+              "end": 293.98
+            },
+            {
+              "word": " of",
+              "start": 293.98,
+              "end": 296.32
+            },
+            {
+              "word": " Vi",
+              "start": 296.32,
+              "end": 297.28
+            },
+            {
+              "word": " is",
+              "start": 297.28,
+              "end": 298.28
+            },
+            {
+              "word": " equal",
+              "start": 298.28,
+              "end": 298.74
+            },
+            {
+              "word": " to",
+              "start": 298.74,
+              "end": 299.06
+            },
+            {
+              "word": " 23",
+              "start": 299.06,
+              "end": 300.02
+            },
+            {
+              "word": ".67",
+              "start": 300.02,
+              "end": 301.36
+            },
+            {
+              "word": " volts",
+              "start": 301.36,
+              "end": 302.02
+            },
+            {
+              "word": " to",
+              "start": 302.02,
+              "end": 302.64
+            },
+            {
+              "word": " 36",
+              "start": 302.64,
+              "end": 303.66
+            },
+            {
+              "word": ".867",
+              "start": 303.66,
+              "end": 305.26
+            },
+            {
+              "word": " volts.",
+              "start": 305.26,
+              "end": 305.54
+            }
+          ]
+        },
+        {
+          "start": 305.76,
+          "end": 308.66,
+          "text": "This is the answer of this numerical problem.",
+          "words": [
+            {
+              "word": " This",
+              "start": 305.76,
+              "end": 305.9
+            },
+            {
+              "word": " is",
+              "start": 305.9,
+              "end": 306.06
+            },
+            {
+              "word": " the",
+              "start": 306.06,
+              "end": 306.24
+            },
+            {
+              "word": " answer",
+              "start": 306.24,
+              "end": 306.68
+            },
+            {
+              "word": " of",
+              "start": 306.68,
+              "end": 307.54
+            },
+            {
+              "word": " this",
+              "start": 307.54,
+              "end": 307.72
+            },
+            {
+              "word": " numerical",
+              "start": 307.72,
+              "end": 308.12
+            },
+            {
+              "word": " problem.",
+              "start": 308.12,
+              "end": 308.66
+            }
+          ]
+        },
+        {
+          "start": 309.1,
+          "end": 310.36,
+          "text": "This is very easy problem.",
+          "words": [
+            {
+              "word": " This",
+              "start": 309.1,
+              "end": 309.26
+            },
+            {
+              "word": " is",
+              "start": 309.26,
+              "end": 309.4
+            },
+            {
+              "word": " very",
+              "start": 309.4,
+              "end": 309.64
+            },
+            {
+              "word": " easy",
+              "start": 309.64,
+              "end": 309.94
+            },
+            {
+              "word": " problem.",
+              "start": 309.94,
+              "end": 310.36
+            }
+          ]
+        },
+        {
+          "start": 310.78,
+          "end": 315.96,
+          "text": "The only thing you should know is the formula for Vi minimum and Vi maximum.",
+          "words": [
+            {
+              "word": " The",
+              "start": 310.78,
+              "end": 310.88
+            },
+            {
+              "word": " only",
+              "start": 310.88,
+              "end": 311.14
+            },
+            {
+              "word": " thing",
+              "start": 311.14,
+              "end": 311.36
+            },
+            {
+              "word": " you",
+              "start": 311.36,
+              "end": 311.5
+            },
+            {
+              "word": " should",
+              "start": 311.5,
+              "end": 311.66
+            },
+            {
+              "word": " know",
+              "start": 311.66,
+              "end": 311.94
+            },
+            {
+              "word": " is",
+              "start": 311.94,
+              "end": 312.56
+            },
+            {
+              "word": " the",
+              "start": 312.56,
+              "end": 312.78
+            },
+            {
+              "word": " formula",
+              "start": 312.78,
+              "end": 313.28
+            },
+            {
+              "word": " for",
+              "start": 313.28,
+              "end": 313.8
+            },
+            {
+              "word": " Vi",
+              "start": 313.8,
+              "end": 314.24
+            },
+            {
+              "word": " minimum",
+              "start": 314.24,
+              "end": 314.68
+            },
+            {
+              "word": " and",
+              "start": 314.68,
+              "end": 315.18
+            },
+            {
+              "word": " Vi",
+              "start": 315.18,
+              "end": 315.5
+            },
+            {
+              "word": " maximum.",
+              "start": 315.5,
+              "end": 315.96
+            }
+          ]
+        },
+        {
+          "start": 316.34,
+          "end": 319.3,
+          "text": "If you don't remember the formula, you can easily derive them.",
+          "words": [
+            {
+              "word": " If",
+              "start": 316.34,
+              "end": 316.54
+            },
+            {
+              "word": " you",
+              "start": 316.54,
+              "end": 316.68
+            },
+            {
+              "word": " don't",
+              "start": 316.68,
+              "end": 316.88
+            },
+            {
+              "word": " remember",
+              "start": 316.88,
+              "end": 317.26
+            },
+            {
+              "word": " the",
+              "start": 317.26,
+              "end": 317.5
+            },
+            {
+              "word": " formula,",
+              "start": 317.5,
+              "end": 317.84
+            },
+            {
+              "word": " you",
+              "start": 318.08,
+              "end": 318.18
+            },
+            {
+              "word": " can",
+              "start": 318.18,
+              "end": 318.34
+            },
+            {
+              "word": " easily",
+              "start": 318.34,
+              "end": 318.68
+            },
+            {
+              "word": " derive",
+              "start": 318.68,
+              "end": 319.04
+            },
+            {
+              "word": " them.",
+              "start": 319.04,
+              "end": 319.3
+            }
+          ]
+        },
+        {
+          "start": 319.3,
+          "end": 324.4,
+          "text": "I have already explained how to obtain condition for minimum input voltage and",
+          "words": [
+            {
+              "word": " I",
+              "start": 319.3,
+              "end": 319.64
+            },
+            {
+              "word": " have",
+              "start": 319.64,
+              "end": 319.88
+            },
+            {
+              "word": " already",
+              "start": 319.88,
+              "end": 320.2
+            },
+            {
+              "word": " explained",
+              "start": 320.2,
+              "end": 320.7
+            },
+            {
+              "word": " how",
+              "start": 320.7,
+              "end": 321.1
+            },
+            {
+              "word": " to",
+              "start": 321.1,
+              "end": 321.3
+            },
+            {
+              "word": " obtain",
+              "start": 321.3,
+              "end": 321.76
+            },
+            {
+              "word": " condition",
+              "start": 321.76,
+              "end": 322.24
+            },
+            {
+              "word": " for",
+              "start": 322.24,
+              "end": 322.84
+            },
+            {
+              "word": " minimum",
+              "start": 322.84,
+              "end": 323.2
+            },
+            {
+              "word": " input",
+              "start": 323.2,
+              "end": 323.58
+            },
+            {
+              "word": " voltage",
+              "start": 323.58,
+              "end": 324.08
+            },
+            {
+              "word": " and",
+              "start": 324.08,
+              "end": 324.4
+            }
+          ]
+        },
+        {
+          "start": 324.4,
+          "end": 326.68,
+          "text": "condition for maximum input voltage.",
+          "words": [
+            {
+              "word": " condition",
+              "start": 324.4,
+              "end": 324.9
+            },
+            {
+              "word": " for",
+              "start": 324.9,
+              "end": 325.26
+            },
+            {
+              "word": " maximum",
+              "start": 325.26,
+              "end": 325.68
+            },
+            {
+              "word": " input",
+              "start": 325.68,
+              "end": 326.14
+            },
+            {
+              "word": " voltage.",
+              "start": 326.14,
+              "end": 326.68
+            }
+          ]
+        },
+        {
+          "start": 327.0,
+          "end": 331.3,
+          "text": "In the next lecture, I will solve another numerical problem based on Zener diodes.",
+          "words": [
+            {
+              "word": " In",
+              "start": 327.0,
+              "end": 327.26
+            },
+            {
+              "word": " the",
+              "start": 327.26,
+              "end": 327.36
+            },
+            {
+              "word": " next",
+              "start": 327.36,
+              "end": 327.58
+            },
+            {
+              "word": " lecture,",
+              "start": 327.58,
+              "end": 327.9
+            },
+            {
+              "word": " I",
+              "start": 328.1,
+              "end": 328.18
+            },
+            {
+              "word": " will",
+              "start": 328.18,
+              "end": 328.3
+            },
+            {
+              "word": " solve",
+              "start": 328.3,
+              "end": 328.58
+            },
+            {
+              "word": " another",
+              "start": 328.58,
+              "end": 328.88
+            },
+            {
+              "word": " numerical",
+              "start": 328.88,
+              "end": 329.4
+            },
+            {
+              "word": " problem",
+              "start": 329.4,
+              "end": 329.96
+            },
+            {
+              "word": " based",
+              "start": 329.96,
+              "end": 330.28
+            },
+            {
+              "word": " on",
+              "start": 330.28,
+              "end": 330.46
+            },
+            {
+              "word": " Zener",
+              "start": 330.46,
+              "end": 330.8
+            },
+            {
+              "word": " diodes.",
+              "start": 330.8,
+              "end": 331.3
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 1.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 4.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 5.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 28.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 42.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 140.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 207.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 240.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 9,
+        "timestamp": 241.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 273.0,
+        "path": "data/processed\\lecture_166\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 11,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 3,
+        "timestamp": 5.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Instructor Pointing",
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 5,
+        "timestamp": 42.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Writing"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 6,
+        "timestamp": 140.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Writing"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 7,
+        "timestamp": 207.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Scientific Equation"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 7,
+        "timestamp": 207.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Scientific Equation",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 9,
+        "timestamp": 241.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Writing",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 10,
+        "timestamp": 273.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Pointing",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 10,
+        "timestamp": 273.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Pointing",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 10,
+        "timestamp": 273.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Pointing",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

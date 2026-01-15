@@ -1,0 +1,4842 @@
+{
+  "video_id": "lecture_167",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_32.mp4",
+    "duration": 0.0,
+    "fps": 25.0,
+    "resolution": "640x342",
+    "processing_date": "2025-12-26T13:05:54.225002",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_167\\audio.wav",
+    "transcript": {
+      "text": " In the circuit shown below, the neocurrent of ideal zener diode is 10 milliamps, neocurrent of ideal zener diode is 10 milliamps. To maintain 5 volts across the load resistance RL, the minimum value of RL in ohms and the minimum power rating of the zener diode in milliwatts are respectively. So we have to calculate the minimum value of load resistance RL and minimum power rating of the zener diode. The neocurrent of ideal zener diode is 10 milliamps. So the first thing that I have to explain is the ideal zener diode. What is the difference between normal zener diode and ideal zener diode? For this I will plot, I will plot V i characteristics of normal zener diode, y axis is for zener current, x axis is for voltage across the diode and I will plot the V i characteristics in reverse bias condition. The characteristic will look something like this. Once there is breakdown, heavy current will flow. This current is called as I z k, that is the neocurrent of the zener diode and this voltage here is V z, that is the zener voltage and the corresponding current is I z, that is the zener current and this plot is for normal zener diode. Now I will show the plot of ideal zener diode. In case of ideal zener diode, in case of ideal zener diode, we have breakdown like this and this current I z k is equal to I z minimum, this is the minimum zener current, this voltage here is V z and I z k is equal to I z minimum and I will use this value, the minimum value of zener current to find out the minimum load resistance and the neocurrent is given as 10 milliamps. So I can say that, I can say that the minimum value of zener current is equal to 10 milliamps. I l is the load current, I r is the current in this branch, 100 ohm is the value of r, r is the current limiting resistance, this current is I z, V z is equal to 5 volts, V z is equal to 5 volts, V i is equal to 10 volts, V i is equal to 10 volts and we have to calculate, we have to calculate rl minimum. When load resistance is minimum, this implies load current is maximum, when load resistance is minimum, this implies load current is maximum and when load current is maximum, this implies zener current is minimum and if I apply Kitchoff's current law at this node, applying Kitchoff's current law, we have I r, we have I r equal to I z plus I l, I l is maximum and I z is minimum, I l is maximum and I z is minimum, I r is equal to V i minus V z divided by r, I z minimum is equal to 10 milliamps and we have to calculate I l maximum so that we can calculate R l minimum, V i is equal to 10 volts, V z is equal to 5 volts, r is equal to 100 ohms and this is equal to 10 milliamps plus I l max. When you solve this, you have 50 milliamps and on right hand side, we have 10 milliamps plus I l max. So simply I l max is equal to 40 milliamps. Now by using this value, we can easily calculate R l minimum. R l minimum is equal to V l divided by I l maximum. V l is the voltage across the load resistance. V l is also equal to V z. Both the voltages are measured across the same points. So V l is equal to V z and we have V z divided by I l max as the value of R l minimum. V z is equal to 5 volts. So we will divide 5 volts by 40 milliamps and when you solve this, you have value of R l minimum equal to 125 ohms. This is the answer. Now we have to calculate the minimum power rating of Zener diode. The minimum power rating of Zener diode and it is equal to I z maximum multiplied by V z. I z maximum is equal to 50 milliamps because 50 milliamps is equal to I z plus I l. I z is maximum when I l is equal to 0. So I z maximum is equal to 50 milliamps multiplied by 5 volts and this is equal to 250 milliwatts. So this is the answer for the second part of the problem. The minimum value of load resistance is equal to 125 ohms and the minimum power rating of Zener diode is equal to 250 milliwatts. So these are the two answers for the numerical problem. If you have any doubt, you may ask in the comment section. I will end this lecture here. See you in the next one.",
+      "segments": [
+        {
+          "start": 4.719999999999995,
+          "end": 11.34,
+          "text": "In the circuit shown below, the neocurrent of ideal zener diode is 10 milliamps, neocurrent",
+          "words": [
+            {
+              "word": " In",
+              "start": 4.719999999999995,
+              "end": 5.48
+            },
+            {
+              "word": " the",
+              "start": 5.48,
+              "end": 5.6
+            },
+            {
+              "word": " circuit",
+              "start": 5.6,
+              "end": 5.88
+            },
+            {
+              "word": " shown",
+              "start": 5.88,
+              "end": 6.18
+            },
+            {
+              "word": " below,",
+              "start": 6.18,
+              "end": 6.52
+            },
+            {
+              "word": " the",
+              "start": 6.78,
+              "end": 6.84
+            },
+            {
+              "word": " neocurrent",
+              "start": 6.84,
+              "end": 7.58
+            },
+            {
+              "word": " of",
+              "start": 7.58,
+              "end": 7.86
+            },
+            {
+              "word": " ideal",
+              "start": 7.86,
+              "end": 8.32
+            },
+            {
+              "word": " zener",
+              "start": 8.32,
+              "end": 8.66
+            },
+            {
+              "word": " diode",
+              "start": 8.66,
+              "end": 9.02
+            },
+            {
+              "word": " is",
+              "start": 9.02,
+              "end": 9.26
+            },
+            {
+              "word": " 10",
+              "start": 9.26,
+              "end": 9.46
+            },
+            {
+              "word": " milliamps,",
+              "start": 9.46,
+              "end": 10.08
+            },
+            {
+              "word": " neocurrent",
+              "start": 10.3,
+              "end": 11.34
+            }
+          ]
+        },
+        {
+          "start": 11.34,
+          "end": 14.42,
+          "text": "of ideal zener diode is 10 milliamps.",
+          "words": [
+            {
+              "word": " of",
+              "start": 11.34,
+              "end": 11.92
+            },
+            {
+              "word": " ideal",
+              "start": 11.92,
+              "end": 12.44
+            },
+            {
+              "word": " zener",
+              "start": 12.44,
+              "end": 12.94
+            },
+            {
+              "word": " diode",
+              "start": 12.94,
+              "end": 13.38
+            },
+            {
+              "word": " is",
+              "start": 13.38,
+              "end": 13.62
+            },
+            {
+              "word": " 10",
+              "start": 13.62,
+              "end": 13.8
+            },
+            {
+              "word": " milliamps.",
+              "start": 13.8,
+              "end": 14.42
+            }
+          ]
+        },
+        {
+          "start": 14.7,
+          "end": 23.74,
+          "text": "To maintain 5 volts across the load resistance RL, the minimum value of RL in ohms and the",
+          "words": [
+            {
+              "word": " To",
+              "start": 14.7,
+              "end": 14.78
+            },
+            {
+              "word": " maintain",
+              "start": 14.78,
+              "end": 15.32
+            },
+            {
+              "word": " 5",
+              "start": 15.32,
+              "end": 15.74
+            },
+            {
+              "word": " volts",
+              "start": 15.74,
+              "end": 16.18
+            },
+            {
+              "word": " across",
+              "start": 16.18,
+              "end": 16.58
+            },
+            {
+              "word": " the",
+              "start": 16.58,
+              "end": 16.86
+            },
+            {
+              "word": " load",
+              "start": 16.86,
+              "end": 17.04
+            },
+            {
+              "word": " resistance",
+              "start": 17.04,
+              "end": 17.5
+            },
+            {
+              "word": " RL,",
+              "start": 17.5,
+              "end": 18.16
+            },
+            {
+              "word": " the",
+              "start": 18.58,
+              "end": 18.7
+            },
+            {
+              "word": " minimum",
+              "start": 18.7,
+              "end": 19.08
+            },
+            {
+              "word": " value",
+              "start": 19.08,
+              "end": 19.46
+            },
+            {
+              "word": " of",
+              "start": 19.46,
+              "end": 19.76
+            },
+            {
+              "word": " RL",
+              "start": 19.76,
+              "end": 20.44
+            },
+            {
+              "word": " in",
+              "start": 20.44,
+              "end": 22.58
+            },
+            {
+              "word": " ohms",
+              "start": 22.58,
+              "end": 23.12
+            },
+            {
+              "word": " and",
+              "start": 23.12,
+              "end": 23.52
+            },
+            {
+              "word": " the",
+              "start": 23.52,
+              "end": 23.74
+            }
+          ]
+        },
+        {
+          "start": 23.74,
+          "end": 27.96,
+          "text": "minimum power rating of the zener diode in milliwatts are respectively.",
+          "words": [
+            {
+              "word": " minimum",
+              "start": 23.74,
+              "end": 24.12
+            },
+            {
+              "word": " power",
+              "start": 24.12,
+              "end": 24.54
+            },
+            {
+              "word": " rating",
+              "start": 24.54,
+              "end": 25.04
+            },
+            {
+              "word": " of",
+              "start": 25.04,
+              "end": 25.64
+            },
+            {
+              "word": " the",
+              "start": 25.64,
+              "end": 25.78
+            },
+            {
+              "word": " zener",
+              "start": 25.78,
+              "end": 26.08
+            },
+            {
+              "word": " diode",
+              "start": 26.08,
+              "end": 26.42
+            },
+            {
+              "word": " in",
+              "start": 26.42,
+              "end": 26.6
+            },
+            {
+              "word": " milliwatts",
+              "start": 26.6,
+              "end": 27.28
+            },
+            {
+              "word": " are",
+              "start": 27.28,
+              "end": 27.42
+            },
+            {
+              "word": " respectively.",
+              "start": 27.42,
+              "end": 27.96
+            }
+          ]
+        },
+        {
+          "start": 28.560000000000002,
+          "end": 33.66,
+          "text": "So we have to calculate the minimum value of load resistance RL and minimum power rating",
+          "words": [
+            {
+              "word": " So",
+              "start": 28.32,
+              "end": 28.66
+            },
+            {
+              "word": " we",
+              "start": 28.66,
+              "end": 28.84
+            },
+            {
+              "word": " have",
+              "start": 28.84,
+              "end": 29.02
+            },
+            {
+              "word": " to",
+              "start": 29.02,
+              "end": 29.14
+            },
+            {
+              "word": " calculate",
+              "start": 29.14,
+              "end": 29.64
+            },
+            {
+              "word": " the",
+              "start": 29.64,
+              "end": 29.92
+            },
+            {
+              "word": " minimum",
+              "start": 29.92,
+              "end": 30.26
+            },
+            {
+              "word": " value",
+              "start": 30.26,
+              "end": 30.64
+            },
+            {
+              "word": " of",
+              "start": 30.64,
+              "end": 30.82
+            },
+            {
+              "word": " load",
+              "start": 30.82,
+              "end": 31.0
+            },
+            {
+              "word": " resistance",
+              "start": 31.0,
+              "end": 31.44
+            },
+            {
+              "word": " RL",
+              "start": 31.44,
+              "end": 31.98
+            },
+            {
+              "word": " and",
+              "start": 31.98,
+              "end": 32.52
+            },
+            {
+              "word": " minimum",
+              "start": 32.52,
+              "end": 32.88
+            },
+            {
+              "word": " power",
+              "start": 32.88,
+              "end": 33.2
+            },
+            {
+              "word": " rating",
+              "start": 33.2,
+              "end": 33.66
+            }
+          ]
+        },
+        {
+          "start": 33.66,
+          "end": 34.74,
+          "text": "of the zener diode.",
+          "words": [
+            {
+              "word": " of",
+              "start": 33.66,
+              "end": 33.92
+            },
+            {
+              "word": " the",
+              "start": 33.92,
+              "end": 34.08
+            },
+            {
+              "word": " zener",
+              "start": 34.08,
+              "end": 34.4
+            },
+            {
+              "word": " diode.",
+              "start": 34.4,
+              "end": 34.74
+            }
+          ]
+        },
+        {
+          "start": 35.16,
+          "end": 38.24,
+          "text": "The neocurrent of ideal zener diode is 10 milliamps.",
+          "words": [
+            {
+              "word": " The",
+              "start": 35.16,
+              "end": 35.44
+            },
+            {
+              "word": " neocurrent",
+              "start": 35.44,
+              "end": 36.04
+            },
+            {
+              "word": " of",
+              "start": 36.04,
+              "end": 36.24
+            },
+            {
+              "word": " ideal",
+              "start": 36.24,
+              "end": 36.66
+            },
+            {
+              "word": " zener",
+              "start": 36.66,
+              "end": 37.06
+            },
+            {
+              "word": " diode",
+              "start": 37.06,
+              "end": 37.42
+            },
+            {
+              "word": " is",
+              "start": 37.42,
+              "end": 37.58
+            },
+            {
+              "word": " 10",
+              "start": 37.58,
+              "end": 37.74
+            },
+            {
+              "word": " milliamps.",
+              "start": 37.74,
+              "end": 38.24
+            }
+          ]
+        },
+        {
+          "start": 38.82,
+          "end": 43.08,
+          "text": "So the first thing that I have to explain is the ideal zener diode.",
+          "words": [
+            {
+              "word": " So",
+              "start": 38.82,
+              "end": 38.84
+            },
+            {
+              "word": " the",
+              "start": 38.84,
+              "end": 38.98
+            },
+            {
+              "word": " first",
+              "start": 38.98,
+              "end": 39.2
+            },
+            {
+              "word": " thing",
+              "start": 39.2,
+              "end": 39.46
+            },
+            {
+              "word": " that",
+              "start": 39.46,
+              "end": 39.84
+            },
+            {
+              "word": " I",
+              "start": 39.84,
+              "end": 40.02
+            },
+            {
+              "word": " have",
+              "start": 40.02,
+              "end": 40.22
+            },
+            {
+              "word": " to",
+              "start": 40.22,
+              "end": 40.36
+            },
+            {
+              "word": " explain",
+              "start": 40.36,
+              "end": 40.82
+            },
+            {
+              "word": " is",
+              "start": 40.82,
+              "end": 41.56
+            },
+            {
+              "word": " the",
+              "start": 41.56,
+              "end": 41.74
+            },
+            {
+              "word": " ideal",
+              "start": 41.74,
+              "end": 42.3
+            },
+            {
+              "word": " zener",
+              "start": 42.3,
+              "end": 42.74
+            },
+            {
+              "word": " diode.",
+              "start": 42.74,
+              "end": 43.08
+            }
+          ]
+        },
+        {
+          "start": 43.32,
+          "end": 47.78,
+          "text": "What is the difference between normal zener diode and ideal zener diode?",
+          "words": [
+            {
+              "word": " What",
+              "start": 43.32,
+              "end": 43.58
+            },
+            {
+              "word": " is",
+              "start": 43.58,
+              "end": 43.7
+            },
+            {
+              "word": " the",
+              "start": 43.7,
+              "end": 43.82
+            },
+            {
+              "word": " difference",
+              "start": 43.82,
+              "end": 44.24
+            },
+            {
+              "word": " between",
+              "start": 44.24,
+              "end": 44.78
+            },
+            {
+              "word": " normal",
+              "start": 44.78,
+              "end": 45.24
+            },
+            {
+              "word": " zener",
+              "start": 45.24,
+              "end": 45.76
+            },
+            {
+              "word": " diode",
+              "start": 45.76,
+              "end": 46.14
+            },
+            {
+              "word": " and",
+              "start": 46.14,
+              "end": 46.68
+            },
+            {
+              "word": " ideal",
+              "start": 46.68,
+              "end": 47.08
+            },
+            {
+              "word": " zener",
+              "start": 47.08,
+              "end": 47.46
+            },
+            {
+              "word": " diode?",
+              "start": 47.46,
+              "end": 47.78
+            }
+          ]
+        },
+        {
+          "start": 47.78,
+          "end": 58.94,
+          "text": "For this I will plot, I will plot V i characteristics of normal zener diode, y axis is for zener",
+          "words": [
+            {
+              "word": " For",
+              "start": 47.78,
+              "end": 48.06
+            },
+            {
+              "word": " this",
+              "start": 48.06,
+              "end": 48.28
+            },
+            {
+              "word": " I",
+              "start": 48.28,
+              "end": 48.56
+            },
+            {
+              "word": " will",
+              "start": 48.56,
+              "end": 48.76
+            },
+            {
+              "word": " plot,",
+              "start": 48.76,
+              "end": 49.32
+            },
+            {
+              "word": " I",
+              "start": 49.62,
+              "end": 50.14
+            },
+            {
+              "word": " will",
+              "start": 50.14,
+              "end": 50.3
+            },
+            {
+              "word": " plot",
+              "start": 50.3,
+              "end": 50.66
+            },
+            {
+              "word": " V",
+              "start": 50.66,
+              "end": 50.88
+            },
+            {
+              "word": " i",
+              "start": 50.88,
+              "end": 51.08
+            },
+            {
+              "word": " characteristics",
+              "start": 51.08,
+              "end": 51.66
+            },
+            {
+              "word": " of",
+              "start": 51.66,
+              "end": 53.3
+            },
+            {
+              "word": " normal",
+              "start": 53.3,
+              "end": 53.78
+            },
+            {
+              "word": " zener",
+              "start": 53.78,
+              "end": 54.22
+            },
+            {
+              "word": " diode,",
+              "start": 54.22,
+              "end": 54.6
+            },
+            {
+              "word": " y",
+              "start": 55.82,
+              "end": 56.88
+            },
+            {
+              "word": " axis",
+              "start": 56.88,
+              "end": 57.3
+            },
+            {
+              "word": " is",
+              "start": 57.3,
+              "end": 58.28
+            },
+            {
+              "word": " for",
+              "start": 58.28,
+              "end": 58.56
+            },
+            {
+              "word": " zener",
+              "start": 58.56,
+              "end": 58.94
+            }
+          ]
+        },
+        {
+          "start": 58.94,
+          "end": 65.38,
+          "text": "current, x axis is for voltage across the diode and I will plot the V i characteristics",
+          "words": [
+            {
+              "word": " current,",
+              "start": 58.94,
+              "end": 59.4
+            },
+            {
+              "word": " x",
+              "start": 59.94,
+              "end": 60.28
+            },
+            {
+              "word": " axis",
+              "start": 60.28,
+              "end": 60.56
+            },
+            {
+              "word": " is",
+              "start": 60.56,
+              "end": 61.4
+            },
+            {
+              "word": " for",
+              "start": 61.4,
+              "end": 61.72
+            },
+            {
+              "word": " voltage",
+              "start": 61.72,
+              "end": 62.08
+            },
+            {
+              "word": " across",
+              "start": 62.08,
+              "end": 62.48
+            },
+            {
+              "word": " the",
+              "start": 62.48,
+              "end": 62.72
+            },
+            {
+              "word": " diode",
+              "start": 62.72,
+              "end": 63.04
+            },
+            {
+              "word": " and",
+              "start": 63.04,
+              "end": 63.62
+            },
+            {
+              "word": " I",
+              "start": 63.62,
+              "end": 63.74
+            },
+            {
+              "word": " will",
+              "start": 63.74,
+              "end": 63.86
+            },
+            {
+              "word": " plot",
+              "start": 63.86,
+              "end": 64.16
+            },
+            {
+              "word": " the",
+              "start": 64.16,
+              "end": 64.36
+            },
+            {
+              "word": " V",
+              "start": 64.36,
+              "end": 64.52
+            },
+            {
+              "word": " i",
+              "start": 64.52,
+              "end": 64.76
+            },
+            {
+              "word": " characteristics",
+              "start": 64.76,
+              "end": 65.38
+            }
+          ]
+        },
+        {
+          "start": 66.34,
+          "end": 67.78,
+          "text": "in reverse bias condition.",
+          "words": [
+            {
+              "word": " in",
+              "start": 66.12,
+              "end": 66.48
+            },
+            {
+              "word": " reverse",
+              "start": 66.48,
+              "end": 66.8
+            },
+            {
+              "word": " bias",
+              "start": 66.8,
+              "end": 67.16
+            },
+            {
+              "word": " condition.",
+              "start": 67.16,
+              "end": 67.78
+            }
+          ]
+        },
+        {
+          "start": 69.86,
+          "end": 72.62,
+          "text": "The characteristic will look something like this.",
+          "words": [
+            {
+              "word": " The",
+              "start": 69.54,
+              "end": 69.9
+            },
+            {
+              "word": " characteristic",
+              "start": 69.9,
+              "end": 70.5
+            },
+            {
+              "word": " will",
+              "start": 70.5,
+              "end": 71.4
+            },
+            {
+              "word": " look",
+              "start": 71.4,
+              "end": 71.66
+            },
+            {
+              "word": " something",
+              "start": 71.66,
+              "end": 71.96
+            },
+            {
+              "word": " like",
+              "start": 71.96,
+              "end": 72.28
+            },
+            {
+              "word": " this.",
+              "start": 72.28,
+              "end": 72.62
+            }
+          ]
+        },
+        {
+          "start": 73.38000000000001,
+          "end": 75.46,
+          "text": "Once there is breakdown, heavy current will flow.",
+          "words": [
+            {
+              "word": " Once",
+              "start": 73.08000000000001,
+              "end": 73.4
+            },
+            {
+              "word": " there",
+              "start": 73.4,
+              "end": 73.64
+            },
+            {
+              "word": " is",
+              "start": 73.64,
+              "end": 73.76
+            },
+            {
+              "word": " breakdown,",
+              "start": 73.76,
+              "end": 74.14
+            },
+            {
+              "word": " heavy",
+              "start": 74.46,
+              "end": 74.64
+            },
+            {
+              "word": " current",
+              "start": 74.64,
+              "end": 74.94
+            },
+            {
+              "word": " will",
+              "start": 74.94,
+              "end": 75.14
+            },
+            {
+              "word": " flow.",
+              "start": 75.14,
+              "end": 75.46
+            }
+          ]
+        },
+        {
+          "start": 76.06,
+          "end": 84.34,
+          "text": "This current is called as I z k, that is the neocurrent of the zener diode and this voltage",
+          "words": [
+            {
+              "word": " This",
+              "start": 76.06,
+              "end": 76.24
+            },
+            {
+              "word": " current",
+              "start": 76.24,
+              "end": 76.74
+            },
+            {
+              "word": " is",
+              "start": 76.74,
+              "end": 77.92
+            },
+            {
+              "word": " called",
+              "start": 77.92,
+              "end": 78.32
+            },
+            {
+              "word": " as",
+              "start": 78.32,
+              "end": 78.84
+            },
+            {
+              "word": " I",
+              "start": 78.84,
+              "end": 79.32
+            },
+            {
+              "word": " z",
+              "start": 79.32,
+              "end": 79.64
+            },
+            {
+              "word": " k,",
+              "start": 79.64,
+              "end": 80.0
+            },
+            {
+              "word": " that",
+              "start": 80.22,
+              "end": 80.44
+            },
+            {
+              "word": " is",
+              "start": 80.44,
+              "end": 80.6
+            },
+            {
+              "word": " the",
+              "start": 80.6,
+              "end": 80.74
+            },
+            {
+              "word": " neocurrent",
+              "start": 80.74,
+              "end": 81.46
+            },
+            {
+              "word": " of",
+              "start": 81.46,
+              "end": 81.74
+            },
+            {
+              "word": " the",
+              "start": 81.74,
+              "end": 81.88
+            },
+            {
+              "word": " zener",
+              "start": 81.88,
+              "end": 82.16
+            },
+            {
+              "word": " diode",
+              "start": 82.16,
+              "end": 82.48
+            },
+            {
+              "word": " and",
+              "start": 82.48,
+              "end": 83.5
+            },
+            {
+              "word": " this",
+              "start": 83.5,
+              "end": 83.88
+            },
+            {
+              "word": " voltage",
+              "start": 83.88,
+              "end": 84.34
+            }
+          ]
+        },
+        {
+          "start": 84.34,
+          "end": 91.76,
+          "text": "here is V z, that is the zener voltage and the corresponding current is I z, that is",
+          "words": [
+            {
+              "word": " here",
+              "start": 84.34,
+              "end": 84.84
+            },
+            {
+              "word": " is",
+              "start": 84.84,
+              "end": 86.02
+            },
+            {
+              "word": " V",
+              "start": 86.02,
+              "end": 86.34
+            },
+            {
+              "word": " z,",
+              "start": 86.34,
+              "end": 86.6
+            },
+            {
+              "word": " that",
+              "start": 86.9,
+              "end": 87.08
+            },
+            {
+              "word": " is",
+              "start": 87.08,
+              "end": 87.2
+            },
+            {
+              "word": " the",
+              "start": 87.2,
+              "end": 87.36
+            },
+            {
+              "word": " zener",
+              "start": 87.36,
+              "end": 87.64
+            },
+            {
+              "word": " voltage",
+              "start": 87.64,
+              "end": 88.0
+            },
+            {
+              "word": " and",
+              "start": 88.0,
+              "end": 88.82
+            },
+            {
+              "word": " the",
+              "start": 88.82,
+              "end": 88.96
+            },
+            {
+              "word": " corresponding",
+              "start": 88.96,
+              "end": 89.4
+            },
+            {
+              "word": " current",
+              "start": 89.4,
+              "end": 89.96
+            },
+            {
+              "word": " is",
+              "start": 89.96,
+              "end": 90.62
+            },
+            {
+              "word": " I",
+              "start": 90.62,
+              "end": 90.94
+            },
+            {
+              "word": " z,",
+              "start": 90.94,
+              "end": 91.22
+            },
+            {
+              "word": " that",
+              "start": 91.46,
+              "end": 91.64
+            },
+            {
+              "word": " is",
+              "start": 91.64,
+              "end": 91.76
+            }
+          ]
+        },
+        {
+          "start": 91.76,
+          "end": 95.96,
+          "text": "the zener current and this plot is for normal zener diode.",
+          "words": [
+            {
+              "word": " the",
+              "start": 91.76,
+              "end": 91.9
+            },
+            {
+              "word": " zener",
+              "start": 91.9,
+              "end": 92.2
+            },
+            {
+              "word": " current",
+              "start": 92.2,
+              "end": 92.52
+            },
+            {
+              "word": " and",
+              "start": 92.52,
+              "end": 93.1
+            },
+            {
+              "word": " this",
+              "start": 93.1,
+              "end": 93.26
+            },
+            {
+              "word": " plot",
+              "start": 93.26,
+              "end": 93.56
+            },
+            {
+              "word": " is",
+              "start": 93.56,
+              "end": 93.92
+            },
+            {
+              "word": " for",
+              "start": 93.92,
+              "end": 94.16
+            },
+            {
+              "word": " normal",
+              "start": 94.16,
+              "end": 94.62
+            },
+            {
+              "word": " zener",
+              "start": 94.62,
+              "end": 95.62
+            },
+            {
+              "word": " diode.",
+              "start": 95.62,
+              "end": 95.96
+            }
+          ]
+        },
+        {
+          "start": 95.96,
+          "end": 99.58,
+          "text": "Now I will show the plot of ideal zener diode.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 95.96,
+              "end": 96.4
+            },
+            {
+              "word": " I",
+              "start": 96.4,
+              "end": 96.54
+            },
+            {
+              "word": " will",
+              "start": 96.54,
+              "end": 96.66
+            },
+            {
+              "word": " show",
+              "start": 96.66,
+              "end": 96.88
+            },
+            {
+              "word": " the",
+              "start": 96.88,
+              "end": 97.04
+            },
+            {
+              "word": " plot",
+              "start": 97.04,
+              "end": 97.48
+            },
+            {
+              "word": " of",
+              "start": 97.48,
+              "end": 98.28
+            },
+            {
+              "word": " ideal",
+              "start": 98.28,
+              "end": 98.82
+            },
+            {
+              "word": " zener",
+              "start": 98.82,
+              "end": 99.2
+            },
+            {
+              "word": " diode.",
+              "start": 99.2,
+              "end": 99.58
+            }
+          ]
+        },
+        {
+          "start": 103.6,
+          "end": 112.98,
+          "text": "In case of ideal zener diode, in case of ideal zener diode, we have breakdown like this and",
+          "words": [
+            {
+              "word": " In",
+              "start": 103.22,
+              "end": 103.64
+            },
+            {
+              "word": " case",
+              "start": 103.64,
+              "end": 103.92
+            },
+            {
+              "word": " of",
+              "start": 103.92,
+              "end": 104.14
+            },
+            {
+              "word": " ideal",
+              "start": 104.14,
+              "end": 104.42
+            },
+            {
+              "word": " zener",
+              "start": 104.42,
+              "end": 104.78
+            },
+            {
+              "word": " diode,",
+              "start": 104.78,
+              "end": 105.36
+            },
+            {
+              "word": " in",
+              "start": 105.8,
+              "end": 106.26
+            },
+            {
+              "word": " case",
+              "start": 106.26,
+              "end": 106.58
+            },
+            {
+              "word": " of",
+              "start": 106.58,
+              "end": 106.98
+            },
+            {
+              "word": " ideal",
+              "start": 106.98,
+              "end": 107.52
+            },
+            {
+              "word": " zener",
+              "start": 107.52,
+              "end": 108.04
+            },
+            {
+              "word": " diode,",
+              "start": 108.04,
+              "end": 108.58
+            },
+            {
+              "word": " we",
+              "start": 109.06,
+              "end": 110.04
+            },
+            {
+              "word": " have",
+              "start": 110.04,
+              "end": 110.34
+            },
+            {
+              "word": " breakdown",
+              "start": 110.34,
+              "end": 110.7
+            },
+            {
+              "word": " like",
+              "start": 110.7,
+              "end": 111.06
+            },
+            {
+              "word": " this",
+              "start": 111.06,
+              "end": 111.4
+            },
+            {
+              "word": " and",
+              "start": 111.4,
+              "end": 112.98
+            }
+          ]
+        },
+        {
+          "start": 112.98,
+          "end": 123.2,
+          "text": "this current I z k is equal to I z minimum, this is the minimum zener current, this voltage",
+          "words": [
+            {
+              "word": " this",
+              "start": 112.98,
+              "end": 113.34
+            },
+            {
+              "word": " current",
+              "start": 113.34,
+              "end": 113.76
+            },
+            {
+              "word": " I",
+              "start": 113.76,
+              "end": 114.62
+            },
+            {
+              "word": " z",
+              "start": 114.62,
+              "end": 115.28
+            },
+            {
+              "word": " k",
+              "start": 115.28,
+              "end": 116.0
+            },
+            {
+              "word": " is",
+              "start": 116.0,
+              "end": 116.66
+            },
+            {
+              "word": " equal",
+              "start": 116.66,
+              "end": 117.08
+            },
+            {
+              "word": " to",
+              "start": 117.08,
+              "end": 117.34
+            },
+            {
+              "word": " I",
+              "start": 117.34,
+              "end": 118.28
+            },
+            {
+              "word": " z",
+              "start": 118.28,
+              "end": 118.56
+            },
+            {
+              "word": " minimum,",
+              "start": 118.56,
+              "end": 119.08
+            },
+            {
+              "word": " this",
+              "start": 119.46,
+              "end": 119.72
+            },
+            {
+              "word": " is",
+              "start": 119.72,
+              "end": 119.88
+            },
+            {
+              "word": " the",
+              "start": 119.88,
+              "end": 120.04
+            },
+            {
+              "word": " minimum",
+              "start": 120.04,
+              "end": 120.48
+            },
+            {
+              "word": " zener",
+              "start": 120.48,
+              "end": 121.38
+            },
+            {
+              "word": " current,",
+              "start": 121.38,
+              "end": 121.8
+            },
+            {
+              "word": " this",
+              "start": 122.36,
+              "end": 122.82
+            },
+            {
+              "word": " voltage",
+              "start": 122.82,
+              "end": 123.2
+            }
+          ]
+        },
+        {
+          "start": 123.2,
+          "end": 130.54,
+          "text": "here is V z and I z k is equal to I z minimum and I will use this value, the minimum value",
+          "words": [
+            {
+              "word": " here",
+              "start": 123.2,
+              "end": 123.62
+            },
+            {
+              "word": " is",
+              "start": 123.62,
+              "end": 124.16
+            },
+            {
+              "word": " V",
+              "start": 124.16,
+              "end": 124.48
+            },
+            {
+              "word": " z",
+              "start": 124.48,
+              "end": 124.72
+            },
+            {
+              "word": " and",
+              "start": 124.72,
+              "end": 125.48
+            },
+            {
+              "word": " I",
+              "start": 125.48,
+              "end": 125.8
+            },
+            {
+              "word": " z",
+              "start": 125.8,
+              "end": 126.04
+            },
+            {
+              "word": " k",
+              "start": 126.04,
+              "end": 126.3
+            },
+            {
+              "word": " is",
+              "start": 126.3,
+              "end": 126.54
+            },
+            {
+              "word": " equal",
+              "start": 126.54,
+              "end": 126.84
+            },
+            {
+              "word": " to",
+              "start": 126.84,
+              "end": 126.98
+            },
+            {
+              "word": " I",
+              "start": 126.98,
+              "end": 127.18
+            },
+            {
+              "word": " z",
+              "start": 127.18,
+              "end": 127.3
+            },
+            {
+              "word": " minimum",
+              "start": 127.3,
+              "end": 127.7
+            },
+            {
+              "word": " and",
+              "start": 127.7,
+              "end": 128.28
+            },
+            {
+              "word": " I",
+              "start": 128.28,
+              "end": 128.42
+            },
+            {
+              "word": " will",
+              "start": 128.42,
+              "end": 128.54
+            },
+            {
+              "word": " use",
+              "start": 128.54,
+              "end": 128.76
+            },
+            {
+              "word": " this",
+              "start": 128.76,
+              "end": 128.96
+            },
+            {
+              "word": " value,",
+              "start": 128.96,
+              "end": 129.36
+            },
+            {
+              "word": " the",
+              "start": 129.62,
+              "end": 129.92
+            },
+            {
+              "word": " minimum",
+              "start": 129.92,
+              "end": 130.2
+            },
+            {
+              "word": " value",
+              "start": 130.2,
+              "end": 130.54
+            }
+          ]
+        },
+        {
+          "start": 130.54,
+          "end": 136.22,
+          "text": "of zener current to find out the minimum load resistance and the neocurrent is given as",
+          "words": [
+            {
+              "word": " of",
+              "start": 130.54,
+              "end": 130.7
+            },
+            {
+              "word": " zener",
+              "start": 130.7,
+              "end": 130.98
+            },
+            {
+              "word": " current",
+              "start": 130.98,
+              "end": 131.36
+            },
+            {
+              "word": " to",
+              "start": 131.36,
+              "end": 131.64
+            },
+            {
+              "word": " find",
+              "start": 131.64,
+              "end": 131.94
+            },
+            {
+              "word": " out",
+              "start": 131.94,
+              "end": 132.18
+            },
+            {
+              "word": " the",
+              "start": 132.18,
+              "end": 132.38
+            },
+            {
+              "word": " minimum",
+              "start": 132.38,
+              "end": 132.68
+            },
+            {
+              "word": " load",
+              "start": 132.68,
+              "end": 132.94
+            },
+            {
+              "word": " resistance",
+              "start": 132.94,
+              "end": 133.44
+            },
+            {
+              "word": " and",
+              "start": 133.44,
+              "end": 134.58
+            },
+            {
+              "word": " the",
+              "start": 134.58,
+              "end": 134.84
+            },
+            {
+              "word": " neocurrent",
+              "start": 134.84,
+              "end": 135.5
+            },
+            {
+              "word": " is",
+              "start": 135.5,
+              "end": 135.76
+            },
+            {
+              "word": " given",
+              "start": 135.76,
+              "end": 136.0
+            },
+            {
+              "word": " as",
+              "start": 136.0,
+              "end": 136.22
+            }
+          ]
+        },
+        {
+          "start": 136.22,
+          "end": 136.96,
+          "text": "10 milliamps.",
+          "words": [
+            {
+              "word": " 10",
+              "start": 136.22,
+              "end": 136.44
+            },
+            {
+              "word": " milliamps.",
+              "start": 136.44,
+              "end": 136.96
+            }
+          ]
+        },
+        {
+          "start": 137.46,
+          "end": 146.52,
+          "text": "So I can say that, I can say that the minimum value of zener current is equal to 10 milliamps.",
+          "words": [
+            {
+              "word": " So",
+              "start": 137.46,
+              "end": 137.46
+            },
+            {
+              "word": " I",
+              "start": 137.46,
+              "end": 137.6
+            },
+            {
+              "word": " can",
+              "start": 137.6,
+              "end": 137.78
+            },
+            {
+              "word": " say",
+              "start": 137.78,
+              "end": 138.08
+            },
+            {
+              "word": " that,",
+              "start": 138.08,
+              "end": 138.54
+            },
+            {
+              "word": " I",
+              "start": 138.7,
+              "end": 139.16
+            },
+            {
+              "word": " can",
+              "start": 139.16,
+              "end": 139.38
+            },
+            {
+              "word": " say",
+              "start": 139.38,
+              "end": 139.72
+            },
+            {
+              "word": " that",
+              "start": 139.72,
+              "end": 140.2
+            },
+            {
+              "word": " the",
+              "start": 140.2,
+              "end": 141.08
+            },
+            {
+              "word": " minimum",
+              "start": 141.08,
+              "end": 141.38
+            },
+            {
+              "word": " value",
+              "start": 141.38,
+              "end": 141.84
+            },
+            {
+              "word": " of",
+              "start": 141.84,
+              "end": 142.1
+            },
+            {
+              "word": " zener",
+              "start": 142.1,
+              "end": 142.52
+            },
+            {
+              "word": " current",
+              "start": 142.52,
+              "end": 143.02
+            },
+            {
+              "word": " is",
+              "start": 143.02,
+              "end": 143.66
+            },
+            {
+              "word": " equal",
+              "start": 143.66,
+              "end": 144.08
+            },
+            {
+              "word": " to",
+              "start": 144.08,
+              "end": 144.36
+            },
+            {
+              "word": " 10",
+              "start": 144.36,
+              "end": 145.3
+            },
+            {
+              "word": " milliamps.",
+              "start": 145.3,
+              "end": 146.52
+            }
+          ]
+        },
+        {
+          "start": 147.28,
+          "end": 155.48,
+          "text": "I l is the load current, I r is the current in this branch, 100 ohm is the value of r,",
+          "words": [
+            {
+              "word": " I",
+              "start": 147.18,
+              "end": 147.46
+            },
+            {
+              "word": " l",
+              "start": 147.46,
+              "end": 147.72
+            },
+            {
+              "word": " is",
+              "start": 147.72,
+              "end": 147.94
+            },
+            {
+              "word": " the",
+              "start": 147.94,
+              "end": 148.1
+            },
+            {
+              "word": " load",
+              "start": 148.1,
+              "end": 148.3
+            },
+            {
+              "word": " current,",
+              "start": 148.3,
+              "end": 148.72
+            },
+            {
+              "word": " I",
+              "start": 149.52,
+              "end": 149.9
+            },
+            {
+              "word": " r",
+              "start": 149.9,
+              "end": 150.4
+            },
+            {
+              "word": " is",
+              "start": 150.4,
+              "end": 151.04
+            },
+            {
+              "word": " the",
+              "start": 151.04,
+              "end": 151.18
+            },
+            {
+              "word": " current",
+              "start": 151.18,
+              "end": 151.44
+            },
+            {
+              "word": " in",
+              "start": 151.44,
+              "end": 151.66
+            },
+            {
+              "word": " this",
+              "start": 151.66,
+              "end": 151.84
+            },
+            {
+              "word": " branch,",
+              "start": 151.84,
+              "end": 152.3
+            },
+            {
+              "word": " 100",
+              "start": 152.76,
+              "end": 153.08
+            },
+            {
+              "word": " ohm",
+              "start": 153.08,
+              "end": 154.0
+            },
+            {
+              "word": " is",
+              "start": 154.0,
+              "end": 154.34
+            },
+            {
+              "word": " the",
+              "start": 154.34,
+              "end": 154.5
+            },
+            {
+              "word": " value",
+              "start": 154.5,
+              "end": 154.78
+            },
+            {
+              "word": " of",
+              "start": 154.78,
+              "end": 155.02
+            },
+            {
+              "word": " r,",
+              "start": 155.02,
+              "end": 155.48
+            }
+          ]
+        },
+        {
+          "start": 155.74,
+          "end": 162.52,
+          "text": "r is the current limiting resistance, this current is I z, V z is equal to 5 volts,",
+          "words": [
+            {
+              "word": " r",
+              "start": 155.74,
+              "end": 155.9
+            },
+            {
+              "word": " is",
+              "start": 155.9,
+              "end": 156.1
+            },
+            {
+              "word": " the",
+              "start": 156.1,
+              "end": 156.26
+            },
+            {
+              "word": " current",
+              "start": 156.26,
+              "end": 156.46
+            },
+            {
+              "word": " limiting",
+              "start": 156.46,
+              "end": 156.72
+            },
+            {
+              "word": " resistance,",
+              "start": 156.72,
+              "end": 157.36
+            },
+            {
+              "word": " this",
+              "start": 158.42,
+              "end": 158.74
+            },
+            {
+              "word": " current",
+              "start": 158.74,
+              "end": 159.16
+            },
+            {
+              "word": " is",
+              "start": 159.16,
+              "end": 159.94
+            },
+            {
+              "word": " I",
+              "start": 159.94,
+              "end": 160.32
+            },
+            {
+              "word": " z,",
+              "start": 160.32,
+              "end": 160.64
+            },
+            {
+              "word": " V",
+              "start": 161.0,
+              "end": 161.2
+            },
+            {
+              "word": " z",
+              "start": 161.2,
+              "end": 161.4
+            },
+            {
+              "word": " is",
+              "start": 161.4,
+              "end": 161.56
+            },
+            {
+              "word": " equal",
+              "start": 161.56,
+              "end": 161.86
+            },
+            {
+              "word": " to",
+              "start": 161.86,
+              "end": 161.98
+            },
+            {
+              "word": " 5",
+              "start": 161.98,
+              "end": 162.24
+            },
+            {
+              "word": " volts,",
+              "start": 162.24,
+              "end": 162.52
+            }
+          ]
+        },
+        {
+          "start": 162.86,
+          "end": 171.5,
+          "text": "V z is equal to 5 volts, V i is equal to 10 volts, V i is equal to 10 volts and we have",
+          "words": [
+            {
+              "word": " V",
+              "start": 162.86,
+              "end": 163.1
+            },
+            {
+              "word": " z",
+              "start": 163.1,
+              "end": 163.42
+            },
+            {
+              "word": " is",
+              "start": 163.42,
+              "end": 163.7
+            },
+            {
+              "word": " equal",
+              "start": 163.7,
+              "end": 164.18
+            },
+            {
+              "word": " to",
+              "start": 164.18,
+              "end": 164.56
+            },
+            {
+              "word": " 5",
+              "start": 164.56,
+              "end": 164.92
+            },
+            {
+              "word": " volts,",
+              "start": 164.92,
+              "end": 165.46
+            },
+            {
+              "word": " V",
+              "start": 166.22,
+              "end": 166.58
+            },
+            {
+              "word": " i",
+              "start": 166.58,
+              "end": 167.04
+            },
+            {
+              "word": " is",
+              "start": 167.04,
+              "end": 167.86
+            },
+            {
+              "word": " equal",
+              "start": 167.86,
+              "end": 168.24
+            },
+            {
+              "word": " to",
+              "start": 168.24,
+              "end": 168.4
+            },
+            {
+              "word": " 10",
+              "start": 168.4,
+              "end": 168.68
+            },
+            {
+              "word": " volts,",
+              "start": 168.68,
+              "end": 168.98
+            },
+            {
+              "word": " V",
+              "start": 169.38,
+              "end": 169.64
+            },
+            {
+              "word": " i",
+              "start": 169.64,
+              "end": 169.84
+            },
+            {
+              "word": " is",
+              "start": 169.84,
+              "end": 169.98
+            },
+            {
+              "word": " equal",
+              "start": 169.98,
+              "end": 170.26
+            },
+            {
+              "word": " to",
+              "start": 170.26,
+              "end": 170.4
+            },
+            {
+              "word": " 10",
+              "start": 170.4,
+              "end": 170.62
+            },
+            {
+              "word": " volts",
+              "start": 170.62,
+              "end": 170.92
+            },
+            {
+              "word": " and",
+              "start": 170.92,
+              "end": 171.16
+            },
+            {
+              "word": " we",
+              "start": 171.16,
+              "end": 171.32
+            },
+            {
+              "word": " have",
+              "start": 171.32,
+              "end": 171.5
+            }
+          ]
+        },
+        {
+          "start": 171.5,
+          "end": 175.86,
+          "text": "to calculate, we have to calculate rl minimum.",
+          "words": [
+            {
+              "word": " to",
+              "start": 171.5,
+              "end": 171.66
+            },
+            {
+              "word": " calculate,",
+              "start": 171.66,
+              "end": 172.2
+            },
+            {
+              "word": " we",
+              "start": 172.44,
+              "end": 172.72
+            },
+            {
+              "word": " have",
+              "start": 172.72,
+              "end": 172.96
+            },
+            {
+              "word": " to",
+              "start": 172.96,
+              "end": 173.1
+            },
+            {
+              "word": " calculate",
+              "start": 173.1,
+              "end": 173.76
+            },
+            {
+              "word": " rl",
+              "start": 173.76,
+              "end": 174.86
+            },
+            {
+              "word": " minimum.",
+              "start": 174.86,
+              "end": 175.86
+            }
+          ]
+        },
+        {
+          "start": 176.48,
+          "end": 182.36,
+          "text": "When load resistance is minimum, this implies load current is maximum, when load resistance",
+          "words": [
+            {
+              "word": " When",
+              "start": 176.48,
+              "end": 176.62
+            },
+            {
+              "word": " load",
+              "start": 176.62,
+              "end": 176.82
+            },
+            {
+              "word": " resistance",
+              "start": 176.82,
+              "end": 177.18
+            },
+            {
+              "word": " is",
+              "start": 177.18,
+              "end": 177.56
+            },
+            {
+              "word": " minimum,",
+              "start": 177.56,
+              "end": 177.9
+            },
+            {
+              "word": " this",
+              "start": 178.18,
+              "end": 178.3
+            },
+            {
+              "word": " implies",
+              "start": 178.3,
+              "end": 178.88
+            },
+            {
+              "word": " load",
+              "start": 178.88,
+              "end": 179.32
+            },
+            {
+              "word": " current",
+              "start": 179.32,
+              "end": 179.62
+            },
+            {
+              "word": " is",
+              "start": 179.62,
+              "end": 179.86
+            },
+            {
+              "word": " maximum,",
+              "start": 179.86,
+              "end": 180.36
+            },
+            {
+              "word": " when",
+              "start": 180.86,
+              "end": 181.1
+            },
+            {
+              "word": " load",
+              "start": 181.1,
+              "end": 181.54
+            },
+            {
+              "word": " resistance",
+              "start": 181.54,
+              "end": 182.36
+            }
+          ]
+        },
+        {
+          "start": 182.36,
+          "end": 191.64,
+          "text": "is minimum, this implies load current is maximum and when load current is maximum, this implies",
+          "words": [
+            {
+              "word": " is",
+              "start": 182.36,
+              "end": 182.82
+            },
+            {
+              "word": " minimum,",
+              "start": 182.82,
+              "end": 183.26
+            },
+            {
+              "word": " this",
+              "start": 183.94,
+              "end": 184.16
+            },
+            {
+              "word": " implies",
+              "start": 184.16,
+              "end": 184.7
+            },
+            {
+              "word": " load",
+              "start": 184.7,
+              "end": 185.76
+            },
+            {
+              "word": " current",
+              "start": 185.76,
+              "end": 186.18
+            },
+            {
+              "word": " is",
+              "start": 186.18,
+              "end": 187.5
+            },
+            {
+              "word": " maximum",
+              "start": 187.5,
+              "end": 188.04
+            },
+            {
+              "word": " and",
+              "start": 188.04,
+              "end": 188.72
+            },
+            {
+              "word": " when",
+              "start": 188.72,
+              "end": 188.9
+            },
+            {
+              "word": " load",
+              "start": 188.9,
+              "end": 189.12
+            },
+            {
+              "word": " current",
+              "start": 189.12,
+              "end": 189.4
+            },
+            {
+              "word": " is",
+              "start": 189.4,
+              "end": 189.64
+            },
+            {
+              "word": " maximum,",
+              "start": 189.64,
+              "end": 190.2
+            },
+            {
+              "word": " this",
+              "start": 190.84,
+              "end": 191.06
+            },
+            {
+              "word": " implies",
+              "start": 191.06,
+              "end": 191.64
+            }
+          ]
+        },
+        {
+          "start": 191.64,
+          "end": 199.54,
+          "text": "zener current is minimum and if I apply Kitchoff's current law at this node, applying",
+          "words": [
+            {
+              "word": " zener",
+              "start": 191.64,
+              "end": 192.56
+            },
+            {
+              "word": " current",
+              "start": 192.56,
+              "end": 192.88
+            },
+            {
+              "word": " is",
+              "start": 192.88,
+              "end": 193.94
+            },
+            {
+              "word": " minimum",
+              "start": 193.94,
+              "end": 194.36
+            },
+            {
+              "word": " and",
+              "start": 194.36,
+              "end": 195.18
+            },
+            {
+              "word": " if",
+              "start": 195.18,
+              "end": 195.42
+            },
+            {
+              "word": " I",
+              "start": 195.42,
+              "end": 195.58
+            },
+            {
+              "word": " apply",
+              "start": 195.58,
+              "end": 195.96
+            },
+            {
+              "word": " Kitchoff's",
+              "start": 195.96,
+              "end": 196.66
+            },
+            {
+              "word": " current",
+              "start": 196.66,
+              "end": 196.84
+            },
+            {
+              "word": " law",
+              "start": 196.84,
+              "end": 197.2
+            },
+            {
+              "word": " at",
+              "start": 197.2,
+              "end": 197.44
+            },
+            {
+              "word": " this",
+              "start": 197.44,
+              "end": 197.66
+            },
+            {
+              "word": " node,",
+              "start": 197.66,
+              "end": 198.08
+            },
+            {
+              "word": " applying",
+              "start": 198.78,
+              "end": 199.54
+            }
+          ]
+        },
+        {
+          "start": 202.34,
+          "end": 213.9,
+          "text": "Kitchoff's current law, we have I r, we have I r equal to I z plus I l, I l is maximum",
+          "words": [
+            {
+              "word": " Kitchoff's",
+              "start": 202.34,
+              "end": 203.1
+            },
+            {
+              "word": " current",
+              "start": 203.1,
+              "end": 203.34
+            },
+            {
+              "word": " law,",
+              "start": 203.34,
+              "end": 203.84
+            },
+            {
+              "word": " we",
+              "start": 204.58,
+              "end": 204.82
+            },
+            {
+              "word": " have",
+              "start": 204.82,
+              "end": 205.3
+            },
+            {
+              "word": " I",
+              "start": 205.3,
+              "end": 206.16
+            },
+            {
+              "word": " r,",
+              "start": 206.16,
+              "end": 206.62
+            },
+            {
+              "word": " we",
+              "start": 207.18,
+              "end": 207.42
+            },
+            {
+              "word": " have",
+              "start": 207.42,
+              "end": 207.9
+            },
+            {
+              "word": " I",
+              "start": 207.9,
+              "end": 208.32
+            },
+            {
+              "word": " r",
+              "start": 208.32,
+              "end": 208.84
+            },
+            {
+              "word": " equal",
+              "start": 208.84,
+              "end": 209.42
+            },
+            {
+              "word": " to",
+              "start": 209.42,
+              "end": 209.76
+            },
+            {
+              "word": " I",
+              "start": 209.76,
+              "end": 210.14
+            },
+            {
+              "word": " z",
+              "start": 210.14,
+              "end": 210.48
+            },
+            {
+              "word": " plus",
+              "start": 210.48,
+              "end": 211.6
+            },
+            {
+              "word": " I",
+              "start": 211.6,
+              "end": 212.1
+            },
+            {
+              "word": " l,",
+              "start": 212.1,
+              "end": 212.4
+            },
+            {
+              "word": " I",
+              "start": 212.78,
+              "end": 213.18
+            },
+            {
+              "word": " l",
+              "start": 213.18,
+              "end": 213.36
+            },
+            {
+              "word": " is",
+              "start": 213.36,
+              "end": 213.5
+            },
+            {
+              "word": " maximum",
+              "start": 213.5,
+              "end": 213.9
+            }
+          ]
+        },
+        {
+          "start": 213.9,
+          "end": 223.0,
+          "text": "and I z is minimum, I l is maximum and I z is minimum, I r is equal to V i minus V z",
+          "words": [
+            {
+              "word": " and",
+              "start": 213.9,
+              "end": 214.56
+            },
+            {
+              "word": " I",
+              "start": 214.56,
+              "end": 214.74
+            },
+            {
+              "word": " z",
+              "start": 214.74,
+              "end": 214.88
+            },
+            {
+              "word": " is",
+              "start": 214.88,
+              "end": 215.06
+            },
+            {
+              "word": " minimum,",
+              "start": 215.06,
+              "end": 215.46
+            },
+            {
+              "word": " I",
+              "start": 216.16,
+              "end": 216.48
+            },
+            {
+              "word": " l",
+              "start": 216.48,
+              "end": 216.7
+            },
+            {
+              "word": " is",
+              "start": 216.7,
+              "end": 216.86
+            },
+            {
+              "word": " maximum",
+              "start": 216.86,
+              "end": 217.34
+            },
+            {
+              "word": " and",
+              "start": 217.34,
+              "end": 217.72
+            },
+            {
+              "word": " I",
+              "start": 217.72,
+              "end": 217.96
+            },
+            {
+              "word": " z",
+              "start": 217.96,
+              "end": 218.2
+            },
+            {
+              "word": " is",
+              "start": 218.2,
+              "end": 218.5
+            },
+            {
+              "word": " minimum,",
+              "start": 218.5,
+              "end": 218.92
+            },
+            {
+              "word": " I",
+              "start": 219.4,
+              "end": 219.68
+            },
+            {
+              "word": " r",
+              "start": 219.68,
+              "end": 220.04
+            },
+            {
+              "word": " is",
+              "start": 220.04,
+              "end": 220.28
+            },
+            {
+              "word": " equal",
+              "start": 220.28,
+              "end": 220.66
+            },
+            {
+              "word": " to",
+              "start": 220.66,
+              "end": 220.84
+            },
+            {
+              "word": " V",
+              "start": 220.84,
+              "end": 221.08
+            },
+            {
+              "word": " i",
+              "start": 221.08,
+              "end": 221.5
+            },
+            {
+              "word": " minus",
+              "start": 221.5,
+              "end": 222.36
+            },
+            {
+              "word": " V",
+              "start": 222.36,
+              "end": 222.68
+            },
+            {
+              "word": " z",
+              "start": 222.68,
+              "end": 223.0
+            }
+          ]
+        },
+        {
+          "start": 223.0,
+          "end": 230.98,
+          "text": "divided by r, I z minimum is equal to 10 milliamps and we have to calculate I l maximum",
+          "words": [
+            {
+              "word": " divided",
+              "start": 223.0,
+              "end": 223.44
+            },
+            {
+              "word": " by",
+              "start": 223.44,
+              "end": 223.82
+            },
+            {
+              "word": " r,",
+              "start": 223.82,
+              "end": 224.16
+            },
+            {
+              "word": " I",
+              "start": 224.8,
+              "end": 225.12
+            },
+            {
+              "word": " z",
+              "start": 225.12,
+              "end": 225.3
+            },
+            {
+              "word": " minimum",
+              "start": 225.3,
+              "end": 225.76
+            },
+            {
+              "word": " is",
+              "start": 225.76,
+              "end": 226.08
+            },
+            {
+              "word": " equal",
+              "start": 226.08,
+              "end": 226.42
+            },
+            {
+              "word": " to",
+              "start": 226.42,
+              "end": 226.6
+            },
+            {
+              "word": " 10",
+              "start": 226.6,
+              "end": 226.92
+            },
+            {
+              "word": " milliamps",
+              "start": 226.92,
+              "end": 227.64
+            },
+            {
+              "word": " and",
+              "start": 227.64,
+              "end": 228.58
+            },
+            {
+              "word": " we",
+              "start": 228.58,
+              "end": 228.76
+            },
+            {
+              "word": " have",
+              "start": 228.76,
+              "end": 228.94
+            },
+            {
+              "word": " to",
+              "start": 228.94,
+              "end": 229.06
+            },
+            {
+              "word": " calculate",
+              "start": 229.06,
+              "end": 229.56
+            },
+            {
+              "word": " I",
+              "start": 229.56,
+              "end": 230.2
+            },
+            {
+              "word": " l",
+              "start": 230.2,
+              "end": 230.54
+            },
+            {
+              "word": " maximum",
+              "start": 230.54,
+              "end": 230.98
+            }
+          ]
+        },
+        {
+          "start": 230.98,
+          "end": 239.3,
+          "text": "so that we can calculate R l minimum, V i is equal to 10 volts, V z is equal to 5 volts,",
+          "words": [
+            {
+              "word": " so",
+              "start": 230.98,
+              "end": 231.32
+            },
+            {
+              "word": " that",
+              "start": 231.32,
+              "end": 231.54
+            },
+            {
+              "word": " we",
+              "start": 231.54,
+              "end": 231.66
+            },
+            {
+              "word": " can",
+              "start": 231.66,
+              "end": 231.84
+            },
+            {
+              "word": " calculate",
+              "start": 231.84,
+              "end": 232.3
+            },
+            {
+              "word": " R",
+              "start": 232.3,
+              "end": 232.68
+            },
+            {
+              "word": " l",
+              "start": 232.68,
+              "end": 232.8
+            },
+            {
+              "word": " minimum,",
+              "start": 232.8,
+              "end": 233.2
+            },
+            {
+              "word": " V",
+              "start": 233.66,
+              "end": 234.04
+            },
+            {
+              "word": " i",
+              "start": 234.04,
+              "end": 234.32
+            },
+            {
+              "word": " is",
+              "start": 234.32,
+              "end": 234.66
+            },
+            {
+              "word": " equal",
+              "start": 234.66,
+              "end": 235.02
+            },
+            {
+              "word": " to",
+              "start": 235.02,
+              "end": 235.26
+            },
+            {
+              "word": " 10",
+              "start": 235.26,
+              "end": 235.6
+            },
+            {
+              "word": " volts,",
+              "start": 235.6,
+              "end": 235.94
+            },
+            {
+              "word": " V",
+              "start": 237.14,
+              "end": 237.56
+            },
+            {
+              "word": " z",
+              "start": 237.56,
+              "end": 237.76
+            },
+            {
+              "word": " is",
+              "start": 237.76,
+              "end": 237.98
+            },
+            {
+              "word": " equal",
+              "start": 237.98,
+              "end": 238.38
+            },
+            {
+              "word": " to",
+              "start": 238.38,
+              "end": 238.54
+            },
+            {
+              "word": " 5",
+              "start": 238.54,
+              "end": 238.88
+            },
+            {
+              "word": " volts,",
+              "start": 238.88,
+              "end": 239.3
+            }
+          ]
+        },
+        {
+          "start": 240.16,
+          "end": 249.72,
+          "text": "r is equal to 100 ohms and this is equal to 10 milliamps plus I l max. When you solve this,",
+          "words": [
+            {
+              "word": " r",
+              "start": 240.16,
+              "end": 240.38
+            },
+            {
+              "word": " is",
+              "start": 240.38,
+              "end": 240.6
+            },
+            {
+              "word": " equal",
+              "start": 240.6,
+              "end": 240.92
+            },
+            {
+              "word": " to",
+              "start": 240.92,
+              "end": 241.06
+            },
+            {
+              "word": " 100",
+              "start": 241.06,
+              "end": 241.32
+            },
+            {
+              "word": " ohms",
+              "start": 241.32,
+              "end": 241.88
+            },
+            {
+              "word": " and",
+              "start": 241.88,
+              "end": 243.18
+            },
+            {
+              "word": " this",
+              "start": 243.18,
+              "end": 243.34
+            },
+            {
+              "word": " is",
+              "start": 243.34,
+              "end": 243.5
+            },
+            {
+              "word": " equal",
+              "start": 243.5,
+              "end": 243.86
+            },
+            {
+              "word": " to",
+              "start": 243.86,
+              "end": 244.06
+            },
+            {
+              "word": " 10",
+              "start": 244.06,
+              "end": 244.44
+            },
+            {
+              "word": " milliamps",
+              "start": 244.44,
+              "end": 245.36
+            },
+            {
+              "word": " plus",
+              "start": 245.36,
+              "end": 246.18
+            },
+            {
+              "word": " I",
+              "start": 246.18,
+              "end": 247.16
+            },
+            {
+              "word": " l",
+              "start": 247.16,
+              "end": 247.62
+            },
+            {
+              "word": " max.",
+              "start": 247.62,
+              "end": 248.2
+            },
+            {
+              "word": " When",
+              "start": 248.84,
+              "end": 248.98
+            },
+            {
+              "word": " you",
+              "start": 248.98,
+              "end": 249.16
+            },
+            {
+              "word": " solve",
+              "start": 249.16,
+              "end": 249.34
+            },
+            {
+              "word": " this,",
+              "start": 249.34,
+              "end": 249.72
+            }
+          ]
+        },
+        {
+          "start": 249.72,
+          "end": 259.66,
+          "text": "you have 50 milliamps and on right hand side, we have 10 milliamps plus I l max. So simply",
+          "words": [
+            {
+              "word": " you",
+              "start": 249.72,
+              "end": 249.96
+            },
+            {
+              "word": " have",
+              "start": 249.96,
+              "end": 250.44
+            },
+            {
+              "word": " 50",
+              "start": 250.44,
+              "end": 251.7
+            },
+            {
+              "word": " milliamps",
+              "start": 251.7,
+              "end": 253.0
+            },
+            {
+              "word": " and",
+              "start": 253.0,
+              "end": 254.28
+            },
+            {
+              "word": " on",
+              "start": 254.28,
+              "end": 254.42
+            },
+            {
+              "word": " right",
+              "start": 254.42,
+              "end": 254.64
+            },
+            {
+              "word": " hand",
+              "start": 254.64,
+              "end": 254.84
+            },
+            {
+              "word": " side,",
+              "start": 254.84,
+              "end": 255.16
+            },
+            {
+              "word": " we",
+              "start": 255.24,
+              "end": 255.32
+            },
+            {
+              "word": " have",
+              "start": 255.32,
+              "end": 255.62
+            },
+            {
+              "word": " 10",
+              "start": 255.62,
+              "end": 255.9
+            },
+            {
+              "word": " milliamps",
+              "start": 255.9,
+              "end": 256.48
+            },
+            {
+              "word": " plus",
+              "start": 256.48,
+              "end": 256.96
+            },
+            {
+              "word": " I",
+              "start": 256.96,
+              "end": 257.7
+            },
+            {
+              "word": " l",
+              "start": 257.7,
+              "end": 258.02
+            },
+            {
+              "word": " max.",
+              "start": 258.02,
+              "end": 258.32
+            },
+            {
+              "word": " So",
+              "start": 259.16,
+              "end": 259.16
+            },
+            {
+              "word": " simply",
+              "start": 259.16,
+              "end": 259.66
+            }
+          ]
+        },
+        {
+          "start": 260.36,
+          "end": 268.26,
+          "text": "I l max is equal to 40 milliamps. Now by using this value, we can easily calculate R l minimum.",
+          "words": [
+            {
+              "word": " I",
+              "start": 260.34000000000003,
+              "end": 260.66
+            },
+            {
+              "word": " l",
+              "start": 260.66,
+              "end": 261.0
+            },
+            {
+              "word": " max",
+              "start": 261.0,
+              "end": 261.4
+            },
+            {
+              "word": " is",
+              "start": 261.4,
+              "end": 261.76
+            },
+            {
+              "word": " equal",
+              "start": 261.76,
+              "end": 262.12
+            },
+            {
+              "word": " to",
+              "start": 262.12,
+              "end": 262.32
+            },
+            {
+              "word": " 40",
+              "start": 262.32,
+              "end": 262.66
+            },
+            {
+              "word": " milliamps.",
+              "start": 262.66,
+              "end": 263.36
+            },
+            {
+              "word": " Now",
+              "start": 264.82,
+              "end": 265.46
+            },
+            {
+              "word": " by",
+              "start": 265.46,
+              "end": 265.62
+            },
+            {
+              "word": " using",
+              "start": 265.62,
+              "end": 265.86
+            },
+            {
+              "word": " this",
+              "start": 265.86,
+              "end": 266.08
+            },
+            {
+              "word": " value,",
+              "start": 266.08,
+              "end": 266.38
+            },
+            {
+              "word": " we",
+              "start": 266.44,
+              "end": 266.56
+            },
+            {
+              "word": " can",
+              "start": 266.56,
+              "end": 266.74
+            },
+            {
+              "word": " easily",
+              "start": 266.74,
+              "end": 266.98
+            },
+            {
+              "word": " calculate",
+              "start": 266.98,
+              "end": 267.48
+            },
+            {
+              "word": " R",
+              "start": 267.48,
+              "end": 267.78
+            },
+            {
+              "word": " l",
+              "start": 267.78,
+              "end": 267.88
+            },
+            {
+              "word": " minimum.",
+              "start": 267.88,
+              "end": 268.26
+            }
+          ]
+        },
+        {
+          "start": 269.06,
+          "end": 279.44,
+          "text": "R l minimum is equal to V l divided by I l maximum. V l is the voltage across the load",
+          "words": [
+            {
+              "word": " R",
+              "start": 269.06,
+              "end": 269.5
+            },
+            {
+              "word": " l",
+              "start": 269.5,
+              "end": 269.94
+            },
+            {
+              "word": " minimum",
+              "start": 269.94,
+              "end": 270.52
+            },
+            {
+              "word": " is",
+              "start": 270.52,
+              "end": 271.04
+            },
+            {
+              "word": " equal",
+              "start": 271.04,
+              "end": 271.4
+            },
+            {
+              "word": " to",
+              "start": 271.4,
+              "end": 271.64
+            },
+            {
+              "word": " V",
+              "start": 271.64,
+              "end": 271.92
+            },
+            {
+              "word": " l",
+              "start": 271.92,
+              "end": 272.3
+            },
+            {
+              "word": " divided",
+              "start": 272.3,
+              "end": 272.98
+            },
+            {
+              "word": " by",
+              "start": 272.98,
+              "end": 273.48
+            },
+            {
+              "word": " I",
+              "start": 273.48,
+              "end": 274.6
+            },
+            {
+              "word": " l",
+              "start": 274.6,
+              "end": 275.18
+            },
+            {
+              "word": " maximum.",
+              "start": 275.18,
+              "end": 276.24
+            },
+            {
+              "word": " V",
+              "start": 276.72,
+              "end": 277.24
+            },
+            {
+              "word": " l",
+              "start": 277.24,
+              "end": 277.54
+            },
+            {
+              "word": " is",
+              "start": 277.54,
+              "end": 278.0
+            },
+            {
+              "word": " the",
+              "start": 278.0,
+              "end": 278.14
+            },
+            {
+              "word": " voltage",
+              "start": 278.14,
+              "end": 278.48
+            },
+            {
+              "word": " across",
+              "start": 278.48,
+              "end": 279.0
+            },
+            {
+              "word": " the",
+              "start": 279.0,
+              "end": 279.28
+            },
+            {
+              "word": " load",
+              "start": 279.28,
+              "end": 279.44
+            }
+          ]
+        },
+        {
+          "start": 279.44,
+          "end": 286.7,
+          "text": "resistance. V l is also equal to V z. Both the voltages are measured across the same points.",
+          "words": [
+            {
+              "word": " resistance.",
+              "start": 279.44,
+              "end": 280.04
+            },
+            {
+              "word": " V",
+              "start": 280.72,
+              "end": 281.1
+            },
+            {
+              "word": " l",
+              "start": 281.1,
+              "end": 281.4
+            },
+            {
+              "word": " is",
+              "start": 281.4,
+              "end": 281.58
+            },
+            {
+              "word": " also",
+              "start": 281.58,
+              "end": 281.88
+            },
+            {
+              "word": " equal",
+              "start": 281.88,
+              "end": 282.28
+            },
+            {
+              "word": " to",
+              "start": 282.28,
+              "end": 282.84
+            },
+            {
+              "word": " V",
+              "start": 282.84,
+              "end": 283.12
+            },
+            {
+              "word": " z.",
+              "start": 283.12,
+              "end": 283.32
+            },
+            {
+              "word": " Both",
+              "start": 283.76,
+              "end": 284.08
+            },
+            {
+              "word": " the",
+              "start": 284.08,
+              "end": 284.26
+            },
+            {
+              "word": " voltages",
+              "start": 284.26,
+              "end": 284.62
+            },
+            {
+              "word": " are",
+              "start": 284.62,
+              "end": 285.02
+            },
+            {
+              "word": " measured",
+              "start": 285.02,
+              "end": 285.34
+            },
+            {
+              "word": " across",
+              "start": 285.34,
+              "end": 285.74
+            },
+            {
+              "word": " the",
+              "start": 285.74,
+              "end": 286.02
+            },
+            {
+              "word": " same",
+              "start": 286.02,
+              "end": 286.28
+            },
+            {
+              "word": " points.",
+              "start": 286.28,
+              "end": 286.7
+            }
+          ]
+        },
+        {
+          "start": 287.24,
+          "end": 295.96,
+          "text": "So V l is equal to V z and we have V z divided by I l max as the value of R l minimum. V z is",
+          "words": [
+            {
+              "word": " So",
+              "start": 287.24,
+              "end": 287.26
+            },
+            {
+              "word": " V",
+              "start": 287.26,
+              "end": 287.54
+            },
+            {
+              "word": " l",
+              "start": 287.54,
+              "end": 288.0
+            },
+            {
+              "word": " is",
+              "start": 288.0,
+              "end": 288.68
+            },
+            {
+              "word": " equal",
+              "start": 288.68,
+              "end": 289.1
+            },
+            {
+              "word": " to",
+              "start": 289.1,
+              "end": 289.26
+            },
+            {
+              "word": " V",
+              "start": 289.26,
+              "end": 289.54
+            },
+            {
+              "word": " z",
+              "start": 289.54,
+              "end": 289.84
+            },
+            {
+              "word": " and",
+              "start": 289.84,
+              "end": 290.76
+            },
+            {
+              "word": " we",
+              "start": 290.76,
+              "end": 290.98
+            },
+            {
+              "word": " have",
+              "start": 290.98,
+              "end": 291.2
+            },
+            {
+              "word": " V",
+              "start": 291.2,
+              "end": 291.46
+            },
+            {
+              "word": " z",
+              "start": 291.46,
+              "end": 291.64
+            },
+            {
+              "word": " divided",
+              "start": 291.64,
+              "end": 291.88
+            },
+            {
+              "word": " by",
+              "start": 291.88,
+              "end": 292.2
+            },
+            {
+              "word": " I",
+              "start": 292.2,
+              "end": 292.52
+            },
+            {
+              "word": " l",
+              "start": 292.52,
+              "end": 292.88
+            },
+            {
+              "word": " max",
+              "start": 292.88,
+              "end": 293.2
+            },
+            {
+              "word": " as",
+              "start": 293.2,
+              "end": 293.54
+            },
+            {
+              "word": " the",
+              "start": 293.54,
+              "end": 293.7
+            },
+            {
+              "word": " value",
+              "start": 293.7,
+              "end": 293.94
+            },
+            {
+              "word": " of",
+              "start": 293.94,
+              "end": 294.16
+            },
+            {
+              "word": " R",
+              "start": 294.16,
+              "end": 294.38
+            },
+            {
+              "word": " l",
+              "start": 294.38,
+              "end": 294.52
+            },
+            {
+              "word": " minimum.",
+              "start": 294.52,
+              "end": 294.86
+            },
+            {
+              "word": " V",
+              "start": 295.24,
+              "end": 295.6
+            },
+            {
+              "word": " z",
+              "start": 295.6,
+              "end": 295.78
+            },
+            {
+              "word": " is",
+              "start": 295.78,
+              "end": 295.96
+            }
+          ]
+        },
+        {
+          "start": 295.96,
+          "end": 304.02,
+          "text": "equal to 5 volts. So we will divide 5 volts by 40 milliamps and when you solve this, you have",
+          "words": [
+            {
+              "word": " equal",
+              "start": 295.96,
+              "end": 296.26
+            },
+            {
+              "word": " to",
+              "start": 296.26,
+              "end": 296.38
+            },
+            {
+              "word": " 5",
+              "start": 296.38,
+              "end": 296.66
+            },
+            {
+              "word": " volts.",
+              "start": 296.66,
+              "end": 296.96
+            },
+            {
+              "word": " So",
+              "start": 297.3,
+              "end": 297.4
+            },
+            {
+              "word": " we",
+              "start": 297.4,
+              "end": 297.54
+            },
+            {
+              "word": " will",
+              "start": 297.54,
+              "end": 297.68
+            },
+            {
+              "word": " divide",
+              "start": 297.68,
+              "end": 298.02
+            },
+            {
+              "word": " 5",
+              "start": 298.02,
+              "end": 298.54
+            },
+            {
+              "word": " volts",
+              "start": 298.54,
+              "end": 299.4
+            },
+            {
+              "word": " by",
+              "start": 299.4,
+              "end": 300.56
+            },
+            {
+              "word": " 40",
+              "start": 300.56,
+              "end": 301.04
+            },
+            {
+              "word": " milliamps",
+              "start": 301.04,
+              "end": 301.82
+            },
+            {
+              "word": " and",
+              "start": 301.82,
+              "end": 302.38
+            },
+            {
+              "word": " when",
+              "start": 302.38,
+              "end": 302.56
+            },
+            {
+              "word": " you",
+              "start": 302.56,
+              "end": 302.72
+            },
+            {
+              "word": " solve",
+              "start": 302.72,
+              "end": 302.92
+            },
+            {
+              "word": " this,",
+              "start": 302.92,
+              "end": 303.34
+            },
+            {
+              "word": " you",
+              "start": 303.4,
+              "end": 303.64
+            },
+            {
+              "word": " have",
+              "start": 303.64,
+              "end": 304.02
+            }
+          ]
+        },
+        {
+          "start": 304.02,
+          "end": 312.38,
+          "text": "value of R l minimum equal to 125 ohms. This is the answer. Now we have to calculate the minimum",
+          "words": [
+            {
+              "word": " value",
+              "start": 304.02,
+              "end": 304.42
+            },
+            {
+              "word": " of",
+              "start": 304.42,
+              "end": 304.66
+            },
+            {
+              "word": " R",
+              "start": 304.66,
+              "end": 304.88
+            },
+            {
+              "word": " l",
+              "start": 304.88,
+              "end": 305.0
+            },
+            {
+              "word": " minimum",
+              "start": 305.0,
+              "end": 305.32
+            },
+            {
+              "word": " equal",
+              "start": 305.32,
+              "end": 306.32
+            },
+            {
+              "word": " to",
+              "start": 306.32,
+              "end": 306.56
+            },
+            {
+              "word": " 125",
+              "start": 306.56,
+              "end": 307.28
+            },
+            {
+              "word": " ohms.",
+              "start": 307.28,
+              "end": 308.16
+            },
+            {
+              "word": " This",
+              "start": 308.36,
+              "end": 308.5
+            },
+            {
+              "word": " is",
+              "start": 308.5,
+              "end": 308.72
+            },
+            {
+              "word": " the",
+              "start": 308.72,
+              "end": 308.92
+            },
+            {
+              "word": " answer.",
+              "start": 308.92,
+              "end": 309.4
+            },
+            {
+              "word": " Now",
+              "start": 310.08,
+              "end": 310.22
+            },
+            {
+              "word": " we",
+              "start": 310.22,
+              "end": 310.4
+            },
+            {
+              "word": " have",
+              "start": 310.4,
+              "end": 310.58
+            },
+            {
+              "word": " to",
+              "start": 310.58,
+              "end": 310.7
+            },
+            {
+              "word": " calculate",
+              "start": 310.7,
+              "end": 311.18
+            },
+            {
+              "word": " the",
+              "start": 311.18,
+              "end": 311.96
+            },
+            {
+              "word": " minimum",
+              "start": 311.96,
+              "end": 312.38
+            }
+          ]
+        },
+        {
+          "start": 312.38,
+          "end": 320.68,
+          "text": "power rating of Zener diode. The minimum power rating of Zener diode",
+          "words": [
+            {
+              "word": " power",
+              "start": 312.38,
+              "end": 312.7
+            },
+            {
+              "word": " rating",
+              "start": 312.7,
+              "end": 313.2
+            },
+            {
+              "word": " of",
+              "start": 313.2,
+              "end": 313.72
+            },
+            {
+              "word": " Zener",
+              "start": 313.72,
+              "end": 314.06
+            },
+            {
+              "word": " diode.",
+              "start": 314.06,
+              "end": 314.4
+            },
+            {
+              "word": " The",
+              "start": 314.84,
+              "end": 315.08
+            },
+            {
+              "word": " minimum",
+              "start": 315.08,
+              "end": 315.56
+            },
+            {
+              "word": " power",
+              "start": 315.56,
+              "end": 318.4
+            },
+            {
+              "word": " rating",
+              "start": 318.4,
+              "end": 319.64
+            },
+            {
+              "word": " of",
+              "start": 319.64,
+              "end": 319.86
+            },
+            {
+              "word": " Zener",
+              "start": 319.86,
+              "end": 320.2
+            },
+            {
+              "word": " diode",
+              "start": 320.2,
+              "end": 320.68
+            }
+          ]
+        },
+        {
+          "start": 325.42,
+          "end": 337.28,
+          "text": "and it is equal to I z maximum multiplied by V z. I z maximum is equal to 50 milliamps because",
+          "words": [
+            {
+              "word": " and",
+              "start": 325.3,
+              "end": 325.72
+            },
+            {
+              "word": " it",
+              "start": 325.72,
+              "end": 325.86
+            },
+            {
+              "word": " is",
+              "start": 325.86,
+              "end": 326.0
+            },
+            {
+              "word": " equal",
+              "start": 326.0,
+              "end": 326.42
+            },
+            {
+              "word": " to",
+              "start": 326.42,
+              "end": 326.74
+            },
+            {
+              "word": " I",
+              "start": 326.74,
+              "end": 327.84
+            },
+            {
+              "word": " z",
+              "start": 327.84,
+              "end": 328.06
+            },
+            {
+              "word": " maximum",
+              "start": 328.06,
+              "end": 328.7
+            },
+            {
+              "word": " multiplied",
+              "start": 328.7,
+              "end": 331.84
+            },
+            {
+              "word": " by",
+              "start": 331.84,
+              "end": 332.48
+            },
+            {
+              "word": " V",
+              "start": 332.48,
+              "end": 333.22
+            },
+            {
+              "word": " z.",
+              "start": 333.22,
+              "end": 333.46
+            },
+            {
+              "word": " I",
+              "start": 333.76,
+              "end": 334.28
+            },
+            {
+              "word": " z",
+              "start": 334.28,
+              "end": 334.44
+            },
+            {
+              "word": " maximum",
+              "start": 334.44,
+              "end": 334.9
+            },
+            {
+              "word": " is",
+              "start": 334.9,
+              "end": 335.16
+            },
+            {
+              "word": " equal",
+              "start": 335.16,
+              "end": 335.5
+            },
+            {
+              "word": " to",
+              "start": 335.5,
+              "end": 335.66
+            },
+            {
+              "word": " 50",
+              "start": 335.66,
+              "end": 336.0
+            },
+            {
+              "word": " milliamps",
+              "start": 336.0,
+              "end": 336.54
+            },
+            {
+              "word": " because",
+              "start": 336.54,
+              "end": 337.28
+            }
+          ]
+        },
+        {
+          "start": 337.28,
+          "end": 348.46,
+          "text": "50 milliamps is equal to I z plus I l. I z is maximum when I l is equal to 0. So I z maximum",
+          "words": [
+            {
+              "word": " 50",
+              "start": 337.28,
+              "end": 337.76
+            },
+            {
+              "word": " milliamps",
+              "start": 337.76,
+              "end": 338.62
+            },
+            {
+              "word": " is",
+              "start": 338.62,
+              "end": 340.06
+            },
+            {
+              "word": " equal",
+              "start": 340.06,
+              "end": 340.52
+            },
+            {
+              "word": " to",
+              "start": 340.52,
+              "end": 341.22
+            },
+            {
+              "word": " I",
+              "start": 341.22,
+              "end": 341.54
+            },
+            {
+              "word": " z",
+              "start": 341.54,
+              "end": 341.78
+            },
+            {
+              "word": " plus",
+              "start": 341.78,
+              "end": 342.72
+            },
+            {
+              "word": " I",
+              "start": 342.72,
+              "end": 343.1
+            },
+            {
+              "word": " l.",
+              "start": 343.1,
+              "end": 343.3
+            },
+            {
+              "word": " I",
+              "start": 343.8,
+              "end": 343.98
+            },
+            {
+              "word": " z",
+              "start": 343.98,
+              "end": 344.18
+            },
+            {
+              "word": " is",
+              "start": 344.18,
+              "end": 344.34
+            },
+            {
+              "word": " maximum",
+              "start": 344.34,
+              "end": 344.78
+            },
+            {
+              "word": " when",
+              "start": 344.78,
+              "end": 345.42
+            },
+            {
+              "word": " I",
+              "start": 345.42,
+              "end": 345.72
+            },
+            {
+              "word": " l",
+              "start": 345.72,
+              "end": 346.0
+            },
+            {
+              "word": " is",
+              "start": 346.0,
+              "end": 346.26
+            },
+            {
+              "word": " equal",
+              "start": 346.26,
+              "end": 346.6
+            },
+            {
+              "word": " to",
+              "start": 346.6,
+              "end": 346.74
+            },
+            {
+              "word": " 0.",
+              "start": 346.74,
+              "end": 347.06
+            },
+            {
+              "word": " So",
+              "start": 347.7,
+              "end": 347.76
+            },
+            {
+              "word": " I",
+              "start": 347.76,
+              "end": 347.94
+            },
+            {
+              "word": " z",
+              "start": 347.94,
+              "end": 348.08
+            },
+            {
+              "word": " maximum",
+              "start": 348.08,
+              "end": 348.46
+            }
+          ]
+        },
+        {
+          "start": 348.46,
+          "end": 358.12,
+          "text": "is equal to 50 milliamps multiplied by 5 volts and this is equal to 250 milliwatts. So this is the",
+          "words": [
+            {
+              "word": " is",
+              "start": 348.46,
+              "end": 348.68
+            },
+            {
+              "word": " equal",
+              "start": 348.68,
+              "end": 348.92
+            },
+            {
+              "word": " to",
+              "start": 348.92,
+              "end": 349.04
+            },
+            {
+              "word": " 50",
+              "start": 349.04,
+              "end": 349.3
+            },
+            {
+              "word": " milliamps",
+              "start": 349.3,
+              "end": 349.92
+            },
+            {
+              "word": " multiplied",
+              "start": 349.92,
+              "end": 352.0
+            },
+            {
+              "word": " by",
+              "start": 352.0,
+              "end": 352.56
+            },
+            {
+              "word": " 5",
+              "start": 352.56,
+              "end": 352.92
+            },
+            {
+              "word": " volts",
+              "start": 352.92,
+              "end": 353.22
+            },
+            {
+              "word": " and",
+              "start": 353.22,
+              "end": 353.96
+            },
+            {
+              "word": " this",
+              "start": 353.96,
+              "end": 354.12
+            },
+            {
+              "word": " is",
+              "start": 354.12,
+              "end": 354.26
+            },
+            {
+              "word": " equal",
+              "start": 354.26,
+              "end": 354.62
+            },
+            {
+              "word": " to",
+              "start": 354.62,
+              "end": 354.84
+            },
+            {
+              "word": " 250",
+              "start": 354.84,
+              "end": 355.32
+            },
+            {
+              "word": " milliwatts.",
+              "start": 355.32,
+              "end": 357.08
+            },
+            {
+              "word": " So",
+              "start": 357.26,
+              "end": 357.5
+            },
+            {
+              "word": " this",
+              "start": 357.5,
+              "end": 357.68
+            },
+            {
+              "word": " is",
+              "start": 357.68,
+              "end": 357.9
+            },
+            {
+              "word": " the",
+              "start": 357.9,
+              "end": 358.12
+            }
+          ]
+        },
+        {
+          "start": 358.12,
+          "end": 364.48,
+          "text": "answer for the second part of the problem. The minimum value of load resistance is equal to 125",
+          "words": [
+            {
+              "word": " answer",
+              "start": 358.12,
+              "end": 358.62
+            },
+            {
+              "word": " for",
+              "start": 358.62,
+              "end": 359.56
+            },
+            {
+              "word": " the",
+              "start": 359.56,
+              "end": 359.72
+            },
+            {
+              "word": " second",
+              "start": 359.72,
+              "end": 359.92
+            },
+            {
+              "word": " part",
+              "start": 359.92,
+              "end": 360.24
+            },
+            {
+              "word": " of",
+              "start": 360.24,
+              "end": 360.38
+            },
+            {
+              "word": " the",
+              "start": 360.38,
+              "end": 360.5
+            },
+            {
+              "word": " problem.",
+              "start": 360.5,
+              "end": 360.9
+            },
+            {
+              "word": " The",
+              "start": 361.32,
+              "end": 361.68
+            },
+            {
+              "word": " minimum",
+              "start": 361.68,
+              "end": 361.98
+            },
+            {
+              "word": " value",
+              "start": 361.98,
+              "end": 362.4
+            },
+            {
+              "word": " of",
+              "start": 362.4,
+              "end": 362.64
+            },
+            {
+              "word": " load",
+              "start": 362.64,
+              "end": 362.82
+            },
+            {
+              "word": " resistance",
+              "start": 362.82,
+              "end": 363.22
+            },
+            {
+              "word": " is",
+              "start": 363.22,
+              "end": 363.56
+            },
+            {
+              "word": " equal",
+              "start": 363.56,
+              "end": 363.84
+            },
+            {
+              "word": " to",
+              "start": 363.84,
+              "end": 364.0
+            },
+            {
+              "word": " 125",
+              "start": 364.0,
+              "end": 364.48
+            }
+          ]
+        },
+        {
+          "start": 364.48,
+          "end": 370.64,
+          "text": "ohms and the minimum power rating of Zener diode is equal to 250 milliwatts. So these are the two",
+          "words": [
+            {
+              "word": " ohms",
+              "start": 364.48,
+              "end": 365.2
+            },
+            {
+              "word": " and",
+              "start": 365.2,
+              "end": 365.6
+            },
+            {
+              "word": " the",
+              "start": 365.6,
+              "end": 365.74
+            },
+            {
+              "word": " minimum",
+              "start": 365.74,
+              "end": 366.02
+            },
+            {
+              "word": " power",
+              "start": 366.02,
+              "end": 366.42
+            },
+            {
+              "word": " rating",
+              "start": 366.42,
+              "end": 366.86
+            },
+            {
+              "word": " of",
+              "start": 366.86,
+              "end": 367.08
+            },
+            {
+              "word": " Zener",
+              "start": 367.08,
+              "end": 367.34
+            },
+            {
+              "word": " diode",
+              "start": 367.34,
+              "end": 367.62
+            },
+            {
+              "word": " is",
+              "start": 367.62,
+              "end": 367.86
+            },
+            {
+              "word": " equal",
+              "start": 367.86,
+              "end": 368.1
+            },
+            {
+              "word": " to",
+              "start": 368.1,
+              "end": 368.26
+            },
+            {
+              "word": " 250",
+              "start": 368.26,
+              "end": 368.82
+            },
+            {
+              "word": " milliwatts.",
+              "start": 368.82,
+              "end": 369.8
+            },
+            {
+              "word": " So",
+              "start": 369.98,
+              "end": 370.04
+            },
+            {
+              "word": " these",
+              "start": 370.04,
+              "end": 370.22
+            },
+            {
+              "word": " are",
+              "start": 370.22,
+              "end": 370.38
+            },
+            {
+              "word": " the",
+              "start": 370.38,
+              "end": 370.5
+            },
+            {
+              "word": " two",
+              "start": 370.5,
+              "end": 370.64
+            }
+          ]
+        },
+        {
+          "start": 370.64,
+          "end": 375.62,
+          "text": "answers for the numerical problem. If you have any doubt, you may ask in the comment section. I will",
+          "words": [
+            {
+              "word": " answers",
+              "start": 370.64,
+              "end": 371.04
+            },
+            {
+              "word": " for",
+              "start": 371.04,
+              "end": 371.4
+            },
+            {
+              "word": " the",
+              "start": 371.4,
+              "end": 371.54
+            },
+            {
+              "word": " numerical",
+              "start": 371.54,
+              "end": 371.82
+            },
+            {
+              "word": " problem.",
+              "start": 371.82,
+              "end": 372.38
+            },
+            {
+              "word": " If",
+              "start": 372.84,
+              "end": 373.02
+            },
+            {
+              "word": " you",
+              "start": 373.02,
+              "end": 373.16
+            },
+            {
+              "word": " have",
+              "start": 373.16,
+              "end": 373.34
+            },
+            {
+              "word": " any",
+              "start": 373.34,
+              "end": 373.5
+            },
+            {
+              "word": " doubt,",
+              "start": 373.5,
+              "end": 373.8
+            },
+            {
+              "word": " you",
+              "start": 373.92,
+              "end": 373.98
+            },
+            {
+              "word": " may",
+              "start": 373.98,
+              "end": 374.12
+            },
+            {
+              "word": " ask",
+              "start": 374.12,
+              "end": 374.32
+            },
+            {
+              "word": " in",
+              "start": 374.32,
+              "end": 374.42
+            },
+            {
+              "word": " the",
+              "start": 374.42,
+              "end": 374.52
+            },
+            {
+              "word": " comment",
+              "start": 374.52,
+              "end": 374.72
+            },
+            {
+              "word": " section.",
+              "start": 374.72,
+              "end": 375.14
+            },
+            {
+              "word": " I",
+              "start": 375.4,
+              "end": 375.48
+            },
+            {
+              "word": " will",
+              "start": 375.48,
+              "end": 375.62
+            }
+          ]
+        },
+        {
+          "start": 375.62,
+          "end": 377.36,
+          "text": "end this lecture here. See you in the next one.",
+          "words": [
+            {
+              "word": " end",
+              "start": 375.62,
+              "end": 375.78
+            },
+            {
+              "word": " this",
+              "start": 375.78,
+              "end": 375.92
+            },
+            {
+              "word": " lecture",
+              "start": 375.92,
+              "end": 376.2
+            },
+            {
+              "word": " here.",
+              "start": 376.2,
+              "end": 376.5
+            },
+            {
+              "word": " See",
+              "start": 376.66,
+              "end": 376.74
+            },
+            {
+              "word": " you",
+              "start": 376.74,
+              "end": 376.82
+            },
+            {
+              "word": " in",
+              "start": 376.82,
+              "end": 376.86
+            },
+            {
+              "word": " the",
+              "start": 376.86,
+              "end": 376.92
+            },
+            {
+              "word": " next",
+              "start": 376.92,
+              "end": 377.12
+            },
+            {
+              "word": " one.",
+              "start": 377.12,
+              "end": 377.36
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 1.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 4.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 5.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 49.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 50.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 103.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 134.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 138.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 9,
+        "timestamp": 139.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 207.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 234.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 12,
+        "timestamp": 235.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 13,
+        "timestamp": 297.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000013.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 14,
+        "timestamp": 305.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000014.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 15,
+        "timestamp": 321.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000015.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 16,
+        "timestamp": 328.0,
+        "path": "data/processed\\lecture_167\\frames\\frame_000016.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 17,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 3,
+        "timestamp": 5.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Instructor Pointing",
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 6,
+        "timestamp": 103.0,
+        "concepts": [
+          "Instructor Writing",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 10,
+        "timestamp": 207.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Writing"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 11,
+        "timestamp": 234.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Pointing"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 13,
+        "timestamp": 297.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Pointing"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 14,
+        "timestamp": 305.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Writing"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 15,
+        "timestamp": 321.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Writing"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 16,
+        "timestamp": 328.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Pointing",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 16,
+        "timestamp": 328.0,
+        "concepts": [
+          "Scientific Equation",
+          "Instructor Pointing",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

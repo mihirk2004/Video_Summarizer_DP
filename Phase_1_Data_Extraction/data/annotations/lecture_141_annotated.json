@@ -1,0 +1,3551 @@
+{
+  "video_id": "lecture_141",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_06.mp4",
+    "duration": 0.0,
+    "fps": 30.0,
+    "resolution": "640x360",
+    "processing_date": "2025-12-26T10:49:52.684958",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_141\\audio.wav",
+    "transcript": {
+      "text": " If the power dissipated in the circuit shown below is equal to 8 watts then the value of E will be. There are four options and we need to choose one correct option and when you look at the given network you will find we have two resistors having the values 1 ohm each. There is one capacitor having the value 1 farad. There is one inductor having the value 1 henry and there is one voltage source providing the voltage E and we are required to find out the value of E. Now pause the video and try to solve the question on your own. Ok, now understand the analysis we are going to make. In order to find out the value of E we are required to focus on three important points and the first point is the capacitor will offer infinite reactance to the current in this branch and the reason is we are having the DC source and we know DC has the frequency equal to 0 hertz and the reactance offered by the capacitor is equal to 1 over 2 pi fc. In our case C is equal to 1 farad so let's say the reactance offered is equal to x 1 farad and it is equal to 1 over 2 pi multiplied to 0 f is equal to 0 multiplied to 1. So from here we are getting 1 over 0 which is infinity so the capacitor will offer infinite reactance to the current flow and therefore it will act as open circuit and on the other hand if we focus on the inductor the inductor will offer zero reactance because the reactance offered by an inductor is equal to 2 pi fl and in our case we have one hand re-inductor therefore the reactance offered will be 2 pi multiplied to 0 multiplied to 1 so we are getting the reactance offered equal to 0 and therefore this inductor will offer no reactance to the current flow and therefore it will act as short circuit and hence we can redraw our network like this open circuited capacitor short circuited inductor and now you can see that we have two resistors in series and they are in series with our voltage source. Let's say the current in the circuit is equal to i and therefore current i will be equal to e divided by 1 plus 1 that is 2. Let's say this is equation number one initially I said that we have to focus on two important points first point is this one second point is this one and the third point is power will get dissipated only in resistors capacitor and inductor are energy storing elements they will not dissipate the power and therefore the power dissipated will be equal to the voltage across the resistors multiplied to the current through the resistors and we have found i is equal to e by 2 therefore we can say that the power dissipated which is 8 watts is equal to e multiplied to e divided by 2 from here we are getting e square is equal to 16 therefore we can say that the voltage e is equal to 4 volts and hence option b is the correct option. So I hope the explanation was clear to you and now we will move on to our homework problem and in the homework problem you are required to find the value of current source i you are required to find the value of i and the problem is from gate 2009 e c paper so try to solve the problem and once you have your answer post it in comment section",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 7.74,
+          "text": "If the power dissipated in the circuit shown below is equal to 8 watts then the value of",
+          "words": [
+            {
+              "word": " If",
+              "start": 0.0,
+              "end": 0.68
+            },
+            {
+              "word": " the",
+              "start": 0.68,
+              "end": 0.9
+            },
+            {
+              "word": " power",
+              "start": 0.9,
+              "end": 1.28
+            },
+            {
+              "word": " dissipated",
+              "start": 1.28,
+              "end": 2.12
+            },
+            {
+              "word": " in",
+              "start": 2.12,
+              "end": 2.52
+            },
+            {
+              "word": " the",
+              "start": 2.52,
+              "end": 2.66
+            },
+            {
+              "word": " circuit",
+              "start": 2.66,
+              "end": 3.02
+            },
+            {
+              "word": " shown",
+              "start": 3.02,
+              "end": 3.32
+            },
+            {
+              "word": " below",
+              "start": 3.32,
+              "end": 3.7
+            },
+            {
+              "word": " is",
+              "start": 3.7,
+              "end": 4.2
+            },
+            {
+              "word": " equal",
+              "start": 4.2,
+              "end": 4.62
+            },
+            {
+              "word": " to",
+              "start": 4.62,
+              "end": 5.06
+            },
+            {
+              "word": " 8",
+              "start": 5.06,
+              "end": 5.44
+            },
+            {
+              "word": " watts",
+              "start": 5.44,
+              "end": 5.9
+            },
+            {
+              "word": " then",
+              "start": 5.9,
+              "end": 6.76
+            },
+            {
+              "word": " the",
+              "start": 6.76,
+              "end": 6.94
+            },
+            {
+              "word": " value",
+              "start": 6.94,
+              "end": 7.34
+            },
+            {
+              "word": " of",
+              "start": 7.34,
+              "end": 7.74
+            }
+          ]
+        },
+        {
+          "start": 7.74,
+          "end": 9.12,
+          "text": "E will be.",
+          "words": [
+            {
+              "word": " E",
+              "start": 7.74,
+              "end": 8.12
+            },
+            {
+              "word": " will",
+              "start": 8.12,
+              "end": 8.82
+            },
+            {
+              "word": " be.",
+              "start": 8.82,
+              "end": 9.12
+            }
+          ]
+        },
+        {
+          "start": 9.72,
+          "end": 15.46,
+          "text": "There are four options and we need to choose one correct option and when you look at the",
+          "words": [
+            {
+              "word": " There",
+              "start": 9.72,
+              "end": 10.06
+            },
+            {
+              "word": " are",
+              "start": 10.06,
+              "end": 10.26
+            },
+            {
+              "word": " four",
+              "start": 10.26,
+              "end": 10.54
+            },
+            {
+              "word": " options",
+              "start": 10.54,
+              "end": 11.06
+            },
+            {
+              "word": " and",
+              "start": 11.06,
+              "end": 11.48
+            },
+            {
+              "word": " we",
+              "start": 11.48,
+              "end": 11.64
+            },
+            {
+              "word": " need",
+              "start": 11.64,
+              "end": 11.76
+            },
+            {
+              "word": " to",
+              "start": 11.76,
+              "end": 11.92
+            },
+            {
+              "word": " choose",
+              "start": 11.92,
+              "end": 12.3
+            },
+            {
+              "word": " one",
+              "start": 12.3,
+              "end": 12.74
+            },
+            {
+              "word": " correct",
+              "start": 12.74,
+              "end": 13.06
+            },
+            {
+              "word": " option",
+              "start": 13.06,
+              "end": 13.58
+            },
+            {
+              "word": " and",
+              "start": 13.58,
+              "end": 14.42
+            },
+            {
+              "word": " when",
+              "start": 14.42,
+              "end": 14.58
+            },
+            {
+              "word": " you",
+              "start": 14.58,
+              "end": 14.74
+            },
+            {
+              "word": " look",
+              "start": 14.74,
+              "end": 14.92
+            },
+            {
+              "word": " at",
+              "start": 14.92,
+              "end": 15.2
+            },
+            {
+              "word": " the",
+              "start": 15.2,
+              "end": 15.46
+            }
+          ]
+        },
+        {
+          "start": 15.46,
+          "end": 23.32,
+          "text": "given network you will find we have two resistors having the values 1 ohm each.",
+          "words": [
+            {
+              "word": " given",
+              "start": 15.46,
+              "end": 15.84
+            },
+            {
+              "word": " network",
+              "start": 15.84,
+              "end": 16.52
+            },
+            {
+              "word": " you",
+              "start": 16.52,
+              "end": 17.24
+            },
+            {
+              "word": " will",
+              "start": 17.24,
+              "end": 17.38
+            },
+            {
+              "word": " find",
+              "start": 17.38,
+              "end": 17.78
+            },
+            {
+              "word": " we",
+              "start": 17.78,
+              "end": 18.12
+            },
+            {
+              "word": " have",
+              "start": 18.12,
+              "end": 18.48
+            },
+            {
+              "word": " two",
+              "start": 18.48,
+              "end": 19.62
+            },
+            {
+              "word": " resistors",
+              "start": 19.62,
+              "end": 20.8
+            },
+            {
+              "word": " having",
+              "start": 20.8,
+              "end": 21.24
+            },
+            {
+              "word": " the",
+              "start": 21.24,
+              "end": 21.5
+            },
+            {
+              "word": " values",
+              "start": 21.5,
+              "end": 21.96
+            },
+            {
+              "word": " 1",
+              "start": 21.96,
+              "end": 22.6
+            },
+            {
+              "word": " ohm",
+              "start": 22.6,
+              "end": 22.96
+            },
+            {
+              "word": " each.",
+              "start": 22.96,
+              "end": 23.32
+            }
+          ]
+        },
+        {
+          "start": 23.6,
+          "end": 27.88,
+          "text": "There is one capacitor having the value 1 farad.",
+          "words": [
+            {
+              "word": " There",
+              "start": 23.6,
+              "end": 24.04
+            },
+            {
+              "word": " is",
+              "start": 24.04,
+              "end": 24.34
+            },
+            {
+              "word": " one",
+              "start": 24.34,
+              "end": 24.82
+            },
+            {
+              "word": " capacitor",
+              "start": 24.82,
+              "end": 25.4
+            },
+            {
+              "word": " having",
+              "start": 25.4,
+              "end": 26.1
+            },
+            {
+              "word": " the",
+              "start": 26.1,
+              "end": 26.32
+            },
+            {
+              "word": " value",
+              "start": 26.32,
+              "end": 26.68
+            },
+            {
+              "word": " 1",
+              "start": 26.68,
+              "end": 27.22
+            },
+            {
+              "word": " farad.",
+              "start": 27.22,
+              "end": 27.88
+            }
+          ]
+        },
+        {
+          "start": 27.88,
+          "end": 34.74,
+          "text": "There is one inductor having the value 1 henry and there is one voltage source providing",
+          "words": [
+            {
+              "word": " There",
+              "start": 27.88,
+              "end": 28.52
+            },
+            {
+              "word": " is",
+              "start": 28.52,
+              "end": 28.82
+            },
+            {
+              "word": " one",
+              "start": 28.82,
+              "end": 29.2
+            },
+            {
+              "word": " inductor",
+              "start": 29.2,
+              "end": 29.8
+            },
+            {
+              "word": " having",
+              "start": 29.8,
+              "end": 30.18
+            },
+            {
+              "word": " the",
+              "start": 30.18,
+              "end": 30.44
+            },
+            {
+              "word": " value",
+              "start": 30.44,
+              "end": 30.78
+            },
+            {
+              "word": " 1",
+              "start": 30.78,
+              "end": 31.2
+            },
+            {
+              "word": " henry",
+              "start": 31.2,
+              "end": 31.76
+            },
+            {
+              "word": " and",
+              "start": 31.76,
+              "end": 32.38
+            },
+            {
+              "word": " there",
+              "start": 32.38,
+              "end": 32.6
+            },
+            {
+              "word": " is",
+              "start": 32.6,
+              "end": 32.84
+            },
+            {
+              "word": " one",
+              "start": 32.84,
+              "end": 33.22
+            },
+            {
+              "word": " voltage",
+              "start": 33.22,
+              "end": 33.6
+            },
+            {
+              "word": " source",
+              "start": 33.6,
+              "end": 34.06
+            },
+            {
+              "word": " providing",
+              "start": 34.06,
+              "end": 34.74
+            }
+          ]
+        },
+        {
+          "start": 34.74,
+          "end": 41.78,
+          "text": "the voltage E and we are required to find out the value of E. Now pause the video and",
+          "words": [
+            {
+              "word": " the",
+              "start": 34.74,
+              "end": 35.02
+            },
+            {
+              "word": " voltage",
+              "start": 35.02,
+              "end": 35.34
+            },
+            {
+              "word": " E",
+              "start": 35.34,
+              "end": 35.86
+            },
+            {
+              "word": " and",
+              "start": 35.86,
+              "end": 36.46
+            },
+            {
+              "word": " we",
+              "start": 36.46,
+              "end": 36.6
+            },
+            {
+              "word": " are",
+              "start": 36.6,
+              "end": 36.74
+            },
+            {
+              "word": " required",
+              "start": 36.74,
+              "end": 37.06
+            },
+            {
+              "word": " to",
+              "start": 37.06,
+              "end": 37.42
+            },
+            {
+              "word": " find",
+              "start": 37.42,
+              "end": 37.7
+            },
+            {
+              "word": " out",
+              "start": 37.7,
+              "end": 38.02
+            },
+            {
+              "word": " the",
+              "start": 38.02,
+              "end": 38.22
+            },
+            {
+              "word": " value",
+              "start": 38.22,
+              "end": 38.6
+            },
+            {
+              "word": " of",
+              "start": 38.6,
+              "end": 39.0
+            },
+            {
+              "word": " E.",
+              "start": 39.0,
+              "end": 39.64
+            },
+            {
+              "word": " Now",
+              "start": 40.18,
+              "end": 40.26
+            },
+            {
+              "word": " pause",
+              "start": 40.26,
+              "end": 40.68
+            },
+            {
+              "word": " the",
+              "start": 40.68,
+              "end": 41.06
+            },
+            {
+              "word": " video",
+              "start": 41.06,
+              "end": 41.42
+            },
+            {
+              "word": " and",
+              "start": 41.42,
+              "end": 41.78
+            }
+          ]
+        },
+        {
+          "start": 41.78,
+          "end": 44.72,
+          "text": "try to solve the question on your own.",
+          "words": [
+            {
+              "word": " try",
+              "start": 41.78,
+              "end": 42.02
+            },
+            {
+              "word": " to",
+              "start": 42.02,
+              "end": 42.16
+            },
+            {
+              "word": " solve",
+              "start": 42.16,
+              "end": 42.62
+            },
+            {
+              "word": " the",
+              "start": 42.62,
+              "end": 43.2
+            },
+            {
+              "word": " question",
+              "start": 43.2,
+              "end": 43.7
+            },
+            {
+              "word": " on",
+              "start": 43.7,
+              "end": 44.22
+            },
+            {
+              "word": " your",
+              "start": 44.22,
+              "end": 44.4
+            },
+            {
+              "word": " own.",
+              "start": 44.4,
+              "end": 44.72
+            }
+          ]
+        },
+        {
+          "start": 48.9,
+          "end": 52.6,
+          "text": "Ok, now understand the analysis we are going to make.",
+          "words": [
+            {
+              "word": " Ok,",
+              "start": 48.9,
+              "end": 49.62
+            },
+            {
+              "word": " now",
+              "start": 49.9,
+              "end": 50.08
+            },
+            {
+              "word": " understand",
+              "start": 50.08,
+              "end": 50.54
+            },
+            {
+              "word": " the",
+              "start": 50.54,
+              "end": 50.9
+            },
+            {
+              "word": " analysis",
+              "start": 50.9,
+              "end": 51.32
+            },
+            {
+              "word": " we",
+              "start": 51.32,
+              "end": 51.74
+            },
+            {
+              "word": " are",
+              "start": 51.74,
+              "end": 51.84
+            },
+            {
+              "word": " going",
+              "start": 51.84,
+              "end": 52.02
+            },
+            {
+              "word": " to",
+              "start": 52.02,
+              "end": 52.24
+            },
+            {
+              "word": " make.",
+              "start": 52.24,
+              "end": 52.6
+            }
+          ]
+        },
+        {
+          "start": 53.160000000000004,
+          "end": 59.22,
+          "text": "In order to find out the value of E we are required to focus on three important points",
+          "words": [
+            {
+              "word": " In",
+              "start": 52.75,
+              "end": 53.18
+            },
+            {
+              "word": " order",
+              "start": 53.18,
+              "end": 53.38
+            },
+            {
+              "word": " to",
+              "start": 53.38,
+              "end": 53.54
+            },
+            {
+              "word": " find",
+              "start": 53.54,
+              "end": 53.88
+            },
+            {
+              "word": " out",
+              "start": 53.88,
+              "end": 54.2
+            },
+            {
+              "word": " the",
+              "start": 54.2,
+              "end": 54.42
+            },
+            {
+              "word": " value",
+              "start": 54.42,
+              "end": 54.82
+            },
+            {
+              "word": " of",
+              "start": 54.82,
+              "end": 55.08
+            },
+            {
+              "word": " E",
+              "start": 55.08,
+              "end": 55.26
+            },
+            {
+              "word": " we",
+              "start": 55.26,
+              "end": 55.4
+            },
+            {
+              "word": " are",
+              "start": 55.4,
+              "end": 55.52
+            },
+            {
+              "word": " required",
+              "start": 55.52,
+              "end": 55.92
+            },
+            {
+              "word": " to",
+              "start": 55.92,
+              "end": 56.22
+            },
+            {
+              "word": " focus",
+              "start": 56.22,
+              "end": 56.56
+            },
+            {
+              "word": " on",
+              "start": 56.56,
+              "end": 57.02
+            },
+            {
+              "word": " three",
+              "start": 57.02,
+              "end": 57.74
+            },
+            {
+              "word": " important",
+              "start": 57.74,
+              "end": 58.5
+            },
+            {
+              "word": " points",
+              "start": 58.5,
+              "end": 59.22
+            }
+          ]
+        },
+        {
+          "start": 59.22,
+          "end": 67.18,
+          "text": "and the first point is the capacitor will offer infinite reactance to the current in",
+          "words": [
+            {
+              "word": " and",
+              "start": 59.22,
+              "end": 59.68
+            },
+            {
+              "word": " the",
+              "start": 59.68,
+              "end": 59.82
+            },
+            {
+              "word": " first",
+              "start": 59.82,
+              "end": 60.26
+            },
+            {
+              "word": " point",
+              "start": 60.26,
+              "end": 61.16
+            },
+            {
+              "word": " is",
+              "start": 61.16,
+              "end": 61.6
+            },
+            {
+              "word": " the",
+              "start": 61.6,
+              "end": 62.42
+            },
+            {
+              "word": " capacitor",
+              "start": 62.42,
+              "end": 63.0
+            },
+            {
+              "word": " will",
+              "start": 63.0,
+              "end": 63.44
+            },
+            {
+              "word": " offer",
+              "start": 63.44,
+              "end": 63.9
+            },
+            {
+              "word": " infinite",
+              "start": 63.9,
+              "end": 64.84
+            },
+            {
+              "word": " reactance",
+              "start": 64.84,
+              "end": 65.66
+            },
+            {
+              "word": " to",
+              "start": 65.66,
+              "end": 66.12
+            },
+            {
+              "word": " the",
+              "start": 66.12,
+              "end": 66.24
+            },
+            {
+              "word": " current",
+              "start": 66.24,
+              "end": 66.78
+            },
+            {
+              "word": " in",
+              "start": 66.78,
+              "end": 67.18
+            }
+          ]
+        },
+        {
+          "start": 67.18,
+          "end": 77.4,
+          "text": "this branch and the reason is we are having the DC source and we know DC has the frequency",
+          "words": [
+            {
+              "word": " this",
+              "start": 67.18,
+              "end": 67.44
+            },
+            {
+              "word": " branch",
+              "start": 67.44,
+              "end": 67.98
+            },
+            {
+              "word": " and",
+              "start": 67.98,
+              "end": 68.6
+            },
+            {
+              "word": " the",
+              "start": 68.6,
+              "end": 68.76
+            },
+            {
+              "word": " reason",
+              "start": 68.76,
+              "end": 69.1
+            },
+            {
+              "word": " is",
+              "start": 69.1,
+              "end": 69.42
+            },
+            {
+              "word": " we",
+              "start": 69.42,
+              "end": 69.74
+            },
+            {
+              "word": " are",
+              "start": 69.74,
+              "end": 69.86
+            },
+            {
+              "word": " having",
+              "start": 69.86,
+              "end": 70.2
+            },
+            {
+              "word": " the",
+              "start": 70.2,
+              "end": 70.86
+            },
+            {
+              "word": " DC",
+              "start": 70.86,
+              "end": 71.24
+            },
+            {
+              "word": " source",
+              "start": 71.24,
+              "end": 72.16
+            },
+            {
+              "word": " and",
+              "start": 72.16,
+              "end": 73.34
+            },
+            {
+              "word": " we",
+              "start": 73.34,
+              "end": 74.22
+            },
+            {
+              "word": " know",
+              "start": 74.22,
+              "end": 74.48
+            },
+            {
+              "word": " DC",
+              "start": 74.48,
+              "end": 75.38
+            },
+            {
+              "word": " has",
+              "start": 75.38,
+              "end": 76.32
+            },
+            {
+              "word": " the",
+              "start": 76.32,
+              "end": 76.74
+            },
+            {
+              "word": " frequency",
+              "start": 76.74,
+              "end": 77.4
+            }
+          ]
+        },
+        {
+          "start": 77.4,
+          "end": 90.1,
+          "text": "equal to 0 hertz and the reactance offered by the capacitor is equal to 1 over 2 pi fc.",
+          "words": [
+            {
+              "word": " equal",
+              "start": 77.4,
+              "end": 78.3
+            },
+            {
+              "word": " to",
+              "start": 78.3,
+              "end": 78.92
+            },
+            {
+              "word": " 0",
+              "start": 78.92,
+              "end": 79.38
+            },
+            {
+              "word": " hertz",
+              "start": 79.38,
+              "end": 80.14
+            },
+            {
+              "word": " and",
+              "start": 80.14,
+              "end": 81.0
+            },
+            {
+              "word": " the",
+              "start": 81.0,
+              "end": 81.18
+            },
+            {
+              "word": " reactance",
+              "start": 81.18,
+              "end": 81.86
+            },
+            {
+              "word": " offered",
+              "start": 81.86,
+              "end": 82.84
+            },
+            {
+              "word": " by",
+              "start": 82.84,
+              "end": 83.26
+            },
+            {
+              "word": " the",
+              "start": 83.26,
+              "end": 83.48
+            },
+            {
+              "word": " capacitor",
+              "start": 83.48,
+              "end": 84.08
+            },
+            {
+              "word": " is",
+              "start": 84.08,
+              "end": 84.62
+            },
+            {
+              "word": " equal",
+              "start": 84.62,
+              "end": 85.12
+            },
+            {
+              "word": " to",
+              "start": 85.12,
+              "end": 85.58
+            },
+            {
+              "word": " 1",
+              "start": 85.58,
+              "end": 85.96
+            },
+            {
+              "word": " over",
+              "start": 85.96,
+              "end": 87.22
+            },
+            {
+              "word": " 2",
+              "start": 87.22,
+              "end": 88.22
+            },
+            {
+              "word": " pi",
+              "start": 88.22,
+              "end": 88.68
+            },
+            {
+              "word": " fc.",
+              "start": 88.68,
+              "end": 90.1
+            }
+          ]
+        },
+        {
+          "start": 90.64,
+          "end": 100.06,
+          "text": "In our case C is equal to 1 farad so let's say the reactance offered is equal to x 1",
+          "words": [
+            {
+              "word": " In",
+              "start": 90.64,
+              "end": 90.84
+            },
+            {
+              "word": " our",
+              "start": 90.84,
+              "end": 91.0
+            },
+            {
+              "word": " case",
+              "start": 91.0,
+              "end": 91.4
+            },
+            {
+              "word": " C",
+              "start": 91.4,
+              "end": 92.08
+            },
+            {
+              "word": " is",
+              "start": 92.08,
+              "end": 92.56
+            },
+            {
+              "word": " equal",
+              "start": 92.56,
+              "end": 92.96
+            },
+            {
+              "word": " to",
+              "start": 92.96,
+              "end": 93.38
+            },
+            {
+              "word": " 1",
+              "start": 93.38,
+              "end": 93.66
+            },
+            {
+              "word": " farad",
+              "start": 93.66,
+              "end": 94.24
+            },
+            {
+              "word": " so",
+              "start": 94.24,
+              "end": 94.84
+            },
+            {
+              "word": " let's",
+              "start": 94.84,
+              "end": 95.2
+            },
+            {
+              "word": " say",
+              "start": 95.2,
+              "end": 95.38
+            },
+            {
+              "word": " the",
+              "start": 95.38,
+              "end": 95.52
+            },
+            {
+              "word": " reactance",
+              "start": 95.52,
+              "end": 96.06
+            },
+            {
+              "word": " offered",
+              "start": 96.06,
+              "end": 96.54
+            },
+            {
+              "word": " is",
+              "start": 96.54,
+              "end": 97.04
+            },
+            {
+              "word": " equal",
+              "start": 97.04,
+              "end": 97.52
+            },
+            {
+              "word": " to",
+              "start": 97.52,
+              "end": 98.18
+            },
+            {
+              "word": " x",
+              "start": 98.18,
+              "end": 98.54
+            },
+            {
+              "word": " 1",
+              "start": 98.54,
+              "end": 100.06
+            }
+          ]
+        },
+        {
+          "start": 100.06,
+          "end": 111.68,
+          "text": "farad and it is equal to 1 over 2 pi multiplied to 0 f is equal to 0 multiplied to 1.",
+          "words": [
+            {
+              "word": " farad",
+              "start": 100.06,
+              "end": 101.38
+            },
+            {
+              "word": " and",
+              "start": 101.38,
+              "end": 102.1
+            },
+            {
+              "word": " it",
+              "start": 102.1,
+              "end": 102.26
+            },
+            {
+              "word": " is",
+              "start": 102.26,
+              "end": 102.48
+            },
+            {
+              "word": " equal",
+              "start": 102.48,
+              "end": 103.1
+            },
+            {
+              "word": " to",
+              "start": 103.1,
+              "end": 103.66
+            },
+            {
+              "word": " 1",
+              "start": 103.66,
+              "end": 103.96
+            },
+            {
+              "word": " over",
+              "start": 103.96,
+              "end": 104.3
+            },
+            {
+              "word": " 2",
+              "start": 104.3,
+              "end": 104.96
+            },
+            {
+              "word": " pi",
+              "start": 104.96,
+              "end": 105.32
+            },
+            {
+              "word": " multiplied",
+              "start": 105.32,
+              "end": 105.98
+            },
+            {
+              "word": " to",
+              "start": 105.98,
+              "end": 106.82
+            },
+            {
+              "word": " 0",
+              "start": 106.82,
+              "end": 107.18
+            },
+            {
+              "word": " f",
+              "start": 107.18,
+              "end": 108.0
+            },
+            {
+              "word": " is",
+              "start": 108.0,
+              "end": 108.48
+            },
+            {
+              "word": " equal",
+              "start": 108.48,
+              "end": 108.92
+            },
+            {
+              "word": " to",
+              "start": 108.92,
+              "end": 109.34
+            },
+            {
+              "word": " 0",
+              "start": 109.34,
+              "end": 109.76
+            },
+            {
+              "word": " multiplied",
+              "start": 109.76,
+              "end": 110.88
+            },
+            {
+              "word": " to",
+              "start": 110.88,
+              "end": 111.42
+            },
+            {
+              "word": " 1.",
+              "start": 111.42,
+              "end": 111.68
+            }
+          ]
+        },
+        {
+          "start": 112.16,
+          "end": 121.4,
+          "text": "So from here we are getting 1 over 0 which is infinity so the capacitor will offer infinite",
+          "words": [
+            {
+              "word": " So",
+              "start": 112.16,
+              "end": 112.4
+            },
+            {
+              "word": " from",
+              "start": 112.4,
+              "end": 112.6
+            },
+            {
+              "word": " here",
+              "start": 112.6,
+              "end": 112.82
+            },
+            {
+              "word": " we",
+              "start": 112.82,
+              "end": 112.98
+            },
+            {
+              "word": " are",
+              "start": 112.98,
+              "end": 113.06
+            },
+            {
+              "word": " getting",
+              "start": 113.06,
+              "end": 113.36
+            },
+            {
+              "word": " 1",
+              "start": 113.36,
+              "end": 114.62
+            },
+            {
+              "word": " over",
+              "start": 114.62,
+              "end": 115.42
+            },
+            {
+              "word": " 0",
+              "start": 115.42,
+              "end": 116.32
+            },
+            {
+              "word": " which",
+              "start": 116.32,
+              "end": 116.94
+            },
+            {
+              "word": " is",
+              "start": 116.94,
+              "end": 117.26
+            },
+            {
+              "word": " infinity",
+              "start": 117.26,
+              "end": 118.44
+            },
+            {
+              "word": " so",
+              "start": 118.44,
+              "end": 119.38
+            },
+            {
+              "word": " the",
+              "start": 119.38,
+              "end": 119.56
+            },
+            {
+              "word": " capacitor",
+              "start": 119.56,
+              "end": 120.1
+            },
+            {
+              "word": " will",
+              "start": 120.1,
+              "end": 120.48
+            },
+            {
+              "word": " offer",
+              "start": 120.48,
+              "end": 120.88
+            },
+            {
+              "word": " infinite",
+              "start": 120.88,
+              "end": 121.4
+            }
+          ]
+        },
+        {
+          "start": 121.4,
+          "end": 129.86,
+          "text": "reactance to the current flow and therefore it will act as open circuit and on the other",
+          "words": [
+            {
+              "word": " reactance",
+              "start": 121.4,
+              "end": 122.16
+            },
+            {
+              "word": " to",
+              "start": 122.16,
+              "end": 122.48
+            },
+            {
+              "word": " the",
+              "start": 122.48,
+              "end": 122.62
+            },
+            {
+              "word": " current",
+              "start": 122.62,
+              "end": 122.94
+            },
+            {
+              "word": " flow",
+              "start": 122.94,
+              "end": 123.38
+            },
+            {
+              "word": " and",
+              "start": 123.38,
+              "end": 123.72
+            },
+            {
+              "word": " therefore",
+              "start": 123.72,
+              "end": 124.16
+            },
+            {
+              "word": " it",
+              "start": 124.16,
+              "end": 124.86
+            },
+            {
+              "word": " will",
+              "start": 124.86,
+              "end": 125.16
+            },
+            {
+              "word": " act",
+              "start": 125.16,
+              "end": 125.68
+            },
+            {
+              "word": " as",
+              "start": 125.68,
+              "end": 126.22
+            },
+            {
+              "word": " open",
+              "start": 126.22,
+              "end": 127.2
+            },
+            {
+              "word": " circuit",
+              "start": 127.2,
+              "end": 128.2
+            },
+            {
+              "word": " and",
+              "start": 128.2,
+              "end": 129.18
+            },
+            {
+              "word": " on",
+              "start": 129.18,
+              "end": 129.58
+            },
+            {
+              "word": " the",
+              "start": 129.58,
+              "end": 129.74
+            },
+            {
+              "word": " other",
+              "start": 129.74,
+              "end": 129.86
+            }
+          ]
+        },
+        {
+          "start": 129.86,
+          "end": 137.94,
+          "text": "hand if we focus on the inductor the inductor will offer zero reactance because the reactance",
+          "words": [
+            {
+              "word": " hand",
+              "start": 129.86,
+              "end": 130.3
+            },
+            {
+              "word": " if",
+              "start": 130.3,
+              "end": 131.88
+            },
+            {
+              "word": " we",
+              "start": 131.88,
+              "end": 132.08
+            },
+            {
+              "word": " focus",
+              "start": 132.08,
+              "end": 132.38
+            },
+            {
+              "word": " on",
+              "start": 132.38,
+              "end": 132.7
+            },
+            {
+              "word": " the",
+              "start": 132.7,
+              "end": 132.86
+            },
+            {
+              "word": " inductor",
+              "start": 132.86,
+              "end": 133.36
+            },
+            {
+              "word": " the",
+              "start": 133.36,
+              "end": 133.88
+            },
+            {
+              "word": " inductor",
+              "start": 133.88,
+              "end": 134.32
+            },
+            {
+              "word": " will",
+              "start": 134.32,
+              "end": 134.64
+            },
+            {
+              "word": " offer",
+              "start": 134.64,
+              "end": 134.98
+            },
+            {
+              "word": " zero",
+              "start": 134.98,
+              "end": 135.34
+            },
+            {
+              "word": " reactance",
+              "start": 135.34,
+              "end": 135.98
+            },
+            {
+              "word": " because",
+              "start": 135.98,
+              "end": 136.52
+            },
+            {
+              "word": " the",
+              "start": 136.52,
+              "end": 137.04
+            },
+            {
+              "word": " reactance",
+              "start": 137.04,
+              "end": 137.94
+            }
+          ]
+        },
+        {
+          "start": 137.94,
+          "end": 148.02,
+          "text": "offered by an inductor is equal to 2 pi fl and in our case we have one hand re-inductor",
+          "words": [
+            {
+              "word": " offered",
+              "start": 137.94,
+              "end": 138.62
+            },
+            {
+              "word": " by",
+              "start": 138.62,
+              "end": 139.0
+            },
+            {
+              "word": " an",
+              "start": 139.0,
+              "end": 139.14
+            },
+            {
+              "word": " inductor",
+              "start": 139.14,
+              "end": 139.72
+            },
+            {
+              "word": " is",
+              "start": 139.72,
+              "end": 140.16
+            },
+            {
+              "word": " equal",
+              "start": 140.16,
+              "end": 140.64
+            },
+            {
+              "word": " to",
+              "start": 140.64,
+              "end": 141.42
+            },
+            {
+              "word": " 2",
+              "start": 141.42,
+              "end": 141.74
+            },
+            {
+              "word": " pi",
+              "start": 141.74,
+              "end": 142.02
+            },
+            {
+              "word": " fl",
+              "start": 142.02,
+              "end": 143.6
+            },
+            {
+              "word": " and",
+              "start": 143.6,
+              "end": 144.68
+            },
+            {
+              "word": " in",
+              "start": 144.68,
+              "end": 145.0
+            },
+            {
+              "word": " our",
+              "start": 145.0,
+              "end": 145.16
+            },
+            {
+              "word": " case",
+              "start": 145.16,
+              "end": 145.58
+            },
+            {
+              "word": " we",
+              "start": 145.58,
+              "end": 146.22
+            },
+            {
+              "word": " have",
+              "start": 146.22,
+              "end": 146.6
+            },
+            {
+              "word": " one",
+              "start": 146.6,
+              "end": 147.16
+            },
+            {
+              "word": " hand",
+              "start": 147.16,
+              "end": 147.48
+            },
+            {
+              "word": " re",
+              "start": 147.48,
+              "end": 147.58
+            },
+            {
+              "word": "-inductor",
+              "start": 147.58,
+              "end": 148.02
+            }
+          ]
+        },
+        {
+          "start": 148.02,
+          "end": 155.8,
+          "text": "therefore the reactance offered will be 2 pi multiplied to 0 multiplied to 1 so we are",
+          "words": [
+            {
+              "word": " therefore",
+              "start": 148.02,
+              "end": 148.54
+            },
+            {
+              "word": " the",
+              "start": 148.54,
+              "end": 148.78
+            },
+            {
+              "word": " reactance",
+              "start": 148.78,
+              "end": 149.26
+            },
+            {
+              "word": " offered",
+              "start": 149.26,
+              "end": 149.64
+            },
+            {
+              "word": " will",
+              "start": 149.64,
+              "end": 150.08
+            },
+            {
+              "word": " be",
+              "start": 150.08,
+              "end": 150.38
+            },
+            {
+              "word": " 2",
+              "start": 150.38,
+              "end": 151.14
+            },
+            {
+              "word": " pi",
+              "start": 151.14,
+              "end": 151.56
+            },
+            {
+              "word": " multiplied",
+              "start": 151.56,
+              "end": 152.4
+            },
+            {
+              "word": " to",
+              "start": 152.4,
+              "end": 153.04
+            },
+            {
+              "word": " 0",
+              "start": 153.04,
+              "end": 153.38
+            },
+            {
+              "word": " multiplied",
+              "start": 153.38,
+              "end": 153.78
+            },
+            {
+              "word": " to",
+              "start": 153.78,
+              "end": 154.54
+            },
+            {
+              "word": " 1",
+              "start": 154.54,
+              "end": 154.8
+            },
+            {
+              "word": " so",
+              "start": 154.8,
+              "end": 155.54
+            },
+            {
+              "word": " we",
+              "start": 155.54,
+              "end": 155.72
+            },
+            {
+              "word": " are",
+              "start": 155.72,
+              "end": 155.8
+            }
+          ]
+        },
+        {
+          "start": 155.8,
+          "end": 164.12,
+          "text": "getting the reactance offered equal to 0 and therefore this inductor will offer no reactance",
+          "words": [
+            {
+              "word": " getting",
+              "start": 155.8,
+              "end": 156.12
+            },
+            {
+              "word": " the",
+              "start": 156.12,
+              "end": 156.8
+            },
+            {
+              "word": " reactance",
+              "start": 156.8,
+              "end": 157.28
+            },
+            {
+              "word": " offered",
+              "start": 157.28,
+              "end": 157.72
+            },
+            {
+              "word": " equal",
+              "start": 157.72,
+              "end": 158.3
+            },
+            {
+              "word": " to",
+              "start": 158.3,
+              "end": 158.86
+            },
+            {
+              "word": " 0",
+              "start": 158.86,
+              "end": 159.28
+            },
+            {
+              "word": " and",
+              "start": 159.28,
+              "end": 160.08
+            },
+            {
+              "word": " therefore",
+              "start": 160.08,
+              "end": 160.58
+            },
+            {
+              "word": " this",
+              "start": 160.58,
+              "end": 161.48
+            },
+            {
+              "word": " inductor",
+              "start": 161.48,
+              "end": 162.36
+            },
+            {
+              "word": " will",
+              "start": 162.36,
+              "end": 162.7
+            },
+            {
+              "word": " offer",
+              "start": 162.7,
+              "end": 163.04
+            },
+            {
+              "word": " no",
+              "start": 163.04,
+              "end": 163.4
+            },
+            {
+              "word": " reactance",
+              "start": 163.4,
+              "end": 164.12
+            }
+          ]
+        },
+        {
+          "start": 164.12,
+          "end": 173.44,
+          "text": "to the current flow and therefore it will act as short circuit and hence we can redraw",
+          "words": [
+            {
+              "word": " to",
+              "start": 164.12,
+              "end": 164.68
+            },
+            {
+              "word": " the",
+              "start": 164.68,
+              "end": 164.94
+            },
+            {
+              "word": " current",
+              "start": 164.94,
+              "end": 165.72
+            },
+            {
+              "word": " flow",
+              "start": 165.72,
+              "end": 166.14
+            },
+            {
+              "word": " and",
+              "start": 166.14,
+              "end": 166.48
+            },
+            {
+              "word": " therefore",
+              "start": 166.48,
+              "end": 166.94
+            },
+            {
+              "word": " it",
+              "start": 166.94,
+              "end": 167.52
+            },
+            {
+              "word": " will",
+              "start": 167.52,
+              "end": 167.72
+            },
+            {
+              "word": " act",
+              "start": 167.72,
+              "end": 167.96
+            },
+            {
+              "word": " as",
+              "start": 167.96,
+              "end": 168.42
+            },
+            {
+              "word": " short",
+              "start": 168.42,
+              "end": 169.44
+            },
+            {
+              "word": " circuit",
+              "start": 169.44,
+              "end": 170.48
+            },
+            {
+              "word": " and",
+              "start": 170.48,
+              "end": 171.2
+            },
+            {
+              "word": " hence",
+              "start": 171.2,
+              "end": 171.52
+            },
+            {
+              "word": " we",
+              "start": 171.52,
+              "end": 171.84
+            },
+            {
+              "word": " can",
+              "start": 171.84,
+              "end": 172.22
+            },
+            {
+              "word": " redraw",
+              "start": 172.22,
+              "end": 173.44
+            }
+          ]
+        },
+        {
+          "start": 173.44,
+          "end": 180.98,
+          "text": "our network like this open circuited capacitor short circuited inductor and now you can see",
+          "words": [
+            {
+              "word": " our",
+              "start": 173.44,
+              "end": 173.94
+            },
+            {
+              "word": " network",
+              "start": 173.94,
+              "end": 174.54
+            },
+            {
+              "word": " like",
+              "start": 174.54,
+              "end": 175.06
+            },
+            {
+              "word": " this",
+              "start": 175.06,
+              "end": 175.38
+            },
+            {
+              "word": " open",
+              "start": 175.38,
+              "end": 175.98
+            },
+            {
+              "word": " circuited",
+              "start": 175.98,
+              "end": 176.56
+            },
+            {
+              "word": " capacitor",
+              "start": 176.56,
+              "end": 177.26
+            },
+            {
+              "word": " short",
+              "start": 177.26,
+              "end": 178.1
+            },
+            {
+              "word": " circuited",
+              "start": 178.1,
+              "end": 178.72
+            },
+            {
+              "word": " inductor",
+              "start": 178.72,
+              "end": 179.6
+            },
+            {
+              "word": " and",
+              "start": 179.6,
+              "end": 180.28
+            },
+            {
+              "word": " now",
+              "start": 180.28,
+              "end": 180.48
+            },
+            {
+              "word": " you",
+              "start": 180.48,
+              "end": 180.62
+            },
+            {
+              "word": " can",
+              "start": 180.62,
+              "end": 180.8
+            },
+            {
+              "word": " see",
+              "start": 180.8,
+              "end": 180.98
+            }
+          ]
+        },
+        {
+          "start": 180.98,
+          "end": 187.72,
+          "text": "that we have two resistors in series and they are in series with our voltage source.",
+          "words": [
+            {
+              "word": " that",
+              "start": 180.98,
+              "end": 181.26
+            },
+            {
+              "word": " we",
+              "start": 181.26,
+              "end": 181.5
+            },
+            {
+              "word": " have",
+              "start": 181.5,
+              "end": 181.82
+            },
+            {
+              "word": " two",
+              "start": 181.82,
+              "end": 182.5
+            },
+            {
+              "word": " resistors",
+              "start": 182.5,
+              "end": 183.14
+            },
+            {
+              "word": " in",
+              "start": 183.14,
+              "end": 183.44
+            },
+            {
+              "word": " series",
+              "start": 183.44,
+              "end": 184.0
+            },
+            {
+              "word": " and",
+              "start": 184.0,
+              "end": 184.68
+            },
+            {
+              "word": " they",
+              "start": 184.68,
+              "end": 184.84
+            },
+            {
+              "word": " are",
+              "start": 184.84,
+              "end": 184.98
+            },
+            {
+              "word": " in",
+              "start": 184.98,
+              "end": 185.12
+            },
+            {
+              "word": " series",
+              "start": 185.12,
+              "end": 185.42
+            },
+            {
+              "word": " with",
+              "start": 185.42,
+              "end": 185.92
+            },
+            {
+              "word": " our",
+              "start": 185.92,
+              "end": 186.42
+            },
+            {
+              "word": " voltage",
+              "start": 186.42,
+              "end": 186.98
+            },
+            {
+              "word": " source.",
+              "start": 186.98,
+              "end": 187.72
+            }
+          ]
+        },
+        {
+          "start": 188.4,
+          "end": 200.5,
+          "text": "Let's say the current in the circuit is equal to i and therefore current i will be equal",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 188.4,
+              "end": 188.7
+            },
+            {
+              "word": " say",
+              "start": 188.7,
+              "end": 188.9
+            },
+            {
+              "word": " the",
+              "start": 188.9,
+              "end": 189.68
+            },
+            {
+              "word": " current",
+              "start": 189.68,
+              "end": 190.2
+            },
+            {
+              "word": " in",
+              "start": 190.2,
+              "end": 191.14
+            },
+            {
+              "word": " the",
+              "start": 191.14,
+              "end": 191.44
+            },
+            {
+              "word": " circuit",
+              "start": 191.44,
+              "end": 192.7
+            },
+            {
+              "word": " is",
+              "start": 192.7,
+              "end": 193.44
+            },
+            {
+              "word": " equal",
+              "start": 193.44,
+              "end": 193.92
+            },
+            {
+              "word": " to",
+              "start": 193.92,
+              "end": 194.44
+            },
+            {
+              "word": " i",
+              "start": 194.44,
+              "end": 194.74
+            },
+            {
+              "word": " and",
+              "start": 194.74,
+              "end": 196.02
+            },
+            {
+              "word": " therefore",
+              "start": 196.02,
+              "end": 196.6
+            },
+            {
+              "word": " current",
+              "start": 196.6,
+              "end": 197.64
+            },
+            {
+              "word": " i",
+              "start": 197.64,
+              "end": 198.2
+            },
+            {
+              "word": " will",
+              "start": 198.2,
+              "end": 199.68
+            },
+            {
+              "word": " be",
+              "start": 199.68,
+              "end": 199.94
+            },
+            {
+              "word": " equal",
+              "start": 199.94,
+              "end": 200.5
+            }
+          ]
+        },
+        {
+          "start": 201.01999999999998,
+          "end": 205.38,
+          "text": "to e divided by 1 plus 1 that is 2.",
+          "words": [
+            {
+              "word": " to",
+              "start": 200.63,
+              "end": 201.14
+            },
+            {
+              "word": " e",
+              "start": 201.14,
+              "end": 201.48
+            },
+            {
+              "word": " divided",
+              "start": 201.48,
+              "end": 202.42
+            },
+            {
+              "word": " by",
+              "start": 202.42,
+              "end": 202.9
+            },
+            {
+              "word": " 1",
+              "start": 202.9,
+              "end": 203.68
+            },
+            {
+              "word": " plus",
+              "start": 203.68,
+              "end": 204.1
+            },
+            {
+              "word": " 1",
+              "start": 204.1,
+              "end": 204.56
+            },
+            {
+              "word": " that",
+              "start": 204.56,
+              "end": 204.94
+            },
+            {
+              "word": " is",
+              "start": 204.94,
+              "end": 205.1
+            },
+            {
+              "word": " 2.",
+              "start": 205.1,
+              "end": 205.38
+            }
+          ]
+        },
+        {
+          "start": 206.01999999999998,
+          "end": 212.84,
+          "text": "Let's say this is equation number one initially I said that we have to focus on two important",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 205.98,
+              "end": 206.38
+            },
+            {
+              "word": " say",
+              "start": 206.38,
+              "end": 206.5
+            },
+            {
+              "word": " this",
+              "start": 206.5,
+              "end": 206.68
+            },
+            {
+              "word": " is",
+              "start": 206.68,
+              "end": 206.94
+            },
+            {
+              "word": " equation",
+              "start": 206.94,
+              "end": 207.88
+            },
+            {
+              "word": " number",
+              "start": 207.88,
+              "end": 208.38
+            },
+            {
+              "word": " one",
+              "start": 208.38,
+              "end": 208.84
+            },
+            {
+              "word": " initially",
+              "start": 208.84,
+              "end": 209.82
+            },
+            {
+              "word": " I",
+              "start": 209.82,
+              "end": 210.34
+            },
+            {
+              "word": " said",
+              "start": 210.34,
+              "end": 210.66
+            },
+            {
+              "word": " that",
+              "start": 210.66,
+              "end": 210.96
+            },
+            {
+              "word": " we",
+              "start": 210.96,
+              "end": 211.22
+            },
+            {
+              "word": " have",
+              "start": 211.22,
+              "end": 211.4
+            },
+            {
+              "word": " to",
+              "start": 211.4,
+              "end": 211.54
+            },
+            {
+              "word": " focus",
+              "start": 211.54,
+              "end": 211.84
+            },
+            {
+              "word": " on",
+              "start": 211.84,
+              "end": 212.16
+            },
+            {
+              "word": " two",
+              "start": 212.16,
+              "end": 212.4
+            },
+            {
+              "word": " important",
+              "start": 212.4,
+              "end": 212.84
+            }
+          ]
+        },
+        {
+          "start": 212.84,
+          "end": 222.32,
+          "text": "points first point is this one second point is this one and the third point is power will get",
+          "words": [
+            {
+              "word": " points",
+              "start": 212.84,
+              "end": 213.48
+            },
+            {
+              "word": " first",
+              "start": 213.48,
+              "end": 214.12
+            },
+            {
+              "word": " point",
+              "start": 214.12,
+              "end": 214.44
+            },
+            {
+              "word": " is",
+              "start": 214.44,
+              "end": 214.66
+            },
+            {
+              "word": " this",
+              "start": 214.66,
+              "end": 214.9
+            },
+            {
+              "word": " one",
+              "start": 214.9,
+              "end": 215.26
+            },
+            {
+              "word": " second",
+              "start": 215.26,
+              "end": 216.1
+            },
+            {
+              "word": " point",
+              "start": 216.1,
+              "end": 216.44
+            },
+            {
+              "word": " is",
+              "start": 216.44,
+              "end": 216.68
+            },
+            {
+              "word": " this",
+              "start": 216.68,
+              "end": 216.94
+            },
+            {
+              "word": " one",
+              "start": 216.94,
+              "end": 217.34
+            },
+            {
+              "word": " and",
+              "start": 217.34,
+              "end": 217.86
+            },
+            {
+              "word": " the",
+              "start": 217.86,
+              "end": 218.0
+            },
+            {
+              "word": " third",
+              "start": 218.0,
+              "end": 218.46
+            },
+            {
+              "word": " point",
+              "start": 218.46,
+              "end": 219.1
+            },
+            {
+              "word": " is",
+              "start": 219.1,
+              "end": 220.08
+            },
+            {
+              "word": " power",
+              "start": 220.08,
+              "end": 221.2
+            },
+            {
+              "word": " will",
+              "start": 221.2,
+              "end": 221.92
+            },
+            {
+              "word": " get",
+              "start": 221.92,
+              "end": 222.32
+            }
+          ]
+        },
+        {
+          "start": 222.32,
+          "end": 229.44,
+          "text": "dissipated only in resistors capacitor and inductor are energy storing elements they will",
+          "words": [
+            {
+              "word": " dissipated",
+              "start": 222.32,
+              "end": 223.3
+            },
+            {
+              "word": " only",
+              "start": 223.3,
+              "end": 224.06
+            },
+            {
+              "word": " in",
+              "start": 224.06,
+              "end": 224.42
+            },
+            {
+              "word": " resistors",
+              "start": 224.42,
+              "end": 225.74
+            },
+            {
+              "word": " capacitor",
+              "start": 225.74,
+              "end": 226.32
+            },
+            {
+              "word": " and",
+              "start": 226.32,
+              "end": 226.88
+            },
+            {
+              "word": " inductor",
+              "start": 226.88,
+              "end": 227.3
+            },
+            {
+              "word": " are",
+              "start": 227.3,
+              "end": 227.66
+            },
+            {
+              "word": " energy",
+              "start": 227.66,
+              "end": 228.12
+            },
+            {
+              "word": " storing",
+              "start": 228.12,
+              "end": 228.4
+            },
+            {
+              "word": " elements",
+              "start": 228.4,
+              "end": 228.94
+            },
+            {
+              "word": " they",
+              "start": 228.94,
+              "end": 229.26
+            },
+            {
+              "word": " will",
+              "start": 229.26,
+              "end": 229.44
+            }
+          ]
+        },
+        {
+          "start": 229.44,
+          "end": 236.6,
+          "text": "not dissipate the power and therefore the power dissipated will be equal to the voltage",
+          "words": [
+            {
+              "word": " not",
+              "start": 229.44,
+              "end": 229.64
+            },
+            {
+              "word": " dissipate",
+              "start": 229.64,
+              "end": 230.26
+            },
+            {
+              "word": " the",
+              "start": 230.26,
+              "end": 230.42
+            },
+            {
+              "word": " power",
+              "start": 230.42,
+              "end": 230.84
+            },
+            {
+              "word": " and",
+              "start": 230.84,
+              "end": 231.72
+            },
+            {
+              "word": " therefore",
+              "start": 231.72,
+              "end": 232.22
+            },
+            {
+              "word": " the",
+              "start": 232.22,
+              "end": 232.74
+            },
+            {
+              "word": " power",
+              "start": 232.74,
+              "end": 233.1
+            },
+            {
+              "word": " dissipated",
+              "start": 233.1,
+              "end": 233.9
+            },
+            {
+              "word": " will",
+              "start": 233.9,
+              "end": 234.42
+            },
+            {
+              "word": " be",
+              "start": 234.42,
+              "end": 234.62
+            },
+            {
+              "word": " equal",
+              "start": 234.62,
+              "end": 235.12
+            },
+            {
+              "word": " to",
+              "start": 235.12,
+              "end": 235.9
+            },
+            {
+              "word": " the",
+              "start": 235.9,
+              "end": 236.02
+            },
+            {
+              "word": " voltage",
+              "start": 236.02,
+              "end": 236.6
+            }
+          ]
+        },
+        {
+          "start": 237.12,
+          "end": 248.2,
+          "text": "across the resistors multiplied to the current through the resistors and we have found i is",
+          "words": [
+            {
+              "word": " across",
+              "start": 237.03,
+              "end": 237.54
+            },
+            {
+              "word": " the",
+              "start": 237.54,
+              "end": 238.24
+            },
+            {
+              "word": " resistors",
+              "start": 238.24,
+              "end": 239.48
+            },
+            {
+              "word": " multiplied",
+              "start": 239.48,
+              "end": 241.22
+            },
+            {
+              "word": " to",
+              "start": 241.22,
+              "end": 242.64
+            },
+            {
+              "word": " the",
+              "start": 242.64,
+              "end": 242.78
+            },
+            {
+              "word": " current",
+              "start": 242.78,
+              "end": 243.26
+            },
+            {
+              "word": " through",
+              "start": 243.26,
+              "end": 243.9
+            },
+            {
+              "word": " the",
+              "start": 243.9,
+              "end": 244.08
+            },
+            {
+              "word": " resistors",
+              "start": 244.08,
+              "end": 244.74
+            },
+            {
+              "word": " and",
+              "start": 244.74,
+              "end": 245.9
+            },
+            {
+              "word": " we",
+              "start": 245.9,
+              "end": 246.54
+            },
+            {
+              "word": " have",
+              "start": 246.54,
+              "end": 246.74
+            },
+            {
+              "word": " found",
+              "start": 246.74,
+              "end": 247.22
+            },
+            {
+              "word": " i",
+              "start": 247.22,
+              "end": 247.8
+            },
+            {
+              "word": " is",
+              "start": 247.8,
+              "end": 248.2
+            }
+          ]
+        },
+        {
+          "start": 248.2,
+          "end": 258.38,
+          "text": "equal to e by 2 therefore we can say that the power dissipated which is 8 watts is equal to e",
+          "words": [
+            {
+              "word": " equal",
+              "start": 248.2,
+              "end": 248.6
+            },
+            {
+              "word": " to",
+              "start": 248.6,
+              "end": 248.98
+            },
+            {
+              "word": " e",
+              "start": 248.98,
+              "end": 249.2
+            },
+            {
+              "word": " by",
+              "start": 249.2,
+              "end": 249.54
+            },
+            {
+              "word": " 2",
+              "start": 249.54,
+              "end": 250.06
+            },
+            {
+              "word": " therefore",
+              "start": 250.06,
+              "end": 250.72
+            },
+            {
+              "word": " we",
+              "start": 250.72,
+              "end": 251.04
+            },
+            {
+              "word": " can",
+              "start": 251.04,
+              "end": 251.24
+            },
+            {
+              "word": " say",
+              "start": 251.24,
+              "end": 251.5
+            },
+            {
+              "word": " that",
+              "start": 251.5,
+              "end": 251.82
+            },
+            {
+              "word": " the",
+              "start": 251.82,
+              "end": 252.44
+            },
+            {
+              "word": " power",
+              "start": 252.44,
+              "end": 252.74
+            },
+            {
+              "word": " dissipated",
+              "start": 252.74,
+              "end": 253.48
+            },
+            {
+              "word": " which",
+              "start": 253.48,
+              "end": 254.26
+            },
+            {
+              "word": " is",
+              "start": 254.26,
+              "end": 254.48
+            },
+            {
+              "word": " 8",
+              "start": 254.48,
+              "end": 255.02
+            },
+            {
+              "word": " watts",
+              "start": 255.02,
+              "end": 255.58
+            },
+            {
+              "word": " is",
+              "start": 255.58,
+              "end": 256.9
+            },
+            {
+              "word": " equal",
+              "start": 256.9,
+              "end": 257.34
+            },
+            {
+              "word": " to",
+              "start": 257.34,
+              "end": 258.1
+            },
+            {
+              "word": " e",
+              "start": 258.1,
+              "end": 258.38
+            }
+          ]
+        },
+        {
+          "start": 258.38,
+          "end": 268.28,
+          "text": "multiplied to e divided by 2 from here we are getting e square is equal to 16 therefore we can",
+          "words": [
+            {
+              "word": " multiplied",
+              "start": 258.38,
+              "end": 259.02
+            },
+            {
+              "word": " to",
+              "start": 259.02,
+              "end": 259.78
+            },
+            {
+              "word": " e",
+              "start": 259.78,
+              "end": 260.12
+            },
+            {
+              "word": " divided",
+              "start": 260.12,
+              "end": 260.92
+            },
+            {
+              "word": " by",
+              "start": 260.92,
+              "end": 261.3
+            },
+            {
+              "word": " 2",
+              "start": 261.3,
+              "end": 261.6
+            },
+            {
+              "word": " from",
+              "start": 261.6,
+              "end": 262.16
+            },
+            {
+              "word": " here",
+              "start": 262.16,
+              "end": 262.44
+            },
+            {
+              "word": " we",
+              "start": 262.44,
+              "end": 262.6
+            },
+            {
+              "word": " are",
+              "start": 262.6,
+              "end": 262.72
+            },
+            {
+              "word": " getting",
+              "start": 262.72,
+              "end": 262.98
+            },
+            {
+              "word": " e",
+              "start": 262.98,
+              "end": 264.02
+            },
+            {
+              "word": " square",
+              "start": 264.02,
+              "end": 264.42
+            },
+            {
+              "word": " is",
+              "start": 264.42,
+              "end": 265.42
+            },
+            {
+              "word": " equal",
+              "start": 265.42,
+              "end": 265.84
+            },
+            {
+              "word": " to",
+              "start": 265.84,
+              "end": 266.24
+            },
+            {
+              "word": " 16",
+              "start": 266.24,
+              "end": 266.7
+            },
+            {
+              "word": " therefore",
+              "start": 266.7,
+              "end": 267.72
+            },
+            {
+              "word": " we",
+              "start": 267.72,
+              "end": 268.06
+            },
+            {
+              "word": " can",
+              "start": 268.06,
+              "end": 268.28
+            }
+          ]
+        },
+        {
+          "start": 268.28,
+          "end": 276.22,
+          "text": "say that the voltage e is equal to 4 volts and hence option b is the correct option.",
+          "words": [
+            {
+              "word": " say",
+              "start": 268.28,
+              "end": 268.54
+            },
+            {
+              "word": " that",
+              "start": 268.54,
+              "end": 268.96
+            },
+            {
+              "word": " the",
+              "start": 268.96,
+              "end": 270.02
+            },
+            {
+              "word": " voltage",
+              "start": 270.02,
+              "end": 270.32
+            },
+            {
+              "word": " e",
+              "start": 270.32,
+              "end": 270.7
+            },
+            {
+              "word": " is",
+              "start": 270.7,
+              "end": 271.42
+            },
+            {
+              "word": " equal",
+              "start": 271.42,
+              "end": 271.8
+            },
+            {
+              "word": " to",
+              "start": 271.8,
+              "end": 272.22
+            },
+            {
+              "word": " 4",
+              "start": 272.22,
+              "end": 272.76
+            },
+            {
+              "word": " volts",
+              "start": 272.76,
+              "end": 273.44
+            },
+            {
+              "word": " and",
+              "start": 273.44,
+              "end": 274.06
+            },
+            {
+              "word": " hence",
+              "start": 274.06,
+              "end": 274.5
+            },
+            {
+              "word": " option",
+              "start": 274.5,
+              "end": 275.0
+            },
+            {
+              "word": " b",
+              "start": 275.0,
+              "end": 275.26
+            },
+            {
+              "word": " is",
+              "start": 275.26,
+              "end": 275.42
+            },
+            {
+              "word": " the",
+              "start": 275.42,
+              "end": 275.58
+            },
+            {
+              "word": " correct",
+              "start": 275.58,
+              "end": 275.78
+            },
+            {
+              "word": " option.",
+              "start": 275.78,
+              "end": 276.22
+            }
+          ]
+        },
+        {
+          "start": 276.7,
+          "end": 283.08,
+          "text": "So I hope the explanation was clear to you and now we will move on to our homework problem",
+          "words": [
+            {
+              "word": " So",
+              "start": 276.7,
+              "end": 277.04
+            },
+            {
+              "word": " I",
+              "start": 277.04,
+              "end": 277.26
+            },
+            {
+              "word": " hope",
+              "start": 277.26,
+              "end": 277.56
+            },
+            {
+              "word": " the",
+              "start": 277.56,
+              "end": 277.98
+            },
+            {
+              "word": " explanation",
+              "start": 277.98,
+              "end": 278.44
+            },
+            {
+              "word": " was",
+              "start": 278.44,
+              "end": 279.02
+            },
+            {
+              "word": " clear",
+              "start": 279.02,
+              "end": 279.58
+            },
+            {
+              "word": " to",
+              "start": 279.58,
+              "end": 279.8
+            },
+            {
+              "word": " you",
+              "start": 279.8,
+              "end": 280.06
+            },
+            {
+              "word": " and",
+              "start": 280.06,
+              "end": 280.58
+            },
+            {
+              "word": " now",
+              "start": 280.58,
+              "end": 280.8
+            },
+            {
+              "word": " we",
+              "start": 280.8,
+              "end": 280.96
+            },
+            {
+              "word": " will",
+              "start": 280.96,
+              "end": 281.1
+            },
+            {
+              "word": " move",
+              "start": 281.1,
+              "end": 281.3
+            },
+            {
+              "word": " on",
+              "start": 281.3,
+              "end": 281.58
+            },
+            {
+              "word": " to",
+              "start": 281.58,
+              "end": 281.8
+            },
+            {
+              "word": " our",
+              "start": 281.8,
+              "end": 282.02
+            },
+            {
+              "word": " homework",
+              "start": 282.02,
+              "end": 282.5
+            },
+            {
+              "word": " problem",
+              "start": 282.5,
+              "end": 283.08
+            }
+          ]
+        },
+        {
+          "start": 283.64,
+          "end": 292.42,
+          "text": "and in the homework problem you are required to find the value of current source i you are",
+          "words": [
+            {
+              "word": " and",
+              "start": 283.46,
+              "end": 283.9
+            },
+            {
+              "word": " in",
+              "start": 283.9,
+              "end": 284.02
+            },
+            {
+              "word": " the",
+              "start": 284.02,
+              "end": 284.16
+            },
+            {
+              "word": " homework",
+              "start": 284.16,
+              "end": 284.48
+            },
+            {
+              "word": " problem",
+              "start": 284.48,
+              "end": 285.14
+            },
+            {
+              "word": " you",
+              "start": 285.14,
+              "end": 286.04
+            },
+            {
+              "word": " are",
+              "start": 286.04,
+              "end": 286.18
+            },
+            {
+              "word": " required",
+              "start": 286.18,
+              "end": 286.64
+            },
+            {
+              "word": " to",
+              "start": 286.64,
+              "end": 287.68
+            },
+            {
+              "word": " find",
+              "start": 287.68,
+              "end": 288.1
+            },
+            {
+              "word": " the",
+              "start": 288.1,
+              "end": 289.38
+            },
+            {
+              "word": " value",
+              "start": 289.38,
+              "end": 289.86
+            },
+            {
+              "word": " of",
+              "start": 289.86,
+              "end": 290.4
+            },
+            {
+              "word": " current",
+              "start": 290.4,
+              "end": 290.84
+            },
+            {
+              "word": " source",
+              "start": 290.84,
+              "end": 291.36
+            },
+            {
+              "word": " i",
+              "start": 291.36,
+              "end": 291.86
+            },
+            {
+              "word": " you",
+              "start": 291.86,
+              "end": 292.32
+            },
+            {
+              "word": " are",
+              "start": 292.32,
+              "end": 292.42
+            }
+          ]
+        },
+        {
+          "start": 292.42,
+          "end": 302.08,
+          "text": "required to find the value of i and the problem is from gate 2009 e c paper so try to solve",
+          "words": [
+            {
+              "word": " required",
+              "start": 292.42,
+              "end": 292.74
+            },
+            {
+              "word": " to",
+              "start": 292.74,
+              "end": 293.02
+            },
+            {
+              "word": " find",
+              "start": 293.02,
+              "end": 293.44
+            },
+            {
+              "word": " the",
+              "start": 293.44,
+              "end": 293.96
+            },
+            {
+              "word": " value",
+              "start": 293.96,
+              "end": 294.26
+            },
+            {
+              "word": " of",
+              "start": 294.26,
+              "end": 294.5
+            },
+            {
+              "word": " i",
+              "start": 294.5,
+              "end": 294.74
+            },
+            {
+              "word": " and",
+              "start": 294.74,
+              "end": 295.38
+            },
+            {
+              "word": " the",
+              "start": 295.38,
+              "end": 295.54
+            },
+            {
+              "word": " problem",
+              "start": 295.54,
+              "end": 295.98
+            },
+            {
+              "word": " is",
+              "start": 295.98,
+              "end": 296.58
+            },
+            {
+              "word": " from",
+              "start": 296.58,
+              "end": 296.92
+            },
+            {
+              "word": " gate",
+              "start": 296.92,
+              "end": 297.4
+            },
+            {
+              "word": " 2009",
+              "start": 297.4,
+              "end": 298.78
+            },
+            {
+              "word": " e",
+              "start": 298.78,
+              "end": 299.62
+            },
+            {
+              "word": " c",
+              "start": 299.62,
+              "end": 299.78
+            },
+            {
+              "word": " paper",
+              "start": 299.78,
+              "end": 300.58
+            },
+            {
+              "word": " so",
+              "start": 300.58,
+              "end": 301.3
+            },
+            {
+              "word": " try",
+              "start": 301.3,
+              "end": 301.56
+            },
+            {
+              "word": " to",
+              "start": 301.56,
+              "end": 301.72
+            },
+            {
+              "word": " solve",
+              "start": 301.72,
+              "end": 302.08
+            }
+          ]
+        },
+        {
+          "start": 302.08,
+          "end": 306.92,
+          "text": "the problem and once you have your answer post it in comment section",
+          "words": [
+            {
+              "word": " the",
+              "start": 302.08,
+              "end": 302.52
+            },
+            {
+              "word": " problem",
+              "start": 302.52,
+              "end": 303.0
+            },
+            {
+              "word": " and",
+              "start": 303.0,
+              "end": 303.4
+            },
+            {
+              "word": " once",
+              "start": 303.4,
+              "end": 303.68
+            },
+            {
+              "word": " you",
+              "start": 303.68,
+              "end": 303.86
+            },
+            {
+              "word": " have",
+              "start": 303.86,
+              "end": 304.04
+            },
+            {
+              "word": " your",
+              "start": 304.04,
+              "end": 304.22
+            },
+            {
+              "word": " answer",
+              "start": 304.22,
+              "end": 304.52
+            },
+            {
+              "word": " post",
+              "start": 304.52,
+              "end": 305.3
+            },
+            {
+              "word": " it",
+              "start": 305.3,
+              "end": 305.58
+            },
+            {
+              "word": " in",
+              "start": 305.58,
+              "end": 305.74
+            },
+            {
+              "word": " comment",
+              "start": 305.74,
+              "end": 306.12
+            },
+            {
+              "word": " section",
+              "start": 306.12,
+              "end": 306.92
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 209.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 260.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 284.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 285.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 286.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 287.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 288.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 289.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 9,
+        "timestamp": 308.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 309.0,
+        "path": "data/processed\\lecture_141\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 11,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 2,
+        "timestamp": 260.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Answer of Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 8,
+        "timestamp": 289.0,
+        "concepts": [
+          "Scientific Diagram",
+          "Question"
+        ],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

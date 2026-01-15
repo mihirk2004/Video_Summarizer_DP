@@ -1,0 +1,7152 @@
+{
+  "video_id": "lecture_180",
+  "metadata": {
+    "original_path": "D:\\College\\TY SEM 1\\DP\\Video_Summarizer_DP\\Phase_1_Data_Extraction\\data\\raw_videos\\physics_lecture_09.mp4",
+    "duration": 0.0,
+    "fps": 25.0,
+    "resolution": "640x342",
+    "processing_date": "2026-01-05T23:36:00.249080",
+    "subject": "Physics",
+    "institution": "Unknown",
+    "source": "YouTube"
+  },
+  "processing": {
+    "audio_path": "data/processed\\lecture_180\\audio.wav",
+    "transcript": {
+      "text": " We have completed various operations of continuous time signals and now we will study different types of continuous time signals. In this lecture I will explain what are even signals and what are odd signals. Based on symmetry of this signal, when time is reversed we can classify signals into two types. The first one is even signal and the second one is odd signal. When we perform the time reversal and based on symmetry of the obtained signal we can broadly classify signals in these two types. I will first explain even signals. The signals which remain identical under folding operation are called as even signals. So when we perform the folding operation which is also called as time reversal or reflection. So when we perform folding time reversal or reflection of the signal and the signal remains same, identical means same then we call such signal even signal. Let's try to understand this in terms of symmetry. The signals which are symmetrical or mirror image about the y-axis are called as even signals. We will prove this statement after some time. Let's say the original signal is xt and we will perform the time reversal on this signal. So the obtained signal is simply x of minus t because we have minus of t in case of time reversal in place of t and according to the definition of even signals x of minus t is equal to xt which is the original signal. So this is what we have in case of even signals x of minus t is equal to x of t and this must be true for all the values of time t. So we had signal xt and after performing the time reversal we again have the signal xt. Now we will see few examples of even signals. In the first example we have the waveform of signal xt which is triangular like this. Let's say this is minus a and this is a the amplitude is equal to a. When you perform the time reversal you will have x of minus t which is exactly same as x of t. When you fold this waveform you will have the same waveform so x of minus t will have the same waveform and this is the example of even signal. In second example we have the waveform like this and when we perform the folding we will have the identical waveform. So x of minus t will have the same waveform. The third example is x of t equal to cos omega t. Cos omega t is the even signal because when we have minus t in place of t x of minus t x of minus t is equal to cos minus omega t and cos minus theta is equal to cos theta. So cos minus omega t is simply equal to cos omega t which is equal to xt. So x of minus t is equal to xt so this signal cos omega t is satisfying the condition of the even signals. And when we plot the waveform of cos omega t it will look something like this. And you can see this waveform is mirror image about the y axis or we can say this waveform is symmetrical about the y axis. So in case of even signals we have the symmetrical waveform or mirror image about the y axis. In this signal also you can see the waveform is mirror image about the y axis. Now we will talk about the odd signals. The signals which does not remain identical under folding operation are called as odd signals. So this condition is not true in case of odd signals x of minus t is not equal to x of t odd signals are anti-symmetrical about the y axis. Now let us try to understand what do we mean by anti-symmetrical signals. We will perform the time reversal of the signal xt and the signal xt is having the waveform like this. This axis is the y axis and in case of odd signals we have anti-symmetrical waveform about the y axis. When we perform the time reversal this means when we try to find out x of minus t we will have the waveform like this. And this waveform represents minus xt or we can write x of t is equal to minus x minus t. So this is the condition for odd signals and if we talk about time t equal to 0 when time t is equal to 0 x of 0 is equal to minus x minus 0 from here we have x of 0 equal to minus x minus 0 minus 0 is 0 so x of 0 is equal to minus x 0 and this is possible only when x of 0 is equal to 0 therefore an odd signal must be 0 at time t equal to 0. This is the most important property of the odd signals when time t is equal to 0 the odd signal must be 0. The average or the mean or the dc value of any odd signal is equal to 0. We are talking about few properties of odd signals. The first property is when time t is equal to 0 the odd signal is equal to 0. The second property is the dc value or the mean or the average of any odd signal is equal to 0 the average the mean or the dc value of any odd signal of any odd signal is equal to 0 and the odd signal will always pass through the origin from first property. We can clearly see when time t is equal to 0 the odd signal is equal to 0 this means an odd signal will always pass through the origin this signal also passes through the origin and if we talk about the sin omega t which is odd signal sin omega t and if we try to find out x of minus t we will have minus sin omega t because sin minus theta is equal to minus sin theta and we have we have x of minus t equal to minus x t which is satisfying the property of odd signal so sin omega t is an odd signal and if we plot the waveform of sin function it will look like this so you can clearly see the sin function which is an odd function is passing through the origin this waveform is for sin omega t now we will move to the next property any signal can be represented at some of odd and even signals if we have a general signal let's say the signal is equal to x t and this general signal can be represented as some of odd and even parts let's say x subscript e is the even component of the signal x t plus x subscript o is the odd component of the signal x t and when we add the even component and the odd component of the signal x t it is equal to signal x t we will discuss this property in the next lecture when we will find out even component and the odd component of the signal so this is all for this lecture see you in the next one.",
+      "segments": [
+        {
+          "start": 4.7,
+          "end": 10.66,
+          "text": "We have completed various operations of continuous time signals and now we will study different",
+          "words": [
+            {
+              "word": " We",
+              "start": 4.7,
+              "end": 5.34
+            },
+            {
+              "word": " have",
+              "start": 5.34,
+              "end": 5.58
+            },
+            {
+              "word": " completed",
+              "start": 5.58,
+              "end": 6.08
+            },
+            {
+              "word": " various",
+              "start": 6.08,
+              "end": 6.52
+            },
+            {
+              "word": " operations",
+              "start": 6.52,
+              "end": 7.2
+            },
+            {
+              "word": " of",
+              "start": 7.2,
+              "end": 7.52
+            },
+            {
+              "word": " continuous",
+              "start": 7.52,
+              "end": 8.0
+            },
+            {
+              "word": " time",
+              "start": 8.0,
+              "end": 8.36
+            },
+            {
+              "word": " signals",
+              "start": 8.36,
+              "end": 8.76
+            },
+            {
+              "word": " and",
+              "start": 8.76,
+              "end": 9.48
+            },
+            {
+              "word": " now",
+              "start": 9.48,
+              "end": 9.66
+            },
+            {
+              "word": " we",
+              "start": 9.66,
+              "end": 9.82
+            },
+            {
+              "word": " will",
+              "start": 9.82,
+              "end": 9.94
+            },
+            {
+              "word": " study",
+              "start": 9.94,
+              "end": 10.26
+            },
+            {
+              "word": " different",
+              "start": 10.26,
+              "end": 10.66
+            }
+          ]
+        },
+        {
+          "start": 10.66,
+          "end": 12.72,
+          "text": "types of continuous time signals.",
+          "words": [
+            {
+              "word": " types",
+              "start": 10.66,
+              "end": 11.1
+            },
+            {
+              "word": " of",
+              "start": 11.1,
+              "end": 11.34
+            },
+            {
+              "word": " continuous",
+              "start": 11.34,
+              "end": 11.78
+            },
+            {
+              "word": " time",
+              "start": 11.78,
+              "end": 12.22
+            },
+            {
+              "word": " signals.",
+              "start": 12.22,
+              "end": 12.72
+            }
+          ]
+        },
+        {
+          "start": 13.34,
+          "end": 17.68,
+          "text": "In this lecture I will explain what are even signals and what are odd signals.",
+          "words": [
+            {
+              "word": " In",
+              "start": 13.34,
+              "end": 13.52
+            },
+            {
+              "word": " this",
+              "start": 13.52,
+              "end": 13.72
+            },
+            {
+              "word": " lecture",
+              "start": 13.72,
+              "end": 14.06
+            },
+            {
+              "word": " I",
+              "start": 14.06,
+              "end": 14.3
+            },
+            {
+              "word": " will",
+              "start": 14.3,
+              "end": 14.44
+            },
+            {
+              "word": " explain",
+              "start": 14.44,
+              "end": 14.94
+            },
+            {
+              "word": " what",
+              "start": 14.94,
+              "end": 15.24
+            },
+            {
+              "word": " are",
+              "start": 15.24,
+              "end": 15.44
+            },
+            {
+              "word": " even",
+              "start": 15.44,
+              "end": 15.62
+            },
+            {
+              "word": " signals",
+              "start": 15.62,
+              "end": 16.1
+            },
+            {
+              "word": " and",
+              "start": 16.1,
+              "end": 16.72
+            },
+            {
+              "word": " what",
+              "start": 16.72,
+              "end": 16.92
+            },
+            {
+              "word": " are",
+              "start": 16.92,
+              "end": 17.08
+            },
+            {
+              "word": " odd",
+              "start": 17.08,
+              "end": 17.28
+            },
+            {
+              "word": " signals.",
+              "start": 17.28,
+              "end": 17.68
+            }
+          ]
+        },
+        {
+          "start": 18.3,
+          "end": 23.64,
+          "text": "Based on symmetry of this signal, when time is reversed we can classify signals into two",
+          "words": [
+            {
+              "word": " Based",
+              "start": 18.3,
+              "end": 18.52
+            },
+            {
+              "word": " on",
+              "start": 18.52,
+              "end": 18.76
+            },
+            {
+              "word": " symmetry",
+              "start": 18.76,
+              "end": 19.16
+            },
+            {
+              "word": " of",
+              "start": 19.16,
+              "end": 19.46
+            },
+            {
+              "word": " this",
+              "start": 19.46,
+              "end": 19.64
+            },
+            {
+              "word": " signal,",
+              "start": 19.64,
+              "end": 19.98
+            },
+            {
+              "word": " when",
+              "start": 20.46,
+              "end": 20.58
+            },
+            {
+              "word": " time",
+              "start": 20.58,
+              "end": 20.86
+            },
+            {
+              "word": " is",
+              "start": 20.86,
+              "end": 21.1
+            },
+            {
+              "word": " reversed",
+              "start": 21.1,
+              "end": 21.52
+            },
+            {
+              "word": " we",
+              "start": 21.52,
+              "end": 21.9
+            },
+            {
+              "word": " can",
+              "start": 21.9,
+              "end": 22.08
+            },
+            {
+              "word": " classify",
+              "start": 22.08,
+              "end": 22.52
+            },
+            {
+              "word": " signals",
+              "start": 22.52,
+              "end": 23.02
+            },
+            {
+              "word": " into",
+              "start": 23.02,
+              "end": 23.42
+            },
+            {
+              "word": " two",
+              "start": 23.42,
+              "end": 23.64
+            }
+          ]
+        },
+        {
+          "start": 23.64,
+          "end": 24.04,
+          "text": "types.",
+          "words": [
+            {
+              "word": " types.",
+              "start": 23.64,
+              "end": 24.04
+            }
+          ]
+        },
+        {
+          "start": 24.52,
+          "end": 27.88,
+          "text": "The first one is even signal and the second one is odd signal.",
+          "words": [
+            {
+              "word": " The",
+              "start": 24.52,
+              "end": 24.64
+            },
+            {
+              "word": " first",
+              "start": 24.64,
+              "end": 24.9
+            },
+            {
+              "word": " one",
+              "start": 24.9,
+              "end": 25.14
+            },
+            {
+              "word": " is",
+              "start": 25.14,
+              "end": 25.32
+            },
+            {
+              "word": " even",
+              "start": 25.32,
+              "end": 25.52
+            },
+            {
+              "word": " signal",
+              "start": 25.52,
+              "end": 26.0
+            },
+            {
+              "word": " and",
+              "start": 26.0,
+              "end": 26.54
+            },
+            {
+              "word": " the",
+              "start": 26.54,
+              "end": 26.66
+            },
+            {
+              "word": " second",
+              "start": 26.66,
+              "end": 26.9
+            },
+            {
+              "word": " one",
+              "start": 26.9,
+              "end": 27.16
+            },
+            {
+              "word": " is",
+              "start": 27.16,
+              "end": 27.3
+            },
+            {
+              "word": " odd",
+              "start": 27.3,
+              "end": 27.5
+            },
+            {
+              "word": " signal.",
+              "start": 27.5,
+              "end": 27.88
+            }
+          ]
+        },
+        {
+          "start": 28.4,
+          "end": 35.1,
+          "text": "When we perform the time reversal and based on symmetry of the obtained signal we can",
+          "words": [
+            {
+              "word": " When",
+              "start": 28.1,
+              "end": 28.54
+            },
+            {
+              "word": " we",
+              "start": 28.54,
+              "end": 28.74
+            },
+            {
+              "word": " perform",
+              "start": 28.74,
+              "end": 29.2
+            },
+            {
+              "word": " the",
+              "start": 29.2,
+              "end": 30.06
+            },
+            {
+              "word": " time",
+              "start": 30.06,
+              "end": 30.56
+            },
+            {
+              "word": " reversal",
+              "start": 30.56,
+              "end": 31.22
+            },
+            {
+              "word": " and",
+              "start": 31.22,
+              "end": 32.04
+            },
+            {
+              "word": " based",
+              "start": 32.04,
+              "end": 32.36
+            },
+            {
+              "word": " on",
+              "start": 32.36,
+              "end": 32.62
+            },
+            {
+              "word": " symmetry",
+              "start": 32.62,
+              "end": 33.06
+            },
+            {
+              "word": " of",
+              "start": 33.06,
+              "end": 33.36
+            },
+            {
+              "word": " the",
+              "start": 33.36,
+              "end": 33.5
+            },
+            {
+              "word": " obtained",
+              "start": 33.5,
+              "end": 33.94
+            },
+            {
+              "word": " signal",
+              "start": 33.94,
+              "end": 34.4
+            },
+            {
+              "word": " we",
+              "start": 34.4,
+              "end": 34.94
+            },
+            {
+              "word": " can",
+              "start": 34.94,
+              "end": 35.1
+            }
+          ]
+        },
+        {
+          "start": 35.1,
+          "end": 37.98,
+          "text": "broadly classify signals in these two types.",
+          "words": [
+            {
+              "word": " broadly",
+              "start": 35.1,
+              "end": 35.44
+            },
+            {
+              "word": " classify",
+              "start": 35.44,
+              "end": 35.98
+            },
+            {
+              "word": " signals",
+              "start": 35.98,
+              "end": 36.46
+            },
+            {
+              "word": " in",
+              "start": 36.46,
+              "end": 37.08
+            },
+            {
+              "word": " these",
+              "start": 37.08,
+              "end": 37.28
+            },
+            {
+              "word": " two",
+              "start": 37.28,
+              "end": 37.5
+            },
+            {
+              "word": " types.",
+              "start": 37.5,
+              "end": 37.98
+            }
+          ]
+        },
+        {
+          "start": 38.4,
+          "end": 40.38,
+          "text": "I will first explain even signals.",
+          "words": [
+            {
+              "word": " I",
+              "start": 38.4,
+              "end": 38.5
+            },
+            {
+              "word": " will",
+              "start": 38.5,
+              "end": 38.64
+            },
+            {
+              "word": " first",
+              "start": 38.64,
+              "end": 38.92
+            },
+            {
+              "word": " explain",
+              "start": 38.92,
+              "end": 39.5
+            },
+            {
+              "word": " even",
+              "start": 39.5,
+              "end": 39.82
+            },
+            {
+              "word": " signals.",
+              "start": 39.82,
+              "end": 40.38
+            }
+          ]
+        },
+        {
+          "start": 40.96,
+          "end": 46.62,
+          "text": "The signals which remain identical under folding operation are called as even signals.",
+          "words": [
+            {
+              "word": " The",
+              "start": 40.96,
+              "end": 41.02
+            },
+            {
+              "word": " signals",
+              "start": 41.02,
+              "end": 41.38
+            },
+            {
+              "word": " which",
+              "start": 41.38,
+              "end": 41.76
+            },
+            {
+              "word": " remain",
+              "start": 41.76,
+              "end": 42.08
+            },
+            {
+              "word": " identical",
+              "start": 42.08,
+              "end": 42.7
+            },
+            {
+              "word": " under",
+              "start": 42.7,
+              "end": 43.44
+            },
+            {
+              "word": " folding",
+              "start": 43.44,
+              "end": 43.88
+            },
+            {
+              "word": " operation",
+              "start": 43.88,
+              "end": 44.48
+            },
+            {
+              "word": " are",
+              "start": 44.48,
+              "end": 45.18
+            },
+            {
+              "word": " called",
+              "start": 45.18,
+              "end": 45.46
+            },
+            {
+              "word": " as",
+              "start": 45.46,
+              "end": 45.7
+            },
+            {
+              "word": " even",
+              "start": 45.7,
+              "end": 45.98
+            },
+            {
+              "word": " signals.",
+              "start": 45.98,
+              "end": 46.62
+            }
+          ]
+        },
+        {
+          "start": 47.18,
+          "end": 54.76,
+          "text": "So when we perform the folding operation which is also called as time reversal or reflection.",
+          "words": [
+            {
+              "word": " So",
+              "start": 47.18,
+              "end": 47.18
+            },
+            {
+              "word": " when",
+              "start": 47.18,
+              "end": 47.38
+            },
+            {
+              "word": " we",
+              "start": 47.38,
+              "end": 47.54
+            },
+            {
+              "word": " perform",
+              "start": 47.54,
+              "end": 48.08
+            },
+            {
+              "word": " the",
+              "start": 48.08,
+              "end": 48.5
+            },
+            {
+              "word": " folding",
+              "start": 48.5,
+              "end": 48.88
+            },
+            {
+              "word": " operation",
+              "start": 48.88,
+              "end": 49.42
+            },
+            {
+              "word": " which",
+              "start": 49.42,
+              "end": 50.08
+            },
+            {
+              "word": " is",
+              "start": 50.08,
+              "end": 50.22
+            },
+            {
+              "word": " also",
+              "start": 50.22,
+              "end": 50.5
+            },
+            {
+              "word": " called",
+              "start": 50.5,
+              "end": 50.86
+            },
+            {
+              "word": " as",
+              "start": 50.86,
+              "end": 51.24
+            },
+            {
+              "word": " time",
+              "start": 51.24,
+              "end": 51.84
+            },
+            {
+              "word": " reversal",
+              "start": 51.84,
+              "end": 52.34
+            },
+            {
+              "word": " or",
+              "start": 52.34,
+              "end": 53.48
+            },
+            {
+              "word": " reflection.",
+              "start": 53.48,
+              "end": 54.76
+            }
+          ]
+        },
+        {
+          "start": 55.76,
+          "end": 61.32,
+          "text": "So when we perform folding time reversal or reflection of the signal and the signal",
+          "words": [
+            {
+              "word": " So",
+              "start": 55.57,
+              "end": 55.94
+            },
+            {
+              "word": " when",
+              "start": 55.94,
+              "end": 56.14
+            },
+            {
+              "word": " we",
+              "start": 56.14,
+              "end": 56.3
+            },
+            {
+              "word": " perform",
+              "start": 56.3,
+              "end": 56.68
+            },
+            {
+              "word": " folding",
+              "start": 56.68,
+              "end": 57.22
+            },
+            {
+              "word": " time",
+              "start": 57.22,
+              "end": 57.78
+            },
+            {
+              "word": " reversal",
+              "start": 57.78,
+              "end": 58.28
+            },
+            {
+              "word": " or",
+              "start": 58.28,
+              "end": 58.94
+            },
+            {
+              "word": " reflection",
+              "start": 58.94,
+              "end": 59.42
+            },
+            {
+              "word": " of",
+              "start": 59.42,
+              "end": 59.72
+            },
+            {
+              "word": " the",
+              "start": 59.72,
+              "end": 59.88
+            },
+            {
+              "word": " signal",
+              "start": 59.88,
+              "end": 60.24
+            },
+            {
+              "word": " and",
+              "start": 60.24,
+              "end": 60.86
+            },
+            {
+              "word": " the",
+              "start": 60.86,
+              "end": 61.02
+            },
+            {
+              "word": " signal",
+              "start": 61.02,
+              "end": 61.32
+            }
+          ]
+        },
+        {
+          "start": 61.32,
+          "end": 67.04,
+          "text": "remains same, identical means same then we call such signal even signal.",
+          "words": [
+            {
+              "word": " remains",
+              "start": 61.32,
+              "end": 61.76
+            },
+            {
+              "word": " same,",
+              "start": 61.76,
+              "end": 62.24
+            },
+            {
+              "word": " identical",
+              "start": 62.56,
+              "end": 63.02
+            },
+            {
+              "word": " means",
+              "start": 63.02,
+              "end": 63.46
+            },
+            {
+              "word": " same",
+              "start": 63.46,
+              "end": 64.0
+            },
+            {
+              "word": " then",
+              "start": 64.0,
+              "end": 64.58
+            },
+            {
+              "word": " we",
+              "start": 64.58,
+              "end": 64.76
+            },
+            {
+              "word": " call",
+              "start": 64.76,
+              "end": 65.02
+            },
+            {
+              "word": " such",
+              "start": 65.02,
+              "end": 65.3
+            },
+            {
+              "word": " signal",
+              "start": 65.3,
+              "end": 65.8
+            },
+            {
+              "word": " even",
+              "start": 65.8,
+              "end": 66.4
+            },
+            {
+              "word": " signal.",
+              "start": 66.4,
+              "end": 67.04
+            }
+          ]
+        },
+        {
+          "start": 67.5,
+          "end": 70.42,
+          "text": "Let's try to understand this in terms of symmetry.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 67.5,
+              "end": 67.74
+            },
+            {
+              "word": " try",
+              "start": 67.74,
+              "end": 67.92
+            },
+            {
+              "word": " to",
+              "start": 67.92,
+              "end": 68.08
+            },
+            {
+              "word": " understand",
+              "start": 68.08,
+              "end": 68.4
+            },
+            {
+              "word": " this",
+              "start": 68.4,
+              "end": 68.88
+            },
+            {
+              "word": " in",
+              "start": 68.88,
+              "end": 69.44
+            },
+            {
+              "word": " terms",
+              "start": 69.44,
+              "end": 69.74
+            },
+            {
+              "word": " of",
+              "start": 69.74,
+              "end": 69.98
+            },
+            {
+              "word": " symmetry.",
+              "start": 69.98,
+              "end": 70.42
+            }
+          ]
+        },
+        {
+          "start": 71.1,
+          "end": 77.2,
+          "text": "The signals which are symmetrical or mirror image about the y-axis are called as even",
+          "words": [
+            {
+              "word": " The",
+              "start": 71.1,
+              "end": 71.2
+            },
+            {
+              "word": " signals",
+              "start": 71.2,
+              "end": 71.62
+            },
+            {
+              "word": " which",
+              "start": 71.62,
+              "end": 71.96
+            },
+            {
+              "word": " are",
+              "start": 71.96,
+              "end": 72.12
+            },
+            {
+              "word": " symmetrical",
+              "start": 72.12,
+              "end": 72.7
+            },
+            {
+              "word": " or",
+              "start": 72.7,
+              "end": 73.44
+            },
+            {
+              "word": " mirror",
+              "start": 73.44,
+              "end": 73.76
+            },
+            {
+              "word": " image",
+              "start": 73.76,
+              "end": 74.22
+            },
+            {
+              "word": " about",
+              "start": 74.22,
+              "end": 74.7
+            },
+            {
+              "word": " the",
+              "start": 74.7,
+              "end": 74.94
+            },
+            {
+              "word": " y",
+              "start": 74.94,
+              "end": 75.2
+            },
+            {
+              "word": "-axis",
+              "start": 75.2,
+              "end": 75.54
+            },
+            {
+              "word": " are",
+              "start": 75.54,
+              "end": 76.24
+            },
+            {
+              "word": " called",
+              "start": 76.24,
+              "end": 76.56
+            },
+            {
+              "word": " as",
+              "start": 76.56,
+              "end": 76.82
+            },
+            {
+              "word": " even",
+              "start": 76.82,
+              "end": 77.2
+            }
+          ]
+        },
+        {
+          "start": 77.2,
+          "end": 77.8,
+          "text": "signals.",
+          "words": [
+            {
+              "word": " signals.",
+              "start": 77.2,
+              "end": 77.8
+            }
+          ]
+        },
+        {
+          "start": 78.0,
+          "end": 80.14,
+          "text": "We will prove this statement after some time.",
+          "words": [
+            {
+              "word": " We",
+              "start": 78.0,
+              "end": 78.1
+            },
+            {
+              "word": " will",
+              "start": 78.1,
+              "end": 78.24
+            },
+            {
+              "word": " prove",
+              "start": 78.24,
+              "end": 78.48
+            },
+            {
+              "word": " this",
+              "start": 78.48,
+              "end": 78.72
+            },
+            {
+              "word": " statement",
+              "start": 78.72,
+              "end": 79.18
+            },
+            {
+              "word": " after",
+              "start": 79.18,
+              "end": 79.58
+            },
+            {
+              "word": " some",
+              "start": 79.58,
+              "end": 79.84
+            },
+            {
+              "word": " time.",
+              "start": 79.84,
+              "end": 80.14
+            }
+          ]
+        },
+        {
+          "start": 80.78,
+          "end": 89.34,
+          "text": "Let's say the original signal is xt and we will perform the time reversal on this signal.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 80.56,
+              "end": 80.94
+            },
+            {
+              "word": " say",
+              "start": 80.94,
+              "end": 81.14
+            },
+            {
+              "word": " the",
+              "start": 81.14,
+              "end": 81.52
+            },
+            {
+              "word": " original",
+              "start": 81.52,
+              "end": 81.8
+            },
+            {
+              "word": " signal",
+              "start": 81.8,
+              "end": 82.28
+            },
+            {
+              "word": " is",
+              "start": 82.28,
+              "end": 83.02
+            },
+            {
+              "word": " xt",
+              "start": 83.02,
+              "end": 83.44
+            },
+            {
+              "word": " and",
+              "start": 83.44,
+              "end": 84.94
+            },
+            {
+              "word": " we",
+              "start": 84.94,
+              "end": 85.44
+            },
+            {
+              "word": " will",
+              "start": 85.44,
+              "end": 85.58
+            },
+            {
+              "word": " perform",
+              "start": 85.58,
+              "end": 86.12
+            },
+            {
+              "word": " the",
+              "start": 86.12,
+              "end": 86.78
+            },
+            {
+              "word": " time",
+              "start": 86.78,
+              "end": 87.26
+            },
+            {
+              "word": " reversal",
+              "start": 87.26,
+              "end": 87.86
+            },
+            {
+              "word": " on",
+              "start": 87.86,
+              "end": 88.72
+            },
+            {
+              "word": " this",
+              "start": 88.72,
+              "end": 88.92
+            },
+            {
+              "word": " signal.",
+              "start": 88.92,
+              "end": 89.34
+            }
+          ]
+        },
+        {
+          "start": 90.12,
+          "end": 97.16,
+          "text": "So the obtained signal is simply x of minus t because we have minus of t in case of time",
+          "words": [
+            {
+              "word": " So",
+              "start": 90.12,
+              "end": 90.2
+            },
+            {
+              "word": " the",
+              "start": 90.2,
+              "end": 90.52
+            },
+            {
+              "word": " obtained",
+              "start": 90.52,
+              "end": 91.0
+            },
+            {
+              "word": " signal",
+              "start": 91.0,
+              "end": 91.4
+            },
+            {
+              "word": " is",
+              "start": 91.4,
+              "end": 91.98
+            },
+            {
+              "word": " simply",
+              "start": 91.98,
+              "end": 92.36
+            },
+            {
+              "word": " x",
+              "start": 92.36,
+              "end": 92.82
+            },
+            {
+              "word": " of",
+              "start": 92.82,
+              "end": 93.22
+            },
+            {
+              "word": " minus",
+              "start": 93.22,
+              "end": 93.6
+            },
+            {
+              "word": " t",
+              "start": 93.6,
+              "end": 93.96
+            },
+            {
+              "word": " because",
+              "start": 93.96,
+              "end": 94.6
+            },
+            {
+              "word": " we",
+              "start": 94.6,
+              "end": 94.84
+            },
+            {
+              "word": " have",
+              "start": 94.84,
+              "end": 95.04
+            },
+            {
+              "word": " minus",
+              "start": 95.04,
+              "end": 95.42
+            },
+            {
+              "word": " of",
+              "start": 95.42,
+              "end": 95.7
+            },
+            {
+              "word": " t",
+              "start": 95.7,
+              "end": 95.98
+            },
+            {
+              "word": " in",
+              "start": 95.98,
+              "end": 96.5
+            },
+            {
+              "word": " case",
+              "start": 96.5,
+              "end": 96.72
+            },
+            {
+              "word": " of",
+              "start": 96.72,
+              "end": 96.92
+            },
+            {
+              "word": " time",
+              "start": 96.92,
+              "end": 97.16
+            }
+          ]
+        },
+        {
+          "start": 97.16,
+          "end": 104.1,
+          "text": "reversal in place of t and according to the definition of even signals x of minus t is",
+          "words": [
+            {
+              "word": " reversal",
+              "start": 97.16,
+              "end": 97.6
+            },
+            {
+              "word": " in",
+              "start": 97.6,
+              "end": 98.22
+            },
+            {
+              "word": " place",
+              "start": 98.22,
+              "end": 98.5
+            },
+            {
+              "word": " of",
+              "start": 98.5,
+              "end": 98.74
+            },
+            {
+              "word": " t",
+              "start": 98.74,
+              "end": 99.0
+            },
+            {
+              "word": " and",
+              "start": 99.0,
+              "end": 99.5
+            },
+            {
+              "word": " according",
+              "start": 99.5,
+              "end": 99.8
+            },
+            {
+              "word": " to",
+              "start": 99.8,
+              "end": 100.0
+            },
+            {
+              "word": " the",
+              "start": 100.0,
+              "end": 100.12
+            },
+            {
+              "word": " definition",
+              "start": 100.12,
+              "end": 100.5
+            },
+            {
+              "word": " of",
+              "start": 100.5,
+              "end": 100.94
+            },
+            {
+              "word": " even",
+              "start": 100.94,
+              "end": 101.26
+            },
+            {
+              "word": " signals",
+              "start": 101.26,
+              "end": 101.86
+            },
+            {
+              "word": " x",
+              "start": 101.86,
+              "end": 102.6
+            },
+            {
+              "word": " of",
+              "start": 102.6,
+              "end": 102.76
+            },
+            {
+              "word": " minus",
+              "start": 102.76,
+              "end": 103.1
+            },
+            {
+              "word": " t",
+              "start": 103.1,
+              "end": 103.52
+            },
+            {
+              "word": " is",
+              "start": 103.52,
+              "end": 104.1
+            }
+          ]
+        },
+        {
+          "start": 104.1,
+          "end": 106.86,
+          "text": "equal to xt which is the original signal.",
+          "words": [
+            {
+              "word": " equal",
+              "start": 104.1,
+              "end": 104.48
+            },
+            {
+              "word": " to",
+              "start": 104.48,
+              "end": 105.02
+            },
+            {
+              "word": " xt",
+              "start": 105.02,
+              "end": 105.38
+            },
+            {
+              "word": " which",
+              "start": 105.38,
+              "end": 105.82
+            },
+            {
+              "word": " is",
+              "start": 105.82,
+              "end": 105.96
+            },
+            {
+              "word": " the",
+              "start": 105.96,
+              "end": 106.1
+            },
+            {
+              "word": " original",
+              "start": 106.1,
+              "end": 106.38
+            },
+            {
+              "word": " signal.",
+              "start": 106.38,
+              "end": 106.86
+            }
+          ]
+        },
+        {
+          "start": 106.86,
+          "end": 116.94,
+          "text": "So this is what we have in case of even signals x of minus t is equal to x of t and this must",
+          "words": [
+            {
+              "word": " So",
+              "start": 106.86,
+              "end": 107.54
+            },
+            {
+              "word": " this",
+              "start": 107.54,
+              "end": 107.84
+            },
+            {
+              "word": " is",
+              "start": 107.84,
+              "end": 108.1
+            },
+            {
+              "word": " what",
+              "start": 108.1,
+              "end": 109.26
+            },
+            {
+              "word": " we",
+              "start": 109.26,
+              "end": 109.72
+            },
+            {
+              "word": " have",
+              "start": 109.72,
+              "end": 110.1
+            },
+            {
+              "word": " in",
+              "start": 110.1,
+              "end": 110.8
+            },
+            {
+              "word": " case",
+              "start": 110.8,
+              "end": 111.06
+            },
+            {
+              "word": " of",
+              "start": 111.06,
+              "end": 111.34
+            },
+            {
+              "word": " even",
+              "start": 111.34,
+              "end": 111.52
+            },
+            {
+              "word": " signals",
+              "start": 111.52,
+              "end": 112.16
+            },
+            {
+              "word": " x",
+              "start": 112.16,
+              "end": 112.88
+            },
+            {
+              "word": " of",
+              "start": 112.88,
+              "end": 113.02
+            },
+            {
+              "word": " minus",
+              "start": 113.02,
+              "end": 113.34
+            },
+            {
+              "word": " t",
+              "start": 113.34,
+              "end": 113.74
+            },
+            {
+              "word": " is",
+              "start": 113.74,
+              "end": 114.32
+            },
+            {
+              "word": " equal",
+              "start": 114.32,
+              "end": 114.7
+            },
+            {
+              "word": " to",
+              "start": 114.7,
+              "end": 115.2
+            },
+            {
+              "word": " x",
+              "start": 115.2,
+              "end": 115.46
+            },
+            {
+              "word": " of",
+              "start": 115.46,
+              "end": 115.64
+            },
+            {
+              "word": " t",
+              "start": 115.64,
+              "end": 115.92
+            },
+            {
+              "word": " and",
+              "start": 115.92,
+              "end": 116.48
+            },
+            {
+              "word": " this",
+              "start": 116.48,
+              "end": 116.7
+            },
+            {
+              "word": " must",
+              "start": 116.7,
+              "end": 116.94
+            }
+          ]
+        },
+        {
+          "start": 116.94,
+          "end": 121.02,
+          "text": "be true for all the values of time t.",
+          "words": [
+            {
+              "word": " be",
+              "start": 116.94,
+              "end": 117.18
+            },
+            {
+              "word": " true",
+              "start": 117.18,
+              "end": 117.5
+            },
+            {
+              "word": " for",
+              "start": 117.5,
+              "end": 118.2
+            },
+            {
+              "word": " all",
+              "start": 118.2,
+              "end": 118.68
+            },
+            {
+              "word": " the",
+              "start": 118.68,
+              "end": 119.88
+            },
+            {
+              "word": " values",
+              "start": 119.88,
+              "end": 120.2
+            },
+            {
+              "word": " of",
+              "start": 120.2,
+              "end": 120.42
+            },
+            {
+              "word": " time",
+              "start": 120.42,
+              "end": 120.68
+            },
+            {
+              "word": " t.",
+              "start": 120.68,
+              "end": 121.02
+            }
+          ]
+        },
+        {
+          "start": 121.56,
+          "end": 127.32,
+          "text": "So we had signal xt and after performing the time reversal we again have the signal xt.",
+          "words": [
+            {
+              "word": " So",
+              "start": 121.56,
+              "end": 121.68
+            },
+            {
+              "word": " we",
+              "start": 121.68,
+              "end": 121.84
+            },
+            {
+              "word": " had",
+              "start": 121.84,
+              "end": 122.14
+            },
+            {
+              "word": " signal",
+              "start": 122.14,
+              "end": 122.62
+            },
+            {
+              "word": " xt",
+              "start": 122.62,
+              "end": 122.98
+            },
+            {
+              "word": " and",
+              "start": 122.98,
+              "end": 123.56
+            },
+            {
+              "word": " after",
+              "start": 123.56,
+              "end": 123.86
+            },
+            {
+              "word": " performing",
+              "start": 123.86,
+              "end": 124.32
+            },
+            {
+              "word": " the",
+              "start": 124.32,
+              "end": 124.56
+            },
+            {
+              "word": " time",
+              "start": 124.56,
+              "end": 124.78
+            },
+            {
+              "word": " reversal",
+              "start": 124.78,
+              "end": 125.2
+            },
+            {
+              "word": " we",
+              "start": 125.2,
+              "end": 125.82
+            },
+            {
+              "word": " again",
+              "start": 125.82,
+              "end": 126.1
+            },
+            {
+              "word": " have",
+              "start": 126.1,
+              "end": 126.38
+            },
+            {
+              "word": " the",
+              "start": 126.38,
+              "end": 126.58
+            },
+            {
+              "word": " signal",
+              "start": 126.58,
+              "end": 126.9
+            },
+            {
+              "word": " xt.",
+              "start": 126.9,
+              "end": 127.32
+            }
+          ]
+        },
+        {
+          "start": 127.82,
+          "end": 131.22,
+          "text": "Now we will see few examples of even signals.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 127.82,
+              "end": 128.08
+            },
+            {
+              "word": " we",
+              "start": 128.08,
+              "end": 128.22
+            },
+            {
+              "word": " will",
+              "start": 128.22,
+              "end": 128.38
+            },
+            {
+              "word": " see",
+              "start": 128.38,
+              "end": 128.6
+            },
+            {
+              "word": " few",
+              "start": 128.6,
+              "end": 128.82
+            },
+            {
+              "word": " examples",
+              "start": 128.82,
+              "end": 129.36
+            },
+            {
+              "word": " of",
+              "start": 129.36,
+              "end": 130.46
+            },
+            {
+              "word": " even",
+              "start": 130.46,
+              "end": 130.7
+            },
+            {
+              "word": " signals.",
+              "start": 130.7,
+              "end": 131.22
+            }
+          ]
+        },
+        {
+          "start": 131.22,
+          "end": 142.76,
+          "text": "In the first example we have the waveform of signal xt which is triangular like this.",
+          "words": [
+            {
+              "word": " In",
+              "start": 131.22,
+              "end": 131.88
+            },
+            {
+              "word": " the",
+              "start": 131.88,
+              "end": 132.02
+            },
+            {
+              "word": " first",
+              "start": 132.02,
+              "end": 132.26
+            },
+            {
+              "word": " example",
+              "start": 132.26,
+              "end": 132.82
+            },
+            {
+              "word": " we",
+              "start": 132.82,
+              "end": 133.66
+            },
+            {
+              "word": " have",
+              "start": 133.66,
+              "end": 133.9
+            },
+            {
+              "word": " the",
+              "start": 133.9,
+              "end": 134.04
+            },
+            {
+              "word": " waveform",
+              "start": 134.04,
+              "end": 134.46
+            },
+            {
+              "word": " of",
+              "start": 134.46,
+              "end": 138.24
+            },
+            {
+              "word": " signal",
+              "start": 138.24,
+              "end": 138.64
+            },
+            {
+              "word": " xt",
+              "start": 138.64,
+              "end": 139.42
+            },
+            {
+              "word": " which",
+              "start": 139.42,
+              "end": 140.98
+            },
+            {
+              "word": " is",
+              "start": 140.98,
+              "end": 141.14
+            },
+            {
+              "word": " triangular",
+              "start": 141.14,
+              "end": 141.56
+            },
+            {
+              "word": " like",
+              "start": 141.56,
+              "end": 142.4
+            },
+            {
+              "word": " this.",
+              "start": 142.4,
+              "end": 142.76
+            }
+          ]
+        },
+        {
+          "start": 145.22,
+          "end": 149.34,
+          "text": "Let's say this is minus a and this is a the amplitude is equal to a.",
+          "words": [
+            {
+              "word": " Let's",
+              "start": 144.98000000000002,
+              "end": 145.34
+            },
+            {
+              "word": " say",
+              "start": 145.34,
+              "end": 145.46
+            },
+            {
+              "word": " this",
+              "start": 145.46,
+              "end": 145.64
+            },
+            {
+              "word": " is",
+              "start": 145.64,
+              "end": 145.8
+            },
+            {
+              "word": " minus",
+              "start": 145.8,
+              "end": 146.16
+            },
+            {
+              "word": " a",
+              "start": 146.16,
+              "end": 146.5
+            },
+            {
+              "word": " and",
+              "start": 146.5,
+              "end": 147.0
+            },
+            {
+              "word": " this",
+              "start": 147.0,
+              "end": 147.2
+            },
+            {
+              "word": " is",
+              "start": 147.2,
+              "end": 147.36
+            },
+            {
+              "word": " a",
+              "start": 147.36,
+              "end": 147.54
+            },
+            {
+              "word": " the",
+              "start": 147.54,
+              "end": 147.94
+            },
+            {
+              "word": " amplitude",
+              "start": 147.94,
+              "end": 148.3
+            },
+            {
+              "word": " is",
+              "start": 148.3,
+              "end": 148.66
+            },
+            {
+              "word": " equal",
+              "start": 148.66,
+              "end": 148.98
+            },
+            {
+              "word": " to",
+              "start": 148.98,
+              "end": 149.18
+            },
+            {
+              "word": " a.",
+              "start": 149.18,
+              "end": 149.34
+            }
+          ]
+        },
+        {
+          "start": 149.92,
+          "end": 156.58,
+          "text": "When you perform the time reversal you will have x of minus t which is exactly same as",
+          "words": [
+            {
+              "word": " When",
+              "start": 149.92,
+              "end": 149.92
+            },
+            {
+              "word": " you",
+              "start": 149.92,
+              "end": 150.04
+            },
+            {
+              "word": " perform",
+              "start": 150.04,
+              "end": 150.44
+            },
+            {
+              "word": " the",
+              "start": 150.44,
+              "end": 150.92
+            },
+            {
+              "word": " time",
+              "start": 150.92,
+              "end": 151.18
+            },
+            {
+              "word": " reversal",
+              "start": 151.18,
+              "end": 151.56
+            },
+            {
+              "word": " you",
+              "start": 151.56,
+              "end": 152.4
+            },
+            {
+              "word": " will",
+              "start": 152.4,
+              "end": 152.54
+            },
+            {
+              "word": " have",
+              "start": 152.54,
+              "end": 152.84
+            },
+            {
+              "word": " x",
+              "start": 152.84,
+              "end": 153.28
+            },
+            {
+              "word": " of",
+              "start": 153.28,
+              "end": 153.44
+            },
+            {
+              "word": " minus",
+              "start": 153.44,
+              "end": 153.84
+            },
+            {
+              "word": " t",
+              "start": 153.84,
+              "end": 154.18
+            },
+            {
+              "word": " which",
+              "start": 154.18,
+              "end": 154.86
+            },
+            {
+              "word": " is",
+              "start": 154.86,
+              "end": 155.02
+            },
+            {
+              "word": " exactly",
+              "start": 155.02,
+              "end": 155.54
+            },
+            {
+              "word": " same",
+              "start": 155.54,
+              "end": 156.0
+            },
+            {
+              "word": " as",
+              "start": 156.0,
+              "end": 156.58
+            }
+          ]
+        },
+        {
+          "start": 156.58,
+          "end": 157.28,
+          "text": "x of t.",
+          "words": [
+            {
+              "word": " x",
+              "start": 156.58,
+              "end": 156.82
+            },
+            {
+              "word": " of",
+              "start": 156.82,
+              "end": 157.0
+            },
+            {
+              "word": " t.",
+              "start": 157.0,
+              "end": 157.28
+            }
+          ]
+        },
+        {
+          "start": 157.28,
+          "end": 163.24,
+          "text": "When you fold this waveform you will have the same waveform so x of minus t will have",
+          "words": [
+            {
+              "word": " When",
+              "start": 157.28,
+              "end": 157.92
+            },
+            {
+              "word": " you",
+              "start": 157.92,
+              "end": 158.08
+            },
+            {
+              "word": " fold",
+              "start": 158.08,
+              "end": 158.42
+            },
+            {
+              "word": " this",
+              "start": 158.42,
+              "end": 158.66
+            },
+            {
+              "word": " waveform",
+              "start": 158.66,
+              "end": 159.04
+            },
+            {
+              "word": " you",
+              "start": 159.04,
+              "end": 159.7
+            },
+            {
+              "word": " will",
+              "start": 159.7,
+              "end": 159.84
+            },
+            {
+              "word": " have",
+              "start": 159.84,
+              "end": 160.06
+            },
+            {
+              "word": " the",
+              "start": 160.06,
+              "end": 160.24
+            },
+            {
+              "word": " same",
+              "start": 160.24,
+              "end": 160.48
+            },
+            {
+              "word": " waveform",
+              "start": 160.48,
+              "end": 160.94
+            },
+            {
+              "word": " so",
+              "start": 160.94,
+              "end": 161.52
+            },
+            {
+              "word": " x",
+              "start": 161.52,
+              "end": 161.8
+            },
+            {
+              "word": " of",
+              "start": 161.8,
+              "end": 161.94
+            },
+            {
+              "word": " minus",
+              "start": 161.94,
+              "end": 162.26
+            },
+            {
+              "word": " t",
+              "start": 162.26,
+              "end": 162.62
+            },
+            {
+              "word": " will",
+              "start": 162.62,
+              "end": 163.02
+            },
+            {
+              "word": " have",
+              "start": 163.02,
+              "end": 163.24
+            }
+          ]
+        },
+        {
+          "start": 163.24,
+          "end": 166.52,
+          "text": "the same waveform and this is the example of even signal.",
+          "words": [
+            {
+              "word": " the",
+              "start": 163.24,
+              "end": 163.4
+            },
+            {
+              "word": " same",
+              "start": 163.4,
+              "end": 163.62
+            },
+            {
+              "word": " waveform",
+              "start": 163.62,
+              "end": 164.08
+            },
+            {
+              "word": " and",
+              "start": 164.08,
+              "end": 164.72
+            },
+            {
+              "word": " this",
+              "start": 164.72,
+              "end": 164.9
+            },
+            {
+              "word": " is",
+              "start": 164.9,
+              "end": 165.02
+            },
+            {
+              "word": " the",
+              "start": 165.02,
+              "end": 165.16
+            },
+            {
+              "word": " example",
+              "start": 165.16,
+              "end": 165.56
+            },
+            {
+              "word": " of",
+              "start": 165.56,
+              "end": 165.82
+            },
+            {
+              "word": " even",
+              "start": 165.82,
+              "end": 166.02
+            },
+            {
+              "word": " signal.",
+              "start": 166.02,
+              "end": 166.52
+            }
+          ]
+        },
+        {
+          "start": 166.88,
+          "end": 181.2,
+          "text": "In second example we have the waveform like this and when we perform the folding we will",
+          "words": [
+            {
+              "word": " In",
+              "start": 166.88,
+              "end": 167.16
+            },
+            {
+              "word": " second",
+              "start": 167.16,
+              "end": 167.44
+            },
+            {
+              "word": " example",
+              "start": 167.44,
+              "end": 169.66
+            },
+            {
+              "word": " we",
+              "start": 169.66,
+              "end": 170.22
+            },
+            {
+              "word": " have",
+              "start": 170.22,
+              "end": 171.22
+            },
+            {
+              "word": " the",
+              "start": 171.22,
+              "end": 171.4
+            },
+            {
+              "word": " waveform",
+              "start": 171.4,
+              "end": 171.84
+            },
+            {
+              "word": " like",
+              "start": 171.84,
+              "end": 174.34
+            },
+            {
+              "word": " this",
+              "start": 174.34,
+              "end": 174.76
+            },
+            {
+              "word": " and",
+              "start": 174.76,
+              "end": 178.5
+            },
+            {
+              "word": " when",
+              "start": 178.5,
+              "end": 178.66
+            },
+            {
+              "word": " we",
+              "start": 178.66,
+              "end": 178.82
+            },
+            {
+              "word": " perform",
+              "start": 178.82,
+              "end": 179.34
+            },
+            {
+              "word": " the",
+              "start": 179.34,
+              "end": 179.72
+            },
+            {
+              "word": " folding",
+              "start": 179.72,
+              "end": 180.18
+            },
+            {
+              "word": " we",
+              "start": 180.18,
+              "end": 181.04
+            },
+            {
+              "word": " will",
+              "start": 181.04,
+              "end": 181.2
+            }
+          ]
+        },
+        {
+          "start": 181.2,
+          "end": 182.72,
+          "text": "have the identical waveform.",
+          "words": [
+            {
+              "word": " have",
+              "start": 181.2,
+              "end": 181.42
+            },
+            {
+              "word": " the",
+              "start": 181.42,
+              "end": 181.58
+            },
+            {
+              "word": " identical",
+              "start": 181.58,
+              "end": 182.02
+            },
+            {
+              "word": " waveform.",
+              "start": 182.02,
+              "end": 182.72
+            }
+          ]
+        },
+        {
+          "start": 183.35999999999999,
+          "end": 186.52,
+          "text": "So x of minus t will have the same waveform.",
+          "words": [
+            {
+              "word": " So",
+              "start": 183.1,
+              "end": 183.46
+            },
+            {
+              "word": " x",
+              "start": 183.46,
+              "end": 183.74
+            },
+            {
+              "word": " of",
+              "start": 183.74,
+              "end": 183.88
+            },
+            {
+              "word": " minus",
+              "start": 183.88,
+              "end": 184.24
+            },
+            {
+              "word": " t",
+              "start": 184.24,
+              "end": 184.6
+            },
+            {
+              "word": " will",
+              "start": 184.6,
+              "end": 185.06
+            },
+            {
+              "word": " have",
+              "start": 185.06,
+              "end": 185.42
+            },
+            {
+              "word": " the",
+              "start": 185.42,
+              "end": 185.86
+            },
+            {
+              "word": " same",
+              "start": 185.86,
+              "end": 186.14
+            },
+            {
+              "word": " waveform.",
+              "start": 186.14,
+              "end": 186.52
+            }
+          ]
+        },
+        {
+          "start": 187.48,
+          "end": 194.92,
+          "text": "The third example is x of t equal to cos omega t.",
+          "words": [
+            {
+              "word": " The",
+              "start": 187.48,
+              "end": 187.5
+            },
+            {
+              "word": " third",
+              "start": 187.5,
+              "end": 187.74
+            },
+            {
+              "word": " example",
+              "start": 187.74,
+              "end": 190.44
+            },
+            {
+              "word": " is",
+              "start": 190.44,
+              "end": 191.24
+            },
+            {
+              "word": " x",
+              "start": 191.24,
+              "end": 191.56
+            },
+            {
+              "word": " of",
+              "start": 191.56,
+              "end": 191.72
+            },
+            {
+              "word": " t",
+              "start": 191.72,
+              "end": 192.02
+            },
+            {
+              "word": " equal",
+              "start": 192.02,
+              "end": 192.76
+            },
+            {
+              "word": " to",
+              "start": 192.76,
+              "end": 193.16
+            },
+            {
+              "word": " cos",
+              "start": 193.16,
+              "end": 193.84
+            },
+            {
+              "word": " omega",
+              "start": 193.84,
+              "end": 194.58
+            },
+            {
+              "word": " t.",
+              "start": 194.58,
+              "end": 194.92
+            }
+          ]
+        },
+        {
+          "start": 195.2,
+          "end": 205.48,
+          "text": "Cos omega t is the even signal because when we have minus t in place of t x of minus t",
+          "words": [
+            {
+              "word": " Cos",
+              "start": 195.2,
+              "end": 195.66
+            },
+            {
+              "word": " omega",
+              "start": 195.66,
+              "end": 195.96
+            },
+            {
+              "word": " t",
+              "start": 195.96,
+              "end": 196.3
+            },
+            {
+              "word": " is",
+              "start": 196.3,
+              "end": 196.9
+            },
+            {
+              "word": " the",
+              "start": 196.9,
+              "end": 197.1
+            },
+            {
+              "word": " even",
+              "start": 197.1,
+              "end": 197.32
+            },
+            {
+              "word": " signal",
+              "start": 197.32,
+              "end": 197.86
+            },
+            {
+              "word": " because",
+              "start": 197.86,
+              "end": 198.66
+            },
+            {
+              "word": " when",
+              "start": 198.66,
+              "end": 198.92
+            },
+            {
+              "word": " we",
+              "start": 198.92,
+              "end": 199.08
+            },
+            {
+              "word": " have",
+              "start": 199.08,
+              "end": 200.7
+            },
+            {
+              "word": " minus",
+              "start": 200.7,
+              "end": 201.42
+            },
+            {
+              "word": " t",
+              "start": 201.42,
+              "end": 202.02
+            },
+            {
+              "word": " in",
+              "start": 202.02,
+              "end": 202.52
+            },
+            {
+              "word": " place",
+              "start": 202.52,
+              "end": 202.78
+            },
+            {
+              "word": " of",
+              "start": 202.78,
+              "end": 203.06
+            },
+            {
+              "word": " t",
+              "start": 203.06,
+              "end": 203.32
+            },
+            {
+              "word": " x",
+              "start": 203.32,
+              "end": 204.22
+            },
+            {
+              "word": " of",
+              "start": 204.22,
+              "end": 204.38
+            },
+            {
+              "word": " minus",
+              "start": 204.38,
+              "end": 204.74
+            },
+            {
+              "word": " t",
+              "start": 204.74,
+              "end": 205.48
+            }
+          ]
+        },
+        {
+          "start": 205.48,
+          "end": 216.44,
+          "text": "x of minus t is equal to cos minus omega t and cos minus theta is equal to cos theta.",
+          "words": [
+            {
+              "word": " x",
+              "start": 205.48,
+              "end": 205.92
+            },
+            {
+              "word": " of",
+              "start": 205.92,
+              "end": 206.2
+            },
+            {
+              "word": " minus",
+              "start": 206.2,
+              "end": 206.74
+            },
+            {
+              "word": " t",
+              "start": 206.74,
+              "end": 207.18
+            },
+            {
+              "word": " is",
+              "start": 207.18,
+              "end": 207.9
+            },
+            {
+              "word": " equal",
+              "start": 207.9,
+              "end": 208.28
+            },
+            {
+              "word": " to",
+              "start": 208.28,
+              "end": 208.48
+            },
+            {
+              "word": " cos",
+              "start": 208.48,
+              "end": 208.92
+            },
+            {
+              "word": " minus",
+              "start": 208.92,
+              "end": 209.84
+            },
+            {
+              "word": " omega",
+              "start": 209.84,
+              "end": 210.68
+            },
+            {
+              "word": " t",
+              "start": 210.68,
+              "end": 211.1
+            },
+            {
+              "word": " and",
+              "start": 211.1,
+              "end": 211.88
+            },
+            {
+              "word": " cos",
+              "start": 211.88,
+              "end": 212.5
+            },
+            {
+              "word": " minus",
+              "start": 212.5,
+              "end": 213.48
+            },
+            {
+              "word": " theta",
+              "start": 213.48,
+              "end": 213.92
+            },
+            {
+              "word": " is",
+              "start": 213.92,
+              "end": 214.9
+            },
+            {
+              "word": " equal",
+              "start": 214.9,
+              "end": 215.4
+            },
+            {
+              "word": " to",
+              "start": 215.4,
+              "end": 215.84
+            },
+            {
+              "word": " cos",
+              "start": 215.84,
+              "end": 216.14
+            },
+            {
+              "word": " theta.",
+              "start": 216.14,
+              "end": 216.44
+            }
+          ]
+        },
+        {
+          "start": 217.0,
+          "end": 223.12,
+          "text": "So cos minus omega t is simply equal to cos omega t which is equal to xt.",
+          "words": [
+            {
+              "word": " So",
+              "start": 217.0,
+              "end": 217.06
+            },
+            {
+              "word": " cos",
+              "start": 217.06,
+              "end": 217.4
+            },
+            {
+              "word": " minus",
+              "start": 217.4,
+              "end": 217.84
+            },
+            {
+              "word": " omega",
+              "start": 217.84,
+              "end": 218.2
+            },
+            {
+              "word": " t",
+              "start": 218.2,
+              "end": 218.54
+            },
+            {
+              "word": " is",
+              "start": 218.54,
+              "end": 218.98
+            },
+            {
+              "word": " simply",
+              "start": 218.98,
+              "end": 219.34
+            },
+            {
+              "word": " equal",
+              "start": 219.34,
+              "end": 219.78
+            },
+            {
+              "word": " to",
+              "start": 219.78,
+              "end": 220.64
+            },
+            {
+              "word": " cos",
+              "start": 220.64,
+              "end": 220.98
+            },
+            {
+              "word": " omega",
+              "start": 220.98,
+              "end": 221.28
+            },
+            {
+              "word": " t",
+              "start": 221.28,
+              "end": 221.64
+            },
+            {
+              "word": " which",
+              "start": 221.64,
+              "end": 222.1
+            },
+            {
+              "word": " is",
+              "start": 222.1,
+              "end": 222.24
+            },
+            {
+              "word": " equal",
+              "start": 222.24,
+              "end": 222.58
+            },
+            {
+              "word": " to",
+              "start": 222.58,
+              "end": 222.74
+            },
+            {
+              "word": " xt.",
+              "start": 222.74,
+              "end": 223.12
+            }
+          ]
+        },
+        {
+          "start": 225.16,
+          "end": 232.94,
+          "text": "So x of minus t is equal to xt so this signal cos omega t is satisfying the condition of",
+          "words": [
+            {
+              "word": " So",
+              "start": 225.16,
+              "end": 225.4
+            },
+            {
+              "word": " x",
+              "start": 225.4,
+              "end": 225.64
+            },
+            {
+              "word": " of",
+              "start": 225.64,
+              "end": 225.78
+            },
+            {
+              "word": " minus",
+              "start": 225.78,
+              "end": 226.1
+            },
+            {
+              "word": " t",
+              "start": 226.1,
+              "end": 226.5
+            },
+            {
+              "word": " is",
+              "start": 226.5,
+              "end": 227.0
+            },
+            {
+              "word": " equal",
+              "start": 227.0,
+              "end": 227.3
+            },
+            {
+              "word": " to",
+              "start": 227.3,
+              "end": 227.48
+            },
+            {
+              "word": " xt",
+              "start": 227.48,
+              "end": 227.82
+            },
+            {
+              "word": " so",
+              "start": 227.82,
+              "end": 228.38
+            },
+            {
+              "word": " this",
+              "start": 228.38,
+              "end": 228.68
+            },
+            {
+              "word": " signal",
+              "start": 228.68,
+              "end": 229.14
+            },
+            {
+              "word": " cos",
+              "start": 229.14,
+              "end": 229.8
+            },
+            {
+              "word": " omega",
+              "start": 229.8,
+              "end": 230.12
+            },
+            {
+              "word": " t",
+              "start": 230.12,
+              "end": 230.46
+            },
+            {
+              "word": " is",
+              "start": 230.46,
+              "end": 230.96
+            },
+            {
+              "word": " satisfying",
+              "start": 230.96,
+              "end": 231.42
+            },
+            {
+              "word": " the",
+              "start": 231.42,
+              "end": 231.72
+            },
+            {
+              "word": " condition",
+              "start": 231.72,
+              "end": 232.32
+            },
+            {
+              "word": " of",
+              "start": 232.32,
+              "end": 232.94
+            }
+          ]
+        },
+        {
+          "start": 232.94,
+          "end": 233.88,
+          "text": "the even signals.",
+          "words": [
+            {
+              "word": " the",
+              "start": 232.94,
+              "end": 233.12
+            },
+            {
+              "word": " even",
+              "start": 233.12,
+              "end": 233.36
+            },
+            {
+              "word": " signals.",
+              "start": 233.36,
+              "end": 233.88
+            }
+          ]
+        },
+        {
+          "start": 234.4,
+          "end": 242.98,
+          "text": "And when we plot the waveform of cos omega t it will look something like this.",
+          "words": [
+            {
+              "word": " And",
+              "start": 234.2,
+              "end": 234.54
+            },
+            {
+              "word": " when",
+              "start": 234.54,
+              "end": 234.7
+            },
+            {
+              "word": " we",
+              "start": 234.7,
+              "end": 234.88
+            },
+            {
+              "word": " plot",
+              "start": 234.88,
+              "end": 235.36
+            },
+            {
+              "word": " the",
+              "start": 235.36,
+              "end": 236.56
+            },
+            {
+              "word": " waveform",
+              "start": 236.56,
+              "end": 236.92
+            },
+            {
+              "word": " of",
+              "start": 236.92,
+              "end": 237.22
+            },
+            {
+              "word": " cos",
+              "start": 237.22,
+              "end": 237.5
+            },
+            {
+              "word": " omega",
+              "start": 237.5,
+              "end": 237.8
+            },
+            {
+              "word": " t",
+              "start": 237.8,
+              "end": 238.14
+            },
+            {
+              "word": " it",
+              "start": 238.14,
+              "end": 241.6
+            },
+            {
+              "word": " will",
+              "start": 241.6,
+              "end": 241.76
+            },
+            {
+              "word": " look",
+              "start": 241.76,
+              "end": 241.96
+            },
+            {
+              "word": " something",
+              "start": 241.96,
+              "end": 242.28
+            },
+            {
+              "word": " like",
+              "start": 242.28,
+              "end": 242.6
+            },
+            {
+              "word": " this.",
+              "start": 242.6,
+              "end": 242.98
+            }
+          ]
+        },
+        {
+          "start": 248.4,
+          "end": 254.32,
+          "text": "And you can see this waveform is mirror image about the y axis or we can say this waveform",
+          "words": [
+            {
+              "word": " And",
+              "start": 248.2,
+              "end": 248.54
+            },
+            {
+              "word": " you",
+              "start": 248.54,
+              "end": 248.66
+            },
+            {
+              "word": " can",
+              "start": 248.66,
+              "end": 248.82
+            },
+            {
+              "word": " see",
+              "start": 248.82,
+              "end": 249.02
+            },
+            {
+              "word": " this",
+              "start": 249.02,
+              "end": 249.22
+            },
+            {
+              "word": " waveform",
+              "start": 249.22,
+              "end": 249.72
+            },
+            {
+              "word": " is",
+              "start": 249.72,
+              "end": 250.52
+            },
+            {
+              "word": " mirror",
+              "start": 250.52,
+              "end": 250.8
+            },
+            {
+              "word": " image",
+              "start": 250.8,
+              "end": 251.2
+            },
+            {
+              "word": " about",
+              "start": 251.2,
+              "end": 251.78
+            },
+            {
+              "word": " the",
+              "start": 251.78,
+              "end": 252.04
+            },
+            {
+              "word": " y",
+              "start": 252.04,
+              "end": 252.26
+            },
+            {
+              "word": " axis",
+              "start": 252.26,
+              "end": 252.66
+            },
+            {
+              "word": " or",
+              "start": 252.66,
+              "end": 253.2
+            },
+            {
+              "word": " we",
+              "start": 253.2,
+              "end": 253.32
+            },
+            {
+              "word": " can",
+              "start": 253.32,
+              "end": 253.5
+            },
+            {
+              "word": " say",
+              "start": 253.5,
+              "end": 253.7
+            },
+            {
+              "word": " this",
+              "start": 253.7,
+              "end": 253.9
+            },
+            {
+              "word": " waveform",
+              "start": 253.9,
+              "end": 254.32
+            }
+          ]
+        },
+        {
+          "start": 254.88,
+          "end": 256.98,
+          "text": "is symmetrical about the y axis.",
+          "words": [
+            {
+              "word": " is",
+              "start": 254.68,
+              "end": 255.02
+            },
+            {
+              "word": " symmetrical",
+              "start": 255.02,
+              "end": 255.38
+            },
+            {
+              "word": " about",
+              "start": 255.38,
+              "end": 255.94
+            },
+            {
+              "word": " the",
+              "start": 255.94,
+              "end": 256.32
+            },
+            {
+              "word": " y",
+              "start": 256.32,
+              "end": 256.58
+            },
+            {
+              "word": " axis.",
+              "start": 256.58,
+              "end": 256.98
+            }
+          ]
+        },
+        {
+          "start": 257.5,
+          "end": 263.74,
+          "text": "So in case of even signals we have the symmetrical waveform or mirror image about the y axis.",
+          "words": [
+            {
+              "word": " So",
+              "start": 257.24,
+              "end": 257.6
+            },
+            {
+              "word": " in",
+              "start": 257.6,
+              "end": 257.76
+            },
+            {
+              "word": " case",
+              "start": 257.76,
+              "end": 258.0
+            },
+            {
+              "word": " of",
+              "start": 258.0,
+              "end": 258.2
+            },
+            {
+              "word": " even",
+              "start": 258.2,
+              "end": 258.4
+            },
+            {
+              "word": " signals",
+              "start": 258.4,
+              "end": 258.94
+            },
+            {
+              "word": " we",
+              "start": 258.94,
+              "end": 259.56
+            },
+            {
+              "word": " have",
+              "start": 259.56,
+              "end": 259.8
+            },
+            {
+              "word": " the",
+              "start": 259.8,
+              "end": 259.98
+            },
+            {
+              "word": " symmetrical",
+              "start": 259.98,
+              "end": 260.48
+            },
+            {
+              "word": " waveform",
+              "start": 260.48,
+              "end": 261.16
+            },
+            {
+              "word": " or",
+              "start": 261.16,
+              "end": 261.82
+            },
+            {
+              "word": " mirror",
+              "start": 261.82,
+              "end": 262.12
+            },
+            {
+              "word": " image",
+              "start": 262.12,
+              "end": 262.48
+            },
+            {
+              "word": " about",
+              "start": 262.48,
+              "end": 262.94
+            },
+            {
+              "word": " the",
+              "start": 262.94,
+              "end": 263.18
+            },
+            {
+              "word": " y",
+              "start": 263.18,
+              "end": 263.4
+            },
+            {
+              "word": " axis.",
+              "start": 263.4,
+              "end": 263.74
+            }
+          ]
+        },
+        {
+          "start": 264.24,
+          "end": 271.4,
+          "text": "In this signal also you can see the waveform is mirror image about the y axis.",
+          "words": [
+            {
+              "word": " In",
+              "start": 264.24,
+              "end": 264.36
+            },
+            {
+              "word": " this",
+              "start": 264.36,
+              "end": 264.54
+            },
+            {
+              "word": " signal",
+              "start": 264.54,
+              "end": 264.82
+            },
+            {
+              "word": " also",
+              "start": 264.82,
+              "end": 265.26
+            },
+            {
+              "word": " you",
+              "start": 265.26,
+              "end": 265.66
+            },
+            {
+              "word": " can",
+              "start": 265.66,
+              "end": 265.84
+            },
+            {
+              "word": " see",
+              "start": 265.84,
+              "end": 266.12
+            },
+            {
+              "word": " the",
+              "start": 266.12,
+              "end": 266.78
+            },
+            {
+              "word": " waveform",
+              "start": 266.78,
+              "end": 267.26
+            },
+            {
+              "word": " is",
+              "start": 267.26,
+              "end": 268.26
+            },
+            {
+              "word": " mirror",
+              "start": 268.26,
+              "end": 268.96
+            },
+            {
+              "word": " image",
+              "start": 268.96,
+              "end": 269.44
+            },
+            {
+              "word": " about",
+              "start": 269.44,
+              "end": 270.54
+            },
+            {
+              "word": " the",
+              "start": 270.54,
+              "end": 270.78
+            },
+            {
+              "word": " y",
+              "start": 270.78,
+              "end": 271.0
+            },
+            {
+              "word": " axis.",
+              "start": 271.0,
+              "end": 271.4
+            }
+          ]
+        },
+        {
+          "start": 271.8,
+          "end": 274.16,
+          "text": "Now we will talk about the odd signals.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 271.8,
+              "end": 271.94
+            },
+            {
+              "word": " we",
+              "start": 271.94,
+              "end": 272.1
+            },
+            {
+              "word": " will",
+              "start": 272.1,
+              "end": 272.24
+            },
+            {
+              "word": " talk",
+              "start": 272.24,
+              "end": 272.46
+            },
+            {
+              "word": " about",
+              "start": 272.46,
+              "end": 272.92
+            },
+            {
+              "word": " the",
+              "start": 272.92,
+              "end": 273.48
+            },
+            {
+              "word": " odd",
+              "start": 273.48,
+              "end": 273.74
+            },
+            {
+              "word": " signals.",
+              "start": 273.74,
+              "end": 274.16
+            }
+          ]
+        },
+        {
+          "start": 275.18,
+          "end": 281.46,
+          "text": "The signals which does not remain identical under folding operation are called as odd",
+          "words": [
+            {
+              "word": " The",
+              "start": 275.18,
+              "end": 275.3
+            },
+            {
+              "word": " signals",
+              "start": 275.3,
+              "end": 275.64
+            },
+            {
+              "word": " which",
+              "start": 275.64,
+              "end": 276.0
+            },
+            {
+              "word": " does",
+              "start": 276.0,
+              "end": 276.24
+            },
+            {
+              "word": " not",
+              "start": 276.24,
+              "end": 276.6
+            },
+            {
+              "word": " remain",
+              "start": 276.6,
+              "end": 277.46
+            },
+            {
+              "word": " identical",
+              "start": 277.46,
+              "end": 278.18
+            },
+            {
+              "word": " under",
+              "start": 278.18,
+              "end": 278.94
+            },
+            {
+              "word": " folding",
+              "start": 278.94,
+              "end": 279.36
+            },
+            {
+              "word": " operation",
+              "start": 279.36,
+              "end": 280.0
+            },
+            {
+              "word": " are",
+              "start": 280.0,
+              "end": 280.76
+            },
+            {
+              "word": " called",
+              "start": 280.76,
+              "end": 281.08
+            },
+            {
+              "word": " as",
+              "start": 281.08,
+              "end": 281.26
+            },
+            {
+              "word": " odd",
+              "start": 281.26,
+              "end": 281.46
+            }
+          ]
+        },
+        {
+          "start": 281.46,
+          "end": 281.86,
+          "text": "signals.",
+          "words": [
+            {
+              "word": " signals.",
+              "start": 281.46,
+              "end": 281.86
+            }
+          ]
+        },
+        {
+          "start": 282.42,
+          "end": 290.26,
+          "text": "So this condition is not true in case of odd signals x of minus t is not equal to x of",
+          "words": [
+            {
+              "word": " So",
+              "start": 282.2,
+              "end": 282.56
+            },
+            {
+              "word": " this",
+              "start": 282.56,
+              "end": 282.78
+            },
+            {
+              "word": " condition",
+              "start": 282.78,
+              "end": 283.3
+            },
+            {
+              "word": " is",
+              "start": 283.3,
+              "end": 283.54
+            },
+            {
+              "word": " not",
+              "start": 283.54,
+              "end": 283.72
+            },
+            {
+              "word": " true",
+              "start": 283.72,
+              "end": 284.06
+            },
+            {
+              "word": " in",
+              "start": 284.06,
+              "end": 284.58
+            },
+            {
+              "word": " case",
+              "start": 284.58,
+              "end": 284.8
+            },
+            {
+              "word": " of",
+              "start": 284.8,
+              "end": 285.02
+            },
+            {
+              "word": " odd",
+              "start": 285.02,
+              "end": 285.2
+            },
+            {
+              "word": " signals",
+              "start": 285.2,
+              "end": 285.58
+            },
+            {
+              "word": " x",
+              "start": 285.58,
+              "end": 286.5
+            },
+            {
+              "word": " of",
+              "start": 286.5,
+              "end": 286.84
+            },
+            {
+              "word": " minus",
+              "start": 286.84,
+              "end": 287.3
+            },
+            {
+              "word": " t",
+              "start": 287.3,
+              "end": 287.72
+            },
+            {
+              "word": " is",
+              "start": 287.72,
+              "end": 288.16
+            },
+            {
+              "word": " not",
+              "start": 288.16,
+              "end": 288.34
+            },
+            {
+              "word": " equal",
+              "start": 288.34,
+              "end": 288.76
+            },
+            {
+              "word": " to",
+              "start": 288.76,
+              "end": 289.78
+            },
+            {
+              "word": " x",
+              "start": 289.78,
+              "end": 290.06
+            },
+            {
+              "word": " of",
+              "start": 290.06,
+              "end": 290.26
+            }
+          ]
+        },
+        {
+          "start": 290.26,
+          "end": 294.44,
+          "text": "t odd signals are anti-symmetrical about the y axis.",
+          "words": [
+            {
+              "word": " t",
+              "start": 290.26,
+              "end": 290.56
+            },
+            {
+              "word": " odd",
+              "start": 290.56,
+              "end": 291.2
+            },
+            {
+              "word": " signals",
+              "start": 291.2,
+              "end": 291.56
+            },
+            {
+              "word": " are",
+              "start": 291.56,
+              "end": 291.96
+            },
+            {
+              "word": " anti",
+              "start": 291.96,
+              "end": 292.24
+            },
+            {
+              "word": "-symmetrical",
+              "start": 292.24,
+              "end": 292.7
+            },
+            {
+              "word": " about",
+              "start": 292.7,
+              "end": 293.54
+            },
+            {
+              "word": " the",
+              "start": 293.54,
+              "end": 293.82
+            },
+            {
+              "word": " y",
+              "start": 293.82,
+              "end": 294.04
+            },
+            {
+              "word": " axis.",
+              "start": 294.04,
+              "end": 294.44
+            }
+          ]
+        },
+        {
+          "start": 294.98,
+          "end": 299.96,
+          "text": "Now let us try to understand what do we mean by anti-symmetrical signals.",
+          "words": [
+            {
+              "word": " Now",
+              "start": 294.98,
+              "end": 295.08
+            },
+            {
+              "word": " let",
+              "start": 295.08,
+              "end": 295.26
+            },
+            {
+              "word": " us",
+              "start": 295.26,
+              "end": 295.38
+            },
+            {
+              "word": " try",
+              "start": 295.38,
+              "end": 295.6
+            },
+            {
+              "word": " to",
+              "start": 295.6,
+              "end": 295.78
+            },
+            {
+              "word": " understand",
+              "start": 295.78,
+              "end": 296.22
+            },
+            {
+              "word": " what",
+              "start": 296.22,
+              "end": 296.88
+            },
+            {
+              "word": " do",
+              "start": 296.88,
+              "end": 297.06
+            },
+            {
+              "word": " we",
+              "start": 297.06,
+              "end": 297.18
+            },
+            {
+              "word": " mean",
+              "start": 297.18,
+              "end": 297.44
+            },
+            {
+              "word": " by",
+              "start": 297.44,
+              "end": 297.74
+            },
+            {
+              "word": " anti",
+              "start": 297.74,
+              "end": 298.74
+            },
+            {
+              "word": "-symmetrical",
+              "start": 298.74,
+              "end": 299.32
+            },
+            {
+              "word": " signals.",
+              "start": 299.32,
+              "end": 299.96
+            }
+          ]
+        },
+        {
+          "start": 300.74,
+          "end": 308.76,
+          "text": "We will perform the time reversal of the signal xt and the signal xt is having the waveform",
+          "words": [
+            {
+              "word": " We",
+              "start": 300.74,
+              "end": 301.38
+            },
+            {
+              "word": " will",
+              "start": 301.38,
+              "end": 301.56
+            },
+            {
+              "word": " perform",
+              "start": 301.56,
+              "end": 302.1
+            },
+            {
+              "word": " the",
+              "start": 302.1,
+              "end": 303.28
+            },
+            {
+              "word": " time",
+              "start": 303.28,
+              "end": 303.62
+            },
+            {
+              "word": " reversal",
+              "start": 303.62,
+              "end": 304.06
+            },
+            {
+              "word": " of",
+              "start": 304.06,
+              "end": 304.82
+            },
+            {
+              "word": " the",
+              "start": 304.82,
+              "end": 305.02
+            },
+            {
+              "word": " signal",
+              "start": 305.02,
+              "end": 305.32
+            },
+            {
+              "word": " xt",
+              "start": 305.32,
+              "end": 305.72
+            },
+            {
+              "word": " and",
+              "start": 305.72,
+              "end": 306.54
+            },
+            {
+              "word": " the",
+              "start": 306.54,
+              "end": 306.72
+            },
+            {
+              "word": " signal",
+              "start": 306.72,
+              "end": 307.0
+            },
+            {
+              "word": " xt",
+              "start": 307.0,
+              "end": 307.36
+            },
+            {
+              "word": " is",
+              "start": 307.36,
+              "end": 307.94
+            },
+            {
+              "word": " having",
+              "start": 307.94,
+              "end": 308.18
+            },
+            {
+              "word": " the",
+              "start": 308.18,
+              "end": 308.4
+            },
+            {
+              "word": " waveform",
+              "start": 308.4,
+              "end": 308.76
+            }
+          ]
+        },
+        {
+          "start": 309.3,
+          "end": 309.94,
+          "text": "like this.",
+          "words": [
+            {
+              "word": " like",
+              "start": 309.2,
+              "end": 309.56
+            },
+            {
+              "word": " this.",
+              "start": 309.56,
+              "end": 309.94
+            }
+          ]
+        },
+        {
+          "start": 310.94,
+          "end": 320.5,
+          "text": "This axis is the y axis and in case of odd signals we have anti-symmetrical waveform",
+          "words": [
+            {
+              "word": " This",
+              "start": 310.94,
+              "end": 311.32
+            },
+            {
+              "word": " axis",
+              "start": 311.32,
+              "end": 311.72
+            },
+            {
+              "word": " is",
+              "start": 311.72,
+              "end": 312.34
+            },
+            {
+              "word": " the",
+              "start": 312.34,
+              "end": 312.52
+            },
+            {
+              "word": " y",
+              "start": 312.52,
+              "end": 312.76
+            },
+            {
+              "word": " axis",
+              "start": 312.76,
+              "end": 313.2
+            },
+            {
+              "word": " and",
+              "start": 313.2,
+              "end": 316.74
+            },
+            {
+              "word": " in",
+              "start": 316.74,
+              "end": 316.88
+            },
+            {
+              "word": " case",
+              "start": 316.88,
+              "end": 317.16
+            },
+            {
+              "word": " of",
+              "start": 317.16,
+              "end": 317.54
+            },
+            {
+              "word": " odd",
+              "start": 317.54,
+              "end": 318.04
+            },
+            {
+              "word": " signals",
+              "start": 318.04,
+              "end": 318.42
+            },
+            {
+              "word": " we",
+              "start": 318.42,
+              "end": 318.78
+            },
+            {
+              "word": " have",
+              "start": 318.78,
+              "end": 319.02
+            },
+            {
+              "word": " anti",
+              "start": 319.02,
+              "end": 319.42
+            },
+            {
+              "word": "-symmetrical",
+              "start": 319.42,
+              "end": 319.94
+            },
+            {
+              "word": " waveform",
+              "start": 319.94,
+              "end": 320.5
+            }
+          ]
+        },
+        {
+          "start": 321.06,
+          "end": 322.18,
+          "text": "about the y axis.",
+          "words": [
+            {
+              "word": " about",
+              "start": 320.96,
+              "end": 321.34
+            },
+            {
+              "word": " the",
+              "start": 321.34,
+              "end": 321.58
+            },
+            {
+              "word": " y",
+              "start": 321.58,
+              "end": 321.8
+            },
+            {
+              "word": " axis.",
+              "start": 321.8,
+              "end": 322.18
+            }
+          ]
+        },
+        {
+          "start": 322.72,
+          "end": 329.5,
+          "text": "When we perform the time reversal this means when we try to find out x of minus t we will",
+          "words": [
+            {
+              "word": " When",
+              "start": 322.72,
+              "end": 322.82
+            },
+            {
+              "word": " we",
+              "start": 322.82,
+              "end": 322.98
+            },
+            {
+              "word": " perform",
+              "start": 322.98,
+              "end": 323.36
+            },
+            {
+              "word": " the",
+              "start": 323.36,
+              "end": 323.6
+            },
+            {
+              "word": " time",
+              "start": 323.6,
+              "end": 323.82
+            },
+            {
+              "word": " reversal",
+              "start": 323.82,
+              "end": 324.26
+            },
+            {
+              "word": " this",
+              "start": 324.26,
+              "end": 325.04
+            },
+            {
+              "word": " means",
+              "start": 325.04,
+              "end": 325.38
+            },
+            {
+              "word": " when",
+              "start": 325.38,
+              "end": 326.08
+            },
+            {
+              "word": " we",
+              "start": 326.08,
+              "end": 326.2
+            },
+            {
+              "word": " try",
+              "start": 326.2,
+              "end": 326.42
+            },
+            {
+              "word": " to",
+              "start": 326.42,
+              "end": 326.6
+            },
+            {
+              "word": " find",
+              "start": 326.6,
+              "end": 326.9
+            },
+            {
+              "word": " out",
+              "start": 326.9,
+              "end": 327.26
+            },
+            {
+              "word": " x",
+              "start": 327.26,
+              "end": 327.98
+            },
+            {
+              "word": " of",
+              "start": 327.98,
+              "end": 328.14
+            },
+            {
+              "word": " minus",
+              "start": 328.14,
+              "end": 328.5
+            },
+            {
+              "word": " t",
+              "start": 328.5,
+              "end": 328.88
+            },
+            {
+              "word": " we",
+              "start": 328.88,
+              "end": 329.34
+            },
+            {
+              "word": " will",
+              "start": 329.34,
+              "end": 329.5
+            }
+          ]
+        },
+        {
+          "start": 329.5,
+          "end": 331.8,
+          "text": "have the waveform like this.",
+          "words": [
+            {
+              "word": " have",
+              "start": 329.5,
+              "end": 329.86
+            },
+            {
+              "word": " the",
+              "start": 329.86,
+              "end": 330.26
+            },
+            {
+              "word": " waveform",
+              "start": 330.26,
+              "end": 330.7
+            },
+            {
+              "word": " like",
+              "start": 330.7,
+              "end": 331.44
+            },
+            {
+              "word": " this.",
+              "start": 331.44,
+              "end": 331.8
+            }
+          ]
+        },
+        {
+          "start": 332.64,
+          "end": 345.02,
+          "text": "And this waveform represents minus xt or we can write x of t is equal to minus x minus",
+          "words": [
+            {
+              "word": " And",
+              "start": 332.64,
+              "end": 333.44
+            },
+            {
+              "word": " this",
+              "start": 333.44,
+              "end": 333.7
+            },
+            {
+              "word": " waveform",
+              "start": 333.7,
+              "end": 334.28
+            },
+            {
+              "word": " represents",
+              "start": 334.28,
+              "end": 335.38
+            },
+            {
+              "word": " minus",
+              "start": 335.38,
+              "end": 336.7
+            },
+            {
+              "word": " xt",
+              "start": 336.7,
+              "end": 337.92
+            },
+            {
+              "word": " or",
+              "start": 337.92,
+              "end": 338.8
+            },
+            {
+              "word": " we",
+              "start": 338.8,
+              "end": 338.94
+            },
+            {
+              "word": " can",
+              "start": 338.94,
+              "end": 339.12
+            },
+            {
+              "word": " write",
+              "start": 339.12,
+              "end": 339.46
+            },
+            {
+              "word": " x",
+              "start": 339.46,
+              "end": 340.68
+            },
+            {
+              "word": " of",
+              "start": 340.68,
+              "end": 341.02
+            },
+            {
+              "word": " t",
+              "start": 341.02,
+              "end": 342.12
+            },
+            {
+              "word": " is",
+              "start": 342.12,
+              "end": 342.72
+            },
+            {
+              "word": " equal",
+              "start": 342.72,
+              "end": 343.06
+            },
+            {
+              "word": " to",
+              "start": 343.06,
+              "end": 343.26
+            },
+            {
+              "word": " minus",
+              "start": 343.26,
+              "end": 343.7
+            },
+            {
+              "word": " x",
+              "start": 343.7,
+              "end": 344.26
+            },
+            {
+              "word": " minus",
+              "start": 344.26,
+              "end": 345.02
+            }
+          ]
+        },
+        {
+          "start": 345.02,
+          "end": 345.58,
+          "text": "t.",
+          "words": [
+            {
+              "word": " t.",
+              "start": 345.02,
+              "end": 345.58
+            }
+          ]
+        },
+        {
+          "start": 346.18,
+          "end": 355.6,
+          "text": "So this is the condition for odd signals and if we talk about time t equal to 0 when",
+          "words": [
+            {
+              "word": " So",
+              "start": 346.18,
+              "end": 346.28
+            },
+            {
+              "word": " this",
+              "start": 346.28,
+              "end": 346.48
+            },
+            {
+              "word": " is",
+              "start": 346.48,
+              "end": 346.64
+            },
+            {
+              "word": " the",
+              "start": 346.64,
+              "end": 346.76
+            },
+            {
+              "word": " condition",
+              "start": 346.76,
+              "end": 347.38
+            },
+            {
+              "word": " for",
+              "start": 347.38,
+              "end": 349.0
+            },
+            {
+              "word": " odd",
+              "start": 349.0,
+              "end": 349.26
+            },
+            {
+              "word": " signals",
+              "start": 349.26,
+              "end": 349.64
+            },
+            {
+              "word": " and",
+              "start": 349.64,
+              "end": 351.94
+            },
+            {
+              "word": " if",
+              "start": 351.94,
+              "end": 352.1
+            },
+            {
+              "word": " we",
+              "start": 352.1,
+              "end": 352.22
+            },
+            {
+              "word": " talk",
+              "start": 352.22,
+              "end": 352.44
+            },
+            {
+              "word": " about",
+              "start": 352.44,
+              "end": 352.86
+            },
+            {
+              "word": " time",
+              "start": 352.86,
+              "end": 353.78
+            },
+            {
+              "word": " t",
+              "start": 353.78,
+              "end": 354.08
+            },
+            {
+              "word": " equal",
+              "start": 354.08,
+              "end": 354.44
+            },
+            {
+              "word": " to",
+              "start": 354.44,
+              "end": 354.68
+            },
+            {
+              "word": " 0",
+              "start": 354.68,
+              "end": 354.98
+            },
+            {
+              "word": " when",
+              "start": 354.98,
+              "end": 355.6
+            }
+          ]
+        },
+        {
+          "start": 355.6,
+          "end": 366.42,
+          "text": "time t is equal to 0 x of 0 is equal to minus x minus 0 from here we have x of 0 equal to",
+          "words": [
+            {
+              "word": " time",
+              "start": 355.6,
+              "end": 355.96
+            },
+            {
+              "word": " t",
+              "start": 355.96,
+              "end": 356.24
+            },
+            {
+              "word": " is",
+              "start": 356.24,
+              "end": 356.68
+            },
+            {
+              "word": " equal",
+              "start": 356.68,
+              "end": 357.02
+            },
+            {
+              "word": " to",
+              "start": 357.02,
+              "end": 357.22
+            },
+            {
+              "word": " 0",
+              "start": 357.22,
+              "end": 357.56
+            },
+            {
+              "word": " x",
+              "start": 357.56,
+              "end": 358.74
+            },
+            {
+              "word": " of",
+              "start": 358.74,
+              "end": 358.98
+            },
+            {
+              "word": " 0",
+              "start": 358.98,
+              "end": 359.46
+            },
+            {
+              "word": " is",
+              "start": 359.46,
+              "end": 360.34
+            },
+            {
+              "word": " equal",
+              "start": 360.34,
+              "end": 360.7
+            },
+            {
+              "word": " to",
+              "start": 360.7,
+              "end": 360.9
+            },
+            {
+              "word": " minus",
+              "start": 360.9,
+              "end": 361.2
+            },
+            {
+              "word": " x",
+              "start": 361.2,
+              "end": 361.8
+            },
+            {
+              "word": " minus",
+              "start": 361.8,
+              "end": 362.6
+            },
+            {
+              "word": " 0",
+              "start": 362.6,
+              "end": 363.08
+            },
+            {
+              "word": " from",
+              "start": 363.08,
+              "end": 363.58
+            },
+            {
+              "word": " here",
+              "start": 363.58,
+              "end": 363.9
+            },
+            {
+              "word": " we",
+              "start": 363.9,
+              "end": 364.48
+            },
+            {
+              "word": " have",
+              "start": 364.48,
+              "end": 364.68
+            },
+            {
+              "word": " x",
+              "start": 364.68,
+              "end": 364.92
+            },
+            {
+              "word": " of",
+              "start": 364.92,
+              "end": 365.06
+            },
+            {
+              "word": " 0",
+              "start": 365.06,
+              "end": 365.5
+            },
+            {
+              "word": " equal",
+              "start": 365.5,
+              "end": 366.22
+            },
+            {
+              "word": " to",
+              "start": 366.22,
+              "end": 366.42
+            }
+          ]
+        },
+        {
+          "start": 366.42,
+          "end": 377.14,
+          "text": "minus x minus 0 minus 0 is 0 so x of 0 is equal to minus x 0 and this is possible only",
+          "words": [
+            {
+              "word": " minus",
+              "start": 366.42,
+              "end": 366.76
+            },
+            {
+              "word": " x",
+              "start": 366.76,
+              "end": 367.12
+            },
+            {
+              "word": " minus",
+              "start": 367.12,
+              "end": 367.5
+            },
+            {
+              "word": " 0",
+              "start": 367.5,
+              "end": 368.02
+            },
+            {
+              "word": " minus",
+              "start": 368.02,
+              "end": 368.72
+            },
+            {
+              "word": " 0",
+              "start": 368.72,
+              "end": 369.22
+            },
+            {
+              "word": " is",
+              "start": 369.22,
+              "end": 369.9
+            },
+            {
+              "word": " 0",
+              "start": 369.9,
+              "end": 370.24
+            },
+            {
+              "word": " so",
+              "start": 370.24,
+              "end": 370.7
+            },
+            {
+              "word": " x",
+              "start": 370.7,
+              "end": 371.02
+            },
+            {
+              "word": " of",
+              "start": 371.02,
+              "end": 371.24
+            },
+            {
+              "word": " 0",
+              "start": 371.24,
+              "end": 371.78
+            },
+            {
+              "word": " is",
+              "start": 371.78,
+              "end": 372.56
+            },
+            {
+              "word": " equal",
+              "start": 372.56,
+              "end": 372.88
+            },
+            {
+              "word": " to",
+              "start": 372.88,
+              "end": 373.04
+            },
+            {
+              "word": " minus",
+              "start": 373.04,
+              "end": 373.44
+            },
+            {
+              "word": " x",
+              "start": 373.44,
+              "end": 373.9
+            },
+            {
+              "word": " 0",
+              "start": 373.9,
+              "end": 374.8
+            },
+            {
+              "word": " and",
+              "start": 374.8,
+              "end": 375.46
+            },
+            {
+              "word": " this",
+              "start": 375.46,
+              "end": 375.66
+            },
+            {
+              "word": " is",
+              "start": 375.66,
+              "end": 375.82
+            },
+            {
+              "word": " possible",
+              "start": 375.82,
+              "end": 376.4
+            },
+            {
+              "word": " only",
+              "start": 376.4,
+              "end": 377.14
+            }
+          ]
+        },
+        {
+          "start": 377.14,
+          "end": 385.9,
+          "text": "when x of 0 is equal to 0 therefore an odd signal must be 0 at time t equal to 0.",
+          "words": [
+            {
+              "word": " when",
+              "start": 377.14,
+              "end": 377.54
+            },
+            {
+              "word": " x",
+              "start": 377.54,
+              "end": 378.58
+            },
+            {
+              "word": " of",
+              "start": 378.58,
+              "end": 378.78
+            },
+            {
+              "word": " 0",
+              "start": 378.78,
+              "end": 379.2
+            },
+            {
+              "word": " is",
+              "start": 379.2,
+              "end": 379.94
+            },
+            {
+              "word": " equal",
+              "start": 379.94,
+              "end": 380.28
+            },
+            {
+              "word": " to",
+              "start": 380.28,
+              "end": 380.46
+            },
+            {
+              "word": " 0",
+              "start": 380.46,
+              "end": 380.8
+            },
+            {
+              "word": " therefore",
+              "start": 380.8,
+              "end": 381.52
+            },
+            {
+              "word": " an",
+              "start": 381.52,
+              "end": 381.9
+            },
+            {
+              "word": " odd",
+              "start": 381.9,
+              "end": 382.06
+            },
+            {
+              "word": " signal",
+              "start": 382.06,
+              "end": 382.46
+            },
+            {
+              "word": " must",
+              "start": 382.46,
+              "end": 382.78
+            },
+            {
+              "word": " be",
+              "start": 382.78,
+              "end": 383.06
+            },
+            {
+              "word": " 0",
+              "start": 383.06,
+              "end": 383.42
+            },
+            {
+              "word": " at",
+              "start": 383.42,
+              "end": 383.98
+            },
+            {
+              "word": " time",
+              "start": 383.98,
+              "end": 384.3
+            },
+            {
+              "word": " t",
+              "start": 384.3,
+              "end": 384.62
+            },
+            {
+              "word": " equal",
+              "start": 384.62,
+              "end": 385.32
+            },
+            {
+              "word": " to",
+              "start": 385.32,
+              "end": 385.58
+            },
+            {
+              "word": " 0.",
+              "start": 385.58,
+              "end": 385.9
+            }
+          ]
+        },
+        {
+          "start": 386.38,
+          "end": 392.86,
+          "text": "This is the most important property of the odd signals when time t is equal to 0 the",
+          "words": [
+            {
+              "word": " This",
+              "start": 386.38,
+              "end": 386.48
+            },
+            {
+              "word": " is",
+              "start": 386.48,
+              "end": 386.62
+            },
+            {
+              "word": " the",
+              "start": 386.62,
+              "end": 386.78
+            },
+            {
+              "word": " most",
+              "start": 386.78,
+              "end": 387.1
+            },
+            {
+              "word": " important",
+              "start": 387.1,
+              "end": 387.68
+            },
+            {
+              "word": " property",
+              "start": 387.68,
+              "end": 388.0
+            },
+            {
+              "word": " of",
+              "start": 388.0,
+              "end": 388.84
+            },
+            {
+              "word": " the",
+              "start": 388.84,
+              "end": 389.02
+            },
+            {
+              "word": " odd",
+              "start": 389.02,
+              "end": 389.24
+            },
+            {
+              "word": " signals",
+              "start": 389.24,
+              "end": 389.64
+            },
+            {
+              "word": " when",
+              "start": 389.64,
+              "end": 390.3
+            },
+            {
+              "word": " time",
+              "start": 390.3,
+              "end": 390.62
+            },
+            {
+              "word": " t",
+              "start": 390.62,
+              "end": 390.94
+            },
+            {
+              "word": " is",
+              "start": 390.94,
+              "end": 391.54
+            },
+            {
+              "word": " equal",
+              "start": 391.54,
+              "end": 391.88
+            },
+            {
+              "word": " to",
+              "start": 391.88,
+              "end": 392.06
+            },
+            {
+              "word": " 0",
+              "start": 392.06,
+              "end": 392.4
+            },
+            {
+              "word": " the",
+              "start": 392.4,
+              "end": 392.86
+            }
+          ]
+        },
+        {
+          "start": 392.86,
+          "end": 394.86,
+          "text": "odd signal must be 0.",
+          "words": [
+            {
+              "word": " odd",
+              "start": 392.86,
+              "end": 393.14
+            },
+            {
+              "word": " signal",
+              "start": 393.14,
+              "end": 393.58
+            },
+            {
+              "word": " must",
+              "start": 393.58,
+              "end": 394.2
+            },
+            {
+              "word": " be",
+              "start": 394.2,
+              "end": 394.46
+            },
+            {
+              "word": " 0.",
+              "start": 394.46,
+              "end": 394.86
+            }
+          ]
+        },
+        {
+          "start": 395.3,
+          "end": 400.96,
+          "text": "The average or the mean or the dc value of any odd signal is equal to 0.",
+          "words": [
+            {
+              "word": " The",
+              "start": 395.3,
+              "end": 395.54
+            },
+            {
+              "word": " average",
+              "start": 395.54,
+              "end": 395.94
+            },
+            {
+              "word": " or",
+              "start": 395.94,
+              "end": 396.38
+            },
+            {
+              "word": " the",
+              "start": 396.38,
+              "end": 396.58
+            },
+            {
+              "word": " mean",
+              "start": 396.58,
+              "end": 396.98
+            },
+            {
+              "word": " or",
+              "start": 396.98,
+              "end": 397.46
+            },
+            {
+              "word": " the",
+              "start": 397.46,
+              "end": 397.6
+            },
+            {
+              "word": " dc",
+              "start": 397.6,
+              "end": 397.96
+            },
+            {
+              "word": " value",
+              "start": 397.96,
+              "end": 398.28
+            },
+            {
+              "word": " of",
+              "start": 398.28,
+              "end": 398.62
+            },
+            {
+              "word": " any",
+              "start": 398.62,
+              "end": 398.92
+            },
+            {
+              "word": " odd",
+              "start": 398.92,
+              "end": 399.16
+            },
+            {
+              "word": " signal",
+              "start": 399.16,
+              "end": 399.5
+            },
+            {
+              "word": " is",
+              "start": 399.5,
+              "end": 400.12
+            },
+            {
+              "word": " equal",
+              "start": 400.12,
+              "end": 400.46
+            },
+            {
+              "word": " to",
+              "start": 400.46,
+              "end": 400.66
+            },
+            {
+              "word": " 0.",
+              "start": 400.66,
+              "end": 400.96
+            }
+          ]
+        },
+        {
+          "start": 401.59999999999997,
+          "end": 404.36,
+          "text": "We are talking about few properties of odd signals.",
+          "words": [
+            {
+              "word": " We",
+              "start": 401.35,
+              "end": 401.68
+            },
+            {
+              "word": " are",
+              "start": 401.68,
+              "end": 401.8
+            },
+            {
+              "word": " talking",
+              "start": 401.8,
+              "end": 402.06
+            },
+            {
+              "word": " about",
+              "start": 402.06,
+              "end": 402.46
+            },
+            {
+              "word": " few",
+              "start": 402.46,
+              "end": 402.98
+            },
+            {
+              "word": " properties",
+              "start": 402.98,
+              "end": 403.46
+            },
+            {
+              "word": " of",
+              "start": 403.46,
+              "end": 403.76
+            },
+            {
+              "word": " odd",
+              "start": 403.76,
+              "end": 403.96
+            },
+            {
+              "word": " signals.",
+              "start": 403.96,
+              "end": 404.36
+            }
+          ]
+        },
+        {
+          "start": 405.44,
+          "end": 414.92,
+          "text": "The first property is when time t is equal to 0 the odd signal is equal to 0.",
+          "words": [
+            {
+              "word": " The",
+              "start": 405.15000000000003,
+              "end": 405.48
+            },
+            {
+              "word": " first",
+              "start": 405.48,
+              "end": 405.78
+            },
+            {
+              "word": " property",
+              "start": 405.78,
+              "end": 406.38
+            },
+            {
+              "word": " is",
+              "start": 406.38,
+              "end": 407.42
+            },
+            {
+              "word": " when",
+              "start": 407.42,
+              "end": 407.62
+            },
+            {
+              "word": " time",
+              "start": 407.62,
+              "end": 408.0
+            },
+            {
+              "word": " t",
+              "start": 408.0,
+              "end": 408.3
+            },
+            {
+              "word": " is",
+              "start": 408.3,
+              "end": 408.78
+            },
+            {
+              "word": " equal",
+              "start": 408.78,
+              "end": 409.12
+            },
+            {
+              "word": " to",
+              "start": 409.12,
+              "end": 409.32
+            },
+            {
+              "word": " 0",
+              "start": 409.32,
+              "end": 409.62
+            },
+            {
+              "word": " the",
+              "start": 409.62,
+              "end": 410.2
+            },
+            {
+              "word": " odd",
+              "start": 410.2,
+              "end": 410.48
+            },
+            {
+              "word": " signal",
+              "start": 410.48,
+              "end": 410.86
+            },
+            {
+              "word": " is",
+              "start": 410.86,
+              "end": 411.52
+            },
+            {
+              "word": " equal",
+              "start": 411.52,
+              "end": 414.44
+            },
+            {
+              "word": " to",
+              "start": 414.44,
+              "end": 414.64
+            },
+            {
+              "word": " 0.",
+              "start": 414.64,
+              "end": 414.92
+            }
+          ]
+        },
+        {
+          "start": 415.68,
+          "end": 423.24,
+          "text": "The second property is the dc value or the mean or the average of any odd signal is equal",
+          "words": [
+            {
+              "word": " The",
+              "start": 415.68,
+              "end": 416.0
+            },
+            {
+              "word": " second",
+              "start": 416.0,
+              "end": 416.28
+            },
+            {
+              "word": " property",
+              "start": 416.28,
+              "end": 416.8
+            },
+            {
+              "word": " is",
+              "start": 416.8,
+              "end": 418.2
+            },
+            {
+              "word": " the",
+              "start": 418.2,
+              "end": 418.38
+            },
+            {
+              "word": " dc",
+              "start": 418.38,
+              "end": 418.76
+            },
+            {
+              "word": " value",
+              "start": 418.76,
+              "end": 419.08
+            },
+            {
+              "word": " or",
+              "start": 419.08,
+              "end": 419.84
+            },
+            {
+              "word": " the",
+              "start": 419.84,
+              "end": 420.02
+            },
+            {
+              "word": " mean",
+              "start": 420.02,
+              "end": 420.32
+            },
+            {
+              "word": " or",
+              "start": 420.32,
+              "end": 420.7
+            },
+            {
+              "word": " the",
+              "start": 420.7,
+              "end": 420.86
+            },
+            {
+              "word": " average",
+              "start": 420.86,
+              "end": 421.14
+            },
+            {
+              "word": " of",
+              "start": 421.14,
+              "end": 421.4
+            },
+            {
+              "word": " any",
+              "start": 421.4,
+              "end": 421.66
+            },
+            {
+              "word": " odd",
+              "start": 421.66,
+              "end": 421.94
+            },
+            {
+              "word": " signal",
+              "start": 421.94,
+              "end": 422.28
+            },
+            {
+              "word": " is",
+              "start": 422.28,
+              "end": 422.92
+            },
+            {
+              "word": " equal",
+              "start": 422.92,
+              "end": 423.24
+            }
+          ]
+        },
+        {
+          "start": 423.24,
+          "end": 436.98,
+          "text": "to 0 the average the mean or the dc value of any odd signal of any odd signal is equal",
+          "words": [
+            {
+              "word": " to",
+              "start": 423.24,
+              "end": 423.42
+            },
+            {
+              "word": " 0",
+              "start": 423.42,
+              "end": 423.7
+            },
+            {
+              "word": " the",
+              "start": 423.7,
+              "end": 424.36
+            },
+            {
+              "word": " average",
+              "start": 424.36,
+              "end": 424.78
+            },
+            {
+              "word": " the",
+              "start": 424.78,
+              "end": 427.24
+            },
+            {
+              "word": " mean",
+              "start": 427.24,
+              "end": 427.64
+            },
+            {
+              "word": " or",
+              "start": 427.64,
+              "end": 428.98
+            },
+            {
+              "word": " the",
+              "start": 428.98,
+              "end": 429.38
+            },
+            {
+              "word": " dc",
+              "start": 429.38,
+              "end": 429.9
+            },
+            {
+              "word": " value",
+              "start": 429.9,
+              "end": 430.56
+            },
+            {
+              "word": " of",
+              "start": 430.56,
+              "end": 431.8
+            },
+            {
+              "word": " any",
+              "start": 431.8,
+              "end": 432.1
+            },
+            {
+              "word": " odd",
+              "start": 432.1,
+              "end": 432.44
+            },
+            {
+              "word": " signal",
+              "start": 432.44,
+              "end": 432.94
+            },
+            {
+              "word": " of",
+              "start": 432.94,
+              "end": 433.58
+            },
+            {
+              "word": " any",
+              "start": 433.58,
+              "end": 433.98
+            },
+            {
+              "word": " odd",
+              "start": 433.98,
+              "end": 435.38
+            },
+            {
+              "word": " signal",
+              "start": 435.38,
+              "end": 435.82
+            },
+            {
+              "word": " is",
+              "start": 435.82,
+              "end": 436.6
+            },
+            {
+              "word": " equal",
+              "start": 436.6,
+              "end": 436.98
+            }
+          ]
+        },
+        {
+          "start": 436.98,
+          "end": 442.62,
+          "text": "to 0 and the odd signal will always pass through the origin from first property.",
+          "words": [
+            {
+              "word": " to",
+              "start": 436.98,
+              "end": 437.14
+            },
+            {
+              "word": " 0",
+              "start": 437.14,
+              "end": 437.46
+            },
+            {
+              "word": " and",
+              "start": 437.46,
+              "end": 438.1
+            },
+            {
+              "word": " the",
+              "start": 438.1,
+              "end": 438.28
+            },
+            {
+              "word": " odd",
+              "start": 438.28,
+              "end": 438.5
+            },
+            {
+              "word": " signal",
+              "start": 438.5,
+              "end": 438.88
+            },
+            {
+              "word": " will",
+              "start": 438.88,
+              "end": 439.52
+            },
+            {
+              "word": " always",
+              "start": 439.52,
+              "end": 439.9
+            },
+            {
+              "word": " pass",
+              "start": 439.9,
+              "end": 440.28
+            },
+            {
+              "word": " through",
+              "start": 440.28,
+              "end": 440.82
+            },
+            {
+              "word": " the",
+              "start": 440.82,
+              "end": 440.98
+            },
+            {
+              "word": " origin",
+              "start": 440.98,
+              "end": 441.3
+            },
+            {
+              "word": " from",
+              "start": 441.3,
+              "end": 441.88
+            },
+            {
+              "word": " first",
+              "start": 441.88,
+              "end": 442.22
+            },
+            {
+              "word": " property.",
+              "start": 442.22,
+              "end": 442.62
+            }
+          ]
+        },
+        {
+          "start": 443.12,
+          "end": 448.64,
+          "text": "We can clearly see when time t is equal to 0 the odd signal is equal to 0 this means",
+          "words": [
+            {
+              "word": " We",
+              "start": 443.12,
+              "end": 443.12
+            },
+            {
+              "word": " can",
+              "start": 443.12,
+              "end": 443.3
+            },
+            {
+              "word": " clearly",
+              "start": 443.3,
+              "end": 443.6
+            },
+            {
+              "word": " see",
+              "start": 443.6,
+              "end": 444.02
+            },
+            {
+              "word": " when",
+              "start": 444.02,
+              "end": 444.46
+            },
+            {
+              "word": " time",
+              "start": 444.46,
+              "end": 444.76
+            },
+            {
+              "word": " t",
+              "start": 444.76,
+              "end": 444.98
+            },
+            {
+              "word": " is",
+              "start": 444.98,
+              "end": 445.12
+            },
+            {
+              "word": " equal",
+              "start": 445.12,
+              "end": 445.38
+            },
+            {
+              "word": " to",
+              "start": 445.38,
+              "end": 445.54
+            },
+            {
+              "word": " 0",
+              "start": 445.54,
+              "end": 445.82
+            },
+            {
+              "word": " the",
+              "start": 445.82,
+              "end": 446.18
+            },
+            {
+              "word": " odd",
+              "start": 446.18,
+              "end": 446.38
+            },
+            {
+              "word": " signal",
+              "start": 446.38,
+              "end": 446.64
+            },
+            {
+              "word": " is",
+              "start": 446.64,
+              "end": 446.86
+            },
+            {
+              "word": " equal",
+              "start": 446.86,
+              "end": 447.14
+            },
+            {
+              "word": " to",
+              "start": 447.14,
+              "end": 447.3
+            },
+            {
+              "word": " 0",
+              "start": 447.3,
+              "end": 447.6
+            },
+            {
+              "word": " this",
+              "start": 447.6,
+              "end": 448.22
+            },
+            {
+              "word": " means",
+              "start": 448.22,
+              "end": 448.64
+            }
+          ]
+        },
+        {
+          "start": 448.64,
+          "end": 454.46,
+          "text": "an odd signal will always pass through the origin this signal also passes through the",
+          "words": [
+            {
+              "word": " an",
+              "start": 448.64,
+              "end": 449.22
+            },
+            {
+              "word": " odd",
+              "start": 449.22,
+              "end": 449.46
+            },
+            {
+              "word": " signal",
+              "start": 449.46,
+              "end": 449.8
+            },
+            {
+              "word": " will",
+              "start": 449.8,
+              "end": 450.1
+            },
+            {
+              "word": " always",
+              "start": 450.1,
+              "end": 450.46
+            },
+            {
+              "word": " pass",
+              "start": 450.46,
+              "end": 450.82
+            },
+            {
+              "word": " through",
+              "start": 450.82,
+              "end": 451.4
+            },
+            {
+              "word": " the",
+              "start": 451.4,
+              "end": 451.58
+            },
+            {
+              "word": " origin",
+              "start": 451.58,
+              "end": 451.92
+            },
+            {
+              "word": " this",
+              "start": 451.92,
+              "end": 452.3
+            },
+            {
+              "word": " signal",
+              "start": 452.3,
+              "end": 452.72
+            },
+            {
+              "word": " also",
+              "start": 452.72,
+              "end": 453.14
+            },
+            {
+              "word": " passes",
+              "start": 453.14,
+              "end": 453.98
+            },
+            {
+              "word": " through",
+              "start": 453.98,
+              "end": 454.3
+            },
+            {
+              "word": " the",
+              "start": 454.3,
+              "end": 454.46
+            }
+          ]
+        },
+        {
+          "start": 454.46,
+          "end": 464.46,
+          "text": "origin and if we talk about the sin omega t which is odd signal sin omega t and if",
+          "words": [
+            {
+              "word": " origin",
+              "start": 454.46,
+              "end": 454.82
+            },
+            {
+              "word": " and",
+              "start": 454.82,
+              "end": 455.48
+            },
+            {
+              "word": " if",
+              "start": 455.48,
+              "end": 455.7
+            },
+            {
+              "word": " we",
+              "start": 455.7,
+              "end": 455.82
+            },
+            {
+              "word": " talk",
+              "start": 455.82,
+              "end": 456.02
+            },
+            {
+              "word": " about",
+              "start": 456.02,
+              "end": 456.48
+            },
+            {
+              "word": " the",
+              "start": 456.48,
+              "end": 457.36
+            },
+            {
+              "word": " sin",
+              "start": 457.36,
+              "end": 457.68
+            },
+            {
+              "word": " omega",
+              "start": 457.68,
+              "end": 457.96
+            },
+            {
+              "word": " t",
+              "start": 457.96,
+              "end": 458.32
+            },
+            {
+              "word": " which",
+              "start": 458.32,
+              "end": 458.72
+            },
+            {
+              "word": " is",
+              "start": 458.72,
+              "end": 458.86
+            },
+            {
+              "word": " odd",
+              "start": 458.86,
+              "end": 459.12
+            },
+            {
+              "word": " signal",
+              "start": 459.12,
+              "end": 459.48
+            },
+            {
+              "word": " sin",
+              "start": 459.48,
+              "end": 461.46
+            },
+            {
+              "word": " omega",
+              "start": 461.46,
+              "end": 463.22
+            },
+            {
+              "word": " t",
+              "start": 463.22,
+              "end": 463.62
+            },
+            {
+              "word": " and",
+              "start": 463.62,
+              "end": 464.28
+            },
+            {
+              "word": " if",
+              "start": 464.28,
+              "end": 464.46
+            }
+          ]
+        },
+        {
+          "start": 464.46,
+          "end": 473.9,
+          "text": "we try to find out x of minus t we will have minus sin omega t because sin minus theta",
+          "words": [
+            {
+              "word": " we",
+              "start": 464.46,
+              "end": 464.56
+            },
+            {
+              "word": " try",
+              "start": 464.56,
+              "end": 464.76
+            },
+            {
+              "word": " to",
+              "start": 464.76,
+              "end": 464.9
+            },
+            {
+              "word": " find",
+              "start": 464.9,
+              "end": 465.2
+            },
+            {
+              "word": " out",
+              "start": 465.2,
+              "end": 465.56
+            },
+            {
+              "word": " x",
+              "start": 465.56,
+              "end": 466.32
+            },
+            {
+              "word": " of",
+              "start": 466.32,
+              "end": 466.5
+            },
+            {
+              "word": " minus",
+              "start": 466.5,
+              "end": 466.88
+            },
+            {
+              "word": " t",
+              "start": 466.88,
+              "end": 467.26
+            },
+            {
+              "word": " we",
+              "start": 467.26,
+              "end": 467.74
+            },
+            {
+              "word": " will",
+              "start": 467.74,
+              "end": 467.92
+            },
+            {
+              "word": " have",
+              "start": 467.92,
+              "end": 468.08
+            },
+            {
+              "word": " minus",
+              "start": 468.08,
+              "end": 468.58
+            },
+            {
+              "word": " sin",
+              "start": 468.58,
+              "end": 469.9
+            },
+            {
+              "word": " omega",
+              "start": 469.9,
+              "end": 470.18
+            },
+            {
+              "word": " t",
+              "start": 470.18,
+              "end": 470.52
+            },
+            {
+              "word": " because",
+              "start": 470.52,
+              "end": 471.46
+            },
+            {
+              "word": " sin",
+              "start": 471.46,
+              "end": 472.36
+            },
+            {
+              "word": " minus",
+              "start": 472.36,
+              "end": 473.44
+            },
+            {
+              "word": " theta",
+              "start": 473.44,
+              "end": 473.9
+            }
+          ]
+        },
+        {
+          "start": 474.9,
+          "end": 487.52,
+          "text": "is equal to minus sin theta and we have we have x of minus t equal to minus x t which",
+          "words": [
+            {
+              "word": " is",
+              "start": 474.9,
+              "end": 475.32
+            },
+            {
+              "word": " equal",
+              "start": 475.32,
+              "end": 475.64
+            },
+            {
+              "word": " to",
+              "start": 475.64,
+              "end": 475.82
+            },
+            {
+              "word": " minus",
+              "start": 475.82,
+              "end": 476.26
+            },
+            {
+              "word": " sin",
+              "start": 476.26,
+              "end": 477.42
+            },
+            {
+              "word": " theta",
+              "start": 477.42,
+              "end": 477.74
+            },
+            {
+              "word": " and",
+              "start": 477.74,
+              "end": 478.6
+            },
+            {
+              "word": " we",
+              "start": 478.6,
+              "end": 478.8
+            },
+            {
+              "word": " have",
+              "start": 478.8,
+              "end": 479.26
+            },
+            {
+              "word": " we",
+              "start": 479.26,
+              "end": 479.68
+            },
+            {
+              "word": " have",
+              "start": 479.68,
+              "end": 480.18
+            },
+            {
+              "word": " x",
+              "start": 480.18,
+              "end": 480.84
+            },
+            {
+              "word": " of",
+              "start": 480.84,
+              "end": 481.12
+            },
+            {
+              "word": " minus",
+              "start": 481.12,
+              "end": 481.62
+            },
+            {
+              "word": " t",
+              "start": 481.62,
+              "end": 482.02
+            },
+            {
+              "word": " equal",
+              "start": 482.02,
+              "end": 482.88
+            },
+            {
+              "word": " to",
+              "start": 482.88,
+              "end": 483.2
+            },
+            {
+              "word": " minus",
+              "start": 483.2,
+              "end": 483.88
+            },
+            {
+              "word": " x",
+              "start": 483.88,
+              "end": 485.22
+            },
+            {
+              "word": " t",
+              "start": 485.22,
+              "end": 485.48
+            },
+            {
+              "word": " which",
+              "start": 485.48,
+              "end": 487.52
+            }
+          ]
+        },
+        {
+          "start": 487.52,
+          "end": 494.12,
+          "text": "is satisfying the property of odd signal so sin omega t is an odd signal and if we plot",
+          "words": [
+            {
+              "word": " is",
+              "start": 487.52,
+              "end": 487.68
+            },
+            {
+              "word": " satisfying",
+              "start": 487.68,
+              "end": 488.22
+            },
+            {
+              "word": " the",
+              "start": 488.22,
+              "end": 488.7
+            },
+            {
+              "word": " property",
+              "start": 488.7,
+              "end": 489.1
+            },
+            {
+              "word": " of",
+              "start": 489.1,
+              "end": 489.42
+            },
+            {
+              "word": " odd",
+              "start": 489.42,
+              "end": 489.66
+            },
+            {
+              "word": " signal",
+              "start": 489.66,
+              "end": 489.98
+            },
+            {
+              "word": " so",
+              "start": 489.98,
+              "end": 490.58
+            },
+            {
+              "word": " sin",
+              "start": 490.58,
+              "end": 490.86
+            },
+            {
+              "word": " omega",
+              "start": 490.86,
+              "end": 491.08
+            },
+            {
+              "word": " t",
+              "start": 491.08,
+              "end": 491.46
+            },
+            {
+              "word": " is",
+              "start": 491.46,
+              "end": 491.98
+            },
+            {
+              "word": " an",
+              "start": 491.98,
+              "end": 492.14
+            },
+            {
+              "word": " odd",
+              "start": 492.14,
+              "end": 492.36
+            },
+            {
+              "word": " signal",
+              "start": 492.36,
+              "end": 492.66
+            },
+            {
+              "word": " and",
+              "start": 492.66,
+              "end": 493.32
+            },
+            {
+              "word": " if",
+              "start": 493.32,
+              "end": 493.5
+            },
+            {
+              "word": " we",
+              "start": 493.5,
+              "end": 493.68
+            },
+            {
+              "word": " plot",
+              "start": 493.68,
+              "end": 494.12
+            }
+          ]
+        },
+        {
+          "start": 494.64,
+          "end": 504.7,
+          "text": "the waveform of sin function it will look like this so you can clearly see the sin function",
+          "words": [
+            {
+              "word": " the",
+              "start": 494.4,
+              "end": 494.78
+            },
+            {
+              "word": " waveform",
+              "start": 494.78,
+              "end": 495.2
+            },
+            {
+              "word": " of",
+              "start": 495.2,
+              "end": 497.02
+            },
+            {
+              "word": " sin",
+              "start": 497.02,
+              "end": 497.44
+            },
+            {
+              "word": " function",
+              "start": 497.44,
+              "end": 498.1
+            },
+            {
+              "word": " it",
+              "start": 498.1,
+              "end": 499.62
+            },
+            {
+              "word": " will",
+              "start": 499.62,
+              "end": 500.58
+            },
+            {
+              "word": " look",
+              "start": 500.58,
+              "end": 500.78
+            },
+            {
+              "word": " like",
+              "start": 500.78,
+              "end": 501.0
+            },
+            {
+              "word": " this",
+              "start": 501.0,
+              "end": 501.38
+            },
+            {
+              "word": " so",
+              "start": 501.38,
+              "end": 502.26
+            },
+            {
+              "word": " you",
+              "start": 502.26,
+              "end": 502.38
+            },
+            {
+              "word": " can",
+              "start": 502.38,
+              "end": 502.54
+            },
+            {
+              "word": " clearly",
+              "start": 502.54,
+              "end": 502.88
+            },
+            {
+              "word": " see",
+              "start": 502.88,
+              "end": 503.22
+            },
+            {
+              "word": " the",
+              "start": 503.22,
+              "end": 503.9
+            },
+            {
+              "word": " sin",
+              "start": 503.9,
+              "end": 504.2
+            },
+            {
+              "word": " function",
+              "start": 504.2,
+              "end": 504.7
+            }
+          ]
+        },
+        {
+          "start": 504.7,
+          "end": 511.48,
+          "text": "which is an odd function is passing through the origin this waveform is for sin omega",
+          "words": [
+            {
+              "word": " which",
+              "start": 504.7,
+              "end": 505.08
+            },
+            {
+              "word": " is",
+              "start": 505.08,
+              "end": 505.22
+            },
+            {
+              "word": " an",
+              "start": 505.22,
+              "end": 505.36
+            },
+            {
+              "word": " odd",
+              "start": 505.36,
+              "end": 505.52
+            },
+            {
+              "word": " function",
+              "start": 505.52,
+              "end": 505.94
+            },
+            {
+              "word": " is",
+              "start": 505.94,
+              "end": 506.52
+            },
+            {
+              "word": " passing",
+              "start": 506.52,
+              "end": 506.82
+            },
+            {
+              "word": " through",
+              "start": 506.82,
+              "end": 507.18
+            },
+            {
+              "word": " the",
+              "start": 507.18,
+              "end": 507.7
+            },
+            {
+              "word": " origin",
+              "start": 507.7,
+              "end": 508.08
+            },
+            {
+              "word": " this",
+              "start": 508.08,
+              "end": 508.98
+            },
+            {
+              "word": " waveform",
+              "start": 508.98,
+              "end": 509.38
+            },
+            {
+              "word": " is",
+              "start": 509.38,
+              "end": 510.2
+            },
+            {
+              "word": " for",
+              "start": 510.2,
+              "end": 510.48
+            },
+            {
+              "word": " sin",
+              "start": 510.48,
+              "end": 511.0
+            },
+            {
+              "word": " omega",
+              "start": 511.0,
+              "end": 511.48
+            }
+          ]
+        },
+        {
+          "start": 511.48,
+          "end": 518.48,
+          "text": "t now we will move to the next property any signal can be represented at some of odd and",
+          "words": [
+            {
+              "word": " t",
+              "start": 511.48,
+              "end": 511.84
+            },
+            {
+              "word": " now",
+              "start": 511.84,
+              "end": 512.6
+            },
+            {
+              "word": " we",
+              "start": 512.6,
+              "end": 512.76
+            },
+            {
+              "word": " will",
+              "start": 512.76,
+              "end": 512.9
+            },
+            {
+              "word": " move",
+              "start": 512.9,
+              "end": 513.16
+            },
+            {
+              "word": " to",
+              "start": 513.16,
+              "end": 513.38
+            },
+            {
+              "word": " the",
+              "start": 513.38,
+              "end": 513.52
+            },
+            {
+              "word": " next",
+              "start": 513.52,
+              "end": 513.76
+            },
+            {
+              "word": " property",
+              "start": 513.76,
+              "end": 514.3
+            },
+            {
+              "word": " any",
+              "start": 514.3,
+              "end": 515.14
+            },
+            {
+              "word": " signal",
+              "start": 515.14,
+              "end": 515.56
+            },
+            {
+              "word": " can",
+              "start": 515.56,
+              "end": 515.92
+            },
+            {
+              "word": " be",
+              "start": 515.92,
+              "end": 516.1
+            },
+            {
+              "word": " represented",
+              "start": 516.1,
+              "end": 516.5
+            },
+            {
+              "word": " at",
+              "start": 516.5,
+              "end": 516.96
+            },
+            {
+              "word": " some",
+              "start": 516.96,
+              "end": 517.3
+            },
+            {
+              "word": " of",
+              "start": 517.3,
+              "end": 517.98
+            },
+            {
+              "word": " odd",
+              "start": 517.98,
+              "end": 518.36
+            },
+            {
+              "word": " and",
+              "start": 518.36,
+              "end": 518.74
+            }
+          ]
+        },
+        {
+          "start": 518.74,
+          "end": 526.74,
+          "text": "even signals if we have a general signal let's say the signal is equal to x t and this general",
+          "words": [
+            {
+              "word": " even",
+              "start": 518.74,
+              "end": 519.2
+            },
+            {
+              "word": " signals",
+              "start": 519.2,
+              "end": 519.2
+            },
+            {
+              "word": " if",
+              "start": 519.2,
+              "end": 519.9
+            },
+            {
+              "word": " we",
+              "start": 519.9,
+              "end": 520.08
+            },
+            {
+              "word": " have",
+              "start": 520.08,
+              "end": 520.44
+            },
+            {
+              "word": " a",
+              "start": 520.44,
+              "end": 520.98
+            },
+            {
+              "word": " general",
+              "start": 520.98,
+              "end": 521.32
+            },
+            {
+              "word": " signal",
+              "start": 521.32,
+              "end": 521.94
+            },
+            {
+              "word": " let's",
+              "start": 521.94,
+              "end": 522.66
+            },
+            {
+              "word": " say",
+              "start": 522.66,
+              "end": 522.78
+            },
+            {
+              "word": " the",
+              "start": 522.78,
+              "end": 522.92
+            },
+            {
+              "word": " signal",
+              "start": 522.92,
+              "end": 523.3
+            },
+            {
+              "word": " is",
+              "start": 523.3,
+              "end": 523.88
+            },
+            {
+              "word": " equal",
+              "start": 523.88,
+              "end": 524.22
+            },
+            {
+              "word": " to",
+              "start": 524.22,
+              "end": 524.4
+            },
+            {
+              "word": " x",
+              "start": 524.4,
+              "end": 524.64
+            },
+            {
+              "word": " t",
+              "start": 524.64,
+              "end": 524.8
+            },
+            {
+              "word": " and",
+              "start": 524.8,
+              "end": 526.16
+            },
+            {
+              "word": " this",
+              "start": 526.16,
+              "end": 526.4
+            },
+            {
+              "word": " general",
+              "start": 526.4,
+              "end": 526.74
+            }
+          ]
+        },
+        {
+          "start": 526.74,
+          "end": 534.34,
+          "text": "signal can be represented as some of odd and even parts let's say x subscript e is the",
+          "words": [
+            {
+              "word": " signal",
+              "start": 526.74,
+              "end": 527.14
+            },
+            {
+              "word": " can",
+              "start": 527.14,
+              "end": 527.58
+            },
+            {
+              "word": " be",
+              "start": 527.58,
+              "end": 527.74
+            },
+            {
+              "word": " represented",
+              "start": 527.74,
+              "end": 528.08
+            },
+            {
+              "word": " as",
+              "start": 528.08,
+              "end": 528.6
+            },
+            {
+              "word": " some",
+              "start": 528.6,
+              "end": 528.92
+            },
+            {
+              "word": " of",
+              "start": 528.92,
+              "end": 529.56
+            },
+            {
+              "word": " odd",
+              "start": 529.56,
+              "end": 529.76
+            },
+            {
+              "word": " and",
+              "start": 529.76,
+              "end": 529.88
+            },
+            {
+              "word": " even",
+              "start": 529.88,
+              "end": 530.08
+            },
+            {
+              "word": " parts",
+              "start": 530.08,
+              "end": 530.54
+            },
+            {
+              "word": " let's",
+              "start": 530.54,
+              "end": 531.44
+            },
+            {
+              "word": " say",
+              "start": 531.44,
+              "end": 531.64
+            },
+            {
+              "word": " x",
+              "start": 531.64,
+              "end": 532.42
+            },
+            {
+              "word": " subscript",
+              "start": 532.42,
+              "end": 532.96
+            },
+            {
+              "word": " e",
+              "start": 532.96,
+              "end": 533.28
+            },
+            {
+              "word": " is",
+              "start": 533.28,
+              "end": 534.12
+            },
+            {
+              "word": " the",
+              "start": 534.12,
+              "end": 534.34
+            }
+          ]
+        },
+        {
+          "start": 534.34,
+          "end": 544.04,
+          "text": "even component of the signal x t plus x subscript o is the odd component of the signal x t and",
+          "words": [
+            {
+              "word": " even",
+              "start": 534.34,
+              "end": 534.56
+            },
+            {
+              "word": " component",
+              "start": 534.56,
+              "end": 535.14
+            },
+            {
+              "word": " of",
+              "start": 535.14,
+              "end": 535.8
+            },
+            {
+              "word": " the",
+              "start": 535.8,
+              "end": 535.98
+            },
+            {
+              "word": " signal",
+              "start": 535.98,
+              "end": 536.22
+            },
+            {
+              "word": " x",
+              "start": 536.22,
+              "end": 536.54
+            },
+            {
+              "word": " t",
+              "start": 536.54,
+              "end": 536.78
+            },
+            {
+              "word": " plus",
+              "start": 536.78,
+              "end": 537.66
+            },
+            {
+              "word": " x",
+              "start": 537.66,
+              "end": 539.06
+            },
+            {
+              "word": " subscript",
+              "start": 539.06,
+              "end": 539.64
+            },
+            {
+              "word": " o",
+              "start": 539.64,
+              "end": 539.9
+            },
+            {
+              "word": " is",
+              "start": 539.9,
+              "end": 541.0
+            },
+            {
+              "word": " the",
+              "start": 541.0,
+              "end": 541.18
+            },
+            {
+              "word": " odd",
+              "start": 541.18,
+              "end": 541.48
+            },
+            {
+              "word": " component",
+              "start": 541.48,
+              "end": 541.94
+            },
+            {
+              "word": " of",
+              "start": 541.94,
+              "end": 542.64
+            },
+            {
+              "word": " the",
+              "start": 542.64,
+              "end": 542.8
+            },
+            {
+              "word": " signal",
+              "start": 542.8,
+              "end": 543.08
+            },
+            {
+              "word": " x",
+              "start": 543.08,
+              "end": 543.36
+            },
+            {
+              "word": " t",
+              "start": 543.36,
+              "end": 543.56
+            },
+            {
+              "word": " and",
+              "start": 543.56,
+              "end": 544.04
+            }
+          ]
+        },
+        {
+          "start": 544.04,
+          "end": 549.7,
+          "text": "when we add the even component and the odd component of the signal x t it is equal to",
+          "words": [
+            {
+              "word": " when",
+              "start": 544.04,
+              "end": 544.18
+            },
+            {
+              "word": " we",
+              "start": 544.18,
+              "end": 544.4
+            },
+            {
+              "word": " add",
+              "start": 544.4,
+              "end": 544.72
+            },
+            {
+              "word": " the",
+              "start": 544.72,
+              "end": 545.06
+            },
+            {
+              "word": " even",
+              "start": 545.06,
+              "end": 545.32
+            },
+            {
+              "word": " component",
+              "start": 545.32,
+              "end": 545.82
+            },
+            {
+              "word": " and",
+              "start": 545.82,
+              "end": 546.2
+            },
+            {
+              "word": " the",
+              "start": 546.2,
+              "end": 546.36
+            },
+            {
+              "word": " odd",
+              "start": 546.36,
+              "end": 546.54
+            },
+            {
+              "word": " component",
+              "start": 546.54,
+              "end": 546.98
+            },
+            {
+              "word": " of",
+              "start": 546.98,
+              "end": 547.64
+            },
+            {
+              "word": " the",
+              "start": 547.64,
+              "end": 547.8
+            },
+            {
+              "word": " signal",
+              "start": 547.8,
+              "end": 548.06
+            },
+            {
+              "word": " x",
+              "start": 548.06,
+              "end": 548.34
+            },
+            {
+              "word": " t",
+              "start": 548.34,
+              "end": 548.52
+            },
+            {
+              "word": " it",
+              "start": 548.52,
+              "end": 548.98
+            },
+            {
+              "word": " is",
+              "start": 548.98,
+              "end": 549.1
+            },
+            {
+              "word": " equal",
+              "start": 549.1,
+              "end": 549.46
+            },
+            {
+              "word": " to",
+              "start": 549.46,
+              "end": 549.7
+            }
+          ]
+        },
+        {
+          "start": 549.7,
+          "end": 555.48,
+          "text": "signal x t we will discuss this property in the next lecture when we will find out even",
+          "words": [
+            {
+              "word": " signal",
+              "start": 549.7,
+              "end": 549.96
+            },
+            {
+              "word": " x",
+              "start": 549.96,
+              "end": 550.3
+            },
+            {
+              "word": " t",
+              "start": 550.3,
+              "end": 550.54
+            },
+            {
+              "word": " we",
+              "start": 550.54,
+              "end": 551.06
+            },
+            {
+              "word": " will",
+              "start": 551.06,
+              "end": 551.22
+            },
+            {
+              "word": " discuss",
+              "start": 551.22,
+              "end": 551.52
+            },
+            {
+              "word": " this",
+              "start": 551.52,
+              "end": 551.8
+            },
+            {
+              "word": " property",
+              "start": 551.8,
+              "end": 552.22
+            },
+            {
+              "word": " in",
+              "start": 552.22,
+              "end": 552.9
+            },
+            {
+              "word": " the",
+              "start": 552.9,
+              "end": 553.04
+            },
+            {
+              "word": " next",
+              "start": 553.04,
+              "end": 553.3
+            },
+            {
+              "word": " lecture",
+              "start": 553.3,
+              "end": 553.64
+            },
+            {
+              "word": " when",
+              "start": 553.64,
+              "end": 553.98
+            },
+            {
+              "word": " we",
+              "start": 553.98,
+              "end": 554.12
+            },
+            {
+              "word": " will",
+              "start": 554.12,
+              "end": 554.26
+            },
+            {
+              "word": " find",
+              "start": 554.26,
+              "end": 554.54
+            },
+            {
+              "word": " out",
+              "start": 554.54,
+              "end": 554.84
+            },
+            {
+              "word": " even",
+              "start": 554.84,
+              "end": 555.48
+            }
+          ]
+        },
+        {
+          "start": 555.48,
+          "end": 561.04,
+          "text": "component and the odd component of the signal so this is all for this lecture see you in",
+          "words": [
+            {
+              "word": " component",
+              "start": 555.48,
+              "end": 556.06
+            },
+            {
+              "word": " and",
+              "start": 556.06,
+              "end": 556.66
+            },
+            {
+              "word": " the",
+              "start": 556.66,
+              "end": 556.84
+            },
+            {
+              "word": " odd",
+              "start": 556.84,
+              "end": 557.04
+            },
+            {
+              "word": " component",
+              "start": 557.04,
+              "end": 557.5
+            },
+            {
+              "word": " of",
+              "start": 557.5,
+              "end": 558.2
+            },
+            {
+              "word": " the",
+              "start": 558.2,
+              "end": 558.36
+            },
+            {
+              "word": " signal",
+              "start": 558.36,
+              "end": 558.72
+            },
+            {
+              "word": " so",
+              "start": 558.72,
+              "end": 559.34
+            },
+            {
+              "word": " this",
+              "start": 559.34,
+              "end": 559.54
+            },
+            {
+              "word": " is",
+              "start": 559.54,
+              "end": 559.68
+            },
+            {
+              "word": " all",
+              "start": 559.68,
+              "end": 559.88
+            },
+            {
+              "word": " for",
+              "start": 559.88,
+              "end": 560.1
+            },
+            {
+              "word": " this",
+              "start": 560.1,
+              "end": 560.26
+            },
+            {
+              "word": " lecture",
+              "start": 560.26,
+              "end": 560.58
+            },
+            {
+              "word": " see",
+              "start": 560.58,
+              "end": 560.92
+            },
+            {
+              "word": " you",
+              "start": 560.92,
+              "end": 560.98
+            },
+            {
+              "word": " in",
+              "start": 560.98,
+              "end": 561.04
+            }
+          ]
+        },
+        {
+          "start": 561.04,
+          "end": 561.64,
+          "text": "the next one.",
+          "words": [
+            {
+              "word": " the",
+              "start": 561.04,
+              "end": 561.14
+            },
+            {
+              "word": " next",
+              "start": 561.14,
+              "end": 561.36
+            },
+            {
+              "word": " one.",
+              "start": 561.36,
+              "end": 561.64
+            }
+          ]
+        }
+      ],
+      "language": "en"
+    },
+    "frames": [
+      {
+        "index": 0,
+        "timestamp": 0.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000000.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 1,
+        "timestamp": 1.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000001.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 2,
+        "timestamp": 4.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000002.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 3,
+        "timestamp": 5.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000003.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 4,
+        "timestamp": 197.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000004.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 5,
+        "timestamp": 230.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000005.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 6,
+        "timestamp": 237.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000006.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 7,
+        "timestamp": 260.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000007.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 8,
+        "timestamp": 261.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000008.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 9,
+        "timestamp": 274.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000009.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 10,
+        "timestamp": 297.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000010.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 11,
+        "timestamp": 403.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000011.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 12,
+        "timestamp": 458.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000012.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 13,
+        "timestamp": 459.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000013.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 14,
+        "timestamp": 512.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000014.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      },
+      {
+        "index": 15,
+        "timestamp": 513.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000015.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0,
+        "concepts": []
+      },
+      {
+        "index": 16,
+        "timestamp": 522.0,
+        "path": "data/processed\\lecture_180\\frames\\frame_000016.jpg",
+        "ssim_kept": true,
+        "instructor": false,
+        "faces": [],
+        "face_count": 0
+      }
+    ],
+    "processing_stats": {
+      "total_frames": 17,
+      "frames_with_instructor": 0,
+      "avg_face_confidence": 0.0
+    }
+  },
+  "annotations": {
+    "segments": [],
+    "quality_score": null,
+    "auto_annotations": {
+      "instructor_presence": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "detected_concepts": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    "frames": [
+      {
+        "frame_index": 0,
+        "timestamp": 0.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 1,
+        "timestamp": 1.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 2,
+        "timestamp": 4.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 3,
+        "timestamp": 5.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 4,
+        "timestamp": 197.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 5,
+        "timestamp": 230.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 6,
+        "timestamp": 237.0,
+        "concepts": [
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 7,
+        "timestamp": 260.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 8,
+        "timestamp": 261.0,
+        "concepts": [
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 9,
+        "timestamp": 274.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 10,
+        "timestamp": 297.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 11,
+        "timestamp": 403.0,
+        "concepts": [
+          "Mathematical Equation",
+          "Graph/Chart"
+        ],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 12,
+        "timestamp": 458.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 13,
+        "timestamp": 459.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 14,
+        "timestamp": 512.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 15,
+        "timestamp": 513.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      },
+      {
+        "frame_index": 16,
+        "timestamp": 522.0,
+        "concepts": [],
+        "quality": "Good",
+        "notes": ""
+      }
+    ]
+  }
+}

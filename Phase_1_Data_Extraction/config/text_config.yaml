@@ -1,0 +1,89 @@
+# Project Configuration
+project:
+  name: "Lecture Summarization"
+  version: "0.1.0"
+  random_seed: 42
+
+# Data Configuration
+data:
+  min_segment_length: 3  # Minimum words in a segment
+  max_segment_length: 30  # Maximum words in a segment
+  train_ratio: 0.7
+  val_ratio: 0.15
+  test_ratio: 0.15
+  stem_categories:
+    - "EQUATION"
+    - "CONCEPT"
+    - "METHOD"
+    - "ENTITY"
+    - "OPERATION"
+  lecture_keywords:
+    - "today"
+    - "lecture"
+    - "chapter"
+    - "section"
+    - "important"
+    - "note"
+    - "example"
+    - "therefore"
+    - "conclusion"
+
+# NER Model Configuration
+ner:
+  model_base: "en_core_sci_sm"
+  n_iter: 30
+  batch_size: 8
+  dropout: 0.3
+  learning_rate: 0.001
+  early_stopping_patience: 5
+  early_stopping_threshold: 0.001
+  validation_frequency: 5
+  fine_tune_layers: 3  # Last N layers to fine-tune
+
+# Topic Segmentation Configuration
+topic:
+  embedding_model: "all-MiniLM-L6-v2"
+  min_topic_size: 5
+  nr_topics: "auto"
+  n_gram_range: [1, 3]
+  top_n_words: 10
+  diversity: 0.5
+  min_visual_ratio: 0.1
+  boundary_similarity_threshold: 0.5
+  segment_min_duration: 60  # seconds
+  segment_max_duration: 900  # seconds
+
+# Sentence-BERT Configuration
+sentence_bert:
+  base_model: "all-mpnet-base-v2"
+  max_seq_length: 256
+  batch_size: 16
+  epochs: 3
+  warmup_steps: 100
+  learning_rate: 2e-5
+  pooling_mode: "mean"
+  similarity_threshold: 0.5
+  margin: 0.5
+  use_cosine_similarity: true
+
+# Training Configuration
+training:
+  device: "cuda"  # or "cpu"
+  num_workers: 4
+  pin_memory: true
+  gradient_accumulation_steps: 1
+  fp16: false  # Mixed precision training
+  save_checkpoints: true
+  checkpoint_frequency: 5  # epochs
+  log_frequency: 10  # batches
+
+# Evaluation Configuration
+evaluation:
+  metrics:
+    - "precision"
+    - "recall"
+    - "f1"
+    - "accuracy"
+  ner_threshold: 0.5
+  topic_boundary_tolerance: 30  # seconds
+  similarity_correlation_threshold: 0.7

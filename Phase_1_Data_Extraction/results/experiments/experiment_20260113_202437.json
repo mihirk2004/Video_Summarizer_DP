@@ -1,0 +1,111 @@
+{
+  "timestamp": "2026-01-13T20:24:37.842004",
+  "config": {
+    "project": {
+      "name": "video_summarizer",
+      "random_seed": 42
+    },
+    "paths": {
+      "data": {
+        "annotations": "data/annotations",
+        "datasets": "data/datasets"
+      },
+      "models": {
+        "ner": "models/ner",
+        "topic": "models/topic",
+        "embeddings": "models/embeddings",
+        "text": "models/text"
+      },
+      "results": "results"
+    },
+    "data": {
+      "test_ratio": 0.2,
+      "val_ratio": 0.1,
+      "stem_categories": [
+        "EQUATION",
+        "CONCEPT",
+        "METHOD",
+        "THEOREM",
+        "FORMULA"
+      ]
+    },
+    "ner": {
+      "model_base": "bert-base-uncased",
+      "n_iter": 10,
+      "validation_frequency": 2,
+      "dropout": 0.3,
+      "early_stopping_threshold": 0.001,
+      "learning_rate": "2e-5",
+      "batch_size": 8,
+      "max_length": 128,
+      "warmup_ratio": 0.1,
+      "weight_decay": 0.01
+    },
+    "topic": {
+      "embedding_model": "all-MiniLM-L6-v2",
+      "min_topic_size": 10,
+      "n_gram_range": [
+        1,
+        2
+      ],
+      "nr_topics": "auto",
+      "top_n_words": 10,
+      "diversity": 0.1
+    },
+    "sentence_bert": {
+      "base_model": "bert-base-uncased",
+      "max_seq_length": 256,
+      "pooling_mode": "mean",
+      "use_dense_layer": false,
+      "epochs": 3,
+      "batch_size": 16,
+      "learning_rate": "2e-5",
+      "warmup_ratio": 0.1
+    }
+  },
+  "results": {
+    "statistics": {
+      "total_lectures": 238,
+      "total_segments": 36408,
+      "avg_segments_per_lecture": 152.9747899159664,
+      "avg_segment_duration": 5.7307256646890785,
+      "avg_word_count": 16.168369589101296,
+      "avg_sentence_count": 1.4093056471105252,
+      "segments_with_equations": 916,
+      "segments_with_diagrams": 902,
+      "segments_with_code": 475,
+      "segments_with_reactions": 88,
+      "segments_with_gestures": 624,
+      "segments_with_questions": 190,
+      "segments_with_answers": 73,
+      "segments_with_notes": 265,
+      "equation_percentage": 2.5159305647110526,
+      "diagram_percentage": 2.4774774774774775,
+      "code_percentage": 1.304658316853439,
+      "word_distribution": {
+        "min": 1,
+        "max": 63,
+        "mean": 16.168369589101296,
+        "std": 5.433957129715673
+      },
+      "sentence_distribution": {
+        "min": 1,
+        "max": 7,
+        "mean": 1.4093056471105252,
+        "std": 0.6737901101227413
+      }
+    },
+    "ner_dataset_size": {
+      "total": 899,
+      "train": 629,
+      "val": 90,
+      "test": 180
+    },
+    "topic_dataset_lectures": 238,
+    "similarity_pairs": {
+      "train": 75456,
+      "val": 10780,
+      "test": 21560
+    }
+  }
+}

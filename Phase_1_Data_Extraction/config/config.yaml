@@ -1,0 +1,49 @@
+project:
+  name: "video_summarizer"
+  random_seed: 42
+  
+paths:
+  data:
+    annotations: "data/annotations"
+    datasets: "data/datasets"
+  models:
+    ner: "models/ner"
+    topic: "models/topic"
+    embeddings: "models/embeddings"
+    text: "models/text"
+  results: "results"
+  
+data:
+  test_ratio: 0.2
+  val_ratio: 0.1
+  stem_categories: ["EQUATION", "CONCEPT", "METHOD", "THEOREM", "FORMULA"]
+  
+ner:
+  model_base: "bert-base-uncased"
+  n_iter: 10
+  validation_frequency: 2
+  dropout: 0.3
+  early_stopping_threshold: 0.001
+  learning_rate: 2e-5
+  batch_size: 8
+  max_length: 128
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  
+topic:
+  embedding_model: "all-MiniLM-L6-v2"
+  min_topic_size: 10
+  n_gram_range: [1, 2]
+  nr_topics: "auto"
+  top_n_words: 10
+  diversity: 0.1
+  
+sentence_bert:
+  base_model: "bert-base-uncased"
+  max_seq_length: 256
+  pooling_mode: "mean"
+  use_dense_layer: false
+  epochs: 3
+  batch_size: 16
+  learning_rate: 2e-5
+  warmup_ratio: 0.1
