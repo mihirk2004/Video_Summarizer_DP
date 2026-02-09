@@ -13,7 +13,11 @@ data/raw_frames
 data/raw_videos
 data/processed
 data/annotations
+data/organized_frames_fixed
+data/coco
 >>>>>>> 5ed43943681c7427d0fb6105e7b04fc99cff1dbe
+
+models/text
 *.mp4
 *.wav
 
