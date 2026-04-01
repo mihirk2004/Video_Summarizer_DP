@@ -1,0 +1,392 @@
+# Phase 3: BART Summarization Fine-Tuning + LLM Integration
+
+Fine-tune `facebook/bart-large-cnn` on lecture transcripts for technical summarization, using FLAN-T5 for pseudo-summary generation and post-processing enhancement. Integrates Phase 2 models (NER, Topic-Seg, SBERT) for entity-aware training.
+
+## User Review Required
+
+> [!IMPORTANT]
+> **GPU Memory**: BART-large-cnn (~1.6GB) + FLAN-T5-base (~990MB) won't fit simultaneously in 4GB VRAM. The plan processes them sequentially — FLAN-T5 runs first (Step 1), then is unloaded before BART training (Step 3). **If using Colab (T4 16GB), both can run more comfortably.**
+
+> [!WARNING]
+> **Pseudo-summaries quality**: The entire BART fine-tuning depends on FLAN-T5-generated pseudo-summaries. Step 1 includes quality filtering (SBERT similarity + entity coverage), but you should manually review ~20 summaries before proceeding to Step 3. The script will save samples for inspection.
+
+> [!IMPORTANT]
+> **Timeline Decision**: The plan below is designed for ~7 working days. Steps 1-2 (data prep) take ~2 days, Step 3 (BART training) ~2 days, Steps 4-6 (eval + enhancement + integration) ~3 days. Let me know if priorities need adjusting.
+
+---
+
+## Architecture
+
+```mermaid
+graph TD
+    A[152 Annotated JSONs] --> B[05_prepare_bart_data.py]
+    T[Topic-Seg Model] --> B
+    B --> C[Topical Segments with Visual Tags]
+    C --> D[06_generate_pseudo_summaries.py]
+    F5[FLAN-T5-base] --> D
+    NER[STEM NER Model] --> D
+    SBERT[SBERT Model] --> D
+    D --> E[Enhanced Dataset with Summaries]
+    E --> F[07_create_bart_dataset.py]
+    F --> G[Tokenized Train/Val/Test Splits]
+    G --> H[08_train_bart_summarizer.py]
+    BART[BART-large-cnn] --> H
+    NER --> H
+    H --> I[Fine-tuned BART Model]
+    I --> J[09_evaluate_bart.py]
+    J --> K[ROUGE/METEOR/BERTScore Metrics]
+    I --> L[10_llm_enhance_summaries.py]
+    F5b[FLAN-T5] --> L
+    L --> M[Enhanced Summaries]
+    I --> N[11_summarization_pipeline.py]
+    T --> N
+    L --> N
+    N --> O[End-to-End Output]
+```
+
+---
+
+## Proposed Changes
+
+### Configuration
+
+#### [NEW] [summarization_config.yaml](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/config/summarization_config.yaml)
+
+BART and FLAN-T5 hyperparameters, integrated with existing [ConfigLoader](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/utils/config_loader.py#6-80):
+
+```yaml
+# BART Summarization Config
+bart:
+  model_name: "facebook/bart-large-cnn"
+  max_input_length: 1024
+  max_target_length: 256
+  min_target_length: 30
+  num_beams: 4
+  length_penalty: 2.0
+  no_repeat_ngram_size: 3
+  learning_rate: 2e-5
+  batch_size: 2             # Small for 4GB GPU
+  gradient_accumulation_steps: 4  # Effective batch = 8
+  epochs: 5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  fp16: true
+  early_stopping_patience: 3
+  entity_loss_weight: 1.5   # Extra weight for STEM entities
+
+# FLAN-T5 Config
+flan_t5:
+  model_name: "google/flan-t5-base"
+  max_input_length: 512
+  max_target_length: 150
+  temperature: 0.7
+  top_p: 0.9
+  batch_size: 4
+  min_quality_score: 0.3    # SBERT similarity threshold
+
+# Data Preparation
+data_prep:
+  min_segment_words: 50          # Minimum words per topical block
+  max_segment_words: 800         # Maximum words per topical block
+  visual_tags: ["equation", "diagram", "code", "slide", "graph"]
+  summary_review_samples: 20    # Samples saved for manual review
+```
+
+#### [MODIFY] [paths.yaml](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/config/paths.yaml)
+
+Add paths for summarization models and datasets:
+
+```diff
+ models:
+   ner: "models/text/ner_spacy"
+   topic: "models/text/topic_seg"
+   embeddings: "models/text/embeddings_SBERT"
++  bart: "models/text/bart_summarizer"
++  
++data:
++  annotations: "data/annotations"
++  datasets: "data/processed"
++  bart_dataset: "data/processed/bart_dataset"
+```
+
+#### [MODIFY] [config_loader.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/utils/config_loader.py)
+
+Add `summarization_config.yaml` to the config files dict so it gets auto-loaded:
+
+```diff
+ config_files = {
+     "text": "text_config.yaml",
+-    "paths": "paths.yaml"
++    "paths": "paths.yaml",
++    "summarization": "summarization_config.yaml"
+ }
+```
+
+---
+
+### Step 1: Data Preparation (Days 1-2)
+
+#### [NEW] [05_prepare_bart_data.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/05_prepare_bart_data.py)
+
+**Purpose**: Transform 152 annotated JSONs into topical segment blocks using Phase 2 topic boundaries.
+
+**Logic**:
+1. Load [segmentation_results.json](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/models/text/topic_seg/segmentation_results.json) from topic model → get per-lecture boundaries
+2. For each lecture: group Whisper segments between topic boundaries into coherent blocks
+3. For each block: extract visual tags by matching frame timestamps to segment timespan
+4. Format: `[TRANSCRIPT] {concatenated text} [VISUAL] {equation, diagram, ...}`
+5. Filter: skip blocks with < 50 words (too short for meaningful summary)
+6. Save as `data/processed/bart_dataset/prepared_segments.json`
+
+**Output schema**:
+```json
+{
+  "segments": [
+    {
+      "segment_id": "lecture_001_seg_0",
+      "lecture_id": "lecture_001",
+      "start": 0.0,
+      "end": 120.5,
+      "raw_text": "concatenated whisper texts...",
+      "formatted_input": "[TRANSCRIPT] ... [VISUAL] equation, diagram",
+      "visual_tags": ["equation"],
+      "word_count": 245,
+      "topic_id": 3
+    }
+  ],
+  "full_transcripts": [
+    {
+      "lecture_id": "lecture_001",
+      "text": "Full lecture transcript...",
+      "formatted_input": "[TRANSCRIPT] ... [VISUAL] equation, diagram, code"
+    }
+  ]
+}
+```
+
+#### [NEW] [06_generate_pseudo_summaries.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/06_generate_pseudo_summaries.py)
+
+**Purpose**: Generate pseudo ground-truth summaries using FLAN-T5 + quality filtering.
+
+**Logic**:
+1. Load prepared segments from Step 1
+2. For each segment, prompt FLAN-T5-base with a lecture-specific summarization prompt:
+   ```
+   Summarize this lecture segment for a technical study guide. 
+   Preserve all technical terms, equations, and key concepts.
+   
+   Segment: {formatted_input}
+   
+   Summary:
+   ```
+3. For each full transcript, generate a lecture-level summary
+4. **Quality filtering**:
+   - Compute SBERT cosine similarity between input and summary (discard if < 0.3)
+   - Check STEM entity coverage: use NER model to ensure key entities appear in summary
+   - Discard summaries that are too short (< 10 words) or too long (> target_length)
+5. Save `summary_review_samples.json` (20 randomly picked examples for human inspection)
+6. Save `data/processed/bart_dataset/dataset_with_summaries.json`
+
+**Output adds to each segment**:
+```json
+{
+  "pseudo_summary": "Access specifiers in C++ control member accessibility...",
+  "quality_score": 0.72,
+  "entity_coverage": 0.85,
+  "entities_found": ["access specifiers", "public", "private", "class"]
+}
+```
+
+---
+
+### Step 2: Dataset & Tokenization (Day 2-3)
+
+#### [NEW] [07_create_bart_dataset.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/07_create_bart_dataset.py)
+
+**Purpose**: Create PyTorch Dataset with BART tokenization and train/val/test splits.
+
+**Key components**:
+- `LectureSummarizationDataset(torch.utils.data.Dataset)`: Handles tokenization, padding, special token management
+- Special tokens added to BART tokenizer: `[TRANSCRIPT]`, `[VISUAL]`, `[EQUATION]`, `[DIAGRAM]`, `[CODE]`
+- Uses `data.train_ratio/val_ratio/test_ratio` from existing config (0.7/0.15/0.15)
+- Stratified split by lecture to avoid data leakage (segments from same lecture stay together)
+- Two dataset variants: **segment-level** (for per-segment summarization) and **lecture-level** (for full transcript summarization)
+- Smart batching with `DataCollatorForSeq2Seq` for dynamic padding
+- Save tokenized datasets to `data/processed/bart_dataset/`
+
+---
+
+### Step 3: BART Fine-Tuning (Days 3-5)
+
+#### [NEW] [08_train_bart_summarizer.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/08_train_bart_summarizer.py)
+
+**Purpose**: Fine-tune BART-large-cnn with entity-aware loss.
+
+**Architecture**:
+```
+Input Tokens → BART Encoder → BART Decoder → Output Tokens
+                                    ↓
+                     Entity-Aware Cross-Entropy Loss
+                     (higher weight for STEM entity tokens)
+```
+
+**Key features**:
+1. **Model loading**: `BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")`
+2. **Resize token embeddings** for special tokens added in Step 2
+3. **Entity-aware loss**: 
+   - Run NER on target summaries to identify STEM entity token positions
+   - Apply `entity_loss_weight: 1.5` multiplier to those positions in cross-entropy
+   - This forces the model to prioritize generating STEM terms correctly
+4. **GPU optimization** (4GB):
+   - `batch_size: 2` with `gradient_accumulation_steps: 4` → effective batch size 8
+   - `fp16: true` for mixed precision
+   - Gradient checkpointing enabled
+5. **Training loop** (using HuggingFace [Trainer](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/03_train_topic_segmentation.py#27-267) or custom loop):
+   - AdamW optimizer, linear scheduler with warmup
+   - ROUGE evaluation every epoch on validation set
+   - Save best model by ROUGE-L
+   - Early stopping (patience=3 epochs)
+   - TensorBoard logging to `logs/bart_training/`
+6. **Checkpointing**: Save to `models/text/bart_summarizer/`
+
+**Two training modes**:
+- **Phase A**: Fine-tune on segment-level summaries (primary task)
+- **Phase B**: Fine-tune on full-lecture summaries (optional, for lecture-level output)
+
+---
+
+### Step 4: Evaluation (Day 5-6)
+
+#### [NEW] [09_evaluate_bart.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/09_evaluate_bart.py)
+
+**Purpose**: Comprehensive evaluation with multiple metrics.
+
+**Metrics**:
+| Metric | Library | Purpose |
+|--------|---------|---------|
+| ROUGE-1/2/L | `rouge-score` | N-gram overlap |
+| METEOR | `nltk.translate.meteor_score` | Paraphrase-aware |
+| BERTScore | `bert-score` | Semantic similarity |
+| STEM Coverage | Custom | % of STEM entities in summary vs source |
+
+**Comparisons**:
+1. Pre-trained BART (zero-shot) vs Fine-tuned BART
+2. FLAN-T5 pseudo-summaries vs Fine-tuned BART
+3. Per-topic performance breakdown
+
+**Output**: `results/text_models/bart_evaluation.json` + visualization plots
+
+---
+
+### Step 5: LLM Enhancement (Day 6)
+
+#### [NEW] [10_llm_enhance_summaries.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/10_llm_enhance_summaries.py)
+
+**Purpose**: Post-process BART summaries with FLAN-T5 for quality improvement.
+
+**Enhancement pipeline**:
+1. **STEM coverage check**: If BART summary misses key entities, re-prompt FLAN-T5 to add them
+2. **Coherence enhancement**: Ask FLAN-T5 to improve flow and add transitional reasoning
+3. **Visual tag integration**: Insert `[EQUATION at 2:15]`, `[DIAGRAM at 5:30]` markers at correct positions
+4. **Boundary refinement**: Use FLAN-T5 to suggest if topic boundaries should be adjusted
+
+---
+
+### Step 6: Integration Pipeline (Day 7)
+
+#### [NEW] [11_summarization_pipeline.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/11_summarization_pipeline.py)
+
+**Purpose**: End-to-end pipeline for inference on new lectures.
+
+**Flow**:
+```
+New Lecture JSON
+    → Load transcript + frame annotations
+    → Topic Segmentation (BERTopic model)
+    → For each segment → BART Summarization
+    → LLM Enhancement (FLAN-T5)
+    → Output: Enhanced JSON with summaries + visual tags
+```
+
+**Output schema** (extends existing annotation JSON):
+```json
+{
+  "processing": {
+    "transcript": {
+      "segments": [...],
+      "topical_segments": [
+        {
+          "topic_id": 3,
+          "start": 0.0,
+          "end": 120.5,
+          "summary": "This segment covers access specifiers in C++...",
+          "visual_markers": [
+            { "type": "equation", "timestamp": 45.2 }
+          ],
+          "stem_entities": ["access specifiers", "public", "private"]
+        }
+      ],
+      "full_summary": "This lecture covers three main topics..."
+    }
+  }
+}
+```
+
+---
+
+### Dependencies
+
+#### [MODIFY] [requirements.txt](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/requirements.txt)
+
+```diff
++# Summarization (Phase 3)
++rouge-score>=0.1.2
++bert-score>=0.3.13
++accelerate>=0.20.0
+```
+
+---
+
+## Verification Plan
+
+### Smoke Tests (Run after each script)
+
+Each script will have a `--test` flag that runs on 2-3 lectures only:
+
+```bash
+# Step 1: Verify segment preparation (should output segment count and sample)
+python scripts/text_processing/05_prepare_bart_data.py --test
+
+# Step 2: Verify pseudo-summary generation (runs on 3 segments only)
+python scripts/text_processing/06_generate_pseudo_summaries.py --test
+
+# Step 3: Verify dataset creation (checks tokenization and shapes)
+python scripts/text_processing/07_create_bart_dataset.py --test
+
+# Step 4: Verify training starts (runs 2 steps, checks loss decreases)
+python scripts/text_processing/08_train_bart_summarizer.py --test --max-steps 2
+
+# Step 5: Verify evaluation (runs on test split, outputs metrics)
+python scripts/text_processing/09_evaluate_bart.py --model-path models/text/bart_summarizer/
+
+# Step 6: Verify enhancement (runs on 3 samples)
+python scripts/text_processing/10_llm_enhance_summaries.py --test
+
+# Step 7: Verify end-to-end pipeline on single lecture
+python scripts/text_processing/11_summarization_pipeline.py --input data/annotations/lecture_001_annotated.json
+```
+
+### Manual Verification
+
+1. **After Step 1 (06)**: Review `summary_review_samples.json` — check that 20 pseudo-summaries are accurate and capture key concepts. If quality is poor, adjust FLAN-T5 prompts before proceeding.
+2. **After Step 3 (08)**: Check TensorBoard at `logs/bart_training/` — training loss should steadily decrease, ROUGE-L on validation should improve over epochs.
+3. **After Step 5 (09)**: Review `results/text_models/bart_evaluation.json` — fine-tuned BART should outperform zero-shot baseline on ROUGE metrics.
+4. **After Step 7 (11)**: Open output JSON for `lecture_001` — verify summaries make sense, visual tags are at correct timestamps, and STEM entities are preserved.
+
+### Automated Validation Built Into Scripts
+
+- **05**: Asserts minimum segment count > 0, no empty segments
+- **06**: Logs quality score distribution, warns if > 30% of summaries fail quality threshold
+- **07**: Validates tokenized lengths, checks no truncation above 5% of samples
+- **08**: Asserts training loss decreases between epoch 1 and epoch 2
+- **09**: Generates comparison table (pre-trained vs fine-tuned) automatically

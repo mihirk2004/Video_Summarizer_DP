@@ -1,0 +1,2648 @@
+# BART Training Enhancements — Walkthrough
+
+## Changes Made (Phases A–D)
+
+### Phase A: Training Script ([08_train_bart_summarizer.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/08_train_bart_summarizer.py)) — 7 fixes
+
+```diff:08_train_bart_summarizer.py
+#!/usr/bin/env python3
+"""
+Step 4: Fine-tune BART for lecture summarization
+Loads tokenized dataset → trains with entity-aware loss → evaluates with ROUGE → saves model
+
+Usage:
+    python scripts/text_processing/08_train_bart_summarizer.py                  # Full training
+    python scripts/text_processing/08_train_bart_summarizer.py --test           # 2 steps only
+    python scripts/text_processing/08_train_bart_summarizer.py --small          # Use bart-base (4GB GPU)
+"""
+import sys
+import json
+import pickle
+import argparse
+from pathlib import Path
+from typing import Dict, List, Any, Optional
+from dataclasses import dataclass
+
+import torch
+import numpy as np
+from tqdm import tqdm
+
+# Add project root
+project_root = Path(__file__).parent.parent.parent
+sys.path.append(str(project_root))
+
+from scripts.utils.config_loader import config_loader
+from scripts.utils.logger import setup_logger
+
+
+# ======================================================================
+# Custom data collator (handles entity_mask)
+# ======================================================================
+@dataclass
+class SummarizationCollator:
+    """Data collator that handles entity_mask alongside standard Seq2Seq fields"""
+    pad_token_id: int
+    max_target_length: int = 256
+
+    def __call__(self, features: List[Dict]) -> Dict[str, torch.Tensor]:
+        # Separate entity masks
+        has_entity_mask = 'entity_mask' in features[0]
+        entity_masks = [f.pop('entity_mask', None) for f in features] if has_entity_mask else None
+
+        # Stack standard fields
+        batch = {
+            'input_ids': torch.stack([f['input_ids'] for f in features]),
+            'attention_mask': torch.stack([f['attention_mask'] for f in features]),
+            'labels': torch.stack([f['labels'] for f in features]),
+        }
+
+        # Add entity masks
+        if entity_masks is not None and entity_masks[0] is not None:
+            batch['entity_mask'] = torch.stack(entity_masks)
+
+        return batch
+
+
+# ======================================================================
+# Custom Trainer with entity-aware loss
+# ======================================================================
+class EntityAwareTrainer:
+    """Custom training loop with entity-weighted cross-entropy"""
+
+    def __init__(self, config: Dict, model_name_override: Optional[str] = None,
+                 test_mode: bool = False):
+        self.config = config
+        self.test_mode = test_mode
+        self.logger = setup_logger("bart_trainer")
+
+        # BART config
+        bart = config.get('bart', {})
+        self.model_name = model_name_override or bart.get('model_name', 'facebook/bart-large-cnn')
+        self.max_input = bart.get('max_input_length', 1024)
+        self.max_target = bart.get('max_target_length', 256)
+        self.lr = bart.get('learning_rate', 2e-5)
+        self.batch_size = bart.get('batch_size', 2)
+        self.grad_accum = bart.get('gradient_accumulation_steps', 4)
+        self.epochs = bart.get('epochs', 5)
+        self.warmup_ratio = bart.get('warmup_ratio', 0.1)
+        self.weight_decay = bart.get('weight_decay', 0.01)
+        self.use_fp16 = bart.get('fp16', True) and torch.cuda.is_available()
+        self.grad_ckpt = bart.get('gradient_checkpointing', True)
+        self.patience = bart.get('early_stopping_patience', 3)
+        self.entity_weight = bart.get('entity_loss_weight', 1.5)
+        self.num_beams = bart.get('num_beams', 4)
+        self.min_target_len = bart.get('min_target_length', 30)
+
+        # Paths
+        self.data_dir = Path(config['paths']['data'].get(
+            'bart_dataset', 'data/processed/bart_dataset'))
+        self.model_dir = Path(config['paths']['models'].get(
+            'bart', 'models/text/bart_summarizer'))
+        self.model_dir.mkdir(parents=True, exist_ok=True)
+
+        self.log_dir = Path("logs/bart_training")
+        self.log_dir.mkdir(parents=True, exist_ok=True)
+
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.logger.info(f"Device: {self.device}")
+        if torch.cuda.is_available():
+            self.logger.info(f"GPU: {torch.cuda.get_device_name()}")
+            self.logger.info(f"VRAM: {torch.cuda.get_device_properties(0).total_mem / 1e9:.1f} GB")
+
+    # ------------------------------------------------------------------
+    # Load data & model
+    # ------------------------------------------------------------------
+    from scripts.text_processing.07_create_bart_dataset import LectureSummarizationDataset
+    from transformers import AutoTokenizer
+    def _load_dataset(self):
+        """Load tokenized dataset from Step 3"""
+        ds_path = self.data_dir / "bart_tokenized_dataset.pkl"
+        assert ds_path.exists(), f"Run 07_create_bart_dataset.py first! Missing {ds_path}"
+
+        with open(ds_path, 'rb') as f:
+            data = pickle.load(f)
+
+        tok_path = data['tokenizer_path']
+        tokenizer = AutoTokenizer.from_pretrained(tok_path)
+
+    def make_ds(split_name):
+        return LectureSummarizationDataset(
+            data['splits'][split_name], tokenizer,
+                data['max_input_length'], data['max_target_length']
+            )
+
+    return {
+            'train': make_ds('train'),
+            'val': make_ds('val'),
+            'test': make_ds('test'),
+            'tokenizer': tokenizer,
+            'meta': data,
+        }
+
+    def _load_model(self, tokenizer):
+        """Load pre-trained BART model and resize embeddings"""
+        from transformers import BartForConditionalGeneration
+
+        self.logger.info(f"Loading model: {self.model_name}")
+        model = BartForConditionalGeneration.from_pretrained(self.model_name)
+
+        # Resize for special tokens
+        model.resize_token_embeddings(len(tokenizer))
+        self.logger.info(f"Token embeddings resized to {len(tokenizer)}")
+
+        # Gradient checkpointing for memory savings
+        if self.grad_ckpt:
+            model.gradient_checkpointing_enable()
+            self.logger.info("Gradient checkpointing enabled ✓")
+
+        return model.to(self.device)
+
+    # ------------------------------------------------------------------
+    # Loss computation
+    # ------------------------------------------------------------------
+    def _compute_loss(self, model, batch):
+        """Compute entity-aware cross-entropy loss"""
+        input_ids = batch['input_ids'].to(self.device)
+        attention_mask = batch['attention_mask'].to(self.device)
+        labels = batch['labels'].to(self.device)
+        entity_mask = batch.get('entity_mask')
+
+        outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+
+        # Use standard loss when entity-aware is disabled
+        if entity_mask is None or self.entity_weight <= 1.0:
+            return outputs.loss
+
+        # Entity-aware weighted loss
+        entity_mask = entity_mask.to(self.device).float()
+        logits = outputs.logits
+
+        loss_fct = torch.nn.CrossEntropyLoss(reduction='none', ignore_index=-100)
+        shift_logits = logits[:, :-1, :].contiguous()
+        shift_labels = labels[:, 1:].contiguous()
+        shift_mask = entity_mask[:, 1:].contiguous()
+
+        per_token_loss = loss_fct(
+            shift_logits.view(-1, shift_logits.size(-1)),
+            shift_labels.view(-1)
+        ).view(shift_labels.size())
+
+        # Weight: 1.0 for normal tokens, entity_weight for entity tokens
+        weights = 1.0 + shift_mask * (self.entity_weight - 1.0)
+        valid = (shift_labels != -100).float()
+        weighted_loss = (per_token_loss * weights * valid).sum() / valid.sum().clamp(min=1)
+
+        return weighted_loss
+
+    # ------------------------------------------------------------------
+    # ROUGE evaluation
+    # ------------------------------------------------------------------
+    @torch.no_grad()
+    def _evaluate(self, model, dataset, tokenizer, max_samples=100):
+        """Evaluate with ROUGE metrics"""
+        import evaluate
+
+        model.eval()
+        rouge = evaluate.load("rouge")
+
+        loader = torch.utils.data.DataLoader(
+            dataset, batch_size=self.batch_size, shuffle=False,
+            collate_fn=SummarizationCollator(tokenizer.pad_token_id, self.max_target)
+        )
+
+        all_preds, all_labels = [], []
+        n_done = 0
+
+        for batch in tqdm(loader, desc="Evaluating", leave=False):
+            input_ids = batch['input_ids'].to(self.device)
+            attention_mask = batch['attention_mask'].to(self.device)
+
+            gen_ids = model.generate(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                max_length=self.max_target,
+                min_length=self.min_target_len,
+                num_beams=self.num_beams,
+                no_repeat_ngram_size=3,
+                length_penalty=2.0,
+            )
+
+            preds = tokenizer.batch_decode(gen_ids, skip_special_tokens=True)
+            labs = batch['labels'].clone()
+            labs[labs == -100] = tokenizer.pad_token_id
+            refs = tokenizer.batch_decode(labs, skip_special_tokens=True)
+
+            all_preds.extend(preds)
+            all_labels.extend(refs)
+
+            n_done += len(preds)
+            if n_done >= max_samples:
+                break
+
+        results = rouge.compute(predictions=all_preds, references=all_labels)
+        model.train()
+        return results
+
+    # ------------------------------------------------------------------
+    # Training loop
+    # ------------------------------------------------------------------
+    def train(self):
+        self.logger.info("=" * 60)
+        self.logger.info("Starting BART Fine-Tuning")
+        self.logger.info("=" * 60)
+
+        # Load data & model
+        data = self._load_dataset()
+        tokenizer = data['tokenizer']
+        model = self._load_model(tokenizer)
+
+        train_ds = data['train']
+        val_ds = data['val']
+
+        collator = SummarizationCollator(tokenizer.pad_token_id, self.max_target)
+        train_loader = torch.utils.data.DataLoader(
+            train_ds, batch_size=self.batch_size, shuffle=True, collate_fn=collator
+        )
+
+        # Optimizer & scheduler
+        optimizer = torch.optim.AdamW(
+            model.parameters(), lr=self.lr, weight_decay=self.weight_decay
+        )
+
+        total_steps = (len(train_loader) // self.grad_accum) * self.epochs
+        warmup_steps = int(total_steps * self.warmup_ratio)
+
+        from transformers import get_linear_schedule_with_warmup
+        scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
+
+        # Mixed precision
+        scaler = torch.amp.GradScaler('cuda') if self.use_fp16 else None
+
+        self.logger.info(f"Training samples: {len(train_ds)}")
+        self.logger.info(f"Validation samples: {len(val_ds)}")
+        self.logger.info(f"Batch size: {self.batch_size} x {self.grad_accum} accum = {self.batch_size * self.grad_accum}")
+        self.logger.info(f"Total steps: {total_steps} ({self.epochs} epochs)")
+        self.logger.info(f"Warmup steps: {warmup_steps}")
+        self.logger.info(f"FP16: {self.use_fp16}")
+        self.logger.info(f"Entity loss weight: {self.entity_weight}")
+
+        # Test mode: only 2 steps
+        max_steps = 2 if self.test_mode else None
+
+        # Training
+        best_rouge = 0.0
+        patience_counter = 0
+        history = []
+        global_step = 0
+
+        for epoch in range(1, self.epochs + 1):
+            model.train()
+            epoch_loss = 0.0
+            n_batches = 0
+            optimizer.zero_grad()
+
+            pbar = tqdm(train_loader, desc=f"Epoch {epoch}/{self.epochs}")
+            for step, batch in enumerate(pbar):
+                # Forward pass
+                if self.use_fp16:
+                    with torch.amp.autocast('cuda'):
+                        loss = self._compute_loss(model, batch)
+                        loss = loss / self.grad_accum
+                    scaler.scale(loss).backward()
+                else:
+                    loss = self._compute_loss(model, batch)
+                    loss = loss / self.grad_accum
+                    loss.backward()
+
+                epoch_loss += loss.item() * self.grad_accum
+                n_batches += 1
+
+                # Gradient accumulation step
+                if (step + 1) % self.grad_accum == 0:
+                    if self.use_fp16:
+                        scaler.unscale_(optimizer)
+                        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                        scaler.step(optimizer)
+                        scaler.update()
+                    else:
+                        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                        optimizer.step()
+
+                    scheduler.step()
+                    optimizer.zero_grad()
+                    global_step += 1
+
+                pbar.set_postfix({'loss': f'{epoch_loss / n_batches:.4f}',
+                                  'lr': f'{scheduler.get_last_lr()[0]:.2e}'})
+
+                if max_steps and global_step >= max_steps:
+                    break
+
+            avg_loss = epoch_loss / max(n_batches, 1)
+            self.logger.info(f"Epoch {epoch} — avg loss: {avg_loss:.4f}")
+
+            # Validate
+            self.logger.info("Running validation …")
+            rouge_scores = self._evaluate(model, val_ds, tokenizer,
+                                          max_samples=50 if not self.test_mode else 5)
+            rouge2 = rouge_scores.get('rouge2', 0)
+            rougeL = rouge_scores.get('rougeL', 0)
+
+            self.logger.info(f"Epoch {epoch} — ROUGE-2: {rouge2:.4f}  ROUGE-L: {rougeL:.4f}")
+
+            history.append({
+                'epoch': epoch,
+                'train_loss': round(avg_loss, 4),
+                'rouge1': round(rouge_scores.get('rouge1', 0), 4),
+                'rouge2': round(rouge2, 4),
+                'rougeL': round(rougeL, 4),
+            })
+
+            # Save best model
+            if rouge2 > best_rouge:
+                best_rouge = rouge2
+                patience_counter = 0
+                self._save_checkpoint(model, tokenizer, epoch, rouge_scores, is_best=True)
+                self.logger.info(f"New best model saved! ROUGE-2: {rouge2:.4f}")
+            else:
+                patience_counter += 1
+                self.logger.info(f"No improvement ({patience_counter}/{self.patience})")
+
+            # Early stopping
+            if patience_counter >= self.patience:
+                self.logger.info(f"Early stopping at epoch {epoch}")
+                break
+
+            if max_steps and global_step >= max_steps:
+                self.logger.info("Test mode: stopping after max steps")
+                break
+
+        # Save training history
+        self._save_history(history)
+
+        self.logger.info("=" * 60)
+        self.logger.info(f"Training complete! Best ROUGE-2: {best_rouge:.4f}")
+        self.logger.info(f"Model saved to {self.model_dir}")
+        self.logger.info("=" * 60)
+        return history
+
+    # ------------------------------------------------------------------
+    # Checkpointing
+    # ------------------------------------------------------------------
+    def _save_checkpoint(self, model, tokenizer, epoch, rouge_scores, is_best=False):
+        save_dir = self.model_dir / ("best_model" if is_best else f"checkpoint_epoch_{epoch}")
+        save_dir.mkdir(parents=True, exist_ok=True)
+
+        model.save_pretrained(str(save_dir))
+        tokenizer.save_pretrained(str(save_dir))
+
+        meta = {
+            'epoch': epoch,
+            'model_name': self.model_name,
+            'rouge_scores': {k: round(v, 4) for k, v in rouge_scores.items()},
+            'config': {
+                'learning_rate': self.lr,
+                'batch_size': self.batch_size,
+                'gradient_accumulation': self.grad_accum,
+                'entity_loss_weight': self.entity_weight,
+                'fp16': self.use_fp16,
+            },
+        }
+        with open(save_dir / "training_meta.json", 'w') as f:
+            json.dump(meta, f, indent=2)
+
+    def _save_history(self, history):
+        path = self.model_dir / "training_history.json"
+        with open(path, 'w') as f:
+            json.dump(history, f, indent=2)
+        self.logger.info(f"Training history → {path}")
+
+
+# ------------------------------------------------------------------
+# CLI
+# ------------------------------------------------------------------
+def main():
+    parser = argparse.ArgumentParser(description="Fine-tune BART for lecture summarization")
+    parser.add_argument("--test", action="store_true", help="Test mode (2 training steps)")
+    parser.add_argument("--small", action="store_true",
+                        help="Use bart-base instead of bart-large-cnn (fits 4GB GPU)")
+    args = parser.parse_args()
+
+    config = config_loader.load_all()
+
+    model_override = "facebook/bart-base" if args.small else None
+
+    trainer = EntityAwareTrainer(config, model_name_override=model_override,
+                                test_mode=args.test)
+    history = trainer.train()
+
+    print(f"\n{'=' * 50}")
+    print("BART Training Complete!")
+    if history:
+        best = max(history, key=lambda h: h['rouge2'])
+        print(f"  Best epoch:  {best['epoch']}")
+        print(f"  Best ROUGE-2: {best['rouge2']}")
+        print(f"  Best ROUGE-L: {best['rougeL']}")
+    print(f"{'=' * 50}")
+
+
+if __name__ == "__main__":
+    main()
+===
+#!/usr/bin/env python3
+"""
+Step 4: Fine-tune BART for lecture summarization
+Loads tokenized dataset → trains with entity-aware loss → evaluates with ROUGE → saves model
+
+Usage:
+    python scripts/text_processing/08_train_bart_summarizer.py                  # Full training
+    python scripts/text_processing/08_train_bart_summarizer.py --test           # 2 steps only
+    python scripts/text_processing/08_train_bart_summarizer.py --small          # Use bart-base (4GB GPU)
+    python scripts/text_processing/08_train_bart_summarizer.py --resume         # Resume from last checkpoint
+"""
+import sys
+import json
+import pickle
+import argparse
+from pathlib import Path
+from typing import Dict, List, Any, Optional
+from dataclasses import dataclass
+
+import torch
+import numpy as np
+from tqdm import tqdm
+
+# Add project root
+project_root = Path(__file__).parent.parent.parent
+sys.path.append(str(project_root))
+
+from scripts.utils.config_loader import config_loader
+from scripts.utils.logger import setup_logger
+
+
+# ======================================================================
+# Custom data collator (handles entity_mask)
+# ======================================================================
+@dataclass
+class SummarizationCollator:
+    """Data collator that handles entity_mask alongside standard Seq2Seq fields"""
+    pad_token_id: int
+    max_target_length: int = 350
+
+    def __call__(self, features: List[Dict]) -> Dict[str, torch.Tensor]:
+        # Separate entity masks
+        has_entity_mask = 'entity_mask' in features[0]
+        entity_masks = [f.pop('entity_mask', None) for f in features] if has_entity_mask else None
+
+        # Stack standard fields
+        batch = {
+            'input_ids': torch.stack([f['input_ids'] for f in features]),
+            'attention_mask': torch.stack([f['attention_mask'] for f in features]),
+            'labels': torch.stack([f['labels'] for f in features]),
+        }
+
+        # Add entity masks
+        if entity_masks is not None and entity_masks[0] is not None:
+            batch['entity_mask'] = torch.stack(entity_masks)
+
+        return batch
+
+
+# ======================================================================
+# Custom Trainer with entity-aware loss
+# ======================================================================
+class EntityAwareTrainer:
+    """Custom training loop with entity-weighted cross-entropy"""
+
+    def __init__(self, config: Dict, model_name_override: Optional[str] = None,
+                 test_mode: bool = False, resume: bool = False):
+        self.config = config
+        self.test_mode = test_mode
+        self.resume = resume
+        self.logger = setup_logger("bart_trainer")
+
+        # BART config
+        bart = config.get('bart', {})
+        self.model_name = model_name_override or bart.get('model_name', 'facebook/bart-large-cnn')
+        self.max_input = bart.get('max_input_length', 1024)
+        self.max_target = bart.get('max_target_length', 350)
+        self.lr = bart.get('learning_rate', 1e-5)
+        self.batch_size = bart.get('batch_size', 2)
+        self.grad_accum = bart.get('gradient_accumulation_steps', 4)
+        self.epochs = bart.get('epochs', 10)
+        self.warmup_ratio = bart.get('warmup_ratio', 0.1)
+        self.weight_decay = bart.get('weight_decay', 0.01)
+        self.use_fp16 = bart.get('fp16', True) and torch.cuda.is_available()
+        self.grad_ckpt = bart.get('gradient_checkpointing', True)
+        self.patience = bart.get('early_stopping_patience', 5)
+        self.entity_weight = bart.get('entity_loss_weight', 1.5)
+        self.num_beams = bart.get('num_beams', 4)
+        self.min_target_len = bart.get('min_target_length', 30)
+        self.label_smoothing = bart.get('label_smoothing', 0.1)
+
+        # Paths
+        self.data_dir = Path(config['paths']['data'].get(
+            'bart_dataset', 'data/processed/bart_dataset'))
+        self.model_dir = Path(config['paths']['models'].get(
+            'bart', 'models/text/bart_summarizer'))
+        self.model_dir.mkdir(parents=True, exist_ok=True)
+
+        self.log_dir = Path("logs/bart_training")
+        self.log_dir.mkdir(parents=True, exist_ok=True)
+
+        self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+        self.logger.info(f"Device: {self.device}")
+        if torch.cuda.is_available():
+            self.logger.info(f"GPU: {torch.cuda.get_device_name()}")
+            self.logger.info(f"VRAM: {torch.cuda.get_device_properties(0).total_mem / 1e9:.1f} GB")
+
+    # ------------------------------------------------------------------
+    # Load data & model
+    # ------------------------------------------------------------------
+    def _load_dataset(self):
+        """Load tokenized dataset from Step 3"""
+        from scripts.text_processing.create_bart_dataset import LectureSummarizationDataset
+        from transformers import AutoTokenizer
+
+        ds_path = self.data_dir / "bart_tokenized_dataset.pkl"
+        assert ds_path.exists(), f"Run 07_create_bart_dataset.py first! Missing {ds_path}"
+
+        with open(ds_path, 'rb') as f:
+            data = pickle.load(f)
+
+        tok_path = data['tokenizer_path']
+        # for colab
+        tok_path = tok_path.replace("\\", "/")
+        tokenizer = AutoTokenizer.from_pretrained(tok_path)
+
+        def make_ds(split_name):
+            return LectureSummarizationDataset(
+                data['splits'][split_name], tokenizer,
+                data['max_input_length'], data['max_target_length']
+            )
+
+        return {
+            'train': make_ds('train'),
+            'val': make_ds('val'),
+            'test': make_ds('test'),
+            'tokenizer': tokenizer,
+            'meta': data,
+        }
+
+    def _load_model(self, tokenizer):
+        """Load pre-trained BART model and resize embeddings"""
+        from transformers import BartForConditionalGeneration
+
+        self.logger.info(f"Loading model: {self.model_name}")
+        model = BartForConditionalGeneration.from_pretrained(self.model_name)
+
+        # Resize for special tokens
+        model.resize_token_embeddings(len(tokenizer))
+        self.logger.info(f"Token embeddings resized to {len(tokenizer)}")
+
+        # Gradient checkpointing for memory savings
+        if self.grad_ckpt:
+            model.gradient_checkpointing_enable()
+            self.logger.info("Gradient checkpointing enabled ✓")
+
+        return model.to(self.device)
+
+    # ------------------------------------------------------------------
+    # Loss computation
+    # ------------------------------------------------------------------
+    def _compute_loss(self, model, batch):
+        """Compute entity-aware cross-entropy loss with label smoothing"""
+        input_ids = batch['input_ids'].to(self.device)
+        attention_mask = batch['attention_mask'].to(self.device)
+        labels = batch['labels'].to(self.device)
+        entity_mask = batch.get('entity_mask')
+
+        outputs = model(input_ids=input_ids, attention_mask=attention_mask, labels=labels)
+
+        # Use standard loss when entity-aware is disabled
+        if entity_mask is None or self.entity_weight <= 1.0:
+            # Apply label smoothing even without entity-aware loss
+            if self.label_smoothing > 0:
+                logits = outputs.logits
+                loss_fct = torch.nn.CrossEntropyLoss(
+                    reduction='mean', ignore_index=-100,
+                    label_smoothing=self.label_smoothing
+                )
+                shift_logits = logits[:, :-1, :].contiguous()
+                shift_labels = labels[:, 1:].contiguous()
+                return loss_fct(
+                    shift_logits.view(-1, shift_logits.size(-1)),
+                    shift_labels.view(-1)
+                )
+            return outputs.loss
+
+        # Entity-aware weighted loss
+        entity_mask = entity_mask.to(self.device).float()
+        logits = outputs.logits
+
+        loss_fct = torch.nn.CrossEntropyLoss(
+            reduction='none', ignore_index=-100,
+            label_smoothing=self.label_smoothing
+        )
+        shift_logits = logits[:, :-1, :].contiguous()
+        shift_labels = labels[:, 1:].contiguous()
+        shift_mask = entity_mask[:, 1:].contiguous()
+
+        per_token_loss = loss_fct(
+            shift_logits.view(-1, shift_logits.size(-1)),
+            shift_labels.view(-1)
+        ).view(shift_labels.size())
+
+        # Weight: 1.0 for normal tokens, entity_weight for entity tokens
+        weights = 1.0 + shift_mask * (self.entity_weight - 1.0)
+        valid = (shift_labels != -100).float()
+        weighted_loss = (per_token_loss * weights * valid).sum() / valid.sum().clamp(min=1)
+
+        return weighted_loss
+
+    # ------------------------------------------------------------------
+    # ROUGE evaluation
+    # ------------------------------------------------------------------
+    @torch.no_grad()
+    def _evaluate(self, model, dataset, tokenizer, max_samples=None):
+        """Evaluate with ROUGE metrics on full validation set"""
+        import evaluate
+
+        model.eval()
+        rouge = evaluate.load("rouge")
+
+        loader = torch.utils.data.DataLoader(
+            dataset, batch_size=self.batch_size, shuffle=False,
+            collate_fn=SummarizationCollator(tokenizer.pad_token_id, self.max_target)
+        )
+
+        all_preds, all_labels = [], []
+
+        # ── Override BART's built-in generation config ──
+        # BART-large-CNN ships with max_length=142, min_length=56 in its
+        # generation_config.json, which silently overrides our params.
+        # Clear them so our explicit params take effect.
+        model.generation_config.max_length = None
+        model.generation_config.min_length = None
+        model.generation_config.max_new_tokens = None
+
+        for batch in tqdm(loader, desc="Evaluating", leave=False):
+            input_ids = batch['input_ids'].to(self.device)
+            attention_mask = batch['attention_mask'].to(self.device)
+
+            gen_ids = model.generate(
+                input_ids=input_ids,
+                attention_mask=attention_mask,
+                max_new_tokens=self.max_target,       # ← was max_length
+                min_new_tokens=10,                     # ← explicit min
+                num_beams=self.num_beams,
+                no_repeat_ngram_size=3,
+                length_penalty=2.0,
+                early_stopping=True,
+            )
+
+            preds = tokenizer.batch_decode(gen_ids, skip_special_tokens=True)
+            labs = batch['labels'].clone()
+            labs[labs == -100] = tokenizer.pad_token_id
+            refs = tokenizer.batch_decode(labs, skip_special_tokens=True)
+
+            all_preds.extend(preds)
+            all_labels.extend(refs)
+
+            if max_samples and len(all_preds) >= max_samples:
+                break
+
+        results = rouge.compute(predictions=all_preds, references=all_labels)
+
+        # ── Log sample predictions for debugging ──
+        n_show = min(3, len(all_preds))
+        self.logger.info("─── Sample Predictions ───")
+        for i in range(n_show):
+            self.logger.info(f"  [REF {i+1}]: {all_labels[i][:200]}…")
+            self.logger.info(f"  [PRED {i+1}]: {all_preds[i][:200]}…")
+            self.logger.info("")
+
+        model.train()
+        return results
+
+    # ------------------------------------------------------------------
+    # Training loop
+    # ------------------------------------------------------------------
+    def train(self):
+        self.logger.info("=" * 60)
+        self.logger.info("Starting BART Fine-Tuning")
+        self.logger.info("=" * 60)
+
+        # Load data & model
+        data = self._load_dataset()
+        tokenizer = data['tokenizer']
+        model = self._load_model(tokenizer)
+
+        train_ds = data['train']
+        val_ds = data['val']
+
+        collator = SummarizationCollator(tokenizer.pad_token_id, self.max_target)
+        train_loader = torch.utils.data.DataLoader(
+            train_ds, batch_size=self.batch_size, shuffle=True, collate_fn=collator
+        )
+
+        # Optimizer & scheduler
+        optimizer = torch.optim.AdamW(
+            model.parameters(), lr=self.lr, weight_decay=self.weight_decay
+        )
+
+        total_steps = (len(train_loader) // self.grad_accum) * self.epochs
+        warmup_steps = int(total_steps * self.warmup_ratio)
+
+        from transformers import get_linear_schedule_with_warmup
+        scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
+
+        # Mixed precision
+        scaler = torch.amp.GradScaler('cuda') if self.use_fp16 else None
+
+        self.logger.info(f"Training samples: {len(train_ds)}")
+        self.logger.info(f"Validation samples: {len(val_ds)}")
+        self.logger.info(f"Batch size: {self.batch_size} x {self.grad_accum} accum = {self.batch_size * self.grad_accum}")
+        self.logger.info(f"Total steps: {total_steps} ({self.epochs} epochs)")
+        self.logger.info(f"Warmup steps: {warmup_steps}")
+        self.logger.info(f"Learning rate: {self.lr}")
+        self.logger.info(f"FP16: {self.use_fp16}")
+        self.logger.info(f"Label smoothing: {self.label_smoothing}")
+        self.logger.info(f"Entity loss weight: {self.entity_weight}")
+
+        # Test mode: only 2 steps
+        max_steps = 2 if self.test_mode else None
+
+        # Training state
+        best_rouge = 0.0
+        patience_counter = 0
+        history = []
+        global_step = 0
+        start_epoch = 1
+
+        # Resume from checkpoint if requested
+        if self.resume:
+            start_epoch, best_rouge, history, global_step = self._load_checkpoint(
+                model, optimizer, scheduler, scaler
+            )
+            patience_counter = 0  # Reset patience on resume
+
+        for epoch in range(start_epoch, self.epochs + 1):
+            model.train()
+            epoch_loss = 0.0
+            n_batches = 0
+            optimizer.zero_grad()
+
+            pbar = tqdm(train_loader, desc=f"Epoch {epoch}/{self.epochs}")
+            for step, batch in enumerate(pbar):
+                # Forward pass
+                if self.use_fp16:
+                    with torch.amp.autocast('cuda'):
+                        loss = self._compute_loss(model, batch)
+                        loss = loss / self.grad_accum
+                    scaler.scale(loss).backward()
+                else:
+                    loss = self._compute_loss(model, batch)
+                    loss = loss / self.grad_accum
+                    loss.backward()
+
+                epoch_loss += loss.item() * self.grad_accum
+                n_batches += 1
+
+                # Gradient accumulation step
+                if (step + 1) % self.grad_accum == 0:
+                    if self.use_fp16:
+                        scaler.unscale_(optimizer)
+                        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                        scaler.step(optimizer)
+                        scaler.update()
+                    else:
+                        torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                        optimizer.step()
+
+                    # ── FIX: scheduler.step() AFTER optimizer.step() ──
+                    scheduler.step()
+                    optimizer.zero_grad()
+                    global_step += 1
+
+                pbar.set_postfix({'loss': f'{epoch_loss / n_batches:.4f}',
+                                  'lr': f'{scheduler.get_last_lr()[0]:.2e}'})
+
+                if max_steps and global_step >= max_steps:
+                    break
+
+            avg_loss = epoch_loss / max(n_batches, 1)
+            self.logger.info(f"Epoch {epoch} — avg loss: {avg_loss:.4f}")
+
+            # Validate (full validation set, no cap)
+            self.logger.info("Running validation …")
+            eval_max = 5 if self.test_mode else None
+            rouge_scores = self._evaluate(model, val_ds, tokenizer, max_samples=eval_max)
+            rouge2 = rouge_scores.get('rouge2', 0)
+            rougeL = rouge_scores.get('rougeL', 0)
+
+            self.logger.info(f"Epoch {epoch} — ROUGE-1: {rouge_scores.get('rouge1', 0):.4f}  "
+                             f"ROUGE-2: {rouge2:.4f}  ROUGE-L: {rougeL:.4f}")
+
+            history.append({
+                'epoch': epoch,
+                'train_loss': round(avg_loss, 4),
+                'rouge1': round(rouge_scores.get('rouge1', 0), 4),
+                'rouge2': round(rouge2, 4),
+                'rougeL': round(rougeL, 4),
+            })
+
+            # Save best model
+            if rouge2 > best_rouge:
+                best_rouge = rouge2
+                patience_counter = 0
+                self._save_checkpoint(model, tokenizer, epoch, rouge_scores,
+                                     optimizer, scheduler, scaler,
+                                     best_rouge, history, global_step,
+                                     is_best=True)
+                self.logger.info(f"New best model saved! ROUGE-2: {rouge2:.4f}")
+            else:
+                patience_counter += 1
+                self.logger.info(f"No improvement ({patience_counter}/{self.patience})")
+
+            # Early stopping
+            if patience_counter >= self.patience:
+                self.logger.info(f"Early stopping at epoch {epoch}")
+                break
+
+            if max_steps and global_step >= max_steps:
+                self.logger.info("Test mode: stopping after max steps")
+                break
+
+        # Save training history
+        self._save_history(history)
+
+        self.logger.info("=" * 60)
+        self.logger.info(f"Training complete! Best ROUGE-2: {best_rouge:.4f}")
+        self.logger.info(f"Model saved to {self.model_dir}")
+        self.logger.info("=" * 60)
+        return history
+
+    # ------------------------------------------------------------------
+    # Checkpointing (with full training state for resume)
+    # ------------------------------------------------------------------
+    def _save_checkpoint(self, model, tokenizer, epoch, rouge_scores,
+                         optimizer=None, scheduler=None, scaler=None,
+                         best_rouge=0.0, history=None, global_step=0,
+                         is_best=False):
+        save_dir = self.model_dir / ("best_model" if is_best else f"checkpoint_epoch_{epoch}")
+        save_dir.mkdir(parents=True, exist_ok=True)
+
+        model.save_pretrained(str(save_dir))
+        tokenizer.save_pretrained(str(save_dir))
+
+        meta = {
+            'epoch': epoch,
+            'global_step': global_step,
+            'model_name': self.model_name,
+            'best_rouge2': round(best_rouge, 4),
+            'rouge_scores': {k: round(v, 4) for k, v in rouge_scores.items()},
+            'history': history or [],
+            'config': {
+                'learning_rate': self.lr,
+                'batch_size': self.batch_size,
+                'gradient_accumulation': self.grad_accum,
+                'entity_loss_weight': self.entity_weight,
+                'label_smoothing': self.label_smoothing,
+                'fp16': self.use_fp16,
+            },
+        }
+        with open(save_dir / "training_meta.json", 'w') as f:
+            json.dump(meta, f, indent=2)
+
+        # Save optimizer & scheduler state for resume
+        training_state = {
+            'optimizer_state_dict': optimizer.state_dict() if optimizer else None,
+            'scheduler_state_dict': scheduler.state_dict() if scheduler else None,
+            'scaler_state_dict': scaler.state_dict() if scaler else None,
+            'epoch': epoch,
+            'global_step': global_step,
+            'best_rouge': best_rouge,
+            'history': history or [],
+        }
+        torch.save(training_state, save_dir / "training_state.pt")
+        self.logger.info(f"Checkpoint saved → {save_dir} (with training state)")
+
+    def _load_checkpoint(self, model, optimizer, scheduler, scaler):
+        """Load training state from the best checkpoint"""
+        ckpt_dir = self.model_dir / "best_model"
+        state_path = ckpt_dir / "training_state.pt"
+
+        if not state_path.exists():
+            self.logger.warning(f"No training_state.pt found at {ckpt_dir}, starting fresh")
+            return 1, 0.0, [], 0
+
+        self.logger.info(f"Resuming from checkpoint: {ckpt_dir}")
+        state = torch.load(state_path, map_location=self.device, weights_only=False)
+
+        # Restore model weights
+        from transformers import BartForConditionalGeneration
+        loaded = BartForConditionalGeneration.from_pretrained(str(ckpt_dir))
+        model.load_state_dict(loaded.state_dict())
+        del loaded
+
+        # Restore optimizer & scheduler
+        if state.get('optimizer_state_dict'):
+            optimizer.load_state_dict(state['optimizer_state_dict'])
+        if state.get('scheduler_state_dict'):
+            scheduler.load_state_dict(state['scheduler_state_dict'])
+        if scaler and state.get('scaler_state_dict'):
+            scaler.load_state_dict(state['scaler_state_dict'])
+
+        resume_epoch = state.get('epoch', 0) + 1  # Start from next epoch
+        best_rouge = state.get('best_rouge', 0.0)
+        history = state.get('history', [])
+        global_step = state.get('global_step', 0)
+
+        self.logger.info(f"Resumed: epoch {resume_epoch}, global_step {global_step}, "
+                         f"best ROUGE-2: {best_rouge:.4f}")
+        return resume_epoch, best_rouge, history, global_step
+
+    def _save_history(self, history):
+        path = self.model_dir / "training_history.json"
+        with open(path, 'w') as f:
+            json.dump(history, f, indent=2)
+        self.logger.info(f"Training history → {path}")
+
+
+# ------------------------------------------------------------------
+# CLI
+# ------------------------------------------------------------------
+def main():
+    parser = argparse.ArgumentParser(description="Fine-tune BART for lecture summarization")
+    parser.add_argument("--test", action="store_true", help="Test mode (2 training steps)")
+    parser.add_argument("--small", action="store_true",
+                        help="Use bart-base instead of bart-large-cnn (fits 4GB GPU)")
+    parser.add_argument("--resume", action="store_true",
+                        help="Resume training from the last saved checkpoint")
+    args = parser.parse_args()
+
+    config = config_loader.load_all()
+
+    model_override = "facebook/bart-base" if args.small else None
+
+    trainer = EntityAwareTrainer(config, model_name_override=model_override,
+                                test_mode=args.test, resume=args.resume)
+    history = trainer.train()
+
+    print(f"\n{'=' * 50}")
+    print("BART Training Complete!")
+    if history:
+        best = max(history, key=lambda h: h['rouge2'])
+        print(f"  Best epoch:  {best['epoch']}")
+        print(f"  Best ROUGE-1: {best['rouge1']}")
+        print(f"  Best ROUGE-2: {best['rouge2']}")
+        print(f"  Best ROUGE-L: {best['rougeL']}")
+    print(f"{'=' * 50}")
+
+
+if __name__ == "__main__":
+    main()
+
+```
+
+**Key changes:**
+1. **LR scheduler** — now fires only after `optimizer.step()` inside the grad accumulation block
+2. **Generation config override** — clears BART's built-in `max_length=142`, `min_length=56` before `model.generate()` so our params actually take effect
+3. **`max_new_tokens`** — replaced `max_length` to avoid prompt-length confusion
+4. **Full validation eval** — removed 50-sample cap; evaluates all 142 val samples
+5. **Sample predictions** — logs 3 REF vs PRED pairs per epoch for visual debugging
+6. **Label smoothing=0.1** — regularization to reduce overfitting
+7. **Hyperparams** — LR=1e-5, epochs=10, patience=5
+
+---
+
+### Phase B: Quality Filter ([06_generate_pseudo_summaries.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/06_generate_pseudo_summaries.py)) — 4 changes
+
+```diff:06_generate_pseudo_summaries.py
+#!/usr/bin/env python3
+"""
+Step 2: Generate pseudo-summaries using FLAN-T5
+Loads prepared segments → FLAN-T5 summary generation → quality filtering → saves dataset
+
+Usage:
+    python scripts/text_processing/06_generate_pseudo_summaries.py          # Full run
+    python scripts/text_processing/06_generate_pseudo_summaries.py --test   # 5 segments only
+"""
+import sys
+import json
+import random
+import argparse
+from pathlib import Path
+from typing import Dict, List, Any
+
+import torch
+import numpy as np
+from tqdm import tqdm
+
+# Add project root
+project_root = Path(__file__).parent.parent.parent
+sys.path.append(str(project_root))
+
+from scripts.utils.config_loader import config_loader
+from scripts.utils.logger import setup_logger
+
+
+class PseudoSummaryGenerator:
+    """Generate pseudo ground-truth summaries with FLAN-T5 + quality filtering"""
+
+    def __init__(self, config: Dict, test_mode: bool = False):
+        self.config = config
+        self.test_mode = test_mode
+        self.logger = setup_logger("pseudo_summary_gen")
+
+        # Paths
+        self.data_dir = Path(config['paths']['data'].get(
+            'bart_dataset', 'data/processed/bart_dataset'))
+
+        # FLAN-T5 config
+        ft = config.get('flan_t5', {})
+        self.model_name = ft.get('model_name', 'google/flan-t5-base')
+        self.max_input = ft.get('max_input_length', 512)
+        self.max_target = ft.get('max_target_length', 150)
+        self.temperature = ft.get('temperature', 0.7)
+        self.top_p = ft.get('top_p', 0.9)
+        self.batch_size = ft.get('batch_size', 4)
+        self.min_quality = ft.get('min_quality_score', 0.3)
+
+        # Review samples count
+        self.n_review = config.get('data_prep', {}).get('summary_review_samples', 20)
+
+        # Device
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+
+        # Models (loaded lazily)
+        self._flan_model = None
+        self._flan_tokenizer = None
+        self._sbert_model = None
+        self._nlp = None
+
+    # ------------------------------------------------------------------
+    # Lazy model loading (keeps memory low until needed)
+    # ------------------------------------------------------------------
+    def _load_flan(self):
+        if self._flan_model is not None:
+            return
+        from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+        self.logger.info(f"Loading FLAN-T5: {self.model_name} …")
+        self._flan_tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+        self._flan_model = AutoModelForSeq2SeqLM.from_pretrained(
+            self.model_name, torch_dtype=torch.float16 if self.device == "cuda" else torch.float32
+        ).to(self.device).eval()
+        self.logger.info("FLAN-T5 loaded ✓")
+
+    def _load_sbert(self):
+        if self._sbert_model is not None:
+            return
+        from sentence_transformers import SentenceTransformer
+
+        sbert_name = self.config.get('sentence_bert', {}).get(
+            'base_model', 'all-mpnet-base-v2')
+        self.logger.info(f"Loading SBERT: {sbert_name} …")
+        self._sbert_model = SentenceTransformer(sbert_name, device='cpu')
+        self.logger.info("SBERT loaded ✓")
+
+    def _load_nlp(self):
+        if self._nlp is not None:
+            return
+        import spacy
+
+        try:
+            self._nlp = spacy.load("en_core_sci_sm")
+        except OSError:
+            self._nlp = spacy.load("en_core_web_sm")
+        self.logger.info("spaCy NER loaded ✓")
+
+    def _unload_flan(self):
+        """Free FLAN-T5 GPU memory"""
+        if self._flan_model is not None:
+            del self._flan_model, self._flan_tokenizer
+            self._flan_model = self._flan_tokenizer = None
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            self.logger.info("FLAN-T5 unloaded, GPU memory freed")
+
+    # ------------------------------------------------------------------
+    # Summary generation
+    # ------------------------------------------------------------------
+    def _build_prompt(self, text: str) -> str:
+        """Build a summarization prompt for FLAN-T5"""
+        # Truncate text to fit within model limits
+        words = text.split()
+        if len(words) > 400:
+            text = " ".join(words[:400])
+
+        return (
+            "Summarize the following lecture transcript segment into a concise "
+            "technical summary. Preserve all technical terms, definitions, key "
+            "concepts, and important formulas. Write 2-4 sentences.\n\n"
+            f"Transcript: {text}\n\n"
+            "Technical Summary:"
+        )
+
+    @torch.no_grad()
+    def _generate_batch(self, prompts: List[str]) -> List[str]:
+        """Generate summaries for a batch of prompts"""
+        inputs = self._flan_tokenizer(
+            prompts,
+            max_length=self.max_input,
+            truncation=True,
+            padding=True,
+            return_tensors="pt",
+        ).to(self.device)
+
+        outputs = self._flan_model.generate(
+            **inputs,
+            max_new_tokens=self.max_target,
+            temperature=self.temperature,
+            top_p=self.top_p,
+            do_sample=True,
+            no_repeat_ngram_size=3,
+        )
+
+        return self._flan_tokenizer.batch_decode(outputs, skip_special_tokens=True)
+
+    def generate_summaries(self, segments: List[Dict]) -> List[Dict]:
+        """Generate pseudo-summaries for all segments"""
+        self._load_flan()
+
+        self.logger.info(f"Generating summaries for {len(segments)} segments …")
+        results = []
+
+        for i in tqdm(range(0, len(segments), self.batch_size), desc="Generating"):
+            batch = segments[i:i + self.batch_size]
+            prompts = [self._build_prompt(s['raw_text']) for s in batch]
+            summaries = self._generate_batch(prompts)
+
+            for seg, summary in zip(batch, summaries):
+                seg_copy = dict(seg)
+                seg_copy['pseudo_summary'] = summary.strip()
+                results.append(seg_copy)
+
+        self.logger.info(f"Generated {len(results)} summaries")
+        return results
+
+    # ------------------------------------------------------------------
+    # Quality filtering
+    # ------------------------------------------------------------------
+    def _sbert_similarity(self, text_a: str, text_b: str) -> float:
+        """Cosine similarity between two texts using SBERT"""
+        emb = self._sbert_model.encode([text_a, text_b], convert_to_numpy=True)
+        from numpy.linalg import norm
+        cos = float(np.dot(emb[0], emb[1]) / (norm(emb[0]) * norm(emb[1]) + 1e-9))
+        return cos
+
+    def _entity_coverage(self, source: str, summary: str) -> tuple:
+        """Check how many key entities from source appear in summary"""
+        src_doc = self._nlp(source[:5000])
+        sum_doc = self._nlp(summary)
+
+        # Collect source entities / noun chunks as key terms
+        src_terms = set()
+        for ent in src_doc.ents:
+            src_terms.add(ent.text.lower())
+        for chunk in src_doc.noun_chunks:
+            if len(chunk.text.split()) <= 3:
+                src_terms.add(chunk.text.lower())
+
+        if not src_terms:
+            return 1.0, list(src_terms)
+
+        summary_lower = summary.lower()
+        found = [t for t in src_terms if t in summary_lower]
+        coverage = len(found) / len(src_terms)
+        return coverage, found
+
+    def filter_quality(self, segments: List[Dict]) -> List[Dict]:
+        """Filter segments by summary quality"""
+        self._load_sbert()
+        self._load_nlp()
+
+        self.logger.info("Running quality filtering …")
+        passed, failed = [], 0
+
+        for seg in tqdm(segments, desc="Quality check"):
+            summary = seg.get('pseudo_summary', '')
+
+            # Basic length checks
+            if len(summary.split()) < 5:
+                failed += 1
+                continue
+
+            # SBERT similarity score
+            quality_score = self._sbert_similarity(seg['raw_text'], summary)
+
+            # Entity coverage
+            entity_cov, entities_found = self._entity_coverage(seg['raw_text'], summary)
+
+            seg['quality_score'] = round(quality_score, 4)
+            seg['entity_coverage'] = round(entity_cov, 4)
+            seg['entities_found'] = entities_found
+
+            if quality_score >= self.min_quality:
+                passed.append(seg)
+            else:
+                failed += 1
+
+        self.logger.info(f"Quality filter: {len(passed)} passed, {failed} failed "
+                         f"(threshold={self.min_quality})")
+
+        if len(passed) == 0:
+            self.logger.warning("⚠️  All summaries failed quality filter! "
+                                "Lowering threshold to keep top 80%.")
+            segments.sort(key=lambda x: x.get('quality_score', 0), reverse=True)
+            keep_n = max(int(len(segments) * 0.8), 1)
+            passed = segments[:keep_n]
+
+        return passed
+
+    # ------------------------------------------------------------------
+    # Review samples
+    # ------------------------------------------------------------------
+    def save_review_samples(self, segments: List[Dict]):
+        """Save random samples for manual human review"""
+        n = min(self.n_review, len(segments))
+        samples = random.sample(segments, n)
+
+        review = []
+        for s in samples:
+            review.append({
+                "segment_id": s['segment_id'],
+                "lecture_id": s['lecture_id'],
+                "raw_text": s['raw_text'][:500] + ("…" if len(s['raw_text']) > 500 else ""),
+                "pseudo_summary": s['pseudo_summary'],
+                "quality_score": s.get('quality_score', 'N/A'),
+                "entity_coverage": s.get('entity_coverage', 'N/A'),
+                "entities_found": s.get('entities_found', []),
+            })
+
+        path = self.data_dir / "summary_review_samples.json"
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(review, f, indent=2, ensure_ascii=False)
+
+        self.logger.info(f"Saved {n} review samples → {path}")
+        self.logger.info("👉 Please review these samples before proceeding to BART training!")
+
+    # ------------------------------------------------------------------
+    # Main pipeline
+    # ------------------------------------------------------------------
+    def run(self) -> Dict:
+        self.logger.info("=" * 60)
+        self.logger.info("Starting Pseudo-Summary Generation")
+        self.logger.info("=" * 60)
+
+        # Load prepared segments from Step 1
+        input_path = self.data_dir / "prepared_segments.json"
+        assert input_path.exists(), f"Run 05_prepare_bart_data.py first! Missing {input_path}"
+
+        with open(input_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        segments = data['segments']
+        if self.test_mode:
+            segments = segments[:5]
+            self.logger.info(f"TEST MODE: processing {len(segments)} segments only")
+
+        # Step A: Generate summaries with FLAN-T5
+        segments = self.generate_summaries(segments)
+
+        # Free FLAN-T5 GPU memory before loading SBERT + NER
+        self._unload_flan()
+
+        # Step B: Quality filtering
+        segments = self.filter_quality(segments)
+
+        # Step C: Save review samples
+        self.save_review_samples(segments)
+
+        # Step D: Save final dataset
+        stats = {
+            "total_segments": len(segments),
+            "avg_quality_score": round(np.mean([s.get('quality_score', 0) for s in segments]), 4),
+            "avg_entity_coverage": round(np.mean([s.get('entity_coverage', 0) for s in segments]), 4),
+        }
+
+        output = {
+            "segments": segments,
+            "full_transcripts": data.get('full_transcripts', []),
+            "statistics": stats,
+        }
+
+        out_path = self.data_dir / "dataset_with_summaries.json"
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
+
+        self.logger.info(f"Saved dataset → {out_path}")
+        self.logger.info(f"Stats: {stats}")
+        self.logger.info("✅ Pseudo-summary generation complete!")
+        return output
+
+
+# ------------------------------------------------------------------
+# CLI
+# ------------------------------------------------------------------
+def main():
+    parser = argparse.ArgumentParser(description="Generate pseudo-summaries with FLAN-T5")
+    parser.add_argument("--test", action="store_true", help="Test mode (5 segments)")
+    args = parser.parse_args()
+
+    config = config_loader.load_all()
+    generator = PseudoSummaryGenerator(config, test_mode=args.test)
+    result = generator.run()
+
+    print(f"\n{'=' * 50}")
+    print("Pseudo-Summary Generation Complete!")
+    print(f"  Segments with summaries: {result['statistics']['total_segments']}")
+    print(f"  Avg quality score:       {result['statistics']['avg_quality_score']}")
+    print(f"  Avg entity coverage:     {result['statistics']['avg_entity_coverage']}")
+    print(f"{'=' * 50}")
+    print("\n⚠️  Review summary_review_samples.json before training BART!")
+
+
+if __name__ == "__main__":
+    main()
+===
+#!/usr/bin/env python3
+"""
+Step 2: Generate pseudo-summaries using FLAN-T5
+Loads prepared segments → FLAN-T5 summary generation → quality filtering → saves dataset
+
+Usage:
+    python scripts/text_processing/06_generate_pseudo_summaries.py          # Full run
+    python scripts/text_processing/06_generate_pseudo_summaries.py --test   # 5 segments only
+"""
+import sys
+import json
+import random
+import argparse
+from pathlib import Path
+from typing import Dict, List, Any
+
+import torch
+import numpy as np
+from tqdm import tqdm
+
+# Add project root
+project_root = Path(__file__).parent.parent.parent
+sys.path.append(str(project_root))
+
+from scripts.utils.config_loader import config_loader
+from scripts.utils.logger import setup_logger
+
+
+class PseudoSummaryGenerator:
+    """Generate pseudo ground-truth summaries with FLAN-T5 + quality filtering"""
+
+    def __init__(self, config: Dict, test_mode: bool = False):
+        self.config = config
+        self.test_mode = test_mode
+        self.logger = setup_logger("pseudo_summary_gen")
+
+        # Paths
+        self.data_dir = Path(config['paths']['data'].get(
+            'bart_dataset', 'data/processed/bart_dataset'))
+
+        # FLAN-T5 config
+        ft = config.get('flan_t5', {})
+        self.model_name = ft.get('model_name', 'google/flan-t5-large')
+        self.max_input = ft.get('max_input_length', 512)
+        self.max_target = ft.get('max_target_length', 350)
+        self.min_target = ft.get('min_target_length', 50)
+        self.num_beams = ft.get('num_beams', 4)
+        self.length_penalty = ft.get('length_penalty', 1.5)
+        self.batch_size = ft.get('batch_size', 4)
+        self.min_quality = ft.get('min_quality_score', 0.5)
+        self.min_entity_coverage = ft.get('min_entity_coverage', 0.4)
+
+        # Review samples count
+        self.n_review = config.get('data_prep', {}).get('summary_review_samples', 20)
+
+        # Device
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+
+        # Models (loaded lazily)
+        self._flan_model = None
+        self._flan_tokenizer = None
+        self._sbert_model = None
+        self._nlp = None
+
+    # ------------------------------------------------------------------
+    # Lazy model loading (keeps memory low until needed)
+    # ------------------------------------------------------------------
+    def _load_flan(self):
+        if self._flan_model is not None:
+            return
+        from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+
+        self.logger.info(f"Loading FLAN-T5: {self.model_name} …")
+        self._flan_tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+        self._flan_model = AutoModelForSeq2SeqLM.from_pretrained(
+            self.model_name, torch_dtype=torch.float16 if self.device == "cuda" else torch.float32
+        ).to(self.device).eval()
+        self.logger.info("FLAN-T5 loaded ✓")
+
+    def _load_sbert(self):
+        if self._sbert_model is not None:
+            return
+        from sentence_transformers import SentenceTransformer
+
+        sbert_name = self.config.get('sentence_bert', {}).get(
+            'base_model', 'all-mpnet-base-v2')
+        self.logger.info(f"Loading SBERT: {sbert_name} …")
+        self._sbert_model = SentenceTransformer(sbert_name, device='cpu')
+        self.logger.info("SBERT loaded ✓")
+
+    def _load_nlp(self):
+        if self._nlp is not None:
+            return
+        import spacy
+
+        # Priority: trained STEM NER > scispaCy > spaCy core
+        ner_path = Path(self.config.get('paths', {}).get('models', {}).get(
+            'ner', 'models/text/ner/final'))
+        if ner_path.exists():
+            try:
+                self._nlp = spacy.load(str(ner_path))
+                self.logger.info(f"Loaded trained STEM NER from {ner_path} ✓")
+                return
+            except Exception as e:
+                self.logger.warning(f"Could not load trained NER ({e}), falling back")
+
+        try:
+            self._nlp = spacy.load("en_core_sci_sm")
+            self.logger.info("Using en_core_sci_sm for entity detection")
+        except OSError:
+            self._nlp = spacy.load("en_core_web_sm")
+            self.logger.info("Using en_core_web_sm for entity detection")
+
+    def _unload_flan(self):
+        """Free FLAN-T5 GPU memory"""
+        if self._flan_model is not None:
+            del self._flan_model, self._flan_tokenizer
+            self._flan_model = self._flan_tokenizer = None
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            self.logger.info("FLAN-T5 unloaded, GPU memory freed")
+
+    # ------------------------------------------------------------------
+    # Summary generation
+    # ------------------------------------------------------------------
+    def _build_prompt(self, text: str) -> str:
+        """Build a CNN/DailyMail-style summarization prompt for FLAN-T5"""
+        # Truncate text to fit within model limits
+        words = text.split()
+        if len(words) > 400:
+            text = " ".join(words[:400])
+
+        return (
+            "Summarize the following lecture segment in 1 to 3 sentences. "
+            "Capture the core concept, key technical terms, and any "
+            "important definitions or relationships mentioned:\n\n"
+            f"{text}\n\n"
+            "Summary:"
+        )
+
+    @torch.no_grad()
+    def _generate_batch(self, prompts: List[str]) -> List[str]:
+        """Generate summaries for a batch of prompts using beam search"""
+        inputs = self._flan_tokenizer(
+            prompts,
+            max_length=self.max_input,
+            truncation=True,
+            padding=True,
+            return_tensors="pt",
+        ).to(self.device)
+
+        outputs = self._flan_model.generate(
+            **inputs,
+            max_new_tokens=self.max_target,
+            min_new_tokens=self.min_target,
+            num_beams=self.num_beams,
+            length_penalty=self.length_penalty,
+            do_sample=False,
+            no_repeat_ngram_size=3,
+            early_stopping=True,
+        )
+
+        return self._flan_tokenizer.batch_decode(outputs, skip_special_tokens=True)
+
+    def generate_summaries(self, segments: List[Dict]) -> List[Dict]:
+        """Generate pseudo-summaries for all segments"""
+        self._load_flan()
+
+        self.logger.info(f"Generating summaries for {len(segments)} segments …")
+        results = []
+
+        for i in tqdm(range(0, len(segments), self.batch_size), desc="Generating"):
+            batch = segments[i:i + self.batch_size]
+            prompts = [self._build_prompt(s['raw_text']) for s in batch]
+            summaries = self._generate_batch(prompts)
+
+            for seg, summary in zip(batch, summaries):
+                seg_copy = dict(seg)
+                seg_copy['pseudo_summary'] = summary.strip()
+                results.append(seg_copy)
+
+        self.logger.info(f"Generated {len(results)} summaries")
+        return results
+
+    # ------------------------------------------------------------------
+    # Quality filtering
+    # ------------------------------------------------------------------
+    def _sbert_similarity(self, text_a: str, text_b: str) -> float:
+        """Cosine similarity between two texts using SBERT"""
+        emb = self._sbert_model.encode([text_a, text_b], convert_to_numpy=True)
+        from numpy.linalg import norm
+        cos = float(np.dot(emb[0], emb[1]) / (norm(emb[0]) * norm(emb[1]) + 1e-9))
+        return cos
+
+    def _entity_coverage(self, source: str, summary: str) -> tuple:
+        """Check how many key entities from source appear in summary"""
+        src_doc = self._nlp(source[:5000])
+        sum_doc = self._nlp(summary)
+
+        # Collect source entities / noun chunks as key terms
+        src_terms = set()
+        for ent in src_doc.ents:
+            src_terms.add(ent.text.lower())
+        for chunk in src_doc.noun_chunks:
+            if len(chunk.text.split()) <= 3:
+                src_terms.add(chunk.text.lower())
+
+        if not src_terms:
+            return 1.0, list(src_terms)
+
+        summary_lower = summary.lower()
+        found = [t for t in src_terms if t in summary_lower]
+        coverage = len(found) / len(src_terms)
+        return coverage, found
+
+    def filter_quality(self, segments: List[Dict]) -> List[Dict]:
+        """Filter segments by summary quality and entity coverage"""
+        self._load_sbert()
+        self._load_nlp()
+
+        self.logger.info("Running quality filtering …")
+        self.logger.info(f"  SBERT threshold:   {self.min_quality}")
+        self.logger.info(f"  Entity cov threshold: {self.min_entity_coverage}")
+
+        passed, failed_quality, failed_entity, failed_length = [], 0, 0, 0
+
+        for seg in tqdm(segments, desc="Quality check"):
+            summary = seg.get('pseudo_summary', '')
+
+            # Basic length checks
+            if len(summary.split()) < 10:
+                failed_length += 1
+                continue
+
+            # SBERT similarity score
+            quality_score = self._sbert_similarity(seg['raw_text'], summary)
+
+            # Entity coverage (using trained STEM NER)
+            entity_cov, entities_found = self._entity_coverage(seg['raw_text'], summary)
+
+            seg['quality_score'] = round(quality_score, 4)
+            seg['entity_coverage'] = round(entity_cov, 4)
+            seg['entities_found'] = entities_found
+
+            # Both quality AND entity coverage must pass
+            if quality_score < self.min_quality:
+                failed_quality += 1
+            elif entity_cov < self.min_entity_coverage:
+                failed_entity += 1
+            else:
+                passed.append(seg)
+
+        total_failed = failed_quality + failed_entity + failed_length
+        self.logger.info(f"Quality filter results:")
+        self.logger.info(f"  ✓ Passed:        {len(passed)}")
+        self.logger.info(f"  ✗ Too short:     {failed_length}")
+        self.logger.info(f"  ✗ Low SBERT:     {failed_quality}")
+        self.logger.info(f"  ✗ Low entity cov: {failed_entity}")
+
+        if len(passed) == 0:
+            self.logger.warning("⚠️  All summaries failed quality filter! "
+                                "Lowering threshold to keep top 80%.")
+            segments.sort(key=lambda x: x.get('quality_score', 0), reverse=True)
+            keep_n = max(int(len(segments) * 0.8), 1)
+            passed = segments[:keep_n]
+        elif len(passed) < 100:
+            self.logger.warning(f"⚠️  Only {len(passed)} segments passed. "
+                                "Consider lowering thresholds if this is too few.")
+
+        return passed
+
+    # ------------------------------------------------------------------
+    # Review samples
+    # ------------------------------------------------------------------
+    def save_review_samples(self, segments: List[Dict]):
+        """Save random samples for manual human review"""
+        n = min(self.n_review, len(segments))
+        samples = random.sample(segments, n)
+
+        review = []
+        for s in samples:
+            review.append({
+                "segment_id": s['segment_id'],
+                "lecture_id": s['lecture_id'],
+                "raw_text": s['raw_text'][:500] + ("…" if len(s['raw_text']) > 500 else ""),
+                "pseudo_summary": s['pseudo_summary'],
+                "quality_score": s.get('quality_score', 'N/A'),
+                "entity_coverage": s.get('entity_coverage', 'N/A'),
+                "entities_found": s.get('entities_found', []),
+            })
+
+        path = self.data_dir / "summary_review_samples.json"
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(review, f, indent=2, ensure_ascii=False)
+
+        self.logger.info(f"Saved {n} review samples → {path}")
+        self.logger.info("👉 Please review these samples before proceeding to BART training!")
+
+    # ------------------------------------------------------------------
+    # Main pipeline
+    # ------------------------------------------------------------------
+    def run(self) -> Dict:
+        self.logger.info("=" * 60)
+        self.logger.info("Starting Pseudo-Summary Generation")
+        self.logger.info("=" * 60)
+
+        # Load prepared segments from Step 1
+        input_path = self.data_dir / "prepared_segments.json"
+        assert input_path.exists(), f"Run 05_prepare_bart_data.py first! Missing {input_path}"
+
+        with open(input_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        segments = data['segments']
+        if self.test_mode:
+            segments = segments[:5]
+            self.logger.info(f"TEST MODE: processing {len(segments)} segments only")
+
+        # Step A: Generate summaries with FLAN-T5
+        segments = self.generate_summaries(segments)
+
+        # Free FLAN-T5 GPU memory before loading SBERT + NER
+        self._unload_flan()
+
+        # Step B: Quality filtering
+        segments = self.filter_quality(segments)
+
+        # Step C: Save review samples
+        self.save_review_samples(segments)
+
+        # Step D: Save final dataset
+        stats = {
+            "total_segments": len(segments),
+            "avg_quality_score": round(np.mean([s.get('quality_score', 0) for s in segments]), 4),
+            "avg_entity_coverage": round(np.mean([s.get('entity_coverage', 0) for s in segments]), 4),
+        }
+
+        output = {
+            "segments": segments,
+            "full_transcripts": data.get('full_transcripts', []),
+            "statistics": stats,
+        }
+
+        out_path = self.data_dir / "dataset_with_summaries.json"
+        with open(out_path, 'w', encoding='utf-8') as f:
+            json.dump(output, f, indent=2, ensure_ascii=False)
+
+        self.logger.info(f"Saved dataset → {out_path}")
+        self.logger.info(f"Stats: {stats}")
+        self.logger.info("✅ Pseudo-summary generation complete!")
+        return output
+
+
+# ------------------------------------------------------------------
+# CLI
+# ------------------------------------------------------------------
+def main():
+    parser = argparse.ArgumentParser(description="Generate pseudo-summaries with FLAN-T5")
+    parser.add_argument("--test", action="store_true", help="Test mode (5 segments)")
+    args = parser.parse_args()
+
+    config = config_loader.load_all()
+    generator = PseudoSummaryGenerator(config, test_mode=args.test)
+    result = generator.run()
+
+    print(f"\n{'=' * 50}")
+    print("Pseudo-Summary Generation Complete!")
+    print(f"  Segments with summaries: {result['statistics']['total_segments']}")
+    print(f"  Avg quality score:       {result['statistics']['avg_quality_score']}")
+    print(f"  Avg entity coverage:     {result['statistics']['avg_entity_coverage']}")
+    print(f"{'=' * 50}")
+    print("\n⚠️  Review summary_review_samples.json before training BART!")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+**Key changes:**
+1. **Quality threshold** raised 0.3 → 0.5
+2. **Entity coverage gate** added: segments with <0.4 entity coverage are dropped
+3. **CNN/DailyMail-style prompt**: *"Summarize in 1-3 sentences…"* instead of verbose study notes prompt
+4. **Trained STEM NER** used for entity detection (falls back to scispaCy if unavailable)
+
+---
+
+### Phase C: Entity Mask Verification ([07_create_bart_dataset.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/07_create_bart_dataset.py))
+
+```diff:07_create_bart_dataset.py
+#!/usr/bin/env python3
+"""
+Step 3: Create PyTorch Dataset for BART fine-tuning
+Loads dataset_with_summaries.json → tokenizes → train/val/test split → saves
+
+Usage:
+    python scripts/text_processing/07_create_bart_dataset.py          # Full run
+    python scripts/text_processing/07_create_bart_dataset.py --test   # Quick test
+"""
+import sys
+import json
+import pickle
+import argparse
+from pathlib import Path
+from typing import Dict, List, Any
+from collections import defaultdict
+
+import torch
+from torch.utils.data import Dataset
+import numpy as np
+from tqdm import tqdm
+from sklearn.model_selection import GroupShuffleSplit
+
+# Add project root
+project_root = Path(__file__).parent.parent.parent
+sys.path.append(str(project_root))
+
+from scripts.utils.config_loader import config_loader
+from scripts.utils.logger import setup_logger
+
+
+# ======================================================================
+# Dataset class
+# ======================================================================
+class LectureSummarizationDataset(Dataset):
+    """PyTorch Dataset for lecture summarization"""
+
+    def __init__(self, samples: List[Dict], tokenizer, max_input: int, max_target: int):
+        self.samples = samples
+        self.tokenizer = tokenizer
+        self.max_input = max_input
+        self.max_target = max_target
+
+    def __len__(self):
+        return len(self.samples)
+
+    def __getitem__(self, idx):
+        item = self.samples[idx]
+
+        # Tokenize input
+        inputs = self.tokenizer(
+            item['formatted_input'],
+            max_length=self.max_input,
+            truncation=True,
+            padding='max_length',
+            return_tensors='pt',
+        )
+
+        # Tokenize target (summary)
+        targets = self.tokenizer(
+            item['pseudo_summary'],
+            max_length=self.max_target,
+            truncation=True,
+            padding='max_length',
+            return_tensors='pt',
+        )
+
+        labels = targets['input_ids'].squeeze().clone()
+        labels[labels == self.tokenizer.pad_token_id] = -100
+
+        result = {
+            'input_ids': inputs['input_ids'].squeeze(),
+            'attention_mask': inputs['attention_mask'].squeeze(),
+            'labels': labels,
+        }
+
+        # Entity mask (for entity-aware loss)
+        if 'entity_mask' in item:
+            mask = item['entity_mask']
+            # Pad or truncate to match target length
+            if len(mask) < self.max_target:
+                mask = mask + [0] * (self.max_target - len(mask))
+            else:
+                mask = mask[:self.max_target]
+            result['entity_mask'] = torch.tensor(mask, dtype=torch.float)
+
+        return result
+
+
+# ======================================================================
+# Dataset builder
+# ======================================================================
+class BARTDatasetBuilder:
+    """Build tokenized datasets with train/val/test splits"""
+
+    def __init__(self, config: Dict, test_mode: bool = False):
+        self.config = config
+        self.test_mode = test_mode
+        self.logger = setup_logger("bart_dataset")
+
+        # Paths
+        self.data_dir = Path(config['paths']['data'].get(
+            'bart_dataset', 'data/processed/bart_dataset'))
+
+        # BART config
+        bart = config.get('bart', {})
+        self.model_name = bart.get('model_name', 'facebook/bart-large-cnn')
+        self.max_input = bart.get('max_input_length', 1024)
+        self.max_target = bart.get('max_target_length', 256)
+        self.entity_loss_weight = bart.get('entity_loss_weight', 1.5)
+        self.special_tokens = bart.get('special_tokens', [
+            '[TRANSCRIPT]', '[VISUAL]', '[EQUATION]', '[DIAGRAM]',
+            '[CODE]', '[SLIDE]', '[GRAPH]',
+        ])
+
+        # Split ratios
+        self.train_ratio = config.get('data', {}).get('train_ratio', 0.7)
+        self.val_ratio = config.get('data', {}).get('val_ratio', 0.15)
+        self.test_ratio = config.get('data', {}).get('test_ratio', 0.15)
+        self.seed = config.get('project', {}).get('random_seed', 42)
+
+        # Tokenizer (loaded lazily)
+        self._tokenizer = None
+        self._nlp = None
+
+    def _load_tokenizer(self):
+        if self._tokenizer is not None:
+            return
+        from transformers import AutoTokenizer
+
+        self.logger.info(f"Loading tokenizer: {self.model_name}")
+        self._tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+
+        # Add special tokens
+        added = self._tokenizer.add_special_tokens({
+            'additional_special_tokens': self.special_tokens
+        })
+        self.logger.info(f"Added {added} special tokens to tokenizer")
+
+        # Save tokenizer for later use
+        tok_path = self.data_dir / "tokenizer"
+        self._tokenizer.save_pretrained(str(tok_path))
+        self.logger.info(f"Tokenizer saved → {tok_path}")
+
+    def _load_nlp(self):
+        if self._nlp is not None:
+            return
+        import spacy
+
+        # Priority: trained STEM NER > scispaCy > spaCy core
+        ner_path = Path(self.config.get('paths', {}).get('models', {}).get(
+            'ner', 'models/text/ner/final'))
+        if ner_path.exists():
+            try:
+                self._nlp = spacy.load(str(ner_path))
+                self.logger.info(f"Loaded trained STEM NER from {ner_path} ✓")
+                return
+            except Exception as e:
+                self.logger.warning(f"Could not load trained NER ({e}), falling back")
+
+        try:
+            self._nlp = spacy.load("en_core_sci_sm")
+            self.logger.info("Using en_core_sci_sm for entity detection")
+        except OSError:
+            self._nlp = spacy.load("en_core_web_sm")
+            self.logger.info("Using en_core_web_sm for entity detection")
+
+    # ------------------------------------------------------------------
+    # Entity mask creation
+    # ------------------------------------------------------------------
+    def _create_entity_mask(self, summary: str) -> List[int]:
+        """Create binary mask marking token positions that correspond to entities"""
+        if self.entity_loss_weight <= 1.0:
+            return []  # No mask needed
+
+        self._load_nlp()
+
+        # Tokenize summary to get offset mappings
+        encoding = self._tokenizer(
+            summary,
+            max_length=self.max_target,
+            truncation=True,
+            return_offsets_mapping=True,
+        )
+        offsets = encoding['offset_mapping']
+
+        # Find entity spans using NER
+        doc = self._nlp(summary)
+        entity_spans = []
+        for ent in doc.ents:
+            entity_spans.append((ent.start_char, ent.end_char))
+        for chunk in doc.noun_chunks:
+            if len(chunk.text.split()) <= 3:
+                entity_spans.append((chunk.start_char, chunk.end_char))
+
+        # Map character spans to token positions
+        mask = [0] * len(offsets)
+        for char_start, char_end in entity_spans:
+            for tok_idx, (tok_s, tok_e) in enumerate(offsets):
+                if tok_s == tok_e == 0:
+                    continue  # Special token
+                if tok_s < char_end and tok_e > char_start:
+                    mask[tok_idx] = 1
+
+        return mask
+
+    # ------------------------------------------------------------------
+    # Split
+    # ------------------------------------------------------------------
+    def _stratified_split(self, segments: List[Dict]) -> Dict[str, List[Dict]]:
+        """Split by lecture_id to avoid data leakage"""
+        lecture_ids = [s['lecture_id'] for s in segments]
+        indices = np.arange(len(segments))
+
+        # First split: train+val vs test
+        gss1 = GroupShuffleSplit(n_splits=1, test_size=self.test_ratio,
+                                random_state=self.seed)
+        trainval_idx, test_idx = next(gss1.split(indices, groups=lecture_ids))
+
+        # Second split: train vs val
+        trainval_lectures = [lecture_ids[i] for i in trainval_idx]
+        relative_val = self.val_ratio / (1 - self.test_ratio)
+        gss2 = GroupShuffleSplit(n_splits=1, test_size=relative_val,
+                                random_state=self.seed)
+        train_sub, val_sub = next(gss2.split(trainval_idx, groups=trainval_lectures))
+
+        train_idx = trainval_idx[train_sub]
+        val_idx = trainval_idx[val_sub]
+
+        return {
+            'train': [segments[i] for i in train_idx],
+            'val': [segments[i] for i in val_idx],
+            'test': [segments[i] for i in test_idx],
+        }
+
+    # ------------------------------------------------------------------
+    # Main pipeline
+    # ------------------------------------------------------------------
+    def build(self) -> Dict:
+        self.logger.info("=" * 60)
+        self.logger.info("Building BART Dataset")
+        self.logger.info("=" * 60)
+
+        # Load data from Step 2
+        input_path = self.data_dir / "dataset_with_summaries.json"
+        assert input_path.exists(), f"Run 06_generate_pseudo_summaries.py first! Missing {input_path}"
+
+        with open(input_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        segments = data['segments']
+        if self.test_mode:
+            segments = segments[:10]
+
+        self._load_tokenizer()
+
+        # Create entity masks
+        if self.entity_loss_weight > 1.0:
+            self.logger.info("Creating entity masks for entity-aware loss …")
+            for seg in tqdm(segments, desc="Entity masks"):
+                seg['entity_mask'] = self._create_entity_mask(seg['pseudo_summary'])
+        else:
+            self.logger.info("Entity-aware loss disabled (weight=1.0)")
+
+        # Split data (grouped by lecture)
+        self.logger.info("Splitting data (stratified by lecture) …")
+        splits = self._stratified_split(segments)
+
+        self.logger.info(f"  Train: {len(splits['train'])}")
+        self.logger.info(f"  Val:   {len(splits['val'])}")
+        self.logger.info(f"  Test:  {len(splits['test'])}")
+
+        # Tokenization stats
+        self.logger.info("Checking tokenization lengths …")
+        trunc_count = 0
+        for seg in segments:
+            tok = self._tokenizer(seg['formatted_input'], truncation=False)
+            if len(tok['input_ids']) > self.max_input:
+                trunc_count += 1
+
+        trunc_pct = (trunc_count / len(segments)) * 100
+        self.logger.info(f"Truncated inputs: {trunc_count}/{len(segments)} ({trunc_pct:.1f}%)")
+        if trunc_pct > 10:
+            self.logger.warning(f"⚠️  High truncation rate ({trunc_pct:.1f}%). "
+                                "Consider increasing max_input_length.")
+
+        # Create PyTorch datasets
+        datasets = {}
+        for split_name, split_data in splits.items():
+            datasets[split_name] = LectureSummarizationDataset(
+                split_data, self._tokenizer, self.max_input, self.max_target
+            )
+
+        # Save everything
+        save_data = {
+            'splits': splits,
+            'tokenizer_path': str(self.data_dir / "tokenizer"),
+            'max_input_length': self.max_input,
+            'max_target_length': self.max_target,
+            'special_tokens': self.special_tokens,
+            'entity_loss_weight': self.entity_loss_weight,
+            'statistics': {
+                'train': len(splits['train']),
+                'val': len(splits['val']),
+                'test': len(splits['test']),
+                'total': len(segments),
+                'truncation_pct': round(trunc_pct, 1),
+                'n_lectures_train': len(set(s['lecture_id'] for s in splits['train'])),
+                'n_lectures_val': len(set(s['lecture_id'] for s in splits['val'])),
+                'n_lectures_test': len(set(s['lecture_id'] for s in splits['test'])),
+            },
+        }
+
+        out_path = self.data_dir / "bart_tokenized_dataset.pkl"
+        with open(out_path, 'wb') as f:
+            pickle.dump(save_data, f)
+
+        self.logger.info(f"Saved tokenized dataset → {out_path}")
+        self.logger.info("✅ Dataset creation complete!")
+        return save_data
+
+
+# ------------------------------------------------------------------
+# CLI
+# ------------------------------------------------------------------
+def main():
+    parser = argparse.ArgumentParser(description="Create BART fine-tuning dataset")
+    parser.add_argument("--test", action="store_true", help="Test mode (10 samples)")
+    args = parser.parse_args()
+
+    config = config_loader.load_all()
+    builder = BARTDatasetBuilder(config, test_mode=args.test)
+    result = builder.build()
+
+    stats = result['statistics']
+    print(f"\n{'=' * 50}")
+    print("BART Dataset Created!")
+    print(f"  Train: {stats['train']} samples ({stats['n_lectures_train']} lectures)")
+    print(f"  Val:   {stats['val']} samples ({stats['n_lectures_val']} lectures)")
+    print(f"  Test:  {stats['test']} samples ({stats['n_lectures_test']} lectures)")
+    print(f"  Truncation: {stats['truncation_pct']}%")
+    print(f"{'=' * 50}")
+
+
+if __name__ == "__main__":
+    main()
+===
+#!/usr/bin/env python3
+"""
+Step 3: Create PyTorch Dataset for BART fine-tuning
+Loads dataset_with_summaries.json → tokenizes → train/val/test split → saves
+
+Usage:
+    python scripts/text_processing/07_create_bart_dataset.py          # Full run
+    python scripts/text_processing/07_create_bart_dataset.py --test   # Quick test
+"""
+import sys
+import json
+import pickle
+import argparse
+from pathlib import Path
+from typing import Dict, List, Any
+from collections import defaultdict
+
+import torch
+from torch.utils.data import Dataset
+import numpy as np
+from tqdm import tqdm
+from sklearn.model_selection import GroupShuffleSplit
+
+# Add project root
+project_root = Path(__file__).parent.parent.parent
+sys.path.append(str(project_root))
+
+from scripts.utils.config_loader import config_loader
+from scripts.utils.logger import setup_logger
+
+
+# ======================================================================
+# Dataset class
+# ======================================================================
+class LectureSummarizationDataset(Dataset):
+    """PyTorch Dataset for lecture summarization"""
+
+    def __init__(self, samples: List[Dict], tokenizer, max_input: int, max_target: int):
+        self.samples = samples
+        self.tokenizer = tokenizer
+        self.max_input = max_input
+        self.max_target = max_target
+
+    def __len__(self):
+        return len(self.samples)
+
+    def __getitem__(self, idx):
+        item = self.samples[idx]
+
+        # Tokenize input
+        inputs = self.tokenizer(
+            item['formatted_input'],
+            max_length=self.max_input,
+            truncation=True,
+            padding='max_length',
+            return_tensors='pt',
+        )
+
+        # Tokenize target (summary)
+        targets = self.tokenizer(
+            item['pseudo_summary'],
+            max_length=self.max_target,
+            truncation=True,
+            padding='max_length',
+            return_tensors='pt',
+        )
+
+        labels = targets['input_ids'].squeeze().clone()
+        labels[labels == self.tokenizer.pad_token_id] = -100
+
+        result = {
+            'input_ids': inputs['input_ids'].squeeze(),
+            'attention_mask': inputs['attention_mask'].squeeze(),
+            'labels': labels,
+        }
+
+        # Entity mask (for entity-aware loss)
+        if 'entity_mask' in item:
+            mask = item['entity_mask']
+            # Pad or truncate to match target length
+            if len(mask) < self.max_target:
+                mask = mask + [0] * (self.max_target - len(mask))
+            else:
+                mask = mask[:self.max_target]
+            result['entity_mask'] = torch.tensor(mask, dtype=torch.float)
+
+        return result
+
+
+# ======================================================================
+# Dataset builder
+# ======================================================================
+class BARTDatasetBuilder:
+    """Build tokenized datasets with train/val/test splits"""
+
+    def __init__(self, config: Dict, test_mode: bool = False):
+        self.config = config
+        self.test_mode = test_mode
+        self.logger = setup_logger("bart_dataset")
+
+        # Paths
+        self.data_dir = Path(config['paths']['data'].get(
+            'bart_dataset', 'data/processed/bart_dataset'))
+
+        # BART config
+        bart = config.get('bart', {})
+        self.model_name = bart.get('model_name', 'facebook/bart-large-cnn')
+        self.max_input = bart.get('max_input_length', 1024)
+        self.max_target = bart.get('max_target_length', 256)
+        self.entity_loss_weight = bart.get('entity_loss_weight', 1.5)
+        self.special_tokens = bart.get('special_tokens', [
+            '[TRANSCRIPT]', '[VISUAL]', '[EQUATION]', '[DIAGRAM]',
+            '[CODE]', '[SLIDE]', '[GRAPH]',
+        ])
+
+        # Split ratios
+        self.train_ratio = config.get('data', {}).get('train_ratio', 0.7)
+        self.val_ratio = config.get('data', {}).get('val_ratio', 0.15)
+        self.test_ratio = config.get('data', {}).get('test_ratio', 0.15)
+        self.seed = config.get('project', {}).get('random_seed', 42)
+
+        # Tokenizer (loaded lazily)
+        self._tokenizer = None
+        self._nlp = None
+
+    def _load_tokenizer(self):
+        if self._tokenizer is not None:
+            return
+        from transformers import AutoTokenizer
+
+        self.logger.info(f"Loading tokenizer: {self.model_name}")
+        self._tokenizer = AutoTokenizer.from_pretrained(self.model_name)
+
+        # Add special tokens
+        added = self._tokenizer.add_special_tokens({
+            'additional_special_tokens': self.special_tokens
+        })
+        self.logger.info(f"Added {added} special tokens to tokenizer")
+
+        # Save tokenizer for later use
+        tok_path = self.data_dir / "tokenizer"
+        self._tokenizer.save_pretrained(str(tok_path))
+        self.logger.info(f"Tokenizer saved → {tok_path}")
+
+    def _load_nlp(self):
+        if self._nlp is not None:
+            return
+        import spacy
+
+        # Priority: trained STEM NER > scispaCy > spaCy core
+        ner_path = Path(self.config.get('paths', {}).get('models', {}).get(
+            'ner', 'models/text/ner/final'))
+        if ner_path.exists():
+            try:
+                self._nlp = spacy.load(str(ner_path))
+                self.logger.info(f"Loaded trained STEM NER from {ner_path} ✓")
+                return
+            except Exception as e:
+                self.logger.warning(f"Could not load trained NER ({e}), falling back")
+
+        try:
+            self._nlp = spacy.load("en_core_sci_sm")
+            self.logger.info("Using en_core_sci_sm for entity detection")
+        except OSError:
+            self._nlp = spacy.load("en_core_web_sm")
+            self.logger.info("Using en_core_web_sm for entity detection")
+
+    # ------------------------------------------------------------------
+    # Entity mask creation
+    # ------------------------------------------------------------------
+    def _create_entity_mask(self, summary: str) -> List[int]:
+        """Create binary mask marking token positions that correspond to entities"""
+        if self.entity_loss_weight <= 1.0:
+            return []  # No mask needed
+
+        self._load_nlp()
+
+        # Tokenize summary to get offset mappings
+        encoding = self._tokenizer(
+            summary,
+            max_length=self.max_target,
+            truncation=True,
+            return_offsets_mapping=True,
+        )
+        offsets = encoding['offset_mapping']
+
+        # Find entity spans using NER
+        doc = self._nlp(summary)
+        entity_spans = []
+        for ent in doc.ents:
+            entity_spans.append((ent.start_char, ent.end_char))
+        for chunk in doc.noun_chunks:
+            if len(chunk.text.split()) <= 3:
+                entity_spans.append((chunk.start_char, chunk.end_char))
+
+        # Map character spans to token positions
+        mask = [0] * len(offsets)
+        for char_start, char_end in entity_spans:
+            for tok_idx, (tok_s, tok_e) in enumerate(offsets):
+                if tok_s == tok_e == 0:
+                    continue  # Special token
+                if tok_s < char_end and tok_e > char_start:
+                    mask[tok_idx] = 1
+
+        return mask
+
+    # ------------------------------------------------------------------
+    # Split
+    # ------------------------------------------------------------------
+    def _stratified_split(self, segments: List[Dict]) -> Dict[str, List[Dict]]:
+        """Split by lecture_id to avoid data leakage"""
+        lecture_ids = [s['lecture_id'] for s in segments]
+        indices = np.arange(len(segments))
+
+        # First split: train+val vs test
+        gss1 = GroupShuffleSplit(n_splits=1, test_size=self.test_ratio,
+                                random_state=self.seed)
+        trainval_idx, test_idx = next(gss1.split(indices, groups=lecture_ids))
+
+        # Second split: train vs val
+        trainval_lectures = [lecture_ids[i] for i in trainval_idx]
+        relative_val = self.val_ratio / (1 - self.test_ratio)
+        gss2 = GroupShuffleSplit(n_splits=1, test_size=relative_val,
+                                random_state=self.seed)
+        train_sub, val_sub = next(gss2.split(trainval_idx, groups=trainval_lectures))
+
+        train_idx = trainval_idx[train_sub]
+        val_idx = trainval_idx[val_sub]
+
+        return {
+            'train': [segments[i] for i in train_idx],
+            'val': [segments[i] for i in val_idx],
+            'test': [segments[i] for i in test_idx],
+        }
+
+    # ------------------------------------------------------------------
+    # Main pipeline
+    # ------------------------------------------------------------------
+    def build(self) -> Dict:
+        self.logger.info("=" * 60)
+        self.logger.info("Building BART Dataset")
+        self.logger.info("=" * 60)
+
+        # Load data from Step 2
+        input_path = self.data_dir / "dataset_with_summaries.json"
+        assert input_path.exists(), f"Run 06_generate_pseudo_summaries.py first! Missing {input_path}"
+
+        with open(input_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+
+        segments = data['segments']
+        if self.test_mode:
+            segments = segments[:10]
+
+        self._load_tokenizer()
+
+        # Create entity masks
+        if self.entity_loss_weight > 1.0:
+            self.logger.info("Creating entity masks for entity-aware loss …")
+            for seg in tqdm(segments, desc="Entity masks"):
+                seg['entity_mask'] = self._create_entity_mask(seg['pseudo_summary'])
+
+            # Log a sample mask for verification
+            sample = next((s for s in segments if sum(s.get('entity_mask', [])) > 0), None)
+            if sample:
+                doc = self._nlp(sample['pseudo_summary'])
+                ents = [ent.text for ent in doc.ents]
+                chunks = [c.text for c in doc.noun_chunks if len(c.text.split()) <= 3]
+                mask_sum = sum(sample['entity_mask'])
+                self.logger.info(f"[Entity Mask Sample] segment: {sample['segment_id']}")
+                self.logger.info(f"  Entities found: {ents[:10]}")
+                self.logger.info(f"  Noun chunks: {chunks[:10]}")
+                self.logger.info(f"  Mask tokens marked: {mask_sum}/{len(sample['entity_mask'])}")
+        else:
+            self.logger.info("Entity-aware loss disabled (weight=1.0)")
+
+        # Split data (grouped by lecture)
+        self.logger.info("Splitting data (stratified by lecture) …")
+        splits = self._stratified_split(segments)
+
+        self.logger.info(f"  Train: {len(splits['train'])}")
+        self.logger.info(f"  Val:   {len(splits['val'])}")
+        self.logger.info(f"  Test:  {len(splits['test'])}")
+
+        # Tokenization stats
+        self.logger.info("Checking tokenization lengths …")
+        trunc_count = 0
+        for seg in segments:
+            tok = self._tokenizer(seg['formatted_input'], truncation=False)
+            if len(tok['input_ids']) > self.max_input:
+                trunc_count += 1
+
+        trunc_pct = (trunc_count / len(segments)) * 100
+        self.logger.info(f"Truncated inputs: {trunc_count}/{len(segments)} ({trunc_pct:.1f}%)")
+        if trunc_pct > 10:
+            self.logger.warning(f"⚠️  High truncation rate ({trunc_pct:.1f}%). "
+                                "Consider increasing max_input_length.")
+
+        # Create PyTorch datasets
+        datasets = {}
+        for split_name, split_data in splits.items():
+            datasets[split_name] = LectureSummarizationDataset(
+                split_data, self._tokenizer, self.max_input, self.max_target
+            )
+
+        # Save everything
+        save_data = {
+            'splits': splits,
+            'tokenizer_path': str(self.data_dir / "tokenizer"),
+            'max_input_length': self.max_input,
+            'max_target_length': self.max_target,
+            'special_tokens': self.special_tokens,
+            'entity_loss_weight': self.entity_loss_weight,
+            'statistics': {
+                'train': len(splits['train']),
+                'val': len(splits['val']),
+                'test': len(splits['test']),
+                'total': len(segments),
+                'truncation_pct': round(trunc_pct, 1),
+                'n_lectures_train': len(set(s['lecture_id'] for s in splits['train'])),
+                'n_lectures_val': len(set(s['lecture_id'] for s in splits['val'])),
+                'n_lectures_test': len(set(s['lecture_id'] for s in splits['test'])),
+            },
+        }
+
+        out_path = self.data_dir / "bart_tokenized_dataset.pkl"
+        with open(out_path, 'wb') as f:
+            pickle.dump(save_data, f)
+
+        self.logger.info(f"Saved tokenized dataset → {out_path}")
+        self.logger.info("✅ Dataset creation complete!")
+        return save_data
+
+
+# ------------------------------------------------------------------
+# CLI
+# ------------------------------------------------------------------
+def main():
+    parser = argparse.ArgumentParser(description="Create BART fine-tuning dataset")
+    parser.add_argument("--test", action="store_true", help="Test mode (10 samples)")
+    args = parser.parse_args()
+
+    config = config_loader.load_all()
+    builder = BARTDatasetBuilder(config, test_mode=args.test)
+    result = builder.build()
+
+    stats = result['statistics']
+    print(f"\n{'=' * 50}")
+    print("BART Dataset Created!")
+    print(f"  Train: {stats['train']} samples ({stats['n_lectures_train']} lectures)")
+    print(f"  Val:   {stats['val']} samples ({stats['n_lectures_val']} lectures)")
+    print(f"  Test:  {stats['test']} samples ({stats['n_lectures_test']} lectures)")
+    print(f"  Truncation: {stats['truncation_pct']}%")
+    print(f"{'=' * 50}")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+Logs a sample entity mask after creation — shows detected entities, noun chunks, and how many tokens were masked. This lets you verify the trained STEM NER is working.
+
+---
+
+### Phase D: Config Sync ([summarization_config.yaml](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/config/summarization_config.yaml))
+
+```diff:summarization_config.yaml
+# Phase 3: BART Summarization + FLAN-T5 Configuration
+
+# BART Fine-tuning
+bart:
+  model_name: "facebook/bart-large-cnn"
+  max_input_length: 1024
+  max_target_length: 256
+  min_target_length: 30
+  num_beams: 4
+  length_penalty: 2.0
+  no_repeat_ngram_size: 3
+  learning_rate: 2.0e-5
+  batch_size: 2                    # Small for 4GB GPU
+  gradient_accumulation_steps: 4   # Effective batch = 8
+  epochs: 5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  fp16: true
+  gradient_checkpointing: true
+  early_stopping_patience: 3
+  entity_loss_weight: 1.5          # Set to 1.0 to disable entity-aware loss
+  special_tokens:
+    - "[TRANSCRIPT]"
+    - "[VISUAL]"
+    - "[EQUATION]"
+    - "[DIAGRAM]"
+    - "[CODE]"
+    - "[SLIDE]"
+    - "[GRAPH]"
+
+# FLAN-T5 Pseudo-summary Generation
+flan_t5:
+  model_name: "google/flan-t5-base"
+  max_input_length: 512
+  max_target_length: 150
+  temperature: 0.7
+  top_p: 0.9
+  batch_size: 4
+  min_quality_score: 0.3           # SBERT similarity threshold
+
+# Data Preparation
+data_prep:
+  min_segment_words: 50
+  max_segment_words: 800
+  fallback_chunk_size: 400         # Words per chunk when no topic boundaries
+  summary_review_samples: 20
+  visual_tags:
+    - "Equations"
+    - "Diagrams"
+    - "Computer_Code"
+    - "Graph/chart"
+    - "Molecular_Reaction"
+    - "Question"
+    - "Answer of question"
+===
+# Phase 3: BART Summarization + FLAN-T5 Configuration
+
+# BART Fine-tuning
+bart:
+  model_name: "facebook/bart-large-cnn"
+  max_input_length: 1024
+  max_target_length: 350                  # ← matched to FLAN-T5 output length
+  min_target_length: 30
+  num_beams: 4
+  length_penalty: 2.0
+  no_repeat_ngram_size: 3
+  learning_rate: 1.0e-5                   # ← lowered from 2e-5 to reduce overfitting
+  batch_size: 2                           # Small for GPU memory
+  gradient_accumulation_steps: 4          # Effective batch = 8
+  epochs: 10                              # ← increased from 5
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  fp16: true
+  gradient_checkpointing: true
+  early_stopping_patience: 5             # ← increased from 3
+  entity_loss_weight: 1.5                 # Set to 1.0 to disable entity-aware loss
+  label_smoothing: 0.1                    # ← NEW: reduces overfitting
+  special_tokens:
+    - "[TRANSCRIPT]"
+    - "[VISUAL]"
+    - "[EQUATION]"
+    - "[DIAGRAM]"
+    - "[CODE]"
+    - "[SLIDE]"
+    - "[GRAPH]"
+
+# FLAN-T5 Pseudo-summary Generation
+flan_t5:
+  model_name: "google/flan-t5-large"      # ← updated from flan-t5-base
+  max_input_length: 512
+  max_target_length: 350                  # ← increased from 150
+  min_target_length: 50                   # ← NEW: ensures minimum output length
+  num_beams: 4                            # ← NEW: beam search (deterministic)
+  length_penalty: 1.5                     # ← NEW: favor longer outputs
+  batch_size: 4
+  min_quality_score: 0.5                  # ← raised from 0.3
+  min_entity_coverage: 0.4               # ← NEW: entity coverage threshold
+
+# Data Preparation
+data_prep:
+  min_segment_words: 50
+  max_segment_words: 800
+  fallback_chunk_size: 400               # Words per chunk when no topic boundaries
+  summary_review_samples: 20
+  visual_tags:
+    - "Equations"
+    - "Diagrams"
+    - "Computer_Code"
+    - "Graph/chart"
+    - "Molecular_Reaction"
+    - "Question"
+    - "Answer of question"
+
+```
+
+All params now match script defaults. Key syncs: `flan-t5-large`, `max_target_length: 350`, `LR: 1e-5`, `epochs: 10`, `patience: 5`, `label_smoothing: 0.1`, `min_entity_coverage: 0.4`.
+
+---
+
+## Phase E: Curriculum Learning (Design Only)
+
+**Concept:** Train on high-quality segments first, then gradually add lower-quality ones.
+
+**Implementation in [08_train_bart_summarizer.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/08_train_bart_summarizer.py):**
+
+```python
+# In the train() method, after loading data:
+
+# Split training data by quality
+high_quality = [s for s in train_ds.samples 
+                if s.get('quality_score', 0) > 0.6 
+                and s.get('entity_coverage', 0) > 0.5]
+remaining = [s for s in train_ds.samples if s not in high_quality]
+
+curriculum_switch_epoch = 3  # Switch to full data after 3 epochs
+
+for epoch in range(1, self.epochs + 1):
+    if epoch <= curriculum_switch_epoch:
+        # Phase 1: train on high-quality only
+        current_samples = high_quality
+        self.logger.info(f"Curriculum: using {len(high_quality)} high-quality samples")
+    else:
+        # Phase 2: train on ALL samples
+        current_samples = train_ds.samples
+        self.logger.info(f"Curriculum: using ALL {len(train_ds.samples)} samples")
+    
+    # Create DataLoader with current_samples
+    curr_ds = LectureSummarizationDataset(current_samples, tokenizer, ...)
+    train_loader = DataLoader(curr_ds, ...)
+```
+
+**Why it helps:** Prevents the model from memorizing noisy/low-quality pseudo-summaries in early epochs when it's most sensitive. By the time all data is introduced, the model has learned a good prior for summarization.
+
+---
+
+## Re-run Pipeline
+
+On Colab, run in order:
+```bash
+cd /content/Colab_text_modelling_dp
+python scripts/text_processing/06_generate_pseudo_summaries.py
+python scripts/text_processing/07_create_bart_dataset.py
+python scripts/text_processing/08_train_bart_summarizer.py
+```
+
+> [!IMPORTANT]
+> Since the prompt changed (CNN/DM style), and quality thresholds are stricter, you **must** re-run script 06 first to generate new pseudo-summaries. The total segments will likely drop from 1,421 to ~800-1000, but these will be higher quality.
+
+## What to Watch For
+
+1. ✅ No `lr_scheduler.step() before optimizer.step()` warning
+2. ✅ No `Moving attributes to generation config` warning during eval
+3. ✅ Sample predictions show coherent 1-3 sentence summaries
+4. ✅ Entity mask sample shows STEM terms (not stopwords)
+5. ✅ ROUGE-2 should improve significantly from 0.013

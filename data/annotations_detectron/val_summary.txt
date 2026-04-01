@@ -1,0 +1,10 @@
+Split: val
+Total images: 2984
+Total annotations: 8080
+Categories:
+  diagram: 2764
+  flowchart: 22
+  equation: 742
+  code_block: 714
+  table: 14
+  graph_chart: 3824

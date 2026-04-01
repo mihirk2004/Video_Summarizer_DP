@@ -1,0 +1,10 @@
+Split: train
+Total images: 13966
+Total annotations: 39842
+Categories:
+  diagram: 14584
+  flowchart: 206
+  equation: 3466
+  code_block: 3408
+  table: 70
+  graph_chart: 18108

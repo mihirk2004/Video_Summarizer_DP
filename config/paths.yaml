@@ -1,0 +1,29 @@
+paths:
+  data:
+    annotations: "data/annotations"
+    datasets: "data/processed"
+    raw_frames: "data/raw_frames"
+    bart_dataset: "data/processed/bart_dataset"
+    
+  models:
+    ner: "models/text/ner/final"
+    topic: "models/text/topic_seg"
+    embeddings: "models/text/embeddings_SBERT/final"
+    bart: "models/text/bart_summarizer"
+    
+  outputs:
+    logs: "logs"
+    results: "results"
+    
+  temp:
+  cache: "temp/cache"
+
+  multimodal:
+    dataset: "data/processed/multimodal_dataset"
+    clip_model: "models/multimodal/clip_finetuned"
+    clip_embeddings: "data/processed/multimodal_dataset/clip_embeddings"
+    fusion_model: "models/multimodal/clip_bart_fusion"
+    llava_adapter: "models/multimodal/llava_lora"
+    documents: "results/documents"
+    templates: "templates"
+    frame_captions: "data/processed/frame_captions"

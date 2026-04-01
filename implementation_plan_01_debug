@@ -1,0 +1,63 @@
+# BART Training Enhancement Plan
+
+## Problem
+Re-ran pipeline with `flan-t5-large` (1,421 segments, 958 train). ROUGE scores still near zero: **ROUGE-2=0.0131**, **ROUGE-L=0.0483**. Loss drops (3.97→1.13) but validation ROUGE doesn't improve.
+
+## Root Causes & Fixes
+
+### 🔴 Phase A: Critical Training Bugs ([08_train_bart_summarizer.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/08_train_bart_summarizer.py))
+
+| Bug | Root Cause | Fix |
+|-----|-----------|-----|
+| LR scheduler fires before optimizer | `scheduler.step()` at line 337 runs even before first `optimizer.step()` | Add guard: only step scheduler when grad accum completes |
+| BART's generation_config overrides eval | Built-in `max_length=142`, `min_length=56` silently overrides our params → truncated eval output | Clear `model.generation_config` before `model.generate()` |
+| `max_length` vs `max_new_tokens` | `max_length=256` may include prompt tokens in some versions | Switch to `max_new_tokens` |
+| Only 50 val samples evaluated | Noisy ROUGE estimate from 35% of val set | Evaluate full validation set |
+| No visibility into what model generates | Can't debug output quality | Print 3 sample predictions per epoch |
+| Overfitting | LR=2e-5 too aggressive; only 5 epochs with patience 3 | LR=1e-5, epochs=10, patience=5, label_smoothing=0.1 |
+
+### 🟡 Phase B: Quality Filtering ([06_generate_pseudo_summaries.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/06_generate_pseudo_summaries.py))
+
+| Change | Rationale |
+|--------|-----------|
+| `min_quality_score` 0.3 → 0.5 | Current summaries with 0.3-0.5 score are near-extractive copies with hallucinations |
+| Add `entity_coverage > 0.4` gate | Only 31% avg entity coverage — drop summaries that miss too many key terms |
+| CNN/DailyMail-style prompt | Change to: *"Summarize the following lecture segment in 1–3 sentences, capturing the core concept and key technical terms."* — produces summaries BART is pre-trained to generate |
+| Use trained STEM NER | Replace spaCy `en_core_sci_sm` with your own trained NER for entity coverage |
+
+### 🟢 Phase C: Entity Mask ([07_create_bart_dataset.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/07_create_bart_dataset.py))
+- NER path `models/text/ner/final` already in `paths.yaml` ✓
+- Code at lines 145-166 already loads it ✓
+- Add logging to verify STEM NER is actually used (not falling back to spaCy)
+
+### 📋 Phase D: Config Sync (`summarization_config.yaml`)
+- FLAN-T5: `google/flan-t5-large`, `max_target_length: 350`, beam search params
+- BART: `max_target_length: 350`, `learning_rate: 1e-5`, `epochs: 10`, `early_stopping_patience: 5`
+- Add `label_smoothing: 0.1`
+
+### ⚡ Phase E: Curriculum Learning (`08_train_bart_summarizer.py`)
+Train on high-quality segments first (quality>0.6 & entity_coverage>0.5) for first 2-3 epochs, then add all segments. Prevents early contamination with noisy data.
+
+### 📝 Phase F: Advanced Features (Documented for future)
+- **Stronger LLM**: Replace FLAN-T5 with Llama-3-8B-Instruct (quantized 4-bit via bitsandbytes) for gold-quality pseudo-summaries
+- **Data Augmentation**: Paraphrase segments via LLM to 2-3× training data
+- **Multi-Task Learning**: Predict visual tags as auxiliary output, forcing encoder to retain more structural information
+
+---
+
+## Files Modified
+
+| File | Changes |
+|------|---------|
+| [08_train_bart_summarizer.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/08_train_bart_summarizer.py) | Fix LR scheduler, clear gen config, max_new_tokens, full eval, sample logging, label smoothing, curriculum learning |
+| [06_generate_pseudo_summaries.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/06_generate_pseudo_summaries.py) | Stricter quality filter, entity coverage gate, CNN/DM-style prompt, STEM NER |
+| [07_create_bart_dataset.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/07_create_bart_dataset.py) | Add NER verification logging |
+| [summarization_config.yaml](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/config/summarization_config.yaml) | Sync all params |
+
+## Re-run Order
+```
+06_generate_pseudo_summaries.py → 07_create_bart_dataset.py → 08_train_bart_summarizer.py
+```
+
+## Expected Improvement
+With these fixes, ROUGE-2 should reach **0.15–0.25** (typical fine-tuned BART). If still <0.10, the pseudo-summary quality is the bottleneck → switch to Llama-3/Mistral for Phase F.

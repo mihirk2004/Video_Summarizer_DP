@@ -1,0 +1,55 @@
+DP Review 4 Content -
+1.Go thourgh Project Statment(Explaning project and explaining our 4 imp phase as mention in pdf) - 2 slides.
+2.Work done - 
+Phase 1 completed :--
+[
+1.Downloaded all raw videos using Ffmeg tool{Its query ffmpeg', '-i', video_path,
+            '-q:a', '0',  # Best quality
+            '-map', 'a',
+            '-ac', '1',   # Mono audio
+            '-ar', '16000',  # 16kHz sample rate
+            audio_path,
+            '-y'  # Overwrite output},
+2.Runned processing script to get transcipt of video using Whisper Model,
+3.Using YoloV8 to detect face of instructor if present,
+4.After doing every processing we created .json file of each video containing all the information with audio.wav file and raw_frames of that video,
+5.We used Structural Similarity Index Measure (SSIM) to get disimilar images from each frames so we get unique frmaes which are not repeating that so we get focused and less frames for further annotations also we change threshold valur of this model so that we get either more images or needed images it could be derived from video length,
+6.Next step is Annotations to train visual models we need categorical data like what does frame is (Equation,Diagram,Code,Graph,Chart,etc) and saved annotation.json for each video.
+Final JSON structure "{
+  "video_id": "",
+  "metadata": {},
+  "processing": {
+    "audio_path": "",
+    "transcript": {
+      "text": "",
+      "segments": []
+    },
+    "frames": []
+  },
+  "annotations": {}
+}"
+] ,
+
+Phase 2(Data Classification Models) Started and In progress :--
+[
+1.We created separte datasets for training each models as each one needed different text processing of transcript and text_segment,
+2.We trained 3 models for text modelling -- 
+i. NameEntityRelation(NER) Model - STEM entities or lables like stem_categories: ["EQUATION", "CONCEPT", "METHOD", "THEOREM", "FORMULA","CHEMICAL_STRUCTURE","MATH_TERM"].This model identifies important STEM terms information useful to summarization model. Base_model used is - "bert-base-uncased".
+
+ii.Topic Segmentation Model - Works on clustering method to creates training data boundaries and train on each text_segments of all videos most useful in inference segmentation in summariztion. Base_model used is - "bert-base-uncased".
+
+iii. Sentence BERT Model - Works on semantic similarity scoring for all snetences derived from text_transcript based on each sentence score we give its importance to further model. Base_model used is - "sentence-transformers/all-MiniLM-L6-v2"
+]
+Visual Model info shubham will send.
+
+Next phases plan of actions - 
+
+Phase 3 - Summarization Models we will train are BART(Bidirectional Auto-Regressive Transformers) and T5(Text-to-Text Transfer Transformer). 
+
+Main Components identified - In this step we can integrate LLM model by fine-tuning transcirpt data and Arvix Research Paper to Llama-2-7B,Mistral-7B by using LoRA/QLoRA techniques  and Text-to-Diagram generation with Mermaid.js and specific LLM and Stable Diffusion for Custom Diagrams.
+And by doing hyperparameter tuning and designing test cases or senarios with evaluation will select which model and LLM we need to use in general case.  
+
+Phase 4 - Multi-modal Fusion Model is CLIP and BLIP model for image captioning studied its architecture and working.
+
+
+

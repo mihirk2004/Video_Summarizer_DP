@@ -1,0 +1,10 @@
+Split: test
+Total images: 3010
+Total annotations: 8934
+Categories:
+  diagram: 3264
+  flowchart: 40
+  equation: 744
+  code_block: 754
+  table: 16
+  graph_chart: 4116

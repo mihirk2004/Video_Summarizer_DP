@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimodal Lecture Video Summarizer</title>
+    <meta name="description" content="AI-powered lecture video summarization using BART, CLIP, and multimodal fusion. Upload a video or paste a YouTube URL to generate comprehensive visual lecture notes.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<!-- ── Navbar ── -->
+<nav class="navbar">
+    <div class="navbar-inner">
+        <a href="/" class="navbar-brand">
+            <span class="logo-icon">🎓</span>
+            <span>Lecture<span class="gradient-text">AI</span></span>
+        </a>
+        <div class="navbar-links">
+            <a href="/">Home</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+        </div>
+    </div>
+</nav>
+
+<!-- ── Hero ── -->
+<section class="hero">
+    <h1><span class="gradient-text">Multimodal Lecture</span><br>Video Summarizer</h1>
+    <p>Transform any lecture video into structured, AI-powered visual notes using BART + CLIP multimodal fusion. Simply upload a video or paste a YouTube link.</p>
+</section>
+
+<div class="container">
+
+    {% if error %}
+    <div class="alert alert-error" id="error-alert">{{ error }}</div>
+    {% endif %}
+
+    <!-- ── Input Card ── -->
+    <div class="card fade-in-up" id="input-card">
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="url" id="tab-btn-url">🔗 YouTube URL</button>
+            <button class="tab-btn" data-tab="upload" id="tab-btn-upload">📁 Upload Video</button>
+        </div>
+
+        <!-- Tab: YouTube URL -->
+        <div class="tab-content active" id="tab-url">
+            <form id="url-form">
+                <div class="form-group">
+                    <label class="form-label" for="youtube-url">YouTube Video URL</label>
+                    <input
+                        type="url"
+                        id="youtube-url"
+                        class="form-input"
+                        placeholder="https://www.youtube.com/watch?v=..."
+                        required
+                    >
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn" id="url-submit">
+                    <span class="btn-label">⚡ Start Summarization</span>
+                    <span class="spinner" style="display:none;"></span>
+                </button>
+            </form>
+        </div>
+
+        <!-- Tab: File Upload -->
+        <div class="tab-content" id="tab-upload">
+            <form id="upload-form">
+                <div class="drop-zone" id="drop-zone">
+                    <input
+                        type="file"
+                        id="video-file"
+                        accept=".mp4,.mkv,.avi,.mov,.webm,.flv,.wmv"
+                    >
+                    <div class="drop-zone-icon">📹</div>
+                    <div class="drop-zone-text">Drag & drop your lecture video here</div>
+                    <div class="drop-zone-hint">or click to browse • MP4, MKV, AVI, MOV • Max 250MB</div>
+                    <div class="file-name" id="file-name" style="display:none;"></div>
+                </div>
+                <div style="margin-top: 1.5rem;">
+                    <button type="submit" class="btn btn-primary submit-btn" id="upload-submit">
+                        <span class="btn-label">⚡ Start Summarization</span>
+                        <span class="spinner" style="display:none;"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ── Progress Section ── -->
+    <div class="progress-section" id="progress-section">
+        <div class="card fade-in-up">
+            <h2 style="margin-bottom: 1.5rem;">
+                <span class="gradient-text">Processing Pipeline</span>
+            </h2>
+
+            <!-- Phase Cards -->
+            <div class="pipeline-phases">
+                <div class="phase-card" data-phase="1">
+                    <div class="phase-number">01</div>
+                    <div class="phase-name">Video Processing</div>
+                </div>
+                <div class="phase-card" data-phase="2">
+                    <div class="phase-number">02</div>
+                    <div class="phase-name">Frame Classification</div>
+                </div>
+                <div class="phase-card" data-phase="3">
+                    <div class="phase-number">03</div>
+                    <div class="phase-name">Summarization</div>
+                </div>
+                <div class="phase-card" data-phase="4">
+                    <div class="phase-number">04</div>
+                    <div class="phase-name">Document Generation</div>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progress-fill"></div>
+            </div>
+            <div class="progress-message" id="progress-message">Initializing pipeline...</div>
+        </div>
+    </div>
+
+    <!-- ── Pipeline Overview ── -->
+    <section class="pipeline-overview">
+        <h2><span class="gradient-text">How It Works</span></h2>
+        <div class="pipeline-steps">
+            <div class="step-card">
+                <div class="step-icon">🎬</div>
+                <h3>Video Processing</h3>
+                <p>Extract audio, transcribe with Whisper, sample keyframes using SSIM, and detect objects/faces with YOLO and CLIP.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-icon">🔬</div>
+                <h3>Frame Classification</h3>
+                <p>Hybrid ResNet50 + CLIP model classifies frames into equations, diagrams, code, charts, and more with high accuracy.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-icon">🧠</div>
+                <h3>Text Summarization</h3>
+                <p>BART generates initial summaries refined by Mistral-7B LLM for high-quality, context-aware lecture notes.</p>
+            </div>
+            <div class="step-card">
+                <div class="step-icon">📄</div>
+                <h3>Document Generation</h3>
+                <p>CLIP+BART fusion creates multimodal summaries exported as PDF, Markdown, and interactive HTML documents.</p>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+    <p>Multimodal Lecture Video Summarizer — Built with BART, CLIP, Whisper, and Mistral</p>
+</footer>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ doc.title | default('Lecture Summary') }} — LectureAI</title>
+    <meta name="description"
+        content="AI-generated multimodal lecture summary with visual annotations and segment-level notes.">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+    <!-- ── Navbar ── -->
+    <nav class="navbar">
+        <div class="navbar-inner">
+            <a href="/" class="navbar-brand">
+                <span class="logo-icon">🎓</span>
+                <span>Lecture<span class="gradient-text">AI</span></span>
+            </a>
+            <div class="navbar-links">
+                <a href="/">← New Summary</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="doc-layout">
+
+            <!-- ── Sidebar ── -->
+            <aside class="doc-sidebar">
+                <div class="card" style="padding: 1.25rem;">
+                    <div class="sidebar-title">Segments</div>
+                    <nav class="sidebar-nav">
+
+                        {% for seg in doc.segments %}
+                        <a href="#segment-{{ loop.index }}" class="sidebar-link" data-seg="{{ loop.index }}">
+                            <span>{{ loop.index }}.</span>
+
+                            <span class="sidebar-timestamp">
+                                {{ '%d:%02d' % ((seg.start|default(0)|int) // 60, (seg.start|default(0)|int) % 60) }}
+                            </span>
+
+                            {% if seg.visual_tags is defined and seg.visual_tags %}
+                            {% for tag in seg.visual_tags[:2] %}
+                            <span class="tag" style="font-size:0.65rem;">{{ tag }}</span>
+                            {% endfor %}
+                            {% endif %}
+                        </a>
+                        {% endfor %}
+
+                    </nav>
+
+                    <!-- Download Buttons -->
+                    <div style="margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1rem;">
+                        <div class="sidebar-title">Download</div>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                            <a href="/api/document/{{ job_id }}/html" class="btn btn-outline btn-sm">📄 HTML</a>
+                            <a href="/api/document/{{ job_id }}/md" class="btn btn-outline btn-sm">📝 Markdown</a>
+                            <a href="/api/document/{{ job_id }}/json" class="btn btn-outline btn-sm">📦 JSON</a>
+                            <a href="/api/document/{{ job_id }}/pdf" class="btn btn-outline btn-sm">📑 PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- ── Main Content ── -->
+            <main class="doc-main">
+
+                <!-- Header -->
+                <div class="doc-header-section">
+                    <h1>
+                        <span class="gradient-text">{{ doc.title | default('Lecture Summary') }}</span>
+                    </h1>
+
+                    <div class="doc-meta">
+                        <span class="doc-meta-item">📊 {{ doc.total_segments | default(0) }} segments</span>
+                        <span class="doc-meta-item">🕐 {{ doc.generated_at | default('') }}</span>
+                    </div>
+                </div>
+
+                <!-- Overall Summary -->
+                {% if doc.overall_summary %}
+                <div class="doc-summary-card">
+                    <h3>Overall Summary</h3>
+                    <p style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.8;">
+                        {{ doc.overall_summary }}
+                    </p>
+                </div>
+                {% endif %}
+
+                <!-- Segments -->
+                {% for seg in doc.segments %}
+                {% set primary_frame = seg.images[0].web_path if seg.images else '' %}
+                {% set frame_title = seg.images[0].category if seg.images else '' %}
+                
+                <div class="segment-block fade-in-up" id="segment-{{ loop.index }}"
+                    data-frame-src="{{ primary_frame }}" data-frame-title="{{ frame_title }}"
+                    style="animation-delay: {{ '%.2f' % (loop.index * 0.05) }}s;">
+
+                    <div class="seg-header">
+                        <span class="seg-title">Segment {{ loop.index }}</span>
+
+                        <span class="seg-time">
+                            {{ '%d:%02d' % ((seg.start|default(0)|int) // 60, (seg.start|default(0)|int) % 60) }}
+                            –
+                            {{ '%d:%02d' % ((seg.end|default(0)|int) // 60, (seg.end|default(0)|int) % 60) }}
+                        </span>
+                    </div>
+
+                    {% if seg.visual_tags is defined and seg.visual_tags %}
+                    <div class="seg-tags">
+                        {% for tag in seg.visual_tags %}
+                        <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    <div class="seg-body">
+                        {{ seg.summary | default('No summary available.') }}
+                    </div>
+
+                    {% if seg.images is defined and seg.images %}
+                    <div class="seg-frames-grid">
+                        {% for img in seg.images %}
+                        <div class="frame-thumb-card">
+                            {% if img.web_path %}
+                            <img src="{{ img.web_path }}" alt="{{ img.category }} frame"
+                                class="frame-thumb-img" loading="lazy">
+                            {% endif %}
+                            <div class="frame-thumb-meta">
+                                <span class="frame-thumb-category">{{ img.category }}</span>
+                                <span class="frame-thumb-conf">
+                                    {{ '%.0f' % ((img.confidence|default(0)|float) * 100) }}%
+                                </span>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+
+                    <div class="seg-quality">
+                        <div class="quality-bar">
+                            <div class="quality-fill"
+                                style="width: {{ (seg.quality_score | default(0) | float) * 100 }}%;">
+                            </div>
+                        </div>
+
+                        <span class="quality-label">
+                            {{ '%.0f' % ((seg.quality_score | default(0) | float) * 100) }}%
+                        </span>
+                    </div>
+
+                </div>
+                {% endfor %}
+
+                {% if not doc.segments %}
+                <div class="card" style="text-align: center; padding: 3rem;">
+                    <p style="color: var(--text-muted); font-size: 1.1rem;">
+                        No segments found in this document.
+                    </p>
+                    <a href="/" class="btn btn-primary" style="margin-top: 1rem;">
+                        Process a New Video
+                    </a>
+                </div>
+                {% endif %}
+
+            </main>
+            
+            <!-- ── Right Visualizer Pane ── -->
+            <aside class="doc-visualizer">
+                <div class="sticky-visualizer" id="sticky-visualizer">
+                    <div class="visualizer-header">
+                        <span class="logo-icon">👁️</span> 
+                        <span id="visualizer-title">No Visual</span>
+                    </div>
+                    <div class="visualizer-content" id="visualizer-content">
+                        <div class="no-visual-placeholder">
+                            Scroll to a segment with visual elements to see the frame here.
+                        </div>
+                        <img id="visualizer-img" src="" style="display: none; width: 100%; border-radius: 8px;" />
+                    </div>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <!-- ── Footer ── -->
+    <footer class="footer">
+        <p>Multimodal Lecture Video Summarizer — Built with BART, CLIP, Whisper, and Mistral</p>
+    </footer>
+
+    <script>
+        // Highlight active sidebar link on scroll and update visualizer
+        document.addEventListener('DOMContentLoaded', () => {
+            const segments = document.querySelectorAll('.segment-block');
+            const links = document.querySelectorAll('.sidebar-link');
+            
+            const visTitle = document.getElementById('visualizer-title');
+            const visImg = document.getElementById('visualizer-img');
+            const placeholder = document.querySelector('.no-visual-placeholder');
+
+            if (!segments.length) return;
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const id = entry.target.id;
+                        const idx = id.replace('segment-', '');
+
+                        // Sidebar Link Update
+                        links.forEach(l => l.classList.remove('active'));
+                        const activeLink = document.querySelector(`.sidebar-link[data-seg="${idx}"]`);
+                        if (activeLink) activeLink.classList.add('active');
+                        
+                        // Visualizer Update
+                        const frameSrc = entry.target.getAttribute('data-frame-src');
+                        const frameTitle = entry.target.getAttribute('data-frame-title');
+                        
+                        if (frameSrc) {
+                            visImg.src = frameSrc;
+                            visImg.style.display = 'block';
+                            placeholder.style.display = 'none';
+                            visTitle.innerText = frameTitle;
+                        } else {
+                            visImg.style.display = 'none';
+                            placeholder.style.display = 'flex';
+                            visTitle.innerText = 'No Visual';
+                        }
+                    }
+                });
+            }, { threshold: 0.3, rootMargin: '-80px 0px -40% 0px' });
+
+            segments.forEach(s => observer.observe(s));
+        });
+    </script>
+</body>
+
+</html>

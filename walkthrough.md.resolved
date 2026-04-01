@@ -1,0 +1,120 @@
+# Phase 3: BART Training Pipeline — Walkthrough
+
+## What Was Built
+
+### Files Created
+| # | File | Purpose |
+|---|------|---------|
+| 1 | [summarization_config.yaml](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/config/summarization_config.yaml) | BART + FLAN-T5 hyperparameters |
+| 2 | [05_prepare_bart_data.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/05_prepare_bart_data.py) | Merge Whisper segments → topical blocks |
+| 3 | [06_generate_pseudo_summaries.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/06_generate_pseudo_summaries.py) | FLAN-T5 pseudo-summary generation + quality filter |
+| 4 | [07_create_bart_dataset.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/07_create_bart_dataset.py) | PyTorch Dataset + tokenization + splits |
+| 5 | [08_train_bart_summarizer.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/08_train_bart_summarizer.py) | BART fine-tuning with entity-aware loss |
+
+### Files Modified
+- [paths.yaml](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/config/paths.yaml) — added `bart` model + `bart_dataset` data paths
+- [config_loader.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/utils/config_loader.py) — registered [summarization_config.yaml](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/config/summarization_config.yaml)
+- [requirements.txt](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/requirements.txt) — added `rouge-score`, `bert-score`, `accelerate`, [evaluate](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/08_train_bart_summarizer.py#194-239)
+
+---
+
+## Architecture (2-Stage Summarization)
+
+```
+249 Annotated JSONs
+    ↓  (05) Merge by topic boundaries
+Topical Segments ([TRANSCRIPT] ... [VISUAL] ...)
+    ↓  (06) FLAN-T5 pseudo-summary generation
+Dataset with Summaries (quality filtered)
+    ↓  (07) Tokenize + entity masks + split
+Train / Val / Test PyTorch Datasets
+    ↓  (08) Fine-tune BART-large-cnn
+Trained Summarizer
+    ↓  (inference — future scripts 09-11)
+Per-segment summaries → concatenate → FLAN-T5 → Full lecture summary
+```
+
+---
+
+## How to Execute
+
+> [!IMPORTANT]
+> Run all commands from the **project root** directory: `d:\Users\Mihir\Downloads\Documents\Mihir Codes\Dp_Project`
+
+### 0. Install New Dependencies
+```bash
+pip install rouge-score bert-score accelerate evaluate
+```
+
+### 1. Prepare Data (Script 05)
+Creates topical segments from your 249 annotated JSONs using topic segmentation boundaries.
+```bash
+# Test first (3 lectures only)
+python scripts/text_processing/05_prepare_bart_data.py --test
+
+# Full run (all 249 lectures)
+python scripts/text_processing/05_prepare_bart_data.py
+```
+**Output**: `data/processed/bart_dataset/prepared_segments.json`
+
+### 2. Generate Pseudo-Summaries (Script 06)
+Uses FLAN-T5-base to generate summaries, then filters by quality.
+```bash
+# Test first (5 segments)
+python scripts/text_processing/06_generate_pseudo_summaries.py --test
+
+# Full run
+python scripts/text_processing/06_generate_pseudo_summaries.py
+```
+**Output**: `data/processed/bart_dataset/dataset_with_summaries.json` + `summary_review_samples.json`
+
+> [!WARNING]
+> **After this step**: Open `summary_review_samples.json` and skim 20 examples. If summaries look wrong, adjust the prompt in the script before proceeding.
+
+### 3. Create BART Dataset (Script 07)
+Tokenizes data, creates entity masks, splits by lecture.
+```bash
+# Test (10 samples)
+python scripts/text_processing/07_create_bart_dataset.py --test
+
+# Full run
+python scripts/text_processing/07_create_bart_dataset.py
+```
+**Output**: `data/processed/bart_dataset/bart_tokenized_dataset.pkl` + `tokenizer/`
+
+### 4. Train BART (Script 08)
+Fine-tunes with entity-aware loss, ROUGE evaluation, and early stopping.
+
+```bash
+# Test mode (2 training steps, verify it works)
+python scripts/text_processing/08_train_bart_summarizer.py --test
+
+# Local 4GB GPU (uses bart-base, smaller model)
+python scripts/text_processing/08_train_bart_summarizer.py --small
+
+# Colab / large GPU (uses bart-large-cnn, better quality)
+python scripts/text_processing/08_train_bart_summarizer.py
+```
+**Output**: `models/text/bart_summarizer/best_model/` + `training_history.json`
+
+---
+
+## GPU Recommendations
+
+| Hardware | Command | Notes |
+|----------|---------|-------|
+| 4GB GPU (local) | `--small` flag | Uses `bart-base` (139M params) |
+| Colab T4 (16GB) | No flags needed | Uses `bart-large-cnn` (406M params) |
+| CPU only | Add `--small` | Very slow, only for testing |
+
+---
+
+## Troubleshooting
+
+| Issue | Fix |
+|-------|-----|
+| `CUDA out of memory` | Use `--small` flag, or reduce `batch_size` in config |
+| `No segments created` | Check that annotation JSONs exist in `data/annotations/` |
+| `segmentation_results.json not found` | Script falls back to chunking — this is OK |
+| Low quality scores | Adjust `flan_t5.min_quality_score` in config (lower = accept more) |
+| High truncation % | Increase `bart.max_input_length` in config |

@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ lecture_title }} — Lecture Notes</title>
+    <meta name="description" content="Auto-generated lecture notes for {{ lecture_title }}">
+    <script src="{{ mathjax_cdn }}" async></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --surface-hover: #273449;
+            --text: #e2e8f0;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --accent2: #818cf8;
+            --accent3: #34d399;
+            --border: #334155;
+            --code-bg: #0d1117;
+            --equation-bg: rgba(56, 189, 248, 0.05);
+            --diagram-bg: rgba(129, 140, 248, 0.05);
+            --code-border: rgba(52, 211, 153, 0.3);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: var(--bg); color: var(--text);
+            line-height: 1.7;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 260px 1fr;
+            min-height: 100vh;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: var(--surface); border-right: 1px solid var(--border);
+            padding: 1.5rem 1rem; position: sticky; top: 0; height: 100vh;
+            overflow-y: auto;
+        }
+        .sidebar h3 {
+            font-size: 0.75rem; text-transform: uppercase;
+            letter-spacing: 0.1em; color: var(--text-muted);
+            margin-bottom: 0.8rem;
+        }
+        .sidebar a {
+            display: block; color: var(--text-muted); text-decoration: none;
+            padding: 0.4rem 0.6rem; border-radius: 6px; font-size: 0.85rem;
+            transition: all 0.2s; margin-bottom: 0.2rem;
+        }
+        .sidebar a:hover { background: var(--surface-hover); color: var(--accent); }
+        .sidebar .badge {
+            display: inline-block; background: var(--accent);
+            color: var(--bg); padding: 0.1rem 0.4rem; border-radius: 10px;
+            font-size: 0.65rem; font-weight: 600; margin-left: 0.3rem;
+        }
+
+        /* Main Content */
+        .main { padding: 2rem 3rem; max-width: 900px; }
+
+        h1 {
+            font-size: 2.2rem; font-weight: 700;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+        .meta-bar {
+            display: flex; gap: 1rem; flex-wrap: wrap;
+            background: var(--surface); border-radius: 10px;
+            padding: 0.8rem 1.2rem; margin: 1rem 0 2rem;
+            border-left: 3px solid var(--accent);
+        }
+        .meta-bar span { font-size: 0.9rem; }
+        .meta-bar strong { color: var(--accent); }
+
+        /* Segment Card */
+        .segment {
+            background: var(--surface); border-radius: 12px;
+            padding: 1.5rem 1.8rem; margin: 1.5rem 0;
+            border: 1px solid var(--border);
+            transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        .segment:hover {
+            border-color: var(--accent);
+            box-shadow: 0 4px 20px rgba(56, 189, 248, 0.08);
+        }
+        .segment-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;
+        }
+        .segment-num {
+            font-size: 1.3rem; font-weight: 700; color: var(--accent);
+        }
+        .time-badge {
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            color: white; padding: 0.25rem 0.8rem;
+            border-radius: 20px; font-size: 0.8rem; font-weight: 600;
+        }
+        .tags { margin-bottom: 0.5rem; }
+        .tag {
+            display: inline-block; padding: 0.15rem 0.5rem;
+            border-radius: 4px; font-size: 0.75rem; margin: 0.1rem;
+            font-weight: 500;
+        }
+        .tag-equation { background: var(--equation-bg); color: var(--accent); border: 1px solid rgba(56,189,248,0.3); }
+        .tag-diagram { background: var(--diagram-bg); color: var(--accent2); border: 1px solid rgba(129,140,248,0.3); }
+        .tag-code { background: rgba(52,211,153,0.1); color: var(--accent3); border: 1px solid var(--code-border); }
+        .tag-default { background: var(--code-bg); color: var(--text-muted); border: 1px solid var(--border); }
+
+        .summary { font-size: 1rem; line-height: 1.8; color: var(--text); }
+
+        /* Visual Block */
+        .visual-block {
+            background: var(--code-bg); border-radius: 10px;
+            padding: 1.2rem; margin: 1rem 0;
+            border: 1px solid var(--border);
+        }
+        .visual-block h4 {
+            font-size: 0.9rem; color: var(--accent2);
+            margin-bottom: 0.6rem; font-weight: 600;
+        }
+        .visual-block img {
+            max-width: 100%; border-radius: 8px;
+            margin: 0.5rem 0; box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        .caption {
+            border-left: 3px solid var(--accent2);
+            padding: 0.5rem 1rem; margin: 0.5rem 0;
+            background: rgba(129, 140, 248, 0.08);
+            border-radius: 0 6px 6px 0; font-style: italic;
+            font-size: 0.9rem; color: var(--text-muted);
+        }
+        .latex-block {
+            background: var(--equation-bg);
+            border: 1px solid rgba(56,189,248,0.2);
+            border-radius: 6px; padding: 1rem;
+            text-align: center; margin: 0.5rem 0;
+            font-size: 1.1rem;
+        }
+
+        hr { border: none; border-top: 1px solid var(--border); margin: 2rem 0; }
+
+        .footer {
+            text-align: center; padding: 2rem 0; color: var(--text-muted);
+            font-size: 0.8rem;
+        }
+
+        /* Print */
+        @media print {
+            .sidebar { display: none; }
+            .container { grid-template-columns: 1fr; }
+            body { background: white; color: #1a1a1a; }
+            .segment { border: 1px solid #ddd; }
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .container { grid-template-columns: 1fr; }
+            .sidebar { display: none; }
+            .main { padding: 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <h3>📑 Segments</h3>
+            {% for seg in segments %}
+            <a href="#seg{{ loop.index }}">
+                {{ loop.index }}. {{ format_time(seg.start) }}–{{ format_time(seg.end) }}
+                {% if seg.has_visuals %}<span class="badge">Visual</span>{% endif %}
+            </a>
+            {% endfor %}
+        </nav>
+
+        <!-- Main Content -->
+        <div class="main">
+            <h1>{{ lecture_title }}</h1>
+
+            <div class="meta-bar">
+                <span><strong>Duration:</strong> {{ total_duration }}</span>
+                <span><strong>Segments:</strong> {{ n_segments }}</span>
+                <span><strong>Visuals:</strong> {{ n_visual }}</span>
+            </div>
+
+            {% for seg in segments %}
+            <div class="segment" id="seg{{ loop.index }}">
+                <div class="segment-header">
+                    <span class="segment-num">Segment {{ loop.index }}</span>
+                    <span class="time-badge">{{ format_time(seg.start) }} – {{ format_time(seg.end) }}</span>
+                </div>
+
+                {% if seg.visual_tags %}
+                <div class="tags">
+                    {% for tag in seg.visual_tags %}
+                    {% if 'Equation' in tag %}
+                        <span class="tag tag-equation">{{ tag | replace('_', ' ') }}</span>
+                    {% elif 'Diagram' in tag or 'Flow' in tag %}
+                        <span class="tag tag-diagram">{{ tag | replace('_', ' ') }}</span>
+                    {% elif 'Code' in tag %}
+                        <span class="tag tag-code">{{ tag | replace('_', ' ') }}</span>
+                    {% else %}
+                        <span class="tag tag-default">{{ tag | replace('_', ' ') }}</span>
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                {% endif %}
+
+                <div class="summary">
+                    {{ seg.final_summary or seg.fusion_summary or '' }}
+                </div>
+
+                {% if seg.has_visuals %}
+                    {% for i in range(seg.image_paths | length) %}
+                    <div class="visual-block">
+                        <h4>
+                            {{ seg.image_categories[i] | replace('_', ' ') }}
+                            (at {{ format_time(seg.image_timestamps[i]) }})
+                        </h4>
+                        <img src="frames/{{ seg.image_paths[i].split('/')[-1] }}"
+                             alt="{{ seg.image_categories[i] }}" loading="lazy">
+                        {% if seg.frame_captions is defined and i < seg.frame_captions | length %}
+                            {% if seg.frame_captions[i].caption %}
+                            <div class="caption">{{ seg.frame_captions[i].caption }}</div>
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+                {% endif %}
+            </div>
+            {% endfor %}
+
+            <hr>
+            <div class="footer">
+                Generated by Multimodal Lecture Summarizer — Phase 4 Pipeline
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+venv/
+.env/
+.venv/
+__pycache__/
+*.pyc
+venv310/
+# Data
+<<<<<<< HEAD
+data/raw_videos/
+data/processed/
+data/raw_frames
+=======
+data/raw_videos
+data/processed
+data/annotations
+data/organized_frames_fixed
+data/coco
+data/frames_reorganized
+>>>>>>> 5ed43943681c7427d0fb6105e7b04fc99cff1dbe
+
+models
+uploads
+annotation_checks
+*.mp4
+*.wav
+
+# Models
+*.pt
+
+# OS
+.DS_Store
