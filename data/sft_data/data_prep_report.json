@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-04-12 11:50:19",
+  "config": {
+    "min_quality_score": 0.4,
+    "min_word_count": 50,
+    "high_quality_threshold": 0.85,
+    "low_quality_threshold": 0.5,
+    "math_sample_size": 200,
+    "cs_sample_size": 200,
+    "train_ratio": 0.9
+  },
+  "source_data": {
+    "math_segments_available": 465,
+    "cs_segments_available": 360
+  },
+  "augmentation": {
+    "gemini_available": false,
+    "math_augmented": 0,
+    "math_skipped_high_quality": 0,
+    "cs_augmented": 0,
+    "cs_skipped_high_quality": 11
+  },
+  "output": {
+    "math": {
+      "subject": "math",
+      "train_count": 187,
+      "val_count": 13,
+      "train_lectures": 53,
+      "val_lectures": 6,
+      "train_path": "/content/drive/MyDrive/Colab_text_modelling_dp_01/data/processed/sft_data/math_train.jsonl",
+      "val_path": "/content/drive/MyDrive/Colab_text_modelling_dp_01/data/processed/sft_data/math_val.jsonl"
+    },
+    "cs": {
+      "subject": "cs",
+      "train_count": 181,
+      "val_count": 19,
+      "train_lectures": 46,
+      "val_lectures": 6,
+      "train_path": "/content/drive/MyDrive/Colab_text_modelling_dp_01/data/processed/sft_data/cs_train.jsonl",
+      "val_path": "/content/drive/MyDrive/Colab_text_modelling_dp_01/data/processed/sft_data/cs_val.jsonl"
+    },
+    "total_train": 368,
+    "total_val": 32
+  }
+}

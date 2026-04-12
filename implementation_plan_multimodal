@@ -1,0 +1,498 @@
+# Phase 4: Multimodal CLIP+BART Fusion — Revised Implementation Plan
+
+## Goal
+
+Build a **fine-tuned multimodal summarization model** that fuses CLIP visual embeddings with BART text encoding to produce summaries that are aware of visual content (equations, diagrams, code, graphs). Then integrate LLaVA (LoRA fine-tuned) for image captioning enhancement, and generate structured PDF/Markdown/HTML documents.
+
+---
+
+## Current Data Reality (Critical Findings)
+
+> [!CAUTION]
+> **Data gaps that must be fixed before any model training:**
+
+| Issue | Details |
+|-------|---------|
+| **All 770 segments have start=end=0** | [05_prepare_bart_data.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/05_prepare_bart_data.py) used chunking fallback → no timestamps |
+| **0 segments have visual_tags** | Annotation frames have empty `concepts` lists |
+| **Annotation frames ≠ classified frames** | `frames_reorganized` has classified images but annotation JSONs have no `concepts` |
+| **121/134 BART lectures have classified frames** | Linkable via filenames: `lecture_018_frame_000005.jpg` |
+
+**Root cause**: The annotation JSONs store frame paths and timestamps, but `concepts` was never populated from your ResNet+CLIP classification model. The classification results live only in the `frames_reorganized/` folder structure.
+
+---
+
+## Architecture Overview
+
+```mermaid
+graph TD
+    subgraph "Day 1-2: Data Preparation"
+        A[frames_reorganized<br>10K classified images] -->|filename parsing| B[Frame Category Map<br>lecture_id → frame_idx → category]
+        C[Annotation JSONs<br>239 lectures] -->|frame timestamps| D[Timestamp Lookup<br>frame_idx → timestamp]
+        B --> E[11_prepare_multimodal_data.py]
+        D --> E
+        F[BART Dataset<br>770 segments] --> E
+        E --> G[Multimodal Segments JSON<br>segments + image_paths + categories + timestamps]
+    end
+
+    subgraph "Day 2-3: CLIP Fine-tuning"
+        G --> H[12_finetune_clip.py<br>Contrastive learning on<br>segment_text ↔ frame pairs]
+        H --> I[Fine-tuned CLIP Encoder]
+        I --> J[13_precompute_clip_embeddings.py<br>Embed all selected frames]
+        J --> K[CLIP Embeddings Cache<br>.npy files per lecture]
+    end
+
+    subgraph "Day 3-4: CLIP+BART Fusion"
+        K --> L[14_train_clip_bart_fusion.py]
+        G --> L
+        L -->|Option A: Prefix Fusion| M[Trained Fusion Model<br>CLIP visual tokens + BART encoder]
+    end
+
+    subgraph "Day 5: LLaVA + Document Generation"
+        M --> N[15_multimodal_inference.py]
+        I --> N
+        N --> O[Multimodal Summaries]
+        O --> P[16_generate_documents.py]
+        P --> Q[PDF / Markdown / HTML]
+    end
+```
+
+---
+
+## Day-by-Day Plan
+
+### Day 1: Multimodal Data Preparation (~6-7h)
+
+#### [NEW] [11_prepare_multimodal_data.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/11_prepare_multimodal_data.py)
+
+This script does three things:
+
+**Step A — Build Frame Category Map** from `frames_reorganized/`:
+```python
+# Parse filenames like "lecture_018_frame_000005.jpg"
+# Result: {lecture_018: {5: "Equation"}, lecture_072: {13: "Equation", 26: "Graph_Chart"}, ...}
+```
+
+**Step B — Reconstruct Timestamps** from annotation JSONs:
+```python
+# Each annotation has: frames[i] = {index: 0, timestamp: 0.0, path: "..."}
+# Map: frame_index → timestamp for each lecture
+# Then assign: each classified frame gets its timestamp
+```
+
+**Step C — Rebuild Segments with Visual Data**:
+- Re-run segmentation using annotation `transcript.segments` (which DO have timestamps)
+- For each segment `[start, end]`, find classified frames that fall in that time window
+- Generate target summaries using the existing BART+LLM pipeline (modify [10_hybrid_inference.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/10_hybrid_inference.py) to include visual context in prompts)
+
+**Output**: `data/processed/multimodal_dataset/multimodal_segments.json`
+```json
+{
+  "segments": [
+    {
+      "segment_id": "lecture_107_seg_0",
+      "lecture_id": "lecture_107",
+      "start": 0.0,
+      "end": 45.2,
+      "raw_text": "Now we derive the Schrödinger equation...",
+      "image_paths": [
+        "data/raw_frames/lecture_107/frame_000012.jpg",
+        "data/raw_frames/lecture_107/frame_000015.jpg"
+      ],
+      "image_categories": ["Equation", "Equation"],
+      "image_timestamps": [24.0, 30.0],
+      "visual_tags": ["Equation"],
+      "target_summary": "Derivation of the Schrödinger equation..."
+    }
+  ],
+  "statistics": {
+    "total_segments": 770,
+    "segments_with_images": 450,
+    "total_image_pairs": 2800,
+    "category_distribution": {"Equation": 1200, "Diagram": 500, ...}
+  }
+}
+```
+
+**Why this approach**: Instead of running ResNet+CLIP classifier again (which you'd need to set up from scratch here), we reverse-engineer the classification from `frames_reorganized` filenames. This gives us the exact same labels your classifier produced, mapped back to lectures+timestamps.
+
+> [!NOTE]
+> If you want to also classify frames that weren't in `frames_reorganized` (the uncategorized ones), we can add a CLIP zero-shot classification pass as a fallback. But the 10K+ already-classified frames should provide plenty of training data.
+
+---
+
+### Day 2: CLIP Fine-tuning + Embedding Precomputation (~6h)
+
+#### [NEW] [12_finetune_clip.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/12_finetune_clip.py)
+
+**Goal**: Fine-tune CLIP on your lecture domain so it better aligns lecture text with lecture visuals (equations, diagrams, code screenshots).
+
+**Training Setup**:
+- **Base model**: `openai/clip-vit-base-patch32` (~350MB)
+- **Training data**: [(segment_text, frame_image)](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/10_hybrid_inference.py#502-547) pairs from the multimodal dataset
+- **Loss**: Contrastive loss (InfoNCE) — standard CLIP training objective
+- **Fine-tuning strategy**: LoRA on both text and vision encoders (saves VRAM)
+- **Hardware**: Works on 4GB GPU with small batch + gradient accumulation
+
+```python
+# Training pairs construction:
+# For each segment with images:
+#   positive_pairs = [(segment_text, frame) for frame in segment.image_paths]
+#   negative_pairs = random frames from OTHER segments (in-batch negatives)
+#
+# LoRA config: r=8, alpha=16, on q_proj/v_proj of both encoders
+# Batch size: 8 pairs (fits 4GB), grad_accum=4 → effective batch=32
+# Epochs: 5-10 with early stopping on validation contrastive loss
+# LR: 1e-4 for LoRA params
+```
+
+**Key design choice**: Using LoRA instead of full fine-tuning because:
+1. Fits in 4GB VRAM
+2. Prevents catastrophic forgetting of CLIP's pretrained knowledge
+3. Only ~0.5% of parameters are trainable
+4. Can be merged later for inference speed
+
+**Output**: `models/multimodal/clip_finetuned/` (LoRA adapter weights)
+
+#### [NEW] [13_precompute_clip_embeddings.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/13_precompute_clip_embeddings.py)
+
+**Goal**: Pre-compute CLIP embeddings for all selected frames using the fine-tuned model.
+
+```python
+# For each lecture:
+#   Load all frames referenced in multimodal_segments.json
+#   Encode with fine-tuned CLIP vision encoder
+#   Save: data/processed/multimodal_dataset/clip_embeddings/{lecture_id}.npz
+#   Each .npz contains:
+#     - embeddings: (N_frames, 512) float16
+#     - frame_indices: (N_frames,) int
+#     - timestamps: (N_frames,) float
+```
+
+**Why precompute**: Avoids loading CLIP during BART training → more VRAM for BART.
+
+---
+
+### Day 3-4: CLIP+BART Fusion Model (~10-12h)
+
+#### [NEW] [14_train_clip_bart_fusion.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/14_train_clip_bart_fusion.py)
+
+#### Architecture Decision: **Option A — Prefix Fusion (Recommended)**
+
+> [!IMPORTANT]
+> **I strongly recommend Option A (Prefix Fusion)** for your timeline and constraints. Here's the comparison:
+
+| | Option A: Prefix Fusion | Option B: Cross-Attention |
+|---|---|---|
+| **Complexity** | Low — add projection layer + concatenate | High — modify BART decoder internals |
+| **Training** | Standard seq2seq loss | Requires custom decoder with new cross-attn layers |
+| **VRAM** | ~4-5GB with LoRA | ~6-8GB (new attention layers) |
+| **Implementation time** | 1 day | 2-3 days |
+| **Research backing** | VL-BART, VisualGPT, BLIP use this | FLAMINGO-style, more powerful but complex |
+| **Risk** | Low — proven pattern | Higher — more debugging |
+
+**How Prefix Fusion Works**:
+
+```
+┌──────────────────────────────────────────────────────┐
+│                    BART Encoder                       │
+│                                                       │
+│  Input: [IMG_1] [IMG_2] [IMG_3] [TRANSCRIPT] text... │
+│         ↑       ↑       ↑                             │
+│    projected CLIP embeddings                          │
+│    (512 → 1024 via Linear)                            │
+│                                                       │
+│  The encoder attends to BOTH visual and text tokens   │
+└──────────────────────┬───────────────────────────────┘
+                       │
+                       ▼
+┌──────────────────────────────────────────────────────┐
+│                    BART Decoder                       │
+│                                                       │
+│  Cross-attention over encoder output                  │
+│  (automatically attends to visual tokens too!)        │
+│                                                       │
+│  Output: "The equation shows ψ = ... (see diagram)"  │
+└──────────────────────────────────────────────────────┘
+```
+
+**Model Code (core architecture)**:
+```python
+class CLIPBARTFusion(nn.Module):
+    def __init__(self, bart_model, clip_embed_dim=512, bart_embed_dim=1024):
+        super().__init__()
+        self.bart = bart_model  # BartForConditionalGeneration (with LoRA)
+
+        # Projection: CLIP embedding space → BART embedding space
+        self.visual_projection = nn.Sequential(
+            nn.Linear(clip_embed_dim, bart_embed_dim),
+            nn.LayerNorm(bart_embed_dim),
+            nn.GELU(),
+            nn.Dropout(0.1),
+        )
+
+        # Learnable [IMG] token type embedding
+        self.img_type_embed = nn.Embedding(1, bart_embed_dim)
+
+    def forward(self, input_ids, attention_mask, clip_embeddings,
+                n_images, labels=None):
+        # 1. Get BART text embeddings
+        text_embeds = self.bart.model.encoder.embed_tokens(input_ids)
+
+        # 2. Project CLIP embeddings
+        visual_embeds = self.visual_projection(clip_embeddings)
+        visual_embeds = visual_embeds + self.img_type_embed.weight
+
+        # 3. Prepend visual tokens to text tokens
+        combined = torch.cat([visual_embeds, text_embeds], dim=1)
+
+        # 4. Extend attention mask for visual tokens
+        vis_mask = torch.ones(visual_embeds.size()[:2], device=device)
+        combined_mask = torch.cat([vis_mask, attention_mask], dim=1)
+
+        # 5. Run through BART encoder+decoder
+        encoder_output = self.bart.model.encoder(
+            inputs_embeds=combined, attention_mask=combined_mask
+        )
+        outputs = self.bart(
+            encoder_outputs=encoder_output,
+            attention_mask=combined_mask,
+            labels=labels
+        )
+        return outputs
+```
+
+**Training Configuration**:
+```yaml
+# CLIP+BART Fusion Training
+fusion:
+  bart_base: "facebook/bart-large-cnn"        # or your fine-tuned checkpoint
+  clip_embed_dim: 512
+  bart_embed_dim: 1024
+  max_images_per_segment: 3                    # pad/truncate to this
+  learning_rate: 2e-5                          # for projection layer
+  lora_learning_rate: 1e-4                     # for BART LoRA
+  batch_size: 2
+  gradient_accumulation: 4                     # effective batch = 8
+  epochs: 8
+  warmup_ratio: 0.1
+  fp16: true
+  gradient_checkpointing: true
+  lora_r: 8
+  lora_alpha: 16
+  lora_target_modules: ["q_proj", "v_proj"]
+  freeze_bart_embeddings: true                 # only train projection + LoRA
+```
+
+**Training Data Split**:
+- Use the same train/val/test from [data/splits.json](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/data/splits.json)
+- Train: ~540 segments, Val: ~115, Test: ~115
+- For segments WITHOUT images: pass zero-filled CLIP embeddings (model learns to ignore them)
+- For segments WITH images: pass precomputed CLIP embeddings
+
+**Target Summaries**: 
+- Use the hybrid BART+LLM summaries as targets (from [10_hybrid_inference.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/10_hybrid_inference.py))
+- But modify prompts to generate visually-aware summaries (see Data Prep section)
+
+---
+
+### Day 5: Multimodal Inference + LLaVA Integration (~6-7h)
+
+#### [NEW] [15_multimodal_inference.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/15_multimodal_inference.py)
+
+**Pipeline**:
+1. Load fine-tuned CLIP+BART fusion model
+2. For each segment:
+   - Load precomputed CLIP embeddings for its frames
+   - Generate multimodal summary with fusion model
+   - If segment has visual frames → also get LLaVA caption (enhancement)
+3. Quality gate: SBERT scoring (reuse from [10_hybrid_inference.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/10_hybrid_inference.py))
+
+**LLaVA Integration (LoRA fine-tuning)**:
+
+> [!NOTE]
+> LLaVA fine-tuning with LoRA requires Colab T4 (16GB). Plan to run this as a Colab notebook.
+
+```python
+# LLaVA LoRA fine-tuning data:
+# Input: frame image + prompt like "Describe this lecture visual in detail"
+# Target: category-specific descriptions
+#
+# Fine-tuning config:
+#   Base: llava-hf/llava-1.5-7b-hf (4-bit quantized)
+#   LoRA: r=16, alpha=32, on q_proj/v_proj/k_proj
+#   Training: 200-500 examples from your classified frames
+#   Epochs: 3
+#
+# After fine-tuning, use for:
+#   1. Rich frame captions in the final document
+#   2. LaTeX extraction from equation frames
+#   3. Code description from code frames
+```
+
+**Integration with pipeline**:
+```python
+def multimodal_inference(segment):
+    # Step 1: CLIP+BART fusion summary
+    clip_embeds = load_precomputed(segment.lecture_id, segment.frame_indices)
+    summary = fusion_model.generate(segment.text, clip_embeds)
+
+    # Step 2: LLaVA captions for visual frames (enhancement)
+    captions = []
+    for frame_path, category in zip(segment.image_paths, segment.categories):
+        caption = llava_model.caption(frame_path, prompt=PROMPTS[category])
+        captions.append({"path": frame_path, "category": category, "caption": caption})
+
+    return {"summary": summary, "visual_captions": captions}
+```
+
+---
+
+### Day 6: Document Generation + Polish (~5-6h)
+
+#### [NEW] [16_generate_documents.py](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/scripts/text_processing/16_generate_documents.py)
+
+**Generates three output formats** (priority: PDF → Markdown → HTML):
+
+1. **Markdown** — base format with image embeds and LaTeX
+2. **HTML** — Jinja2 template with MathJax rendering + responsive CSS
+3. **PDF** — Pandoc conversion from Markdown with LaTeX support
+
+**Document Structure**:
+```markdown
+# Lecture: Linear Algebra — Eigenvalues
+
+> **Duration**: 45:30 | **Segments**: 12 | **Visual Elements**: 8
+
+## Table of Contents
+1. [Introduction (0:00–3:20)](#seg1)
+2. [Eigenvalue Definition (3:20–8:15)](#seg2)
+...
+
+---
+
+## 1. Introduction (0:00–3:20)
+
+This segment introduces eigenvalues as special scalars associated with
+linear transformations...
+
+---
+
+## 2. Eigenvalue Definition (3:20–8:15)
+
+The eigenvalue equation Av = λv is derived from the characteristic
+polynomial det(A - λI) = 0...
+
+### Visual: Equation (at 5:30)
+![Eigenvalue Equation](frames/lecture_107/frame_000015.jpg)
+> **Caption**: The equation shows Av = λv where A is the transformation
+> matrix, v is the eigenvector, and λ is the eigenvalue.
+> $$Av = \lambda v$$
+```
+
+#### [NEW] [templates/lecture_document.html](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/templates/lecture_document.html)
+Jinja2 HTML template with MathJax, sidebar nav, responsive layout.
+
+---
+
+## File Summary
+
+| Script | Purpose | Day | GPU? |
+|--------|---------|:---:|:----:|
+| `11_prepare_multimodal_data.py` | Build multimodal segments JSON | 1 | ❌ |
+| `12_finetune_clip.py` | Fine-tune CLIP with LoRA (contrastive) | 2 | ✅ 4GB |
+| `13_precompute_clip_embeddings.py` | Cache CLIP image embeddings | 2 | ✅ 2GB |
+| `14_train_clip_bart_fusion.py` | Train prefix-fusion CLIP+BART | 3-4 | ✅ 4GB / Colab |
+| `15_multimodal_inference.py` | End-to-end multimodal inference | 5 | ✅ 4GB |
+| `16_generate_documents.py` | PDF/MD/HTML generation | 6 | ❌ |
+| `templates/lecture_document.html` | HTML output template | 6 | ❌ |
+
+---
+
+## Config Changes
+
+#### [MODIFY] [summarization_config.yaml](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/config/summarization_config.yaml)
+
+```yaml
+# Phase 4: Multimodal Fusion
+clip:
+  model_name: "openai/clip-vit-base-patch32"
+  embed_dim: 512
+  lora_r: 8
+  lora_alpha: 16
+  learning_rate: 1.0e-4
+  batch_size: 8
+  gradient_accumulation: 4
+  epochs: 10
+  warmup_ratio: 0.1
+
+fusion:
+  max_images_per_segment: 3
+  bart_base: "facebook/bart-large-cnn"
+  bart_embed_dim: 1024
+  projection_dropout: 0.1
+  learning_rate: 2.0e-5
+  lora_learning_rate: 1.0e-4
+  batch_size: 2
+  gradient_accumulation: 4
+  epochs: 8
+  fp16: true
+  gradient_checkpointing: true
+
+llava:
+  model_name: "llava-hf/llava-1.5-7b-hf"
+  load_4bit: true
+  lora_r: 16
+  lora_alpha: 32
+
+document:
+  output_dir: "results/documents"
+  formats: ["pdf", "markdown", "html"]
+  max_image_width: 600
+  include_timestamps: true
+```
+
+#### [MODIFY] [paths.yaml](file:///d:/Users/Mihir/Downloads/Documents/Mihir%20Codes/Dp_Project/config/paths.yaml)
+
+```yaml
+  multimodal:
+    dataset: "data/processed/multimodal_dataset"
+    clip_model: "models/multimodal/clip_finetuned"
+    clip_embeddings: "data/processed/multimodal_dataset/clip_embeddings"
+    fusion_model: "models/multimodal/clip_bart_fusion"
+    llava_adapter: "models/multimodal/llava_lora"
+    documents: "results/documents"
+    templates: "templates"
+```
+
+---
+
+## User Review Required
+
+> [!IMPORTANT]
+> **One remaining question:**
+
+1. **Target summaries for fusion training**: Your existing BART+LLM summaries don't reference visual content (they're text-only). For the fusion model to learn to generate "see equation on board" or "as shown in the diagram", we need visually-aware target summaries. Two options:
+   - **Option A**: Use LLM (Mistral) to re-generate target summaries with visual-context prompts like: *"Summarize this segment. Visual elements present: [Equation at 5:30, Diagram at 7:15]. Reference them naturally in the summary."*
+   - **Option B**: Use existing pseudo-summaries as-is and let the model learn implicit visual grounding (weaker but faster).
+   
+   I recommend **Option A** — it adds ~2h to Day 1 but significantly improves the fusion model's visual awareness. What do you prefer?
+
+---
+
+## Verification Plan
+
+### Per-Script Tests
+| Day | Test Command | Validation |
+|-----|-------------|------------|
+| 1 | `python 11_*.py --test` | Verify segments have image_paths, timestamps non-zero |
+| 2 | `python 12_*.py --test --epochs 2` | CLIP loss decreasing, val metrics improving |
+| 2 | `python 13_*.py --test` | `.npz` files created, embedding shapes correct |
+| 3-4 | `python 14_*.py --test --epochs 2` | Fusion loss decreasing, generates coherent summaries |
+| 5 | `python 15_*.py --test --lecture lecture_107` | Multimodal summary references visual content |
+| 6 | `python 16_*.py --lecture lecture_107` | PDF/MD/HTML generated with images embedded |
+
+### End-to-End Validation
+- Compare fusion model summaries vs text-only BART summaries (ROUGE + SBERT quality)
+- Manual review: do summaries appropriately reference visual content?
+- Verify PDF renders equations (MathJax → LaTeX) and embeds images

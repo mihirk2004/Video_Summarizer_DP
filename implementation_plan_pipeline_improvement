@@ -1,0 +1,59 @@
+# Final Polish & Multimodal Integration Plan
+
+## Problem Summary
+1.  **PDF Generation**: Failing because Pandoc isn't installed. Needs a pure Python solution.
+2.  **Multimodal Model on CPU vs GPU**: Needs robust handling to use your trained `clip_bart_fusion` model as the primary summarizer, falling back seamlessly or utilizing CPU/GPU effectively.
+3.  **Overall Summary Logic**: Simply running BART over combined segments sometimes hallucinated or missed the core. Needs a solid structured logic.
+4.  **UI/UX for Frames**: We want a "state-of-the-art" visual representation, where the lecture frame dynamically follows the user's reading context or sits in an immersive hero section.
+
+---
+
+## 1. Multimodal Model Inference (`pipeline.py`)
+Currently, `LecturePipeline` instantiates `LectureSummarizer` which uses only vanilla BART or Mistral. I will update `pipeline.py` to instantiate your **trained `CLIPBARTFusion` model** (from `15_multimodal_inference.py`) as the primary summarizer.
+
+**Execution Flow & Timing (CPU vs GPU)**:
+*   **GPU Detection**: If `torch.cuda.is_available()`, the fusion model runs on CUDA. Inference is extremely fast (~0.2s per segment). Total phase takes **<15s**.
+*   **CPU Fallback**: If no GPU is found, the fusion model will run on CPU. 
+    *   CLIP embeddings extraction: ~0.5s per frame
+    *   BART token generation: ~3-5s per segment
+    *   **Time Estimate**: For an average 30-segment lecture (e.g., 15-minute video), it will take **~2-3 minutes** of pure inference on CPU. This is perfectly feasible for a background job, and SSE progress will keep the user informed.
+
+## 2. Overall Summary Generation Logic Options
+I need your choice on which logic to apply for turning Segment Summaries → Full Final Summary.
+
+### Option A: Hierarchical Map-Reduce (Recommended for Completeness)
+*   **How it works**: Groups the 30 segment summaries chronologically into "blocks" of 5 segments. Runs the Fusion/BART model on each block to create "Section Summaries" (e.g., 6 sections). Then combines those 6 sections and runs BART one final time.
+*   **Pros**: Retains the chronological flow and comprehensive depth of the lecture.
+*   **Cons**: Takes slightly longer.
+
+### Option B: Top-K Importance Filtering (Recommended for Brevity)
+*   **How it works**: Uses the SBERT `quality_score` and visual tag density we computed. We rank all segments by importance. We extract only the top 40% most informative segments, chronologically sort their summaries, and run BART once over that condensed text to create a high-impact overview.
+*   **Pros**: Very fast, heavily reduces noise/filler words.
+*   **Cons**: Might skip minor sub-topics.
+
+## 3. UI/UX Frame Generation Logic Options
+To make the document viewer feel "alive" and truly multimodal, I suggest an interactive UI for frames.
+
+### Option 1: Sticky Interactive Visualizer (Intersection Observer)
+*   **Design**: A split-screen or side-panel approach. The left side has the scrolling transcript and segment summaries. The right side is a "Sticky" frame window.
+*   **Interactivity**: As the user scrolls down through the text, an `IntersectionObserver` detects which segment they are reading. The right side smoothly fades and updates to show the visual frame corresponding to that segment. 
+*   **Vibe**: Feels like watching a dynamic PowerPoint presentation alongside the notes.
+
+### Option 2: Top Hero Carousel + Jump Links
+*   **Design**: The top of the page features a beautiful curved "Hero Frame Gallery" (a horizontal scroll/carousel) of the Top 10 most confident frames.
+*   **Interactivity**: Clicking a frame smoothly auto-scrolls the user down to the exact text segment where that visual appeared.
+*   **Vibe**: Great for quickly scrubbing a lecture visually before reading.
+
+## 4. PDF Fix (Pure Python)
+I will rip out the `subprocess.run(["pandoc"])` logic.
+Instead, we will install and use `pdfkit` or `fpdf2`.
+*   I will use **`fpdf2`** to manually construct a clean, branded PDF line-by-line, embedding the local image thumbnails directly into the document. This is 100% reliable across any OS because it doesn't require separate system-level rendering engines.
+
+---
+
+> [!IMPORTANT]
+> **Action Required**: 
+> 1. Which **Overall Summary Logic** do you prefer? (Hierarchical or Top-K Filtering)
+> 2. Which **UI Frame Logic** do you prefer? (Option 1 Sticky Visualizer or Option 2 Top Hero Carousel?) 
+>
+> *(Or I can implement both UI elements: Carousel at top, Sticky as you scroll down)*
