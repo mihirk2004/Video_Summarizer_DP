@@ -39,39 +39,8 @@ The project combines speech transcription, topic segmentation, STEM NER, text su
 9. Run multimodal inference and generate final documents.
 
 ### System Architecture
-Lecture Video
-      │
-      ▼
-┌─────────────────────┐
-│ Audio Extraction    │
-└──────────┬──────────┘
-           ▼
-      Whisper ASR
-           │
-           ▼
-   Transcript Generation
-           │
-           ▼
- Topic Segmentation
- (BERTopic + SBERT)
-           │
-           ▼
-   Subject Router
-           │
- ┌─────────┴─────────┐
- ▼                   ▼
-Text Pipeline    Visual Pipeline
-(BART)           (CLIP + ResNet50)
- │                   │
- └─────────┬─────────┘
-           ▼
-    CLIP-BART Fusion
-           │
-           ▼
-   Final Summary
-           │
-           ▼
- Markdown | HTML | PDF
+
+![System Diagram](Frontend%20Images/System%20Diagram.png)
 
 ## Model Inventory
 
