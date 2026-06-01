@@ -1,4 +1,4 @@
-# Video Summarizer DP
+# Multimodal Video Lecture Summarizor 
 
 Multimodal lecture video summarization system that turns a raw lecture video into a structured document with transcript-aware summaries, frame-aware visual context, and exportable Markdown, HTML, and PDF output.
 
