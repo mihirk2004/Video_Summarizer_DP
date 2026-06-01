@@ -38,6 +38,41 @@ The project combines speech transcription, topic segmentation, STEM NER, text su
 8. Fine-tune CLIP, then train CLIP+BART fusion.
 9. Run multimodal inference and generate final documents.
 
+### System Architecture
+Lecture Video
+      │
+      ▼
+┌─────────────────────┐
+│ Audio Extraction    │
+└──────────┬──────────┘
+           ▼
+      Whisper ASR
+           │
+           ▼
+   Transcript Generation
+           │
+           ▼
+ Topic Segmentation
+ (BERTopic + SBERT)
+           │
+           ▼
+   Subject Router
+           │
+ ┌─────────┴─────────┐
+ ▼                   ▼
+Text Pipeline    Visual Pipeline
+(BART)           (CLIP + ResNet50)
+ │                   │
+ └─────────┬─────────┘
+           ▼
+    CLIP-BART Fusion
+           │
+           ▼
+   Final Summary
+           │
+           ▼
+ Markdown | HTML | PDF
+
 ## Model Inventory
 
 | Model | Purpose | Built By | Output |
